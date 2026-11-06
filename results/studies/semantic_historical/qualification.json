@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "hospital",
+    "arm": "full",
+    "passed_seeds": 2,
+    "per_seed": [
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "dataset": "flights",
+    "arm": "full",
+    "passed_seeds": 0,
+    "per_seed": [
+      false,
+      false,
+      false
+    ]
+  }
+]

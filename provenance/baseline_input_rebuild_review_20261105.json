@@ -1,0 +1,21 @@
+{
+  "scope": "Public-source input file reconstruction only; no fitting, inference or scoring",
+  "model_calls": 0,
+  "fits": 0,
+  "scores": 0,
+  "checks": [
+    {
+      "study": "tabclean_same9b",
+      "cases": 21,
+      "all_original_input_hashes_match": true,
+      "input_export_sha256": "eee86cd1068eb589d9ba48e96fd30fa69d5e8bf2a54734ccdc0f70e022705af8"
+    },
+    {
+      "study": "real_dirty",
+      "cases": 24,
+      "all_original_input_hashes_match": true,
+      "input_export_sha256": "8e3a633917b6fd40e2cc981ae3e0b1e92bb2718a69510c7b80d4d4414b63a367"
+    }
+  ],
+  "validation_limit": "Baseline model execution was not rerun during packaging. Historical paper numerical records remain unchanged."
+}

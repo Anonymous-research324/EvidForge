@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "at": "2026-10-24T07:52:21.218456+00:00",
+  "objective": "授权教学+独立校验联合样例预算对修复性能、资格与成本的影响；非单独prompt few-shot数量",
+  "datasets": [
+    "tic_tac_toe",
+    "car_evaluation",
+    "retinopathy",
+    "real_estate",
+    "concrete",
+    "airfoil"
+  ],
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "tiers": [
+    5,
+    10,
+    20
+  ],
+  "cases": 54,
+  "master_cohort": "每dataset/seed从既有同seed污染数据的完整已确认实体组池中预先随机选100组；原下游holdout保留排除；其他未选组本轮不参与。全部候选源与原来源均此前已使用，不称新盲测。",
+  "partitions": "前20组独立learning pool、随后20组validation pool、最后60组固定formal repair测试；三档各自取L/V前5/10/20组，未使用开发组不进入测试。整group所有行保留，行/目标格数如实报告。",
+  "pollution": "复用原同seed污染后的字面输入及对应策展参考，不重新污染；原目标污染率70%，子样本实际率可能波动，单列报告；不同tier相同group脏值逐字节相同。",
+  "sampling": "按seed的预定随机排列，不按修复成绩/类别覆盖重抽；完整目标参考可用的group才可做授权样例，资格规则先审计；源内重复观测冲突保留N/A，禁止修改group避错。",
+  "algorithm": "124核心字节不改，独立运行时AST仅operational seed+数量准入：normalize_bundle默认min10→1用于内部半分组、外层学习最少20→5、skill_runtime.learning合计20→5；候选/数值参数/支持数/三折/门槛/评分不改。先实际5/10/20组前测，任何不可执行不造成功。",
+  "checks": "20组同合成输入新旧数量入口的数值拟合一致性核验；5组/10组少证据可拒绝或有效KEEP，不降低资格保证阳性；外校precision.98/damage.005/minchanges5等原标准保留。",
+  "learning": "每个case从本档样例独立source fit和真实native prior/context学习，不复用其他档已拟合模型；同Qwen3.5-9B BF16 temp0逐request对应seed，最多每stage5调用/两stage共10，正常108native会话、540调用上限。所有source学习完成再只读外校选择prior/context或研究prior回退。",
+  "repair": "standalone frozen skill，0模型调用，full+reuse字节一致核验；每cohort三档同60组formal输入；全54输出/封存/请求审计完成后唯一评分，不根据本轮正式成绩改参数。",
+  "metrics": [
+    "exact repair P/R/F1",
+    "normal_damage",
+    "qualification n/3",
+    "actual groups/rows/labeled target cells",
+    "actual LLM calls/token/time",
+    "cold-fit and prepare/native/repair costs"
+  ],
+  "analysis": "三seed等权mean±sampleSD ddof1；缺失N/A注明n/3，无修改P=None/F1=0；三档同时增学习与校验，不单独归因学习示例。六数据集全保留，不保证单调或LLM收益。",
+  "formal_recovery": "marker不能删除/重评，任何未知失败保存原响应/partial输出并阻止评分，独立审查后另名接口接续不得重置预算。",
+  "resources": "优先空闲A1000/1各一串行模型队列，新owned8171/8172，不用旧服务不碰他人；若占用则等待，不重复启动。",
+  "delivery": "六数据集×三档精简三线表 PNG/PDF/CSV，修复F1与正常误改各mean±SD；附完整逐seed/组数/资格与成本，全部新文件只server ROOT，论文/GitHub/历史score不动"
+}

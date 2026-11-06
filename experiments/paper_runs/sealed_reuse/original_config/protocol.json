@@ -1,0 +1,90 @@
+{
+  "study": "EvidForge_Skill_Reuse_NewBatches_20261026",
+  "version": 1,
+  "authorized": "2026-10-26 用户批准按方案生成代码并在服务器运行",
+  "datasets": [
+    "retinopathy",
+    "airfoil"
+  ],
+  "model_seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "data": {
+    "generator": "unchanged frozen downstream generator; global ROOT and data SEED rebound only",
+    "namespace": "sha256('skill-reuse-new-batches-v1|dataset|model_seed') first32 bits",
+    "group_fractions": {
+      "learning": 0.1,
+      "validation": 0.1,
+      "repair": 0.64,
+      "untouched_holdout": 0.16
+    },
+    "corruption": "original70% known target cells, four types uniformly allocated; no tuning",
+    "batches": "3 balanced complete-entity groups, mutually disjoint and reserved before learning",
+    "known_source": "existing UCI caches, not newly collected or new blind data"
+  },
+  "learning": {
+    "method": "unchanged 124-core and existing operational seed/metadata adapters",
+    "sessions_per_skill": [
+      "prior",
+      "context"
+    ],
+    "native": "Codex0.153.1+MCP+projectHook, actual Qwen3.5-9B BF16/temp0, fixed per-request seed",
+    "budget": "existing5-call protocol per stage; count all actual calls and unselected context",
+    "qualification": "one independent external check, no feedback/refit; research-prior fallback disclosed"
+  },
+  "sealed_source_cache": {
+    "why": "original execute builds source-only codec/observation statistics lazily; strict no-refit requires materialization before batch access",
+    "method": "type-preserving JSON cache of the SAME original fit functions on SAME authorized source; no new numeric parameters",
+    "parity": "original uncached versus cached execution on teaching-only probes must match before seal",
+    "query_behavior": "load exact hash-bound caches; unknown cache key is failure, never fallback fitting",
+    "core_files_unchanged": true
+  },
+  "execution": {
+    "gpu_learning": {
+      "0": "retinopathy seeds sequential",
+      "1": "airfoil seeds sequential"
+    },
+    "ports": [
+      8141,
+      8142
+    ],
+    "services": "evidforge-reuse-9b-gpu0/1",
+    "barrier": "all learning/capsules closed, then own model services stopped/ports closed/compute PIDs released before ANY batch execution",
+    "repair": "CPU-only; frozen workflow.packages.execute; deny network and fit/learn/prepare/train calls; verify identical capsule/core hashes before/after every batch",
+    "order": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reference_check": "one combined frozen execution; compare by stable row key with batch outputs, no re-learning",
+    "no_formal_feedback": true
+  },
+  "scoring": {
+    "once": "only after every output closed; each case scoring_started marker never deleted; fixed outputs/metrics only on recovery",
+    "metrics": [
+      "exact repair P/R/F1",
+      "normal damage",
+      "batch counts",
+      "new model calls",
+      "fit attempts",
+      "tokens",
+      "timings"
+    ],
+    "aggregate": "per-batch equal mean/sampleSD ddof1 across3 model seeds, missing N/A n/3, not n18",
+    "null_results": "preserve, no seed/table/batch selection"
+  },
+  "scope": "same schema/source/error regime only; unknown new table or drift not claimed",
+  "old_files": "all old sources, scores, skills, manuscript and GitHub read-only",
+  "outputs": [
+    "reports/同表新批次技能复用结果.md",
+    "reports/all_scores.json",
+    "reports/aggregate.json",
+    "reports/model_usage.json",
+    "reports/封存技能复用_精简表.xlsx",
+    "reports/封存技能复用_精简表.png"
+  ],
+  "failure": "preserve original calls/log/partial artifacts; block scoring for unknown failure; no automatic whole-case replay, no reset budgets/markers; interfaces only audited separately",
+  "watchdog": "periodic PID/log audits;12h reminder only, no automatic kill of training"
+}

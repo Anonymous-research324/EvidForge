@@ -1,0 +1,443 @@
+[
+  {
+    "dataset": "spectf",
+    "profile": "digit_transposition",
+    "F1_full_minus_noLLM": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.03110577372610172,
+      "sd": 0.03955757796861839,
+      "values": [
+        0.0,
+        0.017691004394376597,
+        0.07562631678392856
+      ]
+    },
+    "normal_damage_percent_delta": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.052994170641229466,
+      "sd": 0.04673646548427116,
+      "values": [
+        0.0,
+        0.08832361773538244,
+        0.07065889418830595
+      ]
+    },
+    "added_correct": 115,
+    "lost_correct": 0,
+    "net_new_correct": 115,
+    "per_seed": [
+      {
+        "seed": 7013,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7014,
+        "added_correct": 32,
+        "lost_correct": 0,
+        "net_new_correct": 32
+      },
+      {
+        "seed": 7015,
+        "added_correct": 83,
+        "lost_correct": 0,
+        "net_new_correct": 83
+      }
+    ]
+  },
+  {
+    "dataset": "spectf",
+    "profile": "cross_field_addition",
+    "F1_full_minus_noLLM": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "normal_damage_percent_delta": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "added_correct": 0,
+    "lost_correct": 0,
+    "net_new_correct": 0,
+    "per_seed": [
+      {
+        "seed": 7013,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7014,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7015,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      }
+    ]
+  },
+  {
+    "dataset": "spectf",
+    "profile": "scale_suffix_composition",
+    "F1_full_minus_noLLM": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "normal_damage_percent_delta": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "added_correct": 0,
+    "lost_correct": 0,
+    "net_new_correct": 0,
+    "per_seed": [
+      {
+        "seed": 7013,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7014,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7015,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      }
+    ]
+  },
+  {
+    "dataset": "auto_mpg",
+    "profile": "digit_transposition",
+    "F1_full_minus_noLLM": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "normal_damage_percent_delta": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "added_correct": 0,
+    "lost_correct": 0,
+    "net_new_correct": 0,
+    "per_seed": [
+      {
+        "seed": 7013,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7014,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7015,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      }
+    ]
+  },
+  {
+    "dataset": "auto_mpg",
+    "profile": "cross_field_addition",
+    "F1_full_minus_noLLM": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "normal_damage_percent_delta": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "added_correct": 0,
+    "lost_correct": 0,
+    "net_new_correct": 0,
+    "per_seed": [
+      {
+        "seed": 7013,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7014,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7015,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      }
+    ]
+  },
+  {
+    "dataset": "auto_mpg",
+    "profile": "scale_suffix_composition",
+    "F1_full_minus_noLLM": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "normal_damage_percent_delta": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "added_correct": 0,
+    "lost_correct": 0,
+    "net_new_correct": 0,
+    "per_seed": [
+      {
+        "seed": 7013,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7014,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7015,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      }
+    ]
+  },
+  {
+    "dataset": "airfoil",
+    "profile": "digit_transposition",
+    "F1_full_minus_noLLM": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "normal_damage_percent_delta": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "added_correct": 0,
+    "lost_correct": 0,
+    "net_new_correct": 0,
+    "per_seed": [
+      {
+        "seed": 7013,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7014,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7015,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      }
+    ]
+  },
+  {
+    "dataset": "airfoil",
+    "profile": "cross_field_addition",
+    "F1_full_minus_noLLM": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.025776442761183144,
+      "sd": 0.0044025392210249505,
+      "values": [
+        0.029032268017222362,
+        0.020767398219252775,
+        0.0275296620470743
+      ]
+    },
+    "normal_damage_percent_delta": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "added_correct": 175,
+    "lost_correct": 0,
+    "net_new_correct": 175,
+    "per_seed": [
+      {
+        "seed": 7013,
+        "added_correct": 67,
+        "lost_correct": 0,
+        "net_new_correct": 67
+      },
+      {
+        "seed": 7014,
+        "added_correct": 47,
+        "lost_correct": 0,
+        "net_new_correct": 47
+      },
+      {
+        "seed": 7015,
+        "added_correct": 61,
+        "lost_correct": 0,
+        "net_new_correct": 61
+      }
+    ]
+  },
+  {
+    "dataset": "airfoil",
+    "profile": "scale_suffix_composition",
+    "F1_full_minus_noLLM": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "normal_damage_percent_delta": {
+      "n": 3,
+      "expected_n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "added_correct": 0,
+    "lost_correct": 0,
+    "net_new_correct": 0,
+    "per_seed": [
+      {
+        "seed": 7013,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7014,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 7015,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      }
+    ]
+  }
+]

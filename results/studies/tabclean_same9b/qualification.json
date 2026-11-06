@@ -1,0 +1,37 @@
+{
+  "airfoil": {
+    "2021": true,
+    "2022": true,
+    "2023": true
+  },
+  "banknote": {
+    "2021": false,
+    "2022": true,
+    "2023": true
+  },
+  "energy": {
+    "2021": true,
+    "2022": false,
+    "2023": true
+  },
+  "real_estate": {
+    "2021": true,
+    "2022": true,
+    "2023": true
+  },
+  "retinopathy": {
+    "2021": true,
+    "2022": true,
+    "2023": true
+  },
+  "wdbc": {
+    "2021": true,
+    "2022": true,
+    "2023": true
+  },
+  "wine_red": {
+    "2021": true,
+    "2022": true,
+    "2023": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "run_python": "/path/to/EvidForge/.venvs/core/bin/python",
+  "infer_python": "/path/to/EvidForge/.venvs/inference/bin/python",
+  "codex": "/path/to/EvidForge/.tools/node_modules/.bin/codex",
+  "model_dir": "/path/to/EvidForge/models/Qwen3.5-9B",
+  "environments": "/path/to/EvidForge/.venvs",
+  "sources": "/path/to/EvidForge/.sources",
+  "postgres_bin": "/usr/lib/postgresql/15/bin",
+  "gpu": 0,
+  "port": 8091,
+  "pg_port": 55441
+}

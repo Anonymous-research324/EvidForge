@@ -1,0 +1,16 @@
+.venvs/
+.tools/
+.sources/
+models/
+runs/
+results/generated/
+__pycache__/
+*.pyc
+.env
+machine.json
+*.tmp
+
+.dependencies/
+supplement.machine.json
+raw/
+prepared/

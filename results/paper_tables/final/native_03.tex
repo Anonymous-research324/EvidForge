@@ -1,0 +1,22 @@
+\begin{table}[tb]
+\centering
+\caption{新错误下的 LLM 消融}
+\label{tab:llm-newerrors}
+\fontsize{8}{9.6}\selectfont
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcccc@{}}
+\toprule
+错误类型 & 设置 & \makecell{SPECTF\\F1 $\uparrow$} & \makecell{Auto MPG\\F1 $\uparrow$} & \makecell{Airfoil\\F1 $\uparrow$} \\
+\midrule
+数字换位 & 有 LLM & $0.344\pm0.136$ & $0.000\pm0.000$ & $0.739\pm0.024$ \\
+数字换位 & 完全无 LLM & $0.313\pm0.172$ & $0.000\pm0.000$ & $0.739\pm0.024$ \\
+\addlinespace[2pt]
+跨字段相加 & 有 LLM & $0.000\pm0.000$ & $0.133\pm0.123$ & $0.998\pm0.001$ \\
+跨字段相加 & 完全无 LLM & $0.000\pm0.000$ & $0.133\pm0.123$ & $0.972\pm0.004$ \\
+\addlinespace[2pt]
+\makecell[l]{倍率与\\后缀组合} & 有 LLM & $1.000\pm0.000$ & $0.948\pm0.002$ & $0.802\pm0.022$ \\
+\makecell[l]{倍率与\\后缀组合} & 完全无 LLM & $1.000\pm0.000$ & $0.948\pm0.002$ & $0.802\pm0.022$ \\
+\bottomrule
+\end{tabular*}
+\end{table}

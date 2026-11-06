@@ -1,0 +1,10 @@
+\begin{table}[tb]\centering\fontsize{7.5}{9}\selectfont\setlength{\tabcolsep}{1pt}
+\caption{受控跨字段冲突}
+\label{tab:semantic-all}
+\begin{tabular}{lcccc}\toprule
+&\multicolumn{2}{c}{Hospital}&\multicolumn{2}{c}{Flights}\\
+条件 & 修复F1 & \makecell{正常误改\\(\%)} & 修复F1 & \makecell{正常误改\\(\%)}\\\midrule
+完整 & $0.959\pm0.029$ & $0.077\pm0.133$ & $0.002\pm0.003$ & $0.130\pm0.226$ \\
+去最终门槛 & $0.948\pm0.032$ & $0.241\pm0.184$ & $0.073\pm0.125$ & $8.961\pm11.307$ \\
+\bottomrule\end{tabular}
+\end{table}

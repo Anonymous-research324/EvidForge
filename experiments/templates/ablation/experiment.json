@@ -1,0 +1,31 @@
+{
+  "study": "EvidForge RQ3 final five-arm paper ablation",
+  "seed": 1014,
+  "model": "Qwen3.5-9B",
+  "dtype": "bfloat16",
+  "temperature": 0,
+  "datasets": [
+    "real_estate",
+    "concrete",
+    "airfoil",
+    "tic_tac_toe",
+    "car_evaluation",
+    "retinopathy"
+  ],
+  "old_study": "@DOWNSTREAM_ROOT@",
+  "input_reuse": true,
+  "pollution": 0.7,
+  "partition_and_XGBoost_unchanged": true,
+  "A_saved": "Byte-exact replay old system using unchanged sources; no new rule generation",
+  "A": "Paired complete native source learning rerun, starting fixed prepared source fit; external selection same protocol",
+  "B": "A learned package; suppress paired transform candidate generators affix/scale/shift/mapping/strip/casefold/edit; keep other candidate sources and original feature formulas",
+  "C": "A learned package; skip optional compiled_candidate branch in prior/context trusted code at runtime; preserve physical sealed files/hashes",
+  "D": "A learned package; omit final score/margin inequalities in base/generated permitted, retain tie/validity/source-channel/accept-expression and native-point safeguards",
+  "E": "Native source-learning no feedback for revision; pair proposal count to A same phase, initial summary same, own proposals allowed, final compile after fixed independent proposals, same evaluator and external validation",
+  "failure_policy": "Preserve all failed code/responses; controller blocks before scoring on runtime failures for interface review, not zero performance",
+  "grading": "All36 per seed close before one independent scorer; original experiments untouched",
+  "scope": "Fixed-skill BCD and paired learning EF; six selected datasets, reused benchmark not freshblind; actual calls/tokens/time logged; no assumption every ablation is worse",
+  "frozen_at": 1792046335.8437726,
+  "model_service_gpu": 0,
+  "model_service_port": 8081
+}

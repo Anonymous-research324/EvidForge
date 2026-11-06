@@ -1,0 +1,12 @@
+{
+  "output_token_ceiling": 8192,
+  "temperature": 0,
+  "model": "Qwen3.5-9B",
+  "dtype": "bfloat16",
+  "native_proposals_per_stage": 5,
+  "rounds": 10,
+  "early_stop_patience": 3,
+  "debug_attempts": 3,
+  "configuration_version": "original_table1_sampler_plus_existing_TabClean_8192",
+  "do_not_force_new_top_p_or_penalties": true
+}

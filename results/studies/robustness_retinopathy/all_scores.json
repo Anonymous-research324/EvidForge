@@ -1,0 +1,3074 @@
+[
+  {
+    "id": "robustness_retinopathy_s1013_r0p1_mixed",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9512195121951219,
+      "R": 0.3328591749644381,
+      "F1": 0.4931506849315069,
+      "normal_damage": 7.938398031277289e-05,
+      "errors": 1406,
+      "normal": 12597,
+      "changes": 492,
+      "exact": 468,
+      "damaged": 1,
+      "detection_AUC": 0.674569127355505
+    },
+    "downstream": {
+      "macro_F1": 0.6666666666666666,
+      "AUC": 0.7561735794773435,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 284.4962838180363,
+      "rows": 737,
+      "changed_cells": 492,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p1_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p1_mixed",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9512195121951219,
+      "R": 0.3328591749644381,
+      "F1": 0.4931506849315069,
+      "normal_damage": 7.938398031277289e-05,
+      "errors": 1406,
+      "normal": 12597,
+      "changes": 492,
+      "exact": 468,
+      "damaged": 1,
+      "detection_AUC": 0.674569127355505
+    },
+    "downstream": {
+      "macro_F1": 0.6666666666666666,
+      "AUC": 0.7561735794773435,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 280.4491972250398,
+      "rows": 737,
+      "changed_cells": 492,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p1_mixed/work/no_llm/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p1_mixed",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9512195121951219,
+      "R": 0.3328591749644381,
+      "F1": 0.4931506849315069,
+      "normal_damage": 7.938398031277289e-05,
+      "errors": 1406,
+      "normal": 12597,
+      "changes": 492,
+      "exact": 468,
+      "damaged": 1,
+      "detection_AUC": 0.674569127355505
+    },
+    "downstream": {
+      "macro_F1": 0.6666666666666666,
+      "AUC": 0.7561735794773435,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 275.6591795559507,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_mixed",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9717159019484601,
+      "R": 0.36818290069064064,
+      "F1": 0.5340241796200346,
+      "normal_damage": 0.003875968992248062,
+      "errors": 4199,
+      "normal": 9804,
+      "changes": 1591,
+      "exact": 1546,
+      "damaged": 38,
+      "detection_AUC": 0.6829869976424804
+    },
+    "downstream": {
+      "macro_F1": 0.6709422200911053,
+      "AUC": 0.7365140254135698,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 274.33180576981977,
+      "rows": 737,
+      "changed_cells": 1591,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p3_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_mixed",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9943899018232819,
+      "R": 0.3376994522505358,
+      "F1": 0.5041777777777778,
+      "normal_damage": 0.0004079967360261118,
+      "errors": 4199,
+      "normal": 9804,
+      "changes": 1426,
+      "exact": 1418,
+      "damaged": 4,
+      "detection_AUC": 0.6691220316391314
+    },
+    "downstream": {
+      "macro_F1": 0.6660284218399402,
+      "AUC": 0.7402301606329417,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 265.3864984367974,
+      "rows": 737,
+      "changed_cells": 1426,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p3_mixed/work/no_llm/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_mixed",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9717159019484601,
+      "R": 0.36818290069064064,
+      "F1": 0.5340241796200346,
+      "normal_damage": 0.003875968992248062,
+      "errors": 4199,
+      "normal": 9804,
+      "changes": 1591,
+      "exact": 1546,
+      "damaged": 38,
+      "detection_AUC": 0.6829869976424804
+    },
+    "downstream": {
+      "macro_F1": 0.6709422200911053,
+      "AUC": 0.7365140254135698,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 273.3263780979905,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p5_mixed",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9838285069575028,
+      "R": 0.37414187643020597,
+      "F1": 0.5421199875660553,
+      "normal_damage": 0.0,
+      "errors": 6992,
+      "normal": 7011,
+      "changes": 2659,
+      "exact": 2616,
+      "damaged": 0,
+      "detection_AUC": 0.690145881006865
+    },
+    "downstream": {
+      "macro_F1": 0.6762033288349077,
+      "AUC": 0.7023495564612802,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 265.6088815028779,
+      "rows": 737,
+      "changed_cells": 2659,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p5_mixed/work/full/context",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p5_mixed",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9895266024298283,
+      "R": 0.33781464530892447,
+      "F1": 0.5036784305363045,
+      "normal_damage": 0.0,
+      "errors": 6992,
+      "normal": 7011,
+      "changes": 2387,
+      "exact": 2362,
+      "damaged": 0,
+      "detection_AUC": 0.6706950800915332
+    },
+    "downstream": {
+      "macro_F1": 0.6713362068965517,
+      "AUC": 0.6832893790457925,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 247.84102638997138,
+      "rows": 737,
+      "changed_cells": 2387,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p5_mixed/work/no_llm/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p5_mixed",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9838285069575028,
+      "R": 0.37414187643020597,
+      "F1": 0.5421199875660553,
+      "normal_damage": 0.0,
+      "errors": 6992,
+      "normal": 7011,
+      "changes": 2659,
+      "exact": 2616,
+      "damaged": 0,
+      "detection_AUC": 0.690145881006865
+    },
+    "downstream": {
+      "macro_F1": 0.6762033288349077,
+      "AUC": 0.7023495564612802,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 260.7864190940745,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p7_mixed",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9867586206896551,
+      "R": 0.36485108119135046,
+      "F1": 0.5327276789038647,
+      "normal_damage": 0.0,
+      "errors": 9804,
+      "normal": 4199,
+      "changes": 3625,
+      "exact": 3577,
+      "damaged": 0,
+      "detection_AUC": 0.684873521011832
+    },
+    "downstream": {
+      "macro_F1": 0.6310594890620769,
+      "AUC": 0.689882522176936,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 253.69901033607312,
+      "rows": 737,
+      "changed_cells": 3625,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p7_mixed/work/full/context",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p7_mixed",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.989749430523918,
+      "R": 0.35454916360669114,
+      "F1": 0.5220787023130069,
+      "normal_damage": 0.0,
+      "errors": 9804,
+      "normal": 4199,
+      "changes": 3512,
+      "exact": 3476,
+      "damaged": 0,
+      "detection_AUC": 0.6791105671154631
+    },
+    "downstream": {
+      "macro_F1": 0.6303030303030304,
+      "AUC": 0.6932390314073364,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 245.3930653349962,
+      "rows": 737,
+      "changed_cells": 3512,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p7_mixed/work/no_llm/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p7_mixed",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9867586206896551,
+      "R": 0.36485108119135046,
+      "F1": 0.5327276789038647,
+      "normal_damage": 0.0,
+      "errors": 9804,
+      "normal": 4199,
+      "changes": 3625,
+      "exact": 3577,
+      "damaged": 0,
+      "detection_AUC": 0.684873521011832
+    },
+    "downstream": {
+      "macro_F1": 0.6310594890620769,
+      "AUC": 0.689882522176936,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 247.79378566588275,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_blank",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9560975609756097,
+      "R": 0.18421052631578946,
+      "F1": 0.30890464933018125,
+      "normal_damage": 0.0,
+      "errors": 1064,
+      "normal": 12939,
+      "changes": 205,
+      "exact": 196,
+      "damaged": 0,
+      "detection_AUC": 0.5963345864661654
+    },
+    "downstream": {
+      "macro_F1": 0.7042025862068966,
+      "AUC": 0.7589307120594582,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 81.61887897900306,
+      "rows": 737,
+      "changed_cells": 205,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p3_blank/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_blank",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9560975609756097,
+      "R": 0.18421052631578946,
+      "F1": 0.30890464933018125,
+      "normal_damage": 0.0,
+      "errors": 1064,
+      "normal": 12939,
+      "changes": 205,
+      "exact": 196,
+      "damaged": 0,
+      "detection_AUC": 0.5963345864661654
+    },
+    "downstream": {
+      "macro_F1": 0.7042025862068966,
+      "AUC": 0.7589307120594582,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 82.31340302480385,
+      "rows": 737,
+      "changed_cells": 205,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p3_blank/work/no_llm/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_blank",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9560975609756097,
+      "R": 0.18421052631578946,
+      "F1": 0.30890464933018125,
+      "normal_damage": 0.0,
+      "errors": 1064,
+      "normal": 12939,
+      "changes": 205,
+      "exact": 196,
+      "damaged": 0,
+      "detection_AUC": 0.5963345864661654
+    },
+    "downstream": {
+      "macro_F1": 0.7042025862068966,
+      "AUC": 0.7589307120594582,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 79.82899349695072,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_digit",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9437229437229437,
+      "R": 0.20488721804511278,
+      "F1": 0.33667953667953676,
+      "normal_damage": 0.00015457145065306437,
+      "errors": 1064,
+      "normal": 12939,
+      "changes": 231,
+      "exact": 218,
+      "damaged": 2,
+      "detection_AUC": 0.6075354962295607
+    },
+    "downstream": {
+      "macro_F1": 0.6446389627460939,
+      "AUC": 0.7293215056341406,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 274.4154792667832,
+      "rows": 737,
+      "changed_cells": 231,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p3_digit/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_digit",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9395604395604396,
+      "R": 0.16071428571428573,
+      "F1": 0.27447833065810595,
+      "normal_damage": 0.00015457145065306437,
+      "errors": 1064,
+      "normal": 12939,
+      "changes": 182,
+      "exact": 171,
+      "damaged": 2,
+      "detection_AUC": 0.584509180440087
+    },
+    "downstream": {
+      "macro_F1": 0.6550785340314136,
+      "AUC": 0.7202109805801966,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 267.72301067691296,
+      "rows": 737,
+      "changed_cells": 182,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p3_digit/work/no_llm/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_digit",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9437229437229437,
+      "R": 0.20488721804511278,
+      "F1": 0.33667953667953676,
+      "normal_damage": 0.00015457145065306437,
+      "errors": 1064,
+      "normal": 12939,
+      "changes": 231,
+      "exact": 218,
+      "damaged": 2,
+      "detection_AUC": 0.6075354962295607
+    },
+    "downstream": {
+      "macro_F1": 0.6446389627460939,
+      "AUC": 0.7293215056341406,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 271.0793759441003,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_scale",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9959595959595959,
+      "R": 0.9266917293233082,
+      "F1": 0.9600778967867575,
+      "normal_damage": 0.00015457145065306437,
+      "errors": 1064,
+      "normal": 12939,
+      "changes": 990,
+      "exact": 986,
+      "damaged": 2,
+      "detection_AUC": 0.9642084285603878
+    },
+    "downstream": {
+      "macro_F1": 0.6883757057927284,
+      "AUC": 0.7692399904099737,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 300.6088122930378,
+      "rows": 737,
+      "changed_cells": 990,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p3_scale/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_scale",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9959595959595959,
+      "R": 0.9266917293233082,
+      "F1": 0.9600778967867575,
+      "normal_damage": 0.00015457145065306437,
+      "errors": 1064,
+      "normal": 12939,
+      "changes": 990,
+      "exact": 986,
+      "damaged": 2,
+      "detection_AUC": 0.9642084285603878
+    },
+    "downstream": {
+      "macro_F1": 0.6883757057927284,
+      "AUC": 0.7692399904099737,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 303.0520258990582,
+      "rows": 737,
+      "changed_cells": 990,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p3_scale/work/no_llm/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_scale",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9959595959595959,
+      "R": 0.9266917293233082,
+      "F1": 0.9600778967867575,
+      "normal_damage": 0.00015457145065306437,
+      "errors": 1064,
+      "normal": 12939,
+      "changes": 990,
+      "exact": 986,
+      "damaged": 2,
+      "detection_AUC": 0.9642084285603878
+    },
+    "downstream": {
+      "macro_F1": 0.6883757057927284,
+      "AUC": 0.7692399904099737,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 295.7364530977793,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_affix",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9786666666666667,
+      "R": 0.3449248120300752,
+      "F1": 0.5100764419735928,
+      "normal_damage": 0.0,
+      "errors": 1064,
+      "normal": 12939,
+      "changes": 375,
+      "exact": 367,
+      "damaged": 0,
+      "detection_AUC": 0.6762218045112782
+    },
+    "downstream": {
+      "macro_F1": 0.6866908959841409,
+      "AUC": 0.7463438024454568,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 78.54385615792125,
+      "rows": 737,
+      "changed_cells": 375,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p3_affix/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_affix",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9786666666666667,
+      "R": 0.3449248120300752,
+      "F1": 0.5100764419735928,
+      "normal_damage": 0.0,
+      "errors": 1064,
+      "normal": 12939,
+      "changes": 375,
+      "exact": 367,
+      "damaged": 0,
+      "detection_AUC": 0.6762218045112782
+    },
+    "downstream": {
+      "macro_F1": 0.6866908959841409,
+      "AUC": 0.7463438024454568,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 78.42707706894726,
+      "rows": 737,
+      "changed_cells": 375,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1013_r0p3_affix/work/no_llm/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1013_r0p3_affix",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9786666666666667,
+      "R": 0.3449248120300752,
+      "F1": 0.5100764419735928,
+      "normal_damage": 0.0,
+      "errors": 1064,
+      "normal": 12939,
+      "changes": 375,
+      "exact": 367,
+      "damaged": 0,
+      "detection_AUC": 0.6762218045112782
+    },
+    "downstream": {
+      "macro_F1": 0.6866908959841409,
+      "AUC": 0.7463438024454568,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 72.90243287105113,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p1_mixed",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9715099715099715,
+      "R": 0.24253200568990044,
+      "F1": 0.3881616391576551,
+      "normal_damage": 0.0007166175650927622,
+      "errors": 1406,
+      "normal": 12559,
+      "changes": 351,
+      "exact": 341,
+      "damaged": 9,
+      "detection_AUC": 0.6212633128390752
+    },
+    "downstream": {
+      "macro_F1": 0.6688770869399372,
+      "AUC": 0.7565186751233263,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 281.9271897650324,
+      "rows": 735,
+      "changed_cells": 351,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p1_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p1_mixed",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9715099715099715,
+      "R": 0.24253200568990044,
+      "F1": 0.3881616391576551,
+      "normal_damage": 0.0007166175650927622,
+      "errors": 1406,
+      "normal": 12559,
+      "changes": 351,
+      "exact": 341,
+      "damaged": 9,
+      "detection_AUC": 0.6212633128390752
+    },
+    "downstream": {
+      "macro_F1": 0.6688770869399372,
+      "AUC": 0.7565186751233263,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 286.01074991212226,
+      "rows": 735,
+      "changed_cells": 351,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p1_mixed/work/no_llm/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p1_mixed",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9715099715099715,
+      "R": 0.24253200568990044,
+      "F1": 0.3881616391576551,
+      "normal_damage": 0.0007166175650927622,
+      "errors": 1406,
+      "normal": 12559,
+      "changes": 351,
+      "exact": 341,
+      "damaged": 9,
+      "detection_AUC": 0.6212633128390752
+    },
+    "downstream": {
+      "macro_F1": 0.6688770869399372,
+      "AUC": 0.7565186751233263,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 276.4072251750622,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_mixed",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9782608695652174,
+      "R": 0.35526315789473684,
+      "F1": 0.5212355212355212,
+      "normal_damage": 0.0009197751660705161,
+      "errors": 4180,
+      "normal": 9785,
+      "changes": 1518,
+      "exact": 1485,
+      "damaged": 9,
+      "detection_AUC": 0.6800425047614623
+    },
+    "downstream": {
+      "macro_F1": 0.6780330963688387,
+      "AUC": 0.7659149635893823,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 288.6203506218735,
+      "rows": 735,
+      "changed_cells": 1518,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p3_mixed/work/full/context",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_mixed",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9832826747720365,
+      "R": 0.3095693779904306,
+      "F1": 0.47088791848617173,
+      "normal_damage": 0.000510986203372509,
+      "errors": 4180,
+      "normal": 9785,
+      "changes": 1316,
+      "exact": 1294,
+      "damaged": 5,
+      "detection_AUC": 0.6565626887164956
+    },
+    "downstream": {
+      "macro_F1": 0.6844117647058823,
+      "AUC": 0.7568710359408034,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 273.68643894791603,
+      "rows": 735,
+      "changed_cells": 1316,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p3_mixed/work/no_llm/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_mixed",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9782608695652174,
+      "R": 0.35526315789473684,
+      "F1": 0.5212355212355212,
+      "normal_damage": 0.0009197751660705161,
+      "errors": 4180,
+      "normal": 9785,
+      "changes": 1518,
+      "exact": 1485,
+      "damaged": 9,
+      "detection_AUC": 0.6800425047614623
+    },
+    "downstream": {
+      "macro_F1": 0.6780330963688387,
+      "AUC": 0.7659149635893823,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 284.332854319131,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p5_mixed",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9871406959152799,
+      "R": 0.3732837528604119,
+      "F1": 0.5417185554171855,
+      "normal_damage": 0.0,
+      "errors": 6992,
+      "normal": 6973,
+      "changes": 2644,
+      "exact": 2610,
+      "damaged": 0,
+      "detection_AUC": 0.6890732265446224
+    },
+    "downstream": {
+      "macro_F1": 0.6696428571428572,
+      "AUC": 0.7459478505990134,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 246.70717176701874,
+      "rows": 735,
+      "changed_cells": 2644,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p5_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p5_mixed",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9871406959152799,
+      "R": 0.3732837528604119,
+      "F1": 0.5417185554171855,
+      "normal_damage": 0.0,
+      "errors": 6992,
+      "normal": 6973,
+      "changes": 2644,
+      "exact": 2610,
+      "damaged": 0,
+      "detection_AUC": 0.6890732265446224
+    },
+    "downstream": {
+      "macro_F1": 0.6696428571428572,
+      "AUC": 0.7459478505990134,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 248.12589095300063,
+      "rows": 735,
+      "changed_cells": 2644,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p5_mixed/work/no_llm/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p5_mixed",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9871406959152799,
+      "R": 0.3732837528604119,
+      "F1": 0.5417185554171855,
+      "normal_damage": 0.0,
+      "errors": 6992,
+      "normal": 6973,
+      "changes": 2644,
+      "exact": 2610,
+      "damaged": 0,
+      "detection_AUC": 0.6890732265446224
+    },
+    "downstream": {
+      "macro_F1": 0.6696428571428572,
+      "AUC": 0.7459478505990134,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 241.8889270941727,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p7_mixed",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9891332470892626,
+      "R": 0.3914601679295515,
+      "F1": 0.5609272980705745,
+      "normal_damage": 0.0011907597046915933,
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3865,
+      "exact": 3823,
+      "damaged": 5,
+      "detection_AUC": 0.6970290313702633
+    },
+    "downstream": {
+      "macro_F1": 0.6538011695906433,
+      "AUC": 0.7188160676532769,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 240.68715801392682,
+      "rows": 735,
+      "changed_cells": 3865,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p7_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p7_mixed",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9898591549295774,
+      "R": 0.35981978292033584,
+      "F1": 0.5277861219585461,
+      "normal_damage": 0.00023815194093831864,
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3550,
+      "exact": 3514,
+      "damaged": 1,
+      "detection_AUC": 0.6815827466795411
+    },
+    "downstream": {
+      "macro_F1": 0.6539630582183773,
+      "AUC": 0.7049565421658446,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 233.78655713493936,
+      "rows": 735,
+      "changed_cells": 3550,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p7_mixed/work/no_llm/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p7_mixed",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9891332470892626,
+      "R": 0.3914601679295515,
+      "F1": 0.5609272980705745,
+      "normal_damage": 0.0011907597046915933,
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3865,
+      "exact": 3823,
+      "damaged": 5,
+      "detection_AUC": 0.6970290313702633
+    },
+    "downstream": {
+      "macro_F1": 0.6538011695906433,
+      "AUC": 0.7188160676532769,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 238.47902512107976,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_blank",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9344262295081968,
+      "R": 0.16363636363636364,
+      "F1": 0.2785016286644951,
+      "normal_damage": 0.0,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 183,
+      "exact": 171,
+      "damaged": 0,
+      "detection_AUC": 0.5875598086124402
+    },
+    "downstream": {
+      "macro_F1": 0.7118634106203532,
+      "AUC": 0.7761334272962179,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 82.83706999989226,
+      "rows": 735,
+      "changed_cells": 183,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p3_blank/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_blank",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9344262295081968,
+      "R": 0.16363636363636364,
+      "F1": 0.2785016286644951,
+      "normal_damage": 0.0,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 183,
+      "exact": 171,
+      "damaged": 0,
+      "detection_AUC": 0.5875598086124402
+    },
+    "downstream": {
+      "macro_F1": 0.7118634106203532,
+      "AUC": 0.7761334272962179,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 82.89595206500962,
+      "rows": 735,
+      "changed_cells": 183,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p3_blank/work/no_llm/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_blank",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9344262295081968,
+      "R": 0.16363636363636364,
+      "F1": 0.2785016286644951,
+      "normal_damage": 0.0,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 183,
+      "exact": 171,
+      "damaged": 0,
+      "detection_AUC": 0.5875598086124402
+    },
+    "downstream": {
+      "macro_F1": 0.7118634106203532,
+      "AUC": 0.7761334272962179,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 78.86173799703829,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_digit",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9264705882352942,
+      "R": 0.18086124401913875,
+      "F1": 0.30264211369095273,
+      "normal_damage": 0.00015479876160990713,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 204,
+      "exact": 189,
+      "damaged": 2,
+      "detection_AUC": 0.5965733183225443
+    },
+    "downstream": {
+      "macro_F1": 0.7018315018315018,
+      "AUC": 0.7686163965233732,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 276.87724718800746,
+      "rows": 735,
+      "changed_cells": 204,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p3_digit/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_digit",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9186991869918699,
+      "R": 0.10813397129186603,
+      "F1": 0.19349315068493148,
+      "normal_damage": 0.00015479876160990713,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 123,
+      "exact": 113,
+      "damaged": 2,
+      "detection_AUC": 0.5578173374613002
+    },
+    "downstream": {
+      "macro_F1": 0.7018315018315018,
+      "AUC": 0.7700258397932815,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 274.8314630249515,
+      "rows": 735,
+      "changed_cells": 123,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p3_digit/work/no_llm/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_digit",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9264705882352942,
+      "R": 0.18086124401913875,
+      "F1": 0.30264211369095273,
+      "normal_damage": 0.00015479876160990713,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 204,
+      "exact": 189,
+      "damaged": 2,
+      "detection_AUC": 0.5965733183225443
+    },
+    "downstream": {
+      "macro_F1": 0.7018315018315018,
+      "AUC": 0.7686163965233732,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 273.0362630528398,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_scale",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9926238145416227,
+      "R": 0.9014354066985646,
+      "F1": 0.9448345035105316,
+      "normal_damage": 0.00046439628482972134,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 949,
+      "exact": 942,
+      "damaged": 6,
+      "detection_AUC": 0.950963974106389
+    },
+    "downstream": {
+      "macro_F1": 0.7027027027027027,
+      "AUC": 0.7740192623913553,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 293.8130288361572,
+      "rows": 735,
+      "changed_cells": 949,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p3_scale/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_scale",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9926238145416227,
+      "R": 0.9014354066985646,
+      "F1": 0.9448345035105316,
+      "normal_damage": 0.00046439628482972134,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 949,
+      "exact": 942,
+      "damaged": 6,
+      "detection_AUC": 0.950963974106389
+    },
+    "downstream": {
+      "macro_F1": 0.7027027027027027,
+      "AUC": 0.7740192623913553,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 294.4130708822049,
+      "rows": 735,
+      "changed_cells": 949,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p3_scale/work/no_llm/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_scale",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9926238145416227,
+      "R": 0.9014354066985646,
+      "F1": 0.9448345035105316,
+      "normal_damage": 0.00046439628482972134,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 949,
+      "exact": 942,
+      "damaged": 6,
+      "detection_AUC": 0.950963974106389
+    },
+    "downstream": {
+      "macro_F1": 0.7027027027027027,
+      "AUC": 0.7740192623913553,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 293.3396409249399,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_affix",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.05263157894736842,
+      "F1": 0.1,
+      "normal_damage": 0.0,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 55,
+      "exact": 55,
+      "damaged": 0,
+      "detection_AUC": 0.5263157894736842
+    },
+    "downstream": {
+      "macro_F1": 0.7231595317038819,
+      "AUC": 0.7748414376321353,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 75.09444240806624,
+      "rows": 735,
+      "changed_cells": 55,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p3_affix/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_affix",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 1.0,
+      "R": 0.05263157894736842,
+      "F1": 0.1,
+      "normal_damage": 0.0,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 55,
+      "exact": 55,
+      "damaged": 0,
+      "detection_AUC": 0.5263157894736842
+    },
+    "downstream": {
+      "macro_F1": 0.7231595317038819,
+      "AUC": 0.7748414376321353,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 76.19195600785315,
+      "rows": 735,
+      "changed_cells": 55,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1014_r0p3_affix/work/no_llm/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1014_r0p3_affix",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 1.0,
+      "R": 0.05263157894736842,
+      "F1": 0.1,
+      "normal_damage": 0.0,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 55,
+      "exact": 55,
+      "damaged": 0,
+      "detection_AUC": 0.5263157894736842
+    },
+    "downstream": {
+      "macro_F1": 0.7231595317038819,
+      "AUC": 0.7748414376321353,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 73.03085580212064,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p1_mixed",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.16998577524893316,
+      "F1": 0.2905775075987842,
+      "normal_damage": 0.0,
+      "errors": 1406,
+      "normal": 12559,
+      "changes": 239,
+      "exact": 239,
+      "damaged": 0,
+      "detection_AUC": 0.5849928876244666
+    },
+    "downstream": {
+      "macro_F1": 0.7281323877068557,
+      "AUC": 0.79734219269103,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 285.0794636879582,
+      "rows": 735,
+      "changed_cells": 239,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p1_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p1_mixed",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 1.0,
+      "R": 0.16998577524893316,
+      "F1": 0.2905775075987842,
+      "normal_damage": 0.0,
+      "errors": 1406,
+      "normal": 12559,
+      "changes": 239,
+      "exact": 239,
+      "damaged": 0,
+      "detection_AUC": 0.5849928876244666
+    },
+    "downstream": {
+      "macro_F1": 0.7281323877068557,
+      "AUC": 0.79734219269103,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 285.61284423200414,
+      "rows": 735,
+      "changed_cells": 239,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p1_mixed/work/no_llm/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p1_mixed",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 1.0,
+      "R": 0.16998577524893316,
+      "F1": 0.2905775075987842,
+      "normal_damage": 0.0,
+      "errors": 1406,
+      "normal": 12559,
+      "changes": 239,
+      "exact": 239,
+      "damaged": 0,
+      "detection_AUC": 0.5849928876244666
+    },
+    "downstream": {
+      "macro_F1": 0.7281323877068557,
+      "AUC": 0.79734219269103,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 282.8171845260076,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_mixed",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9964539007092199,
+      "R": 0.3361244019138756,
+      "F1": 0.5026833631484794,
+      "normal_damage": 0.00020439448134900357,
+      "errors": 4180,
+      "normal": 9785,
+      "changes": 1410,
+      "exact": 1405,
+      "damaged": 2,
+      "detection_AUC": 0.6683188553909044
+    },
+    "downstream": {
+      "macro_F1": 0.717391304347826,
+      "AUC": 0.7831039392501187,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 275.3554119579494,
+      "rows": 735,
+      "changed_cells": 1410,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p3_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_mixed",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9962962962962963,
+      "R": 0.32177033492822965,
+      "F1": 0.4864376130198915,
+      "normal_damage": 0.00020439448134900357,
+      "errors": 4180,
+      "normal": 9785,
+      "changes": 1350,
+      "exact": 1345,
+      "damaged": 2,
+      "detection_AUC": 0.6611418218980815
+    },
+    "downstream": {
+      "macro_F1": 0.7228178998670802,
+      "AUC": 0.7756288561936403,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 263.10657056001946,
+      "rows": 735,
+      "changed_cells": 1350,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p3_mixed/work/no_llm/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_mixed",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9964539007092199,
+      "R": 0.3361244019138756,
+      "F1": 0.5026833631484794,
+      "normal_damage": 0.00020439448134900357,
+      "errors": 4180,
+      "normal": 9785,
+      "changes": 1410,
+      "exact": 1405,
+      "damaged": 2,
+      "detection_AUC": 0.6683188553909044
+    },
+    "downstream": {
+      "macro_F1": 0.717391304347826,
+      "AUC": 0.7831039392501187,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 274.712917417055,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p5_mixed",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.974573192880494,
+      "R": 0.3837242562929062,
+      "F1": 0.5506413545407902,
+      "normal_damage": 0.001434102968593145,
+      "errors": 6992,
+      "normal": 6973,
+      "changes": 2753,
+      "exact": 2683,
+      "damaged": 10,
+      "detection_AUC": 0.6954356945111267
+    },
+    "downstream": {
+      "macro_F1": 0.7003700962250186,
+      "AUC": 0.7816801139060275,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 254.23679686593823,
+      "rows": 735,
+      "changed_cells": 2753,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p5_mixed/work/full/context",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p5_mixed",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9825990373935579,
+      "R": 0.3795766590389016,
+      "F1": 0.5476116785308986,
+      "normal_damage": 0.001434102968593145,
+      "errors": 6992,
+      "normal": 6973,
+      "changes": 2701,
+      "exact": 2654,
+      "damaged": 10,
+      "detection_AUC": 0.6917171590420192
+    },
+    "downstream": {
+      "macro_F1": 0.7003700962250186,
+      "AUC": 0.7816801139060275,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 252.35875096404925,
+      "rows": 735,
+      "changed_cells": 2701,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p5_mixed/work/no_llm/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p5_mixed",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.974573192880494,
+      "R": 0.3837242562929062,
+      "F1": 0.5506413545407902,
+      "normal_damage": 0.001434102968593145,
+      "errors": 6992,
+      "normal": 6973,
+      "changes": 2753,
+      "exact": 2683,
+      "damaged": 10,
+      "detection_AUC": 0.6954356945111267
+    },
+    "downstream": {
+      "macro_F1": 0.7003700962250186,
+      "AUC": 0.7816801139060275,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 249.89323872001842,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p7_mixed",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9858865794200667,
+      "R": 0.3934056932213803,
+      "F1": 0.5623947888457879,
+      "normal_damage": 0.0,
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3897,
+      "exact": 3842,
+      "damaged": 0,
+      "detection_AUC": 0.6995187384804423
+    },
+    "downstream": {
+      "macro_F1": 0.6792625638904481,
+      "AUC": 0.7664926435690554,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 240.28970409999602,
+      "rows": 735,
+      "changed_cells": 3897,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p7_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p7_mixed",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9854469854469855,
+      "R": 0.3882858898218308,
+      "F1": 0.5570736007051565,
+      "normal_damage": 0.0,
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3848,
+      "exact": 3792,
+      "damaged": 0,
+      "detection_AUC": 0.6970100348146631
+    },
+    "downstream": {
+      "macro_F1": 0.6844470727380249,
+      "AUC": 0.7742050308495492,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 234.98008662182838,
+      "rows": 735,
+      "changed_cells": 3848,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p7_mixed/work/no_llm/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p7_mixed",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9858865794200667,
+      "R": 0.3934056932213803,
+      "F1": 0.5623947888457879,
+      "normal_damage": 0.0,
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3897,
+      "exact": 3842,
+      "damaged": 0,
+      "detection_AUC": 0.6995187384804423
+    },
+    "downstream": {
+      "macro_F1": 0.6792625638904481,
+      "AUC": 0.7664926435690554,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 237.88005504594184,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_blank",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9459459459459459,
+      "R": 0.1674641148325359,
+      "F1": 0.2845528455284553,
+      "normal_damage": 0.0,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 185,
+      "exact": 175,
+      "damaged": 0,
+      "detection_AUC": 0.5885167464114832
+    },
+    "downstream": {
+      "macro_F1": 0.7327404772491477,
+      "AUC": 0.7965116279069766,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 82.07582824700512,
+      "rows": 735,
+      "changed_cells": 185,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p3_blank/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_blank",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9459459459459459,
+      "R": 0.1674641148325359,
+      "F1": 0.2845528455284553,
+      "normal_damage": 0.0,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 185,
+      "exact": 175,
+      "damaged": 0,
+      "detection_AUC": 0.5885167464114832
+    },
+    "downstream": {
+      "macro_F1": 0.7327404772491477,
+      "AUC": 0.7965116279069766,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 81.58954345597886,
+      "rows": 735,
+      "changed_cells": 185,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p3_blank/work/no_llm/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_blank",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9459459459459459,
+      "R": 0.1674641148325359,
+      "F1": 0.2845528455284553,
+      "normal_damage": 0.0,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 185,
+      "exact": 175,
+      "damaged": 0,
+      "detection_AUC": 0.5885167464114832
+    },
+    "downstream": {
+      "macro_F1": 0.7327404772491477,
+      "AUC": 0.7965116279069766,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 80.30884510301985,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_digit",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.8793103448275862,
+      "R": 0.19521531100478468,
+      "F1": 0.31949882537196556,
+      "normal_damage": 0.0006965944272445821,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 232,
+      "exact": 204,
+      "damaged": 9,
+      "detection_AUC": 0.6063502673796791
+    },
+    "downstream": {
+      "macro_F1": 0.7327404772491477,
+      "AUC": 0.8115804461319412,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 278.411019296851,
+      "rows": 735,
+      "changed_cells": 232,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p3_digit/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_digit",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.7589285714285714,
+      "R": 0.08133971291866028,
+      "F1": 0.14693171996542784,
+      "normal_damage": 0.0006965944272445821,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 112,
+      "exact": 85,
+      "damaged": 9,
+      "detection_AUC": 0.5489339994370954
+    },
+    "downstream": {
+      "macro_F1": 0.760615020697812,
+      "AUC": 0.8122923588039866,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 271.8037021839991,
+      "rows": 735,
+      "changed_cells": 112,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p3_digit/work/no_llm/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_digit",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.8793103448275862,
+      "R": 0.19521531100478468,
+      "F1": 0.31949882537196556,
+      "normal_damage": 0.0006965944272445821,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 232,
+      "exact": 204,
+      "damaged": 9,
+      "detection_AUC": 0.6063502673796791
+    },
+    "downstream": {
+      "macro_F1": 0.7327404772491477,
+      "AUC": 0.8115804461319412,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 272.7338653909974,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_scale",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9881305637982196,
+      "R": 0.9559808612440192,
+      "F1": 0.9717898832684826,
+      "normal_damage": 0.0007739938080495357,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 1011,
+      "exact": 999,
+      "damaged": 10,
+      "detection_AUC": 0.9785603715170278
+    },
+    "downstream": {
+      "macro_F1": 0.7497338852749853,
+      "AUC": 0.8312766967252017,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 295.2784266991075,
+      "rows": 735,
+      "changed_cells": 1011,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p3_scale/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_scale",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9881305637982196,
+      "R": 0.9559808612440192,
+      "F1": 0.9717898832684826,
+      "normal_damage": 0.0007739938080495357,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 1011,
+      "exact": 999,
+      "damaged": 10,
+      "detection_AUC": 0.9785603715170278
+    },
+    "downstream": {
+      "macro_F1": 0.7497338852749853,
+      "AUC": 0.8312766967252017,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 304.56360340700485,
+      "rows": 735,
+      "changed_cells": 1011,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p3_scale/work/no_llm/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_scale",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9881305637982196,
+      "R": 0.9559808612440192,
+      "F1": 0.9717898832684826,
+      "normal_damage": 0.0007739938080495357,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 1011,
+      "exact": 999,
+      "damaged": 10,
+      "detection_AUC": 0.9785603715170278
+    },
+    "downstream": {
+      "macro_F1": 0.7497338852749853,
+      "AUC": 0.8312766967252017,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 292.77978121698834,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_affix",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9973118279569892,
+      "R": 0.3550239234449761,
+      "F1": 0.5236414961185603,
+      "normal_damage": 0.0,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 372,
+      "exact": 371,
+      "damaged": 0,
+      "detection_AUC": 0.6779904306220096
+    },
+    "downstream": {
+      "macro_F1": 0.7168560606060606,
+      "AUC": 0.7962743236829615,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 73.00351705402136,
+      "rows": 735,
+      "changed_cells": 372,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p3_affix/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_affix",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9973118279569892,
+      "R": 0.3550239234449761,
+      "F1": 0.5236414961185603,
+      "normal_damage": 0.0,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 372,
+      "exact": 371,
+      "damaged": 0,
+      "detection_AUC": 0.6779904306220096
+    },
+    "downstream": {
+      "macro_F1": 0.7168560606060606,
+      "AUC": 0.7962743236829615,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 73.40203881706111,
+      "rows": 735,
+      "changed_cells": 372,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022/cases/robustness_retinopathy_s1015_r0p3_affix/work/no_llm/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_retinopathy_s1015_r0p3_affix",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "original_generator": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/code/generate_benchmarks.py",
+      "source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "only_changes": "declared rate/type and operational seed",
+      "raw_archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+      "no_old_formal_answers_used": true
+    },
+    "arm": "reuse",
+    "repair": {
+      "P": 0.9973118279569892,
+      "R": 0.3550239234449761,
+      "F1": 0.5236414961185603,
+      "normal_damage": 0.0,
+      "errors": 1045,
+      "normal": 12920,
+      "changes": 372,
+      "exact": 371,
+      "damaged": 0,
+      "detection_AUC": 0.6779904306220096
+    },
+    "downstream": {
+      "macro_F1": 0.7168560606060606,
+      "AUC": 0.7962743236829615,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "seconds": 71.38383835693821,
+      "new9B_calls": 0,
+      "byte_parity": true,
+      "same_input": true
+    }
+  }
+]

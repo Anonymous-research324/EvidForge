@@ -1,0 +1,240 @@
+{
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "model": "Qwen3.5-9B BF16 temp0 request seed1013/14/15，两个RTX4090 48GB物理5和7各一9B TP1队列，8121/8122；不是18B融合，不使用其他根目录服务",
+  "budget": "24case,48native会话,正常240native调用；不重试重置budget，未知失败阻止评分",
+  "study": "robustness_retinopathy",
+  "paper_scope": "四档混合比例与四类单类条件；旧单类实际约7.5%—7.6%，不冒充实际30%。",
+  "server_source": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022",
+  "source_protocol_relative_path": "configs/protocol.json",
+  "source_protocol_sha256": "42eec40e243885b3bd90c4b78322b2789919d5925a08d8691a63e96c1ee6cfdb",
+  "configuration_role": "paper-scope configuration view; original execution protocol and full inputs remain on server; no new numerical settings",
+  "paper_case_specs": [
+    {
+      "id": "robustness_retinopathy_s1013_r0p1_mixed",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.1,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1013_r0p3_mixed",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1013_r0p5_mixed",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.5,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1013_r0p7_mixed",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1013_r0p3_blank",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "blank",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1013_r0p3_digit",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "digit",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1013_r0p3_scale",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "scale",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1013_r0p3_affix",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "affix",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1014_r0p1_mixed",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.1,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1014_r0p3_mixed",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1014_r0p5_mixed",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.5,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1014_r0p7_mixed",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1014_r0p3_blank",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "blank",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1014_r0p3_digit",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "digit",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1014_r0p3_scale",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "scale",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1014_r0p3_affix",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "affix",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1015_r0p1_mixed",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.1,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1015_r0p3_mixed",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1015_r0p5_mixed",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.5,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1015_r0p7_mixed",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1015_r0p3_blank",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "blank",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1015_r0p3_digit",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "digit",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1015_r0p3_scale",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "scale",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_retinopathy_s1015_r0p3_affix",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "affix",
+      "learning_fraction": 1.0
+    }
+  ],
+  "runtime_bindings": [
+    {
+      "source": "configs/lane_assignment.json",
+      "source_sha256": "2e0af31d5b21f45368d6e8a9e9fc20d218ecdcd702d78364c0cf64a9544cbe22",
+      "runtime_fields": {}
+    }
+  ]
+}

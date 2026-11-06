@@ -1,0 +1,450 @@
+{
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "pollution": "复用原同seed污染后的字面输入及对应策展参考，不重新污染；原目标污染率70%，子样本实际率可能波动，单列报告；不同tier相同group脏值逐字节相同。",
+  "sampling": "按seed的预定随机排列，不按修复成绩/类别覆盖重抽；完整目标参考可用的group才可做授权样例，资格规则先审计；源内重复观测冲突保留N/A，禁止修改group避错。",
+  "study": "example_budget",
+  "paper_scope": "六表×5+5/10+10/20+20×三种子，共54例。学习与外校同时变化。",
+  "server_source": "/root/fsas/home/anonymous/projects/EvidForge_Example_Budget_20261024",
+  "source_protocol_relative_path": "configs/protocol.json",
+  "source_protocol_sha256": "4b35ac2553ff8e7924c7e84a3780286f97b2d32952b7fc6df9f91fd74aa21184",
+  "configuration_role": "paper-scope configuration view; original execution protocol and full inputs remain on server; no new numerical settings",
+  "paper_case_specs": [
+    {
+      "id": "budget_tic_tac_toe_s1013_n5",
+      "dataset": "tic_tac_toe",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_tic_tac_toe_s1013_n10",
+      "dataset": "tic_tac_toe",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_tic_tac_toe_s1013_n20",
+      "dataset": "tic_tac_toe",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_car_evaluation_s1013_n5",
+      "dataset": "car_evaluation",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_car_evaluation_s1013_n10",
+      "dataset": "car_evaluation",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_car_evaluation_s1013_n20",
+      "dataset": "car_evaluation",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_retinopathy_s1013_n5",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_retinopathy_s1013_n10",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_retinopathy_s1013_n20",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_real_estate_s1013_n5",
+      "dataset": "real_estate",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_real_estate_s1013_n10",
+      "dataset": "real_estate",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_real_estate_s1013_n20",
+      "dataset": "real_estate",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_concrete_s1013_n5",
+      "dataset": "concrete",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_concrete_s1013_n10",
+      "dataset": "concrete",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_concrete_s1013_n20",
+      "dataset": "concrete",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_airfoil_s1013_n5",
+      "dataset": "airfoil",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_airfoil_s1013_n10",
+      "dataset": "airfoil",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_airfoil_s1013_n20",
+      "dataset": "airfoil",
+      "seed": 1013,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_tic_tac_toe_s1014_n5",
+      "dataset": "tic_tac_toe",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_tic_tac_toe_s1014_n10",
+      "dataset": "tic_tac_toe",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_tic_tac_toe_s1014_n20",
+      "dataset": "tic_tac_toe",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_car_evaluation_s1014_n5",
+      "dataset": "car_evaluation",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_car_evaluation_s1014_n10",
+      "dataset": "car_evaluation",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_car_evaluation_s1014_n20",
+      "dataset": "car_evaluation",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_retinopathy_s1014_n5",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_retinopathy_s1014_n10",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_retinopathy_s1014_n20",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_real_estate_s1014_n5",
+      "dataset": "real_estate",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_real_estate_s1014_n10",
+      "dataset": "real_estate",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_real_estate_s1014_n20",
+      "dataset": "real_estate",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_concrete_s1014_n5",
+      "dataset": "concrete",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_concrete_s1014_n10",
+      "dataset": "concrete",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_concrete_s1014_n20",
+      "dataset": "concrete",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_airfoil_s1014_n5",
+      "dataset": "airfoil",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_airfoil_s1014_n10",
+      "dataset": "airfoil",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_airfoil_s1014_n20",
+      "dataset": "airfoil",
+      "seed": 1014,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_tic_tac_toe_s1015_n5",
+      "dataset": "tic_tac_toe",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_tic_tac_toe_s1015_n10",
+      "dataset": "tic_tac_toe",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_tic_tac_toe_s1015_n20",
+      "dataset": "tic_tac_toe",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_car_evaluation_s1015_n5",
+      "dataset": "car_evaluation",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_car_evaluation_s1015_n10",
+      "dataset": "car_evaluation",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_car_evaluation_s1015_n20",
+      "dataset": "car_evaluation",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_retinopathy_s1015_n5",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_retinopathy_s1015_n10",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_retinopathy_s1015_n20",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_real_estate_s1015_n5",
+      "dataset": "real_estate",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_real_estate_s1015_n10",
+      "dataset": "real_estate",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_real_estate_s1015_n20",
+      "dataset": "real_estate",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_concrete_s1015_n5",
+      "dataset": "concrete",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_concrete_s1015_n10",
+      "dataset": "concrete",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_concrete_s1015_n20",
+      "dataset": "concrete",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    },
+    {
+      "id": "budget_airfoil_s1015_n5",
+      "dataset": "airfoil",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 5,
+      "validation_groups": 5
+    },
+    {
+      "id": "budget_airfoil_s1015_n10",
+      "dataset": "airfoil",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 10,
+      "validation_groups": 10
+    },
+    {
+      "id": "budget_airfoil_s1015_n20",
+      "dataset": "airfoil",
+      "seed": 1015,
+      "suite": "example_budget",
+      "learning_groups": 20,
+      "validation_groups": 20
+    }
+  ],
+  "runtime_bindings": []
+}

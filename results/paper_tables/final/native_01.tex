@@ -1,0 +1,19 @@
+\par\addvspace{6pt}\noindent\begin{minipage}{\columnwidth}
+\centering
+\captionof{table}{关键模块消融}
+\label{tab:ablation}
+\fontsize{8}{9.6}\selectfont
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcccc@{}}
+\toprule
+ & \multicolumn{2}{c}{Retinopathy} & \multicolumn{2}{c}{Airfoil} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+设置 & 修复 F1 $\uparrow$ & 误改率 (\%) $\downarrow$ & 修复 F1 $\uparrow$ & 误改率 (\%) $\downarrow$ \\
+\midrule
+\textbf{\makecell{完整\\EvidForge}} & $\mathbf{0.542\pm0.006}$ & $\mathbf{0.040\pm0.069}$ & $\mathbf{0.716\pm0.015}$ & $\mathbf{0.323\pm0.288}$ \\
+\makecell[l]{关闭学得\\纠错变换} & $0.303\pm0.037$ & $0.016\pm0.014$ & $0.403\pm0.113$ & $0.000\pm0.000$ \\
+\makecell[l]{关闭最终\\置信门槛} & $0.519\pm0.014$ & $1.572\pm0.671$ & $0.677\pm0.017$ & $1.615\pm0.846$ \\
+\bottomrule
+\end{tabular*}
+\end{minipage}\par\addvspace{6pt}

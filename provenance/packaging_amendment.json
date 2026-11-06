@@ -1,0 +1,14 @@
+{
+  "core124_bytes_unchanged": true,
+  "changes": [
+    "interpreter paths preserve virtualenv symlinks",
+    "machine/GPU/PG paths and ports configurable",
+    "curator raw downloader uses official source with original hash",
+    "private curator cache protected by role guard",
+    "seed-only runtime override unchanged",
+    "catalog restricted to paper scope",
+    "dependency Git revisions installed by pinned source",
+    "orchestration/reporting independent of numerical algorithms"
+  ],
+  "original_data_or_scores_modified": false
+}

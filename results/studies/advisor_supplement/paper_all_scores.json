@@ -1,0 +1,2744 @@
+[
+  {
+    "id": "main_car_evaluation_s1013",
+    "dataset": "car_evaluation",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/car_evaluation",
+      "old_input_freeze_sha256": "58b7b8e12ab2319f4bf70e590fdc08076b3fe6aeb8a22e7bb8e92821b8b9ab64",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.49870801033591733,
+      "F1": 0.6655172413793103,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2316,
+      "damaged": 0,
+      "detection_AUC": 0.7493540051679587
+    },
+    "downstream": {
+      "macro_F1": 0.3905487117007355,
+      "AUC": 0.9574208182400687,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 50.486611721105874,
+      "rows": 1106,
+      "changed_cells": 2316,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1013/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1013",
+    "dataset": "car_evaluation",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/car_evaluation",
+      "old_input_freeze_sha256": "58b7b8e12ab2319f4bf70e590fdc08076b3fe6aeb8a22e7bb8e92821b8b9ab64",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 1.0,
+      "R": 0.49870801033591733,
+      "F1": 0.6655172413793103,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2316,
+      "damaged": 0,
+      "detection_AUC": 0.7493540051679587
+    },
+    "downstream": {
+      "macro_F1": 0.3905487117007355,
+      "AUC": 0.9574208182400687,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 51.55213994719088,
+      "rows": 1106,
+      "changed_cells": 2316,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1013/work/no_llm/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1013",
+    "dataset": "car_evaluation",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/car_evaluation",
+      "old_input_freeze_sha256": "58b7b8e12ab2319f4bf70e590fdc08076b3fe6aeb8a22e7bb8e92821b8b9ab64",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_transforms",
+    "repair": {
+      "P": 0.7446457990115322,
+      "R": 0.29198966408268734,
+      "F1": 0.4194895591647332,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 1821,
+      "exact": 1356,
+      "damaged": 0,
+      "detection_AUC": 0.6960594315245479
+    },
+    "downstream": {
+      "macro_F1": 0.36507957145829,
+      "AUC": 0.8926475580344189,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_transforms",
+      "seconds": 12.146191697567701,
+      "rows": 1106,
+      "changed_cells": 1821,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1013/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1013",
+    "dataset": "car_evaluation",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/car_evaluation",
+      "old_input_freeze_sha256": "58b7b8e12ab2319f4bf70e590fdc08076b3fe6aeb8a22e7bb8e92821b8b9ab64",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_generated_execution",
+    "repair": {
+      "P": 1.0,
+      "R": 0.49870801033591733,
+      "F1": 0.6655172413793103,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2316,
+      "damaged": 0,
+      "detection_AUC": 0.7493540051679587
+    },
+    "downstream": {
+      "macro_F1": 0.3905487117007355,
+      "AUC": 0.9574208182400687,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_generated_execution",
+      "seconds": 51.10020695813,
+      "rows": 1106,
+      "changed_cells": 2316,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1013/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1013",
+    "dataset": "car_evaluation",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/car_evaluation",
+      "old_input_freeze_sha256": "58b7b8e12ab2319f4bf70e590fdc08076b3fe6aeb8a22e7bb8e92821b8b9ab64",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_final_gate",
+    "repair": {
+      "P": 0.7698275862068965,
+      "R": 0.5768733850129198,
+      "F1": 0.6595273264401772,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 3480,
+      "exact": 2679,
+      "damaged": 0,
+      "detection_AUC": 0.8746770025839794
+    },
+    "downstream": {
+      "macro_F1": 0.480570484309365,
+      "AUC": 0.9194488114973149,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_final_gate",
+      "seconds": 50.52974873222411,
+      "rows": 1106,
+      "changed_cells": 3480,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1013/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1013",
+    "dataset": "car_evaluation",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/car_evaluation",
+      "old_input_freeze_sha256": "58b7b8e12ab2319f4bf70e590fdc08076b3fe6aeb8a22e7bb8e92821b8b9ab64",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_feedback",
+    "repair": {
+      "P": 1.0,
+      "R": 0.49870801033591733,
+      "F1": 0.6655172413793103,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2316,
+      "damaged": 0,
+      "detection_AUC": 0.7493540051679587
+    },
+    "downstream": {
+      "macro_F1": 0.3905487117007355,
+      "AUC": 0.9574208182400687,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_feedback",
+      "seconds": 50.61319832038134,
+      "rows": 1106,
+      "changed_cells": 2316,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1013/work/no_feedback/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1013",
+    "dataset": "car_evaluation",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/car_evaluation",
+      "old_input_freeze_sha256": "58b7b8e12ab2319f4bf70e590fdc08076b3fe6aeb8a22e7bb8e92821b8b9ab64",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_predictive_context",
+    "repair": {
+      "P": 0.9740932642487047,
+      "R": 0.48578811369509045,
+      "F1": 0.6482758620689656,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2256,
+      "damaged": 0,
+      "detection_AUC": 0.7493540051679587
+    },
+    "downstream": {
+      "macro_F1": 0.4993213173119715,
+      "AUC": 0.950866113077482,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_predictive_context",
+      "seconds": 46.85641102492809,
+      "rows": 1106,
+      "changed_cells": 2316,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1013/work/no_predictive_context/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1013",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/concrete",
+      "old_input_freeze_sha256": "a18cfd2b77bbde170abba0863242289dd402dd20d934790bd741518ec3acfba8",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9668989547038328,
+      "R": 0.3003246753246753,
+      "F1": 0.4582989265070191,
+      "normal_damage": 0.005050505050505051,
+      "errors": 3696,
+      "normal": 1584,
+      "changes": 1148,
+      "exact": 1110,
+      "damaged": 8,
+      "detection_AUC": 0.6516955266955268
+    },
+    "downstream": {
+      "R2": 0.7785891179088102,
+      "MAE": 6.017388869905395
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 64.97857968788594,
+      "rows": 660,
+      "changed_cells": 1148,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1013/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1013",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/concrete",
+      "old_input_freeze_sha256": "a18cfd2b77bbde170abba0863242289dd402dd20d934790bd741518ec3acfba8",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9862475442043221,
+      "R": 0.27164502164502163,
+      "F1": 0.425965210012728,
+      "normal_damage": 0.005050505050505051,
+      "errors": 3696,
+      "normal": 1584,
+      "changes": 1018,
+      "exact": 1004,
+      "damaged": 8,
+      "detection_AUC": 0.6341089466089467
+    },
+    "downstream": {
+      "R2": 0.7705129804859501,
+      "MAE": 6.196616838654427
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 63.79302888456732,
+      "rows": 660,
+      "changed_cells": 1018,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1013/work/no_llm/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1013",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/concrete",
+      "old_input_freeze_sha256": "a18cfd2b77bbde170abba0863242289dd402dd20d934790bd741518ec3acfba8",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_transforms",
+    "repair": {
+      "P": 0.9111111111111111,
+      "R": 0.06655844155844155,
+      "F1": 0.12405446293494704,
+      "normal_damage": 0.0025252525252525255,
+      "errors": 3696,
+      "normal": 1584,
+      "changes": 270,
+      "exact": 246,
+      "damaged": 4,
+      "detection_AUC": 0.5347222222222222
+    },
+    "downstream": {
+      "R2": 0.6709129384159243,
+      "MAE": 7.316456559155778
+    },
+    "receipt": {
+      "arm": "no_transforms",
+      "seconds": 19.85913055948913,
+      "rows": 660,
+      "changed_cells": 270,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1013/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1013",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/concrete",
+      "old_input_freeze_sha256": "a18cfd2b77bbde170abba0863242289dd402dd20d934790bd741518ec3acfba8",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_generated_execution",
+    "repair": {
+      "P": 0.9862475442043221,
+      "R": 0.27164502164502163,
+      "F1": 0.425965210012728,
+      "normal_damage": 0.005050505050505051,
+      "errors": 3696,
+      "normal": 1584,
+      "changes": 1018,
+      "exact": 1004,
+      "damaged": 8,
+      "detection_AUC": 0.6341089466089467
+    },
+    "downstream": {
+      "R2": 0.7705129804859501,
+      "MAE": 6.196616838654427
+    },
+    "receipt": {
+      "arm": "no_generated_execution",
+      "seconds": 63.43947674240917,
+      "rows": 660,
+      "changed_cells": 1018,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1013/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1013",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/concrete",
+      "old_input_freeze_sha256": "a18cfd2b77bbde170abba0863242289dd402dd20d934790bd741518ec3acfba8",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_final_gate",
+    "repair": {
+      "P": 0.6126735493058028,
+      "R": 0.46563852813852813,
+      "F1": 0.5291314373558801,
+      "normal_damage": 0.06439393939393939,
+      "errors": 3696,
+      "normal": 1584,
+      "changes": 2809,
+      "exact": 1721,
+      "damaged": 102,
+      "detection_AUC": 0.8340097402597402
+    },
+    "downstream": {
+      "R2": 0.6978702232744134,
+      "MAE": 7.075406482390603
+    },
+    "receipt": {
+      "arm": "no_final_gate",
+      "seconds": 65.2821945771575,
+      "rows": 660,
+      "changed_cells": 2809,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1013/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1013",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/concrete",
+      "old_input_freeze_sha256": "a18cfd2b77bbde170abba0863242289dd402dd20d934790bd741518ec3acfba8",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_feedback",
+    "repair": {
+      "P": 0.9676290463692039,
+      "R": 0.29924242424242425,
+      "F1": 0.457119239512296,
+      "normal_damage": 0.005681818181818182,
+      "errors": 3696,
+      "normal": 1584,
+      "changes": 1143,
+      "exact": 1106,
+      "damaged": 9,
+      "detection_AUC": 0.6505681818181819
+    },
+    "downstream": {
+      "R2": 0.7699963983466016,
+      "MAE": 6.0111945062777234
+    },
+    "receipt": {
+      "arm": "no_feedback",
+      "seconds": 65.22942565474659,
+      "rows": 660,
+      "changed_cells": 1143,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1013/work/no_feedback/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1013",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/concrete",
+      "old_input_freeze_sha256": "a18cfd2b77bbde170abba0863242289dd402dd20d934790bd741518ec3acfba8",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_predictive_context",
+    "repair": {
+      "P": 0.9618181818181818,
+      "R": 0.28625541125541126,
+      "F1": 0.4412010008340284,
+      "normal_damage": 0.006313131313131313,
+      "errors": 3696,
+      "normal": 1584,
+      "changes": 1100,
+      "exact": 1058,
+      "damaged": 10,
+      "detection_AUC": 0.6443001443001443
+    },
+    "downstream": {
+      "R2": 0.7565834566631885,
+      "MAE": 6.347953476301297
+    },
+    "receipt": {
+      "arm": "no_predictive_context",
+      "seconds": 63.569692647084594,
+      "rows": 660,
+      "changed_cells": 1100,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1013/work/no_predictive_context/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1014",
+    "dataset": "car_evaluation",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/car_evaluation",
+      "old_input_freeze_sha256": "912330b0051a117443ce0920f175f3b506f82de2ea42b4a2846b7f0999591712",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9697754749568221,
+      "R": 0.483634797588286,
+      "F1": 0.6454022988505748,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2246,
+      "damaged": 0,
+      "detection_AUC": 0.7493540051679587
+    },
+    "downstream": {
+      "macro_F1": 0.5395643782740557,
+      "AUC": 0.9345969328595322,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 55.33851121808402,
+      "rows": 1106,
+      "changed_cells": 2316,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1014/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1014",
+    "dataset": "car_evaluation",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/car_evaluation",
+      "old_input_freeze_sha256": "912330b0051a117443ce0920f175f3b506f82de2ea42b4a2846b7f0999591712",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9697754749568221,
+      "R": 0.483634797588286,
+      "F1": 0.6454022988505748,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2246,
+      "damaged": 0,
+      "detection_AUC": 0.7493540051679587
+    },
+    "downstream": {
+      "macro_F1": 0.5395643782740557,
+      "AUC": 0.9345969328595322,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 56.346570123918355,
+      "rows": 1106,
+      "changed_cells": 2316,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1014/work/no_llm/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1014",
+    "dataset": "car_evaluation",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/car_evaluation",
+      "old_input_freeze_sha256": "912330b0051a117443ce0920f175f3b506f82de2ea42b4a2846b7f0999591712",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_transforms",
+    "repair": {
+      "P": 0.7380952380952381,
+      "R": 0.3537898363479759,
+      "F1": 0.478311499272198,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2226,
+      "exact": 1643,
+      "damaged": 0,
+      "detection_AUC": 0.7396640826873385
+    },
+    "downstream": {
+      "macro_F1": 0.430331974373908,
+      "AUC": 0.9111317926370657,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_transforms",
+      "seconds": 13.521064826985821,
+      "rows": 1106,
+      "changed_cells": 2226,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1014/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1014",
+    "dataset": "car_evaluation",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/car_evaluation",
+      "old_input_freeze_sha256": "912330b0051a117443ce0920f175f3b506f82de2ea42b4a2846b7f0999591712",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_generated_execution",
+    "repair": {
+      "P": 0.9697754749568221,
+      "R": 0.483634797588286,
+      "F1": 0.6454022988505748,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2246,
+      "damaged": 0,
+      "detection_AUC": 0.7493540051679587
+    },
+    "downstream": {
+      "macro_F1": 0.5395643782740557,
+      "AUC": 0.9345969328595322,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_generated_execution",
+      "seconds": 56.29253034712747,
+      "rows": 1106,
+      "changed_cells": 2316,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1014/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1014",
+    "dataset": "car_evaluation",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/car_evaluation",
+      "old_input_freeze_sha256": "912330b0051a117443ce0920f175f3b506f82de2ea42b4a2846b7f0999591712",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_final_gate",
+    "repair": {
+      "P": 0.7474137931034482,
+      "R": 0.560077519379845,
+      "F1": 0.6403249630723782,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 3480,
+      "exact": 2601,
+      "damaged": 0,
+      "detection_AUC": 0.8746770025839794
+    },
+    "downstream": {
+      "macro_F1": 0.4411840411840412,
+      "AUC": 0.923303809609968,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_final_gate",
+      "seconds": 55.36192827695049,
+      "rows": 1106,
+      "changed_cells": 3480,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1014/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1014",
+    "dataset": "car_evaluation",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/car_evaluation",
+      "old_input_freeze_sha256": "912330b0051a117443ce0920f175f3b506f82de2ea42b4a2846b7f0999591712",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_feedback",
+    "repair": {
+      "P": 0.9697754749568221,
+      "R": 0.483634797588286,
+      "F1": 0.6454022988505748,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2246,
+      "damaged": 0,
+      "detection_AUC": 0.7493540051679587
+    },
+    "downstream": {
+      "macro_F1": 0.5395643782740557,
+      "AUC": 0.9345969328595322,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_feedback",
+      "seconds": 56.085962384939194,
+      "rows": 1106,
+      "changed_cells": 2316,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1014/work/no_feedback/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1014",
+    "dataset": "car_evaluation",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/car_evaluation",
+      "old_input_freeze_sha256": "912330b0051a117443ce0920f175f3b506f82de2ea42b4a2846b7f0999591712",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_predictive_context",
+    "repair": {
+      "P": 1.0,
+      "R": 0.49870801033591733,
+      "F1": 0.6655172413793103,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2316,
+      "damaged": 0,
+      "detection_AUC": 0.7493540051679587
+    },
+    "downstream": {
+      "macro_F1": 0.4956825257471544,
+      "AUC": 0.9372313359232805,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_predictive_context",
+      "seconds": 51.655804296024144,
+      "rows": 1106,
+      "changed_cells": 2316,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1014/work/no_predictive_context/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1014",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/concrete",
+      "old_input_freeze_sha256": "5d7e876cb26bf0e6593aa46040cd6eed8ab83103eeede7bce7d4befd0d6679f4",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9956803455723542,
+      "R": 0.24892008639308855,
+      "F1": 0.3982721382289417,
+      "normal_damage": 0.0,
+      "errors": 3704,
+      "normal": 1584,
+      "changes": 926,
+      "exact": 922,
+      "damaged": 0,
+      "detection_AUC": 0.625
+    },
+    "downstream": {
+      "R2": 0.7815137638918047,
+      "MAE": 5.871865077376458
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 66.4925593053922,
+      "rows": 661,
+      "changed_cells": 926,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1014/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1014",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/concrete",
+      "old_input_freeze_sha256": "5d7e876cb26bf0e6593aa46040cd6eed8ab83103eeede7bce7d4befd0d6679f4",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9956803455723542,
+      "R": 0.24892008639308855,
+      "F1": 0.3982721382289417,
+      "normal_damage": 0.0,
+      "errors": 3704,
+      "normal": 1584,
+      "changes": 926,
+      "exact": 922,
+      "damaged": 0,
+      "detection_AUC": 0.625
+    },
+    "downstream": {
+      "R2": 0.7815137638918047,
+      "MAE": 5.871865077376458
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 67.02495557069778,
+      "rows": 661,
+      "changed_cells": 926,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1014/work/no_llm/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1014",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/concrete",
+      "old_input_freeze_sha256": "5d7e876cb26bf0e6593aa46040cd6eed8ab83103eeede7bce7d4befd0d6679f4",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_transforms",
+    "repair": {
+      "P": 0.950354609929078,
+      "R": 0.036177105831533475,
+      "F1": 0.06970091027308192,
+      "normal_damage": 0.0,
+      "errors": 3704,
+      "normal": 1584,
+      "changes": 141,
+      "exact": 134,
+      "damaged": 0,
+      "detection_AUC": 0.5190334773218143
+    },
+    "downstream": {
+      "R2": 0.7392477607961468,
+      "MAE": 6.721077919101116
+    },
+    "receipt": {
+      "arm": "no_transforms",
+      "seconds": 20.766718352213502,
+      "rows": 661,
+      "changed_cells": 141,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1014/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1014",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/concrete",
+      "old_input_freeze_sha256": "5d7e876cb26bf0e6593aa46040cd6eed8ab83103eeede7bce7d4befd0d6679f4",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_generated_execution",
+    "repair": {
+      "P": 0.9956803455723542,
+      "R": 0.24892008639308855,
+      "F1": 0.3982721382289417,
+      "normal_damage": 0.0,
+      "errors": 3704,
+      "normal": 1584,
+      "changes": 926,
+      "exact": 922,
+      "damaged": 0,
+      "detection_AUC": 0.625
+    },
+    "downstream": {
+      "R2": 0.7815137638918047,
+      "MAE": 5.871865077376458
+    },
+    "receipt": {
+      "arm": "no_generated_execution",
+      "seconds": 67.63258354458958,
+      "rows": 661,
+      "changed_cells": 926,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1014/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1014",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/concrete",
+      "old_input_freeze_sha256": "5d7e876cb26bf0e6593aa46040cd6eed8ab83103eeede7bce7d4befd0d6679f4",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_final_gate",
+    "repair": {
+      "P": 0.5383606557377049,
+      "R": 0.44330453563714906,
+      "F1": 0.4862303819958543,
+      "normal_damage": 0.04924242424242424,
+      "errors": 3704,
+      "normal": 1584,
+      "changes": 3050,
+      "exact": 1642,
+      "damaged": 78,
+      "detection_AUC": 0.8765666928463904
+    },
+    "downstream": {
+      "R2": 0.6608617767256862,
+      "MAE": 7.487258255883056
+    },
+    "receipt": {
+      "arm": "no_final_gate",
+      "seconds": 67.39186084084213,
+      "rows": 661,
+      "changed_cells": 3050,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1014/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1014",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/concrete",
+      "old_input_freeze_sha256": "5d7e876cb26bf0e6593aa46040cd6eed8ab83103eeede7bce7d4befd0d6679f4",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_feedback",
+    "repair": {
+      "P": 0.9956803455723542,
+      "R": 0.24892008639308855,
+      "F1": 0.3982721382289417,
+      "normal_damage": 0.0,
+      "errors": 3704,
+      "normal": 1584,
+      "changes": 926,
+      "exact": 922,
+      "damaged": 0,
+      "detection_AUC": 0.625
+    },
+    "downstream": {
+      "R2": 0.7815137638918047,
+      "MAE": 5.871865077376458
+    },
+    "receipt": {
+      "arm": "no_feedback",
+      "seconds": 66.9649389795959,
+      "rows": 661,
+      "changed_cells": 926,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1014/work/no_feedback/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1014",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/concrete",
+      "old_input_freeze_sha256": "5d7e876cb26bf0e6593aa46040cd6eed8ab83103eeede7bce7d4befd0d6679f4",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_predictive_context",
+    "repair": {
+      "P": 0.9929718875502008,
+      "R": 0.26700863930885527,
+      "F1": 0.42085106382978726,
+      "normal_damage": 0.0,
+      "errors": 3704,
+      "normal": 1584,
+      "changes": 996,
+      "exact": 989,
+      "damaged": 0,
+      "detection_AUC": 0.6344492440604752
+    },
+    "downstream": {
+      "R2": 0.7764653348477706,
+      "MAE": 6.054065053734354
+    },
+    "receipt": {
+      "arm": "no_predictive_context",
+      "seconds": 63.46340105496347,
+      "rows": 661,
+      "changed_cells": 996,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1014/work/no_predictive_context/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1015",
+    "dataset": "car_evaluation",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/car_evaluation",
+      "old_input_freeze_sha256": "402d0eb864705d6f25798f20874f2c95518010b5f0d3e916f8e39ff20faa6533",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9780405405405406,
+      "R": 0.49870801033591733,
+      "F1": 0.6605818596691386,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2368,
+      "exact": 2316,
+      "damaged": 0,
+      "detection_AUC": 0.7549526270456504
+    },
+    "downstream": {
+      "macro_F1": 0.4330471276503908,
+      "AUC": 0.9224822490584018,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 50.469169123098254,
+      "rows": 1106,
+      "changed_cells": 2368,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1015",
+    "dataset": "car_evaluation",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/car_evaluation",
+      "old_input_freeze_sha256": "402d0eb864705d6f25798f20874f2c95518010b5f0d3e916f8e39ff20faa6533",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9780405405405406,
+      "R": 0.49870801033591733,
+      "F1": 0.6605818596691386,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2368,
+      "exact": 2316,
+      "damaged": 0,
+      "detection_AUC": 0.7549526270456504
+    },
+    "downstream": {
+      "macro_F1": 0.4330471276503908,
+      "AUC": 0.9224822490584018,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 50.63745495118201,
+      "rows": 1106,
+      "changed_cells": 2368,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1015/work/no_llm/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1015",
+    "dataset": "car_evaluation",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/car_evaluation",
+      "old_input_freeze_sha256": "402d0eb864705d6f25798f20874f2c95518010b5f0d3e916f8e39ff20faa6533",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_transforms",
+    "repair": {
+      "P": 0.7366255144032922,
+      "R": 0.34689922480620156,
+      "F1": 0.47167325428194995,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2187,
+      "exact": 1611,
+      "damaged": 0,
+      "detection_AUC": 0.7354651162790697
+    },
+    "downstream": {
+      "macro_F1": 0.4023802001053186,
+      "AUC": 0.8394966562838646,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_transforms",
+      "seconds": 12.47563716582954,
+      "rows": 1106,
+      "changed_cells": 2187,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1015",
+    "dataset": "car_evaluation",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/car_evaluation",
+      "old_input_freeze_sha256": "402d0eb864705d6f25798f20874f2c95518010b5f0d3e916f8e39ff20faa6533",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_generated_execution",
+    "repair": {
+      "P": 0.9780405405405406,
+      "R": 0.49870801033591733,
+      "F1": 0.6605818596691386,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2368,
+      "exact": 2316,
+      "damaged": 0,
+      "detection_AUC": 0.7549526270456504
+    },
+    "downstream": {
+      "macro_F1": 0.4330471276503908,
+      "AUC": 0.9224822490584018,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_generated_execution",
+      "seconds": 50.986667573451996,
+      "rows": 1106,
+      "changed_cells": 2368,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1015",
+    "dataset": "car_evaluation",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/car_evaluation",
+      "old_input_freeze_sha256": "402d0eb864705d6f25798f20874f2c95518010b5f0d3e916f8e39ff20faa6533",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_final_gate",
+    "repair": {
+      "P": 0.7878971255673223,
+      "R": 0.5607235142118863,
+      "F1": 0.6551767517926782,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 3305,
+      "exact": 2604,
+      "damaged": 0,
+      "detection_AUC": 0.8558354866494402
+    },
+    "downstream": {
+      "macro_F1": 0.40481817049629487,
+      "AUC": 0.9146458309739619,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_final_gate",
+      "seconds": 50.34138393867761,
+      "rows": 1106,
+      "changed_cells": 3305,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1015",
+    "dataset": "car_evaluation",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/car_evaluation",
+      "old_input_freeze_sha256": "402d0eb864705d6f25798f20874f2c95518010b5f0d3e916f8e39ff20faa6533",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_feedback",
+    "repair": {
+      "P": 0.9780405405405406,
+      "R": 0.49870801033591733,
+      "F1": 0.6605818596691386,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2368,
+      "exact": 2316,
+      "damaged": 0,
+      "detection_AUC": 0.7549526270456504
+    },
+    "downstream": {
+      "macro_F1": 0.4330471276503908,
+      "AUC": 0.9224822490584018,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_feedback",
+      "seconds": 50.880241801030934,
+      "rows": 1106,
+      "changed_cells": 2368,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1015/work/no_feedback/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_car_evaluation_s1015",
+    "dataset": "car_evaluation",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/car_evaluation",
+      "old_input_freeze_sha256": "402d0eb864705d6f25798f20874f2c95518010b5f0d3e916f8e39ff20faa6533",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_predictive_context",
+    "repair": {
+      "P": 1.0,
+      "R": 0.49870801033591733,
+      "F1": 0.6655172413793103,
+      "normal_damage": 0.0,
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2316,
+      "damaged": 0,
+      "detection_AUC": 0.7493540051679587
+    },
+    "downstream": {
+      "macro_F1": 0.4756748412138321,
+      "AUC": 0.9087254888709577,
+      "AUC_unavailable_reason": null
+    },
+    "receipt": {
+      "arm": "no_predictive_context",
+      "seconds": 46.99691395275295,
+      "rows": 1106,
+      "changed_cells": 2316,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_car_evaluation_s1015/work/no_predictive_context/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1015",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/concrete",
+      "old_input_freeze_sha256": "3abde671e50d4d6d6579fc31c8ced76b2dbe3fc2f431030916d179e590e6d18a",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9791516894320632,
+      "R": 0.3645610278372591,
+      "F1": 0.5313048566413108,
+      "normal_damage": 0.001875,
+      "errors": 3736,
+      "normal": 1600,
+      "changes": 1391,
+      "exact": 1362,
+      "damaged": 3,
+      "detection_AUC": 0.6848226713062098
+    },
+    "downstream": {
+      "R2": 0.7738476402932113,
+      "MAE": 5.8439620785698265
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 76.73893747688271,
+      "rows": 667,
+      "changed_cells": 1391,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1015",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/concrete",
+      "old_input_freeze_sha256": "3abde671e50d4d6d6579fc31c8ced76b2dbe3fc2f431030916d179e590e6d18a",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_llm",
+    "repair": {
+      "P": 0.9799537393986122,
+      "R": 0.340203426124197,
+      "F1": 0.505066560699384,
+      "normal_damage": 0.001875,
+      "errors": 3736,
+      "normal": 1600,
+      "changes": 1297,
+      "exact": 1271,
+      "damaged": 3,
+      "detection_AUC": 0.6722423715203426
+    },
+    "downstream": {
+      "R2": 0.7771960231731728,
+      "MAE": 5.887551815197149
+    },
+    "receipt": {
+      "arm": "no_llm",
+      "seconds": 75.70336999511346,
+      "rows": 667,
+      "changed_cells": 1297,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1015/work/no_llm/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1015",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/concrete",
+      "old_input_freeze_sha256": "3abde671e50d4d6d6579fc31c8ced76b2dbe3fc2f431030916d179e590e6d18a",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_transforms",
+    "repair": {
+      "P": 0.8890577507598785,
+      "R": 0.15658458244111348,
+      "F1": 0.2662721893491124,
+      "normal_damage": 0.00125,
+      "errors": 3736,
+      "normal": 1600,
+      "changes": 658,
+      "exact": 585,
+      "damaged": 2,
+      "detection_AUC": 0.5871694325481799
+    },
+    "downstream": {
+      "R2": 0.6770101916725052,
+      "MAE": 6.879055962072867
+    },
+    "receipt": {
+      "arm": "no_transforms",
+      "seconds": 22.216718354960904,
+      "rows": 667,
+      "changed_cells": 658,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1015",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/concrete",
+      "old_input_freeze_sha256": "3abde671e50d4d6d6579fc31c8ced76b2dbe3fc2f431030916d179e590e6d18a",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_generated_execution",
+    "repair": {
+      "P": 0.9799537393986122,
+      "R": 0.340203426124197,
+      "F1": 0.505066560699384,
+      "normal_damage": 0.001875,
+      "errors": 3736,
+      "normal": 1600,
+      "changes": 1297,
+      "exact": 1271,
+      "damaged": 3,
+      "detection_AUC": 0.6722423715203426
+    },
+    "downstream": {
+      "R2": 0.7771960231731728,
+      "MAE": 5.887551815197149
+    },
+    "receipt": {
+      "arm": "no_generated_execution",
+      "seconds": 74.60597114101984,
+      "rows": 667,
+      "changed_cells": 1297,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1015",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/concrete",
+      "old_input_freeze_sha256": "3abde671e50d4d6d6579fc31c8ced76b2dbe3fc2f431030916d179e590e6d18a",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_final_gate",
+    "repair": {
+      "P": 0.5359013867488444,
+      "R": 0.4654710920770878,
+      "F1": 0.4982094255837272,
+      "normal_damage": 0.035625,
+      "errors": 3736,
+      "normal": 1600,
+      "changes": 3245,
+      "exact": 1739,
+      "damaged": 57,
+      "detection_AUC": 0.9088470289079229
+    },
+    "downstream": {
+      "R2": 0.6682329358621337,
+      "MAE": 7.268620013688745
+    },
+    "receipt": {
+      "arm": "no_final_gate",
+      "seconds": 78.91585280699655,
+      "rows": 667,
+      "changed_cells": 3245,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1015",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/concrete",
+      "old_input_freeze_sha256": "3abde671e50d4d6d6579fc31c8ced76b2dbe3fc2f431030916d179e590e6d18a",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_feedback",
+    "repair": {
+      "P": 0.9797395079594791,
+      "R": 0.3624197002141328,
+      "F1": 0.5291129347401329,
+      "normal_damage": 0.001875,
+      "errors": 3736,
+      "normal": 1600,
+      "changes": 1382,
+      "exact": 1354,
+      "damaged": 3,
+      "detection_AUC": 0.6836181745182013
+    },
+    "downstream": {
+      "R2": 0.7717189176924566,
+      "MAE": 5.790905958121415
+    },
+    "receipt": {
+      "arm": "no_feedback",
+      "seconds": 76.30770574486814,
+      "rows": 667,
+      "changed_cells": 1382,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1015/work/no_feedback/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1015",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/concrete",
+      "old_input_freeze_sha256": "3abde671e50d4d6d6579fc31c8ced76b2dbe3fc2f431030916d179e590e6d18a",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "no_predictive_context",
+    "repair": {
+      "P": 0.9635958395245171,
+      "R": 0.3471627408993576,
+      "F1": 0.5104289649744196,
+      "normal_damage": 0.00375,
+      "errors": 3736,
+      "normal": 1600,
+      "changes": 1346,
+      "exact": 1297,
+      "damaged": 6,
+      "detection_AUC": 0.6774611884368309
+    },
+    "downstream": {
+      "R2": 0.7902234190369923,
+      "MAE": 5.863953304280608
+    },
+    "receipt": {
+      "arm": "no_predictive_context",
+      "seconds": 72.94268776406534,
+      "rows": 667,
+      "changed_cells": 1346,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1015/work/no_predictive_context/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "natural_hospital_s1015",
+    "dataset": "hospital",
+    "seed": 1015,
+    "suite": "natural",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "dirty_sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a",
+      "reference_sha256": "043b1300091d447a48cc9e78c71a64925b2b3cbff624df436cec416afe6199cc",
+      "group_key": "ProviderNumber",
+      "natural_no_new_pollution": true,
+      "unsupported_target_columns": []
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.8627450980392157,
+      "R": 0.29333333333333333,
+      "F1": 0.4378109452736318,
+      "normal_damage": 0.00130718954248366,
+      "errors": 150,
+      "normal": 5355,
+      "changes": 51,
+      "exact": 44,
+      "damaged": 7,
+      "detection_AUC": 0.6460130718954249
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "full",
+      "seconds": 24.31183455232531,
+      "rows": 346,
+      "changed_cells": 51,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "natural_hospital_s1015",
+    "dataset": "hospital",
+    "seed": 1015,
+    "suite": "natural",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "dirty_sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a",
+      "reference_sha256": "043b1300091d447a48cc9e78c71a64925b2b3cbff624df436cec416afe6199cc",
+      "group_key": "ProviderNumber",
+      "natural_no_new_pollution": true,
+      "unsupported_target_columns": []
+    },
+    "arm": "no_final_gate",
+    "repair": {
+      "P": 0.2975778546712803,
+      "R": 0.5733333333333334,
+      "F1": 0.39179954441913445,
+      "normal_damage": 0.030625583566760036,
+      "errors": 150,
+      "normal": 5355,
+      "changes": 289,
+      "exact": 86,
+      "damaged": 164,
+      "detection_AUC": 0.9013538748832868
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "no_final_gate",
+      "seconds": 24.440576400607824,
+      "rows": 346,
+      "changed_cells": 289,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "natural_hospital_s1015",
+    "dataset": "hospital",
+    "seed": 1015,
+    "suite": "natural",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "dirty_sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a",
+      "reference_sha256": "043b1300091d447a48cc9e78c71a64925b2b3cbff624df436cec416afe6199cc",
+      "group_key": "ProviderNumber",
+      "natural_no_new_pollution": true,
+      "unsupported_target_columns": []
+    },
+    "arm": "tabclean",
+    "repair": {
+      "P": 0.7216494845360825,
+      "R": 0.4666666666666667,
+      "F1": 0.5668016194331984,
+      "normal_damage": 0.0,
+      "errors": 150,
+      "normal": 5355,
+      "changes": 97,
+      "exact": 70,
+      "damaged": 0,
+      "detection_AUC": 0.8233333333333333
+    },
+    "downstream": null,
+    "receipt": {
+      "seconds": 1073.7860009428114,
+      "calls": 17,
+      "seed": 1015,
+      "same_model_adaptation_not_original_GPT_result": true,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p1_mixed",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.1,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.1571969696969697,
+      "F1": 0.27168576104746317,
+      "normal_damage": 0.0,
+      "errors": 528,
+      "normal": 4752,
+      "changes": 83,
+      "exact": 83,
+      "damaged": 0,
+      "detection_AUC": 0.5785984848484849
+    },
+    "downstream": {
+      "R2": 0.8871951294815958,
+      "MAE": 3.9606001853640995
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 82.27578275464475,
+      "rows": 660,
+      "changed_cells": 83,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p1_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p3_mixed",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9468599033816425,
+      "R": 0.3712121212121212,
+      "F1": 0.5333333333333332,
+      "normal_damage": 0.003787878787878788,
+      "errors": 1584,
+      "normal": 3696,
+      "changes": 621,
+      "exact": 588,
+      "damaged": 14,
+      "detection_AUC": 0.6897095959595959
+    },
+    "downstream": {
+      "R2": 0.8495075159289254,
+      "MAE": 4.891234615164971
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 82.65091256913729,
+      "rows": 660,
+      "changed_cells": 621,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p3_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p5_mixed",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.5,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9490909090909091,
+      "R": 0.39545454545454545,
+      "F1": 0.558288770053476,
+      "normal_damage": 0.0030303030303030303,
+      "errors": 2640,
+      "normal": 2640,
+      "changes": 1100,
+      "exact": 1044,
+      "damaged": 8,
+      "detection_AUC": 0.7053030303030303
+    },
+    "downstream": {
+      "R2": 0.8390168579745625,
+      "MAE": 5.038090863007265
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 71.80798662360758,
+      "rows": 660,
+      "changed_cells": 1100,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p5_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p3_blank",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "blank",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.0925,
+      "F1": 0.16933638443935925,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4880,
+      "changes": 37,
+      "exact": 37,
+      "damaged": 0,
+      "detection_AUC": 0.54625
+    },
+    "downstream": {
+      "R2": 0.8617154500801778,
+      "MAE": 4.249931227265652
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 23.425482590682805,
+      "rows": 660,
+      "changed_cells": 37,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p3_blank/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p3_digit",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "digit",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.8064516129032258,
+      "R": 0.125,
+      "F1": 0.21645021645021645,
+      "normal_damage": 0.0006147540983606558,
+      "errors": 400,
+      "normal": 4880,
+      "changes": 62,
+      "exact": 50,
+      "damaged": 3,
+      "detection_AUC": 0.5734426229508196
+    },
+    "downstream": {
+      "R2": 0.8945768106217645,
+      "MAE": 3.6768194035358674
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 85.62134591303766,
+      "rows": 660,
+      "changed_cells": 62,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p3_digit/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p3_scale",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "scale",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.94,
+      "F1": 0.9690721649484536,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4880,
+      "changes": 376,
+      "exact": 376,
+      "damaged": 0,
+      "detection_AUC": 0.97
+    },
+    "downstream": {
+      "R2": 0.8922227603066051,
+      "MAE": 3.893364735296497
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 89.94098742678761,
+      "rows": 660,
+      "changed_cells": 376,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p3_scale/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p3_affix",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "affix",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.255,
+      "F1": 0.4063745019920319,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4880,
+      "changes": 102,
+      "exact": 102,
+      "damaged": 0,
+      "detection_AUC": 0.6275
+    },
+    "downstream": {
+      "R2": 0.8844099251234359,
+      "MAE": 3.8464823818779283
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 23.718815586529672,
+      "rows": 660,
+      "changed_cells": 102,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p3_affix/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p1_mixed",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.1,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9669421487603306,
+      "R": 0.2215909090909091,
+      "F1": 0.3605546995377504,
+      "normal_damage": 0.0,
+      "errors": 528,
+      "normal": 4760,
+      "changes": 121,
+      "exact": 117,
+      "damaged": 0,
+      "detection_AUC": 0.6145833333333334
+    },
+    "downstream": {
+      "R2": 0.9041963831219946,
+      "MAE": 3.8144546006333284
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 86.23241298086941,
+      "rows": 661,
+      "changed_cells": 121,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p1_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p3_mixed",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9851851851851852,
+      "R": 0.2518939393939394,
+      "F1": 0.4012066365007541,
+      "normal_damage": 0.0,
+      "errors": 1584,
+      "normal": 3704,
+      "changes": 405,
+      "exact": 399,
+      "damaged": 0,
+      "detection_AUC": 0.6278409090909091
+    },
+    "downstream": {
+      "R2": 0.8613810986529958,
+      "MAE": 4.55655362324044
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 75.91661641187966,
+      "rows": 661,
+      "changed_cells": 405,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p3_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p5_mixed",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.5,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9970059880239521,
+      "R": 0.25227272727272726,
+      "F1": 0.4026602176541717,
+      "normal_damage": 0.0007552870090634441,
+      "errors": 2640,
+      "normal": 2648,
+      "changes": 668,
+      "exact": 666,
+      "damaged": 2,
+      "detection_AUC": 0.6257587201318319
+    },
+    "downstream": {
+      "R2": 0.828111626679921,
+      "MAE": 5.171710813892137
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 79.75672659208067,
+      "rows": 661,
+      "changed_cells": 668,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p5_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p3_blank",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "blank",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9743589743589743,
+      "R": 0.095,
+      "F1": 0.17312072892938496,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4888,
+      "changes": 39,
+      "exact": 38,
+      "damaged": 0,
+      "detection_AUC": 0.54875
+    },
+    "downstream": {
+      "R2": 0.9104386201113415,
+      "MAE": 3.696174742994859
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 26.044373244978487,
+      "rows": 661,
+      "changed_cells": 39,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p3_blank/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p3_digit",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "digit",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.8431372549019608,
+      "R": 0.1075,
+      "F1": 0.19068736141906872,
+      "normal_damage": 0.0012274959083469722,
+      "errors": 400,
+      "normal": 4888,
+      "changes": 51,
+      "exact": 43,
+      "damaged": 6,
+      "detection_AUC": 0.5556362520458266
+    },
+    "downstream": {
+      "R2": 0.8984609353478908,
+      "MAE": 3.9794949463771063
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 77.57566237822175,
+      "rows": 661,
+      "changed_cells": 51,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p3_digit/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p3_scale",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "scale",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.925,
+      "F1": 0.961038961038961,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4888,
+      "changes": 370,
+      "exact": 370,
+      "damaged": 0,
+      "detection_AUC": 0.9625
+    },
+    "downstream": {
+      "R2": 0.9265004278885478,
+      "MAE": 3.254401194675952
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 104.56875381991267,
+      "rows": 661,
+      "changed_cells": 370,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p3_scale/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p3_affix",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "affix",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.1275,
+      "F1": 0.2261640798226164,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4888,
+      "changes": 51,
+      "exact": 51,
+      "damaged": 0,
+      "detection_AUC": 0.56375
+    },
+    "downstream": {
+      "R2": 0.9006221645581359,
+      "MAE": 3.8945906166612034
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 25.53171606734395,
+      "rows": 661,
+      "changed_cells": 51,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p3_affix/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p1_mixed",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.1,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.1921641791044776,
+      "F1": 0.3223787167449139,
+      "normal_damage": 0.0,
+      "errors": 536,
+      "normal": 4800,
+      "changes": 103,
+      "exact": 103,
+      "damaged": 0,
+      "detection_AUC": 0.5960820895522388
+    },
+    "downstream": {
+      "R2": 0.847350440141187,
+      "MAE": 4.6861223263737815
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 86.69630972691812,
+      "rows": 667,
+      "changed_cells": 103,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p1_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p3_mixed",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9781746031746031,
+      "R": 0.308125,
+      "F1": 0.46863117870722426,
+      "normal_damage": 0.0002676659528907923,
+      "errors": 1600,
+      "normal": 3736,
+      "changes": 504,
+      "exact": 493,
+      "damaged": 1,
+      "detection_AUC": 0.6570536670235546
+    },
+    "downstream": {
+      "R2": 0.8278257422989833,
+      "MAE": 4.982469880335586
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 75.35095911379904,
+      "rows": 667,
+      "changed_cells": 504,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p3_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p5_mixed",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.5,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9926918392204629,
+      "R": 0.30501497005988026,
+      "F1": 0.4666475808760378,
+      "normal_damage": 0.0,
+      "errors": 2672,
+      "normal": 2664,
+      "changes": 821,
+      "exact": 815,
+      "damaged": 0,
+      "detection_AUC": 0.6536302395209581
+    },
+    "downstream": {
+      "R2": 0.802533252189484,
+      "MAE": 5.35327290173429
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 68.36205071769655,
+      "rows": 667,
+      "changed_cells": 821,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p5_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p3_blank",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "blank",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9166666666666666,
+      "R": 0.0825,
+      "F1": 0.15137614678899083,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4936,
+      "changes": 36,
+      "exact": 33,
+      "damaged": 0,
+      "detection_AUC": 0.545
+    },
+    "downstream": {
+      "R2": 0.8624594783921409,
+      "MAE": 4.3044206013009205
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 25.66360094305128,
+      "rows": 667,
+      "changed_cells": 36,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p3_blank/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p3_digit",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "digit",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": null,
+      "R": 0.0,
+      "F1": 0.0,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4936,
+      "changes": 0,
+      "exact": 0,
+      "damaged": 0,
+      "detection_AUC": 0.5
+    },
+    "downstream": {
+      "R2": 0.8658099141318706,
+      "MAE": 4.287881199146233
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 73.8340670876205,
+      "rows": 667,
+      "changed_cells": 0,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p3_digit/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p3_scale",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "scale",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9747191011235955,
+      "R": 0.8675,
+      "F1": 0.917989417989418,
+      "normal_damage": 0.0018233387358184765,
+      "errors": 400,
+      "normal": 4936,
+      "changes": 356,
+      "exact": 347,
+      "damaged": 9,
+      "detection_AUC": 0.9328383306320909
+    },
+    "downstream": {
+      "R2": 0.8715863739297215,
+      "MAE": 4.163422633959442
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 90.23270207736641,
+      "rows": 667,
+      "changed_cells": 356,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p3_scale/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p3_affix",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "affix",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.19,
+      "F1": 0.319327731092437,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4936,
+      "changes": 76,
+      "exact": 76,
+      "damaged": 0,
+      "detection_AUC": 0.595
+    },
+    "downstream": {
+      "R2": 0.8621146485446558,
+      "MAE": 4.254872945561019
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 25.704062242992222,
+      "rows": 667,
+      "changed_cells": 76,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p3_affix/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  }
+]

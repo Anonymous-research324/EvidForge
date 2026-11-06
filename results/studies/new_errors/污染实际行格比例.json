@@ -1,0 +1,7481 @@
+[
+  {
+    "id": "original_digit_transposition_spectf_s7013",
+    "dataset": "spectf",
+    "seed": 7013,
+    "profile": "digit_transposition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "classification",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 970,
+        "actual_changed_cells": 296,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.30515463917525776,
+        "all_target_cell_rate": 0.24915824915824916,
+        "per_field": {
+          "feature_01": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_02": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_03": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_04": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_05": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_06": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_07": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_08": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_09": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_10": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_11": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_12": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_13": {
+            "eligible": 17,
+            "changed": 5
+          },
+          "feature_14": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_16": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_17": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_18": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_20": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_21": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_23": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_24": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_25": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_26": {
+            "eligible": 26,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_28": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_29": {
+            "eligible": 26,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_31": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_32": {
+            "eligible": 18,
+            "changed": 5
+          },
+          "feature_33": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_34": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_35": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_36": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_37": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_38": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_39": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_40": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_41": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_42": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_43": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_44": {
+            "eligible": 22,
+            "changed": 7
+          }
+        }
+      },
+      "validation": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 968,
+        "actual_changed_cells": 292,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.30165289256198347,
+        "all_target_cell_rate": 0.24579124579124578,
+        "per_field": {
+          "feature_01": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_02": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_03": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_04": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_05": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_06": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_07": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_08": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_09": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_10": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_11": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_12": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_13": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_14": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_15": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_16": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_17": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_18": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_19": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_20": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_21": {
+            "eligible": 18,
+            "changed": 5
+          },
+          "feature_22": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_23": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_24": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_25": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_27": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_28": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_29": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_31": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_32": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_33": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_34": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_35": {
+            "eligible": 18,
+            "changed": 5
+          },
+          "feature_36": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_37": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_38": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_39": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_40": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_41": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_42": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_44": {
+            "eligible": 24,
+            "changed": 7
+          }
+        }
+      },
+      "repair": {
+        "rows": 170,
+        "groups": 170,
+        "eligible_cells": 6060,
+        "actual_changed_cells": 1819,
+        "target_cells": 7480,
+        "eligible_cell_rate": 0.3001650165016502,
+        "all_target_cell_rate": 0.2431818181818182,
+        "per_field": {
+          "feature_01": {
+            "eligible": 144,
+            "changed": 43
+          },
+          "feature_02": {
+            "eligible": 126,
+            "changed": 38
+          },
+          "feature_03": {
+            "eligible": 140,
+            "changed": 42
+          },
+          "feature_04": {
+            "eligible": 141,
+            "changed": 42
+          },
+          "feature_05": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_06": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_07": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_08": {
+            "eligible": 136,
+            "changed": 41
+          },
+          "feature_09": {
+            "eligible": 142,
+            "changed": 43
+          },
+          "feature_10": {
+            "eligible": 140,
+            "changed": 42
+          },
+          "feature_11": {
+            "eligible": 131,
+            "changed": 39
+          },
+          "feature_12": {
+            "eligible": 148,
+            "changed": 44
+          },
+          "feature_13": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_14": {
+            "eligible": 135,
+            "changed": 41
+          },
+          "feature_15": {
+            "eligible": 134,
+            "changed": 40
+          },
+          "feature_16": {
+            "eligible": 139,
+            "changed": 42
+          },
+          "feature_17": {
+            "eligible": 138,
+            "changed": 41
+          },
+          "feature_18": {
+            "eligible": 132,
+            "changed": 40
+          },
+          "feature_19": {
+            "eligible": 134,
+            "changed": 40
+          },
+          "feature_20": {
+            "eligible": 137,
+            "changed": 41
+          },
+          "feature_21": {
+            "eligible": 139,
+            "changed": 42
+          },
+          "feature_22": {
+            "eligible": 139,
+            "changed": 42
+          },
+          "feature_23": {
+            "eligible": 136,
+            "changed": 41
+          },
+          "feature_24": {
+            "eligible": 135,
+            "changed": 41
+          },
+          "feature_25": {
+            "eligible": 137,
+            "changed": 41
+          },
+          "feature_26": {
+            "eligible": 132,
+            "changed": 40
+          },
+          "feature_27": {
+            "eligible": 138,
+            "changed": 41
+          },
+          "feature_28": {
+            "eligible": 134,
+            "changed": 40
+          },
+          "feature_29": {
+            "eligible": 141,
+            "changed": 42
+          },
+          "feature_30": {
+            "eligible": 136,
+            "changed": 41
+          },
+          "feature_31": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_32": {
+            "eligible": 141,
+            "changed": 42
+          },
+          "feature_33": {
+            "eligible": 148,
+            "changed": 44
+          },
+          "feature_34": {
+            "eligible": 140,
+            "changed": 42
+          },
+          "feature_35": {
+            "eligible": 127,
+            "changed": 38
+          },
+          "feature_36": {
+            "eligible": 134,
+            "changed": 40
+          },
+          "feature_37": {
+            "eligible": 122,
+            "changed": 37
+          },
+          "feature_38": {
+            "eligible": 146,
+            "changed": 44
+          },
+          "feature_39": {
+            "eligible": 138,
+            "changed": 41
+          },
+          "feature_40": {
+            "eligible": 133,
+            "changed": 40
+          },
+          "feature_41": {
+            "eligible": 136,
+            "changed": 41
+          },
+          "feature_42": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_43": {
+            "eligible": 135,
+            "changed": 41
+          },
+          "feature_44": {
+            "eligible": 131,
+            "changed": 39
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 43,
+    "native_budget": 10,
+    "raw_source_sha": "24409e8bd112d372ec993304f029d61e5d2daa2de091399e2c3f84eed4f021ce",
+    "old_public_roles_sha": "2b822b9e96de141cb7ce590cf673569db8725327c4c152e2f14bd0634cd80565",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_digit_transposition_auto_mpg_s7013",
+    "dataset": "auto_mpg",
+    "seed": 7013,
+    "profile": "digit_transposition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 38,
+        "groups": 30,
+        "eligible_cells": 149,
+        "actual_changed_cells": 45,
+        "target_cells": 266,
+        "eligible_cell_rate": 0.30201342281879195,
+        "all_target_cell_rate": 0.16917293233082706,
+        "per_field": {
+          "feature_01": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_04": {
+            "eligible": 33,
+            "changed": 10
+          },
+          "feature_05": {
+            "eligible": 32,
+            "changed": 10
+          },
+          "feature_06": {
+            "eligible": 33,
+            "changed": 10
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      },
+      "validation": {
+        "rows": 39,
+        "groups": 30,
+        "eligible_cells": 157,
+        "actual_changed_cells": 47,
+        "target_cells": 273,
+        "eligible_cell_rate": 0.29936305732484075,
+        "all_target_cell_rate": 0.17216117216117216,
+        "per_field": {
+          "feature_01": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_02": {
+            "eligible": 31,
+            "changed": 9
+          },
+          "feature_03": {
+            "eligible": 29,
+            "changed": 9
+          },
+          "feature_04": {
+            "eligible": 34,
+            "changed": 10
+          },
+          "feature_05": {
+            "eligible": 36,
+            "changed": 11
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      },
+      "repair": {
+        "rows": 265,
+        "groups": 196,
+        "eligible_cells": 1018,
+        "actual_changed_cells": 305,
+        "target_cells": 1855,
+        "eligible_cell_rate": 0.29960707269155207,
+        "all_target_cell_rate": 0.16442048517520216,
+        "per_field": {
+          "feature_01": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_02": {
+            "eligible": 188,
+            "changed": 56
+          },
+          "feature_03": {
+            "eligible": 173,
+            "changed": 52
+          },
+          "feature_04": {
+            "eligible": 208,
+            "changed": 62
+          },
+          "feature_05": {
+            "eligible": 243,
+            "changed": 73
+          },
+          "feature_06": {
+            "eligible": 206,
+            "changed": 62
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 49,
+    "native_budget": 10,
+    "raw_source_sha": "5fc1507522b73b8050d3aa45df51eefe1b666ae5f428a5f1347b6483339f1003",
+    "old_public_roles_sha": "5856cb7983fb1756e5043633187ae12d57f912e41cb748f1af5f15fd42cad3c6",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_digit_transposition_airfoil_s7013",
+    "dataset": "airfoil",
+    "seed": 7013,
+    "profile": "digit_transposition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 533,
+        "actual_changed_cells": 161,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.30206378986866794,
+        "all_target_cell_rate": 0.21466666666666667,
+        "per_field": {
+          "feature_01": {
+            "eligible": 65,
+            "changed": 20
+          },
+          "feature_02": {
+            "eligible": 80,
+            "changed": 24
+          },
+          "feature_03": {
+            "eligible": 125,
+            "changed": 38
+          },
+          "feature_04": {
+            "eligible": 126,
+            "changed": 38
+          },
+          "feature_05": {
+            "eligible": 137,
+            "changed": 41
+          }
+        }
+      },
+      "validation": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 533,
+        "actual_changed_cells": 160,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.300187617260788,
+        "all_target_cell_rate": 0.21333333333333335,
+        "per_field": {
+          "feature_01": {
+            "eligible": 74,
+            "changed": 22
+          },
+          "feature_02": {
+            "eligible": 87,
+            "changed": 26
+          },
+          "feature_03": {
+            "eligible": 116,
+            "changed": 35
+          },
+          "feature_04": {
+            "eligible": 120,
+            "changed": 36
+          },
+          "feature_05": {
+            "eligible": 136,
+            "changed": 41
+          }
+        }
+      },
+      "repair": {
+        "rows": 963,
+        "groups": 963,
+        "eligible_cells": 3426,
+        "actual_changed_cells": 1027,
+        "target_cells": 4815,
+        "eligible_cell_rate": 0.29976649153531815,
+        "all_target_cell_rate": 0.21329179646936655,
+        "per_field": {
+          "feature_01": {
+            "eligible": 468,
+            "changed": 140
+          },
+          "feature_02": {
+            "eligible": 496,
+            "changed": 149
+          },
+          "feature_03": {
+            "eligible": 788,
+            "changed": 236
+          },
+          "feature_04": {
+            "eligible": 786,
+            "changed": 236
+          },
+          "feature_05": {
+            "eligible": 888,
+            "changed": 266
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 240,
+    "native_budget": 10,
+    "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+    "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_cross_field_addition_spectf_s7013",
+    "dataset": "spectf",
+    "seed": 7013,
+    "profile": "cross_field_addition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "classification",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 1161,
+        "actual_changed_cells": 344,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.2962962962962963,
+        "all_target_cell_rate": 0.2895622895622896,
+        "per_field": {
+          "feature_01": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_04": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_05": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_08": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_09": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_10": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_11": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_12": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_13": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_14": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_16": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_17": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_18": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_20": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_21": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_23": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_24": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_25": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_28": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_29": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_31": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_32": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_33": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_34": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_35": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_36": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_37": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_38": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_39": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_40": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_41": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_42": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_44": {
+            "eligible": 27,
+            "changed": 8
+          }
+        }
+      },
+      "validation": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 1161,
+        "actual_changed_cells": 344,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.2962962962962963,
+        "all_target_cell_rate": 0.2895622895622896,
+        "per_field": {
+          "feature_01": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_04": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_05": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_08": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_09": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_10": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_11": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_12": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_13": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_14": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_16": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_17": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_18": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_20": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_21": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_23": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_24": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_25": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_28": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_29": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_31": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_32": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_33": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_34": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_35": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_36": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_37": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_38": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_39": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_40": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_41": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_42": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_44": {
+            "eligible": 27,
+            "changed": 8
+          }
+        }
+      },
+      "repair": {
+        "rows": 170,
+        "groups": 170,
+        "eligible_cells": 7310,
+        "actual_changed_cells": 2193,
+        "target_cells": 7480,
+        "eligible_cell_rate": 0.3,
+        "all_target_cell_rate": 0.29318181818181815,
+        "per_field": {
+          "feature_01": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_02": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_03": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_04": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_05": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_06": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_07": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_08": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_09": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_10": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_11": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_12": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_13": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_14": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_15": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_16": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_17": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_18": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_19": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_20": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_21": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_22": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_23": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_24": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_25": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_26": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_27": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_28": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_29": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_30": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_31": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_32": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_33": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_34": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_35": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_36": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_37": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_38": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_39": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_40": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_41": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_42": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_43": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_44": {
+            "eligible": 170,
+            "changed": 51
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 43,
+    "native_budget": 10,
+    "raw_source_sha": "24409e8bd112d372ec993304f029d61e5d2daa2de091399e2c3f84eed4f021ce",
+    "old_public_roles_sha": "2b822b9e96de141cb7ce590cf673569db8725327c4c152e2f14bd0634cd80565",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_cross_field_addition_auto_mpg_s7013",
+    "dataset": "auto_mpg",
+    "seed": 7013,
+    "profile": "cross_field_addition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 38,
+        "groups": 30,
+        "eligible_cells": 228,
+        "actual_changed_cells": 66,
+        "target_cells": 266,
+        "eligible_cell_rate": 0.2894736842105263,
+        "all_target_cell_rate": 0.24812030075187969,
+        "per_field": {
+          "feature_01": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_02": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_03": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_04": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_05": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_06": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      },
+      "validation": {
+        "rows": 39,
+        "groups": 30,
+        "eligible_cells": 234,
+        "actual_changed_cells": 72,
+        "target_cells": 273,
+        "eligible_cell_rate": 0.3076923076923077,
+        "all_target_cell_rate": 0.26373626373626374,
+        "per_field": {
+          "feature_01": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_02": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_03": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_04": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_05": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_06": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      },
+      "repair": {
+        "rows": 265,
+        "groups": 196,
+        "eligible_cells": 1587,
+        "actual_changed_cells": 479,
+        "target_cells": 1855,
+        "eligible_cell_rate": 0.3018273471959672,
+        "all_target_cell_rate": 0.2582210242587601,
+        "per_field": {
+          "feature_01": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_02": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_03": {
+            "eligible": 262,
+            "changed": 79
+          },
+          "feature_04": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_05": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_06": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 49,
+    "native_budget": 10,
+    "raw_source_sha": "5fc1507522b73b8050d3aa45df51eefe1b666ae5f428a5f1347b6483339f1003",
+    "old_public_roles_sha": "5856cb7983fb1756e5043633187ae12d57f912e41cb748f1af5f15fd42cad3c6",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_cross_field_addition_airfoil_s7013",
+    "dataset": "airfoil",
+    "seed": 7013,
+    "profile": "cross_field_addition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 600,
+        "actual_changed_cells": 180,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.3,
+        "all_target_cell_rate": 0.24,
+        "per_field": {
+          "feature_01": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_02": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_03": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_04": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_05": {
+            "eligible": 150,
+            "changed": 45
+          }
+        }
+      },
+      "validation": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 600,
+        "actual_changed_cells": 180,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.3,
+        "all_target_cell_rate": 0.24,
+        "per_field": {
+          "feature_01": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_02": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_03": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_04": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_05": {
+            "eligible": 150,
+            "changed": 45
+          }
+        }
+      },
+      "repair": {
+        "rows": 963,
+        "groups": 963,
+        "eligible_cells": 3852,
+        "actual_changed_cells": 1156,
+        "target_cells": 4815,
+        "eligible_cell_rate": 0.3001038421599169,
+        "all_target_cell_rate": 0.24008307372793355,
+        "per_field": {
+          "feature_01": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_02": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_03": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_04": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_05": {
+            "eligible": 963,
+            "changed": 289
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 240,
+    "native_budget": 10,
+    "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+    "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_scale_suffix_composition_spectf_s7013",
+    "dataset": "spectf",
+    "seed": 7013,
+    "profile": "scale_suffix_composition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "classification",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 1188,
+        "actual_changed_cells": 352,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.2962962962962963,
+        "all_target_cell_rate": 0.2962962962962963,
+        "per_field": {
+          "feature_01": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_04": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_05": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_08": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_09": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_10": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_11": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_12": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_13": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_14": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_16": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_17": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_18": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_20": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_21": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_23": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_24": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_25": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_28": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_29": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_31": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_32": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_33": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_34": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_35": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_36": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_37": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_38": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_39": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_40": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_41": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_42": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_44": {
+            "eligible": 27,
+            "changed": 8
+          }
+        }
+      },
+      "validation": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 1188,
+        "actual_changed_cells": 352,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.2962962962962963,
+        "all_target_cell_rate": 0.2962962962962963,
+        "per_field": {
+          "feature_01": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_04": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_05": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_08": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_09": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_10": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_11": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_12": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_13": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_14": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_16": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_17": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_18": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_20": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_21": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_23": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_24": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_25": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_28": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_29": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_31": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_32": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_33": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_34": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_35": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_36": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_37": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_38": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_39": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_40": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_41": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_42": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_44": {
+            "eligible": 27,
+            "changed": 8
+          }
+        }
+      },
+      "repair": {
+        "rows": 170,
+        "groups": 170,
+        "eligible_cells": 7480,
+        "actual_changed_cells": 2244,
+        "target_cells": 7480,
+        "eligible_cell_rate": 0.3,
+        "all_target_cell_rate": 0.3,
+        "per_field": {
+          "feature_01": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_02": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_03": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_04": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_05": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_06": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_07": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_08": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_09": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_10": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_11": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_12": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_13": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_14": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_15": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_16": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_17": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_18": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_19": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_20": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_21": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_22": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_23": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_24": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_25": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_26": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_27": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_28": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_29": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_30": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_31": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_32": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_33": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_34": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_35": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_36": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_37": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_38": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_39": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_40": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_41": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_42": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_43": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_44": {
+            "eligible": 170,
+            "changed": 51
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 43,
+    "native_budget": 10,
+    "raw_source_sha": "24409e8bd112d372ec993304f029d61e5d2daa2de091399e2c3f84eed4f021ce",
+    "old_public_roles_sha": "2b822b9e96de141cb7ce590cf673569db8725327c4c152e2f14bd0634cd80565",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_scale_suffix_composition_auto_mpg_s7013",
+    "dataset": "auto_mpg",
+    "seed": 7013,
+    "profile": "scale_suffix_composition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 38,
+        "groups": 30,
+        "eligible_cells": 266,
+        "actual_changed_cells": 77,
+        "target_cells": 266,
+        "eligible_cell_rate": 0.2894736842105263,
+        "all_target_cell_rate": 0.2894736842105263,
+        "per_field": {
+          "feature_01": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_02": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_03": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_04": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_05": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_06": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_07": {
+            "eligible": 38,
+            "changed": 11
+          }
+        }
+      },
+      "validation": {
+        "rows": 39,
+        "groups": 30,
+        "eligible_cells": 273,
+        "actual_changed_cells": 84,
+        "target_cells": 273,
+        "eligible_cell_rate": 0.3076923076923077,
+        "all_target_cell_rate": 0.3076923076923077,
+        "per_field": {
+          "feature_01": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_02": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_03": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_04": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_05": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_06": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_07": {
+            "eligible": 39,
+            "changed": 12
+          }
+        }
+      },
+      "repair": {
+        "rows": 265,
+        "groups": 196,
+        "eligible_cells": 1852,
+        "actual_changed_cells": 559,
+        "target_cells": 1855,
+        "eligible_cell_rate": 0.3018358531317495,
+        "all_target_cell_rate": 0.3013477088948787,
+        "per_field": {
+          "feature_01": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_02": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_03": {
+            "eligible": 262,
+            "changed": 79
+          },
+          "feature_04": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_05": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_06": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_07": {
+            "eligible": 265,
+            "changed": 80
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 49,
+    "native_budget": 10,
+    "raw_source_sha": "5fc1507522b73b8050d3aa45df51eefe1b666ae5f428a5f1347b6483339f1003",
+    "old_public_roles_sha": "5856cb7983fb1756e5043633187ae12d57f912e41cb748f1af5f15fd42cad3c6",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_scale_suffix_composition_airfoil_s7013",
+    "dataset": "airfoil",
+    "seed": 7013,
+    "profile": "scale_suffix_composition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 717,
+        "actual_changed_cells": 215,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.299860529986053,
+        "all_target_cell_rate": 0.2866666666666667,
+        "per_field": {
+          "feature_01": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_02": {
+            "eligible": 117,
+            "changed": 35
+          },
+          "feature_03": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_04": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_05": {
+            "eligible": 150,
+            "changed": 45
+          }
+        }
+      },
+      "validation": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 725,
+        "actual_changed_cells": 218,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.3006896551724138,
+        "all_target_cell_rate": 0.2906666666666667,
+        "per_field": {
+          "feature_01": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_02": {
+            "eligible": 125,
+            "changed": 38
+          },
+          "feature_03": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_04": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_05": {
+            "eligible": 150,
+            "changed": 45
+          }
+        }
+      },
+      "repair": {
+        "rows": 963,
+        "groups": 963,
+        "eligible_cells": 4602,
+        "actual_changed_cells": 1381,
+        "target_cells": 4815,
+        "eligible_cell_rate": 0.30008691873098653,
+        "all_target_cell_rate": 0.28681204569055035,
+        "per_field": {
+          "feature_01": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_02": {
+            "eligible": 750,
+            "changed": 225
+          },
+          "feature_03": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_04": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_05": {
+            "eligible": 963,
+            "changed": 289
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 240,
+    "native_budget": 10,
+    "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+    "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_digit_transposition_spectf_s7014",
+    "dataset": "spectf",
+    "seed": 7014,
+    "profile": "digit_transposition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "classification",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 970,
+        "actual_changed_cells": 296,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.30515463917525776,
+        "all_target_cell_rate": 0.24915824915824916,
+        "per_field": {
+          "feature_01": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_02": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_03": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_04": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_05": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_06": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_07": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_08": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_09": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_10": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_11": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_12": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_13": {
+            "eligible": 17,
+            "changed": 5
+          },
+          "feature_14": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_16": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_17": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_18": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_20": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_21": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_23": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_24": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_25": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_26": {
+            "eligible": 26,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_28": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_29": {
+            "eligible": 26,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_31": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_32": {
+            "eligible": 18,
+            "changed": 5
+          },
+          "feature_33": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_34": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_35": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_36": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_37": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_38": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_39": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_40": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_41": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_42": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_43": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_44": {
+            "eligible": 22,
+            "changed": 7
+          }
+        }
+      },
+      "validation": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 968,
+        "actual_changed_cells": 292,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.30165289256198347,
+        "all_target_cell_rate": 0.24579124579124578,
+        "per_field": {
+          "feature_01": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_02": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_03": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_04": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_05": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_06": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_07": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_08": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_09": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_10": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_11": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_12": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_13": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_14": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_15": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_16": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_17": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_18": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_19": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_20": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_21": {
+            "eligible": 18,
+            "changed": 5
+          },
+          "feature_22": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_23": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_24": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_25": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_27": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_28": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_29": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_31": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_32": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_33": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_34": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_35": {
+            "eligible": 18,
+            "changed": 5
+          },
+          "feature_36": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_37": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_38": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_39": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_40": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_41": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_42": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_44": {
+            "eligible": 24,
+            "changed": 7
+          }
+        }
+      },
+      "repair": {
+        "rows": 170,
+        "groups": 170,
+        "eligible_cells": 6060,
+        "actual_changed_cells": 1819,
+        "target_cells": 7480,
+        "eligible_cell_rate": 0.3001650165016502,
+        "all_target_cell_rate": 0.2431818181818182,
+        "per_field": {
+          "feature_01": {
+            "eligible": 144,
+            "changed": 43
+          },
+          "feature_02": {
+            "eligible": 126,
+            "changed": 38
+          },
+          "feature_03": {
+            "eligible": 140,
+            "changed": 42
+          },
+          "feature_04": {
+            "eligible": 141,
+            "changed": 42
+          },
+          "feature_05": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_06": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_07": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_08": {
+            "eligible": 136,
+            "changed": 41
+          },
+          "feature_09": {
+            "eligible": 142,
+            "changed": 43
+          },
+          "feature_10": {
+            "eligible": 140,
+            "changed": 42
+          },
+          "feature_11": {
+            "eligible": 131,
+            "changed": 39
+          },
+          "feature_12": {
+            "eligible": 148,
+            "changed": 44
+          },
+          "feature_13": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_14": {
+            "eligible": 135,
+            "changed": 41
+          },
+          "feature_15": {
+            "eligible": 134,
+            "changed": 40
+          },
+          "feature_16": {
+            "eligible": 139,
+            "changed": 42
+          },
+          "feature_17": {
+            "eligible": 138,
+            "changed": 41
+          },
+          "feature_18": {
+            "eligible": 132,
+            "changed": 40
+          },
+          "feature_19": {
+            "eligible": 134,
+            "changed": 40
+          },
+          "feature_20": {
+            "eligible": 137,
+            "changed": 41
+          },
+          "feature_21": {
+            "eligible": 139,
+            "changed": 42
+          },
+          "feature_22": {
+            "eligible": 139,
+            "changed": 42
+          },
+          "feature_23": {
+            "eligible": 136,
+            "changed": 41
+          },
+          "feature_24": {
+            "eligible": 135,
+            "changed": 41
+          },
+          "feature_25": {
+            "eligible": 137,
+            "changed": 41
+          },
+          "feature_26": {
+            "eligible": 132,
+            "changed": 40
+          },
+          "feature_27": {
+            "eligible": 138,
+            "changed": 41
+          },
+          "feature_28": {
+            "eligible": 134,
+            "changed": 40
+          },
+          "feature_29": {
+            "eligible": 141,
+            "changed": 42
+          },
+          "feature_30": {
+            "eligible": 136,
+            "changed": 41
+          },
+          "feature_31": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_32": {
+            "eligible": 141,
+            "changed": 42
+          },
+          "feature_33": {
+            "eligible": 148,
+            "changed": 44
+          },
+          "feature_34": {
+            "eligible": 140,
+            "changed": 42
+          },
+          "feature_35": {
+            "eligible": 127,
+            "changed": 38
+          },
+          "feature_36": {
+            "eligible": 134,
+            "changed": 40
+          },
+          "feature_37": {
+            "eligible": 122,
+            "changed": 37
+          },
+          "feature_38": {
+            "eligible": 146,
+            "changed": 44
+          },
+          "feature_39": {
+            "eligible": 138,
+            "changed": 41
+          },
+          "feature_40": {
+            "eligible": 133,
+            "changed": 40
+          },
+          "feature_41": {
+            "eligible": 136,
+            "changed": 41
+          },
+          "feature_42": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_43": {
+            "eligible": 135,
+            "changed": 41
+          },
+          "feature_44": {
+            "eligible": 131,
+            "changed": 39
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 43,
+    "native_budget": 10,
+    "raw_source_sha": "24409e8bd112d372ec993304f029d61e5d2daa2de091399e2c3f84eed4f021ce",
+    "old_public_roles_sha": "2b822b9e96de141cb7ce590cf673569db8725327c4c152e2f14bd0634cd80565",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_digit_transposition_auto_mpg_s7014",
+    "dataset": "auto_mpg",
+    "seed": 7014,
+    "profile": "digit_transposition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 38,
+        "groups": 30,
+        "eligible_cells": 149,
+        "actual_changed_cells": 45,
+        "target_cells": 266,
+        "eligible_cell_rate": 0.30201342281879195,
+        "all_target_cell_rate": 0.16917293233082706,
+        "per_field": {
+          "feature_01": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_04": {
+            "eligible": 33,
+            "changed": 10
+          },
+          "feature_05": {
+            "eligible": 32,
+            "changed": 10
+          },
+          "feature_06": {
+            "eligible": 33,
+            "changed": 10
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      },
+      "validation": {
+        "rows": 39,
+        "groups": 30,
+        "eligible_cells": 157,
+        "actual_changed_cells": 47,
+        "target_cells": 273,
+        "eligible_cell_rate": 0.29936305732484075,
+        "all_target_cell_rate": 0.17216117216117216,
+        "per_field": {
+          "feature_01": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_02": {
+            "eligible": 31,
+            "changed": 9
+          },
+          "feature_03": {
+            "eligible": 29,
+            "changed": 9
+          },
+          "feature_04": {
+            "eligible": 34,
+            "changed": 10
+          },
+          "feature_05": {
+            "eligible": 36,
+            "changed": 11
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      },
+      "repair": {
+        "rows": 265,
+        "groups": 196,
+        "eligible_cells": 1018,
+        "actual_changed_cells": 305,
+        "target_cells": 1855,
+        "eligible_cell_rate": 0.29960707269155207,
+        "all_target_cell_rate": 0.16442048517520216,
+        "per_field": {
+          "feature_01": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_02": {
+            "eligible": 188,
+            "changed": 56
+          },
+          "feature_03": {
+            "eligible": 173,
+            "changed": 52
+          },
+          "feature_04": {
+            "eligible": 208,
+            "changed": 62
+          },
+          "feature_05": {
+            "eligible": 243,
+            "changed": 73
+          },
+          "feature_06": {
+            "eligible": 206,
+            "changed": 62
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 49,
+    "native_budget": 10,
+    "raw_source_sha": "5fc1507522b73b8050d3aa45df51eefe1b666ae5f428a5f1347b6483339f1003",
+    "old_public_roles_sha": "5856cb7983fb1756e5043633187ae12d57f912e41cb748f1af5f15fd42cad3c6",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_digit_transposition_airfoil_s7014",
+    "dataset": "airfoil",
+    "seed": 7014,
+    "profile": "digit_transposition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 533,
+        "actual_changed_cells": 161,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.30206378986866794,
+        "all_target_cell_rate": 0.21466666666666667,
+        "per_field": {
+          "feature_01": {
+            "eligible": 65,
+            "changed": 20
+          },
+          "feature_02": {
+            "eligible": 80,
+            "changed": 24
+          },
+          "feature_03": {
+            "eligible": 125,
+            "changed": 38
+          },
+          "feature_04": {
+            "eligible": 126,
+            "changed": 38
+          },
+          "feature_05": {
+            "eligible": 137,
+            "changed": 41
+          }
+        }
+      },
+      "validation": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 533,
+        "actual_changed_cells": 160,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.300187617260788,
+        "all_target_cell_rate": 0.21333333333333335,
+        "per_field": {
+          "feature_01": {
+            "eligible": 74,
+            "changed": 22
+          },
+          "feature_02": {
+            "eligible": 87,
+            "changed": 26
+          },
+          "feature_03": {
+            "eligible": 116,
+            "changed": 35
+          },
+          "feature_04": {
+            "eligible": 120,
+            "changed": 36
+          },
+          "feature_05": {
+            "eligible": 136,
+            "changed": 41
+          }
+        }
+      },
+      "repair": {
+        "rows": 963,
+        "groups": 963,
+        "eligible_cells": 3426,
+        "actual_changed_cells": 1027,
+        "target_cells": 4815,
+        "eligible_cell_rate": 0.29976649153531815,
+        "all_target_cell_rate": 0.21329179646936655,
+        "per_field": {
+          "feature_01": {
+            "eligible": 468,
+            "changed": 140
+          },
+          "feature_02": {
+            "eligible": 496,
+            "changed": 149
+          },
+          "feature_03": {
+            "eligible": 788,
+            "changed": 236
+          },
+          "feature_04": {
+            "eligible": 786,
+            "changed": 236
+          },
+          "feature_05": {
+            "eligible": 888,
+            "changed": 266
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 240,
+    "native_budget": 10,
+    "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+    "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_cross_field_addition_spectf_s7014",
+    "dataset": "spectf",
+    "seed": 7014,
+    "profile": "cross_field_addition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "classification",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 1161,
+        "actual_changed_cells": 344,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.2962962962962963,
+        "all_target_cell_rate": 0.2895622895622896,
+        "per_field": {
+          "feature_01": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_04": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_05": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_08": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_09": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_10": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_11": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_12": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_13": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_14": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_16": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_17": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_18": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_20": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_21": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_23": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_24": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_25": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_28": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_29": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_31": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_32": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_33": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_34": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_35": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_36": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_37": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_38": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_39": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_40": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_41": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_42": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_44": {
+            "eligible": 27,
+            "changed": 8
+          }
+        }
+      },
+      "validation": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 1161,
+        "actual_changed_cells": 344,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.2962962962962963,
+        "all_target_cell_rate": 0.2895622895622896,
+        "per_field": {
+          "feature_01": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_04": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_05": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_08": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_09": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_10": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_11": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_12": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_13": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_14": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_16": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_17": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_18": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_20": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_21": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_23": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_24": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_25": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_28": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_29": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_31": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_32": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_33": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_34": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_35": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_36": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_37": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_38": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_39": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_40": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_41": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_42": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_44": {
+            "eligible": 27,
+            "changed": 8
+          }
+        }
+      },
+      "repair": {
+        "rows": 170,
+        "groups": 170,
+        "eligible_cells": 7310,
+        "actual_changed_cells": 2193,
+        "target_cells": 7480,
+        "eligible_cell_rate": 0.3,
+        "all_target_cell_rate": 0.29318181818181815,
+        "per_field": {
+          "feature_01": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_02": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_03": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_04": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_05": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_06": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_07": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_08": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_09": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_10": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_11": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_12": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_13": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_14": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_15": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_16": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_17": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_18": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_19": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_20": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_21": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_22": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_23": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_24": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_25": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_26": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_27": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_28": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_29": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_30": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_31": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_32": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_33": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_34": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_35": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_36": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_37": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_38": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_39": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_40": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_41": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_42": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_43": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_44": {
+            "eligible": 170,
+            "changed": 51
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 43,
+    "native_budget": 10,
+    "raw_source_sha": "24409e8bd112d372ec993304f029d61e5d2daa2de091399e2c3f84eed4f021ce",
+    "old_public_roles_sha": "2b822b9e96de141cb7ce590cf673569db8725327c4c152e2f14bd0634cd80565",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_cross_field_addition_auto_mpg_s7014",
+    "dataset": "auto_mpg",
+    "seed": 7014,
+    "profile": "cross_field_addition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 38,
+        "groups": 30,
+        "eligible_cells": 228,
+        "actual_changed_cells": 66,
+        "target_cells": 266,
+        "eligible_cell_rate": 0.2894736842105263,
+        "all_target_cell_rate": 0.24812030075187969,
+        "per_field": {
+          "feature_01": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_02": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_03": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_04": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_05": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_06": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      },
+      "validation": {
+        "rows": 39,
+        "groups": 30,
+        "eligible_cells": 234,
+        "actual_changed_cells": 72,
+        "target_cells": 273,
+        "eligible_cell_rate": 0.3076923076923077,
+        "all_target_cell_rate": 0.26373626373626374,
+        "per_field": {
+          "feature_01": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_02": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_03": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_04": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_05": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_06": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      },
+      "repair": {
+        "rows": 265,
+        "groups": 196,
+        "eligible_cells": 1587,
+        "actual_changed_cells": 479,
+        "target_cells": 1855,
+        "eligible_cell_rate": 0.3018273471959672,
+        "all_target_cell_rate": 0.2582210242587601,
+        "per_field": {
+          "feature_01": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_02": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_03": {
+            "eligible": 262,
+            "changed": 79
+          },
+          "feature_04": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_05": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_06": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 49,
+    "native_budget": 10,
+    "raw_source_sha": "5fc1507522b73b8050d3aa45df51eefe1b666ae5f428a5f1347b6483339f1003",
+    "old_public_roles_sha": "5856cb7983fb1756e5043633187ae12d57f912e41cb748f1af5f15fd42cad3c6",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_cross_field_addition_airfoil_s7014",
+    "dataset": "airfoil",
+    "seed": 7014,
+    "profile": "cross_field_addition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 600,
+        "actual_changed_cells": 180,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.3,
+        "all_target_cell_rate": 0.24,
+        "per_field": {
+          "feature_01": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_02": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_03": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_04": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_05": {
+            "eligible": 150,
+            "changed": 45
+          }
+        }
+      },
+      "validation": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 600,
+        "actual_changed_cells": 180,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.3,
+        "all_target_cell_rate": 0.24,
+        "per_field": {
+          "feature_01": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_02": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_03": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_04": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_05": {
+            "eligible": 150,
+            "changed": 45
+          }
+        }
+      },
+      "repair": {
+        "rows": 963,
+        "groups": 963,
+        "eligible_cells": 3852,
+        "actual_changed_cells": 1156,
+        "target_cells": 4815,
+        "eligible_cell_rate": 0.3001038421599169,
+        "all_target_cell_rate": 0.24008307372793355,
+        "per_field": {
+          "feature_01": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_02": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_03": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_04": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_05": {
+            "eligible": 963,
+            "changed": 289
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 240,
+    "native_budget": 10,
+    "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+    "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_scale_suffix_composition_spectf_s7014",
+    "dataset": "spectf",
+    "seed": 7014,
+    "profile": "scale_suffix_composition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "classification",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 1188,
+        "actual_changed_cells": 352,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.2962962962962963,
+        "all_target_cell_rate": 0.2962962962962963,
+        "per_field": {
+          "feature_01": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_04": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_05": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_08": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_09": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_10": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_11": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_12": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_13": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_14": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_16": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_17": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_18": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_20": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_21": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_23": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_24": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_25": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_28": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_29": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_31": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_32": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_33": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_34": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_35": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_36": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_37": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_38": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_39": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_40": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_41": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_42": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_44": {
+            "eligible": 27,
+            "changed": 8
+          }
+        }
+      },
+      "validation": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 1188,
+        "actual_changed_cells": 352,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.2962962962962963,
+        "all_target_cell_rate": 0.2962962962962963,
+        "per_field": {
+          "feature_01": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_04": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_05": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_08": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_09": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_10": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_11": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_12": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_13": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_14": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_16": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_17": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_18": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_20": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_21": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_23": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_24": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_25": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_28": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_29": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_31": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_32": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_33": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_34": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_35": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_36": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_37": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_38": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_39": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_40": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_41": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_42": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_44": {
+            "eligible": 27,
+            "changed": 8
+          }
+        }
+      },
+      "repair": {
+        "rows": 170,
+        "groups": 170,
+        "eligible_cells": 7480,
+        "actual_changed_cells": 2244,
+        "target_cells": 7480,
+        "eligible_cell_rate": 0.3,
+        "all_target_cell_rate": 0.3,
+        "per_field": {
+          "feature_01": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_02": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_03": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_04": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_05": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_06": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_07": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_08": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_09": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_10": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_11": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_12": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_13": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_14": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_15": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_16": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_17": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_18": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_19": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_20": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_21": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_22": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_23": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_24": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_25": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_26": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_27": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_28": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_29": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_30": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_31": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_32": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_33": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_34": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_35": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_36": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_37": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_38": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_39": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_40": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_41": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_42": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_43": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_44": {
+            "eligible": 170,
+            "changed": 51
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 43,
+    "native_budget": 10,
+    "raw_source_sha": "24409e8bd112d372ec993304f029d61e5d2daa2de091399e2c3f84eed4f021ce",
+    "old_public_roles_sha": "2b822b9e96de141cb7ce590cf673569db8725327c4c152e2f14bd0634cd80565",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_scale_suffix_composition_auto_mpg_s7014",
+    "dataset": "auto_mpg",
+    "seed": 7014,
+    "profile": "scale_suffix_composition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 38,
+        "groups": 30,
+        "eligible_cells": 266,
+        "actual_changed_cells": 77,
+        "target_cells": 266,
+        "eligible_cell_rate": 0.2894736842105263,
+        "all_target_cell_rate": 0.2894736842105263,
+        "per_field": {
+          "feature_01": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_02": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_03": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_04": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_05": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_06": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_07": {
+            "eligible": 38,
+            "changed": 11
+          }
+        }
+      },
+      "validation": {
+        "rows": 39,
+        "groups": 30,
+        "eligible_cells": 273,
+        "actual_changed_cells": 84,
+        "target_cells": 273,
+        "eligible_cell_rate": 0.3076923076923077,
+        "all_target_cell_rate": 0.3076923076923077,
+        "per_field": {
+          "feature_01": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_02": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_03": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_04": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_05": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_06": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_07": {
+            "eligible": 39,
+            "changed": 12
+          }
+        }
+      },
+      "repair": {
+        "rows": 265,
+        "groups": 196,
+        "eligible_cells": 1852,
+        "actual_changed_cells": 559,
+        "target_cells": 1855,
+        "eligible_cell_rate": 0.3018358531317495,
+        "all_target_cell_rate": 0.3013477088948787,
+        "per_field": {
+          "feature_01": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_02": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_03": {
+            "eligible": 262,
+            "changed": 79
+          },
+          "feature_04": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_05": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_06": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_07": {
+            "eligible": 265,
+            "changed": 80
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 49,
+    "native_budget": 10,
+    "raw_source_sha": "5fc1507522b73b8050d3aa45df51eefe1b666ae5f428a5f1347b6483339f1003",
+    "old_public_roles_sha": "5856cb7983fb1756e5043633187ae12d57f912e41cb748f1af5f15fd42cad3c6",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_scale_suffix_composition_airfoil_s7014",
+    "dataset": "airfoil",
+    "seed": 7014,
+    "profile": "scale_suffix_composition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 717,
+        "actual_changed_cells": 215,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.299860529986053,
+        "all_target_cell_rate": 0.2866666666666667,
+        "per_field": {
+          "feature_01": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_02": {
+            "eligible": 117,
+            "changed": 35
+          },
+          "feature_03": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_04": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_05": {
+            "eligible": 150,
+            "changed": 45
+          }
+        }
+      },
+      "validation": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 725,
+        "actual_changed_cells": 218,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.3006896551724138,
+        "all_target_cell_rate": 0.2906666666666667,
+        "per_field": {
+          "feature_01": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_02": {
+            "eligible": 125,
+            "changed": 38
+          },
+          "feature_03": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_04": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_05": {
+            "eligible": 150,
+            "changed": 45
+          }
+        }
+      },
+      "repair": {
+        "rows": 963,
+        "groups": 963,
+        "eligible_cells": 4602,
+        "actual_changed_cells": 1381,
+        "target_cells": 4815,
+        "eligible_cell_rate": 0.30008691873098653,
+        "all_target_cell_rate": 0.28681204569055035,
+        "per_field": {
+          "feature_01": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_02": {
+            "eligible": 750,
+            "changed": 225
+          },
+          "feature_03": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_04": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_05": {
+            "eligible": 963,
+            "changed": 289
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 240,
+    "native_budget": 10,
+    "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+    "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_digit_transposition_spectf_s7015",
+    "dataset": "spectf",
+    "seed": 7015,
+    "profile": "digit_transposition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "classification",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 970,
+        "actual_changed_cells": 296,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.30515463917525776,
+        "all_target_cell_rate": 0.24915824915824916,
+        "per_field": {
+          "feature_01": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_02": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_03": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_04": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_05": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_06": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_07": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_08": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_09": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_10": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_11": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_12": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_13": {
+            "eligible": 17,
+            "changed": 5
+          },
+          "feature_14": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_16": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_17": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_18": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_20": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_21": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_23": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_24": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_25": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_26": {
+            "eligible": 26,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_28": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_29": {
+            "eligible": 26,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_31": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_32": {
+            "eligible": 18,
+            "changed": 5
+          },
+          "feature_33": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_34": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_35": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_36": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_37": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_38": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_39": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_40": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_41": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_42": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_43": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_44": {
+            "eligible": 22,
+            "changed": 7
+          }
+        }
+      },
+      "validation": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 968,
+        "actual_changed_cells": 292,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.30165289256198347,
+        "all_target_cell_rate": 0.24579124579124578,
+        "per_field": {
+          "feature_01": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_02": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_03": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_04": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_05": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_06": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_07": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_08": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_09": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_10": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_11": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_12": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_13": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_14": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_15": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_16": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_17": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_18": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_19": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_20": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_21": {
+            "eligible": 18,
+            "changed": 5
+          },
+          "feature_22": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_23": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_24": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_25": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_27": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_28": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_29": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_31": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_32": {
+            "eligible": 21,
+            "changed": 6
+          },
+          "feature_33": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_34": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_35": {
+            "eligible": 18,
+            "changed": 5
+          },
+          "feature_36": {
+            "eligible": 19,
+            "changed": 6
+          },
+          "feature_37": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_38": {
+            "eligible": 20,
+            "changed": 6
+          },
+          "feature_39": {
+            "eligible": 22,
+            "changed": 7
+          },
+          "feature_40": {
+            "eligible": 23,
+            "changed": 7
+          },
+          "feature_41": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_42": {
+            "eligible": 25,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_44": {
+            "eligible": 24,
+            "changed": 7
+          }
+        }
+      },
+      "repair": {
+        "rows": 170,
+        "groups": 170,
+        "eligible_cells": 6060,
+        "actual_changed_cells": 1819,
+        "target_cells": 7480,
+        "eligible_cell_rate": 0.3001650165016502,
+        "all_target_cell_rate": 0.2431818181818182,
+        "per_field": {
+          "feature_01": {
+            "eligible": 144,
+            "changed": 43
+          },
+          "feature_02": {
+            "eligible": 126,
+            "changed": 38
+          },
+          "feature_03": {
+            "eligible": 140,
+            "changed": 42
+          },
+          "feature_04": {
+            "eligible": 141,
+            "changed": 42
+          },
+          "feature_05": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_06": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_07": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_08": {
+            "eligible": 136,
+            "changed": 41
+          },
+          "feature_09": {
+            "eligible": 142,
+            "changed": 43
+          },
+          "feature_10": {
+            "eligible": 140,
+            "changed": 42
+          },
+          "feature_11": {
+            "eligible": 131,
+            "changed": 39
+          },
+          "feature_12": {
+            "eligible": 148,
+            "changed": 44
+          },
+          "feature_13": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_14": {
+            "eligible": 135,
+            "changed": 41
+          },
+          "feature_15": {
+            "eligible": 134,
+            "changed": 40
+          },
+          "feature_16": {
+            "eligible": 139,
+            "changed": 42
+          },
+          "feature_17": {
+            "eligible": 138,
+            "changed": 41
+          },
+          "feature_18": {
+            "eligible": 132,
+            "changed": 40
+          },
+          "feature_19": {
+            "eligible": 134,
+            "changed": 40
+          },
+          "feature_20": {
+            "eligible": 137,
+            "changed": 41
+          },
+          "feature_21": {
+            "eligible": 139,
+            "changed": 42
+          },
+          "feature_22": {
+            "eligible": 139,
+            "changed": 42
+          },
+          "feature_23": {
+            "eligible": 136,
+            "changed": 41
+          },
+          "feature_24": {
+            "eligible": 135,
+            "changed": 41
+          },
+          "feature_25": {
+            "eligible": 137,
+            "changed": 41
+          },
+          "feature_26": {
+            "eligible": 132,
+            "changed": 40
+          },
+          "feature_27": {
+            "eligible": 138,
+            "changed": 41
+          },
+          "feature_28": {
+            "eligible": 134,
+            "changed": 40
+          },
+          "feature_29": {
+            "eligible": 141,
+            "changed": 42
+          },
+          "feature_30": {
+            "eligible": 136,
+            "changed": 41
+          },
+          "feature_31": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_32": {
+            "eligible": 141,
+            "changed": 42
+          },
+          "feature_33": {
+            "eligible": 148,
+            "changed": 44
+          },
+          "feature_34": {
+            "eligible": 140,
+            "changed": 42
+          },
+          "feature_35": {
+            "eligible": 127,
+            "changed": 38
+          },
+          "feature_36": {
+            "eligible": 134,
+            "changed": 40
+          },
+          "feature_37": {
+            "eligible": 122,
+            "changed": 37
+          },
+          "feature_38": {
+            "eligible": 146,
+            "changed": 44
+          },
+          "feature_39": {
+            "eligible": 138,
+            "changed": 41
+          },
+          "feature_40": {
+            "eligible": 133,
+            "changed": 40
+          },
+          "feature_41": {
+            "eligible": 136,
+            "changed": 41
+          },
+          "feature_42": {
+            "eligible": 143,
+            "changed": 43
+          },
+          "feature_43": {
+            "eligible": 135,
+            "changed": 41
+          },
+          "feature_44": {
+            "eligible": 131,
+            "changed": 39
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 43,
+    "native_budget": 10,
+    "raw_source_sha": "24409e8bd112d372ec993304f029d61e5d2daa2de091399e2c3f84eed4f021ce",
+    "old_public_roles_sha": "2b822b9e96de141cb7ce590cf673569db8725327c4c152e2f14bd0634cd80565",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_digit_transposition_auto_mpg_s7015",
+    "dataset": "auto_mpg",
+    "seed": 7015,
+    "profile": "digit_transposition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 38,
+        "groups": 30,
+        "eligible_cells": 149,
+        "actual_changed_cells": 45,
+        "target_cells": 266,
+        "eligible_cell_rate": 0.30201342281879195,
+        "all_target_cell_rate": 0.16917293233082706,
+        "per_field": {
+          "feature_01": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 24,
+            "changed": 7
+          },
+          "feature_04": {
+            "eligible": 33,
+            "changed": 10
+          },
+          "feature_05": {
+            "eligible": 32,
+            "changed": 10
+          },
+          "feature_06": {
+            "eligible": 33,
+            "changed": 10
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      },
+      "validation": {
+        "rows": 39,
+        "groups": 30,
+        "eligible_cells": 157,
+        "actual_changed_cells": 47,
+        "target_cells": 273,
+        "eligible_cell_rate": 0.29936305732484075,
+        "all_target_cell_rate": 0.17216117216117216,
+        "per_field": {
+          "feature_01": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_02": {
+            "eligible": 31,
+            "changed": 9
+          },
+          "feature_03": {
+            "eligible": 29,
+            "changed": 9
+          },
+          "feature_04": {
+            "eligible": 34,
+            "changed": 10
+          },
+          "feature_05": {
+            "eligible": 36,
+            "changed": 11
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      },
+      "repair": {
+        "rows": 265,
+        "groups": 196,
+        "eligible_cells": 1018,
+        "actual_changed_cells": 305,
+        "target_cells": 1855,
+        "eligible_cell_rate": 0.29960707269155207,
+        "all_target_cell_rate": 0.16442048517520216,
+        "per_field": {
+          "feature_01": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_02": {
+            "eligible": 188,
+            "changed": 56
+          },
+          "feature_03": {
+            "eligible": 173,
+            "changed": 52
+          },
+          "feature_04": {
+            "eligible": 208,
+            "changed": 62
+          },
+          "feature_05": {
+            "eligible": 243,
+            "changed": 73
+          },
+          "feature_06": {
+            "eligible": 206,
+            "changed": 62
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 49,
+    "native_budget": 10,
+    "raw_source_sha": "5fc1507522b73b8050d3aa45df51eefe1b666ae5f428a5f1347b6483339f1003",
+    "old_public_roles_sha": "5856cb7983fb1756e5043633187ae12d57f912e41cb748f1af5f15fd42cad3c6",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_digit_transposition_airfoil_s7015",
+    "dataset": "airfoil",
+    "seed": 7015,
+    "profile": "digit_transposition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 533,
+        "actual_changed_cells": 161,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.30206378986866794,
+        "all_target_cell_rate": 0.21466666666666667,
+        "per_field": {
+          "feature_01": {
+            "eligible": 65,
+            "changed": 20
+          },
+          "feature_02": {
+            "eligible": 80,
+            "changed": 24
+          },
+          "feature_03": {
+            "eligible": 125,
+            "changed": 38
+          },
+          "feature_04": {
+            "eligible": 126,
+            "changed": 38
+          },
+          "feature_05": {
+            "eligible": 137,
+            "changed": 41
+          }
+        }
+      },
+      "validation": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 533,
+        "actual_changed_cells": 160,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.300187617260788,
+        "all_target_cell_rate": 0.21333333333333335,
+        "per_field": {
+          "feature_01": {
+            "eligible": 74,
+            "changed": 22
+          },
+          "feature_02": {
+            "eligible": 87,
+            "changed": 26
+          },
+          "feature_03": {
+            "eligible": 116,
+            "changed": 35
+          },
+          "feature_04": {
+            "eligible": 120,
+            "changed": 36
+          },
+          "feature_05": {
+            "eligible": 136,
+            "changed": 41
+          }
+        }
+      },
+      "repair": {
+        "rows": 963,
+        "groups": 963,
+        "eligible_cells": 3426,
+        "actual_changed_cells": 1027,
+        "target_cells": 4815,
+        "eligible_cell_rate": 0.29976649153531815,
+        "all_target_cell_rate": 0.21329179646936655,
+        "per_field": {
+          "feature_01": {
+            "eligible": 468,
+            "changed": 140
+          },
+          "feature_02": {
+            "eligible": 496,
+            "changed": 149
+          },
+          "feature_03": {
+            "eligible": 788,
+            "changed": 236
+          },
+          "feature_04": {
+            "eligible": 786,
+            "changed": 236
+          },
+          "feature_05": {
+            "eligible": 888,
+            "changed": 266
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 240,
+    "native_budget": 10,
+    "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+    "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_cross_field_addition_spectf_s7015",
+    "dataset": "spectf",
+    "seed": 7015,
+    "profile": "cross_field_addition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "classification",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 1161,
+        "actual_changed_cells": 344,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.2962962962962963,
+        "all_target_cell_rate": 0.2895622895622896,
+        "per_field": {
+          "feature_01": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_04": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_05": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_08": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_09": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_10": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_11": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_12": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_13": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_14": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_16": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_17": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_18": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_20": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_21": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_23": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_24": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_25": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_28": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_29": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_31": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_32": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_33": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_34": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_35": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_36": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_37": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_38": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_39": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_40": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_41": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_42": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_44": {
+            "eligible": 27,
+            "changed": 8
+          }
+        }
+      },
+      "validation": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 1161,
+        "actual_changed_cells": 344,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.2962962962962963,
+        "all_target_cell_rate": 0.2895622895622896,
+        "per_field": {
+          "feature_01": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_04": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_05": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_08": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_09": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_10": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_11": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_12": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_13": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_14": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_16": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_17": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_18": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_20": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_21": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_23": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_24": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_25": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_28": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_29": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_31": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_32": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_33": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_34": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_35": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_36": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_37": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_38": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_39": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_40": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_41": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_42": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_44": {
+            "eligible": 27,
+            "changed": 8
+          }
+        }
+      },
+      "repair": {
+        "rows": 170,
+        "groups": 170,
+        "eligible_cells": 7310,
+        "actual_changed_cells": 2193,
+        "target_cells": 7480,
+        "eligible_cell_rate": 0.3,
+        "all_target_cell_rate": 0.29318181818181815,
+        "per_field": {
+          "feature_01": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_02": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_03": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_04": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_05": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_06": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_07": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_08": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_09": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_10": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_11": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_12": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_13": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_14": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_15": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_16": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_17": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_18": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_19": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_20": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_21": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_22": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_23": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_24": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_25": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_26": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_27": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_28": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_29": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_30": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_31": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_32": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_33": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_34": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_35": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_36": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_37": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_38": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_39": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_40": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_41": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_42": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_43": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_44": {
+            "eligible": 170,
+            "changed": 51
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 43,
+    "native_budget": 10,
+    "raw_source_sha": "24409e8bd112d372ec993304f029d61e5d2daa2de091399e2c3f84eed4f021ce",
+    "old_public_roles_sha": "2b822b9e96de141cb7ce590cf673569db8725327c4c152e2f14bd0634cd80565",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_cross_field_addition_auto_mpg_s7015",
+    "dataset": "auto_mpg",
+    "seed": 7015,
+    "profile": "cross_field_addition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 38,
+        "groups": 30,
+        "eligible_cells": 228,
+        "actual_changed_cells": 66,
+        "target_cells": 266,
+        "eligible_cell_rate": 0.2894736842105263,
+        "all_target_cell_rate": 0.24812030075187969,
+        "per_field": {
+          "feature_01": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_02": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_03": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_04": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_05": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_06": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      },
+      "validation": {
+        "rows": 39,
+        "groups": 30,
+        "eligible_cells": 234,
+        "actual_changed_cells": 72,
+        "target_cells": 273,
+        "eligible_cell_rate": 0.3076923076923077,
+        "all_target_cell_rate": 0.26373626373626374,
+        "per_field": {
+          "feature_01": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_02": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_03": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_04": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_05": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_06": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      },
+      "repair": {
+        "rows": 265,
+        "groups": 196,
+        "eligible_cells": 1587,
+        "actual_changed_cells": 479,
+        "target_cells": 1855,
+        "eligible_cell_rate": 0.3018273471959672,
+        "all_target_cell_rate": 0.2582210242587601,
+        "per_field": {
+          "feature_01": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_02": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_03": {
+            "eligible": 262,
+            "changed": 79
+          },
+          "feature_04": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_05": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_06": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_07": {
+            "eligible": 0,
+            "changed": 0
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 49,
+    "native_budget": 10,
+    "raw_source_sha": "5fc1507522b73b8050d3aa45df51eefe1b666ae5f428a5f1347b6483339f1003",
+    "old_public_roles_sha": "5856cb7983fb1756e5043633187ae12d57f912e41cb748f1af5f15fd42cad3c6",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_cross_field_addition_airfoil_s7015",
+    "dataset": "airfoil",
+    "seed": 7015,
+    "profile": "cross_field_addition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 600,
+        "actual_changed_cells": 180,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.3,
+        "all_target_cell_rate": 0.24,
+        "per_field": {
+          "feature_01": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_02": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_03": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_04": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_05": {
+            "eligible": 150,
+            "changed": 45
+          }
+        }
+      },
+      "validation": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 600,
+        "actual_changed_cells": 180,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.3,
+        "all_target_cell_rate": 0.24,
+        "per_field": {
+          "feature_01": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_02": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_03": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_04": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_05": {
+            "eligible": 150,
+            "changed": 45
+          }
+        }
+      },
+      "repair": {
+        "rows": 963,
+        "groups": 963,
+        "eligible_cells": 3852,
+        "actual_changed_cells": 1156,
+        "target_cells": 4815,
+        "eligible_cell_rate": 0.3001038421599169,
+        "all_target_cell_rate": 0.24008307372793355,
+        "per_field": {
+          "feature_01": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_02": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_03": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_04": {
+            "eligible": 0,
+            "changed": 0
+          },
+          "feature_05": {
+            "eligible": 963,
+            "changed": 289
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 240,
+    "native_budget": 10,
+    "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+    "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_scale_suffix_composition_spectf_s7015",
+    "dataset": "spectf",
+    "seed": 7015,
+    "profile": "scale_suffix_composition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "classification",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 1188,
+        "actual_changed_cells": 352,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.2962962962962963,
+        "all_target_cell_rate": 0.2962962962962963,
+        "per_field": {
+          "feature_01": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_04": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_05": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_08": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_09": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_10": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_11": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_12": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_13": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_14": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_16": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_17": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_18": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_20": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_21": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_23": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_24": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_25": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_28": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_29": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_31": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_32": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_33": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_34": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_35": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_36": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_37": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_38": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_39": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_40": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_41": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_42": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_44": {
+            "eligible": 27,
+            "changed": 8
+          }
+        }
+      },
+      "validation": {
+        "rows": 27,
+        "groups": 27,
+        "eligible_cells": 1188,
+        "actual_changed_cells": 352,
+        "target_cells": 1188,
+        "eligible_cell_rate": 0.2962962962962963,
+        "all_target_cell_rate": 0.2962962962962963,
+        "per_field": {
+          "feature_01": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_02": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_03": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_04": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_05": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_06": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_07": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_08": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_09": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_10": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_11": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_12": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_13": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_14": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_15": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_16": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_17": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_18": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_19": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_20": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_21": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_22": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_23": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_24": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_25": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_26": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_27": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_28": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_29": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_30": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_31": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_32": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_33": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_34": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_35": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_36": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_37": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_38": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_39": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_40": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_41": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_42": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_43": {
+            "eligible": 27,
+            "changed": 8
+          },
+          "feature_44": {
+            "eligible": 27,
+            "changed": 8
+          }
+        }
+      },
+      "repair": {
+        "rows": 170,
+        "groups": 170,
+        "eligible_cells": 7480,
+        "actual_changed_cells": 2244,
+        "target_cells": 7480,
+        "eligible_cell_rate": 0.3,
+        "all_target_cell_rate": 0.3,
+        "per_field": {
+          "feature_01": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_02": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_03": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_04": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_05": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_06": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_07": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_08": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_09": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_10": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_11": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_12": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_13": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_14": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_15": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_16": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_17": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_18": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_19": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_20": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_21": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_22": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_23": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_24": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_25": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_26": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_27": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_28": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_29": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_30": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_31": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_32": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_33": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_34": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_35": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_36": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_37": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_38": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_39": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_40": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_41": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_42": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_43": {
+            "eligible": 170,
+            "changed": 51
+          },
+          "feature_44": {
+            "eligible": 170,
+            "changed": 51
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 43,
+    "native_budget": 10,
+    "raw_source_sha": "24409e8bd112d372ec993304f029d61e5d2daa2de091399e2c3f84eed4f021ce",
+    "old_public_roles_sha": "2b822b9e96de141cb7ce590cf673569db8725327c4c152e2f14bd0634cd80565",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_scale_suffix_composition_auto_mpg_s7015",
+    "dataset": "auto_mpg",
+    "seed": 7015,
+    "profile": "scale_suffix_composition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 38,
+        "groups": 30,
+        "eligible_cells": 266,
+        "actual_changed_cells": 77,
+        "target_cells": 266,
+        "eligible_cell_rate": 0.2894736842105263,
+        "all_target_cell_rate": 0.2894736842105263,
+        "per_field": {
+          "feature_01": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_02": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_03": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_04": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_05": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_06": {
+            "eligible": 38,
+            "changed": 11
+          },
+          "feature_07": {
+            "eligible": 38,
+            "changed": 11
+          }
+        }
+      },
+      "validation": {
+        "rows": 39,
+        "groups": 30,
+        "eligible_cells": 273,
+        "actual_changed_cells": 84,
+        "target_cells": 273,
+        "eligible_cell_rate": 0.3076923076923077,
+        "all_target_cell_rate": 0.3076923076923077,
+        "per_field": {
+          "feature_01": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_02": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_03": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_04": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_05": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_06": {
+            "eligible": 39,
+            "changed": 12
+          },
+          "feature_07": {
+            "eligible": 39,
+            "changed": 12
+          }
+        }
+      },
+      "repair": {
+        "rows": 265,
+        "groups": 196,
+        "eligible_cells": 1852,
+        "actual_changed_cells": 559,
+        "target_cells": 1855,
+        "eligible_cell_rate": 0.3018358531317495,
+        "all_target_cell_rate": 0.3013477088948787,
+        "per_field": {
+          "feature_01": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_02": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_03": {
+            "eligible": 262,
+            "changed": 79
+          },
+          "feature_04": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_05": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_06": {
+            "eligible": 265,
+            "changed": 80
+          },
+          "feature_07": {
+            "eligible": 265,
+            "changed": 80
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 49,
+    "native_budget": 10,
+    "raw_source_sha": "5fc1507522b73b8050d3aa45df51eefe1b666ae5f428a5f1347b6483339f1003",
+    "old_public_roles_sha": "5856cb7983fb1756e5043633187ae12d57f912e41cb748f1af5f15fd42cad3c6",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  },
+  {
+    "id": "original_scale_suffix_composition_airfoil_s7015",
+    "dataset": "airfoil",
+    "seed": 7015,
+    "profile": "scale_suffix_composition",
+    "suite": "original_system_new_error_conditions",
+    "original_task": "regression",
+    "task": "repair_only",
+    "counts": {
+      "learning": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 717,
+        "actual_changed_cells": 215,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.299860529986053,
+        "all_target_cell_rate": 0.2866666666666667,
+        "per_field": {
+          "feature_01": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_02": {
+            "eligible": 117,
+            "changed": 35
+          },
+          "feature_03": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_04": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_05": {
+            "eligible": 150,
+            "changed": 45
+          }
+        }
+      },
+      "validation": {
+        "rows": 150,
+        "groups": 150,
+        "eligible_cells": 725,
+        "actual_changed_cells": 218,
+        "target_cells": 750,
+        "eligible_cell_rate": 0.3006896551724138,
+        "all_target_cell_rate": 0.2906666666666667,
+        "per_field": {
+          "feature_01": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_02": {
+            "eligible": 125,
+            "changed": 38
+          },
+          "feature_03": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_04": {
+            "eligible": 150,
+            "changed": 45
+          },
+          "feature_05": {
+            "eligible": 150,
+            "changed": 45
+          }
+        }
+      },
+      "repair": {
+        "rows": 963,
+        "groups": 963,
+        "eligible_cells": 4602,
+        "actual_changed_cells": 1381,
+        "target_cells": 4815,
+        "eligible_cell_rate": 0.30008691873098653,
+        "all_target_cell_rate": 0.28681204569055035,
+        "per_field": {
+          "feature_01": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_02": {
+            "eligible": 750,
+            "changed": 225
+          },
+          "feature_03": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_04": {
+            "eligible": 963,
+            "changed": 289
+          },
+          "feature_05": {
+            "eligible": 963,
+            "changed": 289
+          }
+        }
+      }
+    },
+    "old_entity_partitions_seed": 1013,
+    "new_partition": false,
+    "known_source_not_new_blind": true,
+    "old_holdout_excluded_groups": 240,
+    "native_budget": 10,
+    "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+    "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360",
+    "original_core_unmodified": true,
+    "new_candidate_modules": false
+  }
+]

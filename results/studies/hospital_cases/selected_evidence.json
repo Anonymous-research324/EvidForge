@@ -1,0 +1,271 @@
+{
+  "dataset": "Hospital",
+  "source_case": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015",
+  "seed": 1015,
+  "qualification": true,
+  "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/work/full/onboarding/prior_prepared",
+  "examples": [
+    {
+      "id": "A",
+      "row": 319,
+      "field": "MeasureCode",
+      "purpose": "EvidForge correct while TabClean actually changes to a wrong code",
+      "row_one_based": 320,
+      "dirty": "scip-vtx-1",
+      "reference": "scip-vte-1",
+      "outputs": {
+        "full": "scip-vte-1",
+        "no_llm": "scip-vte-1",
+        "no_final_gate": "scip-vte-1",
+        "tabclean": "scip-vt--1"
+      },
+      "context": {
+        "entity_id": "g000019",
+        "HospitalName": "east alabama medical center and snf",
+        "City": "opelika",
+        "State": "al",
+        "CountyName": "lee",
+        "MeasureCode": "scip-vtx-1",
+        "Stateavg": "al_scip-vte-1",
+        "Condition": "surgical infection prevention",
+        "MeasureName": "surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries"
+      }
+    },
+    {
+      "id": "B",
+      "row": 25,
+      "field": "CountyName",
+      "purpose": "normal value preserved; original gate ablation changes it incorrectly",
+      "row_one_based": 26,
+      "dirty": "talladega",
+      "reference": "talladega",
+      "outputs": {
+        "full": "talladega",
+        "no_llm": "talladega",
+        "no_final_gate": "jefferson",
+        "tabclean": "talladega"
+      },
+      "context": {
+        "entity_id": "g000042",
+        "HospitalName": "coosa valley medical center",
+        "City": "sylacauga",
+        "State": "al",
+        "CountyName": "talladega",
+        "MeasureCode": "ami-1",
+        "Stateavg": "al_ami-1",
+        "Condition": "heart attack",
+        "MeasureName": "heart attack patients given aspirin at arrival"
+      }
+    },
+    {
+      "id": "C",
+      "row": 156,
+      "field": "Stateavg",
+      "purpose": "EvidForge wrong repair while TabClean preserves the correct value",
+      "row_one_based": 157,
+      "dirty": "ak_scip-card-2",
+      "reference": "ak_scip-card-2",
+      "outputs": {
+        "full": "al_scip-card-2",
+        "no_llm": "al_scip-card-2",
+        "no_final_gate": "al_scip-card-2",
+        "tabclean": "ak_scip-card-2"
+      },
+      "context": {
+        "entity_id": "g000043",
+        "HospitalName": "alaska regional hospital",
+        "City": "anchorage",
+        "State": "ak",
+        "CountyName": "anchorage",
+        "MeasureCode": "scip-card-2",
+        "Stateavg": "ak_scip-card-2",
+        "Condition": "surgical infection prevention",
+        "MeasureName": "surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery"
+      }
+    }
+  ],
+  "aggregate_context": [
+    {
+      "id": "natural_hospital_s1015",
+      "dataset": "hospital",
+      "seed": 1015,
+      "suite": "natural",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0,
+      "provenance": {
+        "dirty_sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a",
+        "reference_sha256": "043b1300091d447a48cc9e78c71a64925b2b3cbff624df436cec416afe6199cc",
+        "group_key": "ProviderNumber",
+        "natural_no_new_pollution": true,
+        "unsupported_target_columns": []
+      },
+      "arm": "full",
+      "repair": {
+        "P": 0.8627450980392157,
+        "R": 0.29333333333333333,
+        "F1": 0.4378109452736318,
+        "normal_damage": 0.00130718954248366,
+        "errors": 150,
+        "normal": 5355,
+        "changes": 51,
+        "exact": 44,
+        "damaged": 7,
+        "detection_AUC": 0.6460130718954249
+      },
+      "downstream": null,
+      "receipt": {
+        "arm": "full",
+        "seconds": 24.31183455232531,
+        "rows": 346,
+        "changed_cells": 51,
+        "new9B_calls": 0,
+        "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/work/full/onboarding/prior_prepared",
+        "seed": 1015,
+        "formal_reference_read": false
+      }
+    },
+    {
+      "id": "natural_hospital_s1015",
+      "dataset": "hospital",
+      "seed": 1015,
+      "suite": "natural",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0,
+      "provenance": {
+        "dirty_sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a",
+        "reference_sha256": "043b1300091d447a48cc9e78c71a64925b2b3cbff624df436cec416afe6199cc",
+        "group_key": "ProviderNumber",
+        "natural_no_new_pollution": true,
+        "unsupported_target_columns": []
+      },
+      "arm": "no_llm",
+      "repair": {
+        "P": 0.8627450980392157,
+        "R": 0.29333333333333333,
+        "F1": 0.4378109452736318,
+        "normal_damage": 0.00130718954248366,
+        "errors": 150,
+        "normal": 5355,
+        "changes": 51,
+        "exact": 44,
+        "damaged": 7,
+        "detection_AUC": 0.6460130718954249
+      },
+      "downstream": null,
+      "receipt": {
+        "arm": "no_llm",
+        "seconds": 24.51151569467038,
+        "rows": 346,
+        "changed_cells": 51,
+        "new9B_calls": 0,
+        "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/work/no_llm/onboarding/prior_prepared",
+        "seed": 1015,
+        "formal_reference_read": false
+      }
+    },
+    {
+      "id": "natural_hospital_s1015",
+      "dataset": "hospital",
+      "seed": 1015,
+      "suite": "natural",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0,
+      "provenance": {
+        "dirty_sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a",
+        "reference_sha256": "043b1300091d447a48cc9e78c71a64925b2b3cbff624df436cec416afe6199cc",
+        "group_key": "ProviderNumber",
+        "natural_no_new_pollution": true,
+        "unsupported_target_columns": []
+      },
+      "arm": "no_final_gate",
+      "repair": {
+        "P": 0.2975778546712803,
+        "R": 0.5733333333333334,
+        "F1": 0.39179954441913445,
+        "normal_damage": 0.030625583566760036,
+        "errors": 150,
+        "normal": 5355,
+        "changes": 289,
+        "exact": 86,
+        "damaged": 164,
+        "detection_AUC": 0.9013538748832868
+      },
+      "downstream": null,
+      "receipt": {
+        "arm": "no_final_gate",
+        "seconds": 24.440576400607824,
+        "rows": 346,
+        "changed_cells": 289,
+        "new9B_calls": 0,
+        "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/work/full/onboarding/prior_prepared",
+        "seed": 1015,
+        "formal_reference_read": false
+      }
+    },
+    {
+      "id": "natural_hospital_s1015",
+      "dataset": "hospital",
+      "seed": 1015,
+      "suite": "natural",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0,
+      "provenance": {
+        "dirty_sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a",
+        "reference_sha256": "043b1300091d447a48cc9e78c71a64925b2b3cbff624df436cec416afe6199cc",
+        "group_key": "ProviderNumber",
+        "natural_no_new_pollution": true,
+        "unsupported_target_columns": []
+      },
+      "arm": "tabclean",
+      "repair": {
+        "P": 0.7216494845360825,
+        "R": 0.4666666666666667,
+        "F1": 0.5668016194331984,
+        "normal_damage": 0.0,
+        "errors": 150,
+        "normal": 5355,
+        "changes": 97,
+        "exact": 70,
+        "damaged": 0,
+        "detection_AUC": 0.8233333333333333
+      },
+      "downstream": null,
+      "receipt": {
+        "seconds": 1073.7860009428114,
+        "calls": 17,
+        "seed": 1015,
+        "same_model_adaptation_not_original_GPT_result": true,
+        "formal_reference_read": false
+      }
+    }
+  ],
+  "source_sha": {
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/public/repair_dirty.csv": "941b6606fd6ade67ccb030bdcc7978c590cfb32d471b9466434c86b69fc0fcf4",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/public/declaration.json": "aac707352a50b9c9d2d67e81c8a5f63ef4930351822d1fe66d276f9cf1afaef5",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/case_studies.json": "e7b5d6a373f1e6a30e549ff0389d9e876ebd1682bd3e7ec74f484f7b67ca51ba",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/scores.json": "22a5334c6b80a474771ff981cc44af81c6b7902dad3d24ac48d7f547585f4c4d",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/work/full/selection.json": "110e76850578895ddf42d34a3b374c73ba39c7432b6e4ffd20dc201f6835dd3e",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/outputs/tabclean/frozen_program.py": "874fbe44360256c8141f2156cc671eb91f919795964059f409d95bdb88e622bb",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/outputs/tabclean/program_freeze.json": "c2255261255e6d863d4df30938ad6abfe395203b37defbe41ed2b20ad3d7721c",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/outputs/full/repair_output.csv": "29f28e41c6bd9b51fb203afe4d6377a2d7fcc7337b489adc24bc3dd7da1bf59e",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/outputs/full/decisions.json": "d92789093015ea162e534f15540d9643f832972db34f3a17434d9ed92ca846fa",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/outputs/full/receipt.json": "c0ca15806d87f91b2493b4c753ed2e9b3a44e4f91eb0d736c85578cce7b885af",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/outputs/no_llm/repair_output.csv": "29f28e41c6bd9b51fb203afe4d6377a2d7fcc7337b489adc24bc3dd7da1bf59e",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/outputs/no_llm/decisions.json": "d92789093015ea162e534f15540d9643f832972db34f3a17434d9ed92ca846fa",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/outputs/no_llm/receipt.json": "e26007d55b2bd7dc2e67883ec4a15e3432f4092b129151f6d059b3424bd558d0",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/outputs/no_final_gate/repair_output.csv": "85ec5e1232f4441b5c53c5a41fc9d9b9bd0b20950f3a7b9a052b89d7151f4476",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/outputs/no_final_gate/decisions.json": "6b4583bbd7443c631f224997e2411b7bc74e0cd101d0ec8febf4479b8c9e3ce7",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/outputs/no_final_gate/receipt.json": "d7b2248ef042ef17411cecbb653802573c97db6b8f4a250e3a8ff48194c6ca9a",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/outputs/tabclean/repair_output.csv": "52a6e32a19073f8c897645a2c5b26f825ce075bc627505ab9228c72f359fb446",
+    "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/natural_hospital_s1015/outputs/tabclean/receipt.json": "a77deb7b511eac990c004e2f3f028ae3b8938534a31d4b0a631dc19674e86b77"
+  },
+  "reference_sha": "92e5259ed3ed37ba9dda1680f2e3cd4a6eda57546c512fc01741bcaa2c1811c8",
+  "curator_reference_reads": 1,
+  "new_model_calls": 0,
+  "new_fit": false,
+  "new_formal_scoring": false
+}

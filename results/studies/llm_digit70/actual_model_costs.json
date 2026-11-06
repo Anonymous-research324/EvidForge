@@ -1,0 +1,1712 @@
+[
+  {
+    "case": "digit70_retinopathy_s2013",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_prepare_seconds": 779.2088887051214,
+    "source_copy_not_independent_fit": true,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2013fullpriorcall1",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2234,
+          "total_tokens": 2482,
+          "completion_tokens": 248,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.77957972092554
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2013fullpriorcall3",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4539,
+          "total_tokens": 4744,
+          "completion_tokens": 205,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.947150662075728
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2013fullpriorcall4",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5313,
+          "total_tokens": 5518,
+          "completion_tokens": 205,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.003270921064541
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2013fullpriorcall5",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4551,
+          "total_tokens": 4585,
+          "completion_tokens": 34,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.9034532138612121
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2013fullcontextcall1",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2535,
+          "total_tokens": 2818,
+          "completion_tokens": 283,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.302608744008467
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2013fullcontextcall2",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4072,
+          "total_tokens": 4304,
+          "completion_tokens": 232,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.3434588520321995
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2013fullcontextcall5",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4888,
+          "total_tokens": 4924,
+          "completion_tokens": 36,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.9677892089821398
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2013fullpriorcall2",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3751,
+          "total_tokens": 3956,
+          "completion_tokens": 205,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.8249175290111452
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2013fullcontextcall3",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4906,
+          "total_tokens": 5115,
+          "completion_tokens": 209,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.040723341051489
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2013fullcontextcall4",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5648,
+          "total_tokens": 5857,
+          "completion_tokens": 209,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.1222695941105485
+      }
+    ],
+    "tokens": 44303
+  },
+  {
+    "case": "digit70_airfoil_s2013",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_prepare_seconds": 270.08112093107775,
+    "source_copy_not_independent_fit": true,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2013fullpriorcall1",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2230,
+          "total_tokens": 2478,
+          "completion_tokens": 248,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.680156700080261
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2013fullpriorcall2",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3645,
+          "total_tokens": 3832,
+          "completion_tokens": 187,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.4959787079133093
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2013fullpriorcall5",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4354,
+          "total_tokens": 4366,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5108321120496839
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2013fullcontextcall1",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2474,
+          "total_tokens": 2804,
+          "completion_tokens": 330,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 6.115878022974357
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2013fullcontextcall3",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4813,
+          "total_tokens": 5042,
+          "completion_tokens": 229,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.389300855109468
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2013fullcontextcall4",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5541,
+          "total_tokens": 5770,
+          "completion_tokens": 229,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.4693264530505985
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2013fullcontextcall5",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4797,
+          "total_tokens": 4809,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5600353858899325
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2013fullpriorcall3",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4358,
+          "total_tokens": 4545,
+          "completion_tokens": 187,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.581928470171988
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2013fullpriorcall4",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5037,
+          "total_tokens": 5224,
+          "completion_tokens": 187,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.6667443301994354
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2013fullcontextcall2",
+        "seed": 2013,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4019,
+          "total_tokens": 4271,
+          "completion_tokens": 252,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.696286976104602
+      }
+    ],
+    "tokens": 43141
+  },
+  {
+    "case": "digit70_retinopathy_s2014",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_prepare_seconds": 787.2574473719578,
+    "source_copy_not_independent_fit": true,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2014fullpriorcall1",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2244,
+          "total_tokens": 2492,
+          "completion_tokens": 248,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.657651457004249
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2014fullpriorcall3",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4387,
+          "total_tokens": 4591,
+          "completion_tokens": 204,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.90929555404
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2014fullpriorcall4",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5082,
+          "total_tokens": 5286,
+          "completion_tokens": 204,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.9635167729575187
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2014fullpriorcall5",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4399,
+          "total_tokens": 4435,
+          "completion_tokens": 36,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.9273823618423194
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2014fullcontextcall2",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4084,
+          "total_tokens": 4315,
+          "completion_tokens": 231,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.320784833980724
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2014fullcontextcall5",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4043,
+          "total_tokens": 4078,
+          "completion_tokens": 35,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.8808078488800675
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2014fullpriorcall2",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3753,
+          "total_tokens": 3957,
+          "completion_tokens": 204,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.808204222936183
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2014fullcontextcall1",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2531,
+          "total_tokens": 2813,
+          "completion_tokens": 282,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.274144198046997
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2014fullcontextcall3",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4756,
+          "total_tokens": 4987,
+          "completion_tokens": 231,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.432037212187424
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2014fullcontextcall4",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4043,
+          "total_tokens": 4274,
+          "completion_tokens": 231,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.312629766995087
+      }
+    ],
+    "tokens": 41228
+  },
+  {
+    "case": "digit70_airfoil_s2014",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_prepare_seconds": 271.13004840305075,
+    "source_copy_not_independent_fit": true,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2014fullpriorcall1",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2209,
+          "total_tokens": 2434,
+          "completion_tokens": 225,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.253687961958349
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2014fullpriorcall2",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3622,
+          "total_tokens": 3793,
+          "completion_tokens": 171,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.2206809560302645
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2014fullpriorcall5",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5730,
+          "total_tokens": 5742,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6494297969620675
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2014fullcontextcall1",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2483,
+          "total_tokens": 2821,
+          "completion_tokens": 338,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 6.250575914978981
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2014fullcontextcall2",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4060,
+          "total_tokens": 4340,
+          "completion_tokens": 280,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.20372699899599
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2014fullcontextcall3",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4890,
+          "total_tokens": 5170,
+          "completion_tokens": 280,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.297160648042336
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2014fullcontextcall4",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4092,
+          "total_tokens": 4373,
+          "completion_tokens": 281,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.209620066918433
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2014fullpriorcall3",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4302,
+          "total_tokens": 4473,
+          "completion_tokens": 171,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.3251472311094403
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2014fullpriorcall4",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5024,
+          "total_tokens": 5195,
+          "completion_tokens": 171,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.3908011179883033
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2014fullcontextcall5",
+        "seed": 2014,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5730,
+          "total_tokens": 5742,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6525169340893626
+      }
+    ],
+    "tokens": 44083
+  },
+  {
+    "case": "digit70_retinopathy_s2015",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_prepare_seconds": 781.2623333910014,
+    "source_copy_not_independent_fit": true,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2015fullpriorcall1",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2239,
+          "total_tokens": 2489,
+          "completion_tokens": 250,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.706784829031676
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2015fullpriorcall3",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4569,
+          "total_tokens": 4778,
+          "completion_tokens": 209,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.002720268908888
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2015fullpriorcall4",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5331,
+          "total_tokens": 5540,
+          "completion_tokens": 209,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.096123706083745
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2015fullpriorcall5",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4566,
+          "total_tokens": 4602,
+          "completion_tokens": 36,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.9463299829512835
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2015fullcontextcall1",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2536,
+          "total_tokens": 2819,
+          "completion_tokens": 283,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.279146814951673
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2015fullcontextcall3",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4698,
+          "total_tokens": 4907,
+          "completion_tokens": 209,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.014097822131589
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2015fullcontextcall4",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5372,
+          "total_tokens": 5581,
+          "completion_tokens": 209,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.0910804129671305
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2015fullpriorcall2",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3734,
+          "total_tokens": 3943,
+          "completion_tokens": 209,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.896226837998256
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2015fullcontextcall2",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3943,
+          "total_tokens": 4175,
+          "completion_tokens": 232,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.324570261873305
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2015fullcontextcall5",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4682,
+          "total_tokens": 4694,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5376663168426603
+      }
+    ],
+    "tokens": 43528
+  },
+  {
+    "case": "digit70_airfoil_s2015",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_prepare_seconds": 270.3861052489374,
+    "source_copy_not_independent_fit": true,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2015fullpriorcall1",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2194,
+          "total_tokens": 2421,
+          "completion_tokens": 227,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.297045353800058
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2015fullpriorcall2",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3507,
+          "total_tokens": 3697,
+          "completion_tokens": 190,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.533679940039292
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2015fullpriorcall5",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4222,
+          "total_tokens": 4234,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.475452336948365
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2015fullcontextcall2",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3886,
+          "total_tokens": 4115,
+          "completion_tokens": 229,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.270127203082666
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2015fullcontextcall3",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4608,
+          "total_tokens": 4837,
+          "completion_tokens": 229,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.370012107072398
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2015fullcontextcall5",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3899,
+          "total_tokens": 3911,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.45048141991719604
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2015fullpriorcall3",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4213,
+          "total_tokens": 4403,
+          "completion_tokens": 190,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.6213739558588713
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2015fullpriorcall4",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4889,
+          "total_tokens": 5079,
+          "completion_tokens": 190,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.7103344209026545
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2015fullcontextcall1",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2449,
+          "total_tokens": 2753,
+          "completion_tokens": 304,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.646450910018757
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2015fullcontextcall4",
+        "seed": 2015,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3899,
+          "total_tokens": 4128,
+          "completion_tokens": 229,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.26569832698442
+      }
+    ],
+    "tokens": 39578
+  },
+  {
+    "case": "digit70_retinopathy_s2016",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_prepare_seconds": 787.6135751050897,
+    "source_copy_not_independent_fit": true,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2016fullpriorcall1",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2263,
+          "total_tokens": 2511,
+          "completion_tokens": 248,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.668091653147712
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2016fullpriorcall3",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4762,
+          "total_tokens": 4987,
+          "completion_tokens": 225,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.33149069105275
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2016fullpriorcall4",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5607,
+          "total_tokens": 5832,
+          "completion_tokens": 225,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.396905438043177
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2016fullpriorcall5",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4772,
+          "total_tokens": 4807,
+          "completion_tokens": 35,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.9528721270617098
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2016fullcontextcall2",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4041,
+          "total_tokens": 4276,
+          "completion_tokens": 235,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.392084296792746
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2016fullcontextcall4",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5606,
+          "total_tokens": 5841,
+          "completion_tokens": 235,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.574948947876692
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2016fullcontextcall5",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4846,
+          "total_tokens": 4858,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5609605200588703
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2016fullpriorcall2",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3868,
+          "total_tokens": 4093,
+          "completion_tokens": 225,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.19224345497787
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2016fullcontextcall1",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2552,
+          "total_tokens": 2838,
+          "completion_tokens": 286,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.333258593920618
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2016fullcontextcall3",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4829,
+          "total_tokens": 5064,
+          "completion_tokens": 235,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.494400966912508
+      }
+    ],
+    "tokens": 45107
+  },
+  {
+    "case": "digit70_airfoil_s2016",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_prepare_seconds": 270.42191514302976,
+    "source_copy_not_independent_fit": true,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2016fullpriorcall1",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2177,
+          "total_tokens": 2465,
+          "completion_tokens": 288,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.367008988047019
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2016fullpriorcall2",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3616,
+          "total_tokens": 3834,
+          "completion_tokens": 218,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.045040701050311
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2016fullpriorcall5",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4342,
+          "total_tokens": 4354,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5138478029984981
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2016fullcontextcall1",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2432,
+          "total_tokens": 2763,
+          "completion_tokens": 331,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 6.12600325117819
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2016fullcontextcall3",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4656,
+          "total_tokens": 4882,
+          "completion_tokens": 226,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.323566606035456
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2016fullcontextcall4",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5344,
+          "total_tokens": 5570,
+          "completion_tokens": 226,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.389981125015765
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2016fullpriorcall3",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4331,
+          "total_tokens": 4549,
+          "completion_tokens": 218,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.148583787959069
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2016fullpriorcall4",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5047,
+          "total_tokens": 5265,
+          "completion_tokens": 218,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.218585110036656
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2016fullcontextcall2",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3907,
+          "total_tokens": 4155,
+          "completion_tokens": 248,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.606964836828411
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2016fullcontextcall5",
+        "seed": 2016,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4640,
+          "total_tokens": 4652,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5455623399466276
+      }
+    ],
+    "tokens": 42489
+  },
+  {
+    "case": "digit70_retinopathy_s2017",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_prepare_seconds": 774.1859587940853,
+    "source_copy_not_independent_fit": true,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2017fullpriorcall1",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2248,
+          "total_tokens": 2496,
+          "completion_tokens": 248,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.681713457219303
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2017fullpriorcall3",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4273,
+          "total_tokens": 4461,
+          "completion_tokens": 188,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.6134552638977766
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2017fullpriorcall4",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4948,
+          "total_tokens": 5136,
+          "completion_tokens": 188,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.671983625041321
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2017fullpriorcall5",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4284,
+          "total_tokens": 4296,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5019714869558811
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2017fullcontextcall1",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2536,
+          "total_tokens": 2818,
+          "completion_tokens": 282,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.284635534975678
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2017fullcontextcall3",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4911,
+          "total_tokens": 5142,
+          "completion_tokens": 231,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.438460679957643
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2017fullcontextcall4",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4122,
+          "total_tokens": 4353,
+          "completion_tokens": 231,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.32265002396889
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2017fullcontextcall5",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5712,
+          "total_tokens": 5746,
+          "completion_tokens": 34,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 1.0361824058927596
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2017fullpriorcall2",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3593,
+          "total_tokens": 3781,
+          "completion_tokens": 188,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.508705348940566
+      },
+      {
+        "trace": "services/gpu0/requests/Digit70digit70retinopathys2017fullcontextcall2",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4085,
+          "total_tokens": 4316,
+          "completion_tokens": 231,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.333186243893579
+      }
+    ],
+    "tokens": 42545
+  },
+  {
+    "case": "digit70_airfoil_s2017",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_prepare_seconds": 270.2880568590481,
+    "source_copy_not_independent_fit": true,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2017fullpriorcall1",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2215,
+          "total_tokens": 2464,
+          "completion_tokens": 249,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.686024738941342
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2017fullpriorcall2",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3794,
+          "total_tokens": 3982,
+          "completion_tokens": 188,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.5439603650011122
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2017fullpriorcall5",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4583,
+          "total_tokens": 4618,
+          "completion_tokens": 35,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.9423613711260259
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2017fullcontextcall1",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2471,
+          "total_tokens": 2752,
+          "completion_tokens": 281,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.242987960809842
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2017fullcontextcall2",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4092,
+          "total_tokens": 4343,
+          "completion_tokens": 251,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.687360421055928
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2017fullcontextcall5",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4992,
+          "total_tokens": 5027,
+          "completion_tokens": 35,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.9762542468961328
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2017fullpriorcall3",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4587,
+          "total_tokens": 4775,
+          "completion_tokens": 188,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.6509300558827817
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2017fullpriorcall4",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5347,
+          "total_tokens": 5535,
+          "completion_tokens": 188,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.7383173778653145
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2017fullcontextcall3",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4976,
+          "total_tokens": 5227,
+          "completion_tokens": 251,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.788012180943042
+      },
+      {
+        "trace": "services/gpu1/requests/Digit70digit70airfoils2017fullcontextcall4",
+        "seed": 2017,
+        "temperature": 0,
+        "model": "evidforge-digit70-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5832,
+          "total_tokens": 6083,
+          "completion_tokens": 251,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.932845384813845
+      }
+    ],
+    "tokens": 44806
+  }
+]

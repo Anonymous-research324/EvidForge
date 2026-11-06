@@ -1,0 +1,89 @@
+{
+  "data_stage_only": true,
+  "new_model_calls": 0,
+  "fits": 0,
+  "publication_data_redistribution_not_reviewed": true,
+  "bundles": [
+    {
+      "study": "advisor_supplement",
+      "manifest_sha256": "5b048e7956be039eea98ab4c8cfa148e288ca5020adbb0c160790472f2b787bb",
+      "archive_sha256": "9d905cd3c959bb99b16d014c3d11523a5e987c083a8ea150117ecfbea6558bbe",
+      "archive_bytes": 1609504,
+      "case_count": 28,
+      "input_files": 464,
+      "bundle_server_directory": "/root/fsas/home/anonymous/projects/EvidForge_Reproducibility_20261105/input_bundles/advisor_supplement"
+    },
+    {
+      "study": "example_budget",
+      "manifest_sha256": "0f16e7780235e8f82e3ab12bc1bedf360e9ac949decc286d152725813bc80a80",
+      "archive_sha256": "4c4edfd9733ae1bca38dec20686047bcab236cdde0f43992fbe522eeaad3b82a",
+      "archive_bytes": 224113,
+      "case_count": 54,
+      "input_files": 432,
+      "bundle_server_directory": "/root/fsas/home/anonymous/projects/EvidForge_Reproducibility_20261105/input_bundles/example_budget"
+    },
+    {
+      "study": "llm_digit70",
+      "manifest_sha256": "51333dc00a69006bfd92034aaeec9358b56b2b97605339b14f366c63d0371e30",
+      "archive_sha256": "316481cf37aeb8560033694ba20010f247ef97eaf2bae684a2f55ee91e15e730",
+      "archive_bytes": 1237172,
+      "case_count": 10,
+      "input_files": 90,
+      "bundle_server_directory": "/root/fsas/home/anonymous/projects/EvidForge_Reproducibility_20261105/input_bundles/llm_digit70"
+    },
+    {
+      "study": "new_errors",
+      "manifest_sha256": "b956e0e18e23552f11e3e9ffe90ce31b577f3848a7a4f2dd484d1349b3789d83",
+      "archive_sha256": "21d5e34f9f85e6b589afd9bbda71e7d990706d22f2f1058f63682be1e3e51553",
+      "archive_bytes": 839265,
+      "case_count": 27,
+      "input_files": 243,
+      "bundle_server_directory": "/root/fsas/home/anonymous/projects/EvidForge_Reproducibility_20261105/input_bundles/new_errors"
+    },
+    {
+      "study": "real_dirty",
+      "manifest_sha256": "600c87009e6fa09d60e38d413a482a9a1406443634976c5295297756cac1d48b",
+      "archive_sha256": "9b75801be8a064baccb6d55e084bdeb1e0331d53380135ea5a41397fae4d90f1",
+      "archive_bytes": 19326400,
+      "case_count": 24,
+      "input_files": 264,
+      "bundle_server_directory": "/root/fsas/home/anonymous/projects/EvidForge_Reproducibility_20261105/input_bundles/real_dirty"
+    },
+    {
+      "study": "robustness_retinopathy",
+      "manifest_sha256": "a252b7b70f50bab7840ea59663f5dc521136318be601d54e2d921326abd81a61",
+      "archive_sha256": "da40aeeced5ea07e330c19f42ef546d78323ad6e0dedada1497e0bc78345dc67",
+      "archive_bytes": 3938208,
+      "case_count": 24,
+      "input_files": 432,
+      "bundle_server_directory": "/root/fsas/home/anonymous/projects/EvidForge_Reproducibility_20261105/input_bundles/robustness_retinopathy"
+    },
+    {
+      "study": "sealed_reuse",
+      "manifest_sha256": "acab20d373f2378f4685ec313b5518d7582b3b71b4e277663174ab767600ae2d",
+      "archive_sha256": "70de6882e7a653dafc67d3b31f42219eb737b0958c21cae4a2a150beaa3a710b",
+      "archive_bytes": 626569,
+      "case_count": 6,
+      "input_files": 132,
+      "bundle_server_directory": "/root/fsas/home/anonymous/projects/EvidForge_Reproducibility_20261105/input_bundles/sealed_reuse"
+    },
+    {
+      "study": "semantic_historical",
+      "manifest_sha256": "abc3823c025ee1a45e9b77edd6dd76cfa5b9f80e46a34079e076529af0c3297e",
+      "archive_sha256": "cc054afaceb8b0250c2fa9d9a2503c77870685882b34b46351bcc9504db19213",
+      "archive_bytes": 446320,
+      "case_count": 6,
+      "input_files": 60,
+      "bundle_server_directory": "/root/fsas/home/anonymous/projects/EvidForge_Reproducibility_20261105/input_bundles/semantic_historical"
+    },
+    {
+      "study": "tabclean_same9b",
+      "manifest_sha256": "cedf902f83f45194d35253a220b9019a834491e61f59ad983005439b3fc2cc0b",
+      "archive_sha256": "a65fbeac397798a579c2627bd459bec51e6ae5e955648d54ae470703eff2154f",
+      "archive_bytes": 1854060,
+      "case_count": 21,
+      "input_files": 231,
+      "bundle_server_directory": "/root/fsas/home/anonymous/projects/EvidForge_Reproducibility_20261105/input_bundles/tabclean_same9b"
+    }
+  ]
+}

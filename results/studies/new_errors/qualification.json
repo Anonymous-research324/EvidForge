@@ -1,0 +1,488 @@
+[
+  {
+    "case": "original_digit_transposition_spectf_s7013",
+    "dataset": "spectf",
+    "profile": "digit_transposition",
+    "seed": 7013,
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_spectf_s7013",
+    "dataset": "spectf",
+    "profile": "digit_transposition",
+    "seed": 7013,
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_auto_mpg_s7013",
+    "dataset": "auto_mpg",
+    "profile": "digit_transposition",
+    "seed": 7013,
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_auto_mpg_s7013",
+    "dataset": "auto_mpg",
+    "profile": "digit_transposition",
+    "seed": 7013,
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_airfoil_s7013",
+    "dataset": "airfoil",
+    "profile": "digit_transposition",
+    "seed": 7013,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_airfoil_s7013",
+    "dataset": "airfoil",
+    "profile": "digit_transposition",
+    "seed": 7013,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_spectf_s7013",
+    "dataset": "spectf",
+    "profile": "cross_field_addition",
+    "seed": 7013,
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_spectf_s7013",
+    "dataset": "spectf",
+    "profile": "cross_field_addition",
+    "seed": 7013,
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_auto_mpg_s7013",
+    "dataset": "auto_mpg",
+    "profile": "cross_field_addition",
+    "seed": 7013,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_auto_mpg_s7013",
+    "dataset": "auto_mpg",
+    "profile": "cross_field_addition",
+    "seed": 7013,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_airfoil_s7013",
+    "dataset": "airfoil",
+    "profile": "cross_field_addition",
+    "seed": 7013,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_airfoil_s7013",
+    "dataset": "airfoil",
+    "profile": "cross_field_addition",
+    "seed": 7013,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_spectf_s7013",
+    "dataset": "spectf",
+    "profile": "scale_suffix_composition",
+    "seed": 7013,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_spectf_s7013",
+    "dataset": "spectf",
+    "profile": "scale_suffix_composition",
+    "seed": 7013,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_auto_mpg_s7013",
+    "dataset": "auto_mpg",
+    "profile": "scale_suffix_composition",
+    "seed": 7013,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_auto_mpg_s7013",
+    "dataset": "auto_mpg",
+    "profile": "scale_suffix_composition",
+    "seed": 7013,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_airfoil_s7013",
+    "dataset": "airfoil",
+    "profile": "scale_suffix_composition",
+    "seed": 7013,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_airfoil_s7013",
+    "dataset": "airfoil",
+    "profile": "scale_suffix_composition",
+    "seed": 7013,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_spectf_s7014",
+    "dataset": "spectf",
+    "profile": "digit_transposition",
+    "seed": 7014,
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_spectf_s7014",
+    "dataset": "spectf",
+    "profile": "digit_transposition",
+    "seed": 7014,
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_auto_mpg_s7014",
+    "dataset": "auto_mpg",
+    "profile": "digit_transposition",
+    "seed": 7014,
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_auto_mpg_s7014",
+    "dataset": "auto_mpg",
+    "profile": "digit_transposition",
+    "seed": 7014,
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_airfoil_s7014",
+    "dataset": "airfoil",
+    "profile": "digit_transposition",
+    "seed": 7014,
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_airfoil_s7014",
+    "dataset": "airfoil",
+    "profile": "digit_transposition",
+    "seed": 7014,
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_spectf_s7014",
+    "dataset": "spectf",
+    "profile": "cross_field_addition",
+    "seed": 7014,
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_spectf_s7014",
+    "dataset": "spectf",
+    "profile": "cross_field_addition",
+    "seed": 7014,
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_auto_mpg_s7014",
+    "dataset": "auto_mpg",
+    "profile": "cross_field_addition",
+    "seed": 7014,
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_auto_mpg_s7014",
+    "dataset": "auto_mpg",
+    "profile": "cross_field_addition",
+    "seed": 7014,
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_airfoil_s7014",
+    "dataset": "airfoil",
+    "profile": "cross_field_addition",
+    "seed": 7014,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_airfoil_s7014",
+    "dataset": "airfoil",
+    "profile": "cross_field_addition",
+    "seed": 7014,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_spectf_s7014",
+    "dataset": "spectf",
+    "profile": "scale_suffix_composition",
+    "seed": 7014,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_spectf_s7014",
+    "dataset": "spectf",
+    "profile": "scale_suffix_composition",
+    "seed": 7014,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_auto_mpg_s7014",
+    "dataset": "auto_mpg",
+    "profile": "scale_suffix_composition",
+    "seed": 7014,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_auto_mpg_s7014",
+    "dataset": "auto_mpg",
+    "profile": "scale_suffix_composition",
+    "seed": 7014,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_airfoil_s7014",
+    "dataset": "airfoil",
+    "profile": "scale_suffix_composition",
+    "seed": 7014,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_airfoil_s7014",
+    "dataset": "airfoil",
+    "profile": "scale_suffix_composition",
+    "seed": 7014,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_spectf_s7015",
+    "dataset": "spectf",
+    "profile": "digit_transposition",
+    "seed": 7015,
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_spectf_s7015",
+    "dataset": "spectf",
+    "profile": "digit_transposition",
+    "seed": 7015,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_auto_mpg_s7015",
+    "dataset": "auto_mpg",
+    "profile": "digit_transposition",
+    "seed": 7015,
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_auto_mpg_s7015",
+    "dataset": "auto_mpg",
+    "profile": "digit_transposition",
+    "seed": 7015,
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_airfoil_s7015",
+    "dataset": "airfoil",
+    "profile": "digit_transposition",
+    "seed": 7015,
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_digit_transposition_airfoil_s7015",
+    "dataset": "airfoil",
+    "profile": "digit_transposition",
+    "seed": 7015,
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_spectf_s7015",
+    "dataset": "spectf",
+    "profile": "cross_field_addition",
+    "seed": 7015,
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_spectf_s7015",
+    "dataset": "spectf",
+    "profile": "cross_field_addition",
+    "seed": 7015,
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_auto_mpg_s7015",
+    "dataset": "auto_mpg",
+    "profile": "cross_field_addition",
+    "seed": 7015,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_auto_mpg_s7015",
+    "dataset": "auto_mpg",
+    "profile": "cross_field_addition",
+    "seed": 7015,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_airfoil_s7015",
+    "dataset": "airfoil",
+    "profile": "cross_field_addition",
+    "seed": 7015,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_cross_field_addition_airfoil_s7015",
+    "dataset": "airfoil",
+    "profile": "cross_field_addition",
+    "seed": 7015,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_spectf_s7015",
+    "dataset": "spectf",
+    "profile": "scale_suffix_composition",
+    "seed": 7015,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_spectf_s7015",
+    "dataset": "spectf",
+    "profile": "scale_suffix_composition",
+    "seed": 7015,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_auto_mpg_s7015",
+    "dataset": "auto_mpg",
+    "profile": "scale_suffix_composition",
+    "seed": 7015,
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_auto_mpg_s7015",
+    "dataset": "auto_mpg",
+    "profile": "scale_suffix_composition",
+    "seed": 7015,
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_airfoil_s7015",
+    "dataset": "airfoil",
+    "profile": "scale_suffix_composition",
+    "seed": 7015,
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "original_scale_suffix_composition_airfoil_s7015",
+    "dataset": "airfoil",
+    "profile": "scale_suffix_composition",
+    "seed": 7015,
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  }
+]

@@ -1,0 +1,4646 @@
+[
+  {
+    "case": "original_digit_transposition_spectf_s7013",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 508.16913355188444,
+    "full_learning_including_copy_and_assessment_seconds": 702.4146396180149,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7013fullcontextcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2642,
+          "total_tokens": 2983,
+          "completion_tokens": 341,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 6.352807283168659
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7013fullcontextcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4230,
+          "total_tokens": 4242,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.4979384960606694
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7013fullpriorcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4404,
+          "total_tokens": 4593,
+          "completion_tokens": 189,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.6319743408821523
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7013fullpriorcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2295,
+          "total_tokens": 2521,
+          "completion_tokens": 226,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.638829445000738
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7013fullpriorcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4419,
+          "total_tokens": 4431,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5241005229763687
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7013fullcontextcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5007,
+          "total_tokens": 5262,
+          "completion_tokens": 255,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.85842698905617
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7013fullpriorcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3672,
+          "total_tokens": 3861,
+          "completion_tokens": 189,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.5594880399294198
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7013fullcontextcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4230,
+          "total_tokens": 4485,
+          "completion_tokens": 255,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.769559378968552
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7013fullcontextcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4219,
+          "total_tokens": 4474,
+          "completion_tokens": 255,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.924656755058095
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7013fullpriorcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5121,
+          "total_tokens": 5310,
+          "completion_tokens": 189,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.7069606280419976
+      }
+    ],
+    "tokens": 42162
+  },
+  {
+    "case": "original_digit_transposition_auto_mpg_s7013",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 56.57410122198053,
+    "full_learning_including_copy_and_assessment_seconds": 146.03920829622075,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7013fullcontextcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4129,
+          "total_tokens": 4339,
+          "completion_tokens": 210,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.9564793498720974
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7013fullpriorcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2096,
+          "total_tokens": 2291,
+          "completion_tokens": 195,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.825946310069412
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7013fullpriorcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3665,
+          "total_tokens": 3677,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.4671146071050316
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7013fullcontextcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4674,
+          "total_tokens": 4884,
+          "completion_tokens": 210,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.052097806008533
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7013fullpriorcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3652,
+          "total_tokens": 3822,
+          "completion_tokens": 170,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.2325296429917216
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7013fullcontextcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2377,
+          "total_tokens": 2627,
+          "completion_tokens": 250,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.692219983087853
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7013fullpriorcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4183,
+          "total_tokens": 4353,
+          "completion_tokens": 170,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.3169259091373533
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7013fullcontextcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3472,
+          "total_tokens": 3705,
+          "completion_tokens": 233,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.289043565979227
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7013fullpriorcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3095,
+          "total_tokens": 3265,
+          "completion_tokens": 170,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.1854990110732615
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7013fullcontextcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4112,
+          "total_tokens": 4124,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.46911156619898975
+      }
+    ],
+    "tokens": 37087
+  },
+  {
+    "case": "original_digit_transposition_airfoil_s7013",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 183.7472923991736,
+    "full_learning_including_copy_and_assessment_seconds": 338.2934101920109,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7013fullpriorcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2220,
+          "total_tokens": 2413,
+          "completion_tokens": 193,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.692066917894408
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7013fullpriorcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5311,
+          "total_tokens": 5323,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6078623980283737
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7013fullcontextcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3872,
+          "total_tokens": 4105,
+          "completion_tokens": 233,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.311887813033536
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7013fullpriorcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4064,
+          "total_tokens": 4229,
+          "completion_tokens": 165,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.143128028837964
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7013fullcontextcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3831,
+          "total_tokens": 4064,
+          "completion_tokens": 233,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.320944393984973
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7013fullpriorcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4689,
+          "total_tokens": 4854,
+          "completion_tokens": 165,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.23202736210078
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7013fullcontextcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2484,
+          "total_tokens": 2766,
+          "completion_tokens": 282,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.263923977036029
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7013fullcontextcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5266,
+          "total_tokens": 5278,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.604389816056937
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7013fullpriorcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3419,
+          "total_tokens": 3585,
+          "completion_tokens": 166,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.1012534550391138
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7013fullcontextcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4564,
+          "total_tokens": 4797,
+          "completion_tokens": 233,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.41727247601375
+      }
+    ],
+    "tokens": 41414
+  },
+  {
+    "case": "original_cross_field_addition_spectf_s7013",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 431.51846722420305,
+    "full_learning_including_copy_and_assessment_seconds": 594.5837257211097,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7013fullpriorcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3209,
+          "total_tokens": 3380,
+          "completion_tokens": 171,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.178061552112922
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7013fullcontextcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2507,
+          "total_tokens": 2789,
+          "completion_tokens": 282,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.272281551035121
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7013fullcontextcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4946,
+          "total_tokens": 5158,
+          "completion_tokens": 212,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.095811965875328
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7013fullpriorcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4893,
+          "total_tokens": 4905,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5570546889211982
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7013fullcontextcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3710,
+          "total_tokens": 3968,
+          "completion_tokens": 258,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.75912378099747
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7013fullpriorcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3794,
+          "total_tokens": 3964,
+          "completion_tokens": 170,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.2227677260525525
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7013fullcontextcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4358,
+          "total_tokens": 4370,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5175565760582685
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7013fullpriorcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2162,
+          "total_tokens": 2357,
+          "completion_tokens": 195,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.7123111370019615
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7013fullpriorcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4343,
+          "total_tokens": 4513,
+          "completion_tokens": 170,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.299297064077109
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7013fullcontextcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4385,
+          "total_tokens": 4597,
+          "completion_tokens": 212,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.043246224056929
+      }
+    ],
+    "tokens": 40001
+  },
+  {
+    "case": "original_cross_field_addition_auto_mpg_s7013",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 73.28730124095455,
+    "full_learning_including_copy_and_assessment_seconds": 172.2834730008617,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7013fullpriorcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3347,
+          "total_tokens": 3495,
+          "completion_tokens": 148,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.783459651051089
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7013fullcontextcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5302,
+          "total_tokens": 5580,
+          "completion_tokens": 278,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.3053110439796
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7013fullcontextcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3787,
+          "total_tokens": 4045,
+          "completion_tokens": 258,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.77672120789066
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7013fullpriorcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4485,
+          "total_tokens": 4633,
+          "completion_tokens": 148,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.9486830080859363
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7013fullcontextcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2498,
+          "total_tokens": 2781,
+          "completion_tokens": 283,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.285340765956789
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7013fullcontextcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4585,
+          "total_tokens": 4597,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5570765289012343
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7013fullpriorcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3917,
+          "total_tokens": 4066,
+          "completion_tokens": 149,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.850888855056837
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7013fullpriorcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2218,
+          "total_tokens": 2411,
+          "completion_tokens": 193,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.69398769387044
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7013fullpriorcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5053,
+          "total_tokens": 5065,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5750376780051738
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7013fullcontextcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4547,
+          "total_tokens": 4825,
+          "completion_tokens": 278,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.22459587501362
+      }
+    ],
+    "tokens": 41498
+  },
+  {
+    "case": "original_cross_field_addition_airfoil_s7013",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 230.6504277200438,
+    "full_learning_including_copy_and_assessment_seconds": 382.16942948591895,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7013fullpriorcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4422,
+          "total_tokens": 4624,
+          "completion_tokens": 202,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.917252897983417
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7013fullcontextcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3545,
+          "total_tokens": 3782,
+          "completion_tokens": 237,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.364499306073412
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7013fullpriorcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2157,
+          "total_tokens": 2422,
+          "completion_tokens": 265,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.952386414865032
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7013fullpriorcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5844,
+          "total_tokens": 5878,
+          "completion_tokens": 34,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 1.1057861370500177
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7013fullcontextcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3560,
+          "total_tokens": 3796,
+          "completion_tokens": 236,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.348043376114219
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7013fullpriorcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3630,
+          "total_tokens": 3833,
+          "completion_tokens": 203,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.9843996472191066
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7013fullcontextcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4169,
+          "total_tokens": 4406,
+          "completion_tokens": 237,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.473471904871985
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7013fullpriorcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5179,
+          "total_tokens": 5390,
+          "completion_tokens": 211,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.157460803864524
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7013fullcontextcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2312,
+          "total_tokens": 2626,
+          "completion_tokens": 314,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.806595311034471
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7013fullcontextcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4786,
+          "total_tokens": 4798,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5899545981083065
+      }
+    ],
+    "tokens": 41555
+  },
+  {
+    "case": "original_scale_suffix_composition_spectf_s7013",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 367.4137751599774,
+    "full_learning_including_copy_and_assessment_seconds": 509.95785635197535,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7013fullcontextcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4459,
+          "total_tokens": 4649,
+          "completion_tokens": 190,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.648119050078094
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7013fullpriorcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3920,
+          "total_tokens": 4070,
+          "completion_tokens": 150,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.9404440568760037
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7013fullpriorcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2130,
+          "total_tokens": 2333,
+          "completion_tokens": 203,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.8685590070672333
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7013fullpriorcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3932,
+          "total_tokens": 3944,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5081022519152611
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7013fullcontextcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2565,
+          "total_tokens": 2848,
+          "completion_tokens": 283,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.07569346902892
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7013fullpriorcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3333,
+          "total_tokens": 3483,
+          "completion_tokens": 150,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.018592254957184
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7013fullcontextcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2510,
+          "total_tokens": 2785,
+          "completion_tokens": 275,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.163854561978951
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7013fullcontextcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3828,
+          "total_tokens": 3840,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.4421684490516782
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7013fullcontextcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3839,
+          "total_tokens": 4029,
+          "completion_tokens": 190,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.573996940162033
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7013fullpriorcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4515,
+          "total_tokens": 4665,
+          "completion_tokens": 150,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.010878276079893
+      }
+    ],
+    "tokens": 36646
+  },
+  {
+    "case": "original_scale_suffix_composition_auto_mpg_s7013",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 56.864494699053466,
+    "full_learning_including_copy_and_assessment_seconds": 149.72281434410252,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7013fullpriorcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4220,
+          "total_tokens": 4405,
+          "completion_tokens": 185,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.5256370860151947
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7013fullcontextcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3937,
+          "total_tokens": 4173,
+          "completion_tokens": 236,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.405258893035352
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7013fullpriorcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2200,
+          "total_tokens": 2422,
+          "completion_tokens": 222,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.198574126930907
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7013fullpriorcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5594,
+          "total_tokens": 5606,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6392872689757496
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7013fullcontextcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2496,
+          "total_tokens": 2812,
+          "completion_tokens": 316,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.85422975779511
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7013fullcontextcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3976,
+          "total_tokens": 3988,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.46129492297768593
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7013fullpriorcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3519,
+          "total_tokens": 3704,
+          "completion_tokens": 185,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.4555132570676506
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7013fullcontextcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2551,
+          "total_tokens": 2841,
+          "completion_tokens": 290,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.214391632005572
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7013fullpriorcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4909,
+          "total_tokens": 5094,
+          "completion_tokens": 185,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.6033164530526847
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7013fullcontextcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4713,
+          "total_tokens": 4949,
+          "completion_tokens": 236,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.496345493942499
+      }
+    ],
+    "tokens": 39994
+  },
+  {
+    "case": "original_scale_suffix_composition_airfoil_s7013",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 198.2140029668808,
+    "full_learning_including_copy_and_assessment_seconds": 331.38665005611256,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7013fullpriorcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4367,
+          "total_tokens": 4534,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.2614872348494828
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7013fullcontextcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2468,
+          "total_tokens": 2754,
+          "completion_tokens": 286,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.341983374906704
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7013fullcontextcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5720,
+          "total_tokens": 5732,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6416495649609715
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7013fullpriorcall1",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2220,
+          "total_tokens": 2415,
+          "completion_tokens": 195,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.7301423030439764
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7013fullpriorcall5",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4385,
+          "total_tokens": 4397,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5054491949267685
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7013fullcontextcall3",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4093,
+          "total_tokens": 4352,
+          "completion_tokens": 259,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.834703082917258
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7013fullpriorcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3629,
+          "total_tokens": 3796,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.151566131040454
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7013fullcontextcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4909,
+          "total_tokens": 5168,
+          "completion_tokens": 259,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.935636218870059
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7013fullpriorcall4",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5101,
+          "total_tokens": 5268,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.3136959630064666
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7013fullcontextcall2",
+        "seed": 7013,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2523,
+          "total_tokens": 2870,
+          "completion_tokens": 347,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 6.200408876873553
+      }
+    ],
+    "tokens": 41286
+  },
+  {
+    "case": "original_digit_transposition_spectf_s7014",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 516.4706054921262,
+    "full_learning_including_copy_and_assessment_seconds": 710.1860043620691,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionspectfs7014fullpriorcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2279,
+          "total_tokens": 2505,
+          "completion_tokens": 226,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.267614453099668
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionspectfs7014fullpriorcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5052,
+          "total_tokens": 5220,
+          "completion_tokens": 168,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.3467905370052904
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionspectfs7014fullcontextcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5516,
+          "total_tokens": 5776,
+          "completion_tokens": 260,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.992903900099918
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionspectfs7014fullpriorcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4357,
+          "total_tokens": 4525,
+          "completion_tokens": 168,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.2676716512069106
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionspectfs7014fullcontextcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4024,
+          "total_tokens": 4284,
+          "completion_tokens": 260,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.82918044202961
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionspectfs7014fullpriorcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4371,
+          "total_tokens": 4405,
+          "completion_tokens": 34,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.9001608469989151
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionspectfs7014fullcontextcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2627,
+          "total_tokens": 2944,
+          "completion_tokens": 317,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.905867798952386
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionspectfs7014fullcontextcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4796,
+          "total_tokens": 4808,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5584464408457279
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionspectfs7014fullpriorcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3674,
+          "total_tokens": 3842,
+          "completion_tokens": 168,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.1537967640906572
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionspectfs7014fullcontextcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4780,
+          "total_tokens": 5040,
+          "completion_tokens": 260,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.934172776993364
+      }
+    ],
+    "tokens": 43349
+  },
+  {
+    "case": "original_digit_transposition_auto_mpg_s7014",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 56.8085307481233,
+    "full_learning_including_copy_and_assessment_seconds": 147.09023771598004,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionautompgs7014fullpriorcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3088,
+          "total_tokens": 3255,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.141484123887494
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionautompgs7014fullcontextcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2428,
+          "total_tokens": 2709,
+          "completion_tokens": 281,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.059762404067442
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionautompgs7014fullpriorcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4168,
+          "total_tokens": 4335,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.264082823880017
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionautompgs7014fullcontextcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4101,
+          "total_tokens": 4313,
+          "completion_tokens": 212,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.9899850089568645
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionautompgs7014fullpriorcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3633,
+          "total_tokens": 3804,
+          "completion_tokens": 171,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.2501252768561244
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionautompgs7014fullcontextcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3520,
+          "total_tokens": 3732,
+          "completion_tokens": 212,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.930748126935214
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionautompgs7014fullpriorcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2089,
+          "total_tokens": 2284,
+          "completion_tokens": 195,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.7019059259910136
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionautompgs7014fullpriorcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4683,
+          "total_tokens": 4695,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5975239709950984
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionautompgs7014fullcontextcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2373,
+          "total_tokens": 2629,
+          "completion_tokens": 256,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.792031202930957
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionautompgs7014fullcontextcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3535,
+          "total_tokens": 3547,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.40110063599422574
+      }
+    ],
+    "tokens": 35303
+  },
+  {
+    "case": "original_digit_transposition_airfoil_s7014",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 185.5415564768482,
+    "full_learning_including_copy_and_assessment_seconds": 341.4305754790548,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionairfoils7014fullpriorcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4293,
+          "total_tokens": 4460,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.2620174170006067
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionairfoils7014fullcontextcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2506,
+          "total_tokens": 2822,
+          "completion_tokens": 316,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.868453657953069
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionairfoils7014fullcontextcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5827,
+          "total_tokens": 5839,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6907039659563452
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionairfoils7014fullpriorcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2245,
+          "total_tokens": 2472,
+          "completion_tokens": 227,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.289868945023045
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionairfoils7014fullpriorcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4305,
+          "total_tokens": 4317,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5163046498782933
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionairfoils7014fullcontextcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3983,
+          "total_tokens": 4314,
+          "completion_tokens": 331,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 6.079040827928111
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionairfoils7014fullpriorcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3620,
+          "total_tokens": 3787,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.1492386090103537
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionairfoils7014fullcontextcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4119,
+          "total_tokens": 4449,
+          "completion_tokens": 330,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 6.095492919906974
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionairfoils7014fullpriorcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4974,
+          "total_tokens": 5141,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.295003507984802
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionairfoils7014fullcontextcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4971,
+          "total_tokens": 5302,
+          "completion_tokens": 331,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 6.196957789128646
+      }
+    ],
+    "tokens": 42903
+  },
+  {
+    "case": "original_cross_field_addition_spectf_s7014",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 436.49836752400734,
+    "full_learning_including_copy_and_assessment_seconds": 623.5764235300012,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionspectfs7014fullcontextcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2512,
+          "total_tokens": 2761,
+          "completion_tokens": 249,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.68971730186604
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionspectfs7014fullcontextcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4966,
+          "total_tokens": 4978,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5715651789214462
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionspectfs7014fullpriorcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3260,
+          "total_tokens": 3427,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.11791406897828
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionspectfs7014fullpriorcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4351,
+          "total_tokens": 4518,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.2518911918159574
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionspectfs7014fullcontextcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4334,
+          "total_tokens": 4568,
+          "completion_tokens": 234,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.432646504137665
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionspectfs7014fullpriorcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2163,
+          "total_tokens": 2389,
+          "completion_tokens": 226,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.263293016934767
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionspectfs7014fullpriorcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3816,
+          "total_tokens": 3828,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.44217813294380903
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionspectfs7014fullcontextcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3718,
+          "total_tokens": 3952,
+          "completion_tokens": 234,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.348338114097714
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionspectfs7014fullcontextcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3647,
+          "total_tokens": 3881,
+          "completion_tokens": 234,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.318196726031601
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionspectfs7014fullpriorcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3804,
+          "total_tokens": 3971,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.183028670027852
+      }
+    ],
+    "tokens": 38273
+  },
+  {
+    "case": "original_cross_field_addition_auto_mpg_s7014",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 73.37912527495064,
+    "full_learning_including_copy_and_assessment_seconds": 181.25138032482937,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionautompgs7014fullpriorcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2249,
+          "total_tokens": 2442,
+          "completion_tokens": 193,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.6973262769170105
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionautompgs7014fullpriorcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5074,
+          "total_tokens": 5086,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5747959311120212
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionautompgs7014fullcontextcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5352,
+          "total_tokens": 5364,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6114204749464989
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionautompgs7014fullpriorcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3943,
+          "total_tokens": 4091,
+          "completion_tokens": 148,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.838533201953396
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionautompgs7014fullcontextcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4603,
+          "total_tokens": 4859,
+          "completion_tokens": 256,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.817103197099641
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionautompgs7014fullpriorcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4511,
+          "total_tokens": 4659,
+          "completion_tokens": 148,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.914034280925989
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionautompgs7014fullcontextcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2532,
+          "total_tokens": 2849,
+          "completion_tokens": 317,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.885701228165999
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionautompgs7014fullcontextcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3916,
+          "total_tokens": 4191,
+          "completion_tokens": 275,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.075692149810493
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionautompgs7014fullpriorcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3376,
+          "total_tokens": 3524,
+          "completion_tokens": 148,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.8009095669258386
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionautompgs7014fullcontextcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3881,
+          "total_tokens": 4137,
+          "completion_tokens": 256,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.755320106167346
+      }
+    ],
+    "tokens": 41202
+  },
+  {
+    "case": "original_cross_field_addition_airfoil_s7014",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 229.90975894290023,
+    "full_learning_including_copy_and_assessment_seconds": 377.532010728959,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionairfoils7014fullcontextcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3485,
+          "total_tokens": 3720,
+          "completion_tokens": 235,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.338828495936468
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionairfoils7014fullpriorcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2157,
+          "total_tokens": 2352,
+          "completion_tokens": 195,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.745495932875201
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionairfoils7014fullpriorcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4098,
+          "total_tokens": 4248,
+          "completion_tokens": 150,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.956582761835307
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionairfoils7014fullpriorcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5391,
+          "total_tokens": 5425,
+          "completion_tokens": 34,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 1.072999614989385
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionairfoils7014fullcontextcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3531,
+          "total_tokens": 3806,
+          "completion_tokens": 275,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.031466115033254
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionairfoils7014fullpriorcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4749,
+          "total_tokens": 4899,
+          "completion_tokens": 150,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.033250248990953
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionairfoils7014fullcontextcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4141,
+          "total_tokens": 4376,
+          "completion_tokens": 235,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.3988665549550205
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionairfoils7014fullcontextcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2312,
+          "total_tokens": 2596,
+          "completion_tokens": 284,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.279236732982099
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionairfoils7014fullcontextcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4849,
+          "total_tokens": 4861,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5803231890313327
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionairfoils7014fullpriorcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3446,
+          "total_tokens": 3597,
+          "completion_tokens": 151,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.0871857011225075
+      }
+    ],
+    "tokens": 39880
+  },
+  {
+    "case": "original_scale_suffix_composition_spectf_s7014",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 372.7556844598148,
+    "full_learning_including_copy_and_assessment_seconds": 521.6704396740533,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionspectfs7014fullpriorcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2133,
+          "total_tokens": 2301,
+          "completion_tokens": 168,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.2621019531507045
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionspectfs7014fullpriorcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5085,
+          "total_tokens": 5097,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.639851997140795
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionspectfs7014fullcontextcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4734,
+          "total_tokens": 5018,
+          "completion_tokens": 284,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.342148283030838
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionspectfs7014fullcontextcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2513,
+          "total_tokens": 2858,
+          "completion_tokens": 345,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 6.387586781056598
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionspectfs7014fullpriorcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3894,
+          "total_tokens": 4044,
+          "completion_tokens": 150,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.934254757128656
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionspectfs7014fullcontextcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3894,
+          "total_tokens": 4178,
+          "completion_tokens": 284,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.233411310939118
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionspectfs7014fullpriorcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4487,
+          "total_tokens": 4637,
+          "completion_tokens": 150,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.0119969490915537
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionspectfs7014fullcontextcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5500,
+          "total_tokens": 5512,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6170435019303113
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionspectfs7014fullpriorcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3262,
+          "total_tokens": 3413,
+          "completion_tokens": 151,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.0412716711871326
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionspectfs7014fullcontextcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2568,
+          "total_tokens": 2881,
+          "completion_tokens": 313,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.611299274023622
+      }
+    ],
+    "tokens": 39939
+  },
+  {
+    "case": "original_scale_suffix_composition_auto_mpg_s7014",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 56.44634431600571,
+    "full_learning_including_copy_and_assessment_seconds": 148.51905678515323,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionautompgs7014fullpriorcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4888,
+          "total_tokens": 5053,
+          "completion_tokens": 165,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.261471041943878
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionautompgs7014fullcontextcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5062,
+          "total_tokens": 5325,
+          "completion_tokens": 263,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.022011809051037
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionautompgs7014fullpriorcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3533,
+          "total_tokens": 3699,
+          "completion_tokens": 166,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.122796159936115
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionautompgs7014fullcontextcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2553,
+          "total_tokens": 2904,
+          "completion_tokens": 351,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 6.479854808887467
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionautompgs7014fullcontextcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4210,
+          "total_tokens": 4222,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.4764751731418073
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionautompgs7014fullpriorcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2254,
+          "total_tokens": 2447,
+          "completion_tokens": 193,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.6917218221351504
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionautompgs7014fullpriorcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5545,
+          "total_tokens": 5557,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6273101260885596
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionautompgs7014fullcontextcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4118,
+          "total_tokens": 4381,
+          "completion_tokens": 263,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.892601523082703
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionautompgs7014fullpriorcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4224,
+          "total_tokens": 4390,
+          "completion_tokens": 166,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.2480248119682074
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionautompgs7014fullcontextcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4210,
+          "total_tokens": 4473,
+          "completion_tokens": 263,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.904690979979932
+      }
+    ],
+    "tokens": 42451
+  },
+  {
+    "case": "original_scale_suffix_composition_airfoil_s7014",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 198.0921278221067,
+    "full_learning_including_copy_and_assessment_seconds": 327.7701809471473,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionairfoils7014fullpriorcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5743,
+          "total_tokens": 5755,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6539297390263528
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionairfoils7014fullcontextcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4152,
+          "total_tokens": 4410,
+          "completion_tokens": 258,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.8151568931061774
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionairfoils7014fullpriorcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4338,
+          "total_tokens": 4489,
+          "completion_tokens": 151,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.9601402361877263
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionairfoils7014fullcontextcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4165,
+          "total_tokens": 4423,
+          "completion_tokens": 258,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.795820948900655
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionairfoils7014fullpriorcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2238,
+          "total_tokens": 2433,
+          "completion_tokens": 195,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.7227094259578735
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionairfoils7014fullpriorcall4",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5051,
+          "total_tokens": 5201,
+          "completion_tokens": 150,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.0162627131212503
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionairfoils7014fullcontextcall1",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2500,
+          "total_tokens": 2786,
+          "completion_tokens": 286,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.340005781967193
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionairfoils7014fullcontextcall5",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4152,
+          "total_tokens": 4164,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.481927728978917
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionairfoils7014fullpriorcall2",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3645,
+          "total_tokens": 3795,
+          "completion_tokens": 150,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.854617748875171
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionairfoils7014fullcontextcall3",
+        "seed": 7014,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4949,
+          "total_tokens": 5207,
+          "completion_tokens": 258,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.909794636070728
+      }
+    ],
+    "tokens": 42663
+  },
+  {
+    "case": "original_digit_transposition_spectf_s7015",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 525.1861839659978,
+    "full_learning_including_copy_and_assessment_seconds": 725.4474446650129,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7015fullpriorcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4475,
+          "total_tokens": 4677,
+          "completion_tokens": 202,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.8703228931408376
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7015fullcontextcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4601,
+          "total_tokens": 4811,
+          "completion_tokens": 210,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.027487884042785
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7015fullpriorcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5960,
+          "total_tokens": 5994,
+          "completion_tokens": 34,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 1.093455604976043
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7015fullpriorcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2285,
+          "total_tokens": 2550,
+          "completion_tokens": 265,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.967761056032032
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7015fullcontextcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2618,
+          "total_tokens": 2869,
+          "completion_tokens": 251,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.734897150890902
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7015fullcontextcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5268,
+          "total_tokens": 5280,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5995903192088008
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7015fullpriorcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3768,
+          "total_tokens": 3971,
+          "completion_tokens": 203,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.7828620029613376
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7015fullcontextcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3903,
+          "total_tokens": 4113,
+          "completion_tokens": 210,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.9493612989317626
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7015fullcontextcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3942,
+          "total_tokens": 4151,
+          "completion_tokens": 209,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.920921594137326
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionspectfs7015fullpriorcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5222,
+          "total_tokens": 5424,
+          "completion_tokens": 202,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.954473410965875
+      }
+    ],
+    "tokens": 43840
+  },
+  {
+    "case": "original_digit_transposition_auto_mpg_s7015",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 54.04568315693177,
+    "full_learning_including_copy_and_assessment_seconds": 139.5985150220804,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7015fullpriorcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2085,
+          "total_tokens": 2280,
+          "completion_tokens": 195,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.7044969531707466
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7015fullpriorcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4345,
+          "total_tokens": 4357,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5560232871212065
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7015fullcontextcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2367,
+          "total_tokens": 2649,
+          "completion_tokens": 282,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.244351639179513
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7015fullcontextcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3528,
+          "total_tokens": 3540,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.41079550399445
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7015fullpriorcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3500,
+          "total_tokens": 3651,
+          "completion_tokens": 151,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.91021758900024
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7015fullcontextcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3516,
+          "total_tokens": 3729,
+          "completion_tokens": 213,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.927157131023705
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7015fullpriorcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4008,
+          "total_tokens": 4158,
+          "completion_tokens": 150,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.9519417660776526
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7015fullcontextcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3528,
+          "total_tokens": 3741,
+          "completion_tokens": 213,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.943464614916593
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7015fullpriorcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2926,
+          "total_tokens": 3076,
+          "completion_tokens": 150,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.8372610688675195
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginaldigittranspositionautompgs7015fullcontextcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4092,
+          "total_tokens": 4305,
+          "completion_tokens": 213,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.011063483078033
+      }
+    ],
+    "tokens": 35486
+  },
+  {
+    "case": "original_digit_transposition_airfoil_s7015",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 192.56273992918432,
+    "full_learning_including_copy_and_assessment_seconds": 365.6266730960924,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7015fullpriorcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2228,
+          "total_tokens": 2423,
+          "completion_tokens": 195,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.745024495990947
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7015fullpriorcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5355,
+          "total_tokens": 5367,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6114422760438174
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7015fullcontextcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2513,
+          "total_tokens": 2795,
+          "completion_tokens": 282,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.063606707146391
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7015fullcontextcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4712,
+          "total_tokens": 5014,
+          "completion_tokens": 302,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.677375219995156
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7015fullpriorcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4101,
+          "total_tokens": 4268,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.1918416449334472
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7015fullcontextcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3805,
+          "total_tokens": 4106,
+          "completion_tokens": 301,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.544694229029119
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7015fullpriorcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3445,
+          "total_tokens": 3613,
+          "completion_tokens": 168,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.151020725024864
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7015fullpriorcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4726,
+          "total_tokens": 4893,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.2810251691844314
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7015fullcontextcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2458,
+          "total_tokens": 2792,
+          "completion_tokens": 334,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 6.177296980982646
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginaldigittranspositionairfoils7015fullcontextcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5513,
+          "total_tokens": 5525,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6338482049759477
+      }
+    ],
+    "tokens": 40796
+  },
+  {
+    "case": "original_cross_field_addition_spectf_s7015",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 439.66409734194167,
+    "full_learning_including_copy_and_assessment_seconds": 602.1675728191622,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7015fullpriorcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3214,
+          "total_tokens": 3381,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.114726445870474
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7015fullcontextcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3757,
+          "total_tokens": 4036,
+          "completion_tokens": 279,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.125605721957982
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7015fullpriorcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3792,
+          "total_tokens": 3804,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.43816853407770395
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7015fullcontextcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5067,
+          "total_tokens": 5301,
+          "completion_tokens": 234,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.49688700796105
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7015fullpriorcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3777,
+          "total_tokens": 3944,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.171327007934451
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7015fullcontextcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4495,
+          "total_tokens": 4729,
+          "completion_tokens": 234,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.453788131009787
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7015fullpriorcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2163,
+          "total_tokens": 2358,
+          "completion_tokens": 195,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.740344380028546
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7015fullpriorcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4328,
+          "total_tokens": 4495,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.238641357049346
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7015fullcontextcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2508,
+          "total_tokens": 2821,
+          "completion_tokens": 313,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.816974091110751
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionspectfs7015fullcontextcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4452,
+          "total_tokens": 4464,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5162076610140502
+      }
+    ],
+    "tokens": 39333
+  },
+  {
+    "case": "original_cross_field_addition_auto_mpg_s7015",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 73.1276555431541,
+    "full_learning_including_copy_and_assessment_seconds": 175.38805648009293,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7015fullpriorcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3478,
+          "total_tokens": 3699,
+          "completion_tokens": 221,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.080200127791613
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7015fullcontextcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3849,
+          "total_tokens": 4080,
+          "completion_tokens": 231,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.293182247085497
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7015fullpriorcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4884,
+          "total_tokens": 5104,
+          "completion_tokens": 220,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.214838034939021
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7015fullcontextcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5238,
+          "total_tokens": 5469,
+          "completion_tokens": 231,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.447473229141906
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7015fullpriorcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4221,
+          "total_tokens": 4440,
+          "completion_tokens": 219,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.125607244903222
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7015fullcontextcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4551,
+          "total_tokens": 4782,
+          "completion_tokens": 231,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.368015553802252
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7015fullpriorcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2251,
+          "total_tokens": 2478,
+          "completion_tokens": 227,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.291605314007029
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7015fullpriorcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5571,
+          "total_tokens": 5583,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6457529379986227
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7015fullcontextcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2532,
+          "total_tokens": 2814,
+          "completion_tokens": 282,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.274015268078074
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalcrossfieldadditionautompgs7015fullcontextcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4566,
+          "total_tokens": 4578,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5264877169393003
+      }
+    ],
+    "tokens": 43027
+  },
+  {
+    "case": "original_cross_field_addition_airfoil_s7015",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 228.41015644394793,
+    "full_learning_including_copy_and_assessment_seconds": 378.5474035500083,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7015fullpriorcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4459,
+          "total_tokens": 4609,
+          "completion_tokens": 150,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.951842081034556
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7015fullcontextcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3937,
+          "total_tokens": 4196,
+          "completion_tokens": 259,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.7950518019497395
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7015fullpriorcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2175,
+          "total_tokens": 2370,
+          "completion_tokens": 195,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.7278220509178936
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7015fullpriorcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5979,
+          "total_tokens": 6013,
+          "completion_tokens": 34,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 1.0778440479189157
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7015fullcontextcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3893,
+          "total_tokens": 4151,
+          "completion_tokens": 258,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.773760047974065
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7015fullpriorcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3694,
+          "total_tokens": 3845,
+          "completion_tokens": 151,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.865713787963614
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7015fullcontextcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2412,
+          "total_tokens": 2727,
+          "completion_tokens": 315,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.840784433996305
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7015fullcontextcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5473,
+          "total_tokens": 5485,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6241551169659942
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7015fullpriorcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5218,
+          "total_tokens": 5368,
+          "completion_tokens": 150,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.0336811679881066
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalcrossfieldadditionairfoils7015fullcontextcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4699,
+          "total_tokens": 4957,
+          "completion_tokens": 258,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.889739079168066
+      }
+    ],
+    "tokens": 43721
+  },
+  {
+    "case": "original_scale_suffix_composition_spectf_s7015",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 368.2276651340071,
+    "full_learning_including_copy_and_assessment_seconds": 515.1284545550589,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7015fullpriorcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4126,
+          "total_tokens": 4297,
+          "completion_tokens": 171,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.3337574570905417
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7015fullcontextcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2565,
+          "total_tokens": 2849,
+          "completion_tokens": 284,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.0823147429618984
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7015fullpriorcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2132,
+          "total_tokens": 2300,
+          "completion_tokens": 168,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.254555383929983
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7015fullpriorcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4087,
+          "total_tokens": 4099,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5365949140395969
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7015fullcontextcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3311,
+          "total_tokens": 3525,
+          "completion_tokens": 214,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.9295261558145285
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7015fullpriorcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3419,
+          "total_tokens": 3570,
+          "completion_tokens": 151,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.0414598279166967
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7015fullcontextcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4001,
+          "total_tokens": 4232,
+          "completion_tokens": 231,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.31720751686953
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7015fullcontextcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2510,
+          "total_tokens": 2785,
+          "completion_tokens": 275,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.150855846004561
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7015fullpriorcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4700,
+          "total_tokens": 4830,
+          "completion_tokens": 130,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 2.6819894139189273
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionspectfs7015fullcontextcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4600,
+          "total_tokens": 4612,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.5369946300052106
+      }
+    ],
+    "tokens": 37099
+  },
+  {
+    "case": "original_scale_suffix_composition_auto_mpg_s7015",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 56.38979299296625,
+    "full_learning_including_copy_and_assessment_seconds": 149.02312891883776,
+    "requests": [
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7015fullpriorcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4363,
+          "total_tokens": 4534,
+          "completion_tokens": 171,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.3140062941238284
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7015fullcontextcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2571,
+          "total_tokens": 2888,
+          "completion_tokens": 317,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.877136847004294
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7015fullcontextcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5309,
+          "total_tokens": 5321,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6169799431227148
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7015fullpriorcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 2274,
+          "total_tokens": 2469,
+          "completion_tokens": 195,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.742559297941625
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7015fullpriorcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5768,
+          "total_tokens": 5780,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6405642989557236
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7015fullcontextcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5275,
+          "total_tokens": 5576,
+          "completion_tokens": 301,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.697788385907188
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7015fullpriorcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 3627,
+          "total_tokens": 3798,
+          "completion_tokens": 171,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.2103810200933367
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7015fullcontextcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 6242,
+          "total_tokens": 6543,
+          "completion_tokens": 301,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.787403776077554
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7015fullpriorcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 5064,
+          "total_tokens": 5234,
+          "completion_tokens": 170,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.3674056429881603
+      },
+      {
+        "trace": "services/gpu1/requests/Expansionoriginalscalesuffixcompositionautompgs7015fullcontextcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu1-9b",
+        "usage": {
+          "prompt_tokens": 4290,
+          "total_tokens": 4574,
+          "completion_tokens": 284,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.301545190159231
+      }
+    ],
+    "tokens": 46717
+  },
+  {
+    "case": "original_scale_suffix_composition_airfoil_s7015",
+    "actual_calls": 10,
+    "no_llm_calls": 0,
+    "source_fit_shared_once": true,
+    "source_copy_not_independent_cold_training": true,
+    "source_prepare_seconds": 198.39232618012466,
+    "full_learning_including_copy_and_assessment_seconds": 330.7237627939321,
+    "requests": [
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7015fullcontextcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4848,
+          "total_tokens": 5109,
+          "completion_tokens": 261,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.9588333738502115
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7015fullpriorcall3",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4242,
+          "total_tokens": 4410,
+          "completion_tokens": 168,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.2508972729556262
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7015fullpriorcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2216,
+          "total_tokens": 2411,
+          "completion_tokens": 195,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.7310313689522445
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7015fullpriorcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 5606,
+          "total_tokens": 5618,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.6433047670871019
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7015fullcontextcall1",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 2465,
+          "total_tokens": 2751,
+          "completion_tokens": 286,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 5.343399137957022
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7015fullcontextcall5",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4070,
+          "total_tokens": 4082,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 0.4757057880051434
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7015fullpriorcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 3535,
+          "total_tokens": 3703,
+          "completion_tokens": 168,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.1467077408451587
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7015fullcontextcall2",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4074,
+          "total_tokens": 4335,
+          "completion_tokens": 261,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.845854242797941
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7015fullcontextcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4070,
+          "total_tokens": 4331,
+          "completion_tokens": 261,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 4.87904298119247
+      },
+      {
+        "trace": "services/gpu0/requests/Expansionoriginalscalesuffixcompositionairfoils7015fullpriorcall4",
+        "seed": 7015,
+        "temperature": 0,
+        "model": "evidforge-original-newerrors-gpu0-9b",
+        "usage": {
+          "prompt_tokens": 4926,
+          "total_tokens": 5093,
+          "completion_tokens": 167,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "seconds": 3.3014041711576283
+      }
+    ],
+    "tokens": 41843
+  }
+]

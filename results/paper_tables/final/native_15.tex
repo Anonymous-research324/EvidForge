@@ -1,0 +1,17 @@
+\begin{table}[tb]
+\centering
+\caption{其余真实数据集的修复 F1}
+\label{tab:real-remaining}
+\fontsize{8}{9.6}\selectfont
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcccc@{}}
+\toprule
+数据集 & \makecell{Raha +\\HoloClean} & \makecell{CDC\\（CPU 适配）} & TabClean (9B) & EvidForge \\
+\midrule
+Beers & $0.005\pm0.004$ & $0.219\pm0.016$ & $\mathbf{0.992\pm0.010}$ & $0.808\pm0.005$ \\
+Library & $0.100\pm0.010$ & $\mathbf{0.113\pm0.056}$ & $0.094\pm0.016$ & $0.088\pm0.045$ \\
+Government & $0.056\pm0.029$ & $0.066\pm0.003$ & $\mathbf{0.081\pm0.062}$ & $0.000\pm0.000$ \\
+\bottomrule
+\end{tabular*}
+\end{table}

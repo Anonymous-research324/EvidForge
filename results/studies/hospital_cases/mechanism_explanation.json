@@ -1,0 +1,1980 @@
+{
+  "examples": [
+    {
+      "id": "A",
+      "row": 320,
+      "field": "MeasureCode",
+      "top": {
+        "value": "scip-vte-1",
+        "kind": "relation",
+        "kinds": [
+          "domain",
+          "relation"
+        ],
+        "rule_ids": [
+          "471a17d2880b6fb17f27",
+          "04d8ac09cd03872bd74e"
+        ],
+        "support": 15,
+        "evidence": [
+          {
+            "kind": "domain",
+            "id": "",
+            "support": 15,
+            "trust": 0.0,
+            "sources": []
+          },
+          {
+            "kind": "relation",
+            "id": "471a17d2880b6fb17f27",
+            "support": 15,
+            "trust": 1.0,
+            "sources": [
+              "MeasureName"
+            ]
+          },
+          {
+            "kind": "relation",
+            "id": "04d8ac09cd03872bd74e",
+            "support": 15,
+            "trust": 1.0,
+            "sources": [
+              "Stateavg"
+            ]
+          }
+        ],
+        "exact": true,
+        "candidate_id": "aa79d65eb5b2d856",
+        "score": 0.9956375041819516
+      },
+      "options": [
+        {
+          "value": "scip-vte-1",
+          "kind": "relation",
+          "kinds": [
+            "domain",
+            "relation"
+          ],
+          "rule_ids": [
+            "471a17d2880b6fb17f27",
+            "04d8ac09cd03872bd74e"
+          ],
+          "support": 15,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 15,
+              "trust": 0.0,
+              "sources": []
+            },
+            {
+              "kind": "relation",
+              "id": "471a17d2880b6fb17f27",
+              "support": 15,
+              "trust": 1.0,
+              "sources": [
+                "MeasureName"
+              ]
+            },
+            {
+              "kind": "relation",
+              "id": "04d8ac09cd03872bd74e",
+              "support": 15,
+              "trust": 1.0,
+              "sources": [
+                "Stateavg"
+              ]
+            }
+          ],
+          "exact": true,
+          "candidate_id": "aa79d65eb5b2d856",
+          "score": 0.9956375041819516
+        },
+        {
+          "value": "scip-vtn-1",
+          "kind": "edit",
+          "kinds": [
+            "edit"
+          ],
+          "rule_ids": [
+            "d84b0961561ef4c50a44"
+          ],
+          "support": 6,
+          "evidence": [
+            {
+              "kind": "edit",
+              "id": "d84b0961561ef4c50a44",
+              "support": 6,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "f3273b69b493e6d7",
+          "score": 0.6859262383685509
+        },
+        {
+          "value": "scip-vt5-1",
+          "kind": "edit",
+          "kinds": [
+            "edit"
+          ],
+          "rule_ids": [
+            "3ab767c577d74d5f1af1"
+          ],
+          "support": 6,
+          "evidence": [
+            {
+              "kind": "edit",
+              "id": "3ab767c577d74d5f1af1",
+              "support": 6,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "e43c681cc279556e",
+          "score": 0.6454055127462274
+        },
+        {
+          "value": "scip-vt--1",
+          "kind": "edit",
+          "kinds": [
+            "edit"
+          ],
+          "rule_ids": [
+            "ee09f75609b3f3d4fd17"
+          ],
+          "support": 5,
+          "evidence": [
+            {
+              "kind": "edit",
+              "id": "ee09f75609b3f3d4fd17",
+              "support": 5,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "4ab0ff54d6c79462",
+          "score": 0.6454055127462274
+        },
+        {
+          "value": "scip-vth-1",
+          "kind": "edit",
+          "kinds": [
+            "edit"
+          ],
+          "rule_ids": [
+            "90160334315784206bc9"
+          ],
+          "support": 3,
+          "evidence": [
+            {
+              "kind": "edit",
+              "id": "90160334315784206bc9",
+              "support": 3,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "2e991877c96c2165",
+          "score": 0.6454055127462274
+        },
+        {
+          "value": "scip-vte-2",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 15,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 15,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "e05383ad605960ee",
+          "score": 0.588410649274437
+        },
+        {
+          "value": "scip-inf-1",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "a1ee309cfba70a67",
+          "score": 0.4161655828133032
+        },
+        {
+          "value": "scip-inf-2",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "4087410808935cc4",
+          "score": 0.3262646831668419
+        },
+        {
+          "value": "scip-inf-3",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 16,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 16,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "b8b20c10e27c7a67",
+          "score": 0.3262646831668419
+        },
+        {
+          "value": "scip-inf-4",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 15,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 15,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "d162e5393ff6e754",
+          "score": 0.3262646831668419
+        },
+        {
+          "value": "scip-inf-6",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 15,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 15,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "b28dcfc53ed6410f",
+          "score": 0.3262646831668419
+        },
+        {
+          "value": "scip-vt3-1",
+          "kind": "edit",
+          "kinds": [
+            "edit"
+          ],
+          "rule_ids": [
+            "4b7093589054c16cd90f"
+          ],
+          "support": 4,
+          "evidence": [
+            {
+              "kind": "edit",
+              "id": "4b7093589054c16cd90f",
+              "support": 4,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "936375a989f59a1c",
+          "score": 0.0931145082472423
+        },
+        {
+          "value": "scip-card-2",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "0f10176a9a620fae",
+          "score": 0.057964294553201866
+        },
+        {
+          "value": "scip-vtx-1",
+          "kind": "keep",
+          "kinds": [
+            "keep"
+          ],
+          "rule_ids": [],
+          "support": 0,
+          "evidence": [
+            {
+              "kind": "keep",
+              "id": "",
+              "support": 0,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "f228d038b9b14399",
+          "score": 0.01921922468394351
+        },
+        {
+          "value": "ami-1",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "aee707a5a2858695",
+          "score": 0.013999924304847663
+        },
+        {
+          "value": "ami-2",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 19,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 19,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "4b6b1a60bc556151",
+          "score": 0.013894616573789332
+        },
+        {
+          "value": "ami-3",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "55fb9c5ed1d13c0d",
+          "score": 0.013894616573789332
+        },
+        {
+          "value": "ami-4",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "4e02cec9d92c4553",
+          "score": 0.013894616573789332
+        },
+        {
+          "value": "ami-5",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "33f8c6165b0d444d",
+          "score": 0.013894616573789332
+        },
+        {
+          "value": "hf-2",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "5ad49c9d0f45c0e0",
+          "score": 0.013894616573789332
+        },
+        {
+          "value": "hf-3",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "cede260995518dea",
+          "score": 0.013894616573789332
+        },
+        {
+          "value": "hf-4",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "96f382ba7ed33f92",
+          "score": 0.013894616573789332
+        },
+        {
+          "value": "pn-2",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "92a2a05b45b2bc91",
+          "score": 0.013894616573789332
+        },
+        {
+          "value": "pn-3b",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "9d62008f41b78939",
+          "score": 0.013894616573789332
+        },
+        {
+          "value": "ami-7a",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "e5252a63f54732ba",
+          "score": 0.011992759021167058
+        },
+        {
+          "value": "ami-8a",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "ec126635d8a2b91b",
+          "score": 0.011992759021167058
+        },
+        {
+          "value": "hf-1",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "abc387c389d8c07b",
+          "score": 0.011992759021167058
+        },
+        {
+          "value": "pn-4",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "c76791afda6e3b07",
+          "score": 0.011992759021167058
+        },
+        {
+          "value": "pn-5c",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "ae4fb4a2c7320773",
+          "score": 0.011992759021167058
+        },
+        {
+          "value": "pn-6",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "5ee550a4e9972f4c",
+          "score": 0.011992759021167058
+        },
+        {
+          "value": "pn-7",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "8e3b90a4ab14fed1",
+          "score": 0.011992759021167058
+        }
+      ],
+      "margin": 0.3097112658134007,
+      "region": "relation:text",
+      "policy": {
+        "score_threshold": 0.995,
+        "margin_threshold": 0.1,
+        "empirical_precision": 1.0,
+        "checked_changes": 26,
+        "checked_groups": 10
+      },
+      "permitted": true,
+      "tied": false,
+      "repair_confidence": 0.9830143375744723,
+      "reference_in_candidates": true,
+      "decision": {
+        "row": 319,
+        "field": "MeasureCode",
+        "before": "scip-vtx-1",
+        "after": "scip-vte-1",
+        "base": "scip-vte-1",
+        "v6": "scip-vte-1",
+        "stage": "qualified_base",
+        "before_guard": "scip-vte-1",
+        "guard_reason": "own_source_calibrated_base_or_supported_new_rule",
+        "point_probability_absolute": 0,
+        "grid_proof": {
+          "value": null,
+          "support": 0,
+          "fraction": 0,
+          "distinct": 0,
+          "query_field_excluded": true
+        },
+        "detection_score": 0.013841970349821708,
+        "unreviewed_base": "scip-vte-1",
+        "v15_reason": "source_reviewed_baseline",
+        "no_reference_value_used": true
+      },
+      "matched_rules": [
+        {
+          "family": "relations",
+          "rule": {
+            "kind": "lookup",
+            "sources": [
+              "MeasureName"
+            ],
+            "target": "MeasureCode",
+            "mapping": {
+              "531927fc7277d032eb5577363fc64e52bbaaf18222bcb32efb8715322bf11bcc": {
+                "value": "ami-1",
+                "groups": 18
+              },
+              "460bcd32a958f0ec017ed64a1d40dca1bfd44f6f1556f4b0a7b843497c160811": {
+                "value": "ami-2",
+                "groups": 19
+              },
+              "064b694adc4e1e79f49596bf5e60e60b556b84953314ac8fd0ee8a141bd54ea7": {
+                "value": "ami-3",
+                "groups": 18
+              },
+              "8c03a1c91fce4cc7c97448b4c3f2e9b5fd120731d5f9cb18bb4174814099a8cb": {
+                "value": "ami-4",
+                "groups": 18
+              },
+              "56bd310a2905cf7f15945a94299b19735c5dd243ed32b8a8de797f8bb53959b3": {
+                "value": "ami-5",
+                "groups": 18
+              },
+              "5633eeffac0baa3c4c045cd6048ea339920f194a9ce2624730b7a7a124434e3b": {
+                "value": "ami-7a",
+                "groups": 17
+              },
+              "00fef8fc5c7410808569a5b6d377e527a786974e4836f64e98c749df2056bbd7": {
+                "value": "ami-8a",
+                "groups": 17
+              },
+              "38ef1b3f79c3b03e8fbb5377eafb532f8cffcc6a35675b77e61dab6402deb17e": {
+                "value": "hf-1",
+                "groups": 17
+              },
+              "065b3eb03cba622d752c09b8e660639216944b6cc10c61ae67ad4f3d1d5f753e": {
+                "value": "hf-2",
+                "groups": 18
+              },
+              "5e0ea645aa149114c03b82347613a1b1bc30c2df77181e98aad94a79662eb511": {
+                "value": "hf-3",
+                "groups": 18
+              },
+              "bec76af519c962527839d43f2fe1ebf582f4da1478666836610f573016c9efce": {
+                "value": "hf-4",
+                "groups": 18
+              },
+              "bb477fc834e7be044843dc781ebc6018bb20e6d63e58c968936cea2eae4c6837": {
+                "value": "pn-2",
+                "groups": 18
+              },
+              "bde32297a46e8e359465f1ecd1c42197fab6414cf1bb899d64ea807e0d19edf4": {
+                "value": "pn-3b",
+                "groups": 18
+              },
+              "df8299c751f7a2ba8157b3474dc48c9e957638b60fa03bb4b81d4eb2eeded95d": {
+                "value": "pn-4",
+                "groups": 17
+              },
+              "6f372ada6364995b78f071182e1c8e10cd2023ee27b325524ee8cb93d49344c0": {
+                "value": "pn-5c",
+                "groups": 17
+              },
+              "cbf9b6f5c3ec915f20eb50d02d22d1efdb623c4a70b4a8763cf45576e66e004a": {
+                "value": "pn-6",
+                "groups": 17
+              },
+              "7717553f75dc034953892ff797a363f9efcc02cabb80735de2fa57685259511c": {
+                "value": "pn-7",
+                "groups": 17
+              },
+              "3baeb90322acb84124f2603a9280333c68bb3cec8634ed86ba3ba8a9f77a7ef0": {
+                "value": "scip-card-2",
+                "groups": 17
+              },
+              "41a043996cd83ec5e0bd5c9d00a4fcb1dd5d957df59d4191722c0ad9201058d4": {
+                "value": "scip-inf-1",
+                "groups": 17
+              },
+              "76ea462bf82667f4217bb78ad1fe715ddb806ebc0802b3c0457d46dd3ed4f4f8": {
+                "value": "scip-inf-2",
+                "groups": 17
+              },
+              "f9618e2aa5fbfd4b656c4aebb62a0166df3e070943a20be3678b6b848b34daca": {
+                "value": "scip-inf-3",
+                "groups": 16
+              },
+              "d352036023c5b8cc5010f5e0e57dc8d096885bbcb704f6aa7bb7d56e3e9ece5c": {
+                "value": "scip-inf-4",
+                "groups": 15
+              },
+              "c8747ebe3c50c167bf0f15ecb45ba5836f0dbc324b3d332a396f48bbc93af10d": {
+                "value": "scip-inf-6",
+                "groups": 15
+              },
+              "00fc58974adc24ef86e494068676db89e3bfda50af3b44be5d0f495e884c9d5c": {
+                "value": "scip-vte-1",
+                "groups": 15
+              },
+              "088d902ab462b63bad127b1ddbaa2dcc57659a761a191701807d527bd893bedf": {
+                "value": "scip-vte-2",
+                "groups": 15
+              }
+            },
+            "support_groups": 20,
+            "id": "471a17d2880b6fb17f27"
+          }
+        },
+        {
+          "family": "relations",
+          "rule": {
+            "kind": "lookup",
+            "sources": [
+              "Stateavg"
+            ],
+            "target": "MeasureCode",
+            "mapping": {
+              "140d3589f3e9955abcfce14c20b29baf4edd2e8be00df17520c2738e6108011a": {
+                "value": "ami-1",
+                "groups": 17
+              },
+              "06ed3ba330374eee82caed959f8ee347e0a0539f05f9789d28cb1b623623cb58": {
+                "value": "ami-2",
+                "groups": 18
+              },
+              "80b35e58c47da5777e4acb4fb43fc358e85e1bcdc9bb9e328ed7f7d6554b6c6c": {
+                "value": "ami-3",
+                "groups": 18
+              },
+              "e1edfb82e2597dce3b0ad2c955ae10169db0f34f960c31b1ac7eb34bba44756a": {
+                "value": "ami-4",
+                "groups": 18
+              },
+              "a58130c8d24e4302bfd6e77b6ca1a525e166565c9ead8e5fc82675a8720e11b8": {
+                "value": "ami-5",
+                "groups": 18
+              },
+              "af1b255c2146154d7190f2c7c11ebe52c9b70ee46c2dd7c13c49e8918c5e52fe": {
+                "value": "ami-7a",
+                "groups": 17
+              },
+              "57d32c90cae3071d2e39c9caf66af63f9e3d86f8a8a86c4744ce7b216aff2d65": {
+                "value": "ami-8a",
+                "groups": 17
+              },
+              "06858bfb9abb98735981afdb7ae8c8d55e422874a20ffa4a367bdb0bdc09ba41": {
+                "value": "hf-1",
+                "groups": 17
+              },
+              "e1ca3dab7a684291ff8224d4be8256f7bc80c06e3a21077c5f4399f6a80bd4d9": {
+                "value": "hf-2",
+                "groups": 18
+              },
+              "31df43a3b6047dedae1813bfa1300802dccaec0f6443fa38b338a4e0367ca0ea": {
+                "value": "hf-3",
+                "groups": 18
+              },
+              "bd429c8f29e21584f736120fe20ae463fa11172304ecb58459ef0b9f54b36f14": {
+                "value": "hf-4",
+                "groups": 18
+              },
+              "1fa9c53c25c6aa1e5c0c1e92c95c4f029101c63e4bdc01417468731f91454ebc": {
+                "value": "pn-2",
+                "groups": 18
+              },
+              "5d7881b878f57bb2f166633056f0bd84435fdcf07cb8de922f6c878dc005fd8c": {
+                "value": "pn-3b",
+                "groups": 18
+              },
+              "102a1ea0a2af2e8a8e439e19ee4f2dc731bd570617c38dc7e42f2e0041b9fcee": {
+                "value": "pn-4",
+                "groups": 17
+              },
+              "032317c97efdf5b5e230e2155f7b44dd094ef11d327cfea759bcf28691b1b221": {
+                "value": "pn-5c",
+                "groups": 17
+              },
+              "4269dcfc820515eb1ac2262063c3fb8e5ada36ae2060bbe4c1a72cde79ec6d9b": {
+                "value": "pn-6",
+                "groups": 17
+              },
+              "37bece80e7e8b4c69b4dc5a727cbc39293818afaae96eadf1aab821615ee1598": {
+                "value": "pn-7",
+                "groups": 17
+              },
+              "fb271ba883b306830c77ee35ac65f4dc5c61f0a58823967bceaf087fef8549f4": {
+                "value": "scip-card-2",
+                "groups": 17
+              },
+              "4a57ba3184852a21b4a759ea0319999c1b4f25239a11d57d8463da0cecd74965": {
+                "value": "scip-inf-1",
+                "groups": 17
+              },
+              "c122fd546e7e4ca6b2195f85389fa01233c4bd0e0b280523799c6a72136f146c": {
+                "value": "scip-inf-2",
+                "groups": 17
+              },
+              "e271c9396602a387bad557e325d6701188346f39e87d87f91d505a14820b83e7": {
+                "value": "scip-inf-3",
+                "groups": 16
+              },
+              "1af1887f8cf9184ed6b62a772ff56e0bfcd9d9267b48a40c05bf433ac8ca821e": {
+                "value": "scip-inf-4",
+                "groups": 15
+              },
+              "16293ffeb29ecc4c69a0a50298a7b617f00ab1751d7c53683525d6cd815d2344": {
+                "value": "scip-inf-6",
+                "groups": 15
+              },
+              "69e0657d82ec8829565bf95231bdc53468adcb943201a93a1275fc746805c2c7": {
+                "value": "scip-vte-1",
+                "groups": 15
+              },
+              "866a28d1d36f06d3f86083fb7ee28b25e05a8373240a5c87013924a3660d4256": {
+                "value": "scip-vte-2",
+                "groups": 15
+              }
+            },
+            "support_groups": 20,
+            "id": "04d8ac09cd03872bd74e"
+          }
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "row": 26,
+      "field": "CountyName",
+      "top": {
+        "value": "jefferson",
+        "kind": "domain",
+        "kinds": [
+          "domain"
+        ],
+        "rule_ids": [],
+        "support": 4,
+        "evidence": [
+          {
+            "kind": "domain",
+            "id": "",
+            "support": 4,
+            "trust": 0.0,
+            "sources": []
+          }
+        ],
+        "exact": true,
+        "candidate_id": "6bf3b02128670f9b",
+        "score": 0.0614997756881848
+      },
+      "options": [
+        {
+          "value": "jefferson",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 4,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 4,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "6bf3b02128670f9b",
+          "score": 0.0614997756881848
+        },
+        {
+          "value": "talladega",
+          "kind": "keep",
+          "kinds": [
+            "keep"
+          ],
+          "rule_ids": [],
+          "support": 0,
+          "evidence": [
+            {
+              "kind": "keep",
+              "id": "",
+              "support": 0,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "a9ada5735016cd44",
+          "score": 0.024078892606271562
+        }
+      ],
+      "margin": 0.03742088308191324,
+      "region": "domain:text",
+      "policy": {
+        "score_threshold": 1.01,
+        "margin_threshold": 1.01
+      },
+      "permitted": false,
+      "tied": false,
+      "repair_confidence": 0.021399502321279427,
+      "reference_in_candidates": true,
+      "decision": {
+        "row": 25,
+        "field": "CountyName",
+        "before": "talladega",
+        "after": "talladega",
+        "base": "talladega",
+        "v6": "talladega",
+        "stage": "qualified_base",
+        "before_guard": "talladega",
+        "guard_reason": "own_source_calibrated_base_or_supported_new_rule",
+        "point_probability_absolute": 0,
+        "grid_proof": {
+          "value": null,
+          "support": 0,
+          "fraction": 0,
+          "distinct": 0,
+          "query_field_excluded": true
+        },
+        "detection_score": 0.09382656860288525,
+        "unreviewed_base": "talladega",
+        "v15_reason": "source_reviewed_baseline",
+        "no_reference_value_used": true
+      },
+      "matched_rules": []
+    },
+    {
+      "id": "C",
+      "row": 157,
+      "field": "Stateavg",
+      "top": {
+        "value": "al_scip-card-2",
+        "kind": "relation",
+        "kinds": [
+          "domain",
+          "relation"
+        ],
+        "rule_ids": [
+          "bbaeedb9239011acc46a",
+          "4ea5b39377b0178ff15b"
+        ],
+        "support": 17,
+        "evidence": [
+          {
+            "kind": "domain",
+            "id": "",
+            "support": 17,
+            "trust": 0.0,
+            "sources": []
+          },
+          {
+            "kind": "relation",
+            "id": "bbaeedb9239011acc46a",
+            "support": 17,
+            "trust": 1.0,
+            "sources": [
+              "MeasureCode"
+            ]
+          },
+          {
+            "kind": "relation",
+            "id": "4ea5b39377b0178ff15b",
+            "support": 17,
+            "trust": 1.0,
+            "sources": [
+              "MeasureName"
+            ]
+          }
+        ],
+        "exact": true,
+        "candidate_id": "d01a7c99d8d515c8",
+        "score": 0.995331126996469
+      },
+      "options": [
+        {
+          "value": "al_scip-card-2",
+          "kind": "relation",
+          "kinds": [
+            "domain",
+            "relation"
+          ],
+          "rule_ids": [
+            "bbaeedb9239011acc46a",
+            "4ea5b39377b0178ff15b"
+          ],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            },
+            {
+              "kind": "relation",
+              "id": "bbaeedb9239011acc46a",
+              "support": 17,
+              "trust": 1.0,
+              "sources": [
+                "MeasureCode"
+              ]
+            },
+            {
+              "kind": "relation",
+              "id": "4ea5b39377b0178ff15b",
+              "support": 17,
+              "trust": 1.0,
+              "sources": [
+                "MeasureName"
+              ]
+            }
+          ],
+          "exact": true,
+          "candidate_id": "d01a7c99d8d515c8",
+          "score": 0.995331126996469
+        },
+        {
+          "value": "al_scip-vte-2",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 15,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 15,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "4cf325a16991a93e",
+          "score": 0.10274044510526546
+        },
+        {
+          "value": "al_scip-inf-2",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "0f8ac609fc1b281f",
+          "score": 0.08304910998761118
+        },
+        {
+          "value": "al_scip-inf-1",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "8ec898841523e761",
+          "score": 0.057964294553201866
+        },
+        {
+          "value": "al_scip-inf-3",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 16,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 16,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "0e5550106fa6badf",
+          "score": 0.057964294553201866
+        },
+        {
+          "value": "al_scip-inf-4",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 15,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 15,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "11b6307c587f3b14",
+          "score": 0.057964294553201866
+        },
+        {
+          "value": "al_scip-inf-6",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 15,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 15,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "861b07684793a6ee",
+          "score": 0.057964294553201866
+        },
+        {
+          "value": "al_scip-vte-1",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 15,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 15,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "00abae8a7e54bc34",
+          "score": 0.057964294553201866
+        },
+        {
+          "value": "ak_scip-card-2",
+          "kind": "keep",
+          "kinds": [
+            "keep"
+          ],
+          "rule_ids": [],
+          "support": 0,
+          "evidence": [
+            {
+              "kind": "keep",
+              "id": "",
+              "support": 0,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "ae36cfcf9d025e25",
+          "score": 0.01921922468394351
+        },
+        {
+          "value": "al_ami-2",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "73610bfe2c94cabd",
+          "score": 0.013999924304847663
+        },
+        {
+          "value": "al_ami-3",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "3fd35e5693d1d6f5",
+          "score": 0.013999924304847663
+        },
+        {
+          "value": "al_ami-4",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "e1854025972a47b6",
+          "score": 0.013999924304847663
+        },
+        {
+          "value": "al_ami-5",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "ca66a1a0225e3c61",
+          "score": 0.013999924304847663
+        },
+        {
+          "value": "al_hf-2",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "74f70998b6844226",
+          "score": 0.013999924304847663
+        },
+        {
+          "value": "al_pn-2",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "34e5631b2d6418c8",
+          "score": 0.013999924304847663
+        },
+        {
+          "value": "al_pn-3b",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "43100880a2a3466d",
+          "score": 0.013999924304847663
+        },
+        {
+          "value": "al_hf-3",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "8bf80a8a91c7832c",
+          "score": 0.013894616573789332
+        },
+        {
+          "value": "al_hf-4",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 18,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 18,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "1f86f5961cafe967",
+          "score": 0.013894616573789332
+        },
+        {
+          "value": "al_ami-1",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "47f8a5197b7ea438",
+          "score": 0.012083829148134315
+        },
+        {
+          "value": "al_ami-7a",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "2c3bcea160d077b5",
+          "score": 0.012083829148134315
+        },
+        {
+          "value": "al_ami-8a",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "9e41c0934206e4d9",
+          "score": 0.012083829148134315
+        },
+        {
+          "value": "al_pn-4",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "364192be22b98bf5",
+          "score": 0.012083829148134315
+        },
+        {
+          "value": "al_pn-6",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "e915353e9c9dea92",
+          "score": 0.012083829148134315
+        },
+        {
+          "value": "al_pn-7",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "addd294f18c184c0",
+          "score": 0.012083829148134315
+        },
+        {
+          "value": "al_hf-1",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "089094dc749d1b46",
+          "score": 0.011992759021167058
+        },
+        {
+          "value": "al_pn-5c",
+          "kind": "domain",
+          "kinds": [
+            "domain"
+          ],
+          "rule_ids": [],
+          "support": 17,
+          "evidence": [
+            {
+              "kind": "domain",
+              "id": "",
+              "support": 17,
+              "trust": 0.0,
+              "sources": []
+            }
+          ],
+          "exact": true,
+          "candidate_id": "67ea1234f6a5209a",
+          "score": 0.011992759021167058
+        }
+      ],
+      "margin": 0.8925906818912035,
+      "region": "relation:text",
+      "policy": {
+        "score_threshold": 0.995,
+        "margin_threshold": 0.1,
+        "empirical_precision": 1.0,
+        "checked_changes": 26,
+        "checked_groups": 10
+      },
+      "permitted": true,
+      "tied": false,
+      "repair_confidence": 0.9576133348868124,
+      "reference_in_candidates": true,
+      "decision": {
+        "row": 156,
+        "field": "Stateavg",
+        "before": "ak_scip-card-2",
+        "after": "al_scip-card-2",
+        "base": "al_scip-card-2",
+        "v6": "al_scip-card-2",
+        "stage": "qualified_base",
+        "before_guard": "al_scip-card-2",
+        "guard_reason": "own_source_calibrated_base_or_supported_new_rule",
+        "point_probability_absolute": 0,
+        "grid_proof": {
+          "value": null,
+          "support": 0,
+          "fraction": 0,
+          "distinct": 0,
+          "query_field_excluded": true
+        },
+        "detection_score": 0.01301255940907609,
+        "unreviewed_base": "al_scip-card-2",
+        "v15_reason": "source_reviewed_baseline",
+        "no_reference_value_used": true
+      },
+      "matched_rules": [
+        {
+          "family": "relations",
+          "rule": {
+            "kind": "lookup",
+            "sources": [
+              "MeasureCode"
+            ],
+            "target": "Stateavg",
+            "mapping": {
+              "5f21431b3d5f4af2d88eaa44ad430076555a80579b0ec3affeb020db3879d88c": {
+                "value": "al_ami-3",
+                "groups": 18
+              },
+              "71c8b146a87c7a77fc65c6c16033d503cd7e19d23ff63d3d00f690eb7616d54f": {
+                "value": "al_ami-4",
+                "groups": 18
+              },
+              "908a20fe50bd7c32317e7a39b073ec0f939c9787bb59843e45d96b59aabfaed2": {
+                "value": "al_ami-5",
+                "groups": 18
+              },
+              "fa6a29f1e643956b5d90064b113bed9c2ac238ed243a74234012327390602ae6": {
+                "value": "al_ami-7a",
+                "groups": 17
+              },
+              "0551bf1da407bb217f4beaa4ac657bb68261c81321fec736305b99b65ec0dc0b": {
+                "value": "al_ami-8a",
+                "groups": 17
+              },
+              "4c310596dec34ff3027c56a9b0b05de9497c67f07ae4c32897676824f3ab0c14": {
+                "value": "al_hf-1",
+                "groups": 17
+              },
+              "e3d73949cdfd3b60e19c94b080a13e1ccc7cd3631b6b87828aedfc241a153a16": {
+                "value": "al_hf-2",
+                "groups": 18
+              },
+              "8180113b5ca23328e3881741843fe031973fc75a3631448fb68bae4640d4137a": {
+                "value": "al_hf-3",
+                "groups": 18
+              },
+              "645039076136dd3bafaa4188dc8fcfd7284cde1d7805aedf1f7e9527bd15bca7": {
+                "value": "al_hf-4",
+                "groups": 18
+              },
+              "e0bebe31797f04a5b182106189bc85cbdf66bae16fb93461032da9fc42ea3a57": {
+                "value": "al_pn-2",
+                "groups": 18
+              },
+              "3da0455a5d31d828a5f6d6aa865a4a53cb5586eb03103fae30973644d6cf0bd8": {
+                "value": "al_pn-3b",
+                "groups": 18
+              },
+              "71c6e7155535374df574144a19e2f6b884c4d44fa5320ed56f1042e33a5d1460": {
+                "value": "al_pn-4",
+                "groups": 17
+              },
+              "b2abbab93eef28dbabbe5a4e31147f6b541b6f758a43c5a22ba4a87f504b9771": {
+                "value": "al_pn-5c",
+                "groups": 17
+              },
+              "135dc77f2d5042d26b88407aeba5ed9d61d6b8eeb021256b6373e22488cfedd5": {
+                "value": "al_pn-6",
+                "groups": 17
+              },
+              "f843c816deebe3facf3cc0a07f016cc083d093cc759d7312346eb54f5fb3f7ba": {
+                "value": "al_pn-7",
+                "groups": 17
+              },
+              "a3c824f60a4aac4a50cd2f7fa974b4e39d1d1285675ec23acb1632b6e4be69c7": {
+                "value": "al_scip-card-2",
+                "groups": 17
+              },
+              "c13fd4038ba06310e84c2c80c986ad42d3c52f373f6b8be27ff761ad0eb11a53": {
+                "value": "al_scip-inf-1",
+                "groups": 17
+              },
+              "a1ef45a361cf20b0bf3c4cada3e9a4bc9f6d88f9c50e9ae625b17476fffa0f47": {
+                "value": "al_scip-inf-2",
+                "groups": 17
+              },
+              "f3d39982d4e0527db55144255bbcb649735c9d9465b40d9d886d774d9eabc2b0": {
+                "value": "al_scip-inf-3",
+                "groups": 16
+              },
+              "9b9104cfe1a2bd9be2ceefb6aa8103560a5341d5c1ef87c6f68cf33aa2c42162": {
+                "value": "al_scip-inf-4",
+                "groups": 15
+              },
+              "cd44446275ebe332d4605074ea4f804abeb7671aa48d21beb07b8666a7b9dc09": {
+                "value": "al_scip-inf-6",
+                "groups": 15
+              },
+              "9a6f668825e32140f77e45831e2b701a539d60109a6035659ec5fe5abeb397d9": {
+                "value": "al_scip-vte-1",
+                "groups": 15
+              },
+              "11f4f0b4829790b04ca33b3e258d68a9d083ca67f15905092e0a97bc4aee6124": {
+                "value": "al_scip-vte-2",
+                "groups": 15
+              }
+            },
+            "support_groups": 20,
+            "id": "bbaeedb9239011acc46a"
+          }
+        },
+        {
+          "family": "relations",
+          "rule": {
+            "kind": "lookup",
+            "sources": [
+              "MeasureName"
+            ],
+            "target": "Stateavg",
+            "mapping": {
+              "064b694adc4e1e79f49596bf5e60e60b556b84953314ac8fd0ee8a141bd54ea7": {
+                "value": "al_ami-3",
+                "groups": 18
+              },
+              "8c03a1c91fce4cc7c97448b4c3f2e9b5fd120731d5f9cb18bb4174814099a8cb": {
+                "value": "al_ami-4",
+                "groups": 18
+              },
+              "56bd310a2905cf7f15945a94299b19735c5dd243ed32b8a8de797f8bb53959b3": {
+                "value": "al_ami-5",
+                "groups": 18
+              },
+              "5633eeffac0baa3c4c045cd6048ea339920f194a9ce2624730b7a7a124434e3b": {
+                "value": "al_ami-7a",
+                "groups": 17
+              },
+              "00fef8fc5c7410808569a5b6d377e527a786974e4836f64e98c749df2056bbd7": {
+                "value": "al_ami-8a",
+                "groups": 17
+              },
+              "38ef1b3f79c3b03e8fbb5377eafb532f8cffcc6a35675b77e61dab6402deb17e": {
+                "value": "al_hf-1",
+                "groups": 17
+              },
+              "065b3eb03cba622d752c09b8e660639216944b6cc10c61ae67ad4f3d1d5f753e": {
+                "value": "al_hf-2",
+                "groups": 18
+              },
+              "5e0ea645aa149114c03b82347613a1b1bc30c2df77181e98aad94a79662eb511": {
+                "value": "al_hf-3",
+                "groups": 18
+              },
+              "bec76af519c962527839d43f2fe1ebf582f4da1478666836610f573016c9efce": {
+                "value": "al_hf-4",
+                "groups": 18
+              },
+              "bb477fc834e7be044843dc781ebc6018bb20e6d63e58c968936cea2eae4c6837": {
+                "value": "al_pn-2",
+                "groups": 18
+              },
+              "bde32297a46e8e359465f1ecd1c42197fab6414cf1bb899d64ea807e0d19edf4": {
+                "value": "al_pn-3b",
+                "groups": 18
+              },
+              "df8299c751f7a2ba8157b3474dc48c9e957638b60fa03bb4b81d4eb2eeded95d": {
+                "value": "al_pn-4",
+                "groups": 17
+              },
+              "6f372ada6364995b78f071182e1c8e10cd2023ee27b325524ee8cb93d49344c0": {
+                "value": "al_pn-5c",
+                "groups": 17
+              },
+              "cbf9b6f5c3ec915f20eb50d02d22d1efdb623c4a70b4a8763cf45576e66e004a": {
+                "value": "al_pn-6",
+                "groups": 17
+              },
+              "7717553f75dc034953892ff797a363f9efcc02cabb80735de2fa57685259511c": {
+                "value": "al_pn-7",
+                "groups": 17
+              },
+              "3baeb90322acb84124f2603a9280333c68bb3cec8634ed86ba3ba8a9f77a7ef0": {
+                "value": "al_scip-card-2",
+                "groups": 17
+              },
+              "41a043996cd83ec5e0bd5c9d00a4fcb1dd5d957df59d4191722c0ad9201058d4": {
+                "value": "al_scip-inf-1",
+                "groups": 17
+              },
+              "76ea462bf82667f4217bb78ad1fe715ddb806ebc0802b3c0457d46dd3ed4f4f8": {
+                "value": "al_scip-inf-2",
+                "groups": 17
+              },
+              "f9618e2aa5fbfd4b656c4aebb62a0166df3e070943a20be3678b6b848b34daca": {
+                "value": "al_scip-inf-3",
+                "groups": 16
+              },
+              "d352036023c5b8cc5010f5e0e57dc8d096885bbcb704f6aa7bb7d56e3e9ece5c": {
+                "value": "al_scip-inf-4",
+                "groups": 15
+              },
+              "c8747ebe3c50c167bf0f15ecb45ba5836f0dbc324b3d332a396f48bbc93af10d": {
+                "value": "al_scip-inf-6",
+                "groups": 15
+              },
+              "00fc58974adc24ef86e494068676db89e3bfda50af3b44be5d0f495e884c9d5c": {
+                "value": "al_scip-vte-1",
+                "groups": 15
+              },
+              "088d902ab462b63bad127b1ddbaa2dcc57659a761a191701807d527bd893bedf": {
+                "value": "al_scip-vte-2",
+                "groups": 15
+              }
+            },
+            "support_groups": 20,
+            "id": "4ea5b39377b0178ff15b"
+          }
+        }
+      ]
+    }
+  ],
+  "new_fit": false,
+  "new_scoring": false,
+  "model_calls": 0,
+  "raw_reference_reads": 0,
+  "all_source_hashes_unchanged": true
+}

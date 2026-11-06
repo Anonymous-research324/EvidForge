@@ -1,0 +1,2528 @@
+[
+  {
+    "id": "semantic_hospital_s1013",
+    "dataset": "hospital",
+    "seed": 1013,
+    "suite": "semantic_controlled",
+    "task": "repair_only",
+    "constructed_errors": true,
+    "original_natural_dataset": false,
+    "previously_seen_source": true,
+    "rate_on_eligible_selected_fields": 0.3,
+    "controlled_fields": [
+      "Condition",
+      "MeasureName",
+      "Stateavg"
+    ],
+    "zones": {
+      "learning": {
+        "rows": 422,
+        "eligible_target_cells": 1266,
+        "injected_cells": 380,
+        "rate": 0.3001579778830964
+      },
+      "validation": {
+        "rows": 250,
+        "eligible_target_cells": 750,
+        "injected_cells": 225,
+        "rate": 0.3
+      },
+      "repair": {
+        "rows": 328,
+        "eligible_target_cells": 984,
+        "injected_cells": 295,
+        "rate": 0.2997967479674797
+      }
+    },
+    "source_clean_sha256": "043b1300091d447a48cc9e78c71a64925b2b3cbff624df436cec416afe6199cc",
+    "source_dirty_sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a",
+    "same_original_entity_partitions": true,
+    "model_sees_formal_annotations": false,
+    "unmodified_other_features": "curator-confirmed; available identically to all methods",
+    "arm": "full",
+    "repair": {
+      "P": 0.9927007299270073,
+      "R": 0.9220338983050848,
+      "F1": 0.9560632688927944,
+      "normal_damage": 0.0,
+      "errors": 295,
+      "normal": 4878,
+      "changes": 274,
+      "exact": 272,
+      "damaged": 0,
+      "detection_AUC": 0.964406779661017
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "full",
+      "seconds": 23.088199470192194,
+      "rows": 328,
+      "changed_cells": 274,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/cases/semantic_hospital_s1013/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    },
+    "by_field": {
+      "HospitalName": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address1": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address2": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": null,
+        "errors": 0,
+        "normal": 0,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address3": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": null,
+        "errors": 0,
+        "normal": 0,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "City": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "State": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "ZipCode": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "CountyName": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "PhoneNumber": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "HospitalType": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "HospitalOwner": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "EmergencyService": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Condition": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "normal_damage": 0.0,
+        "errors": 90,
+        "normal": 238,
+        "changes": 90,
+        "exact": 90,
+        "damaged": 0,
+        "detection_AUC": 1.0
+      },
+      "MeasureCode": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "MeasureName": {
+        "P": 1.0,
+        "R": 0.9619047619047619,
+        "F1": 0.9805825242718447,
+        "normal_damage": 0.0,
+        "errors": 105,
+        "normal": 223,
+        "changes": 101,
+        "exact": 101,
+        "damaged": 0,
+        "detection_AUC": 0.980952380952381
+      },
+      "Score": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 278,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Sample": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 303,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Stateavg": {
+        "P": 0.9759036144578314,
+        "R": 0.81,
+        "F1": 0.8852459016393442,
+        "normal_damage": 0.0,
+        "errors": 100,
+        "normal": 228,
+        "changes": 83,
+        "exact": 81,
+        "damaged": 0,
+        "detection_AUC": 0.915
+      }
+    },
+    "by_constructed_mechanism": {
+      "domain_valid_cross_field_substitution": {
+        "errors": 295,
+        "edits": 274,
+        "exact": 272,
+        "exact_repair_recall": 0.9220338983050848
+      }
+    }
+  },
+  {
+    "id": "semantic_hospital_s1013",
+    "dataset": "hospital",
+    "seed": 1013,
+    "suite": "semantic_controlled",
+    "task": "repair_only",
+    "constructed_errors": true,
+    "original_natural_dataset": false,
+    "previously_seen_source": true,
+    "rate_on_eligible_selected_fields": 0.3,
+    "controlled_fields": [
+      "Condition",
+      "MeasureName",
+      "Stateavg"
+    ],
+    "zones": {
+      "learning": {
+        "rows": 422,
+        "eligible_target_cells": 1266,
+        "injected_cells": 380,
+        "rate": 0.3001579778830964
+      },
+      "validation": {
+        "rows": 250,
+        "eligible_target_cells": 750,
+        "injected_cells": 225,
+        "rate": 0.3
+      },
+      "repair": {
+        "rows": 328,
+        "eligible_target_cells": 984,
+        "injected_cells": 295,
+        "rate": 0.2997967479674797
+      }
+    },
+    "source_clean_sha256": "043b1300091d447a48cc9e78c71a64925b2b3cbff624df436cec416afe6199cc",
+    "source_dirty_sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a",
+    "same_original_entity_partitions": true,
+    "model_sees_formal_annotations": false,
+    "unmodified_other_features": "curator-confirmed; available identically to all methods",
+    "arm": "no_final_gate",
+    "repair": {
+      "P": 0.9147540983606557,
+      "R": 0.9457627118644067,
+      "F1": 0.9299999999999999,
+      "normal_damage": 0.004305043050430504,
+      "errors": 295,
+      "normal": 4878,
+      "changes": 305,
+      "exact": 279,
+      "damaged": 21,
+      "detection_AUC": 0.9792034106781745
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "no_final_gate",
+      "seconds": 23.15431591961533,
+      "rows": 328,
+      "changed_cells": 305,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/cases/semantic_hospital_s1013/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    },
+    "by_field": {
+      "HospitalName": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address1": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address2": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": null,
+        "errors": 0,
+        "normal": 0,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address3": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": null,
+        "errors": 0,
+        "normal": 0,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "City": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "State": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "ZipCode": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "CountyName": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "PhoneNumber": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "HospitalType": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "HospitalOwner": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "EmergencyService": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Condition": {
+        "P": 1.0,
+        "R": 0.9888888888888889,
+        "F1": 0.9944134078212291,
+        "normal_damage": 0.0,
+        "errors": 90,
+        "normal": 238,
+        "changes": 89,
+        "exact": 89,
+        "damaged": 0,
+        "detection_AUC": 0.9944444444444445
+      },
+      "MeasureCode": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 328,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "MeasureName": {
+        "P": 1.0,
+        "R": 0.9619047619047619,
+        "F1": 0.9805825242718447,
+        "normal_damage": 0.0,
+        "errors": 105,
+        "normal": 223,
+        "changes": 101,
+        "exact": 101,
+        "damaged": 0,
+        "detection_AUC": 0.980952380952381
+      },
+      "Score": {
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.014388489208633094,
+        "errors": 0,
+        "normal": 278,
+        "changes": 4,
+        "exact": 0,
+        "damaged": 4,
+        "detection_AUC": null
+      },
+      "Sample": {
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0033003300330033004,
+        "errors": 0,
+        "normal": 303,
+        "changes": 1,
+        "exact": 0,
+        "damaged": 1,
+        "detection_AUC": null
+      },
+      "Stateavg": {
+        "P": 0.8090909090909091,
+        "R": 0.89,
+        "F1": 0.8476190476190476,
+        "normal_damage": 0.07017543859649122,
+        "errors": 100,
+        "normal": 228,
+        "changes": 110,
+        "exact": 89,
+        "damaged": 16,
+        "detection_AUC": 0.9349122807017544
+      }
+    },
+    "by_constructed_mechanism": {
+      "domain_valid_cross_field_substitution": {
+        "errors": 295,
+        "edits": 284,
+        "exact": 279,
+        "exact_repair_recall": 0.9457627118644067
+      }
+    }
+  },
+  {
+    "id": "semantic_flights_s1013",
+    "dataset": "flights",
+    "seed": 1013,
+    "suite": "semantic_controlled",
+    "task": "repair_only",
+    "constructed_errors": true,
+    "original_natural_dataset": false,
+    "previously_seen_source": true,
+    "rate_on_eligible_selected_fields": 0.3,
+    "controlled_fields": [
+      "sched_dep_time",
+      "act_dep_time",
+      "sched_arr_time",
+      "act_arr_time"
+    ],
+    "zones": {
+      "learning": {
+        "rows": 465,
+        "eligible_target_cells": 1860,
+        "injected_cells": 558,
+        "rate": 0.3
+      },
+      "validation": {
+        "rows": 242,
+        "eligible_target_cells": 968,
+        "injected_cells": 290,
+        "rate": 0.29958677685950413
+      },
+      "repair": {
+        "rows": 1669,
+        "eligible_target_cells": 6676,
+        "injected_cells": 2003,
+        "rate": 0.3000299580587178
+      }
+    },
+    "source_clean_sha256": "36faeddfd951f04ae67b4af5289f770292236ae3717b9fc14806e07caea48af0",
+    "source_dirty_sha256": "61675edf279a09abf76e7f288425d442334679f1cb673efde108aa3ac686cc51",
+    "same_original_entity_partitions": true,
+    "model_sees_formal_annotations": false,
+    "unmodified_other_features": "curator-confirmed; available identically to all methods",
+    "arm": "full",
+    "repair": {
+      "P": null,
+      "R": 0.0,
+      "F1": 0.0,
+      "normal_damage": 0.0,
+      "errors": 2003,
+      "normal": 4673,
+      "changes": 0,
+      "exact": 0,
+      "damaged": 0,
+      "detection_AUC": 0.5
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "full",
+      "seconds": 3.572231230325997,
+      "rows": 1669,
+      "changed_cells": 0,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/cases/semantic_flights_s1013/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    },
+    "by_field": {
+      "sched_dep_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 524,
+        "normal": 1145,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      },
+      "act_dep_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 470,
+        "normal": 1199,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      },
+      "sched_arr_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 524,
+        "normal": 1145,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      },
+      "act_arr_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 485,
+        "normal": 1184,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      }
+    },
+    "by_constructed_mechanism": {
+      "domain_valid_time_substitution": {
+        "errors": 1161,
+        "edits": 0,
+        "exact": 0,
+        "exact_repair_recall": 0.0
+      },
+      "schedule_actual_field_confusion": {
+        "errors": 842,
+        "edits": 0,
+        "exact": 0,
+        "exact_repair_recall": 0.0
+      }
+    }
+  },
+  {
+    "id": "semantic_flights_s1013",
+    "dataset": "flights",
+    "seed": 1013,
+    "suite": "semantic_controlled",
+    "task": "repair_only",
+    "constructed_errors": true,
+    "original_natural_dataset": false,
+    "previously_seen_source": true,
+    "rate_on_eligible_selected_fields": 0.3,
+    "controlled_fields": [
+      "sched_dep_time",
+      "act_dep_time",
+      "sched_arr_time",
+      "act_arr_time"
+    ],
+    "zones": {
+      "learning": {
+        "rows": 465,
+        "eligible_target_cells": 1860,
+        "injected_cells": 558,
+        "rate": 0.3
+      },
+      "validation": {
+        "rows": 242,
+        "eligible_target_cells": 968,
+        "injected_cells": 290,
+        "rate": 0.29958677685950413
+      },
+      "repair": {
+        "rows": 1669,
+        "eligible_target_cells": 6676,
+        "injected_cells": 2003,
+        "rate": 0.3000299580587178
+      }
+    },
+    "source_clean_sha256": "36faeddfd951f04ae67b4af5289f770292236ae3717b9fc14806e07caea48af0",
+    "source_dirty_sha256": "61675edf279a09abf76e7f288425d442334679f1cb673efde108aa3ac686cc51",
+    "same_original_entity_partitions": true,
+    "model_sees_formal_annotations": false,
+    "unmodified_other_features": "curator-confirmed; available identically to all methods",
+    "arm": "no_final_gate",
+    "repair": {
+      "P": null,
+      "R": 0.0,
+      "F1": 0.0,
+      "normal_damage": 0.0,
+      "errors": 2003,
+      "normal": 4673,
+      "changes": 0,
+      "exact": 0,
+      "damaged": 0,
+      "detection_AUC": 0.5
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "no_final_gate",
+      "seconds": 3.7521534878760576,
+      "rows": 1669,
+      "changed_cells": 0,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/cases/semantic_flights_s1013/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    },
+    "by_field": {
+      "sched_dep_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 524,
+        "normal": 1145,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      },
+      "act_dep_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 470,
+        "normal": 1199,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      },
+      "sched_arr_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 524,
+        "normal": 1145,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      },
+      "act_arr_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 485,
+        "normal": 1184,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      }
+    },
+    "by_constructed_mechanism": {
+      "domain_valid_time_substitution": {
+        "errors": 1161,
+        "edits": 0,
+        "exact": 0,
+        "exact_repair_recall": 0.0
+      },
+      "schedule_actual_field_confusion": {
+        "errors": 842,
+        "edits": 0,
+        "exact": 0,
+        "exact_repair_recall": 0.0
+      }
+    }
+  },
+  {
+    "id": "semantic_hospital_s1014",
+    "dataset": "hospital",
+    "seed": 1014,
+    "suite": "semantic_controlled",
+    "task": "repair_only",
+    "constructed_errors": true,
+    "original_natural_dataset": false,
+    "previously_seen_source": true,
+    "rate_on_eligible_selected_fields": 0.3,
+    "controlled_fields": [
+      "Condition",
+      "MeasureName",
+      "Stateavg"
+    ],
+    "zones": {
+      "learning": {
+        "rows": 442,
+        "eligible_target_cells": 1326,
+        "injected_cells": 398,
+        "rate": 0.30015082956259426
+      },
+      "validation": {
+        "rows": 235,
+        "eligible_target_cells": 705,
+        "injected_cells": 212,
+        "rate": 0.300709219858156
+      },
+      "repair": {
+        "rows": 323,
+        "eligible_target_cells": 969,
+        "injected_cells": 291,
+        "rate": 0.30030959752321984
+      }
+    },
+    "source_clean_sha256": "043b1300091d447a48cc9e78c71a64925b2b3cbff624df436cec416afe6199cc",
+    "source_dirty_sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a",
+    "same_original_entity_partitions": true,
+    "model_sees_formal_annotations": false,
+    "unmodified_other_features": "curator-confirmed; available identically to all methods",
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.979381443298969,
+      "F1": 0.9895833333333333,
+      "normal_damage": 0.0,
+      "errors": 291,
+      "normal": 4783,
+      "changes": 285,
+      "exact": 285,
+      "damaged": 0,
+      "detection_AUC": 0.9896907216494846
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "full",
+      "seconds": 23.774397554807365,
+      "rows": 323,
+      "changed_cells": 285,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/cases/semantic_hospital_s1014/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    },
+    "by_field": {
+      "HospitalName": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address1": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address2": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": null,
+        "errors": 0,
+        "normal": 0,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address3": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": null,
+        "errors": 0,
+        "normal": 0,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "City": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "State": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "ZipCode": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "CountyName": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "PhoneNumber": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "HospitalType": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "HospitalOwner": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "EmergencyService": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Condition": {
+        "P": 1.0,
+        "R": 0.978021978021978,
+        "F1": 0.9888888888888888,
+        "normal_damage": 0.0,
+        "errors": 91,
+        "normal": 232,
+        "changes": 89,
+        "exact": 89,
+        "damaged": 0,
+        "detection_AUC": 0.989010989010989
+      },
+      "MeasureCode": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "MeasureName": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "normal_damage": 0.0,
+        "errors": 110,
+        "normal": 213,
+        "changes": 110,
+        "exact": 110,
+        "damaged": 0,
+        "detection_AUC": 1.0
+      },
+      "Score": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 264,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Sample": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 288,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Stateavg": {
+        "P": 1.0,
+        "R": 0.9555555555555556,
+        "F1": 0.9772727272727273,
+        "normal_damage": 0.0,
+        "errors": 90,
+        "normal": 233,
+        "changes": 86,
+        "exact": 86,
+        "damaged": 0,
+        "detection_AUC": 0.9777777777777779
+      }
+    },
+    "by_constructed_mechanism": {
+      "domain_valid_cross_field_substitution": {
+        "errors": 291,
+        "edits": 285,
+        "exact": 285,
+        "exact_repair_recall": 0.979381443298969
+      }
+    }
+  },
+  {
+    "id": "semantic_hospital_s1014",
+    "dataset": "hospital",
+    "seed": 1014,
+    "suite": "semantic_controlled",
+    "task": "repair_only",
+    "constructed_errors": true,
+    "original_natural_dataset": false,
+    "previously_seen_source": true,
+    "rate_on_eligible_selected_fields": 0.3,
+    "controlled_fields": [
+      "Condition",
+      "MeasureName",
+      "Stateavg"
+    ],
+    "zones": {
+      "learning": {
+        "rows": 442,
+        "eligible_target_cells": 1326,
+        "injected_cells": 398,
+        "rate": 0.30015082956259426
+      },
+      "validation": {
+        "rows": 235,
+        "eligible_target_cells": 705,
+        "injected_cells": 212,
+        "rate": 0.300709219858156
+      },
+      "repair": {
+        "rows": 323,
+        "eligible_target_cells": 969,
+        "injected_cells": 291,
+        "rate": 0.30030959752321984
+      }
+    },
+    "source_clean_sha256": "043b1300091d447a48cc9e78c71a64925b2b3cbff624df436cec416afe6199cc",
+    "source_dirty_sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a",
+    "same_original_entity_partitions": true,
+    "model_sees_formal_annotations": false,
+    "unmodified_other_features": "curator-confirmed; available identically to all methods",
+    "arm": "no_final_gate",
+    "repair": {
+      "P": 0.9895833333333334,
+      "R": 0.979381443298969,
+      "F1": 0.9844559585492227,
+      "normal_damage": 0.0006272214091574326,
+      "errors": 291,
+      "normal": 4783,
+      "changes": 288,
+      "exact": 285,
+      "damaged": 3,
+      "detection_AUC": 0.9893771109449059
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "no_final_gate",
+      "seconds": 25.114105966873467,
+      "rows": 323,
+      "changed_cells": 288,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/cases/semantic_hospital_s1014/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    },
+    "by_field": {
+      "HospitalName": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address1": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address2": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": null,
+        "errors": 0,
+        "normal": 0,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address3": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": null,
+        "errors": 0,
+        "normal": 0,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "City": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "State": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "ZipCode": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "CountyName": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "PhoneNumber": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "HospitalType": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "HospitalOwner": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "EmergencyService": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Condition": {
+        "P": 0.9888888888888889,
+        "R": 0.978021978021978,
+        "F1": 0.9834254143646408,
+        "normal_damage": 0.004310344827586207,
+        "errors": 91,
+        "normal": 232,
+        "changes": 90,
+        "exact": 89,
+        "damaged": 1,
+        "detection_AUC": 0.9868558165971959
+      },
+      "MeasureCode": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 323,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "MeasureName": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "normal_damage": 0.0,
+        "errors": 110,
+        "normal": 213,
+        "changes": 110,
+        "exact": 110,
+        "damaged": 0,
+        "detection_AUC": 1.0
+      },
+      "Score": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 264,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Sample": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 288,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Stateavg": {
+        "P": 0.9772727272727273,
+        "R": 0.9555555555555556,
+        "F1": 0.9662921348314608,
+        "normal_damage": 0.008583690987124463,
+        "errors": 90,
+        "normal": 233,
+        "changes": 88,
+        "exact": 86,
+        "damaged": 2,
+        "detection_AUC": 0.9734859322842156
+      }
+    },
+    "by_constructed_mechanism": {
+      "domain_valid_cross_field_substitution": {
+        "errors": 291,
+        "edits": 285,
+        "exact": 285,
+        "exact_repair_recall": 0.979381443298969
+      }
+    }
+  },
+  {
+    "id": "semantic_flights_s1014",
+    "dataset": "flights",
+    "seed": 1014,
+    "suite": "semantic_controlled",
+    "task": "repair_only",
+    "constructed_errors": true,
+    "original_natural_dataset": false,
+    "previously_seen_source": true,
+    "rate_on_eligible_selected_fields": 0.3,
+    "controlled_fields": [
+      "sched_dep_time",
+      "act_dep_time",
+      "sched_arr_time",
+      "act_arr_time"
+    ],
+    "zones": {
+      "learning": {
+        "rows": 471,
+        "eligible_target_cells": 1884,
+        "injected_cells": 565,
+        "rate": 0.29989384288747345
+      },
+      "validation": {
+        "rows": 245,
+        "eligible_target_cells": 980,
+        "injected_cells": 294,
+        "rate": 0.3
+      },
+      "repair": {
+        "rows": 1660,
+        "eligible_target_cells": 6640,
+        "injected_cells": 1992,
+        "rate": 0.3
+      }
+    },
+    "source_clean_sha256": "36faeddfd951f04ae67b4af5289f770292236ae3717b9fc14806e07caea48af0",
+    "source_dirty_sha256": "61675edf279a09abf76e7f288425d442334679f1cb673efde108aa3ac686cc51",
+    "same_original_entity_partitions": true,
+    "model_sees_formal_annotations": false,
+    "unmodified_other_features": "curator-confirmed; available identically to all methods",
+    "arm": "full",
+    "repair": {
+      "P": null,
+      "R": 0.0,
+      "F1": 0.0,
+      "normal_damage": 0.0,
+      "errors": 1992,
+      "normal": 4648,
+      "changes": 0,
+      "exact": 0,
+      "damaged": 0,
+      "detection_AUC": 0.5
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "full",
+      "seconds": 4.429556622169912,
+      "rows": 1660,
+      "changed_cells": 0,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/cases/semantic_flights_s1014/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    },
+    "by_field": {
+      "sched_dep_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 490,
+        "normal": 1170,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      },
+      "act_dep_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 479,
+        "normal": 1181,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      },
+      "sched_arr_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 518,
+        "normal": 1142,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      },
+      "act_arr_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 505,
+        "normal": 1155,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      }
+    },
+    "by_constructed_mechanism": {
+      "schedule_actual_field_confusion": {
+        "errors": 833,
+        "edits": 0,
+        "exact": 0,
+        "exact_repair_recall": 0.0
+      },
+      "domain_valid_time_substitution": {
+        "errors": 1159,
+        "edits": 0,
+        "exact": 0,
+        "exact_repair_recall": 0.0
+      }
+    }
+  },
+  {
+    "id": "semantic_flights_s1014",
+    "dataset": "flights",
+    "seed": 1014,
+    "suite": "semantic_controlled",
+    "task": "repair_only",
+    "constructed_errors": true,
+    "original_natural_dataset": false,
+    "previously_seen_source": true,
+    "rate_on_eligible_selected_fields": 0.3,
+    "controlled_fields": [
+      "sched_dep_time",
+      "act_dep_time",
+      "sched_arr_time",
+      "act_arr_time"
+    ],
+    "zones": {
+      "learning": {
+        "rows": 471,
+        "eligible_target_cells": 1884,
+        "injected_cells": 565,
+        "rate": 0.29989384288747345
+      },
+      "validation": {
+        "rows": 245,
+        "eligible_target_cells": 980,
+        "injected_cells": 294,
+        "rate": 0.3
+      },
+      "repair": {
+        "rows": 1660,
+        "eligible_target_cells": 6640,
+        "injected_cells": 1992,
+        "rate": 0.3
+      }
+    },
+    "source_clean_sha256": "36faeddfd951f04ae67b4af5289f770292236ae3717b9fc14806e07caea48af0",
+    "source_dirty_sha256": "61675edf279a09abf76e7f288425d442334679f1cb673efde108aa3ac686cc51",
+    "same_original_entity_partitions": true,
+    "model_sees_formal_annotations": false,
+    "unmodified_other_features": "curator-confirmed; available identically to all methods",
+    "arm": "no_final_gate",
+    "repair": {
+      "P": 0.0029940119760479044,
+      "R": 0.002008032128514056,
+      "F1": 0.002403846153846154,
+      "normal_damage": 0.21665232358003442,
+      "errors": 1992,
+      "normal": 4648,
+      "changes": 1336,
+      "exact": 4,
+      "damaged": 1007,
+      "detection_AUC": 0.4742541594951234
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "no_final_gate",
+      "seconds": 4.102752489969134,
+      "rows": 1660,
+      "changed_cells": 1336,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/cases/semantic_flights_s1014/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    },
+    "by_field": {
+      "sched_dep_time": {
+        "P": 0.004830917874396135,
+        "R": 0.00816326530612245,
+        "F1": 0.0060698027314112285,
+        "normal_damage": 0.5145299145299145,
+        "errors": 490,
+        "normal": 1170,
+        "changes": 828,
+        "exact": 4,
+        "damaged": 602,
+        "detection_AUC": 0.47334728763300193
+      },
+      "act_dep_time": {
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.15749364944961897,
+        "errors": 479,
+        "normal": 1181,
+        "changes": 245,
+        "exact": 0,
+        "damaged": 186,
+        "detection_AUC": 0.48283981410608817
+      },
+      "sched_arr_time": {
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.07880910683012259,
+        "errors": 518,
+        "normal": 1142,
+        "changes": 111,
+        "exact": 0,
+        "damaged": 90,
+        "detection_AUC": 0.480865716855209
+      },
+      "act_arr_time": {
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.11168831168831168,
+        "errors": 505,
+        "normal": 1155,
+        "changes": 152,
+        "exact": 0,
+        "damaged": 129,
+        "detection_AUC": 0.46692812138356693
+      }
+    },
+    "by_constructed_mechanism": {
+      "schedule_actual_field_confusion": {
+        "errors": 833,
+        "edits": 137,
+        "exact": 0,
+        "exact_repair_recall": 0.0
+      },
+      "domain_valid_time_substitution": {
+        "errors": 1159,
+        "edits": 192,
+        "exact": 4,
+        "exact_repair_recall": 0.003451251078515962
+      }
+    }
+  },
+  {
+    "id": "semantic_hospital_s1015",
+    "dataset": "hospital",
+    "seed": 1015,
+    "suite": "semantic_controlled",
+    "task": "repair_only",
+    "constructed_errors": true,
+    "original_natural_dataset": false,
+    "previously_seen_source": true,
+    "rate_on_eligible_selected_fields": 0.3,
+    "controlled_fields": [
+      "Condition",
+      "MeasureName",
+      "Stateavg"
+    ],
+    "zones": {
+      "learning": {
+        "rows": 427,
+        "eligible_target_cells": 1281,
+        "injected_cells": 384,
+        "rate": 0.2997658079625293
+      },
+      "validation": {
+        "rows": 227,
+        "eligible_target_cells": 681,
+        "injected_cells": 204,
+        "rate": 0.29955947136563876
+      },
+      "repair": {
+        "rows": 346,
+        "eligible_target_cells": 1038,
+        "injected_cells": 311,
+        "rate": 0.2996146435452794
+      }
+    },
+    "source_clean_sha256": "043b1300091d447a48cc9e78c71a64925b2b3cbff624df436cec416afe6199cc",
+    "source_dirty_sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a",
+    "same_original_entity_partitions": true,
+    "model_sees_formal_annotations": false,
+    "unmodified_other_features": "curator-confirmed; available identically to all methods",
+    "arm": "full",
+    "repair": {
+      "P": 0.940983606557377,
+      "R": 0.9228295819935691,
+      "F1": 0.9318181818181819,
+      "normal_damage": 0.0023103581055063534,
+      "errors": 311,
+      "normal": 5194,
+      "changes": 305,
+      "exact": 287,
+      "damaged": 12,
+      "detection_AUC": 0.9699059141948353
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "full",
+      "seconds": 24.145522615872324,
+      "rows": 346,
+      "changed_cells": 305,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/cases/semantic_hospital_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    },
+    "by_field": {
+      "HospitalName": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address1": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address2": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": null,
+        "errors": 0,
+        "normal": 0,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address3": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": null,
+        "errors": 0,
+        "normal": 0,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "City": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "State": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "ZipCode": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "CountyName": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "PhoneNumber": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "HospitalType": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "HospitalOwner": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "EmergencyService": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Condition": {
+        "P": 1.0,
+        "R": 0.963302752293578,
+        "F1": 0.9813084112149533,
+        "normal_damage": 0.0,
+        "errors": 109,
+        "normal": 237,
+        "changes": 105,
+        "exact": 105,
+        "damaged": 0,
+        "detection_AUC": 0.981651376146789
+      },
+      "MeasureCode": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "MeasureName": {
+        "P": 1.0,
+        "R": 0.979381443298969,
+        "F1": 0.9895833333333333,
+        "normal_damage": 0.0,
+        "errors": 97,
+        "normal": 249,
+        "changes": 95,
+        "exact": 95,
+        "damaged": 0,
+        "detection_AUC": 0.9896907216494846
+      },
+      "Score": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 315,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Sample": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Stateavg": {
+        "P": 0.8285714285714286,
+        "R": 0.8285714285714286,
+        "F1": 0.8285714285714286,
+        "normal_damage": 0.04979253112033195,
+        "errors": 105,
+        "normal": 241,
+        "changes": 105,
+        "exact": 87,
+        "damaged": 12,
+        "detection_AUC": 0.9179608772969768
+      }
+    },
+    "by_constructed_mechanism": {
+      "domain_valid_cross_field_substitution": {
+        "errors": 311,
+        "edits": 293,
+        "exact": 287,
+        "exact_repair_recall": 0.9228295819935691
+      }
+    }
+  },
+  {
+    "id": "semantic_hospital_s1015",
+    "dataset": "hospital",
+    "seed": 1015,
+    "suite": "semantic_controlled",
+    "task": "repair_only",
+    "constructed_errors": true,
+    "original_natural_dataset": false,
+    "previously_seen_source": true,
+    "rate_on_eligible_selected_fields": 0.3,
+    "controlled_fields": [
+      "Condition",
+      "MeasureName",
+      "Stateavg"
+    ],
+    "zones": {
+      "learning": {
+        "rows": 427,
+        "eligible_target_cells": 1281,
+        "injected_cells": 384,
+        "rate": 0.2997658079625293
+      },
+      "validation": {
+        "rows": 227,
+        "eligible_target_cells": 681,
+        "injected_cells": 204,
+        "rate": 0.29955947136563876
+      },
+      "repair": {
+        "rows": 346,
+        "eligible_target_cells": 1038,
+        "injected_cells": 311,
+        "rate": 0.2996146435452794
+      }
+    },
+    "source_clean_sha256": "043b1300091d447a48cc9e78c71a64925b2b3cbff624df436cec416afe6199cc",
+    "source_dirty_sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a",
+    "same_original_entity_partitions": true,
+    "model_sees_formal_annotations": false,
+    "unmodified_other_features": "curator-confirmed; available identically to all methods",
+    "arm": "no_final_gate",
+    "repair": {
+      "P": 0.9320388349514563,
+      "R": 0.9260450160771704,
+      "F1": 0.9290322580645161,
+      "normal_damage": 0.0023103581055063534,
+      "errors": 311,
+      "normal": 5194,
+      "changes": 309,
+      "exact": 288,
+      "damaged": 12,
+      "detection_AUC": 0.9763367823620378
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "no_final_gate",
+      "seconds": 25.108555564656854,
+      "rows": 346,
+      "changed_cells": 309,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/cases/semantic_hospital_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    },
+    "by_field": {
+      "HospitalName": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address1": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address2": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": null,
+        "errors": 0,
+        "normal": 0,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Address3": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": null,
+        "errors": 0,
+        "normal": 0,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "City": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "State": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "ZipCode": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "CountyName": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "PhoneNumber": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "HospitalType": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "HospitalOwner": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "EmergencyService": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Condition": {
+        "P": 0.9905660377358491,
+        "R": 0.963302752293578,
+        "F1": 0.9767441860465116,
+        "normal_damage": 0.0,
+        "errors": 109,
+        "normal": 237,
+        "changes": 106,
+        "exact": 105,
+        "damaged": 0,
+        "detection_AUC": 0.9862385321100917
+      },
+      "MeasureCode": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "MeasureName": {
+        "P": 1.0,
+        "R": 0.979381443298969,
+        "F1": 0.9895833333333333,
+        "normal_damage": 0.0,
+        "errors": 97,
+        "normal": 249,
+        "changes": 95,
+        "exact": 95,
+        "damaged": 0,
+        "detection_AUC": 0.9896907216494846
+      },
+      "Score": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 315,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Sample": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 0,
+        "normal": 346,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": null
+      },
+      "Stateavg": {
+        "P": 0.8148148148148148,
+        "R": 0.8380952380952381,
+        "F1": 0.8262910798122066,
+        "normal_damage": 0.04979253112033195,
+        "errors": 105,
+        "normal": 241,
+        "changes": 108,
+        "exact": 88,
+        "damaged": 12,
+        "detection_AUC": 0.9322465915826911
+      }
+    },
+    "by_constructed_mechanism": {
+      "domain_valid_cross_field_substitution": {
+        "errors": 311,
+        "edits": 297,
+        "exact": 288,
+        "exact_repair_recall": 0.9260450160771704
+      }
+    }
+  },
+  {
+    "id": "semantic_flights_s1015",
+    "dataset": "flights",
+    "seed": 1015,
+    "suite": "semantic_controlled",
+    "task": "repair_only",
+    "constructed_errors": true,
+    "original_natural_dataset": false,
+    "previously_seen_source": true,
+    "rate_on_eligible_selected_fields": 0.3,
+    "controlled_fields": [
+      "sched_dep_time",
+      "act_dep_time",
+      "sched_arr_time",
+      "act_arr_time"
+    ],
+    "zones": {
+      "learning": {
+        "rows": 489,
+        "eligible_target_cells": 1956,
+        "injected_cells": 587,
+        "rate": 0.3001022494887526
+      },
+      "validation": {
+        "rows": 244,
+        "eligible_target_cells": 976,
+        "injected_cells": 293,
+        "rate": 0.30020491803278687
+      },
+      "repair": {
+        "rows": 1643,
+        "eligible_target_cells": 6572,
+        "injected_cells": 1972,
+        "rate": 0.3000608642726719
+      }
+    },
+    "source_clean_sha256": "36faeddfd951f04ae67b4af5289f770292236ae3717b9fc14806e07caea48af0",
+    "source_dirty_sha256": "61675edf279a09abf76e7f288425d442334679f1cb673efde108aa3ac686cc51",
+    "same_original_entity_partitions": true,
+    "model_sees_formal_annotations": false,
+    "unmodified_other_features": "curator-confirmed; available identically to all methods",
+    "arm": "full",
+    "repair": {
+      "P": 0.23076923076923078,
+      "R": 0.0030425963488843813,
+      "F1": 0.006006006006006006,
+      "normal_damage": 0.00391304347826087,
+      "errors": 1972,
+      "normal": 4600,
+      "changes": 26,
+      "exact": 6,
+      "damaged": 18,
+      "detection_AUC": 0.5000718758267925
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "full",
+      "seconds": 3.3036679439246655,
+      "rows": 1643,
+      "changed_cells": 26,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/cases/semantic_flights_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    },
+    "by_field": {
+      "sched_dep_time": {
+        "P": 0.23076923076923078,
+        "R": 0.012096774193548387,
+        "F1": 0.022988505747126436,
+        "normal_damage": 0.015693112467306015,
+        "errors": 496,
+        "normal": 1147,
+        "changes": 26,
+        "exact": 6,
+        "damaged": 18,
+        "detection_AUC": 0.5002179598953792
+      },
+      "act_dep_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 476,
+        "normal": 1167,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      },
+      "sched_arr_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 490,
+        "normal": 1153,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      },
+      "act_arr_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 510,
+        "normal": 1133,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      }
+    },
+    "by_constructed_mechanism": {
+      "domain_valid_time_substitution": {
+        "errors": 1128,
+        "edits": 8,
+        "exact": 6,
+        "exact_repair_recall": 0.005319148936170213
+      },
+      "schedule_actual_field_confusion": {
+        "errors": 844,
+        "edits": 0,
+        "exact": 0,
+        "exact_repair_recall": 0.0
+      }
+    }
+  },
+  {
+    "id": "semantic_flights_s1015",
+    "dataset": "flights",
+    "seed": 1015,
+    "suite": "semantic_controlled",
+    "task": "repair_only",
+    "constructed_errors": true,
+    "original_natural_dataset": false,
+    "previously_seen_source": true,
+    "rate_on_eligible_selected_fields": 0.3,
+    "controlled_fields": [
+      "sched_dep_time",
+      "act_dep_time",
+      "sched_arr_time",
+      "act_arr_time"
+    ],
+    "zones": {
+      "learning": {
+        "rows": 489,
+        "eligible_target_cells": 1956,
+        "injected_cells": 587,
+        "rate": 0.3001022494887526
+      },
+      "validation": {
+        "rows": 244,
+        "eligible_target_cells": 976,
+        "injected_cells": 293,
+        "rate": 0.30020491803278687
+      },
+      "repair": {
+        "rows": 1643,
+        "eligible_target_cells": 6572,
+        "injected_cells": 1972,
+        "rate": 0.3000608642726719
+      }
+    },
+    "source_clean_sha256": "36faeddfd951f04ae67b4af5289f770292236ae3717b9fc14806e07caea48af0",
+    "source_dirty_sha256": "61675edf279a09abf76e7f288425d442334679f1cb673efde108aa3ac686cc51",
+    "same_original_entity_partitions": true,
+    "model_sees_formal_annotations": false,
+    "unmodified_other_features": "curator-confirmed; available identically to all methods",
+    "arm": "no_final_gate",
+    "repair": {
+      "P": 0.45990180032733224,
+      "R": 0.14249492900608518,
+      "F1": 0.21757646147890053,
+      "normal_damage": 0.05217391304347826,
+      "errors": 1972,
+      "normal": 4600,
+      "changes": 611,
+      "exact": 281,
+      "damaged": 240,
+      "detection_AUC": 0.5679799805979363
+    },
+    "downstream": null,
+    "receipt": {
+      "arm": "no_final_gate",
+      "seconds": 3.256782270036638,
+      "rows": 1643,
+      "changed_cells": 611,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/cases/semantic_flights_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    },
+    "by_field": {
+      "sched_dep_time": {
+        "P": 0.45990180032733224,
+        "R": 0.5665322580645161,
+        "F1": 0.5076784101174345,
+        "normal_damage": 0.2092414995640802,
+        "errors": 496,
+        "normal": 1147,
+        "changes": 611,
+        "exact": 281,
+        "damaged": 240,
+        "detection_AUC": 0.7693711857018309
+      },
+      "act_dep_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 476,
+        "normal": 1167,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      },
+      "sched_arr_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 490,
+        "normal": 1153,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      },
+      "act_arr_time": {
+        "P": null,
+        "R": 0.0,
+        "F1": 0.0,
+        "normal_damage": 0.0,
+        "errors": 510,
+        "normal": 1133,
+        "changes": 0,
+        "exact": 0,
+        "damaged": 0,
+        "detection_AUC": 0.5
+      }
+    },
+    "by_constructed_mechanism": {
+      "domain_valid_time_substitution": {
+        "errors": 1128,
+        "edits": 226,
+        "exact": 169,
+        "exact_repair_recall": 0.149822695035461
+      },
+      "schedule_actual_field_confusion": {
+        "errors": 844,
+        "edits": 145,
+        "exact": 112,
+        "exact_repair_recall": 0.13270142180094788
+      }
+    }
+  }
+]

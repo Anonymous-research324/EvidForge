@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "kind": "actual official ZIP plus public-role reconstruction verified against original frozen input hashes",
+  "studies": [
+    {
+      "study": "new_errors",
+      "cases": 27,
+      "verified_files": 247,
+      "input_manifest_sha256": "001e2d62e32ae1397e6ed5a7c602c13f3561d8fe2d2fd1e57c504606bc62b677",
+      "all_original_input_bytes_match": true,
+      "old_private_reference_read": false,
+      "old_feature_values_read": false,
+      "model_calls": 0,
+      "fits": 0
+    },
+    {
+      "study": "llm_digit70",
+      "cases": 10,
+      "verified_files": 94,
+      "input_manifest_sha256": "9f70e623766e70cb634a3a2661e25021c60585dbd3da0502934724f4a73e05df",
+      "all_original_input_bytes_match": true,
+      "old_private_reference_read": false,
+      "old_feature_values_read": false,
+      "model_calls": 0,
+      "fits": 0
+    }
+  ],
+  "total_cases": 37
+}

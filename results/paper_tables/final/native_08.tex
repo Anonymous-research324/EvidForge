@@ -1,0 +1,18 @@
+\par\addvspace{6pt}\noindent\begin{minipage}{\columnwidth}
+\centering
+\captionof{table}{学习与执行成本}
+\label{tab:efficiency}
+\fontsize{8}{9.6}\selectfont
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lccc@{}}
+\toprule
+方法 & \makecell{LLM 调用\\(次/表)} & \makecell{模型请求\\(s/表)} & \makecell{记录阶段用时\\(s/表)} \\
+\midrule
+纯 LLM (9B) & $54.4\pm0.1$ & $376.6\pm5.0$ & $386.6\pm5.3$ \\
+\makecell{Raha +\\HoloClean} & $0.0\pm0.0$ & $0.0\pm0.0$ & $71.9\pm1.2$ \\
+EvidForge（首次） & $11.0\pm0.0$ & $31.8\pm0.4$ & $407.0\pm3.6$ \\
+EvidForge（封存执行） & $0.0\pm0.0$ & $0.0\pm0.0$ & $85.4\pm1.9$ \\
+\bottomrule
+\end{tabular*}
+\end{minipage}\par\addvspace{6pt}

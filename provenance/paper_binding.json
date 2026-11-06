@@ -1,0 +1,46 @@
+{
+  "manuscripts": [
+    {
+      "name": "EvidForge(4).pdf",
+      "sha256": "a3d704d8ea3fd0fdd51f36d456ee7c29987bacc5f095e8c0935fdc7d39eb5f64"
+    },
+    {
+      "name": "EvidForge补充实验1.pdf",
+      "sha256": "dbff7fc138d9e4c3da1a09dde5ddf6429dcf90a443d6dc07ee966626d3399068"
+    }
+  ],
+  "table_snippets": {
+    "results/paper_tables/final/rq1_three_seeds.tex": "d9491e95e0f40a73f187c7ba684249d80fb30a550b2e7375e2c408f7df8a0879",
+    "results/paper_tables/final/rq2_downstream.tex": "81a469b988993e70a93e1d40b877a610cb896d5d0d49f5291780279131e15538",
+    "results/paper_tables/final/native_11.tex": "884636d5e5d955e705638762d3927fdb4743bcea89a0fe9460c4053afdbf86ec",
+    "results/paper_tables/final/native_10_main.tex": "47b7507f1347ef03d38f077d22d3589f221e30c2e92e02c03cff739d96967f5c",
+    "results/paper_tables/final/native_01.tex": "ff5de2415f54ac7e9d3f838171a28ac472ac18cd0a42c88d66fe490cf1673471",
+    "results/paper_tables/final/native_08.tex": "54e9e0543b2465a9299057ba88c59ee3da3e936076c90a2c59d837c3d47b743e",
+    "results/paper_tables/final/native_13.tex": "60758856b0468299813d7bfc87b806bdae9262f1a3b3a1837ec3ed57078d59a5",
+    "results/paper_tables/final/native_14.tex": "1aa68ba6ed6ab0a8504f630b9522ab8430cd5912bbeb1a9e3a6d32861cc5e8d6",
+    "results/paper_tables/final/rq1_risk.tex": "7766f36c60b71fe45efa1beccf823391c3d9754e00b5cbd67fe733d578928fe4",
+    "results/paper_tables/final/native_03.tex": "1788eae3a422becba807d22680d7c6cc6358fba22aafea5e318bf3059bb4a37e",
+    "results/paper_tables/final/native_04.tex": "60c9fb2d24f007bcaae2d4a6fe1047780dfca2b70e67c3a52ffb3381da6be6ad",
+    "results/paper_tables/final/native_05.tex": "e6f30bc9941644c6e4f7fb6368da51f7c073d65e995dcc91e6ccc6eb70d567a7",
+    "results/paper_tables/final/native_07.tex": "dddcd9425127812e7f471e7366ecc627b871a3cdab650c8830e38e7aa46033e1",
+    "results/paper_tables/final/oct23_semantic_all.tex": "3eca9377a46aca38fee866b9f365531ef5e8d6003c7b3088b191e98dd98cf5ae",
+    "results/paper_tables/final/native_12.tex": "590681b4c5764b5204d1c5b362ec526d857af4c442b56436ca8789b16b8b6028",
+    "results/paper_tables/final/native_10.tex": "cc0429f646071e8848035e6726c4bc3034eaea361a555bc0882cb595e16d3a2f",
+    "results/paper_tables/final/native_15.tex": "3e6f9f20b20760ef2a807a4dc5281c37519967c98bf610fca88326ce29d55f0c"
+  },
+  "source_verification": "424 ordered mean±sample-SD pairs exactly match supplied final paper and matching compiled source PDF; no manuscript drafts included",
+  "scope": "final paper and supplement; all conditions and qualifications retained",
+  "source_figure_fingerprints": {
+    "results/paper_figures/llm_ablation.png": "c0bc919194e7a25b0e32f4d9a272973a370d07c511920d09a994462db7d364d5",
+    "results/paper_figures/llm_ablation.pdf": "ed6afac4e803bbfbf7ece2eb11d81bbd9569c7abb2fc16f42857cafcd4c18039",
+    "results/paper_figures/llm_ablation.tex": "bb0e871570e1e9cd2b3d3725288918e5e0264eb9ab759057984195468396838f",
+    "results/paper_figures/robustness.pdf": "66a1b8e0bf5c594797d1c66435ea6a322d2301d2e93f4d2af23bb9ab5198fa8d",
+    "results/paper_figures/robustness.png": "7a747241f425dde8c6718e87cbec4501273f998201cfcd252184b8cea2bdc8c9",
+    "results/paper_figures/robustness.tex": "d43a6d52fc6f1a740f1b6a5019c73dfea33f2016b2e450ad70f8e0b35b1c7c59",
+    "results/paper_figures/skill_reuse.tex": "a4e0cb8381df723f48df58d23cbf4af77f93f44f1c69c75429f14d978e49e28f",
+    "results/paper_figures/skill_reuse.pdf": "d4ca1027a62ef0b929baa7a3e7556165cf15c708c6b83bdea321b70a58793c4b",
+    "results/paper_figures/skill_reuse.png": "955f6e92ee452716877aa1f9ab19047ea13e05ce54bb43d0653af3e9772a1c5b"
+  },
+  "paper_figures": {},
+  "figure_policy": "User requested code/configuration/numerical artifacts only. Original figure fingerprints record manuscript binding; no rendered images are distributed."
+}

@@ -1,0 +1,3026 @@
+[
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1013,
+    "offset": -0.1,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 1927,
+      "exact": 1926,
+      "normal_damage": 0,
+      "P": 0.9994810586403736,
+      "R": 0.4988344988344988,
+      "F1": 0.6655148583275743,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1013,
+      "offset": -0.1,
+      "seconds": 38.50824030023068,
+      "qualified_original": true,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 1927,
+      "permission_counters": {
+        "checks": 16551,
+        "newly_admitted": 5,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1013,
+    "offset": -0.05,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 1926,
+      "exact": 1926,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.4988344988344988,
+      "F1": 0.6656298600311041,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1013,
+      "offset": -0.05,
+      "seconds": 40.2796867294237,
+      "qualified_original": true,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 1926,
+      "permission_counters": {
+        "checks": 16551,
+        "newly_admitted": 0,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1013,
+    "offset": 0.0,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 1926,
+      "exact": 1926,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.4988344988344988,
+      "F1": 0.6656298600311041,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1013,
+      "offset": 0.0,
+      "seconds": 38.005741202272475,
+      "qualified_original": true,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 1926,
+      "permission_counters": {
+        "checks": 16551
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1013,
+    "offset": 0.05,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 0,
+      "exact": 0,
+      "normal_damage": 0,
+      "P": null,
+      "R": 0.0,
+      "F1": 0.0,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1013,
+      "offset": 0.05,
+      "seconds": 39.22247683536261,
+      "qualified_original": true,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 0,
+      "permission_counters": {
+        "checks": 16551,
+        "newly_admitted": 0,
+        "newly_blocked": 1930
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1013,
+    "offset": 0.1,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 0,
+      "exact": 0,
+      "normal_damage": 0,
+      "P": null,
+      "R": 0.0,
+      "F1": 0.0,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1013,
+      "offset": 0.1,
+      "seconds": 38.70579498913139,
+      "qualified_original": true,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 0,
+      "permission_counters": {
+        "checks": 16551,
+        "newly_admitted": 0,
+        "newly_blocked": 1930
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1013,
+    "offset": -0.1,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2317,
+      "exact": 2316,
+      "normal_damage": 0,
+      "P": 0.9995684074233924,
+      "R": 0.49870801033591733,
+      "F1": 0.6654216348225829,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1013,
+      "offset": -0.1,
+      "seconds": 51.289563982747495,
+      "qualified_original": true,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2317,
+      "permission_counters": {
+        "checks": 19908,
+        "newly_admitted": 2,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1013,
+    "offset": -0.05,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2316,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.49870801033591733,
+      "F1": 0.6655172413793103,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1013,
+      "offset": -0.05,
+      "seconds": 51.46567494235933,
+      "qualified_original": true,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2316,
+      "permission_counters": {
+        "checks": 19908,
+        "newly_admitted": 0,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1013,
+    "offset": 0.0,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2316,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.49870801033591733,
+      "F1": 0.6655172413793103,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1013,
+      "offset": 0.0,
+      "seconds": 51.543207976035774,
+      "qualified_original": true,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2316,
+      "permission_counters": {
+        "checks": 19908
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1013,
+    "offset": 0.05,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2316,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.49870801033591733,
+      "F1": 0.6655172413793103,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1013,
+      "offset": 0.05,
+      "seconds": 51.117523218505085,
+      "qualified_original": true,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2316,
+      "permission_counters": {
+        "checks": 19908,
+        "newly_admitted": 0,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1013,
+    "offset": 0.1,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2309,
+      "exact": 2309,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.49720068906115417,
+      "F1": 0.6641737379548396,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1013,
+      "offset": 0.1,
+      "seconds": 51.02645048405975,
+      "qualified_original": true,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2309,
+      "permission_counters": {
+        "checks": 19908,
+        "newly_admitted": 0,
+        "newly_blocked": 7
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "offset": -0.1,
+    "repair": {
+      "errors": 9804,
+      "normal": 4199,
+      "changes": 3919,
+      "exact": 3845,
+      "normal_damage": 2,
+      "P": 0.981117632048992,
+      "R": 0.3921868625051,
+      "F1": 0.5603730962617504,
+      "damage": 0.0004763038818766373
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "offset": -0.1,
+      "seconds": 238.21812765672803,
+      "qualified_original": true,
+      "rows": 737,
+      "target_cells": 14003,
+      "changed_literal_cells": 3919,
+      "permission_counters": {
+        "checks": 42009,
+        "newly_admitted": 492,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "offset": -0.05,
+    "repair": {
+      "errors": 9804,
+      "normal": 4199,
+      "changes": 3812,
+      "exact": 3754,
+      "normal_damage": 0,
+      "P": 0.9847848898216159,
+      "R": 0.3829049367605059,
+      "F1": 0.5514101057579318,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "offset": -0.05,
+      "seconds": 237.16759524587542,
+      "qualified_original": true,
+      "rows": 737,
+      "target_cells": 14003,
+      "changed_literal_cells": 3812,
+      "permission_counters": {
+        "checks": 42009,
+        "newly_admitted": 310,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "offset": 0.0,
+    "repair": {
+      "errors": 9804,
+      "normal": 4199,
+      "changes": 3644,
+      "exact": 3594,
+      "normal_damage": 0,
+      "P": 0.9862788144895719,
+      "R": 0.36658506731946144,
+      "F1": 0.5345032718619869,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "offset": 0.0,
+      "seconds": 245.64502601884305,
+      "qualified_original": true,
+      "rows": 737,
+      "target_cells": 14003,
+      "changed_literal_cells": 3644,
+      "permission_counters": {
+        "checks": 42009
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "offset": 0.05,
+    "repair": {
+      "errors": 9804,
+      "normal": 4199,
+      "changes": 3478,
+      "exact": 3439,
+      "normal_damage": 0,
+      "P": 0.988786658999425,
+      "R": 0.3507751937984496,
+      "F1": 0.5178436982382172,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "offset": 0.05,
+      "seconds": 235.19205275923014,
+      "qualified_original": true,
+      "rows": 737,
+      "target_cells": 14003,
+      "changed_literal_cells": 3478,
+      "permission_counters": {
+        "checks": 42009,
+        "newly_admitted": 0,
+        "newly_blocked": 638
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "offset": 0.1,
+    "repair": {
+      "errors": 9804,
+      "normal": 4199,
+      "changes": 784,
+      "exact": 748,
+      "normal_damage": 0,
+      "P": 0.9540816326530612,
+      "R": 0.0762953896368829,
+      "F1": 0.14129202871174912,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "offset": 0.1,
+      "seconds": 230.05380579642951,
+      "qualified_original": true,
+      "rows": 737,
+      "target_cells": 14003,
+      "changed_literal_cells": 784,
+      "permission_counters": {
+        "checks": 42009,
+        "newly_admitted": 0,
+        "newly_blocked": 9248
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1013,
+    "offset": -0.1,
+    "repair": {
+      "errors": 1116,
+      "normal": 474,
+      "changes": 259,
+      "exact": 258,
+      "normal_damage": 1,
+      "P": 0.9961389961389961,
+      "R": 0.23118279569892472,
+      "F1": 0.37527272727272726,
+      "damage": 0.002109704641350211
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1013,
+      "offset": -0.1,
+      "seconds": 31.517581823281944,
+      "qualified_original": true,
+      "rows": 265,
+      "target_cells": 1590,
+      "changed_literal_cells": 259,
+      "permission_counters": {
+        "checks": 4770,
+        "newly_admitted": 11,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1013,
+    "offset": -0.05,
+    "repair": {
+      "errors": 1116,
+      "normal": 474,
+      "changes": 259,
+      "exact": 258,
+      "normal_damage": 1,
+      "P": 0.9961389961389961,
+      "R": 0.23118279569892472,
+      "F1": 0.37527272727272726,
+      "damage": 0.002109704641350211
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1013,
+      "offset": -0.05,
+      "seconds": 31.149559691548347,
+      "qualified_original": true,
+      "rows": 265,
+      "target_cells": 1590,
+      "changed_literal_cells": 259,
+      "permission_counters": {
+        "checks": 4770,
+        "newly_admitted": 5,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1013,
+    "offset": 0.0,
+    "repair": {
+      "errors": 1116,
+      "normal": 474,
+      "changes": 254,
+      "exact": 253,
+      "normal_damage": 1,
+      "P": 0.9960629921259843,
+      "R": 0.22670250896057348,
+      "F1": 0.36934306569343067,
+      "damage": 0.002109704641350211
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1013,
+      "offset": 0.0,
+      "seconds": 30.710362516343594,
+      "qualified_original": true,
+      "rows": 265,
+      "target_cells": 1590,
+      "changed_literal_cells": 254,
+      "permission_counters": {
+        "checks": 4770
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1013,
+    "offset": 0.05,
+    "repair": {
+      "errors": 1116,
+      "normal": 474,
+      "changes": 249,
+      "exact": 248,
+      "normal_damage": 1,
+      "P": 0.9959839357429718,
+      "R": 0.2222222222222222,
+      "F1": 0.3633699633699633,
+      "damage": 0.002109704641350211
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1013,
+      "offset": 0.05,
+      "seconds": 31.630697830580175,
+      "qualified_original": true,
+      "rows": 265,
+      "target_cells": 1590,
+      "changed_literal_cells": 249,
+      "permission_counters": {
+        "checks": 4770,
+        "newly_admitted": 0,
+        "newly_blocked": 17
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1013,
+    "offset": 0.1,
+    "repair": {
+      "errors": 1116,
+      "normal": 474,
+      "changes": 249,
+      "exact": 248,
+      "normal_damage": 1,
+      "P": 0.9959839357429718,
+      "R": 0.2222222222222222,
+      "F1": 0.3633699633699633,
+      "damage": 0.002109704641350211
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1013,
+      "offset": 0.1,
+      "seconds": 31.401396063156426,
+      "qualified_original": true,
+      "rows": 265,
+      "target_cells": 1590,
+      "changed_literal_cells": 249,
+      "permission_counters": {
+        "checks": 4770,
+        "newly_admitted": 0,
+        "newly_blocked": 105
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1013,
+    "offset": -0.1,
+    "repair": {
+      "errors": 3696,
+      "normal": 1584,
+      "changes": 1158,
+      "exact": 1114,
+      "normal_damage": 10,
+      "P": 0.9620034542314335,
+      "R": 0.3014069264069264,
+      "F1": 0.45900288421920066,
+      "damage": 0.006313131313131313
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1013,
+      "offset": -0.1,
+      "seconds": 66.59128393884748,
+      "qualified_original": true,
+      "rows": 660,
+      "target_cells": 5280,
+      "changed_literal_cells": 1158,
+      "permission_counters": {
+        "checks": 15840,
+        "newly_admitted": 427,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1013,
+    "offset": -0.05,
+    "repair": {
+      "errors": 3696,
+      "normal": 1584,
+      "changes": 1153,
+      "exact": 1111,
+      "normal_damage": 10,
+      "P": 0.9635732870771899,
+      "R": 0.3005952380952381,
+      "F1": 0.4582388121262116,
+      "damage": 0.006313131313131313
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1013,
+      "offset": -0.05,
+      "seconds": 67.26368534378707,
+      "qualified_original": true,
+      "rows": 660,
+      "target_cells": 5280,
+      "changed_literal_cells": 1153,
+      "permission_counters": {
+        "checks": 15840,
+        "newly_admitted": 298,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1013,
+    "offset": 0.0,
+    "repair": {
+      "errors": 3696,
+      "normal": 1584,
+      "changes": 1148,
+      "exact": 1110,
+      "normal_damage": 8,
+      "P": 0.9668989547038328,
+      "R": 0.3003246753246753,
+      "F1": 0.4582989265070191,
+      "damage": 0.005050505050505051
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1013,
+      "offset": 0.0,
+      "seconds": 67.16655374318361,
+      "qualified_original": true,
+      "rows": 660,
+      "target_cells": 5280,
+      "changed_literal_cells": 1148,
+      "permission_counters": {
+        "checks": 15840
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1013,
+    "offset": 0.05,
+    "repair": {
+      "errors": 3696,
+      "normal": 1584,
+      "changes": 1064,
+      "exact": 1030,
+      "normal_damage": 6,
+      "P": 0.9680451127819549,
+      "R": 0.2786796536796537,
+      "F1": 0.43277310924369755,
+      "damage": 0.003787878787878788
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1013,
+      "offset": 0.05,
+      "seconds": 66.73120971117169,
+      "qualified_original": true,
+      "rows": 660,
+      "target_cells": 5280,
+      "changed_literal_cells": 1064,
+      "permission_counters": {
+        "checks": 15840,
+        "newly_admitted": 0,
+        "newly_blocked": 1347
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1013,
+    "offset": 0.1,
+    "repair": {
+      "errors": 3696,
+      "normal": 1584,
+      "changes": 1064,
+      "exact": 1031,
+      "normal_damage": 6,
+      "P": 0.9689849624060151,
+      "R": 0.27895021645021645,
+      "F1": 0.43319327731092433,
+      "damage": 0.003787878787878788
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1013,
+      "offset": 0.1,
+      "seconds": 67.06069410219789,
+      "qualified_original": true,
+      "rows": 660,
+      "target_cells": 5280,
+      "changed_literal_cells": 1064,
+      "permission_counters": {
+        "checks": 15840,
+        "newly_admitted": 0,
+        "newly_blocked": 2654
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1013,
+    "offset": -0.1,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 1958,
+      "exact": 1920,
+      "normal_damage": 6,
+      "P": 0.9805924412665986,
+      "R": 0.56973293768546,
+      "F1": 0.7207207207207208,
+      "damage": 0.004152249134948097
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1013,
+      "offset": -0.1,
+      "seconds": 93.94001672137529,
+      "qualified_original": true,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 1958,
+      "permission_counters": {
+        "checks": 14445,
+        "newly_admitted": 41,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1013,
+    "offset": -0.05,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 1956,
+      "exact": 1919,
+      "normal_damage": 6,
+      "P": 0.9810838445807771,
+      "R": 0.5694362017804154,
+      "F1": 0.7206158467893353,
+      "damage": 0.004152249134948097
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1013,
+      "offset": -0.05,
+      "seconds": 94.58897532336414,
+      "qualified_original": true,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 1956,
+      "permission_counters": {
+        "checks": 14445,
+        "newly_admitted": 11,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1013,
+    "offset": 0.0,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 1951,
+      "exact": 1917,
+      "normal_damage": 6,
+      "P": 0.9825730394669401,
+      "R": 0.5688427299703264,
+      "F1": 0.7205412516444277,
+      "damage": 0.004152249134948097
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1013,
+      "offset": 0.0,
+      "seconds": 95.83560346066952,
+      "qualified_original": true,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 1951,
+      "permission_counters": {
+        "checks": 14445
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1013,
+    "offset": 0.05,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 1938,
+      "exact": 1907,
+      "normal_damage": 6,
+      "P": 0.9840041279669762,
+      "R": 0.5658753709198813,
+      "F1": 0.7185380557648832,
+      "damage": 0.004152249134948097
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1013,
+      "offset": 0.05,
+      "seconds": 95.90197721403092,
+      "qualified_original": true,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 1938,
+      "permission_counters": {
+        "checks": 14445,
+        "newly_admitted": 0,
+        "newly_blocked": 27
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1013,
+    "offset": 0.1,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 1920,
+      "exact": 1897,
+      "normal_damage": 6,
+      "P": 0.9880208333333333,
+      "R": 0.5629080118694362,
+      "F1": 0.7172022684310019,
+      "damage": 0.004152249134948097
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1013,
+      "offset": 0.1,
+      "seconds": 94.1917950194329,
+      "qualified_original": true,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 1920,
+      "permission_counters": {
+        "checks": 14445,
+        "newly_admitted": 0,
+        "newly_blocked": 45
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1014,
+    "offset": -0.1,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 1884,
+      "exact": 1840,
+      "normal_damage": 0,
+      "P": 0.9766454352441614,
+      "R": 0.47656047656047656,
+      "F1": 0.6405570060922541,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1014,
+      "offset": -0.1,
+      "seconds": 38.909532060846686,
+      "qualified_original": false,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 1884,
+      "permission_counters": {
+        "checks": 16551,
+        "newly_admitted": 204,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1014,
+    "offset": -0.05,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 1859,
+      "exact": 1827,
+      "normal_damage": 0,
+      "P": 0.9827864443249059,
+      "R": 0.4731934731934732,
+      "F1": 0.6388111888111888,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1014,
+      "offset": -0.05,
+      "seconds": 39.077106980606914,
+      "qualified_original": false,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 1859,
+      "permission_counters": {
+        "checks": 16551,
+        "newly_admitted": 57,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1014,
+    "offset": 0.0,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 1845,
+      "exact": 1822,
+      "normal_damage": 0,
+      "P": 0.9875338753387534,
+      "R": 0.4718984718984719,
+      "F1": 0.6386260077111812,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1014,
+      "offset": 0.0,
+      "seconds": 39.1981560876593,
+      "qualified_original": false,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 1845,
+      "permission_counters": {
+        "checks": 16551
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1014,
+    "offset": 0.05,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 1835,
+      "exact": 1817,
+      "normal_damage": 0,
+      "P": 0.9901907356948229,
+      "R": 0.47060347060347063,
+      "F1": 0.6379915730337079,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1014,
+      "offset": 0.05,
+      "seconds": 38.51145662460476,
+      "qualified_original": false,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 1835,
+      "permission_counters": {
+        "checks": 16551,
+        "newly_admitted": 0,
+        "newly_blocked": 92
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1014,
+    "offset": 0.1,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 1798,
+      "exact": 1789,
+      "normal_damage": 0,
+      "P": 0.9949944382647385,
+      "R": 0.4633514633514634,
+      "F1": 0.6322671850150203,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1014,
+      "offset": 0.1,
+      "seconds": 38.70858059916645,
+      "qualified_original": false,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 1798,
+      "permission_counters": {
+        "checks": 16551,
+        "newly_admitted": 0,
+        "newly_blocked": 214
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1014,
+    "offset": -0.1,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2246,
+      "normal_damage": 0,
+      "P": 0.9697754749568221,
+      "R": 0.483634797588286,
+      "F1": 0.6454022988505748,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1014,
+      "offset": -0.1,
+      "seconds": 51.49752688873559,
+      "qualified_original": false,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2316,
+      "permission_counters": {
+        "checks": 19908,
+        "newly_admitted": 0,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1014,
+    "offset": -0.05,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2246,
+      "normal_damage": 0,
+      "P": 0.9697754749568221,
+      "R": 0.483634797588286,
+      "F1": 0.6454022988505748,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1014,
+      "offset": -0.05,
+      "seconds": 52.38879788760096,
+      "qualified_original": false,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2316,
+      "permission_counters": {
+        "checks": 19908,
+        "newly_admitted": 0,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1014,
+    "offset": 0.0,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2246,
+      "normal_damage": 0,
+      "P": 0.9697754749568221,
+      "R": 0.483634797588286,
+      "F1": 0.6454022988505748,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1014,
+      "offset": 0.0,
+      "seconds": 50.636938019655645,
+      "qualified_original": false,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2316,
+      "permission_counters": {
+        "checks": 19908
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1014,
+    "offset": 0.05,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2316,
+      "exact": 2246,
+      "normal_damage": 0,
+      "P": 0.9697754749568221,
+      "R": 0.483634797588286,
+      "F1": 0.6454022988505748,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1014,
+      "offset": 0.05,
+      "seconds": 51.824261946603656,
+      "qualified_original": false,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2316,
+      "permission_counters": {
+        "checks": 19908,
+        "newly_admitted": 0,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1014,
+    "offset": 0.1,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2315,
+      "exact": 2246,
+      "normal_damage": 0,
+      "P": 0.9701943844492441,
+      "R": 0.483634797588286,
+      "F1": 0.6454950423911482,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1014,
+      "offset": 0.1,
+      "seconds": 50.96532675996423,
+      "qualified_original": false,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2315,
+      "permission_counters": {
+        "checks": 19908,
+        "newly_admitted": 0,
+        "newly_blocked": 1
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "offset": -0.1,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 4167,
+      "exact": 4083,
+      "normal_damage": 6,
+      "P": 0.9798416126709864,
+      "R": 0.41808314560720866,
+      "F1": 0.5860905763295772,
+      "damage": 0.0014289116456299119
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "offset": -0.1,
+      "seconds": 225.43899638485163,
+      "qualified_original": true,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 4167,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 1327,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "offset": -0.05,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 4033,
+      "exact": 3960,
+      "normal_damage": 5,
+      "P": 0.9818993305231838,
+      "R": 0.405488429244317,
+      "F1": 0.5739546343937967,
+      "damage": 0.0011907597046915933
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "offset": -0.05,
+      "seconds": 223.29870549868792,
+      "qualified_original": true,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 4033,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 871,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "offset": 0.0,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3700,
+      "exact": 3671,
+      "normal_damage": 5,
+      "P": 0.9921621621621621,
+      "R": 0.37589596559492117,
+      "F1": 0.5452250111391653,
+      "damage": 0.0011907597046915933
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "offset": 0.0,
+      "seconds": 222.59417499788105,
+      "qualified_original": true,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 3700,
+      "permission_counters": {
+        "checks": 41895
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "offset": 0.05,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 2835,
+      "exact": 2827,
+      "normal_damage": 5,
+      "P": 0.9971781305114639,
+      "R": 0.2894736842105263,
+      "F1": 0.44869454805174186,
+      "damage": 0.0011907597046915933
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "offset": 0.05,
+      "seconds": 226.70763868186623,
+      "qualified_original": true,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 2835,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 0,
+        "newly_blocked": 3366
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "offset": 0.1,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 2392,
+      "exact": 2384,
+      "normal_damage": 5,
+      "P": 0.9966555183946488,
+      "R": 0.24411222609051814,
+      "F1": 0.39216976476394144,
+      "damage": 0.0011907597046915933
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "offset": 0.1,
+      "seconds": 222.1869353260845,
+      "qualified_original": true,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 2392,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 0,
+        "newly_blocked": 8749
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1014,
+    "offset": -0.1,
+    "repair": {
+      "errors": 1122,
+      "normal": 480,
+      "changes": 320,
+      "exact": 309,
+      "normal_damage": 5,
+      "P": 0.965625,
+      "R": 0.27540106951871657,
+      "F1": 0.4285714285714286,
+      "damage": 0.010416666666666666
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1014,
+      "offset": -0.1,
+      "seconds": 32.15520699694753,
+      "qualified_original": false,
+      "rows": 267,
+      "target_cells": 1602,
+      "changed_literal_cells": 320,
+      "permission_counters": {
+        "checks": 4806,
+        "newly_admitted": 4,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1014,
+    "offset": -0.05,
+    "repair": {
+      "errors": 1122,
+      "normal": 480,
+      "changes": 320,
+      "exact": 309,
+      "normal_damage": 5,
+      "P": 0.965625,
+      "R": 0.27540106951871657,
+      "F1": 0.4285714285714286,
+      "damage": 0.010416666666666666
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1014,
+      "offset": -0.05,
+      "seconds": 31.66409032419324,
+      "qualified_original": false,
+      "rows": 267,
+      "target_cells": 1602,
+      "changed_literal_cells": 320,
+      "permission_counters": {
+        "checks": 4806,
+        "newly_admitted": 4,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1014,
+    "offset": 0.0,
+    "repair": {
+      "errors": 1122,
+      "normal": 480,
+      "changes": 318,
+      "exact": 307,
+      "normal_damage": 5,
+      "P": 0.9654088050314465,
+      "R": 0.2736185383244207,
+      "F1": 0.4263888888888889,
+      "damage": 0.010416666666666666
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1014,
+      "offset": 0.0,
+      "seconds": 36.93788959272206,
+      "qualified_original": false,
+      "rows": 267,
+      "target_cells": 1602,
+      "changed_literal_cells": 318,
+      "permission_counters": {
+        "checks": 4806
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1014,
+    "offset": 0.05,
+    "repair": {
+      "errors": 1122,
+      "normal": 480,
+      "changes": 314,
+      "exact": 303,
+      "normal_damage": 5,
+      "P": 0.964968152866242,
+      "R": 0.2700534759358289,
+      "F1": 0.4220055710306406,
+      "damage": 0.010416666666666666
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1014,
+      "offset": 0.05,
+      "seconds": 31.90022220555693,
+      "qualified_original": false,
+      "rows": 267,
+      "target_cells": 1602,
+      "changed_literal_cells": 314,
+      "permission_counters": {
+        "checks": 4806,
+        "newly_admitted": 0,
+        "newly_blocked": 14
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1014,
+    "offset": 0.1,
+    "repair": {
+      "errors": 1122,
+      "normal": 480,
+      "changes": 303,
+      "exact": 294,
+      "normal_damage": 3,
+      "P": 0.9702970297029703,
+      "R": 0.2620320855614973,
+      "F1": 0.4126315789473684,
+      "damage": 0.00625
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1014,
+      "offset": 0.1,
+      "seconds": 32.503315390087664,
+      "qualified_original": false,
+      "rows": 267,
+      "target_cells": 1602,
+      "changed_literal_cells": 303,
+      "permission_counters": {
+        "checks": 4806,
+        "newly_admitted": 0,
+        "newly_blocked": 39
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1014,
+    "offset": -0.1,
+    "repair": {
+      "errors": 3704,
+      "normal": 1584,
+      "changes": 1206,
+      "exact": 1177,
+      "normal_damage": 4,
+      "P": 0.9759535655058044,
+      "R": 0.3177645788336933,
+      "F1": 0.47942973523421595,
+      "damage": 0.0025252525252525255
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1014,
+      "offset": -0.1,
+      "seconds": 69.00723065901548,
+      "qualified_original": true,
+      "rows": 661,
+      "target_cells": 5288,
+      "changed_literal_cells": 1206,
+      "permission_counters": {
+        "checks": 15864,
+        "newly_admitted": 294,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1014,
+    "offset": -0.05,
+    "repair": {
+      "errors": 3704,
+      "normal": 1584,
+      "changes": 1154,
+      "exact": 1136,
+      "normal_damage": 1,
+      "P": 0.9844020797227037,
+      "R": 0.30669546436285094,
+      "F1": 0.4676821737340469,
+      "damage": 0.0006313131313131314
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1014,
+      "offset": -0.05,
+      "seconds": 69.49147795885801,
+      "qualified_original": true,
+      "rows": 661,
+      "target_cells": 5288,
+      "changed_literal_cells": 1154,
+      "permission_counters": {
+        "checks": 15864,
+        "newly_admitted": 238,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1014,
+    "offset": 0.0,
+    "repair": {
+      "errors": 3704,
+      "normal": 1584,
+      "changes": 926,
+      "exact": 922,
+      "normal_damage": 0,
+      "P": 0.9956803455723542,
+      "R": 0.24892008639308855,
+      "F1": 0.3982721382289417,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1014,
+      "offset": 0.0,
+      "seconds": 66.89945116173476,
+      "qualified_original": true,
+      "rows": 661,
+      "target_cells": 5288,
+      "changed_literal_cells": 926,
+      "permission_counters": {
+        "checks": 15864
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1014,
+    "offset": 0.05,
+    "repair": {
+      "errors": 3704,
+      "normal": 1584,
+      "changes": 0,
+      "exact": 0,
+      "normal_damage": 0,
+      "P": null,
+      "R": 0.0,
+      "F1": 0.0,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1014,
+      "offset": 0.05,
+      "seconds": 68.34973789937794,
+      "qualified_original": true,
+      "rows": 661,
+      "target_cells": 5288,
+      "changed_literal_cells": 0,
+      "permission_counters": {
+        "checks": 15864,
+        "newly_admitted": 0,
+        "newly_blocked": 959
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1014,
+    "offset": 0.1,
+    "repair": {
+      "errors": 3704,
+      "normal": 1584,
+      "changes": 0,
+      "exact": 0,
+      "normal_damage": 0,
+      "P": null,
+      "R": 0.0,
+      "F1": 0.0,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1014,
+      "offset": 0.1,
+      "seconds": 66.47599758394063,
+      "qualified_original": true,
+      "rows": 661,
+      "target_cells": 5288,
+      "changed_literal_cells": 0,
+      "permission_counters": {
+        "checks": 15864,
+        "newly_admitted": 0,
+        "newly_blocked": 1618
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1014,
+    "offset": -0.1,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 2094,
+      "exact": 2011,
+      "normal_damage": 8,
+      "P": 0.9603629417383,
+      "R": 0.5967359050445104,
+      "F1": 0.7360907759882869,
+      "damage": 0.005536332179930796
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1014,
+      "offset": -0.1,
+      "seconds": 96.77633675094694,
+      "qualified_original": false,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 2094,
+      "permission_counters": {
+        "checks": 14445,
+        "newly_admitted": 268,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1014,
+    "offset": -0.05,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 2077,
+      "exact": 2003,
+      "normal_damage": 8,
+      "P": 0.9643716899374097,
+      "R": 0.5943620178041543,
+      "F1": 0.7354507068110887,
+      "damage": 0.005536332179930796
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1014,
+      "offset": -0.05,
+      "seconds": 96.61273146048188,
+      "qualified_original": false,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 2077,
+      "permission_counters": {
+        "checks": 14445,
+        "newly_admitted": 127,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1014,
+    "offset": 0.0,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 2005,
+      "exact": 1957,
+      "normal_damage": 8,
+      "P": 0.9760598503740648,
+      "R": 0.5807121661721069,
+      "F1": 0.728186046511628,
+      "damage": 0.005536332179930796
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1014,
+      "offset": 0.0,
+      "seconds": 96.17239747289568,
+      "qualified_original": false,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 2005,
+      "permission_counters": {
+        "checks": 14445
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1014,
+    "offset": 0.05,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 1954,
+      "exact": 1917,
+      "normal_damage": 8,
+      "P": 0.981064483111566,
+      "R": 0.5688427299703264,
+      "F1": 0.7201352366641623,
+      "damage": 0.005536332179930796
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1014,
+      "offset": 0.05,
+      "seconds": 95.65952541399747,
+      "qualified_original": false,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 1954,
+      "permission_counters": {
+        "checks": 14445,
+        "newly_admitted": 0,
+        "newly_blocked": 210
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1014,
+    "offset": 0.1,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 1908,
+      "exact": 1884,
+      "normal_damage": 8,
+      "P": 0.9874213836477987,
+      "R": 0.5590504451038576,
+      "F1": 0.7139067828723001,
+      "damage": 0.005536332179930796
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1014,
+      "offset": 0.1,
+      "seconds": 96.1415275959298,
+      "qualified_original": false,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 1908,
+      "permission_counters": {
+        "checks": 14445,
+        "newly_admitted": 0,
+        "newly_blocked": 431
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1015,
+    "offset": -0.1,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 1917,
+      "exact": 1897,
+      "normal_damage": 0,
+      "P": 0.989567031820553,
+      "R": 0.49132349132349135,
+      "F1": 0.6566285912080304,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1015,
+      "offset": -0.1,
+      "seconds": 41.066242651082575,
+      "qualified_original": true,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 1917,
+      "permission_counters": {
+        "checks": 16551,
+        "newly_admitted": 173,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1015,
+    "offset": -0.05,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 1899,
+      "exact": 1890,
+      "normal_damage": 0,
+      "P": 0.995260663507109,
+      "R": 0.48951048951048953,
+      "F1": 0.65625,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1015,
+      "offset": -0.05,
+      "seconds": 38.196631809696555,
+      "qualified_original": true,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 1899,
+      "permission_counters": {
+        "checks": 16551,
+        "newly_admitted": 50,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1015,
+    "offset": 0.0,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 1876,
+      "exact": 1876,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.4858844858844859,
+      "F1": 0.6540003486142583,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1015,
+      "offset": 0.0,
+      "seconds": 37.976025296375155,
+      "qualified_original": true,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 1876,
+      "permission_counters": {
+        "checks": 16551
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1015,
+    "offset": 0.05,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 1834,
+      "exact": 1834,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.475006475006475,
+      "F1": 0.6440737489025461,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1015,
+      "offset": 0.05,
+      "seconds": 39.340632430277765,
+      "qualified_original": true,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 1834,
+      "permission_counters": {
+        "checks": 16551,
+        "newly_admitted": 0,
+        "newly_blocked": 138
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "seed": 1015,
+    "offset": 0.1,
+    "repair": {
+      "errors": 3861,
+      "normal": 1656,
+      "changes": 0,
+      "exact": 0,
+      "normal_damage": 0,
+      "P": null,
+      "R": 0.0,
+      "F1": 0.0,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "tic_tac_toe",
+      "seed": 1015,
+      "offset": 0.1,
+      "seconds": 40.05528207309544,
+      "qualified_original": true,
+      "rows": 613,
+      "target_cells": 5517,
+      "changed_literal_cells": 0,
+      "permission_counters": {
+        "checks": 16551,
+        "newly_admitted": 0,
+        "newly_blocked": 1990
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1015,
+    "offset": -0.1,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2415,
+      "exact": 2325,
+      "normal_damage": 0,
+      "P": 0.9627329192546584,
+      "R": 0.5006459948320413,
+      "F1": 0.6587335316617084,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1015,
+      "offset": -0.1,
+      "seconds": 51.35551048349589,
+      "qualified_original": false,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2415,
+      "permission_counters": {
+        "checks": 19908,
+        "newly_admitted": 190,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1015,
+    "offset": -0.05,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2379,
+      "exact": 2320,
+      "normal_damage": 0,
+      "P": 0.9751996637242539,
+      "R": 0.49956933677863913,
+      "F1": 0.6606863163890077,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1015,
+      "offset": -0.05,
+      "seconds": 51.08582753967494,
+      "qualified_original": false,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2379,
+      "permission_counters": {
+        "checks": 19908,
+        "newly_admitted": 21,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1015,
+    "offset": 0.0,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2368,
+      "exact": 2316,
+      "normal_damage": 0,
+      "P": 0.9780405405405406,
+      "R": 0.49870801033591733,
+      "F1": 0.6605818596691386,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1015,
+      "offset": 0.0,
+      "seconds": 50.420131197199225,
+      "qualified_original": false,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2368,
+      "permission_counters": {
+        "checks": 19908
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1015,
+    "offset": 0.05,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2351,
+      "exact": 2313,
+      "normal_damage": 0,
+      "P": 0.9838366652488303,
+      "R": 0.49806201550387597,
+      "F1": 0.6613295210864902,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1015,
+      "offset": 0.05,
+      "seconds": 51.31342300120741,
+      "qualified_original": false,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2351,
+      "permission_counters": {
+        "checks": 19908,
+        "newly_admitted": 0,
+        "newly_blocked": 60
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "car_evaluation",
+    "seed": 1015,
+    "offset": 0.1,
+    "repair": {
+      "errors": 4644,
+      "normal": 1992,
+      "changes": 2338,
+      "exact": 2306,
+      "normal_damage": 0,
+      "P": 0.9863130881094953,
+      "R": 0.49655469422911286,
+      "F1": 0.6605557146949298,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "car_evaluation",
+      "seed": 1015,
+      "offset": 0.1,
+      "seconds": 50.85591737926006,
+      "qualified_original": false,
+      "rows": 1106,
+      "target_cells": 6636,
+      "changed_literal_cells": 2338,
+      "permission_counters": {
+        "checks": 19908,
+        "newly_admitted": 0,
+        "newly_blocked": 78
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "offset": -0.1,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 4124,
+      "exact": 4031,
+      "normal_damage": 3,
+      "P": 0.9774490785645005,
+      "R": 0.4127585500716772,
+      "F1": 0.5804175665946724,
+      "damage": 0.0007144558228149559
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "offset": -0.1,
+      "seconds": 219.67306032124907,
+      "qualified_original": false,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 4124,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 704,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "offset": -0.05,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3938,
+      "exact": 3872,
+      "normal_damage": 1,
+      "P": 0.9832402234636871,
+      "R": 0.39647757526111,
+      "F1": 0.5650904845300643,
+      "damage": 0.00023815194093831864
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "offset": -0.05,
+      "seconds": 219.1524854414165,
+      "qualified_original": false,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 3938,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 334,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "offset": 0.0,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3734,
+      "exact": 3682,
+      "normal_damage": 0,
+      "P": 0.986073915372255,
+      "R": 0.377022322342822,
+      "F1": 0.5454814814814815,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "offset": 0.0,
+      "seconds": 212.68363881949335,
+      "qualified_original": false,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 3734,
+      "permission_counters": {
+        "checks": 41895
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "offset": 0.05,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3293,
+      "exact": 3268,
+      "normal_damage": 0,
+      "P": 0.9924081384755542,
+      "R": 0.3346303501945525,
+      "F1": 0.5004977410215177,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "offset": 0.05,
+      "seconds": 218.1183403255418,
+      "qualified_original": false,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 3293,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 0,
+        "newly_blocked": 665
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "offset": 0.1,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 0,
+      "exact": 0,
+      "normal_damage": 0,
+      "P": null,
+      "R": 0.0,
+      "F1": 0.0,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "offset": 0.1,
+      "seconds": 219.5139764212072,
+      "qualified_original": false,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 0,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 0,
+        "newly_blocked": 4733
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1015,
+    "offset": -0.1,
+    "repair": {
+      "errors": 1122,
+      "normal": 480,
+      "changes": 340,
+      "exact": 334,
+      "normal_damage": 0,
+      "P": 0.9823529411764705,
+      "R": 0.2976827094474153,
+      "F1": 0.45690834473324216,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1015,
+      "offset": -0.1,
+      "seconds": 32.21149046905339,
+      "qualified_original": true,
+      "rows": 267,
+      "target_cells": 1602,
+      "changed_literal_cells": 340,
+      "permission_counters": {
+        "checks": 4806,
+        "newly_admitted": 17,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1015,
+    "offset": -0.05,
+    "repair": {
+      "errors": 1122,
+      "normal": 480,
+      "changes": 335,
+      "exact": 330,
+      "normal_damage": 0,
+      "P": 0.9850746268656716,
+      "R": 0.29411764705882354,
+      "F1": 0.45298558682223744,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1015,
+      "offset": -0.05,
+      "seconds": 32.464122004806995,
+      "qualified_original": true,
+      "rows": 267,
+      "target_cells": 1602,
+      "changed_literal_cells": 335,
+      "permission_counters": {
+        "checks": 4806,
+        "newly_admitted": 6,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1015,
+    "offset": 0.0,
+    "repair": {
+      "errors": 1122,
+      "normal": 480,
+      "changes": 329,
+      "exact": 324,
+      "normal_damage": 0,
+      "P": 0.9848024316109423,
+      "R": 0.2887700534759358,
+      "F1": 0.44658855961405924,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1015,
+      "offset": 0.0,
+      "seconds": 30.73363627679646,
+      "qualified_original": true,
+      "rows": 267,
+      "target_cells": 1602,
+      "changed_literal_cells": 329,
+      "permission_counters": {
+        "checks": 4806
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1015,
+    "offset": 0.05,
+    "repair": {
+      "errors": 1122,
+      "normal": 480,
+      "changes": 330,
+      "exact": 325,
+      "normal_damage": 0,
+      "P": 0.9848484848484849,
+      "R": 0.2896613190730838,
+      "F1": 0.4476584022038568,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1015,
+      "offset": 0.05,
+      "seconds": 32.302885309793055,
+      "qualified_original": true,
+      "rows": 267,
+      "target_cells": 1602,
+      "changed_literal_cells": 330,
+      "permission_counters": {
+        "checks": 4806,
+        "newly_admitted": 0,
+        "newly_blocked": 22
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "real_estate",
+    "seed": 1015,
+    "offset": 0.1,
+    "repair": {
+      "errors": 1122,
+      "normal": 480,
+      "changes": 326,
+      "exact": 323,
+      "normal_damage": 0,
+      "P": 0.99079754601227,
+      "R": 0.2878787878787879,
+      "F1": 0.4461325966850829,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "real_estate",
+      "seed": 1015,
+      "offset": 0.1,
+      "seconds": 32.00898019131273,
+      "qualified_original": true,
+      "rows": 267,
+      "target_cells": 1602,
+      "changed_literal_cells": 326,
+      "permission_counters": {
+        "checks": 4806,
+        "newly_admitted": 0,
+        "newly_blocked": 46
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1015,
+    "offset": -0.1,
+    "repair": {
+      "errors": 3736,
+      "normal": 1600,
+      "changes": 1575,
+      "exact": 1511,
+      "normal_damage": 4,
+      "P": 0.9593650793650793,
+      "R": 0.40444325481798715,
+      "F1": 0.5690077198267747,
+      "damage": 0.0025
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1015,
+      "offset": -0.1,
+      "seconds": 71.39363273046911,
+      "qualified_original": false,
+      "rows": 667,
+      "target_cells": 5336,
+      "changed_literal_cells": 1575,
+      "permission_counters": {
+        "checks": 16008,
+        "newly_admitted": 566,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1015,
+    "offset": -0.05,
+    "repair": {
+      "errors": 3736,
+      "normal": 1600,
+      "changes": 1541,
+      "exact": 1489,
+      "normal_damage": 4,
+      "P": 0.9662556781310837,
+      "R": 0.39855460385438973,
+      "F1": 0.5643357968542733,
+      "damage": 0.0025
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1015,
+      "offset": -0.05,
+      "seconds": 69.36829437036067,
+      "qualified_original": false,
+      "rows": 667,
+      "target_cells": 5336,
+      "changed_literal_cells": 1541,
+      "permission_counters": {
+        "checks": 16008,
+        "newly_admitted": 460,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1015,
+    "offset": 0.0,
+    "repair": {
+      "errors": 3736,
+      "normal": 1600,
+      "changes": 1400,
+      "exact": 1369,
+      "normal_damage": 3,
+      "P": 0.9778571428571429,
+      "R": 0.36643468950749464,
+      "F1": 0.5330996884735202,
+      "damage": 0.001875
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1015,
+      "offset": 0.0,
+      "seconds": 67.81754285283387,
+      "qualified_original": false,
+      "rows": 667,
+      "target_cells": 5336,
+      "changed_literal_cells": 1400,
+      "permission_counters": {
+        "checks": 16008
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1015,
+    "offset": 0.05,
+    "repair": {
+      "errors": 3736,
+      "normal": 1600,
+      "changes": 930,
+      "exact": 924,
+      "normal_damage": 0,
+      "P": 0.9935483870967742,
+      "R": 0.24732334047109208,
+      "F1": 0.39605657951135875,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1015,
+      "offset": 0.05,
+      "seconds": 69.47918814513832,
+      "qualified_original": false,
+      "rows": 667,
+      "target_cells": 5336,
+      "changed_literal_cells": 930,
+      "permission_counters": {
+        "checks": 16008,
+        "newly_admitted": 0,
+        "newly_blocked": 854
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "concrete",
+    "seed": 1015,
+    "offset": 0.1,
+    "repair": {
+      "errors": 3736,
+      "normal": 1600,
+      "changes": 775,
+      "exact": 769,
+      "normal_damage": 0,
+      "P": 0.9922580645161291,
+      "R": 0.20583511777301927,
+      "F1": 0.34094435823542457,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "concrete",
+      "seed": 1015,
+      "offset": 0.1,
+      "seconds": 69.51161320041865,
+      "qualified_original": false,
+      "rows": 667,
+      "target_cells": 5336,
+      "changed_literal_cells": 775,
+      "permission_counters": {
+        "checks": 16008,
+        "newly_admitted": 0,
+        "newly_blocked": 1359
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1015,
+    "offset": -0.1,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 1922,
+      "exact": 1890,
+      "normal_damage": 11,
+      "P": 0.9833506763787722,
+      "R": 0.5608308605341247,
+      "F1": 0.7142857142857144,
+      "damage": 0.007612456747404845
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1015,
+      "offset": -0.1,
+      "seconds": 100.62055687513202,
+      "qualified_original": true,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 1922,
+      "permission_counters": {
+        "checks": 14445,
+        "newly_admitted": 493,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1015,
+    "offset": -0.05,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 1896,
+      "exact": 1866,
+      "normal_damage": 11,
+      "P": 0.9841772151898734,
+      "R": 0.5537091988130564,
+      "F1": 0.7086973034561337,
+      "damage": 0.007612456747404845
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1015,
+      "offset": -0.05,
+      "seconds": 101.28578762616962,
+      "qualified_original": true,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 1896,
+      "permission_counters": {
+        "checks": 14445,
+        "newly_admitted": 269,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1015,
+    "offset": 0.0,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 1828,
+      "exact": 1817,
+      "normal_damage": 0,
+      "P": 0.9939824945295405,
+      "R": 0.5391691394658754,
+      "F1": 0.6991150442477876,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1015,
+      "offset": 0.0,
+      "seconds": 99.06105629634112,
+      "qualified_original": true,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 1828,
+      "permission_counters": {
+        "checks": 14445
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1015,
+    "offset": 0.05,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 1553,
+      "exact": 1551,
+      "normal_damage": 0,
+      "P": 0.9987121699935608,
+      "R": 0.46023738872403563,
+      "F1": 0.6301035953686777,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1015,
+      "offset": 0.05,
+      "seconds": 99.20549475867301,
+      "qualified_original": true,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 1553,
+      "permission_counters": {
+        "checks": 14445,
+        "newly_admitted": 0,
+        "newly_blocked": 981
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "seed": 1015,
+    "offset": 0.1,
+    "repair": {
+      "errors": 3370,
+      "normal": 1445,
+      "changes": 854,
+      "exact": 852,
+      "normal_damage": 0,
+      "P": 0.9976580796252927,
+      "R": 0.25281899109792283,
+      "F1": 0.4034090909090909,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "airfoil",
+      "seed": 1015,
+      "offset": 0.1,
+      "seconds": 100.44360114727169,
+      "qualified_original": true,
+      "rows": 963,
+      "target_cells": 4815,
+      "changed_literal_cells": 854,
+      "permission_counters": {
+        "checks": 14445,
+        "newly_admitted": 0,
+        "newly_blocked": 3123
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  }
+]

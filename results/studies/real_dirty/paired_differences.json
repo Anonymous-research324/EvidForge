@@ -1,0 +1,506 @@
+[
+  {
+    "dataset": "address_museum",
+    "baseline": "raha_holoclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.19934556771080997
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.25652393428256076
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.08535837718027658
+      }
+    ],
+    "mean": 0.18040929305788245,
+    "sample_sd": 0.08713982360455037
+  },
+  {
+    "dataset": "address_museum",
+    "baseline": "cdc",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.24292400656283863
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.2523422513454083
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.16791426148314442
+      }
+    ],
+    "mean": 0.22106017313046378,
+    "sample_sd": 0.04626598942327513
+  },
+  {
+    "dataset": "address_museum",
+    "baseline": "tabclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.2267683972079916
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.24702790631023652
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": -0.08744271778171198
+      }
+    ],
+    "mean": 0.1287845285788387,
+    "sample_sd": 0.1875320732002014
+  },
+  {
+    "dataset": "movies",
+    "baseline": "raha_holoclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.887208043145728
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.8900849131558212
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.8898848935520016
+      }
+    ],
+    "mean": 0.8890592832845169,
+    "sample_sd": 0.0016063372930600526
+  },
+  {
+    "dataset": "movies",
+    "baseline": "cdc",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.8871051991234175
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.8900417133148376
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.8891788819943309
+      }
+    ],
+    "mean": 0.888775264810862,
+    "sample_sd": 0.0015092909004550915
+  },
+  {
+    "dataset": "movies",
+    "baseline": "tabclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.007253724492730429
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.0312438858189501
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": -0.00020380679508680277
+      }
+    ],
+    "mean": 0.012764601172197909,
+    "sample_sd": 0.016432183787280428
+  },
+  {
+    "dataset": "address_shoppingcenter",
+    "baseline": "raha_holoclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.2884884764656944
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.3876505754332542
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.28694133844453507
+      }
+    ],
+    "mean": 0.32102679678116125,
+    "sample_sd": 0.057703070285959994
+  },
+  {
+    "dataset": "address_shoppingcenter",
+    "baseline": "cdc",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.24669349344590763
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.3975216164688318
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.3158745225548756
+      }
+    ],
+    "mean": 0.32002987748987166,
+    "sample_sd": 0.0754998735404996
+  },
+  {
+    "dataset": "address_shoppingcenter",
+    "baseline": "tabclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.23764836579475276
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.3508614740664369
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.2572656322289026
+      }
+    ],
+    "mean": 0.2819251573633641,
+    "sample_sd": 0.060501000867976336
+  },
+  {
+    "dataset": "beers",
+    "baseline": "raha_holoclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.8068292163476747
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.8037061448898577
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.7971676937396763
+      }
+    ],
+    "mean": 0.8025676849924029,
+    "sample_sd": 0.0049303471459726245
+  },
+  {
+    "dataset": "beers",
+    "baseline": "cdc",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.6045915939664089
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.590306716786608
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.5694688307549785
+      }
+    ],
+    "mean": 0.5881223805026651,
+    "sample_sd": 0.01766297306946273
+  },
+  {
+    "dataset": "beers",
+    "baseline": "tabclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": -0.17357264233396097
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": -0.1830077350122965
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": -0.19705529875021388
+      }
+    ],
+    "mean": -0.18454522536549045,
+    "sample_sd": 0.011816585612204963
+  },
+  {
+    "dataset": "library_official",
+    "baseline": "raha_holoclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": -0.04696531649878675
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": -0.040337148281954574
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.04986728516140282
+      }
+    ],
+    "mean": -0.012478393206446168,
+    "sample_sd": 0.05409455482613856
+  },
+  {
+    "dataset": "library_official",
+    "baseline": "cdc",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": -0.10545186359214925
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": -0.056604840022427605
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.08809640105228854
+      }
+    ],
+    "mean": -0.02465343418742944,
+    "sample_sd": 0.10065238167993293
+  },
+  {
+    "dataset": "library_official",
+    "baseline": "tabclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": -0.056132864517366717
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": -0.017318915995796214
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.054230779045842975
+      }
+    ],
+    "mean": -0.006407000489106651,
+    "sample_sd": 0.05598513981545146
+  },
+  {
+    "dataset": "school_small",
+    "baseline": "raha_holoclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.1462479940125541
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.16471949198521155
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": -0.030048923376863837
+      }
+    ],
+    "mean": 0.09363952087363393,
+    "sample_sd": 0.1075147547556606
+  },
+  {
+    "dataset": "school_small",
+    "baseline": "cdc",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.17335344118822216
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.23995096350494988
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.034367702726668045
+      }
+    ],
+    "mean": 0.14922403580661336,
+    "sample_sd": 0.10489418683182718
+  },
+  {
+    "dataset": "school_small",
+    "baseline": "tabclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.10946312935856575
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.12675583872664192
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": -0.2704567519663734
+      }
+    ],
+    "mean": -0.011412594627055248,
+    "sample_sd": 0.2245053808665847
+  },
+  {
+    "dataset": "government_small",
+    "baseline": "raha_holoclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": -0.052167386001125915
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": -0.08695652173913043
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": -0.029594272076372313
+      }
+    ],
+    "mean": -0.05623939327220955,
+    "sample_sd": 0.028897108056083518
+  },
+  {
+    "dataset": "government_small",
+    "baseline": "cdc",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": -0.06321702934109445
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": -0.0685875452709849
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": -0.0664783427495292
+      }
+    ],
+    "mean": -0.06609430578720285,
+    "sample_sd": 0.0027057759755061772
+  },
+  {
+    "dataset": "government_small",
+    "baseline": "tabclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": -0.05235498264749629
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": -0.1521472392638037
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": -0.038622028141678796
+      }
+    ],
+    "mean": -0.08104141668432625,
+    "sample_sd": 0.06196109273885351
+  },
+  {
+    "dataset": "jobposting_small",
+    "baseline": "raha_holoclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.018294416595309393
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.0223619101475077
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.11483050225997671
+      }
+    ],
+    "mean": 0.051828943000931264,
+    "sample_sd": 0.0545988413590669
+  },
+  {
+    "dataset": "jobposting_small",
+    "baseline": "cdc",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.006219439659742643
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.021883379024973892
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.10892999426557137
+      }
+    ],
+    "mean": 0.045677604316762634,
+    "sample_sd": 0.05533523628563025
+  },
+  {
+    "dataset": "jobposting_small",
+    "baseline": "tabclean",
+    "n": 3,
+    "differences": [
+      {
+        "seed": 1013,
+        "F1_full_minus_baseline": 0.0031242449530465843
+      },
+      {
+        "seed": 1014,
+        "F1_full_minus_baseline": 0.09006453443018227
+      },
+      {
+        "seed": 1015,
+        "F1_full_minus_baseline": 0.020593742456206626
+      }
+    ],
+    "mean": 0.037927507279811826,
+    "sample_sd": 0.04598910779534734
+  }
+]

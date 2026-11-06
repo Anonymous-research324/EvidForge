@@ -1,0 +1,412 @@
+{
+  "seeds": [
+    7013,
+    7014,
+    7015
+  ],
+  "max_real_calls": 270,
+  "pollution": {
+    "rate": 0.3,
+    "denominator": "eligible repairable feature cells independently per zone AND per field, half-up count; no legacy divide-by4; NOT one cell in30% rows",
+    "starting_point": "restore known raw source features then canonicalize numeric spellings without changing numeric values; original public group roles and ALL active rows preserved; old holdout excluded",
+    "digit_transposition": "swap first two significant digits, unequal, reject integer-leading-zero outputs; row retained if ineligible",
+    "cross_field_addition": "target plus one fixed unmodified observed anchor, exactDecimal; anchor column never polluted for this condition",
+    "scale_suffix_composition": "exactDecimal(target*10) with suffix u; previously tested harder ERR*x100+BAD failures retained and not relabeled",
+    "anchors": {
+      "auto_mpg": "feature_07",
+      "spectf": "feature_31",
+      "airfoil": "feature_04"
+    },
+    "rng": "fixed seed:zone:dataset:profile:field before fitting/scoring"
+  },
+  "study": "new_errors",
+  "paper_scope": "SPECTF/AutoMPG/Airfoil×三类×7013–7015；各目标字段30%合格格；27例、54条方法记录。",
+  "server_source": "/root/fsas/home/anonymous/projects/EvidForge_OriginalSystem_NewErrors_20261025",
+  "source_protocol_relative_path": "configs/protocol.json",
+  "source_protocol_sha256": "a16504aa6303e77881d1c767e43df1fe1d19660e77c7872d30e4b6248728588a",
+  "configuration_role": "paper-scope configuration view; original execution protocol and full inputs remain on server; no new numerical settings",
+  "paper_case_specs": [
+    {
+      "id": "original_digit_transposition_spectf_s7013",
+      "dataset": "spectf",
+      "seed": 7013,
+      "profile": "digit_transposition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_digit_transposition_auto_mpg_s7013",
+      "dataset": "auto_mpg",
+      "seed": 7013,
+      "profile": "digit_transposition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_digit_transposition_airfoil_s7013",
+      "dataset": "airfoil",
+      "seed": 7013,
+      "profile": "digit_transposition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_cross_field_addition_spectf_s7013",
+      "dataset": "spectf",
+      "seed": 7013,
+      "profile": "cross_field_addition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_cross_field_addition_auto_mpg_s7013",
+      "dataset": "auto_mpg",
+      "seed": 7013,
+      "profile": "cross_field_addition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_cross_field_addition_airfoil_s7013",
+      "dataset": "airfoil",
+      "seed": 7013,
+      "profile": "cross_field_addition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_scale_suffix_composition_spectf_s7013",
+      "dataset": "spectf",
+      "seed": 7013,
+      "profile": "scale_suffix_composition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_scale_suffix_composition_auto_mpg_s7013",
+      "dataset": "auto_mpg",
+      "seed": 7013,
+      "profile": "scale_suffix_composition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_scale_suffix_composition_airfoil_s7013",
+      "dataset": "airfoil",
+      "seed": 7013,
+      "profile": "scale_suffix_composition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_digit_transposition_spectf_s7014",
+      "dataset": "spectf",
+      "seed": 7014,
+      "profile": "digit_transposition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_digit_transposition_auto_mpg_s7014",
+      "dataset": "auto_mpg",
+      "seed": 7014,
+      "profile": "digit_transposition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_digit_transposition_airfoil_s7014",
+      "dataset": "airfoil",
+      "seed": 7014,
+      "profile": "digit_transposition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_cross_field_addition_spectf_s7014",
+      "dataset": "spectf",
+      "seed": 7014,
+      "profile": "cross_field_addition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_cross_field_addition_auto_mpg_s7014",
+      "dataset": "auto_mpg",
+      "seed": 7014,
+      "profile": "cross_field_addition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_cross_field_addition_airfoil_s7014",
+      "dataset": "airfoil",
+      "seed": 7014,
+      "profile": "cross_field_addition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_scale_suffix_composition_spectf_s7014",
+      "dataset": "spectf",
+      "seed": 7014,
+      "profile": "scale_suffix_composition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_scale_suffix_composition_auto_mpg_s7014",
+      "dataset": "auto_mpg",
+      "seed": 7014,
+      "profile": "scale_suffix_composition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_scale_suffix_composition_airfoil_s7014",
+      "dataset": "airfoil",
+      "seed": 7014,
+      "profile": "scale_suffix_composition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_digit_transposition_spectf_s7015",
+      "dataset": "spectf",
+      "seed": 7015,
+      "profile": "digit_transposition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_digit_transposition_auto_mpg_s7015",
+      "dataset": "auto_mpg",
+      "seed": 7015,
+      "profile": "digit_transposition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_digit_transposition_airfoil_s7015",
+      "dataset": "airfoil",
+      "seed": 7015,
+      "profile": "digit_transposition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_cross_field_addition_spectf_s7015",
+      "dataset": "spectf",
+      "seed": 7015,
+      "profile": "cross_field_addition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_cross_field_addition_auto_mpg_s7015",
+      "dataset": "auto_mpg",
+      "seed": 7015,
+      "profile": "cross_field_addition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_cross_field_addition_airfoil_s7015",
+      "dataset": "airfoil",
+      "seed": 7015,
+      "profile": "cross_field_addition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_scale_suffix_composition_spectf_s7015",
+      "dataset": "spectf",
+      "seed": 7015,
+      "profile": "scale_suffix_composition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_scale_suffix_composition_auto_mpg_s7015",
+      "dataset": "auto_mpg",
+      "seed": 7015,
+      "profile": "scale_suffix_composition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "id": "original_scale_suffix_composition_airfoil_s7015",
+      "dataset": "airfoil",
+      "seed": 7015,
+      "profile": "scale_suffix_composition",
+      "suite": "original_system_new_error_conditions"
+    },
+    {
+      "case": "original_digit_transposition_spectf_s7013",
+      "dataset": "spectf",
+      "seed": 7013,
+      "profile": "digit_transposition"
+    },
+    {
+      "case": "original_digit_transposition_auto_mpg_s7013",
+      "dataset": "auto_mpg",
+      "seed": 7013,
+      "profile": "digit_transposition"
+    },
+    {
+      "case": "original_digit_transposition_airfoil_s7013",
+      "dataset": "airfoil",
+      "seed": 7013,
+      "profile": "digit_transposition"
+    },
+    {
+      "case": "original_cross_field_addition_spectf_s7013",
+      "dataset": "spectf",
+      "seed": 7013,
+      "profile": "cross_field_addition"
+    },
+    {
+      "case": "original_cross_field_addition_auto_mpg_s7013",
+      "dataset": "auto_mpg",
+      "seed": 7013,
+      "profile": "cross_field_addition"
+    },
+    {
+      "case": "original_cross_field_addition_airfoil_s7013",
+      "dataset": "airfoil",
+      "seed": 7013,
+      "profile": "cross_field_addition"
+    },
+    {
+      "case": "original_scale_suffix_composition_spectf_s7013",
+      "dataset": "spectf",
+      "seed": 7013,
+      "profile": "scale_suffix_composition"
+    },
+    {
+      "case": "original_scale_suffix_composition_auto_mpg_s7013",
+      "dataset": "auto_mpg",
+      "seed": 7013,
+      "profile": "scale_suffix_composition"
+    },
+    {
+      "case": "original_scale_suffix_composition_airfoil_s7013",
+      "dataset": "airfoil",
+      "seed": 7013,
+      "profile": "scale_suffix_composition"
+    },
+    {
+      "case": "original_digit_transposition_spectf_s7014",
+      "dataset": "spectf",
+      "seed": 7014,
+      "profile": "digit_transposition"
+    },
+    {
+      "case": "original_digit_transposition_auto_mpg_s7014",
+      "dataset": "auto_mpg",
+      "seed": 7014,
+      "profile": "digit_transposition"
+    },
+    {
+      "case": "original_digit_transposition_airfoil_s7014",
+      "dataset": "airfoil",
+      "seed": 7014,
+      "profile": "digit_transposition"
+    },
+    {
+      "case": "original_cross_field_addition_spectf_s7014",
+      "dataset": "spectf",
+      "seed": 7014,
+      "profile": "cross_field_addition"
+    },
+    {
+      "case": "original_cross_field_addition_auto_mpg_s7014",
+      "dataset": "auto_mpg",
+      "seed": 7014,
+      "profile": "cross_field_addition"
+    },
+    {
+      "case": "original_cross_field_addition_airfoil_s7014",
+      "dataset": "airfoil",
+      "seed": 7014,
+      "profile": "cross_field_addition"
+    },
+    {
+      "case": "original_scale_suffix_composition_spectf_s7014",
+      "dataset": "spectf",
+      "seed": 7014,
+      "profile": "scale_suffix_composition"
+    },
+    {
+      "case": "original_scale_suffix_composition_auto_mpg_s7014",
+      "dataset": "auto_mpg",
+      "seed": 7014,
+      "profile": "scale_suffix_composition"
+    },
+    {
+      "case": "original_scale_suffix_composition_airfoil_s7014",
+      "dataset": "airfoil",
+      "seed": 7014,
+      "profile": "scale_suffix_composition"
+    },
+    {
+      "case": "original_digit_transposition_spectf_s7015",
+      "dataset": "spectf",
+      "seed": 7015,
+      "profile": "digit_transposition"
+    },
+    {
+      "case": "original_digit_transposition_auto_mpg_s7015",
+      "dataset": "auto_mpg",
+      "seed": 7015,
+      "profile": "digit_transposition"
+    },
+    {
+      "case": "original_digit_transposition_airfoil_s7015",
+      "dataset": "airfoil",
+      "seed": 7015,
+      "profile": "digit_transposition"
+    },
+    {
+      "case": "original_cross_field_addition_spectf_s7015",
+      "dataset": "spectf",
+      "seed": 7015,
+      "profile": "cross_field_addition"
+    },
+    {
+      "case": "original_cross_field_addition_auto_mpg_s7015",
+      "dataset": "auto_mpg",
+      "seed": 7015,
+      "profile": "cross_field_addition"
+    },
+    {
+      "case": "original_cross_field_addition_airfoil_s7015",
+      "dataset": "airfoil",
+      "seed": 7015,
+      "profile": "cross_field_addition"
+    },
+    {
+      "case": "original_scale_suffix_composition_spectf_s7015",
+      "dataset": "spectf",
+      "seed": 7015,
+      "profile": "scale_suffix_composition"
+    },
+    {
+      "case": "original_scale_suffix_composition_auto_mpg_s7015",
+      "dataset": "auto_mpg",
+      "seed": 7015,
+      "profile": "scale_suffix_composition"
+    },
+    {
+      "case": "original_scale_suffix_composition_airfoil_s7015",
+      "dataset": "airfoil",
+      "seed": 7015,
+      "profile": "scale_suffix_composition"
+    }
+  ],
+  "runtime_bindings": [
+    {
+      "source": "configs/execution_host.json",
+      "source_sha256": "68530b6a6adb6e934f5357d399d5a31da39e785264f9a7e0fc7e4fe5a89f3bec",
+      "runtime_fields": {
+        "host": "rtx4090",
+        "hostname": "epic-polaris-2939-74bd77d8b5-z22jj",
+        "logical_gpus": [
+          0,
+          1
+        ],
+        "physical_devices": [
+          1,
+          4
+        ],
+        "ports": [
+          8211,
+          8212
+        ],
+        "model": "Qwen3.5-9B",
+        "dtype": "bfloat16",
+        "temperature": 0,
+        "same_case_same_gpu": true
+      }
+    },
+    {
+      "source": "configs/lanes.json",
+      "source_sha256": "cecaeb1b94e65f7727b9c4ab6ddab37a85552e05b141009543acc4e1eebaa21a",
+      "runtime_fields": {}
+    }
+  ]
+}

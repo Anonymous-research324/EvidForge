@@ -1,0 +1,23 @@
+\begin{table}[tb]
+\centering
+\caption{同模型 TabClean 对照}
+\label{tab:tabclean-new}
+\fontsize{8}{9.6}\selectfont
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcc@{}}
+\toprule
+ & \multicolumn{2}{c}{正常格误改率 (\%) $\downarrow$} \\
+\cmidrule(lr){2-3}
+数据集 & EvidForge & TabClean \\
+\midrule
+Banknote & $0.369\pm0.639$ & $2.682\pm1.988$ \\
+Retinopathy & $0.027\pm0.025$ & $3.621\pm3.142$ \\
+WDBC & $0.035\pm0.012$ & $11.933\pm20.253$ \\
+Airfoil & $0.000\pm0.000$ & $0.190\pm0.329$ \\
+Energy & $0.000\pm0.000$ & $0.000\pm0.000$ \\
+Wine Red & $0.115\pm0.098$ & $4.313\pm5.997$ \\
+Real Estate & $0.000\pm0.000$ & $4.304\pm7.455$ \\
+\bottomrule
+\end{tabular*}
+\end{table}

@@ -1,0 +1,18 @@
+\begin{table}[tb]
+\centering
+\caption{错误类型}
+\label{tab:robust-type}
+\fontsize{8}{9.6}\selectfont
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcccc@{}}
+\toprule
+错误类型 & \makecell{Retinopathy\\修复 F1 $\uparrow$} & \makecell{Concrete\\修复 F1 $\uparrow$} & \makecell{Retinopathy\\误改率 (\%) $\downarrow$} & \makecell{Concrete\\误改率 (\%) $\downarrow$} \\
+\midrule
+空值 & $0.291\pm0.016$ & $0.165\pm0.012$ & $0.000\pm0.000$ & $0.000\pm0.000$ \\
+数字错误 & $0.320\pm0.017$ & $0.136\pm0.118$ & $0.034\pm0.031$ & $0.061\pm0.061$ \\
+倍率错误 & $0.959\pm0.014$ & $0.949\pm0.027$ & $0.046\pm0.031$ & $0.061\pm0.105$ \\
+前后缀错误 & $0.378\pm0.241$ & $0.317\pm0.090$ & $0.000\pm0.000$ & $0.000\pm0.000$ \\
+\bottomrule
+\end{tabular*}
+\end{table}

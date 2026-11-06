@@ -1,0 +1,31 @@
+\begin{table*}[b]
+\centering
+\caption{完整模块消融}
+\label{tab:oct23_ablation_all}
+\fontsize{7.5}{9}\selectfont
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llcccccc@{}}
+\toprule
+数据集 & 指标 & \makecell{完整\\EvidForge} & \makecell{关闭学得\\纠错变换} & \makecell{关闭生成\\规则执行} & \makecell{关闭最终\\置信门槛} & \makecell{关闭源内\\反馈改写} & \makecell{关闭项目\\Hook} \\
+\midrule
+Tic-Tac-Toe & 修复 F1 $\uparrow$ & $0.653\pm0.014$ & $0.431\pm0.039$ & $0.653\pm0.014$ & $0.671\pm0.019$ & $0.653\pm0.014$ & $0.653\pm0.014$ \\
+Tic-Tac-Toe & 误改率 (\%) $\downarrow$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ \\
+\addlinespace[2pt]
+Car & 修复 F1 $\uparrow$ & $0.657\pm0.010$ & $0.457\pm0.032$ & $0.657\pm0.010$ & $0.652\pm0.010$ & $0.657\pm0.010$ & $0.657\pm0.010$ \\
+Car & 误改率 (\%) $\downarrow$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ \\
+\addlinespace[2pt]
+Retinopathy & 修复 F1 $\uparrow$ & $0.542\pm0.006$ & $0.303\pm0.037$ & $0.524\pm0.020$ & $0.519\pm0.014$ & $0.540\pm0.009$ & $0.542\pm0.006$ \\
+Retinopathy & 误改率 (\%) $\downarrow$ & $0.040\pm0.069$ & $0.016\pm0.014$ & $0.008\pm0.014$ & $1.572\pm0.671$ & $0.048\pm0.082$ & $0.040\pm0.069$ \\
+\addlinespace[2pt]
+Real Estate & 修复 F1 $\uparrow$ & $0.414\pm0.040$ & $0.018\pm0.032$ & $0.414\pm0.040$ & $0.413\pm0.046$ & $0.414\pm0.040$ & $0.414\pm0.040$ \\
+Real Estate & 误改率 (\%) $\downarrow$ & $0.418\pm0.551$ & $0.000\pm0.000$ & $0.418\pm0.551$ & $5.075\pm3.300$ & $0.418\pm0.551$ & $0.418\pm0.551$ \\
+\addlinespace[2pt]
+Concrete & 修复 F1 $\uparrow$ & $0.463\pm0.068$ & $0.192\pm0.124$ & $0.443\pm0.055$ & $0.506\pm0.022$ & $0.461\pm0.065$ & $0.463\pm0.068$ \\
+Concrete & 误改率 (\%) $\downarrow$ & $0.231\pm0.255$ & $0.126\pm0.126$ & $0.231\pm0.255$ & $4.975\pm1.439$ & $0.252\pm0.290$ & $0.231\pm0.255$ \\
+\addlinespace[2pt]
+Airfoil & 修复 F1 $\uparrow$ & $0.716\pm0.015$ & $0.403\pm0.113$ & $0.714\pm0.019$ & $0.677\pm0.017$ & $0.716\pm0.015$ & $0.716\pm0.015$ \\
+Airfoil & 误改率 (\%) $\downarrow$ & $0.323\pm0.288$ & $0.000\pm0.000$ & $0.323\pm0.288$ & $1.615\pm0.846$ & $0.323\pm0.288$ & $0.323\pm0.288$ \\
+\bottomrule
+\end{tabular*}
+\end{table*}

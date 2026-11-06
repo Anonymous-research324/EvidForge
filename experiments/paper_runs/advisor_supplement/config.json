@@ -1,0 +1,268 @@
+{
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "study": "advisor_supplement",
+  "paper_scope": "只选论文使用的Car/Concrete主消融、Concrete鲁棒性、Hospital1015；来源大轮的其余条件不混入。",
+  "server_source": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021",
+  "source_protocol_relative_path": "configs/protocol.json",
+  "source_protocol_sha256": "62e061e524259a7a7e2324b4b372f47bd7587e286af3879fa391774012644094",
+  "configuration_role": "paper-scope configuration view; original execution protocol and full inputs remain on server; no new numerical settings",
+  "paper_case_specs": [
+    {
+      "id": "main_car_evaluation_s1013",
+      "dataset": "car_evaluation",
+      "seed": 1013,
+      "suite": "main",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "main_concrete_s1013",
+      "dataset": "concrete",
+      "seed": 1013,
+      "suite": "main",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "main_car_evaluation_s1014",
+      "dataset": "car_evaluation",
+      "seed": 1014,
+      "suite": "main",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "main_concrete_s1014",
+      "dataset": "concrete",
+      "seed": 1014,
+      "suite": "main",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "main_car_evaluation_s1015",
+      "dataset": "car_evaluation",
+      "seed": 1015,
+      "suite": "main",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "main_concrete_s1015",
+      "dataset": "concrete",
+      "seed": 1015,
+      "suite": "main",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "natural_hospital_s1015",
+      "dataset": "hospital",
+      "seed": 1015,
+      "suite": "natural",
+      "rate": 0.7,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1013_r0p1_mixed",
+      "dataset": "concrete",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.1,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1013_r0p3_mixed",
+      "dataset": "concrete",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1013_r0p5_mixed",
+      "dataset": "concrete",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.5,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1013_r0p3_blank",
+      "dataset": "concrete",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "blank",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1013_r0p3_digit",
+      "dataset": "concrete",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "digit",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1013_r0p3_scale",
+      "dataset": "concrete",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "scale",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1013_r0p3_affix",
+      "dataset": "concrete",
+      "seed": 1013,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "affix",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1014_r0p1_mixed",
+      "dataset": "concrete",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.1,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1014_r0p3_mixed",
+      "dataset": "concrete",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1014_r0p5_mixed",
+      "dataset": "concrete",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.5,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1014_r0p3_blank",
+      "dataset": "concrete",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "blank",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1014_r0p3_digit",
+      "dataset": "concrete",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "digit",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1014_r0p3_scale",
+      "dataset": "concrete",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "scale",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1014_r0p3_affix",
+      "dataset": "concrete",
+      "seed": 1014,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "affix",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1015_r0p1_mixed",
+      "dataset": "concrete",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.1,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1015_r0p3_mixed",
+      "dataset": "concrete",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1015_r0p5_mixed",
+      "dataset": "concrete",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.5,
+      "error_type": "mixed",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1015_r0p3_blank",
+      "dataset": "concrete",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "blank",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1015_r0p3_digit",
+      "dataset": "concrete",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "digit",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1015_r0p3_scale",
+      "dataset": "concrete",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "scale",
+      "learning_fraction": 1.0
+    },
+    {
+      "id": "robustness_concrete_s1015_r0p3_affix",
+      "dataset": "concrete",
+      "seed": 1015,
+      "suite": "robustness",
+      "rate": 0.3,
+      "error_type": "affix",
+      "learning_fraction": 1.0
+    }
+  ],
+  "runtime_bindings": []
+}

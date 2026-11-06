@@ -1,0 +1,25 @@
+\begin{table*}[t]
+\centering
+\caption{EvidForge组件消融实验（准确修复F1）。}
+\label{tab:ablation}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.10}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+数据集 & Tic-Tac-Toe & Car Evaluation & Retinopathy & Real Estate & Concrete & Airfoil \\
+\midrule
+任务 & 分类 & 分类 & 分类 & 回归 & 回归 & 回归 \\
+样本数 & 958 & 1,728 & 1,151 & 414 & 1,030 & 1,503 \\
+特征数 & 9 & 6 & 19 & 6 & 8 & 5 \\
+\midrule
+\textbf{完整EvidForge} & $0.653\,\pm\,0.014$ & $\mathbf{0.657\,\pm\,0.010}$ & $\mathbf{0.542\,\pm\,0.006}$ & $\mathbf{0.414\,\pm\,0.040}$ & $0.463\,\pm\,0.068$ & $\mathbf{0.716\,\pm\,0.015}$ \\
+\midrule
+关闭学得的纠错变换 & $0.431\,\pm\,0.039$ & $0.457\,\pm\,0.032$ & $0.303\,\pm\,0.037$ & $0.018\,\pm\,0.032$ & $0.192\,\pm\,0.124$ & $0.403\,\pm\,0.113$ \\
+关闭9B新增规则执行 & $0.653\,\pm\,0.014$ & $\mathbf{0.657\,\pm\,0.010}$ & $0.524\,\pm\,0.020$ & $\mathbf{0.414\,\pm\,0.040}$ & $0.443\,\pm\,0.055$ & $0.714\,\pm\,0.019$ \\
+关闭最终置信门槛 & $\mathbf{0.671\,\pm\,0.019}$ & $0.652\,\pm\,0.010$ & $0.519\,\pm\,0.014$ & $0.413\,\pm\,0.046$ & $\mathbf{0.506\,\pm\,0.022}$ & $0.677\,\pm\,0.017$ \\
+关闭反馈改写 & $0.653\,\pm\,0.014$ & $\mathbf{0.657\,\pm\,0.010}$ & $0.540\,\pm\,0.009$ & $\mathbf{0.414\,\pm\,0.040}$ & $0.461\,\pm\,0.065$ & $\mathbf{0.716\,\pm\,0.015}$ \\
+\bottomrule
+\end{tabular}}
+\end{table*}

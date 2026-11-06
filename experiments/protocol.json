@@ -1,0 +1,64 @@
+{
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "datasets": {
+    "repair": [
+      "monks1",
+      "cmc",
+      "bc_original",
+      "mammographic",
+      "ilpd",
+      "climate",
+      "voting",
+      "qsar"
+    ],
+    "downstream": [
+      "tic_tac_toe",
+      "car_evaluation",
+      "retinopathy",
+      "real_estate",
+      "concrete",
+      "airfoil"
+    ]
+  },
+  "methods": [
+    "pure_llm",
+    "tool_llm",
+    "raha_holoclean",
+    "garf",
+    "cdc",
+    "v23"
+  ],
+  "ablation_arms": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+  ],
+  "pollution": 0.7,
+  "split": [
+    0.1,
+    0.1,
+    0.64,
+    0.16
+  ],
+  "model": "Qwen3.5-9B",
+  "dtype": "bfloat16",
+  "temperature": 0,
+  "codex_cli": "0.153.1",
+  "sample_sd_ddof": 1,
+  "scope": "RQ2/RQ3 six datasets selected after original eight-table seed1013 study; not a new blind test",
+  "ablation_definitions": {
+    "A": "paired complete native relearning",
+    "B": "same A skill without seven learned transform candidate sources",
+    "C": "same A skill without optional generated-rule execution",
+    "D": "same A skill without final score/margin gates; all other protections retained",
+    "E": "fresh native learning without source feedback for rewriting; proposal count paired with A; independent validation retained",
+    "F": "fresh native learning with no project PreToolUse/PostToolUse/Stop Hook registration; original MCP, source evaluator, backend permissions and independent validation retained; not NoLLM and not no_feedback"
+  }
+}

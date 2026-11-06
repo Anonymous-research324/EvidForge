@@ -1,0 +1,1856 @@
+[
+  {
+    "dataset": "spectf",
+    "profile": "digit_transposition",
+    "arm": "full",
+    "metrics": {
+      "P": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9273566015118625,
+        "sd": 0.04562889405060491,
+        "values": [
+          0.979498861047836,
+          0.8947368421052632,
+          0.9078341013824884
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.2177020340846619,
+        "sd": 0.10135595538984277,
+        "values": [
+          0.23639362286970864,
+          0.308411214953271,
+          0.10830126443100604
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.3443642730200167,
+        "sd": 0.1363121857140974,
+        "values": [
+          0.3808680248007086,
+          0.4587080948487326,
+          0.19351669941060903
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.41217688276511805,
+        "sd": 0.5009851798011138,
+        "values": [
+          0.1589825119236884,
+          0.9892245186362834,
+          0.08832361773538244
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.6090807685090258,
+        "sd": 0.04763627665459929,
+        "values": [
+          0.6174018988752359,
+          0.6520082479400786,
+          0.5578321587117628
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.25162008219304627,
+        "sd": 0.1200221533455192,
+        "values": [
+          0.28936742934051146,
+          0.34823091247672255,
+          0.11726190476190476
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 0,
+    "count_sums": {
+      "errors": 5457,
+      "normal": 16983,
+      "changes": 1283,
+      "exact": 1188,
+      "damaged": 70
+    }
+  },
+  {
+    "dataset": "spectf",
+    "profile": "digit_transposition",
+    "arm": "no_llm",
+    "metrics": {
+      "P": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9609573914637215,
+        "sd": 0.04274811134028281,
+        "values": [
+          0.979498861047836,
+          0.9120689655172414,
+          0.991304347826087
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.19662818398387394,
+        "sd": 0.11915858788154242,
+        "values": [
+          0.23639362286970864,
+          0.2908191313908741,
+          0.06267179769103903
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.313258499293915,
+        "sd": 0.1718458707165474,
+        "values": [
+          0.3808680248007086,
+          0.441017090454356,
+          0.11789038262668047
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.3591827121238886,
+        "sd": 0.47443295244618,
+        "values": [
+          0.1589825119236884,
+          0.9009009009009009,
+          0.01766472354707649
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.5965181784313175,
+        "sd": 0.057734637711033814,
+        "values": [
+          0.6174018988752359,
+          0.6409050611909326,
+          0.5312475752277841
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.22853068193884152,
+        "sd": 0.14050708339513385,
+        "values": [
+          0.28936742934051146,
+          0.32836747361887025,
+          0.06785714285714285
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 1,
+    "count_sums": {
+      "errors": 5457,
+      "normal": 16983,
+      "changes": 1134,
+      "exact": 1073,
+      "damaged": 61
+    }
+  },
+  {
+    "dataset": "spectf",
+    "profile": "cross_field_addition",
+    "arm": "full",
+    "metrics": {
+      "P": {
+        "n": 0,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          null,
+          null,
+          null
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.5,
+        "sd": 0.0,
+        "values": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 0,
+    "count_sums": {
+      "errors": 6579,
+      "normal": 15861,
+      "changes": 0,
+      "exact": 0,
+      "damaged": 0
+    }
+  },
+  {
+    "dataset": "spectf",
+    "profile": "cross_field_addition",
+    "arm": "no_llm",
+    "metrics": {
+      "P": {
+        "n": 0,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          null,
+          null,
+          null
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.5,
+        "sd": 0.0,
+        "values": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 0,
+    "count_sums": {
+      "errors": 6579,
+      "normal": 15861,
+      "changes": 0,
+      "exact": 0,
+      "damaged": 0
+    }
+  },
+  {
+    "dataset": "spectf",
+    "profile": "scale_suffix_composition",
+    "arm": "full",
+    "metrics": {
+      "P": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 0,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          null,
+          null,
+          null
+        ]
+      },
+      "pool_absent_R": {
+        "n": 0,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "qualified_seeds": 3,
+    "count_sums": {
+      "errors": 6732,
+      "normal": 15708,
+      "changes": 6732,
+      "exact": 6732,
+      "damaged": 0
+    }
+  },
+  {
+    "dataset": "spectf",
+    "profile": "scale_suffix_composition",
+    "arm": "no_llm",
+    "metrics": {
+      "P": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 0,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          null,
+          null,
+          null
+        ]
+      },
+      "pool_absent_R": {
+        "n": 0,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "qualified_seeds": 3,
+    "count_sums": {
+      "errors": 6732,
+      "normal": 15708,
+      "changes": 6732,
+      "exact": 6732,
+      "damaged": 0
+    }
+  },
+  {
+    "dataset": "auto_mpg",
+    "profile": "digit_transposition",
+    "arm": "full",
+    "metrics": {
+      "P": {
+        "n": 0,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          null,
+          null,
+          null
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.5,
+        "sd": 0.0,
+        "values": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "reachable_R": {
+        "n": 2,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          0.0,
+          0.0,
+          null
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 0,
+    "count_sums": {
+      "errors": 915,
+      "normal": 4641,
+      "changes": 0,
+      "exact": 0,
+      "damaged": 0
+    }
+  },
+  {
+    "dataset": "auto_mpg",
+    "profile": "digit_transposition",
+    "arm": "no_llm",
+    "metrics": {
+      "P": {
+        "n": 0,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          null,
+          null,
+          null
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.5,
+        "sd": 0.0,
+        "values": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "reachable_R": {
+        "n": 2,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          0.0,
+          0.0,
+          null
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 0,
+    "count_sums": {
+      "errors": 915,
+      "normal": 4641,
+      "changes": 0,
+      "exact": 0,
+      "damaged": 0
+    }
+  },
+  {
+    "dataset": "auto_mpg",
+    "profile": "cross_field_addition",
+    "arm": "full",
+    "metrics": {
+      "P": {
+        "n": 2,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          0.8933333333333333,
+          null,
+          0.9761904761904762
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.07515657620041753,
+        "sd": 0.070519188952211,
+        "values": [
+          0.13987473903966596,
+          0.0,
+          0.08559498956158663
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.13308896387812938,
+        "sd": 0.12275603347785921,
+        "values": [
+          0.24187725631768953,
+          0.0,
+          0.15738963531669864
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.5407098121085595,
+        "sd": 0.03923788335952508,
+        "values": [
+          0.5782881002087683,
+          0.5,
+          0.5438413361169102
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.08221731539488548,
+        "sd": 0.07856890849281775,
+        "values": [
+          0.15654205607476634,
+          0.0,
+          0.09010989010989011
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 2,
+    "count_sums": {
+      "errors": 1437,
+      "normal": 4119,
+      "changes": 117,
+      "exact": 108,
+      "damaged": 0
+    }
+  },
+  {
+    "dataset": "auto_mpg",
+    "profile": "cross_field_addition",
+    "arm": "no_llm",
+    "metrics": {
+      "P": {
+        "n": 2,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          0.8933333333333333,
+          null,
+          0.9761904761904762
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.07515657620041753,
+        "sd": 0.070519188952211,
+        "values": [
+          0.13987473903966596,
+          0.0,
+          0.08559498956158663
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.13308896387812938,
+        "sd": 0.12275603347785921,
+        "values": [
+          0.24187725631768953,
+          0.0,
+          0.15738963531669864
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.5407098121085595,
+        "sd": 0.03923788335952508,
+        "values": [
+          0.5782881002087683,
+          0.5,
+          0.5438413361169102
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.08221731539488548,
+        "sd": 0.07856890849281775,
+        "values": [
+          0.15654205607476634,
+          0.0,
+          0.09010989010989011
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 2,
+    "count_sums": {
+      "errors": 1437,
+      "normal": 4119,
+      "changes": 117,
+      "exact": 108,
+      "damaged": 0
+    }
+  },
+  {
+    "dataset": "auto_mpg",
+    "profile": "scale_suffix_composition",
+    "arm": "full",
+    "metrics": {
+      "P": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9010137149672034,
+        "sd": 0.003723910553606702,
+        "values": [
+          0.8998211091234347,
+          0.8980322003577818,
+          0.9051878354203936
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9479270473545908,
+        "sd": 0.0020591766394709434,
+        "values": [
+          0.9472693032015066,
+          0.9462770970782282,
+          0.9502347417840377
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9505068574836016,
+        "sd": 0.0018619552768033422,
+        "values": [
+          0.9499105545617174,
+          0.9490161001788908,
+          0.9525939177101967
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.994080185331252,
+        "sd": 0.0019724987344430242,
+        "values": [
+          0.996039603960396,
+          0.9920948616600791,
+          0.9941060903732809
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 3,
+    "count_sums": {
+      "errors": 1677,
+      "normal": 3879,
+      "changes": 1511,
+      "exact": 1511,
+      "damaged": 0
+    }
+  },
+  {
+    "dataset": "auto_mpg",
+    "profile": "scale_suffix_composition",
+    "arm": "no_llm",
+    "metrics": {
+      "P": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9010137149672034,
+        "sd": 0.003723910553606702,
+        "values": [
+          0.8998211091234347,
+          0.8980322003577818,
+          0.9051878354203936
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9479270473545908,
+        "sd": 0.0020591766394709434,
+        "values": [
+          0.9472693032015066,
+          0.9462770970782282,
+          0.9502347417840377
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9505068574836016,
+        "sd": 0.0018619552768033422,
+        "values": [
+          0.9499105545617174,
+          0.9490161001788908,
+          0.9525939177101967
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.994080185331252,
+        "sd": 0.0019724987344430242,
+        "values": [
+          0.996039603960396,
+          0.9920948616600791,
+          0.9941060903732809
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 3,
+    "count_sums": {
+      "errors": 1677,
+      "normal": 3879,
+      "changes": 1511,
+      "exact": 1511,
+      "damaged": 0
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "profile": "digit_transposition",
+    "arm": "full",
+    "metrics": {
+      "P": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9555227625948792,
+        "sd": 0.03130737032423498,
+        "values": [
+          0.9913494809688581,
+          0.9417910447761194,
+          0.93342776203966
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.6046738072054528,
+        "sd": 0.04271024771073288,
+        "values": [
+          0.557935735150925,
+          0.6144109055501461,
+          0.6416747809152873
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.7394049515338043,
+        "sd": 0.023546944378467043,
+        "values": [
+          0.714018691588785,
+          0.74366529169122,
+          0.7605308713214078
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.04399859204505455,
+        "sd": 0.07620779688353033,
+        "values": [
+          0.0,
+          0.0,
+          0.13199577613516367
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.8160734182698948,
+        "sd": 0.030881183174590997,
+        "values": [
+          0.7814021421616358,
+          0.8261927945472249,
+          0.8406253181008236
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.8156473075729361,
+        "sd": 0.020422248676902184,
+        "values": [
+          0.8203125,
+          0.8333333333333334,
+          0.7932960893854749
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.751974406384191,
+        "sd": 0.07047258933489152,
+        "values": [
+          0.6724137931034483,
+          0.7769571639586411,
+          0.8065522620904836
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 1,
+    "count_sums": {
+      "errors": 3081,
+      "normal": 11364,
+      "changes": 1954,
+      "exact": 1863,
+      "damaged": 5
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "profile": "digit_transposition",
+    "arm": "no_llm",
+    "metrics": {
+      "P": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9555227625948792,
+        "sd": 0.03130737032423498,
+        "values": [
+          0.9913494809688581,
+          0.9417910447761194,
+          0.93342776203966
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.6046738072054528,
+        "sd": 0.04271024771073288,
+        "values": [
+          0.557935735150925,
+          0.6144109055501461,
+          0.6416747809152873
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.7394049515338043,
+        "sd": 0.023546944378467043,
+        "values": [
+          0.714018691588785,
+          0.74366529169122,
+          0.7605308713214078
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.04399859204505455,
+        "sd": 0.07620779688353033,
+        "values": [
+          0.0,
+          0.0,
+          0.13199577613516367
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.8160734182698948,
+        "sd": 0.030881183174590997,
+        "values": [
+          0.7814021421616358,
+          0.8261927945472249,
+          0.8406253181008236
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.8156473075729361,
+        "sd": 0.020422248676902184,
+        "values": [
+          0.8203125,
+          0.8333333333333334,
+          0.7932960893854749
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.751974406384191,
+        "sd": 0.07047258933489152,
+        "values": [
+          0.6724137931034483,
+          0.7769571639586411,
+          0.8065522620904836
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 1,
+    "count_sums": {
+      "errors": 3081,
+      "normal": 11364,
+      "changes": 1954,
+      "exact": 1863,
+      "damaged": 5
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "profile": "cross_field_addition",
+    "arm": "full",
+    "metrics": {
+      "P": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9971249406068959,
+        "sd": 0.0019857095723315003,
+        "values": [
+          0.9982698961937716,
+          0.9948320413436692,
+          0.998272884283247
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9991349480968859,
+        "sd": 0.0008650519031142001,
+        "values": [
+          0.9982698961937716,
+          0.9991349480968859,
+          1.0
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9981281479741423,
+        "sd": 0.001085386204988793,
+        "values": [
+          0.9982698961937716,
+          0.9969788519637461,
+          0.9991356957649092
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.06376970028240868,
+        "sd": 0.06877866844557484,
+        "values": [
+          0.0,
+          0.1366493577480186,
+          0.05465974309920743
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9996811514985879,
+        "sd": 0.0003438933422278745,
+        "values": [
+          1.0,
+          0.9993167532112599,
+          0.9997267012845039
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9991349480968859,
+        "sd": 0.0008650519031142001,
+        "values": [
+          0.9982698961937716,
+          0.9991349480968859,
+          1.0
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 0,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          null,
+          null,
+          null
+        ]
+      },
+      "pool_absent_R": {
+        "n": 0,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "qualified_seeds": 3,
+    "count_sums": {
+      "errors": 3468,
+      "normal": 10977,
+      "changes": 3475,
+      "exact": 3465,
+      "damaged": 7
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "profile": "cross_field_addition",
+    "arm": "no_llm",
+    "metrics": {
+      "P": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9972939210511687,
+        "sd": 0.002693093508949852,
+        "values": [
+          1.0,
+          0.9946140035906643,
+          0.9972677595628415
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9486735870818916,
+        "sd": 0.00916846199284005,
+        "values": [
+          0.9403114186851211,
+          0.9584775086505191,
+          0.9472318339100346
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9723517052129592,
+        "sd": 0.0035462064585988808,
+        "values": [
+          0.9692376281765492,
+          0.9762114537444934,
+          0.9716060337178349
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.06376970028240868,
+        "sd": 0.06877866844557484,
+        "values": [
+          0.0,
+          0.1366493577480186,
+          0.05465974309920743
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9743062956739051,
+        "sd": 0.004440053927166632,
+        "values": [
+          0.9701557093425606,
+          0.9789880334880765,
+          0.9737751441910782
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9486735870818916,
+        "sd": 0.00916846199284005,
+        "values": [
+          0.9403114186851211,
+          0.9584775086505191,
+          0.9472318339100346
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 0,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          null,
+          null,
+          null
+        ]
+      },
+      "pool_absent_R": {
+        "n": 0,
+        "expected_n": 3,
+        "mean": null,
+        "sd": null,
+        "values": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "qualified_seeds": 3,
+    "count_sums": {
+      "errors": 3468,
+      "normal": 10977,
+      "changes": 3299,
+      "exact": 3290,
+      "damaged": 7
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "profile": "scale_suffix_composition",
+    "arm": "full",
+    "metrics": {
+      "P": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.99550851594747,
+        "sd": 0.005149167899839724,
+        "values": [
+          0.9898887765419616,
+          0.9966367713004485,
+          1.0
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.6724595703596428,
+        "sd": 0.033264565173307004,
+        "values": [
+          0.7089065894279507,
+          0.6437364228819696,
+          0.664735698769008
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.8023315202969727,
+        "sd": 0.022202511854317958,
+        "values": [
+          0.8261603375527427,
+          0.7822261328640565,
+          0.7986080904741192
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.8377986965966691,
+        "sd": 0.01817869690171347,
+        "values": [
+          0.8580738595220854,
+          0.8229543808834179,
+          0.8323678493845039
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9797727495347243,
+        "sd": 0.01859704017697289,
+        "values": [
+          1.0,
+          0.9634146341463414,
+          0.9759036144578314
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.7922885520355923,
+        "sd": 0.0528269912415505,
+        "values": [
+          0.8467532467532467,
+          0.741267787839586,
+          0.7888446215139442
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 2,
+    "count_sums": {
+      "errors": 4143,
+      "normal": 10302,
+      "changes": 2799,
+      "exact": 2786,
+      "damaged": 0
+    }
+  },
+  {
+    "dataset": "airfoil",
+    "profile": "scale_suffix_composition",
+    "arm": "no_llm",
+    "metrics": {
+      "P": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.99550851594747,
+        "sd": 0.005149167899839724,
+        "values": [
+          0.9898887765419616,
+          0.9966367713004485,
+          1.0
+        ]
+      },
+      "R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.6724595703596428,
+        "sd": 0.033264565173307004,
+        "values": [
+          0.7089065894279507,
+          0.6437364228819696,
+          0.664735698769008
+        ]
+      },
+      "F1": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.8023315202969727,
+        "sd": 0.022202511854317958,
+        "values": [
+          0.8261603375527427,
+          0.7822261328640565,
+          0.7986080904741192
+        ]
+      },
+      "normal_damage_percent": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edit01_AUC": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.8377986965966691,
+        "sd": 0.01817869690171347,
+        "values": [
+          0.8580738595220854,
+          0.8229543808834179,
+          0.8323678493845039
+        ]
+      },
+      "reachable_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.9797727495347243,
+        "sd": 0.01859704017697289,
+        "values": [
+          1.0,
+          0.9634146341463414,
+          0.9759036144578314
+        ]
+      },
+      "in_pool_forward_blocked_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.7922885520355923,
+        "sd": 0.0528269912415505,
+        "values": [
+          0.8467532467532467,
+          0.741267787839586,
+          0.7888446215139442
+        ]
+      },
+      "pool_absent_R": {
+        "n": 3,
+        "expected_n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "qualified_seeds": 2,
+    "count_sums": {
+      "errors": 4143,
+      "normal": 10302,
+      "changes": 2799,
+      "exact": 2786,
+      "damaged": 0
+    }
+  }
+]

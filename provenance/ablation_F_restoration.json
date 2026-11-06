@@ -1,0 +1,18 @@
+{
+  "scope": "Restore the final paper six-arm A-F portable scheduling; core124 unchanged. F is project Hook registration off only.",
+  "server_source": "/root/fsas/home/anonymous/projects/EvidForge_Ablation_seed{1013,1014,1015}",
+  "original_source_checks": {
+    "seed1013_score_sha256": "b5082ee06a24baa3041b342cd7ef800d39872e1f4d0e7e9180f78fce059ba2ed",
+    "seed1014_score_sha256": "c0e143ab8d8f2988489af0ef59a2a5f7969afdc0eb39d92283a4d250fd019faf",
+    "seed1015_score_sha256": "e44419155bd4ce7e30b67365494bb198d44b66d52968c72ae277eaaa81b0baa6"
+  },
+  "restored_records": "18 F rows copied from original three_seed_ablation_aggregate per_seed_records; no regrading or new inference",
+  "native_implementation": "existing templates/ablation/run_native_variant.py already removes only hooks.json registration for EVIDFORGE_NATIVE_VARIANT=no_hook; same gateway, decide MCP, evaluator and source guard",
+  "new_call_policy": "real model call and actual usage recording retained, no synthetic replacement; compare F quality independently, never assume same output",
+  "full_six_table_output_counts": {
+    "A_saved": 6,
+    "A_to_F": 36,
+    "all": 42
+  },
+  "tests": "tests/test_ablation_F.py"
+}

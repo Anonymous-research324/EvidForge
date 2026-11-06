@@ -1,0 +1,51 @@
+{
+  "study": "semantic_historical",
+  "paper_scope": "历史独立轮，仅解释附录对照，不能混成新错误专项或自然错误实验。",
+  "server_source": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022",
+  "source_protocol_relative_path": "configs/controlled_protocol.json",
+  "source_protocol_sha256": "ab886216f07bf9a23ce3282a08929eb155f2be611a54818b2a70519be4df3bab",
+  "configuration_role": "paper-scope configuration view; original execution protocol and full inputs remain on server; no new numerical settings",
+  "methods": [
+    "full",
+    "no_final_gate"
+  ],
+  "paper_case_specs": [
+    {
+      "id": "semantic_hospital_s1013",
+      "dataset": "hospital",
+      "seed": 1013,
+      "suite": "semantic_controlled"
+    },
+    {
+      "id": "semantic_flights_s1013",
+      "dataset": "flights",
+      "seed": 1013,
+      "suite": "semantic_controlled"
+    },
+    {
+      "id": "semantic_hospital_s1014",
+      "dataset": "hospital",
+      "seed": 1014,
+      "suite": "semantic_controlled"
+    },
+    {
+      "id": "semantic_flights_s1014",
+      "dataset": "flights",
+      "seed": 1014,
+      "suite": "semantic_controlled"
+    },
+    {
+      "id": "semantic_hospital_s1015",
+      "dataset": "hospital",
+      "seed": 1015,
+      "suite": "semantic_controlled"
+    },
+    {
+      "id": "semantic_flights_s1015",
+      "dataset": "flights",
+      "seed": 1015,
+      "suite": "semantic_controlled"
+    }
+  ],
+  "runtime_bindings": []
+}

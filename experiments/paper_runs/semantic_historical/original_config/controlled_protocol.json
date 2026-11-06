@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "type": "controlled_stress_test_of_frozen_method",
+  "created": "2026-10-22",
+  "scope": "6case,2 real-source tables x3seed. No algorithm expansion. This cannot promise that LLM is useful.",
+  "datasets": {
+    "hospital": {
+      "original_natural_rows": 1000,
+      "targeted_fields": [
+        "Condition",
+        "MeasureName",
+        "Stateavg"
+      ],
+      "mechanism": "用授权教学合法值域内其他值替换，制造指标字段关系不一致；仅叫受控跨字段替换，不声称原始真实语义错误"
+    },
+    "flights": {
+      "original_natural_rows": 2376,
+      "targeted_fields": [
+        "sched_dep_time",
+        "act_dep_time",
+        "sched_arr_time",
+        "act_arr_time"
+      ],
+      "mechanism": "同字段合法时间替换、计划/实际字段混淆；同航班同来源结构保持；不把AM/a.m.格式差异当语义"
+    }
+  },
+  "data": "沿用对应seed实体分区，curator从原clean构建新脏输入并封存；仅30%所选字段可修改已知格、其余原目标格干净。参考空值排除；全部条件相同权限。不是原自然脏表，不是新blind。",
+  "arms": [
+    "full",
+    "no_llm",
+    "no_transforms",
+    "no_generated_execution",
+    "no_final_gate",
+    "no_feedback",
+    "no_predictive_context",
+    "reuse"
+  ],
+  "frozen_algorithm": "124core和原运行适配字节复用，只换新ROOT、服务身份/端口；无新增LLM文本候选能力。现有学习预算保留：prior/context各5次真调用；nofeedback次数配对；三独立学习arm。",
+  "phases": [
+    "input-curation+freeze",
+    "normalize_bundle/entity/source preflight, no formal parsing",
+    "owned service+sequential per-GPU native/source learning+standalone repair",
+    "all6case outputs/learning/requests freeze and audit",
+    "one independent final scorer, then stratum and paired aggregation"
+  ],
+  "unknown_failures": "block scoring; preserve response/log/partial stage; no repeated calls or resplit to evade guards",
+  "measurements": [
+    "P/R/exactF1",
+    "normal_damage",
+    "per constructed mechanism counts",
+    "candidate coverage only teaching until output freeze",
+    "actual model calls/tokens/time",
+    "byte parity and source qualification"
+  ],
+  "decision_after_test": "若新增场景仍无LLM独立收益，如实报告当前边界；语义程序生成扩展另立版本与同能力确定性对照，不自动改旧方法/原表。",
+  "delivery": "paper-style tables/PNG/PDF + precise scope/limitations, not a huge Excel-first presentation"
+}

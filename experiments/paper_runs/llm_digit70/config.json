@@ -1,0 +1,102 @@
+{
+  "seeds": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017
+  ],
+  "max_real_calls": 100,
+  "max_calls_per_stage": 5,
+  "new_model": "same Qwen3.5-9B BF16 TP1 temperature0",
+  "corruption": "Original single_digit_substitution operator unchanged. Restore original known clean feature values first; select70%eligible feature cells once without replacement; one digit replaced with a different digit in each selected value. No old pollution stacking or new DSL. Separate deterministic mask/mutation RNG per dataset/seed/zone. Integer quota rounding and actual changed/eligible counts recorded.",
+  "model_service_base_port": 8181,
+  "served_model_prefix": "evidforge-digit70",
+  "pollution_rate": 0.7,
+  "pollution_denominator": "All known nonempty target-feature cells independently in each learning,validation,repair zone. Identity,task labels,original unknowns and excluded holdout never eligible. Direct select round_half_up(.7*eligible_cells), no division by4.",
+  "study": "llm_digit70",
+  "paper_scope": "Retinopathy/Airfoil，2013–2017五种子；直接70%可污染已知特征格，RTX4090。",
+  "server_source": "/root/fsas/home/anonymous/projects/EvidForge_Digit70_LLM_Ablation_20261024",
+  "source_protocol_relative_path": "configs/protocol.json",
+  "source_protocol_sha256": "2a3c8a115e91b4970e2110b9ee0cb25673f6aa9359812884cea70d7aa7c2cd5f",
+  "configuration_role": "paper-scope configuration view; original execution protocol and full inputs remain on server; no new numerical settings",
+  "paper_case_specs": [
+    {
+      "id": "digit70_retinopathy_s2013",
+      "dataset": "retinopathy",
+      "seed": 2013,
+      "profile": "digit_exact_r0p70",
+      "suite": "digit70_llm_ablation"
+    },
+    {
+      "id": "digit70_airfoil_s2013",
+      "dataset": "airfoil",
+      "seed": 2013,
+      "profile": "digit_exact_r0p70",
+      "suite": "digit70_llm_ablation"
+    },
+    {
+      "id": "digit70_retinopathy_s2014",
+      "dataset": "retinopathy",
+      "seed": 2014,
+      "profile": "digit_exact_r0p70",
+      "suite": "digit70_llm_ablation"
+    },
+    {
+      "id": "digit70_airfoil_s2014",
+      "dataset": "airfoil",
+      "seed": 2014,
+      "profile": "digit_exact_r0p70",
+      "suite": "digit70_llm_ablation"
+    },
+    {
+      "id": "digit70_retinopathy_s2015",
+      "dataset": "retinopathy",
+      "seed": 2015,
+      "profile": "digit_exact_r0p70",
+      "suite": "digit70_llm_ablation"
+    },
+    {
+      "id": "digit70_airfoil_s2015",
+      "dataset": "airfoil",
+      "seed": 2015,
+      "profile": "digit_exact_r0p70",
+      "suite": "digit70_llm_ablation"
+    },
+    {
+      "id": "digit70_retinopathy_s2016",
+      "dataset": "retinopathy",
+      "seed": 2016,
+      "profile": "digit_exact_r0p70",
+      "suite": "digit70_llm_ablation"
+    },
+    {
+      "id": "digit70_airfoil_s2016",
+      "dataset": "airfoil",
+      "seed": 2016,
+      "profile": "digit_exact_r0p70",
+      "suite": "digit70_llm_ablation"
+    },
+    {
+      "id": "digit70_retinopathy_s2017",
+      "dataset": "retinopathy",
+      "seed": 2017,
+      "profile": "digit_exact_r0p70",
+      "suite": "digit70_llm_ablation"
+    },
+    {
+      "id": "digit70_airfoil_s2017",
+      "dataset": "airfoil",
+      "seed": 2017,
+      "profile": "digit_exact_r0p70",
+      "suite": "digit70_llm_ablation"
+    }
+  ],
+  "runtime_bindings": [
+    {
+      "source": "configs/lanes.json",
+      "source_sha256": "416b3a878e9035c87cbc1ae4a6a55cf5f39a6a6c7d251f7353443b1a38d76900",
+      "runtime_fields": {}
+    }
+  ]
+}

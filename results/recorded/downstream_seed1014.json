@@ -1,0 +1,527 @@
+[
+  {
+    "dataset": "tic_tac_toe",
+    "method": "dirty",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.5733590733590733,
+      "AUC": 0.6671698113207547,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "method": "pure_llm",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.6286407766990292,
+      "AUC": 0.6732075471698112,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "method": "tool_llm",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.6286407766990292,
+      "AUC": 0.6732075471698112,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": true
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "method": "raha_holoclean",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.5002177700348431,
+      "AUC": 0.5016981132075472,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "method": "garf",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.5733590733590733,
+      "AUC": 0.6671698113207547,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "method": "cdc",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.5520361990950227,
+      "AUC": 0.5543396226415094,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "method": "v23",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.661504424778761,
+      "AUC": 0.7730188679245283,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false,
+    "source_qualified": false
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "method": "caafe",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.6470588235294117,
+      "AUC": 0.6588679245283018,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "car_evaluation",
+    "method": "dirty",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.34964266080263884,
+      "AUC": 0.8586934685278481,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "car_evaluation",
+    "method": "pure_llm",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.20474137931034483,
+      "AUC": 0.8148010030792374,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "car_evaluation",
+    "method": "tool_llm",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.2688678064532279,
+      "AUC": 0.8130052043088926,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "car_evaluation",
+    "method": "raha_holoclean",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.25063661227954354,
+      "AUC": 0.79715212767466,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "car_evaluation",
+    "method": "garf",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.34964266080263884,
+      "AUC": 0.8586934685278481,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "car_evaluation",
+    "method": "cdc",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.28270796108794916,
+      "AUC": 0.7714730361602421,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "car_evaluation",
+    "method": "v23",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.5395643782740557,
+      "AUC": 0.9345969328595322,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false,
+    "source_qualified": false
+  },
+  {
+    "dataset": "car_evaluation",
+    "method": "caafe",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.2773298083278255,
+      "AUC": 0.8018187884942902,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "dirty",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.6351084812623273,
+      "AUC": 0.6759455015268969,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "pure_llm",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.6254511311287814,
+      "AUC": 0.6918017383133661,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "tool_llm",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.6351084812623273,
+      "AUC": 0.6759455015268969,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "raha_holoclean",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.5595238095238095,
+      "AUC": 0.6526896875734084,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "garf",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.6351084812623273,
+      "AUC": 0.6759455015268969,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "cdc",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.6374564918541051,
+      "AUC": 0.6620859760394644,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "v23",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.6532333645735707,
+      "AUC": 0.7283298097251586,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false,
+    "source_qualified": true
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "caafe",
+    "status": "complete",
+    "task": "classification",
+    "metrics": {
+      "macro_F1": 0.6655404404137399,
+      "AUC": 0.7411322527601598,
+      "AUC_unavailable_reason": null
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "real_estate",
+    "method": "dirty",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.6154026725365096,
+      "MAE": 5.670435119042029
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "real_estate",
+    "method": "pure_llm",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.54774406500125,
+      "MAE": 6.076097065852239
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "real_estate",
+    "method": "tool_llm",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.54774406500125,
+      "MAE": 6.076097065852239
+    },
+    "fallback": true
+  },
+  {
+    "dataset": "real_estate",
+    "method": "raha_holoclean",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.4638372148004656,
+      "MAE": 7.3370319366455075
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "real_estate",
+    "method": "garf",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.6154026725365096,
+      "MAE": 5.670435119042029
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "real_estate",
+    "method": "cdc",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.539080881571253,
+      "MAE": 6.394332240178036
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "real_estate",
+    "method": "v23",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.6151712404129805,
+      "MAE": 5.91873051570012
+    },
+    "fallback": false,
+    "source_qualified": false
+  },
+  {
+    "dataset": "concrete",
+    "method": "dirty",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.7116527262257315,
+      "MAE": 7.052106201883301
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "concrete",
+    "method": "pure_llm",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.7903323180322174,
+      "MAE": 6.124670027096414
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "concrete",
+    "method": "tool_llm",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.7739455215756762,
+      "MAE": 6.152450548386198
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "concrete",
+    "method": "raha_holoclean",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.6548654554569491,
+      "MAE": 7.594595668179873
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "concrete",
+    "method": "garf",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.7116527262257315,
+      "MAE": 7.052106201883301
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "concrete",
+    "method": "cdc",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.49450803994417025,
+      "MAE": 9.520573298955778
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "concrete",
+    "method": "v23",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.7815137638918047,
+      "MAE": 5.871865077376458
+    },
+    "fallback": false,
+    "source_qualified": true
+  },
+  {
+    "dataset": "airfoil",
+    "method": "dirty",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.5712525887617952,
+      "MAE": 3.5760395337422692
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "airfoil",
+    "method": "pure_llm",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.656883112769461,
+      "MAE": 3.2489339022318524
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "airfoil",
+    "method": "tool_llm",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.656883112769461,
+      "MAE": 3.2489339022318524
+    },
+    "fallback": true
+  },
+  {
+    "dataset": "airfoil",
+    "method": "raha_holoclean",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.5113694931084076,
+      "MAE": 3.877595484924316
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "airfoil",
+    "method": "garf",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.5695479702385491,
+      "MAE": 3.5992810674031572
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "airfoil",
+    "method": "cdc",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.22805076820309333,
+      "MAE": 4.80136253712972
+    },
+    "fallback": false
+  },
+  {
+    "dataset": "airfoil",
+    "method": "v23",
+    "status": "complete",
+    "task": "regression",
+    "metrics": {
+      "R2": 0.7632686854971067,
+      "MAE": 2.6574864334106447
+    },
+    "fallback": false,
+    "source_qualified": false
+  }
+]

@@ -1,0 +1,3432 @@
+{
+  "totals": {
+    "requests": 180,
+    "prompt_tokens": 582336,
+    "completion_tokens": 32042,
+    "total_tokens": 614378
+  },
+  "calls": [
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013fullcontextcall1",
+      "request_sha": "80a57afc84b7638e06c279f81a20d7a995e5db48d4ff04beb08a667417d6cd09",
+      "response_sha": "02da1487d55b3030bb298cfbebfe3b8eb0d5ca41444eebd9ca955e220abc18d5",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2249,
+        "total_tokens": 2586,
+        "completion_tokens": 337,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.891407662071288,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013fullcontextcall2",
+      "request_sha": "966e4e23bf6bd3db6e474d40ae737afd6e952aabd5f3ec8bff3337a45061e5d8",
+      "response_sha": "829bfbb0fe6d82beb51b5130b1de1747f584390a65844ca5d03e8ad2cfc22563",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2304,
+        "total_tokens": 2643,
+        "completion_tokens": 339,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.73819643817842,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013fullcontextcall3",
+      "request_sha": "20e143eef59d0cdfbf385236fa56623135427952801253b6212d91509b020c4c",
+      "response_sha": "91db33e6be9d6c35bee7d9ff5a5ec2bd8020aabddb23117c74d3dc994e57fbdf",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4082,
+        "total_tokens": 4334,
+        "completion_tokens": 252,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.6976108122617006,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013fullcontextcall4",
+      "request_sha": "b158257e28aff5cf0c8f2b02d6388879bf76c12d8799eb7628beb26faad0a26e",
+      "response_sha": "d25341e6a3d448b6286700f13f51c50c4a2b30ffeb64fca606a8673b539db119",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5006,
+        "total_tokens": 5258,
+        "completion_tokens": 252,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.8313821824267507,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013fullcontextcall5",
+      "request_sha": "6d6ab505df7213d595882bd342e702e49ee17c7634ccdc0626c108c3b0338ff5",
+      "response_sha": "7c43cc2f4fa74d0b9688c36c64dc34786ede4751bfac3e5db7480620e7c75383",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4097,
+        "total_tokens": 4109,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.37896097730845213,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013fullpriorcall1",
+      "request_sha": "98747ebc54b880bcaca76a662ff20a0d7dc8027909d81e5e6df30cd9a511352c",
+      "response_sha": "1478398aa4938b4c0fdd426cd81e633210c39777cc55ac59ed5dce6acf47b4b5",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2161,
+        "total_tokens": 2387,
+        "completion_tokens": 226,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.568280639126897,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013fullpriorcall2",
+      "request_sha": "64c81aa7a73d46ce72aa983d172dc98868b905e486a7b591caaae689852f2e61",
+      "response_sha": "16071b7f7e4adab73526c4a0924580d59c985befe2ed22cb87bd8abdb66c60d2",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3850,
+        "total_tokens": 4017,
+        "completion_tokens": 167,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.576057572849095,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013fullpriorcall3",
+      "request_sha": "deae0ad0de51b209c580725f01b5d8dc473124209ad2f4f4e49a2c57fa709512",
+      "response_sha": "f2d54e509271b6fc19ec5d2fea8a35ba67d064cc51d267bf21ac17b7015eaaf0",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4650,
+        "total_tokens": 4817,
+        "completion_tokens": 167,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.6503364155068994,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013fullpriorcall4",
+      "request_sha": "9a5a3a109547ce45a5739f662c2bc6ac03709a9e13931cd2811e34ab97637099",
+      "response_sha": "ad833971e476cf16cb046bd2e70f0298d9c057a06f412c891ff743b67838d2cb",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3839,
+        "total_tokens": 4006,
+        "completion_tokens": 167,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.4774969089776278,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013fullpriorcall5",
+      "request_sha": "0309784f21cc8ccaa0889fae59da5927982bfb7db9bf13a0bfdae62bd46c07aa",
+      "response_sha": "ef7a4793c14c7cf48c40a93975c62ce930ac03d260fe711b65a39597ca0eb054",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5511,
+        "total_tokens": 5523,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.5692305816337466,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nofeedbackcontextcall1",
+      "request_sha": "7822119cd2828646e4b3d6d2ae0aa37abf0008475d970eb47738d3002ce74b72",
+      "response_sha": "a21664c099379ccdf4a1294d5f2c131f979fe28874a93a4bb1ae9c5304db6563",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2299,
+        "total_tokens": 2581,
+        "completion_tokens": 282,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.145538209937513,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nofeedbackcontextcall2",
+      "request_sha": "6f3c3095129b1ad5b927260c7b68ecf5ca728ca7d07ba84a4bfb31d608714214",
+      "response_sha": "f901c6325495d9fb653b2bd738188d1e4fa5a6d19c360766ebf5d321bf3f8eeb",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2436,
+        "total_tokens": 2693,
+        "completion_tokens": 257,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.6690951408818364,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nofeedbackcontextcall3",
+      "request_sha": "5dadbf947e7321843403037b7325f20d1179872c44633611391217cedd48075a",
+      "response_sha": "2cbe6e74e10a93f1316b68aba7a3b541fd135fd874548f4e18245d1aa43e1e51",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2607,
+        "total_tokens": 2865,
+        "completion_tokens": 258,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.6649927059188485,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nofeedbackcontextcall4",
+      "request_sha": "581a9f8127e369f2d64528c0c68faa565fd5d6c3b36a1105e73c3dca19d20998",
+      "response_sha": "0898417a118caf81b905b4151dc78f305d3e8b7dcec7abb35e3f180264a6bb00",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2779,
+        "total_tokens": 3036,
+        "completion_tokens": 257,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.705040284432471,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nofeedbackcontextcall5",
+      "request_sha": "dcc9c6dc425ac1725c68967bb3b06b91b241d7ff531ef6bec794c40328a25ab1",
+      "response_sha": "ddaa4192dcfb8cafcafdf1a361180a568732694fadbd124f4f10f8de84877bba",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2950,
+        "total_tokens": 2962,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.3771138461306691,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nofeedbackpriorcall1",
+      "request_sha": "d5e6bbbebf6bed4c173c427f2247dd10c7e00b6b88d32723fe02c11643cff64c",
+      "response_sha": "0932c6cd12b0ccf84134494d7c77ee2f418dc8d9b29e45b4a31b6077c5d7f0d3",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2211,
+        "total_tokens": 2437,
+        "completion_tokens": 226,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.3689073715358973,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nofeedbackpriorcall2",
+      "request_sha": "444ccfb05283f27cd705323bd435223984a6be816f873e19186a56d2b0fe123e",
+      "response_sha": "173351b0634544a29c009b88ab4d0ea496dd0af72f99923064d1cda46947c2e1",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2320,
+        "total_tokens": 2509,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.686097647063434,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nofeedbackpriorcall3",
+      "request_sha": "1faae2d4a0c4311ed055d24a6e7099b3d33f34278fdbefe65ba32cb8b78ce289",
+      "response_sha": "a097ea4d0c03d25d03869e6f58124f02b3ca4a729b480c811bf6c4157c0dc562",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2440,
+        "total_tokens": 2629,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.73766415938735,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nofeedbackpriorcall4",
+      "request_sha": "c0075b9fe49cad7b8a24f90ebbec1161365c4bb0985920a22913be01e5d08fd1",
+      "response_sha": "978a19b3193b469458ce33c2ca518f35e1e561f2a42762738a3c600b28be4496",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2560,
+        "total_tokens": 2749,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.6605351539328694,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nofeedbackpriorcall5",
+      "request_sha": "d76fd76810b87d3306750622468750991e71c1e9fcc0e0d25f12c371cb654929",
+      "response_sha": "66ee074105babc37fd2183c0d46ef66be025d968e598cbe0f9c489a96dad54c6",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2680,
+        "total_tokens": 2692,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.26293902937322855,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nopredictivecontextcontextcall1",
+      "request_sha": "1f85051b0ca8686611bf769b267e470e1ad4f85cfa5037b29633f3eac54c4da2",
+      "response_sha": "bad8772a39a86b189c0f825ed02d406b9bc0f3242a1e0a2b9d1aa487dfcee21f",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2281,
+        "total_tokens": 2618,
+        "completion_tokens": 337,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.944445335306227,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nopredictivecontextcontextcall2",
+      "request_sha": "451a5d91a43db3d38f1799188b7b1e626d6e86dc0dfa7610b90344dc734947be",
+      "response_sha": "e36957f31a4024057ff8bfade66e7e39f2d03c0cf1e5a2e2605fa04ad1556eea",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2336,
+        "total_tokens": 2617,
+        "completion_tokens": 281,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.9872545059770346,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nopredictivecontextcontextcall3",
+      "request_sha": "e366cb69007c4681817a9cee2d4d92c7fd549ab6a260170da885e2d2a18eb404",
+      "response_sha": "d93537b1146f411147202470f60c094200cf0e3716e319baac8257296805fb3e",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4014,
+        "total_tokens": 4270,
+        "completion_tokens": 256,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.815865752287209,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nopredictivecontextcontextcall4",
+      "request_sha": "cad1146e074853623f6a7eaecf19f0a902125a4b9e79c9d95d0f8490bbccb9b0",
+      "response_sha": "da328a1a59b266262dcd286e0e01537f8c7490474e11a904e03e963b5ae04d76",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5000,
+        "total_tokens": 5256,
+        "completion_tokens": 256,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.899194812402129,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nopredictivecontextcontextcall5",
+      "request_sha": "5eaa80866742ef452d98209fb56d0f81d0a0615dfbd446847f77aa51cd5f8f2a",
+      "response_sha": "168f0fde97292158f9781756db69350c1164b1afed4fd1b53df4d26b127fb3a8",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4085,
+        "total_tokens": 4097,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.4446139056235552,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nopredictivecontextpriorcall1",
+      "request_sha": "98747ebc54b880bcaca76a662ff20a0d7dc8027909d81e5e6df30cd9a511352c",
+      "response_sha": "b702786054d87d46913294dfe7cfacc15c7408baba386b8f7c44c97bbbe4a91e",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2161,
+        "total_tokens": 2387,
+        "completion_tokens": 226,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.2331073451787233,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nopredictivecontextpriorcall2",
+      "request_sha": "64c81aa7a73d46ce72aa983d172dc98868b905e486a7b591caaae689852f2e61",
+      "response_sha": "af7acfbdef0451564255e130df3180917d765ab1721259ce7de6481ec24766d1",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3850,
+        "total_tokens": 4017,
+        "completion_tokens": 167,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.443468602374196,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nopredictivecontextpriorcall3",
+      "request_sha": "deae0ad0de51b209c580725f01b5d8dc473124209ad2f4f4e49a2c57fa709512",
+      "response_sha": "376303e06049f272142c6e5457d5b99aedca8c562b0e408e9777b0a834347d28",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4650,
+        "total_tokens": 4817,
+        "completion_tokens": 167,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.4569126423448324,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nopredictivecontextpriorcall4",
+      "request_sha": "9a5a3a109547ce45a5739f662c2bc6ac03709a9e13931cd2811e34ab97637099",
+      "response_sha": "bf83b27b75b807e075b4f4d57cbe177c0adca2cd8e301af33fe4dd6c3cbb6614",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3839,
+        "total_tokens": 4006,
+        "completion_tokens": 167,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.4158670753240585,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1013nopredictivecontextpriorcall5",
+      "request_sha": "0309784f21cc8ccaa0889fae59da5927982bfb7db9bf13a0bfdae62bd46c07aa",
+      "response_sha": "ba5f68d9a359b2375bd74249d3121e8bc081087a4771237709bd9f8056d36635",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5511,
+        "total_tokens": 5523,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.2883729850873351,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014fullcontextcall1",
+      "request_sha": "a8895dd7a94dace7c44948de87210ccbcf18b3f7da7a3619d2acf6d8fec6de72",
+      "response_sha": "88d469253cdfa1c9ca415c26e5d01dfe9abe45e7e32159b11c8a4cc18ef2218c",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2218,
+        "total_tokens": 2499,
+        "completion_tokens": 281,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.151903438381851,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014fullcontextcall2",
+      "request_sha": "eecd92735902347d5331f947d853daf4a4fdaad784f9db583f34b3aeba25cec7",
+      "response_sha": "9d2a588fe37d3dccdfa8f8d8fe0391e94ff3a410339b6ccc6e1984fa709e1f98",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2273,
+        "total_tokens": 2554,
+        "completion_tokens": 281,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.9012269796803594,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014fullcontextcall3",
+      "request_sha": "1141ab8baa4eea99b27587988773379f02df61fbc91127d17c850aa0f1e8dfcb",
+      "response_sha": "423e10cff7c1cca3c5c38243b40015a12a951ef94ff42fe55053ed564bfd2f5e",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3819,
+        "total_tokens": 4049,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.41381923481822,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014fullcontextcall4",
+      "request_sha": "1708828e0d69bcf330be93ae8ddb26fb4051c7899fbfd9b26f224d9f4f51c4d1",
+      "response_sha": "966356865f1ab3c932ddc0f4a2dced526dd69f90ad430bb88f9234f3ce5af413",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4673,
+        "total_tokens": 4903,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.516856043599546,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014fullcontextcall5",
+      "request_sha": "05c568b0a22b08c46ca3f22a97b2917a4823a71973a916f69d27a5e889da5257",
+      "response_sha": "54d677a6a8490e4a4f472f07359c17f6a97b2127c88dd024167ab88d68de473c",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3857,
+        "total_tokens": 3869,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.37446904741227627,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014fullpriorcall1",
+      "request_sha": "e5cff1a78359aa4c6c3733eb8facb1632e832cdd4453fc6e8fc56959d6d78998",
+      "response_sha": "1fdf06db61e882338febb887d2382798d5b873c16474a2bb0553db97d0d8e14b",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2130,
+        "total_tokens": 2356,
+        "completion_tokens": 226,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.3840718092396855,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014fullpriorcall2",
+      "request_sha": "14b724187138f5bd7c1fb53cca5c392f9ffd4271cd79a0c20e819758af2420a0",
+      "response_sha": "df196b24a9ae36849704edc101b12f387c7d09857cae5f3d4beedd0276866407",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3651,
+        "total_tokens": 3840,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.989418813958764,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014fullpriorcall3",
+      "request_sha": "eb62766fbf9ebbb6645ee7286cbab5eb8bac41497749b6b9a615f65d1257faf8",
+      "response_sha": "8d98e95e5e2dfa55d068f384e5b22b7b3b670b4ceffa1b0632913264d4383911",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4455,
+        "total_tokens": 4624,
+        "completion_tokens": 169,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.7082360964268446,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014fullpriorcall4",
+      "request_sha": "118887d80b54dc60132f86efc20c0694f7359eddb9895a84a7feec9bd6de6c12",
+      "response_sha": "b2f8dbf68414b62df079e7dcce907a2987aff33753bbbf8ff47288fd6ab32689",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5188,
+        "total_tokens": 5357,
+        "completion_tokens": 169,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.75125006493181,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014fullpriorcall5",
+      "request_sha": "398361220d069906fb062b7290802fc8769215eb42aa9a8aae07322fafdd92b4",
+      "response_sha": "41766e7d4e6fc5c349cadd61abfe10dd898d8c9802225ed1e21ac0f865b75770",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4442,
+        "total_tokens": 4454,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.4737290181219578,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nofeedbackcontextcall1",
+      "request_sha": "5c2f4165b19c4d9279b00805d76a08f915ff8cc043c5d5e537a9d167b42043b9",
+      "response_sha": "b04085132938c7873f6ce47cbbaa0542ae00e3ae1f9b54a1c74534704b9624c7",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2268,
+        "total_tokens": 2614,
+        "completion_tokens": 346,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 5.0076767690479755,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nofeedbackcontextcall2",
+      "request_sha": "11ccc5525882c716d8613dffe2a9160b62ccbfd7e10b1c59831cafae62ce68c8",
+      "response_sha": "40feee9fde60c497c19d19e977980a7c8f2876b83089e13b953f94854f660aa4",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2439,
+        "total_tokens": 2768,
+        "completion_tokens": 329,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.612641537562013,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nofeedbackcontextcall3",
+      "request_sha": "3c0d7458d95905ada7535a7c6c92033e9bcbd75280c5245bf0f6d64dfc7b9e41",
+      "response_sha": "68fdab5b863c80a30bea67b2715711d10892463e54259392e8e291993a5ba7b0",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2664,
+        "total_tokens": 2995,
+        "completion_tokens": 331,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.707388035953045,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nofeedbackcontextcall4",
+      "request_sha": "f099ba64a48407df25fec7215a17bc0827489840bef0fc06bab600264ba1d132",
+      "response_sha": "61fc228f1a286dbdc92bf2937f903cf7b51764bf17ed8b1d7c3e62c43e298219",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2891,
+        "total_tokens": 3203,
+        "completion_tokens": 312,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.469213568605483,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nofeedbackcontextcall5",
+      "request_sha": "b72273c4c36902c3aea0ee7de72b99beac9d50189fc5e68b35dfd1cd780451cd",
+      "response_sha": "7d80ea034d88bec5b45f16afa42b551fdf40dce8dc9f7a5984ed737bfef59464",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3105,
+        "total_tokens": 3117,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.40085028391331434,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nofeedbackpriorcall1",
+      "request_sha": "a6a89ed2ca542e120f74b368ab0ddc5465bd3dabab34fa64cb77236ae382dc09",
+      "response_sha": "8805afb98beea0755d7e6d5c38ef026603894d81807c42c1624b71c5fb8d3649",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2180,
+        "total_tokens": 2406,
+        "completion_tokens": 226,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.4302305169403553,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nofeedbackpriorcall2",
+      "request_sha": "5656bb42c17f8e07e779ab86d25caf514461e8c0d6a82598602db8e55f46e82d",
+      "response_sha": "f48937e20f27f13cd94aca2d008b802aff552163fd42f4c968c6f5c5173d468f",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2289,
+        "total_tokens": 2478,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.726499901153147,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nofeedbackpriorcall3",
+      "request_sha": "1bae30bc09a68947a91b6fd5afd95f1b86c5b8494d585a9a05e6b6cc0b07657e",
+      "response_sha": "c1bc60dfb77485fa66b5762f84bda27469fe37d1386d5c85691cf4e156dbb3c0",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2409,
+        "total_tokens": 2598,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.7460035011172295,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nofeedbackpriorcall4",
+      "request_sha": "941a931be8a8bcf06c83412f0984b5f7329c1c535250971b227b1c9f46934834",
+      "response_sha": "a4e9f6f952e3e6b56da395e8213f06d2b1d3142c24679bf1ce68fe4ddd0b7fbf",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2529,
+        "total_tokens": 2718,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.685503584332764,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nofeedbackpriorcall5",
+      "request_sha": "a167eaa9eb0f94a041d72f8214542483badf32ec1c6d49e851f57ddff1f8ba57",
+      "response_sha": "d1cea600df505cf8a0b2c3f3a6d55ce6a873b57ee2fd59ff5d5897523eb48b9f",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2649,
+        "total_tokens": 2661,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.4099016059190035,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nopredictivecontextcontextcall1",
+      "request_sha": "17094c739e23ac4a34fadf66b620871e18b41a14ca094d7072d1d3047ef73ff0",
+      "response_sha": "ab1ea65ad9c61ba6c0dbb799024637a8dd9ed856e4c505f06722a2a1da5584e5",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2250,
+        "total_tokens": 2499,
+        "completion_tokens": 249,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.7165076406672597,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nopredictivecontextcontextcall2",
+      "request_sha": "3916dcd5e5bf1cd0d79d8d1e10cbaa59fdb421baabbb0d1c3350e80e47100c30",
+      "response_sha": "367528c2c1c08511ed3bdc796345fcfe3e7f647f6244d243760d0ccf3411f4f0",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3799,
+        "total_tokens": 4029,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.437918313778937,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nopredictivecontextcontextcall3",
+      "request_sha": "13e9dd347dd776dcf65d320141490f025af76bdfa78b7ab058a7593cf3ee3edc",
+      "response_sha": "9f5405a1bd6b90ab32cd75470043163560508dde9c5d25c1078e8b540254fe68",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4679,
+        "total_tokens": 4887,
+        "completion_tokens": 208,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.198571003973484,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nopredictivecontextcontextcall4",
+      "request_sha": "8c93efc54030cbbf9e39067219853796d4c3db403474b5f7b7782d51a49db831",
+      "response_sha": "a1367b2f0ee86e7332be40a0a138a7c11556b076464cac6d88b3af528df323fd",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5455,
+        "total_tokens": 5663,
+        "completion_tokens": 208,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.290739009156823,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nopredictivecontextcontextcall5",
+      "request_sha": "8649abce3f9d0c793a362d20cab95e78091933ecf2d4036ddb559bc12bd35529",
+      "response_sha": "488d8b1ee7b38e9374720f502b8637ab34021244fc3a8231f3f9deb15509e19e",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4665,
+        "total_tokens": 4677,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.5420420430600643,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nopredictivecontextpriorcall1",
+      "request_sha": "e5cff1a78359aa4c6c3733eb8facb1632e832cdd4453fc6e8fc56959d6d78998",
+      "response_sha": "240562e192de32749229b57cf77aa27555ccc90724913542d153ab913bd80eed",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2130,
+        "total_tokens": 2356,
+        "completion_tokens": 226,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.250092113390565,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nopredictivecontextpriorcall2",
+      "request_sha": "14b724187138f5bd7c1fb53cca5c392f9ffd4271cd79a0c20e819758af2420a0",
+      "response_sha": "8549d89be9e926e9e260f0f77bedeb9e4d076a9c7dd9ae432864a9c77d48c4ef",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3651,
+        "total_tokens": 3840,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.757781465537846,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nopredictivecontextpriorcall3",
+      "request_sha": "eb62766fbf9ebbb6645ee7286cbab5eb8bac41497749b6b9a615f65d1257faf8",
+      "response_sha": "daa9144e6860b58484a019b9291ee1db0e8c4f1410df39ed20933b835734b594",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4455,
+        "total_tokens": 4624,
+        "completion_tokens": 169,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.470992502756417,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nopredictivecontextpriorcall4",
+      "request_sha": "118887d80b54dc60132f86efc20c0694f7359eddb9895a84a7feec9bd6de6c12",
+      "response_sha": "4333481f1b28d1714c1deb5debdab32f983b37ef41038852ae4adf53b1f6548f",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5188,
+        "total_tokens": 5357,
+        "completion_tokens": 169,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.4709488935768604,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1014nopredictivecontextpriorcall5",
+      "request_sha": "398361220d069906fb062b7290802fc8769215eb42aa9a8aae07322fafdd92b4",
+      "response_sha": "75d3a69e4687ba91fe14905aa04bc5f4ff8cbdd3c6bae31afff99822b3b5bb16",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4442,
+        "total_tokens": 4454,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.3185184057801962,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015fullcontextcall1",
+      "request_sha": "34b51dc2ae01eb7b2f185fdf63fb077fce196dc57979ffaa4fea19d844e74522",
+      "response_sha": "82ad752cad3777f7c73d5414da5987c67fe9af54ce8bfcc5e15443b098354095",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2282,
+        "total_tokens": 2647,
+        "completion_tokens": 365,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 5.280604816041887,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015fullcontextcall2",
+      "request_sha": "e5a1a03a5ac28189c2df0032fd6b5a638870dca4a8484d495fe57df67efe033e",
+      "response_sha": "4d444199cf5b4d64702968e6c68bfc31c8982498f52624b257e01a9bf204e0a7",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2337,
+        "total_tokens": 2617,
+        "completion_tokens": 280,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.876213202252984,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015fullcontextcall3",
+      "request_sha": "8bb68d9b5137872c891856762a8a606da402b1220bf8e7e16c5a47f885d2af00",
+      "response_sha": "0a3604e5c44fbeafacb32313f19d45183338545af0dc7ffe0bbc674bbbae75e9",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3931,
+        "total_tokens": 4185,
+        "completion_tokens": 254,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.735145446844399,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015fullcontextcall4",
+      "request_sha": "a0ed494ac0eec4cc10580622cb7c49a0c3c2beff6df91df7c5ae4cb6da5e90f5",
+      "response_sha": "76164ab5cea82f9211a14817f681dd7c1fc379c8f9d72c0b72a4ac4c247c7833",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4867,
+        "total_tokens": 5121,
+        "completion_tokens": 254,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.8859162516891956,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015fullcontextcall5",
+      "request_sha": "a61dacfbd9326247e4fc31276a537cf8bf010037d2e31fe03e00cfd57c63aae2",
+      "response_sha": "b14cc8da43435d296623b9201f31c2a2f2e96e6f641a1335a1674f18dcb8d817",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5750,
+        "total_tokens": 5762,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.6162463407963514,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015fullpriorcall1",
+      "request_sha": "f4582bec4ef333c5782c54a507d329d9bc01e4350eb433a0963631c8de1ef14f",
+      "response_sha": "053b4c2d845386397ecd39d9dc21091739330205abb3715cacba3af860469e23",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2143,
+        "total_tokens": 2369,
+        "completion_tokens": 226,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.368314259685576,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015fullpriorcall2",
+      "request_sha": "a98ffa50bf7eeaa0a010100ab820ae1d659942b62191359713e63e1d46deb439",
+      "response_sha": "c2a0f95e30f9a759bf7b2858828b4978642df7fadd50caa4f0b89d0249bd97cf",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3720,
+        "total_tokens": 3889,
+        "completion_tokens": 169,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.762564167380333,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015fullpriorcall3",
+      "request_sha": "fe895c17d7c7521814aca94ee918c1fd78e18d9e751e5dbebce4baf6f8bce171",
+      "response_sha": "1487e4361862dabf29fc968f6c16f0c5c4c219d34edbd7caaeb54a95ae242b0f",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4512,
+        "total_tokens": 4681,
+        "completion_tokens": 169,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.7084252759814262,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015fullpriorcall4",
+      "request_sha": "c8bb84b5f408bec6d353113e1915933dcb69aa8f728ff445477b4b22afd20a17",
+      "response_sha": "751c179b5daa7ab186ca7d1f0e1c861fa93fae3d61ff7dd22013b21af1c205bb",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3733,
+        "total_tokens": 3901,
+        "completion_tokens": 168,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.5637159952893853,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015fullpriorcall5",
+      "request_sha": "9f76c1daba3022c7261d61982b2b6a3f63ee13d4e3e6447d100d703b133c22c0",
+      "response_sha": "585246e511744c3947180458904fe4d68d147fdfef7fd16063224d7950ba6a0e",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5301,
+        "total_tokens": 5313,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.6305605247616768,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nofeedbackcontextcall1",
+      "request_sha": "d86dbdd52954911b1bbba290e7668d93140a3ccc4a7f0d9b0f904b02a249a803",
+      "response_sha": "08e286de9697a949aba8fda87940baa0d3d9d1e3f869408d1f281e3522d511ca",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2332,
+        "total_tokens": 2579,
+        "completion_tokens": 247,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.7172240493819118,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nofeedbackcontextcall2",
+      "request_sha": "69624f27b87766bb8ce829b1de81b114ceddaeb9d0783e59af7261c5c5cdacc8",
+      "response_sha": "47d018e66f2650a406b847239bb09367787c633579b72852f1df413a8cb22ea7",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2448,
+        "total_tokens": 2634,
+        "completion_tokens": 186,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.67324694711715,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nofeedbackcontextcall3",
+      "request_sha": "09bc138723bbbe5f5414985d65dd182673ab83c747db307763b85bb1cc1899c1",
+      "response_sha": "27506c9365c006c70b1841df332b33ea54e494f836ab738abd5d23ba16ece5b5",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2564,
+        "total_tokens": 2750,
+        "completion_tokens": 186,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.671612392179668,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nofeedbackcontextcall4",
+      "request_sha": "bf772a9c24caf1bc3af1996591d5733b690783cb77774a3976d59c0adeeb087d",
+      "response_sha": "3de7af16d9ac5371c1384e58631d236b8a62bab8b00a0e0a29469cabb8c0bbd0",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2682,
+        "total_tokens": 2868,
+        "completion_tokens": 186,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.734355396591127,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nofeedbackcontextcall5",
+      "request_sha": "e055bf5f3accc24516b5c557a0cb93f17826e9933115a9d307ac7d76dda26f14",
+      "response_sha": "3c432a7d45b331344b7ebebfbeaacbdf69bb23680d2526ef29fef1c4f631542b",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2800,
+        "total_tokens": 2812,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.35389149095863104,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nofeedbackpriorcall1",
+      "request_sha": "941c3c62477f94dfbb40e197963ae203d07f2a641e4493124aeb7a76cb2bbb48",
+      "response_sha": "a6afa096cf81ab061db476b200876743c7d8d30169320a540a9f8209f769d660",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2193,
+        "total_tokens": 2419,
+        "completion_tokens": 226,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.389321206137538,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nofeedbackpriorcall2",
+      "request_sha": "dd697b49cfaf463d7981db680b1f533e0eefa93c02bc2e610b2cb1d3678a8236",
+      "response_sha": "c8cdb21acea3f54968ed9f0fb73d767f10daf5ab96f1d6d4c85753b857f23e10",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2302,
+        "total_tokens": 2491,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.7586019160225987,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nofeedbackpriorcall3",
+      "request_sha": "9f7ea4d72565ddf074238929f449b98c65988255acd1539c1a52a658b02018a2",
+      "response_sha": "80964aa33dcfd1d0f28421ddcbb683d7b5430b8ccf76c738a0d982acdfe9c555",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2422,
+        "total_tokens": 2611,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.7314886646345258,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nofeedbackpriorcall4",
+      "request_sha": "294660b90412a88351cce50aad83029a59ef686c32d168f9de2f80efd13bd63e",
+      "response_sha": "6de50298b9fadda876e5290d19a349f12ad422387080bd0526b7bb3c4205b0d4",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2542,
+        "total_tokens": 2731,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.7381765572354198,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nofeedbackpriorcall5",
+      "request_sha": "41ff30d933f0a6bc458ef823eeac087f521068c9706c9bd7f9c421f42fb0b32e",
+      "response_sha": "a0459e517c55b6a42dd10d560bd1f0cc7e619719737f645825d4dba44f0c7db7",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2662,
+        "total_tokens": 2674,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.3633411703631282,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nopredictivecontextcontextcall1",
+      "request_sha": "4a73a87ecd430719493bc25a37ce4653be736567ac78d463f881197c483fa6b0",
+      "response_sha": "56df05c536e7572b52c3ce75dbccbdc083083db0f1717a529ffff8e9ee3a23f3",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2299,
+        "total_tokens": 2602,
+        "completion_tokens": 303,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.486753429286182,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nopredictivecontextcontextcall2",
+      "request_sha": "79e9afa67eb30dbe0fce1fb773df145b494147f697f483c04bda7dcedbbb2132",
+      "response_sha": "3ae6838067b9a9bdfa835706b4b5c53857ace4919662a05569deef661ca61092",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3996,
+        "total_tokens": 4226,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.4087250884622335,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nopredictivecontextcontextcall3",
+      "request_sha": "b1065332fc9d8e7d695c9f3d86ff9dbb0a44e3056b89da9a9aea7283b6336fb9",
+      "response_sha": "e7e6f9aaf8ffe21b40802f048053c204728476fbc11fed0bac50011d10ec5615",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4856,
+        "total_tokens": 5086,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.511050872504711,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nopredictivecontextcontextcall4",
+      "request_sha": "abb04f3adabe9743e3c9805320e42a9eb537199379762150502247e3c01539fc",
+      "response_sha": "d63b0fb6950c7790a2ec965ce52f2d5d5eb988f2d130be17175d3daae3c7c149",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4013,
+        "total_tokens": 4221,
+        "completion_tokens": 208,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.1527458438649774,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nopredictivecontextcontextcall5",
+      "request_sha": "60cd1e1e0b7710760b80c5ff9a7f46e716d2272a648193b58638dcc9ba917125",
+      "response_sha": "fada0eee42359ff31ded45a58461380719a9adccb7652173733f9f5a9f70cfba",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5663,
+        "total_tokens": 5675,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.608499369584024,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nopredictivecontextpriorcall1",
+      "request_sha": "f4582bec4ef333c5782c54a507d329d9bc01e4350eb433a0963631c8de1ef14f",
+      "response_sha": "b0eb1fbb68879de2a19ee6bc85bbd448ac391716da167dc2b52ad7813d7b27a4",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2143,
+        "total_tokens": 2369,
+        "completion_tokens": 226,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.2428616378456354,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nopredictivecontextpriorcall2",
+      "request_sha": "a98ffa50bf7eeaa0a010100ab820ae1d659942b62191359713e63e1d46deb439",
+      "response_sha": "58604f28ce6cc620def200ef1f50f1d1b3c88c98ca71366ff9865d5ce32868f0",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3720,
+        "total_tokens": 3889,
+        "completion_tokens": 169,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.4130994277074933,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nopredictivecontextpriorcall3",
+      "request_sha": "fe895c17d7c7521814aca94ee918c1fd78e18d9e751e5dbebce4baf6f8bce171",
+      "response_sha": "7948c43a19a7e29c2a88c2caa0b9e6a95d1dbb42f7f32ea54ff8c33710f04006",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4512,
+        "total_tokens": 4681,
+        "completion_tokens": 169,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.4817432602867484,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nopredictivecontextpriorcall4",
+      "request_sha": "c8bb84b5f408bec6d353113e1915933dcb69aa8f728ff445477b4b22afd20a17",
+      "response_sha": "01c9e787546e10a381112bc2b67805e22a069619fe09d00d9e9925a0078c1b89",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3733,
+        "total_tokens": 3901,
+        "completion_tokens": 168,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.4555927645415068,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu0/requests/Semanticsemantichospitals1015nopredictivecontextpriorcall5",
+      "request_sha": "9f76c1daba3022c7261d61982b2b6a3f63ee13d4e3e6447d100d703b133c22c0",
+      "response_sha": "fd14d86066a3eb815b4ec9ffcb92afc972214bb30542227cc10d5718616bce5e",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu0",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5301,
+        "total_tokens": 5313,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.29420272540301085,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013fullcontextcall1",
+      "request_sha": "924623940cffca7db4a1086767c023c7df06f3319bbcab10d76938d262754d88",
+      "response_sha": "2a145252156f8d52885eb9e6c4c3c33f45d63b15a158f366b0a45dbe76602047",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2059,
+        "total_tokens": 2339,
+        "completion_tokens": 280,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.088343509472907,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013fullcontextcall2",
+      "request_sha": "f13acc742afd3a1c521990decacfad1aa86974784793a71750d70d74fb28cd93",
+      "response_sha": "3265cce262499434276709058c5c926081481c524cbc509c4b8172bdc7ee1ca2",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3344,
+        "total_tokens": 3574,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.352504297159612,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013fullcontextcall3",
+      "request_sha": "13aef4e449e9d99329e876b626c193e0412c795131207adf1611e06691a6cb1d",
+      "response_sha": "4b8f722e4f06cfc91fb3650475a353d624b8b51e8989d57087a66fd5b8690d4b",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4038,
+        "total_tokens": 4268,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.4275213312357664,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013fullcontextcall4",
+      "request_sha": "ac882e415aac952ba8289ff0570b4ed310f4569d651c5bfa465d3df1da801021",
+      "response_sha": "c601752890d96d7a5bee89445dae259b94410834cb78582e8322303092059b01",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3381,
+        "total_tokens": 3611,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.3633274296298623,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013fullcontextcall5",
+      "request_sha": "1809b218a04eeb3b34044c7737cff5ec80e7a62daa2bb4d605167049d2432883",
+      "response_sha": "79d628075db76e08b1678cae0eeeaabee20292d25e4536ea38caa822cba8d629",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3381,
+        "total_tokens": 3393,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.3727796673774719,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013fullpriorcall1",
+      "request_sha": "c0d5c0443fb92a24e7b43d2a86529a07cea321ae6301a6c0c637c2055a90f1bf",
+      "response_sha": "868a40e7a7eeb4b1833750128f18c7107ccb80482892d63801825375b65a521f",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 1986,
+        "total_tokens": 2184,
+        "completion_tokens": 198,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.475530117750168,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013fullpriorcall2",
+      "request_sha": "3e3c4dccaaea4dcafc8cffb89badd2771366ba7634fdb3728baa9fa4ea11229f",
+      "response_sha": "d25a00865e12bc120460adfb0ca246ee602f1c53878ac49e46ad20cd6bceeea1",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3161,
+        "total_tokens": 3352,
+        "completion_tokens": 191,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.7987816305831075,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013fullpriorcall3",
+      "request_sha": "7a073faa818b95048132231aebfb47590be0d316ae4c0963448eccf3e7efac98",
+      "response_sha": "1f7fab4824922056ac2d4aa9bfe54187bb7825f65cfbe965b2a84cbad1c19ab1",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3872,
+        "total_tokens": 4082,
+        "completion_tokens": 210,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.1064058635383844,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013fullpriorcall4",
+      "request_sha": "4a525619da398200e48369f4a9644784e6d6e28be21c3f6c37243791a7acf8de",
+      "response_sha": "4382e689ca983d2cdac46ff8cdb16524ba615e9f826d434a37f041b4fd3f6d47",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4562,
+        "total_tokens": 4772,
+        "completion_tokens": 210,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.1716765826568007,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013fullpriorcall5",
+      "request_sha": "4b2943f2f6833fbd7f036bc1c00278156bdada3f2b4ab79eb1d87b65843a3009",
+      "response_sha": "a720fa84f78e369536ebea9f4b3661dbcfdb2f0aed90a2dc9e7a31abacbaa441",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5242,
+        "total_tokens": 5254,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.5259018996730447,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nofeedbackcontextcall1",
+      "request_sha": "08588a5916d7dc82ae4bdd55952f2627c8f2c378d0eae54ef527bc67f23cbd72",
+      "response_sha": "360b9b471ef37f589748057824394dee31a5377137375afdc5586c96f5bed043",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2109,
+        "total_tokens": 2332,
+        "completion_tokens": 223,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.3432813538238406,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nofeedbackcontextcall2",
+      "request_sha": "f66f8dfcde012e7ed06a933c4d2e40c2969b5e9891aa8352a7ea6434518514bf",
+      "response_sha": "b57a6fe615bbadc68ff02ccaacd5e4fae44c32ae4a74a635b54a899e75e3710b",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2216,
+        "total_tokens": 2426,
+        "completion_tokens": 210,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.0327900014817715,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nofeedbackcontextcall3",
+      "request_sha": "f733ef89d0346a97ab979490373525d4d73d4b15e96a4e31489312fc672dd7bf",
+      "response_sha": "34648febcd538a1bde03ad57f690c35a8a04f5a4d22a10c0caaa55f168252693",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2352,
+        "total_tokens": 2562,
+        "completion_tokens": 210,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.9592616073787212,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nofeedbackcontextcall4",
+      "request_sha": "52207c53a4eea8fba96d89c9988093ad9dc064c2e3888efbea8237382a48fd99",
+      "response_sha": "266757428b6b0c84bfa200af78bbfa5c0a5aab1c24c2c8c730dbfb1f4cbdf9c8",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2488,
+        "total_tokens": 2676,
+        "completion_tokens": 188,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.73939910531044,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nofeedbackcontextcall5",
+      "request_sha": "4eaa02f226386e6fd709670b4bc40f00c0f15615c3b253922735d77551e5d6b4",
+      "response_sha": "1aae2710ec137fb6944c7eb25fda5f4b05f32bcd8fd3c387fd199dc575e7f7bc",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2608,
+        "total_tokens": 2620,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.3561236998066306,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nofeedbackpriorcall1",
+      "request_sha": "759a768812550339b5888f4d1541aa7743f547ea6f8e88a54669a31aee435859",
+      "response_sha": "75bce736af5b8d0778466d372d8352299afb2704e13600f828805aa978054ce8",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2036,
+        "total_tokens": 2234,
+        "completion_tokens": 198,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.985787839628756,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nofeedbackpriorcall2",
+      "request_sha": "061126f9a7a6e7710b6ec20879f3a2f9b01020c833d1d6b3f470962f97566d3b",
+      "response_sha": "11c58206dc7956680c95019d4d52ff26516c1422dba9d62b5186cd34c6806dd2",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2130,
+        "total_tokens": 2319,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.6778440410271287,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nofeedbackpriorcall3",
+      "request_sha": "7cf1915ac87baa3f9259322a8c0ddc29bcadf101d809609275786b7e948b5c28",
+      "response_sha": "45e8e30d971cd7d3c4e336664ec5f3f3706dd172a7f3ab73103e19ec0748b47e",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2250,
+        "total_tokens": 2439,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.7553529273718596,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nofeedbackpriorcall4",
+      "request_sha": "9944db9d868bf060128cb2ffe6b4478bdd3b05c29723e807413a68cdc09e4e98",
+      "response_sha": "03a7b6bfaa126bd0c31593f0a7790f2cd9975780571a2004b7c67736f4df024b",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2370,
+        "total_tokens": 2560,
+        "completion_tokens": 190,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.7641023974865675,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nofeedbackpriorcall5",
+      "request_sha": "1da38d31f0a4d490331cc04512c14fda40065b3dc1ac9c6bcdb5368d59ed87ef",
+      "response_sha": "8f3c8d1413c761262854e2db040c83217b17365f3b274a60bea7383c243f79b6",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2491,
+        "total_tokens": 2503,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.28835116885602474,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nopredictivecontextcontextcall1",
+      "request_sha": "924623940cffca7db4a1086767c023c7df06f3319bbcab10d76938d262754d88",
+      "response_sha": "35baac3dc9311f51062133f3826cffe739fa7cb03b8e6d98e278b19d6d60fd13",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2059,
+        "total_tokens": 2339,
+        "completion_tokens": 280,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.955468232743442,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nopredictivecontextcontextcall2",
+      "request_sha": "f13acc742afd3a1c521990decacfad1aa86974784793a71750d70d74fb28cd93",
+      "response_sha": "3ffd51e125eacf17d83dc9ad3795bf0cfeceb3b03d61788003a5b7f11f96a23d",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3344,
+        "total_tokens": 3574,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.247782427817583,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nopredictivecontextcontextcall3",
+      "request_sha": "13aef4e449e9d99329e876b626c193e0412c795131207adf1611e06691a6cb1d",
+      "response_sha": "45cc6946e834924b3631327668a1d4ecce1303c5971f5db7251792ae8b8f4ec1",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4038,
+        "total_tokens": 4268,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.3139665788039565,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nopredictivecontextcontextcall4",
+      "request_sha": "ac882e415aac952ba8289ff0570b4ed310f4569d651c5bfa465d3df1da801021",
+      "response_sha": "c4a64e0025e751a0e4744227e033a7aa1c0f3249a38b4e4dc003b81f66e9abcd",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3381,
+        "total_tokens": 3611,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.2318475395441055,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nopredictivecontextcontextcall5",
+      "request_sha": "1809b218a04eeb3b34044c7737cff5ec80e7a62daa2bb4d605167049d2432883",
+      "response_sha": "f3e6e3bef4e0e7fc21d8a411df6d5dc7f25630b876112d82af0631892128fca1",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3381,
+        "total_tokens": 3393,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.3053975449874997,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nopredictivecontextpriorcall1",
+      "request_sha": "c0d5c0443fb92a24e7b43d2a86529a07cea321ae6301a6c0c637c2055a90f1bf",
+      "response_sha": "698ac1a7cde77878ded9febd26c7e1330363ca3cabf22be45193806e1ff38b1a",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 1986,
+        "total_tokens": 2184,
+        "completion_tokens": 198,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.8092855885624886,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nopredictivecontextpriorcall2",
+      "request_sha": "3e3c4dccaaea4dcafc8cffb89badd2771366ba7634fdb3728baa9fa4ea11229f",
+      "response_sha": "5f68f93c497c72376a769a7c04213ca6709d1a6b972891812bf643d79c551860",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3161,
+        "total_tokens": 3352,
+        "completion_tokens": 191,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.763101628050208,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nopredictivecontextpriorcall3",
+      "request_sha": "7a073faa818b95048132231aebfb47590be0d316ae4c0963448eccf3e7efac98",
+      "response_sha": "0e7a3972627e9a3d1f6b6d0d2bdca2c595afa4d49313d5c5d7846f1370c61b93",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3872,
+        "total_tokens": 4082,
+        "completion_tokens": 210,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.0249667009338737,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nopredictivecontextpriorcall4",
+      "request_sha": "4a525619da398200e48369f4a9644784e6d6e28be21c3f6c37243791a7acf8de",
+      "response_sha": "e4daca3c9343840fb146164a79258b8dd93bd6605e496d999303f4a5ae0190b5",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4562,
+        "total_tokens": 4772,
+        "completion_tokens": 210,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.038631921634078,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1013nopredictivecontextpriorcall5",
+      "request_sha": "4b2943f2f6833fbd7f036bc1c00278156bdada3f2b4ab79eb1d87b65843a3009",
+      "response_sha": "77bfeca1c655bdb7dde6756e3cfb4a4df1229af89fe15998d9688a6d135c02f0",
+      "seed": 1013,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5242,
+        "total_tokens": 5254,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.30946155823767185,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014fullcontextcall1",
+      "request_sha": "a1d7d46c4b313a664ad8de48e6f1994f1017810e8e3de4114a0f6613a550f681",
+      "response_sha": "ca534a5ed1142b59badb27d60bfda3afe2df485c6eb94105f869bcb1b3a1140c",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2005,
+        "total_tokens": 2285,
+        "completion_tokens": 280,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.080571824684739,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014fullcontextcall2",
+      "request_sha": "61ff96fc88c255dcccb2565b99229f099d72c4dc48d1c2ed7371b2675127be49",
+      "response_sha": "549d91c63dd7739c9fb5f41013a8c1bc3f34094c8bfd629cfcea0e306687daa5",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3150,
+        "total_tokens": 3406,
+        "completion_tokens": 256,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.670780380256474,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014fullcontextcall3",
+      "request_sha": "0abbc014f03cf8a20416c1f99e4da67ade0c2a9415f88722c69360aed0c0e772",
+      "response_sha": "084e1304ad737581dd4619d73e3031b2766abf24c6c7405aee15f855f6c8940c",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3848,
+        "total_tokens": 4104,
+        "completion_tokens": 256,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.9130879249423742,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014fullcontextcall4",
+      "request_sha": "ba0dd17883a9a0021f3814049bbe2e32be75f639012df462aaa0261dc005aadd",
+      "response_sha": "cfb7831f6e17fea06d13405b973f76edfd40616854e8314adc012308b2cb991f",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3224,
+        "total_tokens": 3480,
+        "completion_tokens": 256,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.699006254784763,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014fullcontextcall5",
+      "request_sha": "f9bcc20dd8a5f0feb3e2661a613d5908ad371e7e0e94f4e70132a10a5e2746be",
+      "response_sha": "b29d260ecc4d190de5302ee3db11289b2c6082e1dc1fda397cafe0f155f333db",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3224,
+        "total_tokens": 3236,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.34814507607370615,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014fullpriorcall1",
+      "request_sha": "a4f7db80c89405493b265a6b5621ddf971f1e967675a378f6218c5d9e25774e1",
+      "response_sha": "1b1dbc38369d04438df94629a5f962f07b618dfe162a2842a17c26a8164d9f7b",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 1932,
+        "total_tokens": 2159,
+        "completion_tokens": 227,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.4473071368411183,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014fullpriorcall2",
+      "request_sha": "b7b1d0c053e8a205bee079e0fb52c76439c8edbc64a81a78f87a84cdfe926ecb",
+      "response_sha": "a29b8c5805d8833494f6e0c650113590d7cb2f2a308bb44d32b4e3fbedbc2174",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3035,
+        "total_tokens": 3228,
+        "completion_tokens": 193,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.82464836537838,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014fullpriorcall3",
+      "request_sha": "e41f12093dd0d485e7bbd784eeb5d94b9bb279484cb96a3666a79468813fe81a",
+      "response_sha": "3226dc7ae5419370d3a252b4370384cdd2f05d41e6102bdebcc20e00954b7a11",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3638,
+        "total_tokens": 3831,
+        "completion_tokens": 193,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.8810942070558667,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014fullpriorcall4",
+      "request_sha": "a0547a9a1597d9b3431a0712daf8c33a37416e988a5615f0500d4a6f3b754d1c",
+      "response_sha": "670f512b06fc04434a42389d119c144fba449f9e62e4997078a2232957e50582",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4212,
+        "total_tokens": 4405,
+        "completion_tokens": 193,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.915110480040312,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014fullpriorcall5",
+      "request_sha": "9d36dd5d6a68883383791907afb4a8b4d8a3952f9b6ff3253143131d0053e47b",
+      "response_sha": "d92cb793dca61f17a5a72b4f20c8fec23e9cbfc7003a9f889aece2fe5eec35bb",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3648,
+        "total_tokens": 3660,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.3939343858510256,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nofeedbackcontextcall1",
+      "request_sha": "64ff2921416836f9ed8800d4c5b9a0746b9d4249f41feb741eac8851ba4201c9",
+      "response_sha": "6ec834dd8150a0321db8943c7843f46a651bd0450a11422a96405f8a82369784",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2055,
+        "total_tokens": 2335,
+        "completion_tokens": 280,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.072980682365596,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nofeedbackcontextcall2",
+      "request_sha": "56edb4c60997ae6f3232261961276ddc9fa373642ef3e9f85b4fdf6787f219b8",
+      "response_sha": "d5250d598d3bf52db96e7918332e1daa235a916f98c30c0088c1f8e679396d8e",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2190,
+        "total_tokens": 2446,
+        "completion_tokens": 256,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.6532938815653324,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nofeedbackcontextcall3",
+      "request_sha": "f597af4d496b583051bc7166fff892151ad13b3c1cc888a4c6844713953cb822",
+      "response_sha": "9b6e7be728375740736145dc11b2512747bc8315468cb2abcea51e0eeaa53c58",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2359,
+        "total_tokens": 2615,
+        "completion_tokens": 256,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.6223562518134713,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nofeedbackcontextcall4",
+      "request_sha": "8acb980c9ea357047568b03b0b4dc519390db9d05e05c7947bbae71a291d90c2",
+      "response_sha": "eb66c6bf12b0e3688dbb76fce7770e666e272fd5be48bb74d3fa6311acd5d7bf",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2528,
+        "total_tokens": 2784,
+        "completion_tokens": 256,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.657330075278878,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nofeedbackcontextcall5",
+      "request_sha": "8a1f7203639caa5b4af3dd7f836df0af8e048ca52e877523a4d421643c0b4a25",
+      "response_sha": "9e05c6f25159c036cddb5ddf6608684813b581af240013d7084f3bb7b5cc5554",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2697,
+        "total_tokens": 2709,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.33761118818074465,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nofeedbackpriorcall1",
+      "request_sha": "2217613fd242e9d478541bfb20b2798eed7beb72bd79a680cdd5bdaac528ae76",
+      "response_sha": "da5418d5402fd1a5bd5af8046d16ce2c6715dde8929fd9e5cef6422bdfc9a103",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 1982,
+        "total_tokens": 2180,
+        "completion_tokens": 198,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.988341696560383,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nofeedbackpriorcall2",
+      "request_sha": "7b72dd599d068fd2a997df181068c5ae4e56c64a27bf6ee0a71e3fc7c010a07b",
+      "response_sha": "e003909a44e463cc6a879cb929aa15748d0ca18eb89af144aa946f56fabf8a6e",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2076,
+        "total_tokens": 2248,
+        "completion_tokens": 172,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.415346849709749,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nofeedbackpriorcall3",
+      "request_sha": "b2ffc3689eb316feb68fcf2068ae1477c81be9731631f6e4aba21dbe604e6619",
+      "response_sha": "462c1e2a0c73910254129a0fc78f5f0461ef8c8f963031c25aea1e46fcb79f60",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2185,
+        "total_tokens": 2357,
+        "completion_tokens": 172,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.512314001098275,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nofeedbackpriorcall4",
+      "request_sha": "d382aac2bd6d2ef0f57c6df75d115ef8ba3103efa0eb19f302d526e9d6e4d55f",
+      "response_sha": "87209562727f3ee7df5b45a5907d225510291ad03b749e345a4f18feffcb9aad",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2294,
+        "total_tokens": 2466,
+        "completion_tokens": 172,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.5091468328610063,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nofeedbackpriorcall5",
+      "request_sha": "7f0374746f53bc44caa4ba8f90a1b25bd40d4dd798d0530dc4eb437d39072a5c",
+      "response_sha": "c4cb32336520931586bfb0e2fe8085ac6a7070908ff7b8b71a647045a62c44aa",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2403,
+        "total_tokens": 2415,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.2822967618703842,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nopredictivecontextcontextcall1",
+      "request_sha": "a1d7d46c4b313a664ad8de48e6f1994f1017810e8e3de4114a0f6613a550f681",
+      "response_sha": "d489c4393dd740a1070973070b317c77406a7b76e072ce9ba7b1d86f3456bcb4",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2005,
+        "total_tokens": 2285,
+        "completion_tokens": 280,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.9262076914310455,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nopredictivecontextcontextcall2",
+      "request_sha": "61ff96fc88c255dcccb2565b99229f099d72c4dc48d1c2ed7371b2675127be49",
+      "response_sha": "f738aa4624dc7bcc28894195129c45947ba3f5c58965def4ce90667956ad2705",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3150,
+        "total_tokens": 3406,
+        "completion_tokens": 256,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.636126690544188,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nopredictivecontextcontextcall3",
+      "request_sha": "0abbc014f03cf8a20416c1f99e4da67ade0c2a9415f88722c69360aed0c0e772",
+      "response_sha": "2e614a8e73641346d6e144b15d37a38fc6401f08d5ed95eddbaf65d47ed07c12",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3848,
+        "total_tokens": 4104,
+        "completion_tokens": 256,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.6173320431262255,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nopredictivecontextcontextcall4",
+      "request_sha": "ba0dd17883a9a0021f3814049bbe2e32be75f639012df462aaa0261dc005aadd",
+      "response_sha": "be1d7bb563791701a29c4c9d9c9e07e88a6711787f72fc9b1f86b0ad6a03507a",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3224,
+        "total_tokens": 3480,
+        "completion_tokens": 256,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.6298079900443554,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nopredictivecontextcontextcall5",
+      "request_sha": "f9bcc20dd8a5f0feb3e2661a613d5908ad371e7e0e94f4e70132a10a5e2746be",
+      "response_sha": "d24e62f68e06ef4705d55eda2980764acece0d9b715fff03653d773279c5387e",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3224,
+        "total_tokens": 3236,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.3199550909921527,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nopredictivecontextpriorcall1",
+      "request_sha": "a4f7db80c89405493b265a6b5621ddf971f1e967675a378f6218c5d9e25774e1",
+      "response_sha": "8800c786498feda028531141ed5ae774aec68c198ed22da6dc55877971142762",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 1932,
+        "total_tokens": 2159,
+        "completion_tokens": 227,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.234584840014577,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nopredictivecontextpriorcall2",
+      "request_sha": "b7b1d0c053e8a205bee079e0fb52c76439c8edbc64a81a78f87a84cdfe926ecb",
+      "response_sha": "42e78cee26ee8c2c81527d2a4f873ead0282f2bd34ddd55d9dd87c4ab2ff0758",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3035,
+        "total_tokens": 3228,
+        "completion_tokens": 193,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.732479807920754,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nopredictivecontextpriorcall3",
+      "request_sha": "e41f12093dd0d485e7bbd784eeb5d94b9bb279484cb96a3666a79468813fe81a",
+      "response_sha": "e3ade61912e4ac15c97ba151062f176dde712f1583a1763668ade865fac116d5",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3638,
+        "total_tokens": 3831,
+        "completion_tokens": 193,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.7680047433823347,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nopredictivecontextpriorcall4",
+      "request_sha": "a0547a9a1597d9b3431a0712daf8c33a37416e988a5615f0500d4a6f3b754d1c",
+      "response_sha": "8afc3e2f5f40cb38bd35b17b167eae80d1b887917163acb8165092f5e344c513",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4212,
+        "total_tokens": 4405,
+        "completion_tokens": 193,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.8164877062663436,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1014nopredictivecontextpriorcall5",
+      "request_sha": "9d36dd5d6a68883383791907afb4a8b4d8a3952f9b6ff3253143131d0053e47b",
+      "response_sha": "4f71b1a1e35e8568ce827ae3f5080b3abae0c49126da226fa5b376e2280bfb79",
+      "seed": 1014,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3648,
+        "total_tokens": 3660,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.3236474199220538,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015fullcontextcall1",
+      "request_sha": "a89595eec9c9687e892a00581d34061b353f1c7a8c14ab467c997e6f28aa5d4b",
+      "response_sha": "789e08abae0dd92e109f6c4221d7d51f38e6b385df1e85df082233f7563469b3",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2056,
+        "total_tokens": 2310,
+        "completion_tokens": 254,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.720277439802885,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015fullcontextcall2",
+      "request_sha": "88f87bfad8aa4a5f1977a734cf10db28a62df95566f052fa1dcdefb2d0d3e905",
+      "response_sha": "d58aaf28ec8761be2c01c982e0316db816314b24ec7d1b9e581450f41c0dcc5a",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3293,
+        "total_tokens": 3503,
+        "completion_tokens": 210,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.0692023374140263,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015fullcontextcall3",
+      "request_sha": "68e639fd88054b2f4a7813fbea371d67358f7d3f02a1aa338fbd50a40c1f5909",
+      "response_sha": "ff907277c1ba59ed49889c736e7de394521bcde77420031e873412eaa3ec4860",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3961,
+        "total_tokens": 4149,
+        "completion_tokens": 188,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.8621720746159554,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015fullcontextcall4",
+      "request_sha": "87a4bba26a77f035091eeb77b00e624e1d784e830b6de286a79e7d83af87910a",
+      "response_sha": "da44e7a30139a919d24fe15a598a66c3b9578b9d33b0722cbcb0ceec10ebf868",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4555,
+        "total_tokens": 4743,
+        "completion_tokens": 188,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.8744641710072756,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015fullcontextcall5",
+      "request_sha": "cae09c42b00f300bbf654927eb9f1d6efe11b8896658d2c7ec1c9720e8bbcf2f",
+      "response_sha": "cc2043d04c81c1bc5eac470424c1419df3e172f243ff2136a69c2c452065b5be",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3948,
+        "total_tokens": 3960,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.4403594024479389,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015fullpriorcall1",
+      "request_sha": "3bba494561ac376b60735c4d4067d2fd790e90898becf8d214cb432d92676cf0",
+      "response_sha": "b2c4ffbce923f0e30dc19cebfd00146748f8498193fb1c13e697d23bfac68ec8",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 1983,
+        "total_tokens": 2211,
+        "completion_tokens": 228,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.399380757473409,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015fullpriorcall2",
+      "request_sha": "3e0350ec038c923e3e912030ef805256b2a88ccedb6a0ce8e7a592fc7b7316ba",
+      "response_sha": "96d899b93b0a17b2089dce00da85914042a10ca3bc5989396ed874485884da10",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3192,
+        "total_tokens": 3381,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.7778937108814716,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015fullpriorcall3",
+      "request_sha": "039e3295d2626ffe081e806bec2e9f1ea2fa63f6194e930f3a8575d96beaa638",
+      "response_sha": "ebd978993ccc7c829453301e53e2d179fe610c72d2cc788aaba7d4fdead7b0ea",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3834,
+        "total_tokens": 4002,
+        "completion_tokens": 168,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.550325956195593,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015fullpriorcall4",
+      "request_sha": "1aa34d61e377740c431ff554c8f1e16e73102f4144ca88df2561bd1845e253f5",
+      "response_sha": "f3c6abdde2d2aea059260ea2f199ea07ed34fbce25b5e706d8314be02e5d8517",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4404,
+        "total_tokens": 4571,
+        "completion_tokens": 167,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.5701581463217735,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015fullpriorcall5",
+      "request_sha": "13e5483e89c5bfc9ab5e5db15bb47ded5332d53b6198375dc494d235eac825d8",
+      "response_sha": "aba40edeafbcbbaa686dfa7c2da810d7cbf1326eef97cbd77bc876973bf4d298",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5003,
+        "total_tokens": 5015,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.5408322671428323,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nofeedbackcontextcall1",
+      "request_sha": "69e884c1d63cbb9f2f9f28f3abf11ed2115a98343933bb5e3cf8c46923b642c0",
+      "response_sha": "725394fb46fc570e8e7d0a8285b40a710c2bbf3264d187ebd7e59baca7ec4229",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2106,
+        "total_tokens": 2329,
+        "completion_tokens": 223,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.3276512334123254,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nofeedbackcontextcall2",
+      "request_sha": "105f9d1bdff0aa8128ce3cf2321bb31228fca47672a75b7bb90e12206dbae69a",
+      "response_sha": "33a193f477f3fc8418e4c9ae514e97ea325267422d64069ea11f62726a541c08",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2212,
+        "total_tokens": 2422,
+        "completion_tokens": 210,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.021700754761696,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nofeedbackcontextcall3",
+      "request_sha": "66a8373bc8c1e34dc5a0232b8140a95f5f04b5341c756344ccb072ad4fe6805a",
+      "response_sha": "3584ae822f9c572dd7c7be3c1042d3192310e84c79be861be8cb6b913f997e6c",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2348,
+        "total_tokens": 2558,
+        "completion_tokens": 210,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.0329150818288326,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nofeedbackcontextcall4",
+      "request_sha": "69714a99ee3fa3b7d553a8def9fe7d36c50f9ac1a9396989b09160bb54970d82",
+      "response_sha": "ae120ea8c370ae9273575f333e8bab3bd0c1e328a2a3796f2e62f1eff1c38dcf",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2484,
+        "total_tokens": 2694,
+        "completion_tokens": 210,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.0360919311642647,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nofeedbackcontextcall5",
+      "request_sha": "9f38502d536deb4778a1094f3f9e3260cff1b90f059546e046d59adb7d0d3567",
+      "response_sha": "57e5c647f5f024829ab2fcd8b7e98d5d909b66bcfe7be65af38790c801111691",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2620,
+        "total_tokens": 2632,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.29364382941275835,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nofeedbackpriorcall1",
+      "request_sha": "c620fea1f91215b573d5243c5820e190909adfe661c30885a3784c2034e15405",
+      "response_sha": "2594f22eb22cfb51351e9b95c747b51a9489a7b11351b8749d970feee2092da8",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2033,
+        "total_tokens": 2200,
+        "completion_tokens": 167,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.5609620762988925,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nofeedbackpriorcall2",
+      "request_sha": "ca706a46dff05893d5ccf1f4a60bc93fe66cf92da53aa01126c059f79d90116a",
+      "response_sha": "82710e5b33c22db13ef0575d6865fa12020d2ace118364d73d9f0c47701e19ae",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2112,
+        "total_tokens": 2262,
+        "completion_tokens": 150,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.1257022777572274,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nofeedbackpriorcall3",
+      "request_sha": "64720e7c57966cb02a81b2143a4e055d1b4947258ca29e17886214d28ca34b4b",
+      "response_sha": "7912fec5be51986466e9612501fda0273fa664ddc4023d814974fa42c471889d",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2206,
+        "total_tokens": 2356,
+        "completion_tokens": 150,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.1656647184863687,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nofeedbackpriorcall4",
+      "request_sha": "06a0afce180140194152f3a89656a225297823bbb7f84395ae473af5f9a2ecb9",
+      "response_sha": "6ea356bebb26a969a422a9c2d714a0fcc841306fab648a0511ec5a8904dd92c3",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2300,
+        "total_tokens": 2450,
+        "completion_tokens": 150,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.2204736303538084,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nofeedbackpriorcall5",
+      "request_sha": "03344f40d5dce24bb273c63cd4ab803481b4c6981fc50c9244526426d52af5ed",
+      "response_sha": "cf431066e29453846f2a1c7be0c5d4f7fcef132e35ac4e4fbafa09ecb407e387",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2394,
+        "total_tokens": 2406,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.32542282808572054,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nopredictivecontextcontextcall1",
+      "request_sha": "a89595eec9c9687e892a00581d34061b353f1c7a8c14ab467c997e6f28aa5d4b",
+      "response_sha": "ece82d04684f546f811a085832ea9da2450d856845b22d4c5811ee94366d1ae1",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 2056,
+        "total_tokens": 2310,
+        "completion_tokens": 254,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.629215307533741,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nopredictivecontextcontextcall2",
+      "request_sha": "88f87bfad8aa4a5f1977a734cf10db28a62df95566f052fa1dcdefb2d0d3e905",
+      "response_sha": "28b7a03f819a3fb1e6af41ea2d16b5546a1b0b21de140c5e0db68a5d3ae67990",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3293,
+        "total_tokens": 3503,
+        "completion_tokens": 210,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.9543172884732485,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nopredictivecontextcontextcall3",
+      "request_sha": "68e639fd88054b2f4a7813fbea371d67358f7d3f02a1aa338fbd50a40c1f5909",
+      "response_sha": "181bf8797607515bf29b99ae8c228082b5374b3e851241e6e43ba132d28a1485",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3961,
+        "total_tokens": 4149,
+        "completion_tokens": 188,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.721550764515996,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nopredictivecontextcontextcall4",
+      "request_sha": "87a4bba26a77f035091eeb77b00e624e1d784e830b6de286a79e7d83af87910a",
+      "response_sha": "5a9dacb4b844e723cb6d34f0f089ee0fa6a9a201bb496c8084a6a6ea2bb95833",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4555,
+        "total_tokens": 4743,
+        "completion_tokens": 188,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.7331479638814926,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nopredictivecontextcontextcall5",
+      "request_sha": "cae09c42b00f300bbf654927eb9f1d6efe11b8896658d2c7ec1c9720e8bbcf2f",
+      "response_sha": "62930747062e75307f0227e19a1026f800bca97c0699e6500f5085f241722d98",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3948,
+        "total_tokens": 3960,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.3282312424853444,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nopredictivecontextpriorcall1",
+      "request_sha": "3bba494561ac376b60735c4d4067d2fd790e90898becf8d214cb432d92676cf0",
+      "response_sha": "4de7cf07a9bb4c9e700f6b8b46bc8ec571bd3f2c8d62924679dc6f028dde71a7",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 1983,
+        "total_tokens": 2211,
+        "completion_tokens": 228,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.2439847802743316,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nopredictivecontextpriorcall2",
+      "request_sha": "3e0350ec038c923e3e912030ef805256b2a88ccedb6a0ce8e7a592fc7b7316ba",
+      "response_sha": "24af0961a117274936e6958c9f9bfeac0521cafb56ae6ad884a3e59cab49b132",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3192,
+        "total_tokens": 3381,
+        "completion_tokens": 189,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.7234612200409174,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nopredictivecontextpriorcall3",
+      "request_sha": "039e3295d2626ffe081e806bec2e9f1ea2fa63f6194e930f3a8575d96beaa638",
+      "response_sha": "e07f487731e33915afd1da080d379317efc4b8848aa4cc8e54986a2d457e1744",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 3834,
+        "total_tokens": 4002,
+        "completion_tokens": 168,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.4051786651834846,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nopredictivecontextpriorcall4",
+      "request_sha": "1aa34d61e377740c431ff554c8f1e16e73102f4144ca88df2561bd1845e253f5",
+      "response_sha": "55cac878c00f25ccb6fb664b89e739823006577b6a733a3c232153b1a8bd3dc5",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 4404,
+        "total_tokens": 4571,
+        "completion_tokens": 167,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 2.4439398758113384,
+      "finish_reason": "stop"
+    },
+    {
+      "path": "/root/fsas/home/anonymous/projects/EvidForge_Semantic_Ablation_20261022/services/gpu1/requests/Semanticsemanticflightss1015nopredictivecontextpriorcall5",
+      "request_sha": "13e5483e89c5bfc9ab5e5db15bb47ded5332d53b6198375dc494d235eac825d8",
+      "response_sha": "126fb07ecd6965c81599979c043d68657b7aa87fc1bfa8cf1b25aa6c4021eb50",
+      "seed": 1015,
+      "model": "evidforge-semantic-9b-gpu1",
+      "temperature": 0,
+      "usage": {
+        "prompt_tokens": 5003,
+        "total_tokens": 5015,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.32627667766064405,
+      "finish_reason": "stop"
+    }
+  ],
+  "hardware": "A10040GB TP1 both lanes; each case all arms same device",
+  "wall_clock_scope": "Per request timings are API elapsed, not CPU fit wall time; no speedup claim from absent source timing"
+}

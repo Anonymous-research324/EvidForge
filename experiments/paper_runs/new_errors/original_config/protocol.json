@@ -1,0 +1,68 @@
+{
+  "study_id": "EvidForge_OriginalSystem_NewErrors_20261025",
+  "version": 1,
+  "datasets": [
+    "spectf",
+    "auto_mpg",
+    "airfoil"
+  ],
+  "profiles": [
+    "digit_transposition",
+    "cross_field_addition",
+    "scale_suffix_composition"
+  ],
+  "seeds": [
+    7013,
+    7014,
+    7015
+  ],
+  "arms": [
+    "full",
+    "no_llm"
+  ],
+  "source_probe_seed": 6013,
+  "formal_cases": 27,
+  "max_real_calls": 270,
+  "original_method": "Frozen original124 core unchanged; same original learned candidate pool, ranking and acceptance interfaces. NO shared candidate extension, NO raw program synthesizer, NO threshold relaxation.",
+  "pollution": {
+    "rate": 0.3,
+    "denominator": "eligible repairable feature cells independently per zone AND per field, half-up count; no legacy divide-by4; NOT one cell in30% rows",
+    "starting_point": "restore known raw source features then canonicalize numeric spellings without changing numeric values; original public group roles and ALL active rows preserved; old holdout excluded",
+    "digit_transposition": "swap first two significant digits, unequal, reject integer-leading-zero outputs; row retained if ineligible",
+    "cross_field_addition": "target plus one fixed unmodified observed anchor, exactDecimal; anchor column never polluted for this condition",
+    "scale_suffix_composition": "exactDecimal(target*10) with suffix u; previously tested harder ERR*x100+BAD failures retained and not relabeled",
+    "anchors": {
+      "auto_mpg": "feature_07",
+      "spectf": "feature_31",
+      "airfoil": "feature_04"
+    },
+    "rng": "fixed seed:zone:dataset:profile:field before fitting/scoring"
+  },
+  "learning": "Only original public learning entities. Inner source folds and independent original outer validation; NoLLM exact pre-native prior checkpoint with all original automatic rules. Full real native prior/context each5calls, same original source policy/forward/margin protections.",
+  "privacy": "Only curator may read original raw ZIP/labels to construct inputs; y discarded, ID unchanged. Learning and repair denied private/reference/oldstudies/holdout. Model sees source feature summaries, not raw reference tables or formal labels.",
+  "statistics": "All27 cases and all zero/negative/same outcomes retained;3seed equal mean/sampleSDddof1, n<3=N/A; no significance claim. Source pilot is exploratory feasibility, not formal F1.",
+  "novelty": "Previously untested corruption conditions/combinations, NOT proof of pretraining-unseen errors or absence from every original template. Report old candidate reachability and forward-blocked strata.",
+  "source_selection": "Datasets chosen from known authorized sources and teaching reachability; AutoMPG digit source transform lower bound0 is retained, not silently dropped. Existing source pilots precede formal seeds7013-15.",
+  "hardware": {
+    "host": "rtx4090",
+    "hostname": "epic-polaris-2939-74bd77d8b5-z22jj",
+    "logical_gpus": [
+      0,
+      1
+    ],
+    "physical_devices": [
+      1,
+      4
+    ],
+    "ports": [
+      8211,
+      8212
+    ],
+    "model": "Qwen3.5-9B",
+    "dtype": "bfloat16",
+    "tp": 1,
+    "temperature": 0,
+    "same_case_same_gpu": true
+  },
+  "delivery": "Original-system two-method repair F1/normal-damage tables,3 datasets×3 error panels, paper PNG/PDF/SVG; no Excel or manuscript edits. Source results kept separate."
+}

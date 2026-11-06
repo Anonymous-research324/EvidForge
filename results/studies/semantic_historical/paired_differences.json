@@ -1,0 +1,58 @@
+[
+  {
+    "dataset": "hospital",
+    "arm": "no_final_gate",
+    "metric": "full_minus_arm_F1",
+    "n": 3,
+    "total_seeds": 3,
+    "mean": 0.01132552247685692,
+    "sample_sd": 0.012816843421738118,
+    "per_seed": [
+      0.026063268892794422,
+      0.005127374784110517,
+      0.00278592375366582
+    ]
+  },
+  {
+    "dataset": "hospital",
+    "arm": "no_final_gate",
+    "metric": "full_minus_arm_normal_damage",
+    "n": 3,
+    "total_seeds": 3,
+    "mean": -0.0016440881531959788,
+    "sample_sd": 0.0023256961103858046,
+    "per_seed": [
+      -0.004305043050430504,
+      -0.0006272214091574326,
+      0.0
+    ]
+  },
+  {
+    "dataset": "flights",
+    "arm": "no_final_gate",
+    "metric": "full_minus_arm_F1",
+    "n": 3,
+    "total_seeds": 3,
+    "mean": -0.07132476720891356,
+    "sample_sd": 0.12146227573432475,
+    "per_seed": [
+      0.0,
+      -0.002403846153846154,
+      -0.21157045547289452
+    ]
+  },
+  {
+    "dataset": "flights",
+    "arm": "no_final_gate",
+    "metric": "full_minus_arm_normal_damage",
+    "n": 3,
+    "total_seeds": 3,
+    "mean": -0.08830439771508393,
+    "sample_sd": 0.11374168294066099,
+    "per_seed": [
+      0.0,
+      -0.21665232358003442,
+      -0.048260869565217385
+    ]
+  }
+]

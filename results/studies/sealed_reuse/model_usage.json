@@ -1,0 +1,1132 @@
+{
+  "cost_per_skill": {
+    "retinopathy_s1013": {
+      "learning_calls": 10,
+      "input_tokens": 52065,
+      "output_tokens": 1994,
+      "model_http_seconds": 32.57257025036961,
+      "learning_source_native_and_validation_seconds": 881.6910445159301,
+      "batch_calls": {
+        "B1": 0,
+        "B2": 0,
+        "B3": 0
+      },
+      "batch_seconds": {
+        "B1": 276.1364518199116,
+        "B2": 291.8358184574172,
+        "B3": 308.2448693588376
+      }
+    },
+    "retinopathy_s1014": {
+      "learning_calls": 10,
+      "input_tokens": 49722,
+      "output_tokens": 1989,
+      "model_http_seconds": 31.67086189147085,
+      "learning_source_native_and_validation_seconds": 881.7705448931083,
+      "batch_calls": {
+        "B1": 0,
+        "B2": 0,
+        "B3": 0
+      },
+      "batch_seconds": {
+        "B1": 274.6155905434862,
+        "B2": 276.26545922551304,
+        "B3": 292.3977722376585
+      }
+    },
+    "retinopathy_s1015": {
+      "learning_calls": 10,
+      "input_tokens": 47568,
+      "output_tokens": 2077,
+      "model_http_seconds": 33.29944816417992,
+      "learning_source_native_and_validation_seconds": 939.5533079626039,
+      "batch_calls": {
+        "B1": 0,
+        "B2": 0,
+        "B3": 0
+      },
+      "batch_seconds": {
+        "B1": 274.7939547467977,
+        "B2": 282.5314590912312,
+        "B3": 294.81915709841996
+      }
+    },
+    "airfoil_s1013": {
+      "learning_calls": 10,
+      "input_tokens": 46779,
+      "output_tokens": 2033,
+      "model_http_seconds": 33.202237089164555,
+      "learning_source_native_and_validation_seconds": 402.8029288155958,
+      "batch_calls": {
+        "B1": 0,
+        "B2": 0,
+        "B3": 0
+      },
+      "batch_seconds": {
+        "B1": 126.2293255450204,
+        "B2": 126.74651574995369,
+        "B3": 132.94611429981887
+      }
+    },
+    "airfoil_s1014": {
+      "learning_calls": 10,
+      "input_tokens": 46985,
+      "output_tokens": 2139,
+      "model_http_seconds": 33.59414316620678,
+      "learning_source_native_and_validation_seconds": 367.6926589207724,
+      "batch_calls": {
+        "B1": 0,
+        "B2": 0,
+        "B3": 0
+      },
+      "batch_seconds": {
+        "B1": 124.69912307802588,
+        "B2": 127.42899107187986,
+        "B3": 129.88535924814641
+      }
+    },
+    "airfoil_s1015": {
+      "learning_calls": 10,
+      "input_tokens": 48751,
+      "output_tokens": 2244,
+      "model_http_seconds": 34.5602830350399,
+      "learning_source_native_and_validation_seconds": 367.72630803938955,
+      "batch_calls": {
+        "B1": 0,
+        "B2": 0,
+        "B3": 0
+      },
+      "batch_seconds": {
+        "B1": 126.43061165791005,
+        "B2": 128.3061903649941,
+        "B3": 135.2056876020506
+      }
+    }
+  },
+  "requests": [
+    {
+      "case": "retinopathy_s1013",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1013fullcontextcall1",
+      "request_sha": "87b6615663ac313945916c42228fb4f692756fce6c23be189de631b181e0bd51",
+      "response_sha": "92b2411d744021ee1db29e3e0f0ac725f4852c19c2f5eb105326c79abc9a6c73",
+      "usage": {
+        "prompt_tokens": 2691,
+        "total_tokens": 3021,
+        "completion_tokens": 330,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.838330549187958
+    },
+    {
+      "case": "retinopathy_s1013",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1013fullcontextcall2",
+      "request_sha": "df606ae6fe4eb44e7986ae878395d310523c96d4a208e2e7fa3906691d7bb8c8",
+      "response_sha": "0c8c135ff1a82b23888c015bd7fc7750356e86d1b63dac48e862f08df4a6722b",
+      "usage": {
+        "prompt_tokens": 4796,
+        "total_tokens": 5047,
+        "completion_tokens": 251,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.723379381932318
+    },
+    {
+      "case": "retinopathy_s1013",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1013fullcontextcall3",
+      "request_sha": "5077b15b7212f3baecf7f3db0d65212ea776130bc637f56233b9b85a5fb3b782",
+      "response_sha": "246bce4af60fbeb6941002f97f9a1626fa5a85582e879de4613f93eafd38f38d",
+      "usage": {
+        "prompt_tokens": 5868,
+        "total_tokens": 6119,
+        "completion_tokens": 251,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.019813398830593
+    },
+    {
+      "case": "retinopathy_s1013",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1013fullcontextcall4",
+      "request_sha": "bc6fabe9af93db131f09718b4426b9da05e10305d363b50329f0b2892ff6ac9c",
+      "response_sha": "fb26dd3e29a31d2764ff7ecfc605ff3c971912fb873900ac2f51d06bd61ec3b1",
+      "usage": {
+        "prompt_tokens": 6935,
+        "total_tokens": 7164,
+        "completion_tokens": 229,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.6554763466119766
+    },
+    {
+      "case": "retinopathy_s1013",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1013fullcontextcall5",
+      "request_sha": "5e20cf017fd5c474357570991c53009e98741606884631806dc985d67ffa9a0b",
+      "response_sha": "bc84af0a3ec3e47e0b07f0b4340f845fc0b4f4b16302e3f7f5cf38319a154cea",
+      "usage": {
+        "prompt_tokens": 7944,
+        "total_tokens": 7956,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.8380834199488163
+    },
+    {
+      "case": "retinopathy_s1013",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1013fullpriorcall1",
+      "request_sha": "a37d901235fce552dfb5d101ecae6c99da39b90428cc65fb4123ba51bc775f98",
+      "response_sha": "53ffbab552fef4847232d185fbae113461fc80aba32621f79b5002dfe669daae",
+      "usage": {
+        "prompt_tokens": 2422,
+        "total_tokens": 2696,
+        "completion_tokens": 274,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 5.010742772370577
+    },
+    {
+      "case": "retinopathy_s1013",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1013fullpriorcall2",
+      "request_sha": "f8f7d37e1b1f162194d34d27034ff11695c22d9bfd0a35109ee168714cf30f63",
+      "response_sha": "c88fb6363acb2025d4399d277399c75e20c39da6a84f086661332807c70ca291",
+      "usage": {
+        "prompt_tokens": 4149,
+        "total_tokens": 4353,
+        "completion_tokens": 204,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.0796698397025466
+    },
+    {
+      "case": "retinopathy_s1013",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1013fullpriorcall3",
+      "request_sha": "1aaba3791d71f3f2fd6e9eeeaf91d17891ea873366cf688b386ec02e2d317a5d",
+      "response_sha": "6ece66fce34d8d96f99eb440b9c563ca259b53fbe21afc694f50f39b27b36f3b",
+      "usage": {
+        "prompt_tokens": 5464,
+        "total_tokens": 5668,
+        "completion_tokens": 204,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.226301752962172
+    },
+    {
+      "case": "retinopathy_s1013",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1013fullpriorcall4",
+      "request_sha": "90e12b0d6623afb8d69cc16377c3915124dbdf8fa894ee2929978fdb7856c19d",
+      "response_sha": "eebd80f0341541f0f60a2d93133cf6bcb9dcc6998a127f382a364bf769660809",
+      "usage": {
+        "prompt_tokens": 6398,
+        "total_tokens": 6602,
+        "completion_tokens": 204,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.360159239731729
+    },
+    {
+      "case": "retinopathy_s1013",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1013fullpriorcall5",
+      "request_sha": "96517949044dba32815757938786954e66032af8e68f23c48b8648a59572ae7a",
+      "response_sha": "a3dc8560a04885aeb3b592b668e7262e8a3f849558931a347303499f82396db7",
+      "usage": {
+        "prompt_tokens": 5398,
+        "total_tokens": 5433,
+        "completion_tokens": 35,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.8206135490909219
+    },
+    {
+      "case": "retinopathy_s1014",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1014fullcontextcall1",
+      "request_sha": "1de196d0bc7c6c74b11c501b40adbd255a46bfdec2d3dccbb49506efe011cd0b",
+      "response_sha": "5e049eab4a04aa8cb54f5d7063e578ee09c1d19cfc6764f38fe0dc09570c9541",
+      "usage": {
+        "prompt_tokens": 2647,
+        "total_tokens": 2954,
+        "completion_tokens": 307,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.530349027365446
+    },
+    {
+      "case": "retinopathy_s1014",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1014fullcontextcall2",
+      "request_sha": "ecd55ba91ad57b002893051469338fa75ec9bbc8085426c7f769dd0b2cdb39f4",
+      "response_sha": "8cb6030758f9125572ed00d99b6c6160b49e30ae069fab9e33975e9fc2d77aad",
+      "usage": {
+        "prompt_tokens": 4752,
+        "total_tokens": 4982,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.6939285276457667
+    },
+    {
+      "case": "retinopathy_s1014",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1014fullcontextcall3",
+      "request_sha": "a064b12498f2a4ecdbf60871c28b4d0c3d9b8bedbe4430f5e141f60e75a433e0",
+      "response_sha": "ba105d9da695133eddc99e04566e0a7be729a66515f98fc9838c5d80627de28e",
+      "usage": {
+        "prompt_tokens": 5804,
+        "total_tokens": 6034,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.650375075638294
+    },
+    {
+      "case": "retinopathy_s1014",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1014fullcontextcall4",
+      "request_sha": "3b4980077e6cb940ce9a347afad1c3e55b492216d33031523792985a0d5698b2",
+      "response_sha": "97df07a5eadc60900c9f4cc0fda1047bfbf3aada50c764cc83017fc6a87efa34",
+      "usage": {
+        "prompt_tokens": 6859,
+        "total_tokens": 7089,
+        "completion_tokens": 230,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.7458650087937713
+    },
+    {
+      "case": "retinopathy_s1014",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1014fullcontextcall5",
+      "request_sha": "8bffd22da4465c54041c5128231b4189edba9afd33809bde8e87db2bb18c824d",
+      "response_sha": "e52829ec97e085bf31bba64e8a6c47a94a1b72ec033bfb13e034ffe33c4747f8",
+      "usage": {
+        "prompt_tokens": 5817,
+        "total_tokens": 5829,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.6045332858338952
+    },
+    {
+      "case": "retinopathy_s1014",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1014fullpriorcall1",
+      "request_sha": "cc6d0e181f3e5aa008c4c0f22438d9246e9b7032bcca57f85820dce74c6dc381",
+      "response_sha": "f72ff87af6b49fb6d6a1f9c8a7044fa12f7fe13ad8ad889f36cc93e23c8134f8",
+      "usage": {
+        "prompt_tokens": 2374,
+        "total_tokens": 2663,
+        "completion_tokens": 289,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.303746290504932
+    },
+    {
+      "case": "retinopathy_s1014",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1014fullpriorcall2",
+      "request_sha": "1b0eb99961f4ce04d87b2a07a99e54000da4f056724e071edc477b11008f7b47",
+      "response_sha": "ba2ce9bd99bc6a4555265a807dd69d82f5d6aa34fa402271bf8c324f649e443d",
+      "usage": {
+        "prompt_tokens": 4281,
+        "total_tokens": 4499,
+        "completion_tokens": 218,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.3382775029167533
+    },
+    {
+      "case": "retinopathy_s1014",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1014fullpriorcall3",
+      "request_sha": "d22970a2015af0b18c6351d862d0f4eb386e1c2b25c8208ee2d043f1f310ecee",
+      "response_sha": "dad18c4b5081fb81e95c26f08f0b7ec3aeadfacff1191b12cfdb180d00a2c532",
+      "usage": {
+        "prompt_tokens": 5380,
+        "total_tokens": 5599,
+        "completion_tokens": 219,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.4314658641815186
+    },
+    {
+      "case": "retinopathy_s1014",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1014fullpriorcall4",
+      "request_sha": "c463cb0884b3ffa30a26589f5736be608f91d08ad4436e0bac2b3aaea71828a2",
+      "response_sha": "e5ea61a5e579b7f15e135175e9265f018874ab950811add56dce8a432a05996a",
+      "usage": {
+        "prompt_tokens": 6413,
+        "total_tokens": 6632,
+        "completion_tokens": 219,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.5399749986827374
+    },
+    {
+      "case": "retinopathy_s1014",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1014fullpriorcall5",
+      "request_sha": "7373c0845edb9d39cb208d2216d28d9cedbb290701a6686e984ef0a6619d15c9",
+      "response_sha": "65c0512a9f0971c9cf30ef8385ef2b74eb00a495906a1de81ce58ec3a5bb7134",
+      "usage": {
+        "prompt_tokens": 5395,
+        "total_tokens": 5430,
+        "completion_tokens": 35,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.8323463099077344
+    },
+    {
+      "case": "retinopathy_s1015",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1015fullcontextcall1",
+      "request_sha": "48b192a169cbc1a7515c4d6649dafebac4c850bb1d059d5e0559df8c3a3c339e",
+      "response_sha": "ea9d45cb52a6ed373a1a2b8d36c1f550b2f2f9e037f8eba56aeea05292e69db8",
+      "usage": {
+        "prompt_tokens": 2674,
+        "total_tokens": 3005,
+        "completion_tokens": 331,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.843665388412774
+    },
+    {
+      "case": "retinopathy_s1015",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1015fullcontextcall2",
+      "request_sha": "59e62b98064e178ff6db0338d0b2f083796466529e50959046a270a3cd30c3d8",
+      "response_sha": "280d6f5463a6bbc0b5b742a2a6b795c372c3cc956f8f2830cb288c35a02e06d7",
+      "usage": {
+        "prompt_tokens": 2729,
+        "total_tokens": 3060,
+        "completion_tokens": 331,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.8212235094979405
+    },
+    {
+      "case": "retinopathy_s1015",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1015fullcontextcall3",
+      "request_sha": "d36c7db454eeac60f0c605b2d45d3d5ca30f987674dd12c2f08cfb22e6efc54a",
+      "response_sha": "20a3ac68ffd1dee069c09361754baa29c57a6c23a1fbfe5f05739ca49ea071a1",
+      "usage": {
+        "prompt_tokens": 4839,
+        "total_tokens": 5091,
+        "completion_tokens": 252,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.84306151419878
+    },
+    {
+      "case": "retinopathy_s1015",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1015fullcontextcall4",
+      "request_sha": "55acd2029a7845570725baff33b97d06afa26ff57bedfe1ff3da86e7d4c8824c",
+      "response_sha": "80e9d9d5cf8752eb5eaad190494e5b5e2dc1c6cf5e0318440fabe103f1fb3413",
+      "usage": {
+        "prompt_tokens": 5901,
+        "total_tokens": 6152,
+        "completion_tokens": 251,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.9463755507022142
+    },
+    {
+      "case": "retinopathy_s1015",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1015fullcontextcall5",
+      "request_sha": "6525ea102033f7d29a883d7ba2e167e056152046c8547bb989cc5b14588c3849",
+      "response_sha": "45c8632c85ad25cdc2cf414b9852bcb69c95946b801a417c7a857b206d9198c6",
+      "usage": {
+        "prompt_tokens": 6970,
+        "total_tokens": 6982,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.7155329138040543
+    },
+    {
+      "case": "retinopathy_s1015",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1015fullpriorcall1",
+      "request_sha": "11604eba33594392d22cbe87cb35fae2c2dafda58a897491586242e27fc245a9",
+      "response_sha": "d459359554588a55c358e133cac2e6c6ebbf1a256d2fcd36ba1fab42af36574b",
+      "usage": {
+        "prompt_tokens": 2415,
+        "total_tokens": 2665,
+        "completion_tokens": 250,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.541599018499255
+    },
+    {
+      "case": "retinopathy_s1015",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1015fullpriorcall2",
+      "request_sha": "e520ff855abbe875bd923c261b98d6efb0a832d43cd8c717e98f8e854b2a0848",
+      "response_sha": "9a84b17743052eb9d755daa6ad719b9eeca044e07a6f80a981edf2f6c6711c5f",
+      "usage": {
+        "prompt_tokens": 4370,
+        "total_tokens": 4576,
+        "completion_tokens": 206,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.1465965481474996
+    },
+    {
+      "case": "retinopathy_s1015",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1015fullpriorcall3",
+      "request_sha": "5a5d8d6ebe567ad6c5a2a9a62f46aae51862063672958f31ab796d01db3e498f",
+      "response_sha": "e625412a7b778bf27fd6c9cd686b6055c7b3983f8903876c23d52a33d0df2771",
+      "usage": {
+        "prompt_tokens": 5527,
+        "total_tokens": 5733,
+        "completion_tokens": 206,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.2450165012851357
+    },
+    {
+      "case": "retinopathy_s1015",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1015fullpriorcall4",
+      "request_sha": "0fdc4347ff533c90b4ba3016bed7e687aaeb9bb1c67ab32b0d2d86e41418da92",
+      "response_sha": "69aeb6373c6a5a925a4c9258c2986d6ab2083b3e7677543c63e359ef9b9053fb",
+      "usage": {
+        "prompt_tokens": 6601,
+        "total_tokens": 6807,
+        "completion_tokens": 206,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.413298207335174
+    },
+    {
+      "case": "retinopathy_s1015",
+      "gpu": 0,
+      "tag": "Reuseretinopathys1015fullpriorcall5",
+      "request_sha": "4eeb1c9b92b6ce1b078340b8c12e949d48711122ca56e5ca0ade4eec2f3178b8",
+      "response_sha": "e32171ea2671c541e243ba8f9dbd538539eee556dadcce05d65d9637a52acbd2",
+      "usage": {
+        "prompt_tokens": 5542,
+        "total_tokens": 5574,
+        "completion_tokens": 32,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.7830790122970939
+    },
+    {
+      "case": "airfoil_s1013",
+      "gpu": 1,
+      "tag": "Reuseairfoils1013fullcontextcall1",
+      "request_sha": "b411256262e5037c5b8b97ec069330a335f48583517dd17a4463efd369246910",
+      "response_sha": "9bcbb8605a0242181c63564dbc04107bb05aa2710478c6a02b22e29604f97ca7",
+      "usage": {
+        "prompt_tokens": 2644,
+        "total_tokens": 2951,
+        "completion_tokens": 307,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.575154514983296
+    },
+    {
+      "case": "airfoil_s1013",
+      "gpu": 1,
+      "tag": "Reuseairfoils1013fullcontextcall2",
+      "request_sha": "5e063615852e9d8251dc74ea00c1e8c7dba5600d9d500a3dcf32f5f7c001b53e",
+      "response_sha": "8b66c7edfb6e77eaed1f19f7cc86ca306739a92cf5146e3ab0de9cc06df18cc8",
+      "usage": {
+        "prompt_tokens": 4371,
+        "total_tokens": 4624,
+        "completion_tokens": 253,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.8748557958751917
+    },
+    {
+      "case": "airfoil_s1013",
+      "gpu": 1,
+      "tag": "Reuseairfoils1013fullcontextcall3",
+      "request_sha": "23ceb3ab3fe954946c9b7e5ceffe7c9b23d1df284514f6359c3dd36076734d5f",
+      "response_sha": "7278c4a84f0e839ee32a3ed70a81b290ba6d609fa8434ffe5f853263e8c8322c",
+      "usage": {
+        "prompt_tokens": 5298,
+        "total_tokens": 5549,
+        "completion_tokens": 251,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.819927073083818
+    },
+    {
+      "case": "airfoil_s1013",
+      "gpu": 1,
+      "tag": "Reuseairfoils1013fullcontextcall4",
+      "request_sha": "9e5bdc24c38b23418362e23e59645664ef55143b6055b8a8ccf294640de65599",
+      "response_sha": "7973ab9cf168857e96d15e14b5a65cc93756c32946b4b947c22a738adcb1f62e",
+      "usage": {
+        "prompt_tokens": 6180,
+        "total_tokens": 6431,
+        "completion_tokens": 251,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.9284689193591475
+    },
+    {
+      "case": "airfoil_s1013",
+      "gpu": 1,
+      "tag": "Reuseairfoils1013fullcontextcall5",
+      "request_sha": "e83c7244b85ea7b3579e4ba76323eab83412efc650150ab898554ec02d220ee0",
+      "response_sha": "ba8182b9f8dbce52b02c07cd4dbd5e6705cb57133d34d715df8911a92e8b9ebb",
+      "usage": {
+        "prompt_tokens": 5303,
+        "total_tokens": 5315,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.5357046639546752
+    },
+    {
+      "case": "airfoil_s1013",
+      "gpu": 1,
+      "tag": "Reuseairfoils1013fullpriorcall1",
+      "request_sha": "47007fc434143523d9bcb6f0de3bda2df4328908e1961130d53a4a657c1a62ea",
+      "response_sha": "69a97011e3da7ab4f811231515a0000c5bb2eeb85051ab018da94368c043d267",
+      "usage": {
+        "prompt_tokens": 2376,
+        "total_tokens": 2666,
+        "completion_tokens": 290,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 5.960713299922645
+    },
+    {
+      "case": "airfoil_s1013",
+      "gpu": 1,
+      "tag": "Reuseairfoils1013fullpriorcall2",
+      "request_sha": "0a075850975ee796f7f50c270a4cac1745bb885cd4d21509291de9ab30a0098a",
+      "response_sha": "45d0af1323114f1479a3fd9e4280699b17c700a128e171af591fd6972dc614a6",
+      "usage": {
+        "prompt_tokens": 4083,
+        "total_tokens": 4302,
+        "completion_tokens": 219,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.2299920124933124
+    },
+    {
+      "case": "airfoil_s1013",
+      "gpu": 1,
+      "tag": "Reuseairfoils1013fullpriorcall3",
+      "request_sha": "ed2ca9e9a6746e646bf5f6ea6ba0e37d30364a06eb0b5d5b99cd1c07d5267f37",
+      "response_sha": "5a4d6d571744ff69006ad08d8abc34331318a50b837df4d8ef2c4b66cd877dbf",
+      "usage": {
+        "prompt_tokens": 5244,
+        "total_tokens": 5463,
+        "completion_tokens": 219,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.352009741589427
+    },
+    {
+      "case": "airfoil_s1013",
+      "gpu": 1,
+      "tag": "Reuseairfoils1013fullpriorcall4",
+      "request_sha": "4bb2bc7749a7b4c13de8ee298393c3b5fb638032413f0c602cf2dbaff1b9804b",
+      "response_sha": "bc87901c5877ec0f45ca4f12fc6cf513f75cb8af50e63791f8374e327327efca",
+      "usage": {
+        "prompt_tokens": 6100,
+        "total_tokens": 6319,
+        "completion_tokens": 219,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.4384699473157525
+    },
+    {
+      "case": "airfoil_s1013",
+      "gpu": 1,
+      "tag": "Reuseairfoils1013fullpriorcall5",
+      "request_sha": "33b338152feab56f431fd1a9272b13145b41e0215b68ad21af84222f9d8fbacd",
+      "response_sha": "e166530dceb7f12cf03c40013c83fa4f04f57aa65e302c72203fc78ab5f5d871",
+      "usage": {
+        "prompt_tokens": 5180,
+        "total_tokens": 5192,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.48694112058728933
+    },
+    {
+      "case": "airfoil_s1014",
+      "gpu": 1,
+      "tag": "Reuseairfoils1014fullcontextcall1",
+      "request_sha": "d1447e85bac4fc31b5a89a299626bb941d740ebfb750e24b0ecfdd7299dd9be9",
+      "response_sha": "236d66e504e5bc6a33286b52f08d791a2206f662daf6a9c3ec4ae4e19acb0c96",
+      "usage": {
+        "prompt_tokens": 2647,
+        "total_tokens": 2963,
+        "completion_tokens": 316,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.711374614387751
+    },
+    {
+      "case": "airfoil_s1014",
+      "gpu": 1,
+      "tag": "Reuseairfoils1014fullcontextcall2",
+      "request_sha": "2b217278984b5ea6022e84959a03adfb8b5a0debdb0bdd69cf1e44382af6e23d",
+      "response_sha": "040347d1181eec9f523b8d0df5b7bafa41dfcd89e168336c8b86d0e16be5730d",
+      "usage": {
+        "prompt_tokens": 4386,
+        "total_tokens": 4671,
+        "completion_tokens": 285,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.317310741171241
+    },
+    {
+      "case": "airfoil_s1014",
+      "gpu": 1,
+      "tag": "Reuseairfoils1014fullcontextcall3",
+      "request_sha": "e8d42fe8b11e6d21aead51ec5cd5e320319f32a1b33857f68955c382270c4020",
+      "response_sha": "11ccb64b11ed752969438f8de7612575828b20824aa2fa9b20f09ec502cc2371",
+      "usage": {
+        "prompt_tokens": 5375,
+        "total_tokens": 5633,
+        "completion_tokens": 258,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.541935874149203
+    },
+    {
+      "case": "airfoil_s1014",
+      "gpu": 1,
+      "tag": "Reuseairfoils1014fullcontextcall4",
+      "request_sha": "2ab6818aee57d312a3cf09f7a84d323b51c745708a9f3a3fdf627f2f4b52a654",
+      "response_sha": "8e9dce475e65c847a729ae1bc46507dbd19872ffd259cce182b59405c6bed248",
+      "usage": {
+        "prompt_tokens": 6247,
+        "total_tokens": 6505,
+        "completion_tokens": 258,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.990325721912086
+    },
+    {
+      "case": "airfoil_s1014",
+      "gpu": 1,
+      "tag": "Reuseairfoils1014fullcontextcall5",
+      "request_sha": "b8e0aad1ff0f38ede339a22f654123ab3a34a4cc89ae87c1041bc85025c6c652",
+      "response_sha": "a38b74f2308ba125a4e1e3c45c4411d79fb38237205cceb9f4cde10618c16218",
+      "usage": {
+        "prompt_tokens": 5358,
+        "total_tokens": 5370,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.5053584557026625
+    },
+    {
+      "case": "airfoil_s1014",
+      "gpu": 1,
+      "tag": "Reuseairfoils1014fullpriorcall1",
+      "request_sha": "beb7649798dd00698ae433be5a174ae7a5923929d9823b67b0cb2fd5af4c213b",
+      "response_sha": "afdfa1c53658a0284a8a8f002028796f03cf70adc880632d0989815e450b91ed",
+      "usage": {
+        "prompt_tokens": 2379,
+        "total_tokens": 2669,
+        "completion_tokens": 290,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.283053177408874
+    },
+    {
+      "case": "airfoil_s1014",
+      "gpu": 1,
+      "tag": "Reuseairfoils1014fullpriorcall2",
+      "request_sha": "6b3089f4fbd8b2fbf158327dbc07df2ae9d103faeba3c43d2e73e3cfcbae6e78",
+      "response_sha": "cb3e4198524e60987af933b03299025caf295ed06347d71068b0cf846dbd1992",
+      "usage": {
+        "prompt_tokens": 4120,
+        "total_tokens": 4356,
+        "completion_tokens": 236,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.4446309190243483
+    },
+    {
+      "case": "airfoil_s1014",
+      "gpu": 1,
+      "tag": "Reuseairfoils1014fullpriorcall3",
+      "request_sha": "008585cbfbb84657a48698a18bf560cb7cc0d5e416cd866ace2691cf45c01f99",
+      "response_sha": "344dc16dffb90938f6ecbe1eb5085a396e400a26b53a82f60b92be38e63dce4f",
+      "usage": {
+        "prompt_tokens": 5180,
+        "total_tokens": 5416,
+        "completion_tokens": 236,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.585861570201814
+    },
+    {
+      "case": "airfoil_s1014",
+      "gpu": 1,
+      "tag": "Reuseairfoils1014fullpriorcall4",
+      "request_sha": "af269f0b021cc2186fefb516bdd939d8481e04bb0a9e5b887ce7eef6c96524c9",
+      "response_sha": "e7eb0ee2885f95343ed6e2e20e760ea0922cc187e6a3f517112fa6f03ba5b1b8",
+      "usage": {
+        "prompt_tokens": 6116,
+        "total_tokens": 6352,
+        "completion_tokens": 236,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.6957816928625107
+    },
+    {
+      "case": "airfoil_s1014",
+      "gpu": 1,
+      "tag": "Reuseairfoils1014fullpriorcall5",
+      "request_sha": "81595d079833cfd034c30f41547eb93a2079b50412abdd605b29ed744dc4bcaf",
+      "response_sha": "db4cb2d15408e4bd9f310798399a2f8c04c771f872bbf6f83470fdc5344c9537",
+      "usage": {
+        "prompt_tokens": 5177,
+        "total_tokens": 5189,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.5185103993862867
+    },
+    {
+      "case": "airfoil_s1015",
+      "gpu": 1,
+      "tag": "Reuseairfoils1015fullcontextcall1",
+      "request_sha": "e0d98df0e73b8278c980a47065c46bbaf2e3d8c166bf57e803920575ea621f69",
+      "response_sha": "6887075b007d648ecb5c22dbcf83b620077b3a41933c329ebc7e922c8a90a1eb",
+      "usage": {
+        "prompt_tokens": 2643,
+        "total_tokens": 2980,
+        "completion_tokens": 337,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.936321996152401
+    },
+    {
+      "case": "airfoil_s1015",
+      "gpu": 1,
+      "tag": "Reuseairfoils1015fullcontextcall2",
+      "request_sha": "3cfcc56aeeb9b7cbe52d54d66a05c94b346819d57c3e34aeb37e00598f0d1baa",
+      "response_sha": "7b06e6602e4c97042ef7dbba4e66684243a826782b1ffc0d13007fc8b86bb069",
+      "usage": {
+        "prompt_tokens": 4598,
+        "total_tokens": 4895,
+        "completion_tokens": 297,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.499498498626053
+    },
+    {
+      "case": "airfoil_s1015",
+      "gpu": 1,
+      "tag": "Reuseairfoils1015fullcontextcall3",
+      "request_sha": "0eb0b555d7489c00d2b33ace987b935192133f6fd934391d9ce9f5f5f3bc652d",
+      "response_sha": "aa50405adcd00e22d4e993c05fe7aee70fa4003d392ea7989106866e621b2cf6",
+      "usage": {
+        "prompt_tokens": 5725,
+        "total_tokens": 6019,
+        "completion_tokens": 294,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.4306285958737135
+    },
+    {
+      "case": "airfoil_s1015",
+      "gpu": 1,
+      "tag": "Reuseairfoils1015fullcontextcall4",
+      "request_sha": "f0bc069ceef1cb45866c10f3d950ab87ae1f8cb67014ba79b727f30fa4ca2182",
+      "response_sha": "d2f1258836be489b4107f03d7fc928b2123a310dcc2ecad95087ca01499f31c0",
+      "usage": {
+        "prompt_tokens": 6766,
+        "total_tokens": 7060,
+        "completion_tokens": 294,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.559448062442243
+    },
+    {
+      "case": "airfoil_s1015",
+      "gpu": 1,
+      "tag": "Reuseairfoils1015fullcontextcall5",
+      "request_sha": "f9aaa51ddd1c14523d8a37e2f092263f89b0d7af365e962fa2294976a3bee6cf",
+      "response_sha": "f8b52e69839d8064c66c7e67038a3b9140e1cf8c2861e3f2b9deb1503fac6c9f",
+      "usage": {
+        "prompt_tokens": 5731,
+        "total_tokens": 5743,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.5735528646036983
+    },
+    {
+      "case": "airfoil_s1015",
+      "gpu": 1,
+      "tag": "Reuseairfoils1015fullpriorcall1",
+      "request_sha": "4358e84587eb7296aefdb688bcac27be27a56e70f8a04113aa6fc3e9dda6e75c",
+      "response_sha": "ff98285ff353a6fee818a3a333cb492e14066cf32be5c198d0a9da9ee501ec07",
+      "usage": {
+        "prompt_tokens": 2377,
+        "total_tokens": 2667,
+        "completion_tokens": 290,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 4.296237243339419
+    },
+    {
+      "case": "airfoil_s1015",
+      "gpu": 1,
+      "tag": "Reuseairfoils1015fullpriorcall2",
+      "request_sha": "f290609fcace84fdba96c506a74c21eb5dc1bfcf5c94ffda06c3ff36b090d0a9",
+      "response_sha": "dec8f229c33c735d62bcaef9502c0adcd30ff15dd29cd9f4ffd81b291ed87c6f",
+      "usage": {
+        "prompt_tokens": 4110,
+        "total_tokens": 4346,
+        "completion_tokens": 236,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.441825594753027
+    },
+    {
+      "case": "airfoil_s1015",
+      "gpu": 1,
+      "tag": "Reuseairfoils1015fullpriorcall3",
+      "request_sha": "1333052f88b19819eb398d6d66afe54937e353ff16eb53cceaf202233d7dd88b",
+      "response_sha": "e650d9922dcc37689a86f181dc61b6e6b10a188b734e72f22d12258bec6876d6",
+      "usage": {
+        "prompt_tokens": 5326,
+        "total_tokens": 5562,
+        "completion_tokens": 236,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.597022998146713
+    },
+    {
+      "case": "airfoil_s1015",
+      "gpu": 1,
+      "tag": "Reuseairfoils1015fullpriorcall4",
+      "request_sha": "a7f39e8789c6efa3029a6fd6f2268b6ac68fdf7002e8b05e1066189cec2b5338",
+      "response_sha": "9e56f8ab12a40c25d1fdae33a22185b2d786f21769cabbf1caf2f804c3042a8c",
+      "usage": {
+        "prompt_tokens": 6214,
+        "total_tokens": 6450,
+        "completion_tokens": 236,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 3.701787555590272
+    },
+    {
+      "case": "airfoil_s1015",
+      "gpu": 1,
+      "tag": "Reuseairfoils1015fullpriorcall5",
+      "request_sha": "6d2b50384fead90a654f5306eaa9f0b36b5e144472879261b29d223f8788148c",
+      "response_sha": "3180a9d96081117903a3de338167676e3c36534fca28ada565d6c0890ebfe615",
+      "usage": {
+        "prompt_tokens": 5261,
+        "total_tokens": 5273,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "seconds": 0.5239596255123615
+    }
+  ],
+  "total_learning_calls": 60,
+  "new_batch_calls": 0,
+  "new_batch_tokens": 0,
+  "unselected_context_included": true
+}

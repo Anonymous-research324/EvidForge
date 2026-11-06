@@ -1,0 +1,818 @@
+[
+  {
+    "dataset": "real_estate",
+    "method": "A",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 254,
+      "exact": 253,
+      "errors": 1116,
+      "normal": 474,
+      "normal_damage": 1,
+      "P": 0.9960629921259843,
+      "R": 0.22670250896057348,
+      "F1": 0.36934306569343067,
+      "damage": 0.002109704641350211
+    },
+    "downstream": {
+      "R2": 0.6983704439711316,
+      "MAE": 5.205782309445468
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "real_estate",
+    "method": "B",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 0,
+      "exact": 0,
+      "errors": 1116,
+      "normal": 474,
+      "normal_damage": 0,
+      "P": null,
+      "R": 0.0,
+      "F1": 0,
+      "damage": 0.0
+    },
+    "downstream": {
+      "R2": 0.618483394151518,
+      "MAE": 5.9810603575273
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "real_estate",
+    "method": "C",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 254,
+      "exact": 253,
+      "errors": 1116,
+      "normal": 474,
+      "normal_damage": 1,
+      "P": 0.9960629921259843,
+      "R": 0.22670250896057348,
+      "F1": 0.36934306569343067,
+      "damage": 0.002109704641350211
+    },
+    "downstream": {
+      "R2": 0.6983704439711316,
+      "MAE": 5.205782309445468
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "real_estate",
+    "method": "D",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 517,
+      "exact": 353,
+      "errors": 1116,
+      "normal": 474,
+      "normal_damage": 6,
+      "P": 0.6827852998065764,
+      "R": 0.3163082437275986,
+      "F1": 0.4323331292100429,
+      "damage": 0.012658227848101266
+    },
+    "downstream": {
+      "R2": 0.6724335137523838,
+      "MAE": 5.663543019150242
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "real_estate",
+    "method": "E",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 254,
+      "exact": 253,
+      "errors": 1116,
+      "normal": 474,
+      "normal_damage": 1,
+      "P": 0.9960629921259843,
+      "R": 0.22670250896057348,
+      "F1": 0.36934306569343067,
+      "damage": 0.002109704641350211
+    },
+    "downstream": {
+      "R2": 0.6983704439711316,
+      "MAE": 5.205782309445468
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "concrete",
+    "method": "A",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 1148,
+      "exact": 1110,
+      "errors": 3696,
+      "normal": 1584,
+      "normal_damage": 8,
+      "P": 0.9668989547038328,
+      "R": 0.3003246753246753,
+      "F1": 0.4582989265070191,
+      "damage": 0.005050505050505051
+    },
+    "downstream": {
+      "R2": 0.7785891179088102,
+      "MAE": 6.017388869905395
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "concrete",
+    "method": "B",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 396,
+      "exact": 388,
+      "errors": 3696,
+      "normal": 1584,
+      "normal_damage": 4,
+      "P": 0.9797979797979798,
+      "R": 0.10497835497835498,
+      "F1": 0.1896383186705767,
+      "damage": 0.0025252525252525255
+    },
+    "downstream": {
+      "R2": 0.681707823118022,
+      "MAE": 7.195964160501171
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "concrete",
+    "method": "C",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 1018,
+      "exact": 1004,
+      "errors": 3696,
+      "normal": 1584,
+      "normal_damage": 8,
+      "P": 0.9862475442043221,
+      "R": 0.27164502164502163,
+      "F1": 0.425965210012728,
+      "damage": 0.005050505050505051
+    },
+    "downstream": {
+      "R2": 0.7705129804859501,
+      "MAE": 6.196616838654427
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "concrete",
+    "method": "D",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 2809,
+      "exact": 1721,
+      "errors": 3696,
+      "normal": 1584,
+      "normal_damage": 102,
+      "P": 0.6126735493058028,
+      "R": 0.46563852813852813,
+      "F1": 0.5291314373558801,
+      "damage": 0.06439393939393939
+    },
+    "downstream": {
+      "R2": 0.6978702232744134,
+      "MAE": 7.075406482390603
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "concrete",
+    "method": "E",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 1143,
+      "exact": 1106,
+      "errors": 3696,
+      "normal": 1584,
+      "normal_damage": 9,
+      "P": 0.9676290463692039,
+      "R": 0.29924242424242425,
+      "F1": 0.457119239512296,
+      "damage": 0.005681818181818182
+    },
+    "downstream": {
+      "R2": 0.7699963983466016,
+      "MAE": 6.0111945062777234
+    },
+    "source_qualified": false
+  },
+  {
+    "dataset": "airfoil",
+    "method": "A",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 1951,
+      "exact": 1917,
+      "errors": 3370,
+      "normal": 1445,
+      "normal_damage": 6,
+      "P": 0.9825730394669401,
+      "R": 0.5688427299703264,
+      "F1": 0.7205412516444277,
+      "damage": 0.004152249134948097
+    },
+    "downstream": {
+      "R2": 0.73452823969571,
+      "MAE": 2.6932634625752767
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "airfoil",
+    "method": "B",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 718,
+      "exact": 679,
+      "errors": 3370,
+      "normal": 1445,
+      "normal_damage": 0,
+      "P": 0.9456824512534819,
+      "R": 0.20148367952522256,
+      "F1": 0.33219178082191786,
+      "damage": 0.0
+    },
+    "downstream": {
+      "R2": 0.5891936881720705,
+      "MAE": 3.402142123413086
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "airfoil",
+    "method": "C",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 1951,
+      "exact": 1917,
+      "errors": 3370,
+      "normal": 1445,
+      "normal_damage": 6,
+      "P": 0.9825730394669401,
+      "R": 0.5688427299703264,
+      "F1": 0.7205412516444277,
+      "damage": 0.004152249134948097
+    },
+    "downstream": {
+      "R2": 0.73452823969571,
+      "MAE": 2.6932634625752767
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "airfoil",
+    "method": "D",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 3005,
+      "exact": 2204,
+      "errors": 3370,
+      "normal": 1445,
+      "normal_damage": 10,
+      "P": 0.7334442595673877,
+      "R": 0.6540059347181009,
+      "F1": 0.6914509803921569,
+      "damage": 0.006920415224913495
+    },
+    "downstream": {
+      "R2": 0.7486402936308292,
+      "MAE": 2.4909036633809403
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "airfoil",
+    "method": "E",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 1951,
+      "exact": 1917,
+      "errors": 3370,
+      "normal": 1445,
+      "normal_damage": 6,
+      "P": 0.9825730394669401,
+      "R": 0.5688427299703264,
+      "F1": 0.7205412516444277,
+      "damage": 0.004152249134948097
+    },
+    "downstream": {
+      "R2": 0.73452823969571,
+      "MAE": 2.6932634625752767
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "method": "A",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 1926,
+      "exact": 1926,
+      "errors": 3861,
+      "normal": 1656,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.4988344988344988,
+      "F1": 0.6656298600311041,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.574831282254863,
+      "AUC": 0.6941509433962264,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "method": "B",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 1879,
+      "exact": 1365,
+      "errors": 3861,
+      "normal": 1656,
+      "normal_damage": 0,
+      "P": 0.7264502394890899,
+      "R": 0.35353535353535354,
+      "F1": 0.47560975609756095,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.6214574898785425,
+      "AUC": 0.6454716981132075,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "method": "C",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 1926,
+      "exact": 1926,
+      "errors": 3861,
+      "normal": 1656,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.4988344988344988,
+      "F1": 0.6656298600311041,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.574831282254863,
+      "AUC": 0.6941509433962264,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "method": "D",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 2898,
+      "exact": 2324,
+      "errors": 3861,
+      "normal": 1656,
+      "normal_damage": 0,
+      "P": 0.8019323671497585,
+      "R": 0.6019166019166019,
+      "F1": 0.6876756916703655,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.6331317764804003,
+      "AUC": 0.7111320754716981,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "method": "E",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 1926,
+      "exact": 1926,
+      "errors": 3861,
+      "normal": 1656,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.4988344988344988,
+      "F1": 0.6656298600311041,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.574831282254863,
+      "AUC": 0.6941509433962264,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "car_evaluation",
+    "method": "A",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 2316,
+      "exact": 2316,
+      "errors": 4644,
+      "normal": 1992,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.49870801033591733,
+      "F1": 0.6655172413793103,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.3905487117007355,
+      "AUC": 0.9574208182400687,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "car_evaluation",
+    "method": "B",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 1821,
+      "exact": 1356,
+      "errors": 4644,
+      "normal": 1992,
+      "normal_damage": 0,
+      "P": 0.7446457990115322,
+      "R": 0.29198966408268734,
+      "F1": 0.4194895591647332,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.36507957145829,
+      "AUC": 0.8926475580344189,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "car_evaluation",
+    "method": "C",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 2316,
+      "exact": 2316,
+      "errors": 4644,
+      "normal": 1992,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.49870801033591733,
+      "F1": 0.6655172413793103,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.3905487117007355,
+      "AUC": 0.9574208182400687,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "car_evaluation",
+    "method": "D",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 3480,
+      "exact": 2679,
+      "errors": 4644,
+      "normal": 1992,
+      "normal_damage": 0,
+      "P": 0.7698275862068965,
+      "R": 0.5768733850129198,
+      "F1": 0.6595273264401772,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.480570484309365,
+      "AUC": 0.9194488114973149,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "car_evaluation",
+    "method": "E",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 2316,
+      "exact": 2316,
+      "errors": 4644,
+      "normal": 1992,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.49870801033591733,
+      "F1": 0.6655172413793103,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.3905487117007355,
+      "AUC": 0.9574208182400687,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "A",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 3644,
+      "exact": 3594,
+      "errors": 9804,
+      "normal": 4199,
+      "normal_damage": 0,
+      "P": 0.9862788144895719,
+      "R": 0.36658506731946144,
+      "F1": 0.5345032718619869,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.6582530120481928,
+      "AUC": 0.6958762886597938,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "B",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 1685,
+      "exact": 1554,
+      "errors": 9804,
+      "normal": 4199,
+      "normal_damage": 0,
+      "P": 0.9222551928783382,
+      "R": 0.15850673194614442,
+      "F1": 0.27051962746975367,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.6500119531436768,
+      "AUC": 0.669983217453848,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "C",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 3510,
+      "exact": 3474,
+      "errors": 9804,
+      "normal": 4199,
+      "normal_damage": 0,
+      "P": 0.9897435897435898,
+      "R": 0.3543451652386781,
+      "F1": 0.5218566922036953,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.6369047619047619,
+      "AUC": 0.686166386957564,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "D",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 7198,
+      "exact": 4285,
+      "errors": 9804,
+      "normal": 4199,
+      "normal_damage": 42,
+      "P": 0.5953042511808836,
+      "R": 0.43706650346797227,
+      "F1": 0.5040583460769321,
+      "damage": 0.010002381519409383
+    },
+    "downstream": {
+      "macro_F1": 0.6384698275862069,
+      "AUC": 0.6801726204747063,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "E",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 3599,
+      "exact": 3553,
+      "errors": 9804,
+      "normal": 4199,
+      "normal_damage": 0,
+      "P": 0.9872186718532926,
+      "R": 0.3624031007751938,
+      "F1": 0.5301798104901887,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.6582530120481928,
+      "AUC": 0.7012706784943659,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "tic_tac_toe",
+    "arm": "F",
+    "task": "classification",
+    "repair": {
+      "changes": 1926,
+      "exact": 1926,
+      "errors": 3861,
+      "normal": 1656,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.4988344988344988,
+      "F1": 0.6656298600311041,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.574831282254863,
+      "AUC": 0.6941509433962264,
+      "AUC_unavailable_reason": null
+    },
+    "method": "F",
+    "status": "complete",
+    "source_qualified": true
+  },
+  {
+    "dataset": "car_evaluation",
+    "arm": "F",
+    "task": "classification",
+    "repair": {
+      "changes": 2316,
+      "exact": 2316,
+      "errors": 4644,
+      "normal": 1992,
+      "normal_damage": 0,
+      "P": 1.0,
+      "R": 0.49870801033591733,
+      "F1": 0.6655172413793103,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.3905487117007355,
+      "AUC": 0.9574208182400687,
+      "AUC_unavailable_reason": null
+    },
+    "method": "F",
+    "status": "complete",
+    "source_qualified": true
+  },
+  {
+    "dataset": "retinopathy",
+    "arm": "F",
+    "task": "classification",
+    "repair": {
+      "changes": 3644,
+      "exact": 3594,
+      "errors": 9804,
+      "normal": 4199,
+      "normal_damage": 0,
+      "P": 0.9862788144895719,
+      "R": 0.36658506731946144,
+      "F1": 0.5345032718619869,
+      "damage": 0.0
+    },
+    "downstream": {
+      "macro_F1": 0.6582530120481928,
+      "AUC": 0.6958762886597938,
+      "AUC_unavailable_reason": null
+    },
+    "method": "F",
+    "status": "complete",
+    "source_qualified": true
+  },
+  {
+    "dataset": "real_estate",
+    "arm": "F",
+    "task": "regression",
+    "repair": {
+      "changes": 254,
+      "exact": 253,
+      "errors": 1116,
+      "normal": 474,
+      "normal_damage": 1,
+      "P": 0.9960629921259843,
+      "R": 0.22670250896057348,
+      "F1": 0.36934306569343067,
+      "damage": 0.002109704641350211
+    },
+    "downstream": {
+      "R2": 0.6983704439711316,
+      "MAE": 5.205782309445468
+    },
+    "method": "F",
+    "status": "complete",
+    "source_qualified": true
+  },
+  {
+    "dataset": "concrete",
+    "arm": "F",
+    "task": "regression",
+    "repair": {
+      "changes": 1148,
+      "exact": 1110,
+      "errors": 3696,
+      "normal": 1584,
+      "normal_damage": 8,
+      "P": 0.9668989547038328,
+      "R": 0.3003246753246753,
+      "F1": 0.4582989265070191,
+      "damage": 0.005050505050505051
+    },
+    "downstream": {
+      "R2": 0.7785891179088102,
+      "MAE": 6.017388869905395
+    },
+    "method": "F",
+    "status": "complete",
+    "source_qualified": true
+  },
+  {
+    "dataset": "airfoil",
+    "arm": "F",
+    "task": "regression",
+    "repair": {
+      "changes": 1951,
+      "exact": 1917,
+      "errors": 3370,
+      "normal": 1445,
+      "normal_damage": 6,
+      "P": 0.9825730394669401,
+      "R": 0.5688427299703264,
+      "F1": 0.7205412516444277,
+      "damage": 0.004152249134948097
+    },
+    "downstream": {
+      "R2": 0.73452823969571,
+      "MAE": 2.6932634625752767
+    },
+    "method": "F",
+    "status": "complete",
+    "source_qualified": true
+  }
+]

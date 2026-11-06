@@ -1,0 +1,170 @@
+[
+  {
+    "dataset": "banknote",
+    "metric": "full_minus_tabclean_F1",
+    "n": 3,
+    "mean": -0.07827793611820548,
+    "sample_sd": 0.12672399910495952,
+    "per_seed": [
+      -0.012178610143821766,
+      0.0017304889664115919,
+      -0.22438568717720625
+    ]
+  },
+  {
+    "dataset": "banknote",
+    "metric": "full_minus_tabclean_normal_damage",
+    "n": 3,
+    "mean": -0.023135547764083816,
+    "sample_sd": 0.026258008240024923,
+    "per_seed": [
+      0.00715679895901106,
+      -0.03940568475452196,
+      -0.037157757496740544
+    ]
+  },
+  {
+    "dataset": "retinopathy",
+    "metric": "full_minus_tabclean_F1",
+    "n": 3,
+    "mean": 0.26178222007764446,
+    "sample_sd": 0.18703516245707028,
+    "per_seed": [
+      0.04907171303415281,
+      0.4005077090066001,
+      0.3357672381921805
+    ]
+  },
+  {
+    "dataset": "retinopathy",
+    "metric": "full_minus_tabclean_normal_damage",
+    "n": 3,
+    "mean": -0.035937353897959996,
+    "sample_sd": 0.03145242977630108,
+    "per_seed": [
+      -0.05235687489805904,
+      0.00032690421706440013,
+      -0.05578209101288534
+    ]
+  },
+  {
+    "dataset": "wdbc",
+    "metric": "full_minus_tabclean_F1",
+    "n": 3,
+    "mean": 0.07976877664452511,
+    "sample_sd": 0.14059879329326402,
+    "per_seed": [
+      0.24211527302224825,
+      -0.002260047917568897,
+      -0.0005488951711040135
+    ]
+  },
+  {
+    "dataset": "wdbc",
+    "metric": "full_minus_tabclean_normal_damage",
+    "n": 3,
+    "mean": -0.11897800055694795,
+    "sample_sd": 0.2024714936422004,
+    "per_seed": [
+      -0.3527568922305765,
+      0.00020885547201336674,
+      -0.0043859649122807015
+    ]
+  },
+  {
+    "dataset": "airfoil",
+    "metric": "full_minus_tabclean_F1",
+    "n": 3,
+    "mean": 0.25440892442563107,
+    "sample_sd": 0.1298329212562903,
+    "per_seed": [
+      0.23501072314573024,
+      0.1353665407558594,
+      0.3928495093753036
+    ]
+  },
+  {
+    "dataset": "airfoil",
+    "metric": "full_minus_tabclean_normal_damage",
+    "n": 3,
+    "mean": -0.0019020446980504042,
+    "sample_sd": 0.0032944380552903042,
+    "per_seed": [
+      -0.005706134094151213,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "energy",
+    "metric": "full_minus_tabclean_F1",
+    "n": 3,
+    "mean": 0.33283533122445785,
+    "sample_sd": 0.14361660374828944,
+    "per_seed": [
+      0.42899921197793545,
+      0.16774864777712217,
+      0.40175813391831594
+    ]
+  },
+  {
+    "dataset": "energy",
+    "metric": "full_minus_tabclean_normal_damage",
+    "n": 3,
+    "mean": 0.0,
+    "sample_sd": 0.0,
+    "per_seed": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "wine_red",
+    "metric": "full_minus_tabclean_F1",
+    "n": 3,
+    "mean": 0.17341498357999216,
+    "sample_sd": 0.12232435648221575,
+    "per_seed": [
+      0.19128307653860577,
+      0.04313928460944494,
+      0.2858225895919258
+    ]
+  },
+  {
+    "dataset": "wine_red",
+    "metric": "full_minus_tabclean_normal_damage",
+    "n": 3,
+    "mean": -0.0419760227093103,
+    "sample_sd": 0.05905542086701836,
+    "per_seed": [
+      -0.1093557652851867,
+      -0.017370228236719853,
+      0.0007979253939756633
+    ]
+  },
+  {
+    "dataset": "real_estate",
+    "metric": "full_minus_tabclean_F1",
+    "n": 3,
+    "mean": 0.010039291627138144,
+    "sample_sd": 0.17130964177517982,
+    "per_seed": [
+      0.14539777162727985,
+      -0.18256214329512765,
+      0.06728224654926224
+    ]
+  },
+  {
+    "dataset": "real_estate",
+    "metric": "full_minus_tabclean_normal_damage",
+    "n": 3,
+    "mean": -0.0430416068866571,
+    "sample_sd": 0.07455024996709658,
+    "per_seed": [
+      0.0,
+      0.0,
+      -0.1291248206599713
+    ]
+  }
+]

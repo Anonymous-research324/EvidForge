@@ -1,0 +1,1858 @@
+{
+  "scope": "Known real-source tables with newly controlled domain-valid conflicts; frozen original method, not new blind/natural-only data",
+  "score_sha256": "4d5e823ed443bf4e4c8f07757f352476a5a36c92c5a2a2ea1bdfa72c00dd4b71",
+  "aggregate": [
+    {
+      "dataset": "hospital",
+      "arm": "full",
+      "metric": "P",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9778947788281281,
+      "sample_sd": 0.03217368201963245,
+      "per_seed": [
+        0.9927007299270073,
+        1.0,
+        0.940983606557377
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "full",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "full",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9591549280147699,
+      "sample_sd": 0.029006412213284316,
+      "per_seed": [
+        0.9560632688927944,
+        0.9895833333333333,
+        0.9318181818181819
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "full",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0007701193685021178,
+      "sample_sd": 0.001333885874138527,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0023103581055063534
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "full",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9746678051684456,
+      "sample_sd": 0.013297598837852738,
+      "per_seed": [
+        0.964406779661017,
+        0.9896907216494846,
+        0.9699059141948353
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_llm",
+      "metric": "P",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9778947788281281,
+      "sample_sd": 0.03217368201963245,
+      "per_seed": [
+        0.9927007299270073,
+        1.0,
+        0.940983606557377
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_llm",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_llm",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9591549280147699,
+      "sample_sd": 0.029006412213284316,
+      "per_seed": [
+        0.9560632688927944,
+        0.9895833333333333,
+        0.9318181818181819
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_llm",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0007701193685021178,
+      "sample_sd": 0.001333885874138527,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0023103581055063534
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_llm",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9746678051684456,
+      "sample_sd": 0.013297598837852738,
+      "per_seed": [
+        0.964406779661017,
+        0.9896907216494846,
+        0.9699059141948353
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_transforms",
+      "metric": "P",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9778947788281281,
+      "sample_sd": 0.03217368201963245,
+      "per_seed": [
+        0.9927007299270073,
+        1.0,
+        0.940983606557377
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_transforms",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_transforms",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9591549280147699,
+      "sample_sd": 0.029006412213284316,
+      "per_seed": [
+        0.9560632688927944,
+        0.9895833333333333,
+        0.9318181818181819
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_transforms",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0007701193685021178,
+      "sample_sd": 0.001333885874138527,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0023103581055063534
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_transforms",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9746678051684456,
+      "sample_sd": 0.013297598837852738,
+      "per_seed": [
+        0.964406779661017,
+        0.9896907216494846,
+        0.9699059141948353
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_generated_execution",
+      "metric": "P",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9778947788281281,
+      "sample_sd": 0.03217368201963245,
+      "per_seed": [
+        0.9927007299270073,
+        1.0,
+        0.940983606557377
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_generated_execution",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_generated_execution",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9591549280147699,
+      "sample_sd": 0.029006412213284316,
+      "per_seed": [
+        0.9560632688927944,
+        0.9895833333333333,
+        0.9318181818181819
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_generated_execution",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0007701193685021178,
+      "sample_sd": 0.001333885874138527,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0023103581055063534
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_generated_execution",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9746678051684456,
+      "sample_sd": 0.013297598837852738,
+      "per_seed": [
+        0.964406779661017,
+        0.9896907216494846,
+        0.9699059141948353
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_final_gate",
+      "metric": "P",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9454587555484818,
+      "sample_sd": 0.03917811000127371,
+      "per_seed": [
+        0.9147540983606557,
+        0.9895833333333334,
+        0.9320388349514563
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_final_gate",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9503963904135154,
+      "sample_sd": 0.02696844173972438,
+      "per_seed": [
+        0.9457627118644067,
+        0.979381443298969,
+        0.9260450160771704
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_final_gate",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.947829405537913,
+      "sample_sd": 0.03172321579271465,
+      "per_seed": [
+        0.9299999999999999,
+        0.9844559585492227,
+        0.9290322580645161
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_final_gate",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.002414207521698097,
+      "sample_sd": 0.001841108777934281,
+      "per_seed": [
+        0.004305043050430504,
+        0.0006272214091574326,
+        0.0023103581055063534
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_final_gate",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9816391013283727,
+      "sample_sd": 0.0068528814446836015,
+      "per_seed": [
+        0.9792034106781745,
+        0.9893771109449059,
+        0.9763367823620378
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_feedback",
+      "metric": "P",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9778947788281281,
+      "sample_sd": 0.03217368201963245,
+      "per_seed": [
+        0.9927007299270073,
+        1.0,
+        0.940983606557377
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_feedback",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_feedback",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9591549280147699,
+      "sample_sd": 0.029006412213284316,
+      "per_seed": [
+        0.9560632688927944,
+        0.9895833333333333,
+        0.9318181818181819
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_feedback",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0007701193685021178,
+      "sample_sd": 0.001333885874138527,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0023103581055063534
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_feedback",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9746678051684456,
+      "sample_sd": 0.013297598837852738,
+      "per_seed": [
+        0.964406779661017,
+        0.9896907216494846,
+        0.9699059141948353
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_predictive_context",
+      "metric": "P",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9778947788281281,
+      "sample_sd": 0.03217368201963245,
+      "per_seed": [
+        0.9927007299270073,
+        1.0,
+        0.940983606557377
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_predictive_context",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_predictive_context",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9591549280147699,
+      "sample_sd": 0.029006412213284316,
+      "per_seed": [
+        0.9560632688927944,
+        0.9895833333333333,
+        0.9318181818181819
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_predictive_context",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0007701193685021178,
+      "sample_sd": 0.001333885874138527,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0023103581055063534
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_predictive_context",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9746678051684456,
+      "sample_sd": 0.013297598837852738,
+      "per_seed": [
+        0.964406779661017,
+        0.9896907216494846,
+        0.9699059141948353
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "reuse",
+      "metric": "P",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9778947788281281,
+      "sample_sd": 0.03217368201963245,
+      "per_seed": [
+        0.9927007299270073,
+        1.0,
+        0.940983606557377
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "reuse",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "reuse",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9591549280147699,
+      "sample_sd": 0.029006412213284316,
+      "per_seed": [
+        0.9560632688927944,
+        0.9895833333333333,
+        0.9318181818181819
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "reuse",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0007701193685021178,
+      "sample_sd": 0.001333885874138527,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0023103581055063534
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "reuse",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9746678051684456,
+      "sample_sd": 0.013297598837852738,
+      "per_seed": [
+        0.964406779661017,
+        0.9896907216494846,
+        0.9699059141948353
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "full",
+      "metric": "P",
+      "n": 1,
+      "total_seeds": 3,
+      "mean": null,
+      "sample_sd": null,
+      "per_seed": [
+        null,
+        null,
+        0.23076923076923078
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "full",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0010141987829614604,
+      "sample_sd": 0.0017566438210637701,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0030425963488843813
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "full",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.002002002002002002,
+      "sample_sd": 0.0034675691843220765,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.006006006006006006
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "full",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0013043478260869566,
+      "sample_sd": 0.002259196705524623,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.00391304347826087
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "full",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.5000239586089308,
+      "sample_sd": 4.149752794685765e-05,
+      "per_seed": [
+        0.5,
+        0.5,
+        0.5000718758267925
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_llm",
+      "metric": "P",
+      "n": 1,
+      "total_seeds": 3,
+      "mean": null,
+      "sample_sd": null,
+      "per_seed": [
+        null,
+        null,
+        0.23076923076923078
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_llm",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0010141987829614604,
+      "sample_sd": 0.0017566438210637701,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0030425963488843813
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_llm",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.002002002002002002,
+      "sample_sd": 0.0034675691843220765,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.006006006006006006
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_llm",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0013043478260869566,
+      "sample_sd": 0.002259196705524623,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.00391304347826087
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_llm",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.5000239586089308,
+      "sample_sd": 4.149752794685765e-05,
+      "per_seed": [
+        0.5,
+        0.5,
+        0.5000718758267925
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_transforms",
+      "metric": "P",
+      "n": 1,
+      "total_seeds": 3,
+      "mean": null,
+      "sample_sd": null,
+      "per_seed": [
+        null,
+        null,
+        0.23076923076923078
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_transforms",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0010141987829614604,
+      "sample_sd": 0.0017566438210637701,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0030425963488843813
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_transforms",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.002002002002002002,
+      "sample_sd": 0.0034675691843220765,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.006006006006006006
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_transforms",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0013043478260869566,
+      "sample_sd": 0.002259196705524623,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.00391304347826087
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_transforms",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.5000239586089308,
+      "sample_sd": 4.149752794685765e-05,
+      "per_seed": [
+        0.5,
+        0.5,
+        0.5000718758267925
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_generated_execution",
+      "metric": "P",
+      "n": 1,
+      "total_seeds": 3,
+      "mean": null,
+      "sample_sd": null,
+      "per_seed": [
+        null,
+        null,
+        0.23076923076923078
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_generated_execution",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0010141987829614604,
+      "sample_sd": 0.0017566438210637701,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0030425963488843813
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_generated_execution",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.002002002002002002,
+      "sample_sd": 0.0034675691843220765,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.006006006006006006
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_generated_execution",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0013043478260869566,
+      "sample_sd": 0.002259196705524623,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.00391304347826087
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_generated_execution",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.5000239586089308,
+      "sample_sd": 4.149752794685765e-05,
+      "per_seed": [
+        0.5,
+        0.5,
+        0.5000718758267925
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_final_gate",
+      "metric": "P",
+      "n": 2,
+      "total_seeds": 3,
+      "mean": null,
+      "sample_sd": null,
+      "per_seed": [
+        null,
+        0.0029940119760479044,
+        0.45990180032733224
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_final_gate",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.04816765371153308,
+      "sample_sd": 0.08169598641688557,
+      "per_seed": [
+        0.0,
+        0.002008032128514056,
+        0.14249492900608518
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_final_gate",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.07332676921091556,
+      "sample_sd": 0.1249296798548652,
+      "per_seed": [
+        0.0,
+        0.002403846153846154,
+        0.21757646147890053
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_final_gate",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.08960874554117089,
+      "sample_sd": 0.11307334938549717,
+      "per_seed": [
+        0.0,
+        0.21665232358003442,
+        0.05217391304347826
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_final_gate",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.5140780466976865,
+      "sample_sd": 0.048422886473916495,
+      "per_seed": [
+        0.5,
+        0.4742541594951234,
+        0.5679799805979363
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_feedback",
+      "metric": "P",
+      "n": 1,
+      "total_seeds": 3,
+      "mean": null,
+      "sample_sd": null,
+      "per_seed": [
+        null,
+        null,
+        0.23076923076923078
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_feedback",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0010141987829614604,
+      "sample_sd": 0.0017566438210637701,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0030425963488843813
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_feedback",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.002002002002002002,
+      "sample_sd": 0.0034675691843220765,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.006006006006006006
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_feedback",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0013043478260869566,
+      "sample_sd": 0.002259196705524623,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.00391304347826087
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_feedback",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.5000239586089308,
+      "sample_sd": 4.149752794685765e-05,
+      "per_seed": [
+        0.5,
+        0.5,
+        0.5000718758267925
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_predictive_context",
+      "metric": "P",
+      "n": 1,
+      "total_seeds": 3,
+      "mean": null,
+      "sample_sd": null,
+      "per_seed": [
+        null,
+        null,
+        0.23076923076923078
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_predictive_context",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0010141987829614604,
+      "sample_sd": 0.0017566438210637701,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0030425963488843813
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_predictive_context",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.002002002002002002,
+      "sample_sd": 0.0034675691843220765,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.006006006006006006
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_predictive_context",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0013043478260869566,
+      "sample_sd": 0.002259196705524623,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.00391304347826087
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_predictive_context",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.5000239586089308,
+      "sample_sd": 4.149752794685765e-05,
+      "per_seed": [
+        0.5,
+        0.5,
+        0.5000718758267925
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "reuse",
+      "metric": "P",
+      "n": 1,
+      "total_seeds": 3,
+      "mean": null,
+      "sample_sd": null,
+      "per_seed": [
+        null,
+        null,
+        0.23076923076923078
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "reuse",
+      "metric": "R",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0010141987829614604,
+      "sample_sd": 0.0017566438210637701,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0030425963488843813
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "reuse",
+      "metric": "F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.002002002002002002,
+      "sample_sd": 0.0034675691843220765,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.006006006006006006
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "reuse",
+      "metric": "normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0013043478260869566,
+      "sample_sd": 0.002259196705524623,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.00391304347826087
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "reuse",
+      "metric": "detection_AUC",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.5000239586089308,
+      "sample_sd": 4.149752794685765e-05,
+      "per_seed": [
+        0.5,
+        0.5,
+        0.5000718758267925
+      ]
+    }
+  ],
+  "paired": [
+    {
+      "dataset": "hospital",
+      "arm": "no_llm",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_llm",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_transforms",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_transforms",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_generated_execution",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_generated_execution",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_final_gate",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.01132552247685692,
+      "sample_sd": 0.012816843421738118,
+      "per_seed": [
+        0.026063268892794422,
+        0.005127374784110517,
+        0.00278592375366582
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_final_gate",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": -0.0016440881531959788,
+      "sample_sd": 0.0023256961103858046,
+      "per_seed": [
+        -0.004305043050430504,
+        -0.0006272214091574326,
+        0.0
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_feedback",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_feedback",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_predictive_context",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_predictive_context",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "reuse",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "reuse",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_llm",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_llm",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_transforms",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_transforms",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_generated_execution",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_generated_execution",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_final_gate",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": -0.07132476720891356,
+      "sample_sd": 0.12146227573432475,
+      "per_seed": [
+        0.0,
+        -0.002403846153846154,
+        -0.21157045547289452
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_final_gate",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": -0.08830439771508393,
+      "sample_sd": 0.11374168294066099,
+      "per_seed": [
+        0.0,
+        -0.21665232358003442,
+        -0.048260869565217385
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_feedback",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_feedback",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_predictive_context",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_predictive_context",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "reuse",
+      "metric": "full_minus_arm_F1",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "reuse",
+      "metric": "full_minus_arm_normal_damage",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "dataset": "hospital",
+      "arm": "full",
+      "mechanism": "domain_valid_cross_field_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_llm",
+      "mechanism": "domain_valid_cross_field_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_transforms",
+      "mechanism": "domain_valid_cross_field_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_generated_execution",
+      "mechanism": "domain_valid_cross_field_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_final_gate",
+      "mechanism": "domain_valid_cross_field_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.9503963904135154,
+      "sample_sd": 0.02696844173972438,
+      "per_seed": [
+        0.9457627118644067,
+        0.979381443298969,
+        0.9260450160771704
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_feedback",
+      "mechanism": "domain_valid_cross_field_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "no_predictive_context",
+      "mechanism": "domain_valid_cross_field_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "hospital",
+      "arm": "reuse",
+      "mechanism": "domain_valid_cross_field_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.941414974532541,
+      "sample_sd": 0.03288233326692539,
+      "per_seed": [
+        0.9220338983050848,
+        0.979381443298969,
+        0.9228295819935691
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "full",
+      "mechanism": "domain_valid_time_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0017730496453900709,
+      "sample_sd": 0.003071012070157584,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.005319148936170213
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "full",
+      "mechanism": "schedule_actual_field_confusion",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_llm",
+      "mechanism": "domain_valid_time_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0017730496453900709,
+      "sample_sd": 0.003071012070157584,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.005319148936170213
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_llm",
+      "mechanism": "schedule_actual_field_confusion",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_transforms",
+      "mechanism": "domain_valid_time_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0017730496453900709,
+      "sample_sd": 0.003071012070157584,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.005319148936170213
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_transforms",
+      "mechanism": "schedule_actual_field_confusion",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_generated_execution",
+      "mechanism": "domain_valid_time_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0017730496453900709,
+      "sample_sd": 0.003071012070157584,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.005319148936170213
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_generated_execution",
+      "mechanism": "schedule_actual_field_confusion",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_final_gate",
+      "mechanism": "domain_valid_time_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.051091315371325656,
+      "sample_sd": 0.08552129431486329,
+      "per_seed": [
+        0.0,
+        0.003451251078515962,
+        0.149822695035461
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_final_gate",
+      "mechanism": "schedule_actual_field_confusion",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.044233807266982623,
+      "sample_sd": 0.07661520159862333,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.13270142180094788
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_feedback",
+      "mechanism": "domain_valid_time_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0017730496453900709,
+      "sample_sd": 0.003071012070157584,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.005319148936170213
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_feedback",
+      "mechanism": "schedule_actual_field_confusion",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_predictive_context",
+      "mechanism": "domain_valid_time_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0017730496453900709,
+      "sample_sd": 0.003071012070157584,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.005319148936170213
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "no_predictive_context",
+      "mechanism": "schedule_actual_field_confusion",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "reuse",
+      "mechanism": "domain_valid_time_substitution",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0017730496453900709,
+      "sample_sd": 0.003071012070157584,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.005319148936170213
+      ]
+    },
+    {
+      "dataset": "flights",
+      "arm": "reuse",
+      "mechanism": "schedule_actual_field_confusion",
+      "n": 3,
+      "total_seeds": 3,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "scientific_protocols_original_bytes": {
+    "sealed_reuse": {
+      "configs/protocol.json": "3ed89262e2c2aead79c8718e350f1a1bc4074cd2be2baff425d65efb6141d936"
+    },
+    "example_budget": {
+      "configs/protocol.json": "4b35ac2553ff8e7924c7e84a3780286f97b2d32952b7fc6df9f91fd74aa21184"
+    },
+    "robustness_retinopathy": {
+      "configs/protocol.json": "42eec40e243885b3bd90c4b78322b2789919d5925a08d8691a63e96c1ee6cfdb"
+    },
+    "repair_main": {
+      "protocol.json": "95f5419cb23cd7b054dfc037d3f76aca7c4e8c22964a6665bfad696263a06be7"
+    },
+    "semantic_historical": {
+      "configs/controlled_protocol.json": "ab886216f07bf9a23ce3282a08929eb155f2be611a54818b2a70519be4df3bab"
+    },
+    "advisor_supplement": {
+      "configs/protocol.json": "62e061e524259a7a7e2324b4b372f47bd7587e286af3879fa391774012644094"
+    },
+    "new_errors": {
+      "configs/protocol.json": "a16504aa6303e77881d1c767e43df1fe1d19660e77c7872d30e4b6248728588a"
+    },
+    "threshold": {
+      "configs/protocol.json": "6f2de3e9c8950921892fad5babaa430c25d5954a028a973f77f148ff267e3943"
+    },
+    "module_ablation": {
+      "protocol.json": "b193dbd302c209accaefa353bde8a6f1060ae5421f704925284aa4a06385af81"
+    },
+    "real_dirty": {
+      "configs/protocol_recovery_v3.json": "5fb3f4eb9574f68afe4ad08f822d7d22e319eac5947b3bb296da66f150851ddc",
+      "configs/run_config.json": "295824ac1e8cb5f9a8f28931f374a45c4734e499618a775c5c7a8349879860f0"
+    },
+    "downstream_main": {
+      "protocol.json": "0165373658c04807a6c61cdf8ad337051ef986b711f88793bd798d78f5beab5a"
+    },
+    "llm_digit70": {
+      "configs/protocol.json": "2a3c8a115e91b4970e2110b9ee0cb25673f6aa9359812884cea70d7aa7c2cd5f"
+    },
+    "tabclean_same9b": {
+      "configs/simple_protocol_v1.json": "42c53da05710c7e2d29a89ab814c07b3c34a82cc8a2375bb4a46761f9d0c7b9f",
+      "configs/run_config.json": "4a4cbc86cbc9433d0aa5bc3a7b13e62e5956ad29d5fb70d5dd870ae7f3b94157"
+    }
+  },
+  "historical_ownership_not_included": true,
+  "case_dispatch_narrowed_separately": true
+}

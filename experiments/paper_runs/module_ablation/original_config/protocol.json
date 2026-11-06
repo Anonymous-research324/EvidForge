@@ -1,0 +1,163 @@
+{
+  "project": "EvidForge",
+  "question": "Where do the gains come from?",
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "new_seeds": [
+    1014,
+    1015
+  ],
+  "original_ablation_root": "/root/fsas/home/anonymous/projects/EvidForge_Ablation_seed1013",
+  "original_ablation_scores": "/root/fsas/home/anonymous/projects/EvidForge_Ablation_seed1013/reports/scores.json",
+  "original_ablation_scores_sha256": "b5082ee06a24baa3041b342cd7ef800d39872e1f4d0e7e9180f78fce059ba2ed",
+  "downstream_roots": {
+    "1014": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014",
+    "1015": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015"
+  },
+  "new_roots": {
+    "1014": "/root/fsas/home/anonymous/projects/EvidForge_Ablation_seed1014",
+    "1015": "/root/fsas/home/anonymous/projects/EvidForge_Ablation_seed1015"
+  },
+  "downstream_scores_sha256": {
+    "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/reports/final_seed1013/scores.json": "3251a1528e1d59aac8167096a697a6be2a0061ee5d0f8f3c5a1a5d71b3a3a02c",
+    "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/reports/final_seed1014/scores.json": "066aaa64e4929615bb4480fc83603789cd94186c1de683cca54488747dc5108e",
+    "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/reports/final_seed1015/scores.json": "b85782e44420a311ee72f994e1b867b14a28393e8aa540957ec20e32cb482c71"
+  },
+  "execution_order": [
+    "real_estate",
+    "concrete",
+    "airfoil",
+    "tic_tac_toe",
+    "car_evaluation",
+    "retinopathy"
+  ],
+  "display_order": [
+    "tic_tac_toe",
+    "car_evaluation",
+    "retinopathy",
+    "real_estate",
+    "concrete",
+    "airfoil"
+  ],
+  "classification": [
+    "tic_tac_toe",
+    "car_evaluation",
+    "retinopathy"
+  ],
+  "catalog": {
+    "tic_tac_toe": {
+      "id": 101,
+      "slug": "tic+tac+toe+endgame",
+      "task": "classification",
+      "rows": 958,
+      "columns": 9,
+      "layout": "tic"
+    },
+    "car_evaluation": {
+      "id": 19,
+      "slug": "car+evaluation",
+      "task": "classification",
+      "rows": 1728,
+      "columns": 6,
+      "layout": "car"
+    },
+    "retinopathy": {
+      "id": 329,
+      "slug": "diabetic+retinopathy+debrecen",
+      "task": "classification",
+      "rows": 1151,
+      "columns": 19,
+      "layout": "retino"
+    },
+    "real_estate": {
+      "id": 477,
+      "slug": "real+estate+valuation+data+set",
+      "task": "regression",
+      "rows": 414,
+      "columns": 6,
+      "layout": "estate"
+    },
+    "concrete": {
+      "id": 165,
+      "slug": "concrete+compressive+strength",
+      "task": "regression",
+      "rows": 1030,
+      "columns": 8,
+      "layout": "concrete"
+    },
+    "airfoil": {
+      "id": 291,
+      "slug": "airfoil+self+noise",
+      "task": "regression",
+      "rows": 1503,
+      "columns": 5,
+      "layout": "airfoil"
+    }
+  },
+  "display_names": {
+    "tic_tac_toe": "Tic-Tac-Toe",
+    "car_evaluation": "Car Evaluation",
+    "retinopathy": "Retinopathy",
+    "real_estate": "Real Estate",
+    "concrete": "Concrete",
+    "airfoil": "Airfoil"
+  },
+  "arms": {
+    "study": "EvidForge RQ3 six-arm ablation on six previously selected tables",
+    "seed": 1013,
+    "model": "Qwen3.5-9B",
+    "dtype": "bfloat16",
+    "temperature": 0,
+    "datasets": [
+      "real_estate",
+      "concrete",
+      "airfoil",
+      "tic_tac_toe",
+      "car_evaluation",
+      "retinopathy"
+    ],
+    "old_study": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013",
+    "input_reuse": true,
+    "pollution": 0.7,
+    "partition_and_XGBoost_unchanged": true,
+    "A_saved": "Byte-exact replay old system using unchanged sources; no new rule generation",
+    "A": "Paired complete native source learning rerun, starting fixed prepared source fit; external selection same protocol",
+    "B": "A learned package; suppress paired transform candidate generators affix/scale/shift/mapping/strip/casefold/edit; keep other candidate sources and original feature formulas",
+    "C": "A learned package; skip optional compiled_candidate branch in prior/context trusted code at runtime; preserve physical sealed files/hashes",
+    "D": "A learned package; omit final score/margin inequalities in base/generated permitted, retain tie/validity/source-channel/accept-expression and native-point safeguards",
+    "E": "Native source-learning no feedback for revision; pair proposal count to A same phase, initial summary same, own proposals allowed, final compile after fixed independent proposals, same evaluator and external validation",
+    "F": "Native source learning without project PreToolUse/PostToolUse/Stop Hook registration; backend verifications, source privacy and tool permissions retained",
+    "failure_policy": "Preserve all failed code/responses; controller blocks before scoring on runtime failures for interface review, not zero performance",
+    "grading": "All42 outputs close, then one new independent ablation scorer; old main score never rerun or overwritten; source/qualification results never formal",
+    "scope": "Fixed-skill BCD and paired learning EF; six selected datasets, reused benchmark not freshblind; actual calls/tokens/time logged; no assumption every ablation is worse",
+    "frozen_at": 1792046335.8437726
+  },
+  "seed_changes_only": true,
+  "pollution": 0.7,
+  "identical_to_corresponding_downstream_inputs": true,
+  "no_new_generation_or_download": true,
+  "model": "Qwen3.5-9B",
+  "dtype": "bfloat16",
+  "temperature": 0,
+  "gpu": {
+    "1014": 0,
+    "1015": 1
+  },
+  "model_ports": {
+    "1014": 8081,
+    "1015": 8082
+  },
+  "original124_byte_identical": true,
+  "paired_A_new_and_A_saved_replay_checked_without_selecting_better_A": true,
+  "model_jobs": "One GPU per seed; real native A/E/F, B/C/D execute same-seed same-round A sealed skill",
+  "metric_definition": "repair P/R/exactF1/normal damage and identical fixed XGBoost downstream classification macroF1/AUC or regression R2/MAE",
+  "standard_deviation": "equal three-seed mean plus sample SD ddof=1; paired differences within seed separately; no fake n3 or missing=0",
+  "scope": "Previously selected six tables, not a new blind test; original eight retained",
+  "no_assumption_every_ablation_decreases_or_three_positive_contributions": true,
+  "advisory_timeout_hours": 12,
+  "automatic_timeout_kill": false,
+  "created_at": 1792164100.0526507
+}

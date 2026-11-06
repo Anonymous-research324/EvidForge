@@ -1,0 +1,39 @@
+{
+  "added_final_runtime_dependencies": [
+    {
+      "path": "code/run_cdc_seed1013_v4.py",
+      "sha256": "d784298aa76dbc027510140a6a06243a2034630ec748b06e7b35da4a03a0cbc6",
+      "seed": 1013
+    },
+    {
+      "path": "code/run_cdc_seed1014_v4.py",
+      "sha256": "0cfc56493fbc3058926ee733dfad817b9c126f921b5d28912e2c203e815fc4bc",
+      "seed": 1014
+    },
+    {
+      "path": "code/run_cdc_seed1015_v4.py",
+      "sha256": "915c97c52a5f6731375ee5174a64b560f1b4fb65a0bf7fb6de19e4ba23635319",
+      "seed": 1015
+    }
+  ],
+  "source_root": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027",
+  "omitted_nonpaper_pilot": {
+    "path": "code/table1_runners/seed9013/run_holoclean.py",
+    "sha256": "ceb401c341a9b4771de5c8fd7a8231cec17d295a7d25e934b7d7e3234a2c68c0"
+  },
+  "original_numeric_code_changed": false,
+  "new_model_calls": 0,
+  "new_experiments": 0,
+  "added_required_input_curators": [
+    {
+      "path": "code/curate_formal.py",
+      "sha256": "84f4c0c803a71039c007e5e63802ffe7ee7d1a4bb8d6bc0ad5117a8914089f68",
+      "source_path": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Formal5_ThreeSeeds_20261027/code/curate_formal.py"
+    },
+    {
+      "path": "code/curate_legacy.py",
+      "sha256": "70d538933643435cb3350f2e24bf47453507c557c0a1dde7cf6df55484c23054",
+      "source_path": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Formal5_ThreeSeeds_20261027/code/curate_legacy.py"
+    }
+  ]
+}

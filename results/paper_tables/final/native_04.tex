@@ -1,0 +1,31 @@
+\begin{table*}[tb]
+\centering
+\caption{置信门槛敏感性}
+\label{tab:threshold-main}
+\fontsize{8}{9.6}\selectfont
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llccccc@{}}
+\toprule
+数据集 & 指标 & -0.10 & -0.05 & 0 & +0.05 & +0.10 \\
+\midrule
+Tic-Tac-Toe & 修复 F1 $\uparrow$ & $0.654\pm0.013$ & $0.654\pm0.014$ & $0.653\pm0.014$ & $0.427\pm0.370$ & $0.211\pm0.365$ \\
+Tic-Tac-Toe & 误改率 (\%) $\downarrow$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ \\
+\addlinespace[2pt]
+Car & 修复 F1 $\uparrow$ & $0.657\pm0.010$ & $0.657\pm0.011$ & $0.657\pm0.010$ & $0.657\pm0.011$ & $0.657\pm0.010$ \\
+Car & 误改率 (\%) $\downarrow$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ \\
+\addlinespace[2pt]
+Retinopathy & 修复 F1 $\uparrow$ & $0.576\pm0.014$ & $0.563\pm0.011$ & $0.542\pm0.006$ & $0.489\pm0.036$ & $0.178\pm0.199$ \\
+Retinopathy & 误改率 (\%) $\downarrow$ & $0.087\pm0.050$ & $0.048\pm0.063$ & $0.040\pm0.069$ & $0.040\pm0.069$ & $0.040\pm0.069$ \\
+\addlinespace[2pt]
+Real Estate & 修复 F1 $\uparrow$ & $0.420\pm0.041$ & $0.419\pm0.040$ & $0.414\pm0.040$ & $0.411\pm0.043$ & $0.407\pm0.042$ \\
+Real Estate & 误改率 (\%) $\downarrow$ & $0.418\pm0.551$ & $0.418\pm0.551$ & $0.418\pm0.551$ & $0.418\pm0.551$ & $0.279\pm0.318$ \\
+\addlinespace[2pt]
+Concrete & 修复 F1 $\uparrow$ & $0.502\pm0.059$ & $0.497\pm0.059$ & $0.463\pm0.068$ & $0.276\pm0.240$ & $0.258\pm0.228$ \\
+Concrete & 误改率 (\%) $\downarrow$ & $0.378\pm0.219$ & $0.315\pm0.290$ & $0.231\pm0.255$ & $0.126\pm0.219$ & $0.126\pm0.219$ \\
+\addlinespace[2pt]
+Airfoil & 修复 F1 $\uparrow$ & $0.724\pm0.011$ & $0.722\pm0.013$ & $0.716\pm0.015$ & $0.690\pm0.052$ & $0.612\pm0.180$ \\
+Airfoil & 误改率 (\%) $\downarrow$ & $0.577\pm0.174$ & $0.577\pm0.174$ & $0.323\pm0.288$ & $0.323\pm0.288$ & $0.323\pm0.288$ \\
+\bottomrule
+\end{tabular*}
+\end{table*}

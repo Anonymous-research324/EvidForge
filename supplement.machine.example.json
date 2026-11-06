@@ -1,0 +1,22 @@
+{
+  "run_python": "/path/to/EvidForge/.venvs/core/bin/python",
+  "infer_python": "/path/to/EvidForge/.venvs/inference/bin/python",
+  "codex": "/path/to/EvidForge/.tools/node_modules/.bin/codex",
+  "model_dir": "/path/to/EvidForge/models/Qwen3.5-9B",
+  "service_base_port": 8511,
+  "gpu_devices": {
+    "0": "0",
+    "1": "1"
+  },
+  "startup_checks": 900,
+  "path_bindings": {},
+  "display_fonts": {
+    "regular": "/path/to/local/NotoSerifCJK-Regular.otf",
+    "bold": "/path/to/local/NotoSerifCJK-Bold.otf",
+    "latin": "/path/to/local/DejaVuSerif.ttf"
+  },
+  "baseline_environments": "/path/to/EvidForge/.venvs",
+  "baseline_sources": "/path/to/EvidForge/.sources",
+  "tabclean_dependencies": "/path/to/EvidForge/.dependencies/tabclean",
+  "postgres_bin": "/usr/lib/postgresql/15/bin"
+}

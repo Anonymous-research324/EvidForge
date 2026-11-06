@@ -1,0 +1,3842 @@
+[
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p1mixedfullcontextcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2675,
+      "total_tokens": 2992,
+      "completion_tokens": 317,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.928218810819089
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p1mixedfullcontextcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4628,
+      "total_tokens": 4929,
+      "completion_tokens": 301,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.783372208941728
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p1mixedfullcontextcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5770,
+      "total_tokens": 6071,
+      "completion_tokens": 301,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.734414683887735
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p1mixedfullcontextcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4722,
+      "total_tokens": 5023,
+      "completion_tokens": 301,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.619431457016617
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p1mixedfullcontextcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4722,
+      "total_tokens": 4734,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5367664380464703
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p1mixedfullpriorcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2400,
+      "total_tokens": 2626,
+      "completion_tokens": 226,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.248010023031384
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p1mixedfullpriorcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3893,
+      "total_tokens": 4084,
+      "completion_tokens": 191,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.586257877992466
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p1mixedfullpriorcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4691,
+      "total_tokens": 4858,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.270637624897063
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p1mixedfullpriorcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5708,
+      "total_tokens": 5875,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.3829763911198825
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p1mixedfullpriorcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6301,
+      "total_tokens": 6313,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.7147600559983402
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3blankfullcontextcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2590,
+      "total_tokens": 2872,
+      "completion_tokens": 282,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.28047391702421
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3blankfullcontextcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4199,
+      "total_tokens": 4457,
+      "completion_tokens": 258,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.803357101045549
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3blankfullcontextcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5119,
+      "total_tokens": 5377,
+      "completion_tokens": 258,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.916214097989723
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3blankfullcontextcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5980,
+      "total_tokens": 6238,
+      "completion_tokens": 258,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.012272582156584
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3blankfullcontextcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5130,
+      "total_tokens": 5142,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5807737370487303
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3blankfullpriorcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2315,
+      "total_tokens": 2510,
+      "completion_tokens": 195,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.739190431078896
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3blankfullpriorcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3626,
+      "total_tokens": 3815,
+      "completion_tokens": 189,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.532002832973376
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3blankfullpriorcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4371,
+      "total_tokens": 4521,
+      "completion_tokens": 150,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.950060351053253
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3blankfullpriorcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3682,
+      "total_tokens": 3849,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.1385149480775
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3blankfullpriorcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5028,
+      "total_tokens": 5040,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5813304830808192
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3scalefullcontextcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2578,
+      "total_tokens": 2859,
+      "completion_tokens": 281,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.264805475948378
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3scalefullcontextcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3869,
+      "total_tokens": 4121,
+      "completion_tokens": 252,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.663983456091955
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3scalefullcontextcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4662,
+      "total_tokens": 4914,
+      "completion_tokens": 252,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.758922626962885
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3scalefullcontextcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3954,
+      "total_tokens": 4206,
+      "completion_tokens": 252,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.674542534165084
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3scalefullcontextcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3954,
+      "total_tokens": 3966,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.4558284040540457
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3scalefullpriorcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2289,
+      "total_tokens": 2484,
+      "completion_tokens": 195,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.74151717312634
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3scalefullpriorcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3480,
+      "total_tokens": 3648,
+      "completion_tokens": 168,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.1562860731501132
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3scalefullpriorcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4123,
+      "total_tokens": 4290,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.2031233590096235
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3scalefullpriorcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4735,
+      "total_tokens": 4902,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.2723594228737056
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3scalefullpriorcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5355,
+      "total_tokens": 5367,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.6220580069348216
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p5mixedfullcontextcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2699,
+      "total_tokens": 3030,
+      "completion_tokens": 331,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 6.155965908896178
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p5mixedfullcontextcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5042,
+      "total_tokens": 5293,
+      "completion_tokens": 251,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.764326730044559
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p5mixedfullcontextcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6077,
+      "total_tokens": 6328,
+      "completion_tokens": 251,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.857455104123801
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p5mixedfullcontextcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 7205,
+      "total_tokens": 7456,
+      "completion_tokens": 251,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.999913339037448
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p5mixedfullcontextcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6101,
+      "total_tokens": 6134,
+      "completion_tokens": 33,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.0049515599384904
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p5mixedfullpriorcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2427,
+      "total_tokens": 2677,
+      "completion_tokens": 250,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.71643633604981
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p5mixedfullpriorcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4406,
+      "total_tokens": 4612,
+      "completion_tokens": 206,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.922309929970652
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p5mixedfullpriorcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5593,
+      "total_tokens": 5799,
+      "completion_tokens": 206,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.069921870017424
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p5mixedfullpriorcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6678,
+      "total_tokens": 6884,
+      "completion_tokens": 206,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.18825517501682
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p5mixedfullpriorcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5603,
+      "total_tokens": 5639,
+      "completion_tokens": 36,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.0536440229043365
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p1mixedfullcontextcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2691,
+      "total_tokens": 2973,
+      "completion_tokens": 282,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.29935356695205
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p1mixedfullcontextcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4638,
+      "total_tokens": 4878,
+      "completion_tokens": 240,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.494983858894557
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p1mixedfullcontextcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5661,
+      "total_tokens": 5851,
+      "completion_tokens": 190,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.9495947260875255
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p1mixedfullcontextcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6252,
+      "total_tokens": 6442,
+      "completion_tokens": 190,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.7842002778779715
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p1mixedfullcontextcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5469,
+      "total_tokens": 5481,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5680865030735731
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p1mixedfullpriorcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2417,
+      "total_tokens": 2681,
+      "completion_tokens": 264,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.965080528054386
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p1mixedfullpriorcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4040,
+      "total_tokens": 4260,
+      "completion_tokens": 220,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.137022278970107
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p1mixedfullpriorcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5221,
+      "total_tokens": 5440,
+      "completion_tokens": 219,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.238146575866267
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p1mixedfullpriorcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5906,
+      "total_tokens": 6125,
+      "completion_tokens": 219,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.33928610291332
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p1mixedfullpriorcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5077,
+      "total_tokens": 5089,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5792577210813761
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3blankfullcontextcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2582,
+      "total_tokens": 2899,
+      "completion_tokens": 317,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.9020041190087795
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3blankfullcontextcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4297,
+      "total_tokens": 4554,
+      "completion_tokens": 257,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.834173672832549
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3blankfullcontextcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5202,
+      "total_tokens": 5459,
+      "completion_tokens": 257,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.916355073917657
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3blankfullcontextcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4332,
+      "total_tokens": 4589,
+      "completion_tokens": 257,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.823250853922218
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3blankfullcontextcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4332,
+      "total_tokens": 4344,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5053092499729246
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3blankfullpriorcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2311,
+      "total_tokens": 2506,
+      "completion_tokens": 195,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.744387109996751
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3blankfullpriorcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3626,
+      "total_tokens": 3776,
+      "completion_tokens": 150,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.853796136798337
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3blankfullpriorcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2979,
+      "total_tokens": 3149,
+      "completion_tokens": 170,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.154130117967725
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3blankfullpriorcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4479,
+      "total_tokens": 4649,
+      "completion_tokens": 170,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.311062606982887
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3blankfullpriorcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5099,
+      "total_tokens": 5111,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.6492504091002047
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3scalefullcontextcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2583,
+      "total_tokens": 2903,
+      "completion_tokens": 320,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.938038682797924
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3scalefullcontextcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2638,
+      "total_tokens": 2952,
+      "completion_tokens": 314,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.615133977960795
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3scalefullcontextcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3938,
+      "total_tokens": 4194,
+      "completion_tokens": 256,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.736792733892798
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3scalefullcontextcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4675,
+      "total_tokens": 4931,
+      "completion_tokens": 256,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.841934263007715
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3scalefullcontextcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5383,
+      "total_tokens": 5395,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.6129650978837162
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3scalefullpriorcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2291,
+      "total_tokens": 2519,
+      "completion_tokens": 228,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.323464889079332
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3scalefullpriorcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3516,
+      "total_tokens": 3707,
+      "completion_tokens": 191,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.5504289499949664
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3scalefullpriorcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4202,
+      "total_tokens": 4352,
+      "completion_tokens": 150,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.905187401920557
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3scalefullpriorcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4726,
+      "total_tokens": 4893,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.2776703929994255
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3scalefullpriorcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5351,
+      "total_tokens": 5363,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.6243044089060277
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p5mixedfullcontextcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2704,
+      "total_tokens": 3035,
+      "completion_tokens": 331,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 6.161485718097538
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p5mixedfullcontextcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5107,
+      "total_tokens": 5358,
+      "completion_tokens": 251,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.7459789658896625
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p5mixedfullcontextcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6172,
+      "total_tokens": 6423,
+      "completion_tokens": 251,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.8620784839149565
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p5mixedfullcontextcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 7302,
+      "total_tokens": 7531,
+      "completion_tokens": 229,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.596598588163033
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p5mixedfullcontextcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 8378,
+      "total_tokens": 8411,
+      "completion_tokens": 33,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.2718056929297745
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p5mixedfullpriorcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2432,
+      "total_tokens": 2721,
+      "completion_tokens": 289,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.402950073825195
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p5mixedfullpriorcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4161,
+      "total_tokens": 4381,
+      "completion_tokens": 220,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.141997169004753
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p5mixedfullpriorcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5351,
+      "total_tokens": 5570,
+      "completion_tokens": 219,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.252031336072832
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p5mixedfullpriorcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6227,
+      "total_tokens": 6447,
+      "completion_tokens": 220,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.377849698066711
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p5mixedfullpriorcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 7185,
+      "total_tokens": 7197,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.8239053969737142
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p1mixedfullcontextcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2712,
+      "total_tokens": 3029,
+      "completion_tokens": 317,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.909213620936498
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p1mixedfullcontextcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4765,
+      "total_tokens": 5024,
+      "completion_tokens": 259,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.87723168102093
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p1mixedfullcontextcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5851,
+      "total_tokens": 6110,
+      "completion_tokens": 259,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.976068815914914
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p1mixedfullcontextcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4806,
+      "total_tokens": 5065,
+      "completion_tokens": 259,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.857681333087385
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p1mixedfullcontextcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4806,
+      "total_tokens": 4818,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5131705200765282
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p1mixedfullpriorcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2439,
+      "total_tokens": 2665,
+      "completion_tokens": 226,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.306196921039373
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p1mixedfullpriorcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3990,
+      "total_tokens": 4140,
+      "completion_tokens": 150,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.887549221981317
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p1mixedfullpriorcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5021,
+      "total_tokens": 5193,
+      "completion_tokens": 172,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.4066069840919226
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p1mixedfullpriorcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5665,
+      "total_tokens": 5837,
+      "completion_tokens": 172,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.4674239738378674
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p1mixedfullpriorcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6439,
+      "total_tokens": 6451,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.735996319912374
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3blankfullcontextcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2592,
+      "total_tokens": 2875,
+      "completion_tokens": 283,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.288550108205527
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3blankfullcontextcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4205,
+      "total_tokens": 4465,
+      "completion_tokens": 260,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.83654624898918
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3blankfullcontextcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5133,
+      "total_tokens": 5392,
+      "completion_tokens": 259,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.9515182299073786
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3blankfullcontextcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5999,
+      "total_tokens": 6258,
+      "completion_tokens": 259,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.012008004123345
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3blankfullcontextcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5144,
+      "total_tokens": 5156,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5787676861509681
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3blankfullpriorcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2322,
+      "total_tokens": 2517,
+      "completion_tokens": 195,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.749506255844608
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3blankfullpriorcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3637,
+      "total_tokens": 3826,
+      "completion_tokens": 189,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.5194829010870308
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3blankfullpriorcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4384,
+      "total_tokens": 4573,
+      "completion_tokens": 189,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.6471748179756105
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3blankfullpriorcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5079,
+      "total_tokens": 5268,
+      "completion_tokens": 189,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.7054798789322376
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3blankfullpriorcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4392,
+      "total_tokens": 4404,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.500643776031211
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3scalefullcontextcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2557,
+      "total_tokens": 2839,
+      "completion_tokens": 282,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.264152704970911
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3scalefullcontextcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3852,
+      "total_tokens": 4085,
+      "completion_tokens": 233,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.322363842977211
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3scalefullcontextcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4557,
+      "total_tokens": 4790,
+      "completion_tokens": 233,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.421591567108408
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3scalefullcontextcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3892,
+      "total_tokens": 4125,
+      "completion_tokens": 233,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.328421129146591
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3scalefullcontextcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5234,
+      "total_tokens": 5246,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5886158610228449
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3scalefullpriorcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2306,
+      "total_tokens": 2499,
+      "completion_tokens": 193,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.692446762928739
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3scalefullpriorcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3457,
+      "total_tokens": 3642,
+      "completion_tokens": 185,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.4445840779226273
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3scalefullpriorcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4124,
+      "total_tokens": 4272,
+      "completion_tokens": 148,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.8682401950936764
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3scalefullpriorcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3514,
+      "total_tokens": 3662,
+      "completion_tokens": 148,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.8075428388547152
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3scalefullpriorcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3514,
+      "total_tokens": 3526,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.40775917703285813
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p5mixedfullcontextcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2713,
+      "total_tokens": 2996,
+      "completion_tokens": 283,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.3060187578666955
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p5mixedfullcontextcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4886,
+      "total_tokens": 5099,
+      "completion_tokens": 213,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.057680826866999
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p5mixedfullcontextcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6000,
+      "total_tokens": 6213,
+      "completion_tokens": 213,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.174701192881912
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p5mixedfullcontextcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 7073,
+      "total_tokens": 7263,
+      "completion_tokens": 190,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.886440832167864
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p5mixedfullcontextcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 8108,
+      "total_tokens": 8143,
+      "completion_tokens": 35,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.272391599137336
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p5mixedfullpriorcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2443,
+      "total_tokens": 2717,
+      "completion_tokens": 274,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.132402000948787
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p5mixedfullpriorcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4172,
+      "total_tokens": 4356,
+      "completion_tokens": 184,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.4958624891005456
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p5mixedfullpriorcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5288,
+      "total_tokens": 5472,
+      "completion_tokens": 184,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.6426696141716093
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p5mixedfullpriorcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6125,
+      "total_tokens": 6309,
+      "completion_tokens": 184,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.731966790976003
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p5mixedfullpriorcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu0",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5223,
+      "total_tokens": 5235,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5860692469868809
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3affixfullcontextcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2519,
+      "total_tokens": 2802,
+      "completion_tokens": 283,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.300367165822536
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3affixfullcontextcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4256,
+      "total_tokens": 4470,
+      "completion_tokens": 214,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.075823379913345
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3affixfullcontextcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5128,
+      "total_tokens": 5342,
+      "completion_tokens": 214,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.159541056957096
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3affixfullcontextcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4269,
+      "total_tokens": 4482,
+      "completion_tokens": 213,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.049887093016878
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3affixfullcontextcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5997,
+      "total_tokens": 6009,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.6972597360145301
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3affixfullpriorcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2283,
+      "total_tokens": 2478,
+      "completion_tokens": 195,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.7441044319421053
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3affixfullpriorcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3726,
+      "total_tokens": 3893,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.1697190538980067
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3affixfullpriorcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4489,
+      "total_tokens": 4656,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.267873767996207
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3affixfullpriorcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5236,
+      "total_tokens": 5403,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.332768919877708
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3affixfullpriorcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4503,
+      "total_tokens": 4515,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.530995334032923
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3digitfullcontextcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2527,
+      "total_tokens": 2810,
+      "completion_tokens": 283,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.285089405020699
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3digitfullcontextcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3858,
+      "total_tokens": 4091,
+      "completion_tokens": 233,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.3210633979178965
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3digitfullcontextcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4577,
+      "total_tokens": 4787,
+      "completion_tokens": 210,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.0191720318980515
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3digitfullcontextcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5214,
+      "total_tokens": 5423,
+      "completion_tokens": 209,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.065376598853618
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3digitfullcontextcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5879,
+      "total_tokens": 5891,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.6847590149845928
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3digitfullpriorcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2242,
+      "total_tokens": 2441,
+      "completion_tokens": 199,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.806240138830617
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3digitfullpriorcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3573,
+      "total_tokens": 3704,
+      "completion_tokens": 131,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.515737617854029
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3digitfullpriorcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4194,
+      "total_tokens": 4324,
+      "completion_tokens": 130,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.5661226010415703
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3digitfullpriorcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4822,
+      "total_tokens": 4952,
+      "completion_tokens": 130,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.65941708907485
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3digitfullpriorcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5466,
+      "total_tokens": 5500,
+      "completion_tokens": 34,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.0159502199385315
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3mixedfullcontextcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2686,
+      "total_tokens": 2994,
+      "completion_tokens": 308,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.755700365873054
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3mixedfullcontextcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4571,
+      "total_tokens": 4803,
+      "completion_tokens": 232,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.622437458019704
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3mixedfullcontextcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5519,
+      "total_tokens": 5750,
+      "completion_tokens": 231,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.490425823954865
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3mixedfullcontextcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6461,
+      "total_tokens": 6692,
+      "completion_tokens": 231,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.61094244197011
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3mixedfullcontextcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5529,
+      "total_tokens": 5563,
+      "completion_tokens": 34,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.0008618677966297
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3mixedfullpriorcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2413,
+      "total_tokens": 2701,
+      "completion_tokens": 288,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 6.46361334505491
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3mixedfullpriorcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4400,
+      "total_tokens": 4635,
+      "completion_tokens": 235,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.4427413509693
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3mixedfullpriorcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5581,
+      "total_tokens": 5816,
+      "completion_tokens": 235,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.567685881163925
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3mixedfullpriorcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6497,
+      "total_tokens": 6732,
+      "completion_tokens": 235,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.676873126998544
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p3mixedfullpriorcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5507,
+      "total_tokens": 5542,
+      "completion_tokens": 35,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.0286290859803557
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p7mixedfullcontextcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2657,
+      "total_tokens": 2964,
+      "completion_tokens": 307,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.741714848205447
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p7mixedfullcontextcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4806,
+      "total_tokens": 5036,
+      "completion_tokens": 230,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.571386752882972
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p7mixedfullcontextcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5908,
+      "total_tokens": 6138,
+      "completion_tokens": 230,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.558813834097236
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p7mixedfullcontextcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6995,
+      "total_tokens": 7225,
+      "completion_tokens": 230,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.632959587033838
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p7mixedfullcontextcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5919,
+      "total_tokens": 5954,
+      "completion_tokens": 35,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.0909085711464286
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p7mixedfullpriorcall1",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2384,
+      "total_tokens": 2634,
+      "completion_tokens": 250,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.7209000589791685
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p7mixedfullpriorcall2",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4069,
+      "total_tokens": 4253,
+      "completion_tokens": 184,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.494456635089591
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p7mixedfullpriorcall3",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5199,
+      "total_tokens": 5383,
+      "completion_tokens": 184,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.62670846702531
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p7mixedfullpriorcall4",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6038,
+      "total_tokens": 6222,
+      "completion_tokens": 184,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.7255362819414586
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1013r0p7mixedfullpriorcall5",
+    "seed": 1013,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5137,
+      "total_tokens": 5149,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5826090059708804
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3affixfullcontextcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2491,
+      "total_tokens": 2843,
+      "completion_tokens": 352,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 6.482148703187704
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3affixfullcontextcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4234,
+      "total_tokens": 4546,
+      "completion_tokens": 312,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.787281185155734
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3affixfullcontextcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5237,
+      "total_tokens": 5549,
+      "completion_tokens": 312,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.876886683050543
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3affixfullcontextcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6173,
+      "total_tokens": 6485,
+      "completion_tokens": 312,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.9847126649692655
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3affixfullcontextcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5248,
+      "total_tokens": 5260,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5990061319898814
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3affixfullpriorcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2256,
+      "total_tokens": 2451,
+      "completion_tokens": 195,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.7442537019960582
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3affixfullpriorcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3571,
+      "total_tokens": 3738,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.134906104998663
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3affixfullpriorcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4418,
+      "total_tokens": 4585,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.2433894251007587
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3affixfullpriorcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5027,
+      "total_tokens": 5194,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.316467880969867
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3affixfullpriorcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4358,
+      "total_tokens": 4370,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5042731589637697
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3digitfullcontextcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2525,
+      "total_tokens": 2808,
+      "completion_tokens": 283,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.292424809187651
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3digitfullcontextcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3826,
+      "total_tokens": 4059,
+      "completion_tokens": 233,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.328692211071029
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3digitfullcontextcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4532,
+      "total_tokens": 4765,
+      "completion_tokens": 233,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.4162907970603555
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3digitfullcontextcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5215,
+      "total_tokens": 5448,
+      "completion_tokens": 233,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.496126846875995
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3digitfullcontextcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4546,
+      "total_tokens": 4558,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5337877748534083
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3digitfullpriorcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2228,
+      "total_tokens": 2423,
+      "completion_tokens": 195,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.712842835113406
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3digitfullpriorcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3553,
+      "total_tokens": 3704,
+      "completion_tokens": 151,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.862896218895912
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3digitfullpriorcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4225,
+      "total_tokens": 4375,
+      "completion_tokens": 150,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.9463820192031562
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3digitfullpriorcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4881,
+      "total_tokens": 5031,
+      "completion_tokens": 150,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.986205796012655
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3digitfullpriorcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5545,
+      "total_tokens": 5581,
+      "completion_tokens": 36,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.0513294241391122
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3mixedfullcontextcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2700,
+      "total_tokens": 2986,
+      "completion_tokens": 286,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.3687384750228375
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3mixedfullcontextcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4861,
+      "total_tokens": 5078,
+      "completion_tokens": 217,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.129303214838728
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3mixedfullcontextcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5961,
+      "total_tokens": 6177,
+      "completion_tokens": 216,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.224380742991343
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3mixedfullcontextcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6744,
+      "total_tokens": 6960,
+      "completion_tokens": 216,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.314803686924279
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3mixedfullcontextcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5819,
+      "total_tokens": 5853,
+      "completion_tokens": 34,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.0176855211611837
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3mixedfullpriorcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2428,
+      "total_tokens": 2702,
+      "completion_tokens": 274,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.143820567987859
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3mixedfullpriorcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4305,
+      "total_tokens": 4531,
+      "completion_tokens": 226,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.284276716876775
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3mixedfullpriorcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5427,
+      "total_tokens": 5653,
+      "completion_tokens": 226,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.402994279982522
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3mixedfullpriorcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6460,
+      "total_tokens": 6686,
+      "completion_tokens": 226,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.5008937399834394
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p3mixedfullpriorcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5440,
+      "total_tokens": 5475,
+      "completion_tokens": 35,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.0160614899359643
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p7mixedfullcontextcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2643,
+      "total_tokens": 2950,
+      "completion_tokens": 307,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.731049258960411
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p7mixedfullcontextcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4738,
+      "total_tokens": 5013,
+      "completion_tokens": 275,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.401731155114248
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p7mixedfullcontextcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5867,
+      "total_tokens": 6142,
+      "completion_tokens": 275,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.314522898988798
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p7mixedfullcontextcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6954,
+      "total_tokens": 7229,
+      "completion_tokens": 275,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.427017244976014
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p7mixedfullcontextcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5878,
+      "total_tokens": 5890,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.6795871609356254
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p7mixedfullpriorcall1",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2370,
+      "total_tokens": 2659,
+      "completion_tokens": 289,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.391088635893539
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p7mixedfullpriorcall2",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4269,
+      "total_tokens": 4488,
+      "completion_tokens": 219,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.153047811007127
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p7mixedfullpriorcall3",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5374,
+      "total_tokens": 5594,
+      "completion_tokens": 220,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.293969803024083
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p7mixedfullpriorcall4",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6406,
+      "total_tokens": 6626,
+      "completion_tokens": 220,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.399191443109885
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1014r0p7mixedfullpriorcall5",
+    "seed": 1014,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5388,
+      "total_tokens": 5423,
+      "completion_tokens": 35,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.0090400869958103
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3affixfullcontextcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2501,
+      "total_tokens": 2784,
+      "completion_tokens": 283,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.281987291062251
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3affixfullcontextcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4166,
+      "total_tokens": 4380,
+      "completion_tokens": 214,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.040013508172706
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3affixfullcontextcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5000,
+      "total_tokens": 5214,
+      "completion_tokens": 214,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.128634838853031
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3affixfullcontextcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4178,
+      "total_tokens": 4391,
+      "completion_tokens": 213,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.005651789950207
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3affixfullcontextcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5834,
+      "total_tokens": 5846,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.6567558909300715
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3affixfullpriorcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2264,
+      "total_tokens": 2459,
+      "completion_tokens": 195,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.734905157936737
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3affixfullpriorcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3635,
+      "total_tokens": 3802,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.135866313939914
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3affixfullpriorcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4364,
+      "total_tokens": 4514,
+      "completion_tokens": 150,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.9372979558538646
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3affixfullpriorcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3668,
+      "total_tokens": 3835,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.145052080973983
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3affixfullpriorcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5074,
+      "total_tokens": 5086,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5978144721593708
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3digitfullcontextcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2531,
+      "total_tokens": 2814,
+      "completion_tokens": 283,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.292288106167689
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3digitfullcontextcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3834,
+      "total_tokens": 4066,
+      "completion_tokens": 232,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.317790349014103
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3digitfullcontextcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4535,
+      "total_tokens": 4744,
+      "completion_tokens": 209,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.013076476054266
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3digitfullcontextcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5158,
+      "total_tokens": 5367,
+      "completion_tokens": 209,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.068433288950473
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3digitfullcontextcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5806,
+      "total_tokens": 5818,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.6745025450363755
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3digitfullpriorcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2243,
+      "total_tokens": 2438,
+      "completion_tokens": 195,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.7294517471455038
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3digitfullpriorcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 3572,
+      "total_tokens": 3723,
+      "completion_tokens": 151,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.860936498036608
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3digitfullpriorcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4242,
+      "total_tokens": 4373,
+      "completion_tokens": 131,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.6063543520867825
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3digitfullpriorcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4862,
+      "total_tokens": 4993,
+      "completion_tokens": 131,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 2.7462535940576345
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3digitfullpriorcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5500,
+      "total_tokens": 5534,
+      "completion_tokens": 34,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.0074640198145062
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3mixedfullcontextcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2689,
+      "total_tokens": 2975,
+      "completion_tokens": 286,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.355900394031778
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3mixedfullcontextcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4628,
+      "total_tokens": 4907,
+      "completion_tokens": 279,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.178582799853757
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3mixedfullcontextcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5757,
+      "total_tokens": 5992,
+      "completion_tokens": 235,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.531910224119201
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3mixedfullcontextcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6701,
+      "total_tokens": 6936,
+      "completion_tokens": 235,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.638419749913737
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3mixedfullcontextcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5716,
+      "total_tokens": 5728,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 0.5989609539974481
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3mixedfullpriorcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2415,
+      "total_tokens": 2689,
+      "completion_tokens": 274,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.141413737088442
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3mixedfullpriorcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4238,
+      "total_tokens": 4442,
+      "completion_tokens": 204,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.9041124598588794
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3mixedfullpriorcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5141,
+      "total_tokens": 5345,
+      "completion_tokens": 204,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 3.984216039068997
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3mixedfullpriorcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6045,
+      "total_tokens": 6249,
+      "completion_tokens": 204,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.067393611883745
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p3mixedfullpriorcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5151,
+      "total_tokens": 5187,
+      "completion_tokens": 36,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.0001648720353842
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p7mixedfullcontextcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2644,
+      "total_tokens": 2976,
+      "completion_tokens": 332,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 6.16437784396112
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p7mixedfullcontextcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5013,
+      "total_tokens": 5262,
+      "completion_tokens": 249,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.98123271507211
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p7mixedfullcontextcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6207,
+      "total_tokens": 6455,
+      "completion_tokens": 248,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.869049453176558
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p7mixedfullcontextcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 7421,
+      "total_tokens": 7669,
+      "completion_tokens": 248,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.024109618039802
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p7mixedfullcontextcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6231,
+      "total_tokens": 6265,
+      "completion_tokens": 34,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.100574305979535
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p7mixedfullpriorcall1",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 2372,
+      "total_tokens": 2661,
+      "completion_tokens": 289,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 5.396102101076394
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p7mixedfullpriorcall2",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 4113,
+      "total_tokens": 4350,
+      "completion_tokens": 237,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.433952508959919
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p7mixedfullpriorcall3",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 5323,
+      "total_tokens": 5559,
+      "completion_tokens": 236,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.5614683569874614
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p7mixedfullpriorcall4",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 6220,
+      "total_tokens": 6457,
+      "completion_tokens": 237,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 4.675874104956165
+  },
+  {
+    "tag": "Advisorrobustnessretinopathys1015r0p7mixedfullpriorcall5",
+    "seed": 1015,
+    "model": "evidforge-robustness-retino-9b-gpu1",
+    "temperature": 0,
+    "usage": {
+      "prompt_tokens": 7191,
+      "total_tokens": 7225,
+      "completion_tokens": 34,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "seconds": 1.1832002028822899
+  }
+]

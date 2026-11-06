@@ -1,0 +1,23 @@
+\begin{table}[tb]
+\centering
+\caption{独立补充轮消融}
+\label{tab:supp-ablation}
+\fontsize{8}{9.6}\selectfont
+\setlength{\tabcolsep}{1pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcccc@{}}
+\toprule
+\multicolumn{1}{c}{} & \multicolumn{2}{c}{Car} & \multicolumn{2}{c}{Concrete} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+设置 & 修复 F1 $\uparrow$ & 误改率 (\%) $\downarrow$ & 修复 F1 $\uparrow$ & 误改率 (\%) $\downarrow$ \\
+\midrule
+\textbf{\makecell[l]{完整\\EvidForge}} & $\mathbf{0.657\pm0.010}$ & $\mathbf{0.000\pm0.000}$ & $\mathbf{0.463\pm0.067}$ & $\mathbf{0.231\pm0.255}$ \\
+\makecell[l]{关闭学得\\纠错变换} & $0.456\pm0.032$ & $0.000\pm0.000$ & $0.153\pm0.102$ & $0.126\pm0.126$ \\
+\makecell[l]{关闭生成\\规则执行} & $0.657\pm0.010$ & $0.000\pm0.000$ & $0.443\pm0.055$ & $0.231\pm0.255$ \\
+\makecell[l]{关闭最终\\置信门槛} & $0.652\pm0.010$ & $0.000\pm0.000$ & $0.505\pm0.022$ & $4.975\pm1.439$ \\
+\makecell[l]{关闭源内\\反馈改写} & $0.657\pm0.010$ & $0.000\pm0.000$ & $0.462\pm0.066$ & $0.252\pm0.290$ \\
+\makecell[l]{关闭跨字\\段预测证据} & $0.660\pm0.010$ & $0.000\pm0.000$ & $0.457\pm0.047$ & $0.335\pm0.318$ \\
+完全无 LLM & $0.657\pm0.010$ & $0.000\pm0.000$ & $0.443\pm0.055$ & $0.231\pm0.255$ \\
+\bottomrule
+\end{tabular*}
+\end{table}
