@@ -1,0 +1,167 @@
+{
+  "seeds": [
+    2021,
+    2022,
+    2023
+  ],
+  "output_token_ceiling": 8192,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0,
+    "presence_penalty": 1.5,
+    "repetition_penalty": 1.0,
+    "thinking": false
+  },
+  "same_model_weights_both": "Qwen3.5-9B BF16 A100TP1",
+  "author_rounds": 10,
+  "source_split": "reuse frozen permanent80pct confirmation pool, original per-case20learn/10validation/50repair/20holdout",
+  "study": "tabclean_same9b",
+  "paper_scope": "Fig.4; selected conditions in provenance/paper_scope.json",
+  "server_source": "/root/fsas/home/anonymous/projects/EvidForge_TabClean_Protocol_20261024/three_seed_20261025",
+  "source_protocol_relative_path": "configs/simple_protocol_v1.json",
+  "source_protocol_sha256": "42c53da05710c7e2d29a89ab814c07b3c34a82cc8a2375bb4a46761f9d0c7b9f",
+  "configuration_role": "Derived publication-scope view. Full original research protocol remains in the author archive; scientific settings for retained cases are unchanged.",
+  "paper_case_specs": [
+    {
+      "id": "confirmation_banknote_s2021_mixed",
+      "dataset": "banknote",
+      "seed": 2021,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_banknote_s2022_mixed",
+      "dataset": "banknote",
+      "seed": 2022,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_banknote_s2023_mixed",
+      "dataset": "banknote",
+      "seed": 2023,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_retinopathy_s2021_mixed",
+      "dataset": "retinopathy",
+      "seed": 2021,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_retinopathy_s2022_mixed",
+      "dataset": "retinopathy",
+      "seed": 2022,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_retinopathy_s2023_mixed",
+      "dataset": "retinopathy",
+      "seed": 2023,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_wdbc_s2021_mixed",
+      "dataset": "wdbc",
+      "seed": 2021,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_wdbc_s2022_mixed",
+      "dataset": "wdbc",
+      "seed": 2022,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_wdbc_s2023_mixed",
+      "dataset": "wdbc",
+      "seed": 2023,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_airfoil_s2021_mixed",
+      "dataset": "airfoil",
+      "seed": 2021,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_airfoil_s2022_mixed",
+      "dataset": "airfoil",
+      "seed": 2022,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_airfoil_s2023_mixed",
+      "dataset": "airfoil",
+      "seed": 2023,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_energy_s2021_mixed",
+      "dataset": "energy",
+      "seed": 2021,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_energy_s2022_mixed",
+      "dataset": "energy",
+      "seed": 2022,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_energy_s2023_mixed",
+      "dataset": "energy",
+      "seed": 2023,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_wine_red_s2021_mixed",
+      "dataset": "wine_red",
+      "seed": 2021,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_wine_red_s2022_mixed",
+      "dataset": "wine_red",
+      "seed": 2022,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_wine_red_s2023_mixed",
+      "dataset": "wine_red",
+      "seed": 2023,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_real_estate_s2021_mixed",
+      "dataset": "real_estate",
+      "seed": 2021,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_real_estate_s2022_mixed",
+      "dataset": "real_estate",
+      "seed": 2022,
+      "profile": "mixed"
+    },
+    {
+      "id": "confirmation_real_estate_s2023_mixed",
+      "dataset": "real_estate",
+      "seed": 2023,
+      "profile": "mixed"
+    }
+  ],
+  "runtime_bindings": [
+    {
+      "source": "configs/run_config.json",
+      "source_sha256": "4a4cbc86cbc9433d0aa5bc3a7b13e62e5956ad29d5fb70d5dd870ae7f3b94157",
+      "runtime_fields": {
+        "output_token_ceiling": 8192,
+        "temperature": 0.7,
+        "model": "Qwen3.5-9B",
+        "dtype": "bfloat16",
+        "debug_attempts": 3
+      }
+    }
+  ]
+}

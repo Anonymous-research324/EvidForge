@@ -1,0 +1,13 @@
+{
+  "scope": "Eight screenshot groups only",
+  "artifact_index": "results/paper_artifacts/artifact_index.json",
+  "table_snippets": {
+    "results/paper_artifacts/table_II.tex": "fc6b668563ec5eb14cf9741e85730470a29963fb4ddf5d2d347e7929d5ea180c",
+    "results/paper_artifacts/table_III.tex": "b7fd1f2540d675b4edca3054ee3c16db31f26786b62e0a374466a97900e0df7d",
+    "results/paper_artifacts/table_VIa.tex": "3d8936c5ae3b48686938ca374c039934f5a383699e91bf69980fe51e41628fb0",
+    "results/paper_artifacts/table_V.tex": "001ef84242906e00ad2b6bbc2a6373437dcf8da13e9abab61d7edf8e015d053f",
+    "results/paper_artifacts/table_VIb.tex": "b1cceaef6edbdd3ea0086b856634872509ece9c4d548fd164a7a735fd4b3bef8",
+    "results/paper_artifacts/table_IV.tex": "d5b519c3b5695112ded4fb5be59b4c1ddeb315a10704adbbb4663c6228314615"
+  },
+  "paper_figures": {}
+}

@@ -1,0 +1,44 @@
+{
+  "datasets": {
+    "concrete": {
+      "name": "Concrete Compressive Strength",
+      "creators": [
+        "I-Cheng Yeh"
+      ],
+      "doi": "10.24432/C5PK67",
+      "url": "https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checked_date": "2026-11-09",
+      "official_page_sha256": "2b0c067310187d982c8d1c84f8deb3db293ee1fdb5f060676a53c96be9d4a3c5"
+    },
+    "airfoil": {
+      "name": "Airfoil Self-Noise",
+      "creators": [
+        "Thomas Brooks",
+        "D. Pope",
+        "Michael Marcolini"
+      ],
+      "doi": "10.24432/C5VW2C",
+      "url": "https://archive.ics.uci.edu/dataset/291/airfoil+self+noise",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checked_date": "2026-11-09",
+      "official_page_sha256": "a96b86859f21a6c9528dcbe899c2c474888171beed569da593b22ca4537ca147"
+    },
+    "retinopathy": {
+      "name": "Diabetic Retinopathy Debrecen",
+      "creators": [
+        "Balint Antal",
+        "Andras Hajdu"
+      ],
+      "doi": "10.24432/C5XP4P",
+      "url": "https://archive.ics.uci.edu/dataset/329/diabetic+retinopathy+debrecen",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checked_date": "2026-11-09",
+      "official_page_sha256": "153413ac61eb4fcc4966d431966008a2fab00bdfaf91cf0ba7d684229dc4f73a"
+    }
+  },
+  "changes": "Fixed seeded partitions, registered synthetic errors and batch identities; source feature/reference data are not replaced with predictions."
+}

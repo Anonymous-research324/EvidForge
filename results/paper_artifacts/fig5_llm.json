@@ -1,0 +1,42 @@
+[
+  {
+    "dataset": "retinopathy",
+    "arm": "full",
+    "F1": {
+      "mean": 0.3285607313011183,
+      "sample_sd": 0.027372391949599076,
+      "n": 5
+    },
+    "qualified_seeds": 2
+  },
+  {
+    "dataset": "retinopathy",
+    "arm": "no_llm",
+    "F1": {
+      "mean": 0.23683057260562637,
+      "sample_sd": 0.06365310255476139,
+      "n": 5
+    },
+    "qualified_seeds": 2
+  },
+  {
+    "dataset": "airfoil",
+    "arm": "full",
+    "F1": {
+      "mean": 0.7846650480407447,
+      "sample_sd": 0.05197361960844976,
+      "n": 5
+    },
+    "qualified_seeds": 2
+  },
+  {
+    "dataset": "airfoil",
+    "arm": "no_llm",
+    "F1": {
+      "mean": 0.7798243937437228,
+      "sample_sd": 0.061849463158086856,
+      "n": 5
+    },
+    "qualified_seeds": 2
+  }
+]

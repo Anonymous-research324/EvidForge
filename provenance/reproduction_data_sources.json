@@ -1,0 +1,209 @@
+{
+  "format_version": 1,
+  "scope": "Paper-used input cases only, never learned skills/output scores/native transcripts. Frozen evaluation references are isolated under private/ and must not be visible to method workers.",
+  "redistribution_status": "Do not automatically publish input bundles. Dataset redistribution rights need explicit verification; official raw download plus fixed public entity roles is preferred.",
+  "studies": [
+    {
+      "study": "repair_main",
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Benchmark_ThreeSeeds",
+      "case_ids": [],
+      "kind": "main_runner",
+      "dependency_note": "Use existing portable main runner official raw-data construction.",
+      "paper_location": "Table III"
+    },
+    {
+      "study": "downstream_main",
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_ThreeSeeds",
+      "case_ids": [],
+      "kind": "main_runner",
+      "dependency_note": "Use existing portable main runner official raw-data construction.",
+      "paper_location": "Table IV"
+    },
+    {
+      "study": "module_ablation",
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Ablation_ThreeSeeds",
+      "case_ids": [],
+      "kind": "main_runner",
+      "dependency_note": "Use existing portable main runner official raw-data construction.",
+      "paper_location": "Table V, Fig.5a, Fig.5b"
+    },
+    {
+      "study": "advisor_supplement",
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021",
+      "case_ids": [
+        "main_concrete_s1013",
+        "main_concrete_s1014",
+        "main_concrete_s1015",
+        "robustness_concrete_s1013_r0p1_mixed",
+        "robustness_concrete_s1013_r0p3_mixed",
+        "robustness_concrete_s1013_r0p5_mixed",
+        "robustness_concrete_s1013_r0p3_blank",
+        "robustness_concrete_s1013_r0p3_digit",
+        "robustness_concrete_s1013_r0p3_scale",
+        "robustness_concrete_s1013_r0p3_affix",
+        "robustness_concrete_s1014_r0p1_mixed",
+        "robustness_concrete_s1014_r0p3_mixed",
+        "robustness_concrete_s1014_r0p5_mixed",
+        "robustness_concrete_s1014_r0p3_blank",
+        "robustness_concrete_s1014_r0p3_digit",
+        "robustness_concrete_s1014_r0p3_scale",
+        "robustness_concrete_s1014_r0p3_affix",
+        "robustness_concrete_s1015_r0p1_mixed",
+        "robustness_concrete_s1015_r0p3_mixed",
+        "robustness_concrete_s1015_r0p5_mixed",
+        "robustness_concrete_s1015_r0p3_blank",
+        "robustness_concrete_s1015_r0p3_digit",
+        "robustness_concrete_s1015_r0p3_scale",
+        "robustness_concrete_s1015_r0p3_affix"
+      ],
+      "kind": "case_inputs",
+      "dependency_note": "Exact frozen input export is available; publicly downloadable builder/redistribution review is tracked separately.",
+      "paper_location": "Fig.6, Table VIa"
+    },
+    {
+      "study": "llm_digit70",
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Digit70_LLM_Ablation_20261024",
+      "case_ids": [
+        "digit70_retinopathy_s2013",
+        "digit70_airfoil_s2013",
+        "digit70_retinopathy_s2014",
+        "digit70_airfoil_s2014",
+        "digit70_retinopathy_s2015",
+        "digit70_airfoil_s2015",
+        "digit70_retinopathy_s2016",
+        "digit70_airfoil_s2016",
+        "digit70_retinopathy_s2017",
+        "digit70_airfoil_s2017"
+      ],
+      "kind": "case_inputs",
+      "dependency_note": "Exact frozen input export is available; publicly downloadable builder/redistribution review is tracked separately.",
+      "paper_location": "Fig.5c"
+    },
+    {
+      "study": "threshold",
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Threshold_Sensitivity_20261022",
+      "case_ids": [],
+      "kind": "derived_inputs",
+      "dependency_note": "Requires upstream learned sealed skill/receipts; do not substitute recorded metrics as rerun.",
+      "paper_location": "Table VIb"
+    },
+    {
+      "study": "robustness_retinopathy",
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022",
+      "case_ids": [
+        "robustness_retinopathy_s1013_r0p1_mixed",
+        "robustness_retinopathy_s1013_r0p3_mixed",
+        "robustness_retinopathy_s1013_r0p5_mixed",
+        "robustness_retinopathy_s1013_r0p7_mixed",
+        "robustness_retinopathy_s1013_r0p3_blank",
+        "robustness_retinopathy_s1013_r0p3_digit",
+        "robustness_retinopathy_s1013_r0p3_scale",
+        "robustness_retinopathy_s1013_r0p3_affix",
+        "robustness_retinopathy_s1014_r0p1_mixed",
+        "robustness_retinopathy_s1014_r0p3_mixed",
+        "robustness_retinopathy_s1014_r0p5_mixed",
+        "robustness_retinopathy_s1014_r0p7_mixed",
+        "robustness_retinopathy_s1014_r0p3_blank",
+        "robustness_retinopathy_s1014_r0p3_digit",
+        "robustness_retinopathy_s1014_r0p3_scale",
+        "robustness_retinopathy_s1014_r0p3_affix",
+        "robustness_retinopathy_s1015_r0p1_mixed",
+        "robustness_retinopathy_s1015_r0p3_mixed",
+        "robustness_retinopathy_s1015_r0p5_mixed",
+        "robustness_retinopathy_s1015_r0p7_mixed",
+        "robustness_retinopathy_s1015_r0p3_blank",
+        "robustness_retinopathy_s1015_r0p3_digit",
+        "robustness_retinopathy_s1015_r0p3_scale",
+        "robustness_retinopathy_s1015_r0p3_affix"
+      ],
+      "kind": "case_inputs",
+      "dependency_note": "Exact frozen input export is available; publicly downloadable builder/redistribution review is tracked separately.",
+      "paper_location": "Fig.6, Table VIa"
+    },
+    {
+      "study": "efficiency",
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Efficiency_20261022",
+      "case_ids": [],
+      "kind": "derived_inputs",
+      "dependency_note": "Requires upstream learned sealed skill/receipts; do not substitute recorded metrics as rerun.",
+      "paper_location": "Fig.7b"
+    },
+    {
+      "study": "tabclean_same9b",
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_TabClean_Protocol_20261024/three_seed_20261025",
+      "case_ids": [
+        "confirmation_banknote_s2021_mixed",
+        "confirmation_banknote_s2022_mixed",
+        "confirmation_banknote_s2023_mixed",
+        "confirmation_retinopathy_s2021_mixed",
+        "confirmation_retinopathy_s2022_mixed",
+        "confirmation_retinopathy_s2023_mixed",
+        "confirmation_wdbc_s2021_mixed",
+        "confirmation_wdbc_s2022_mixed",
+        "confirmation_wdbc_s2023_mixed",
+        "confirmation_airfoil_s2021_mixed",
+        "confirmation_airfoil_s2022_mixed",
+        "confirmation_airfoil_s2023_mixed",
+        "confirmation_energy_s2021_mixed",
+        "confirmation_energy_s2022_mixed",
+        "confirmation_energy_s2023_mixed",
+        "confirmation_wine_red_s2021_mixed",
+        "confirmation_wine_red_s2022_mixed",
+        "confirmation_wine_red_s2023_mixed",
+        "confirmation_real_estate_s2021_mixed",
+        "confirmation_real_estate_s2022_mixed",
+        "confirmation_real_estate_s2023_mixed"
+      ],
+      "kind": "case_inputs",
+      "dependency_note": "Exact frozen input export is available; publicly downloadable builder/redistribution review is tracked separately.",
+      "paper_location": "Fig.4"
+    },
+    {
+      "study": "sealed_reuse",
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Skill_Reuse_NewBatches_20261026",
+      "case_ids": [
+        "retinopathy_s1013",
+        "airfoil_s1013",
+        "retinopathy_s1014",
+        "airfoil_s1014",
+        "retinopathy_s1015",
+        "airfoil_s1015"
+      ],
+      "kind": "case_inputs",
+      "dependency_note": "Exact frozen input export is available; publicly downloadable builder/redistribution review is tracked separately.",
+      "paper_location": "Fig.7a"
+    },
+    {
+      "study": "real_dirty",
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027",
+      "case_ids": [
+        "address_museum_s1013",
+        "address_museum_s1014",
+        "address_museum_s1015",
+        "movies_s1013",
+        "movies_s1014",
+        "movies_s1015",
+        "address_shoppingcenter_s1013",
+        "address_shoppingcenter_s1014",
+        "address_shoppingcenter_s1015",
+        "school_small_s1013",
+        "school_small_s1014",
+        "school_small_s1015",
+        "jobposting_small_s1013",
+        "jobposting_small_s1014",
+        "jobposting_small_s1015"
+      ],
+      "kind": "case_inputs",
+      "dependency_note": "Exact frozen input export is available; publicly downloadable builder/redistribution review is tracked separately.",
+      "paper_location": "Table II, Fig.3",
+      "allowed_input_alias_roots": [
+        "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Formal5_ThreeSeeds_20261027/cases"
+      ]
+    }
+  ],
+  "commands": {
+    "offline_exact_inputs": "prepare --bundle-dir <curator-approved-export> --manifest-sha256 <pinned> --work <fresh-root>",
+    "official_raw": "download-uci --dataset <one of the pinned eight UCI sources> --out <source.zip>",
+    "export_rule": "curator role only; bundles are not published automatically; private/ remains scorer-only"
+  }
+}

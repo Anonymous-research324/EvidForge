@@ -1,0 +1,274 @@
+{
+  "source_commit": "b4f428f4b296b5468c1319fa9f1413d7cd77886f",
+  "full_record_retained_on_author_server": true,
+  "records": [
+    {
+      "study": "repair_main",
+      "path": "results/studies/repair_main/three_seed_aggregate.json",
+      "original_file_sha256": "a0688af1d7079f60f1571478ea3dbaa970484eaee0d10cd97e4ad0138c930a7c",
+      "published_file_sha256": "a0688af1d7079f60f1571478ea3dbaa970484eaee0d10cd97e4ad0138c930a7c",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "downstream_main",
+      "path": "results/studies/downstream_main/three_seed_downstream_aggregate.json",
+      "original_file_sha256": "96329204e6be871d1d86dbf5bd6beb330285825aaedb1552d48285c48dcf6525",
+      "published_file_sha256": "96329204e6be871d1d86dbf5bd6beb330285825aaedb1552d48285c48dcf6525",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "module_ablation",
+      "path": "results/studies/module_ablation/three_seed_ablation_aggregate.json",
+      "original_file_sha256": "26cc13402a0dc2a60fe37125b2caa0b22e9e015aa18ac63faa2b381b32479623",
+      "published_file_sha256": "c89b14f1ece49bb54594d76dae6c1f41188d5d18593a815e12b40ada7cb5e52b",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "advisor_supplement",
+      "path": "results/studies/advisor_supplement/paper_aggregate.json",
+      "original_file_sha256": "65e0fc7f313f0facf0f9a84c4cba1b146216d68aea253bce3b99324ec2bb0a9b",
+      "published_file_sha256": "94c74b36992d96a62e3ca7dbc8bd4fa73205b44f4838a7da1c9a301dc3982b7c",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "advisor_supplement",
+      "path": "results/studies/advisor_supplement/paper_all_scores.json",
+      "original_file_sha256": "c1e76afc0a74a07eeb385b5cb779f6a7e8101349415d23f22412390b0ddcc06e",
+      "published_file_sha256": "e3a61ea6ea65f9685b8620b55b43831288a20d69bc13197801da5eae62d2e96d",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "llm_digit70",
+      "path": "results/studies/llm_digit70/actual_model_costs.json",
+      "original_file_sha256": "96807ee8a325fdae57b2f2d2a1f9ad54e637b66d2a8a96ecc9d71ff77f0112e0",
+      "published_file_sha256": "96807ee8a325fdae57b2f2d2a1f9ad54e637b66d2a8a96ecc9d71ff77f0112e0",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "llm_digit70",
+      "path": "results/studies/llm_digit70/aggregate.json",
+      "original_file_sha256": "635bd7e30bde37a0efb5cdf1023ac9796507ea9a8a4104b2747ac92d9cc09d2a",
+      "published_file_sha256": "635bd7e30bde37a0efb5cdf1023ac9796507ea9a8a4104b2747ac92d9cc09d2a",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "llm_digit70",
+      "path": "results/studies/llm_digit70/all_scores.json",
+      "original_file_sha256": "078a1cb9f8fa5d47f426e38cfb34bc9edf4768e232cff3f6d44e087e0512a1d5",
+      "published_file_sha256": "078a1cb9f8fa5d47f426e38cfb34bc9edf4768e232cff3f6d44e087e0512a1d5",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "llm_digit70",
+      "path": "results/studies/llm_digit70/paired_differences.json",
+      "original_file_sha256": "247e047930f8a4f4536f775347d4ec7f8fee56983b6f6d93b65faaec96ba0376",
+      "published_file_sha256": "247e047930f8a4f4536f775347d4ec7f8fee56983b6f6d93b65faaec96ba0376",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "llm_digit70",
+      "path": "results/studies/llm_digit70/qualification.json",
+      "original_file_sha256": "ca050774aa7a8751f9f6ca0391219a75e56918fb22392df0cc8f12671598e2d6",
+      "published_file_sha256": "ca050774aa7a8751f9f6ca0391219a75e56918fb22392df0cc8f12671598e2d6",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "llm_digit70",
+      "path": "results/studies/llm_digit70/污染实际行格比例.json",
+      "original_file_sha256": "974354c0c159d2e6eac56170a55f8deca7dfc8318ea2539e698ecb7f1f0eaafe",
+      "published_file_sha256": "974354c0c159d2e6eac56170a55f8deca7dfc8318ea2539e698ecb7f1f0eaafe",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "threshold",
+      "path": "results/studies/threshold/aggregate.json",
+      "original_file_sha256": "657b4ff107c7ee59cb525ef1dcc2944c0a2dc72f444e3834b25cd98f50b16523",
+      "published_file_sha256": "67b73a35b8276623dd6d122d178c5c148de6f1f4a56e8209086d693ab9b2deed",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "threshold",
+      "path": "results/studies/threshold/all_scores.json",
+      "original_file_sha256": "067c26bd40b9be46eb82d1bb4f3537b3ac9004a4d5e4e58af5454a9bf9637912",
+      "published_file_sha256": "8eb064c48c47e6cd471ba4e0f5e6b629c092b3633a27188c3bae3b261e1ddcd2",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "threshold",
+      "path": "results/studies/threshold/paired_differences.json",
+      "original_file_sha256": "29708c68afbce625c961e96adc40c7c31a88f8913d093d19a0d1a31db3346306",
+      "published_file_sha256": "0c182be2bb0b520339760cda55511746550e6fd6e55b62c2b4e3fc1d1af288d1",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "robustness_retinopathy",
+      "path": "results/studies/robustness_retinopathy/aggregate.json",
+      "original_file_sha256": "6589d346dfa88ebb9bf41ac67861c4961c8d6e4723fb653a7d8347d45f0d449e",
+      "published_file_sha256": "492b679814d7c83729dea12430f5b6937ae660f187a0aeaafd7f3a71edcaf760",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "robustness_retinopathy",
+      "path": "results/studies/robustness_retinopathy/all_scores.json",
+      "original_file_sha256": "31668229795eb2508a0bd5d664835ae61cfc6ff1df002a90d8cee45181803874",
+      "published_file_sha256": "2708d931b76ced4225188d7a67d5467f84fbc5880630edc4058dfaf87e1439a6",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "efficiency",
+      "path": "results/studies/efficiency/efficiency_evidence.json",
+      "original_file_sha256": "8c3383a85650bb255aa06067527e828f22b870e591a997cffe21e04c45704c66",
+      "published_file_sha256": "64a40dbe13a26ec5cecdb24a2ae6daee7b0fa59b5232f128b7ef874df5cfecf6",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "tabclean_same9b",
+      "path": "results/studies/tabclean_same9b/aggregate.json",
+      "original_file_sha256": "efc175322c9ed1bf564cc23a9e71a708572222cca0b4db4bc7ba5fac9be54dc6",
+      "published_file_sha256": "efc175322c9ed1bf564cc23a9e71a708572222cca0b4db4bc7ba5fac9be54dc6",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "tabclean_same9b",
+      "path": "results/studies/tabclean_same9b/all_scores.json",
+      "original_file_sha256": "82135873f753ba1d12c04038eb6ac6495f5ec5643040962b1c6b5c5872574298",
+      "published_file_sha256": "82135873f753ba1d12c04038eb6ac6495f5ec5643040962b1c6b5c5872574298",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "tabclean_same9b",
+      "path": "results/studies/tabclean_same9b/paired_differences.json",
+      "original_file_sha256": "7a1f8c3a013979b3cd4df24f07a1ef128557193b44df4e0280a07a7a45065e54",
+      "published_file_sha256": "7a1f8c3a013979b3cd4df24f07a1ef128557193b44df4e0280a07a7a45065e54",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "tabclean_same9b",
+      "path": "results/studies/tabclean_same9b/qualification.json",
+      "original_file_sha256": "4525d89032fbd70a87c3cecd527a63e86495bee9c29c9cee090e6ab4e519bb80",
+      "published_file_sha256": "4525d89032fbd70a87c3cecd527a63e86495bee9c29c9cee090e6ab4e519bb80",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "sealed_reuse",
+      "path": "results/studies/sealed_reuse/aggregate.json",
+      "original_file_sha256": "56ba3c77767459c274ff31f0f79d8b9a50c4be8c2456b88c288acbaac1e5c475",
+      "published_file_sha256": "56ba3c77767459c274ff31f0f79d8b9a50c4be8c2456b88c288acbaac1e5c475",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "sealed_reuse",
+      "path": "results/studies/sealed_reuse/all_scores.json",
+      "original_file_sha256": "7781cd393f428b7b22a6925c5e6130bc07ac223626aaa9848494cdb9bfd54126",
+      "published_file_sha256": "7781cd393f428b7b22a6925c5e6130bc07ac223626aaa9848494cdb9bfd54126",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "sealed_reuse",
+      "path": "results/studies/sealed_reuse/model_usage.json",
+      "original_file_sha256": "ff2a23f16b8104c12bbc92776ef5355fce0977da30a2854f9c4187f40b1f8cc9",
+      "published_file_sha256": "ff2a23f16b8104c12bbc92776ef5355fce0977da30a2854f9c4187f40b1f8cc9",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "sealed_reuse",
+      "path": "results/studies/sealed_reuse/qualification.json",
+      "original_file_sha256": "85b139333e94a1154e5af1dca73f387b5614d7aeb82788eb474ce04897e75c5b",
+      "published_file_sha256": "85b139333e94a1154e5af1dca73f387b5614d7aeb82788eb474ce04897e75c5b",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "real_dirty",
+      "path": "results/studies/real_dirty/actual_model_costs.json",
+      "original_file_sha256": "1a789cab900e238ac8563d48a400d47172298ade7374eb741dc3efe89ca5e90e",
+      "published_file_sha256": "be00a6c5fcf9cebd055ec403bffd549cc4b916c69b425b5be725caf4e931a37d",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "real_dirty",
+      "path": "results/studies/real_dirty/aggregate.json",
+      "original_file_sha256": "dc863c76eeafdd8a5021dac2c28658fdf990b7143a6eaba6bb40c49f0cece8e3",
+      "published_file_sha256": "dc38fff7947b56dd07d28b1c0e2ed83bbf04765bd62ac30295220a6716bcb8bc",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "real_dirty",
+      "path": "results/studies/real_dirty/all_scores.json",
+      "original_file_sha256": "fd008d2a29c3759014902874c689084b0c4fab5babedd8316cd3f836b8059a53",
+      "published_file_sha256": "d104f41b8782901aad19ca3ad219efc505a7d80ff43fa786be0a9d9e65050f23",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "real_dirty",
+      "path": "results/studies/real_dirty/paired_differences.json",
+      "original_file_sha256": "d082ac544a2857794e342cfb1d80bc59912fcf8e86197f77a06a9bc655f66dcd",
+      "published_file_sha256": "1750b871862c0676de9a9d672d670a4fa9293bd57d7c43fd5f94521ce1e792fc",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "repair_main",
+      "path": "results/recorded/repair_seed1014.json",
+      "original_file_sha256": "6a3d6d3437d4db6fd6f304058d81c0bd1c1fd29b8e3f5cbf4e0dbde7379d6923",
+      "published_file_sha256": "6a3d6d3437d4db6fd6f304058d81c0bd1c1fd29b8e3f5cbf4e0dbde7379d6923",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "downstream_main",
+      "path": "results/recorded/downstream_seed1015.json",
+      "original_file_sha256": "143aa85fd7b4221d4c5b4f3d65474b84d6afc3f1c6a8248be164196153f2afaf",
+      "published_file_sha256": "143aa85fd7b4221d4c5b4f3d65474b84d6afc3f1c6a8248be164196153f2afaf",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "module_ablation",
+      "path": "results/recorded/ablation_seed1015.json",
+      "original_file_sha256": "b8c03dd13727dd426ce79787326b8078d5bc61fad3c7a12901fbdb0b5285101c",
+      "published_file_sha256": "acc058c05c9e59e19de8f4bc64eb3106ecf5605f5bf64c45d9f4a19ed8746c0a",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "module_ablation",
+      "path": "results/recorded/ablation_seed1014.json",
+      "original_file_sha256": "974f8750829289eb10b1d4b635d868dda6faa4603bc5c27a31b76b9c942a351f",
+      "published_file_sha256": "d6bcdffbc60daed2fa54f60e681a437dabc599f56c223ba394a44c245c3917a5",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "downstream_main",
+      "path": "results/recorded/downstream_seed1014.json",
+      "original_file_sha256": "e68535729fdf589abf43d1ffd5c7da7b6d857f1396a2f861cd9b3f97e0c83320",
+      "published_file_sha256": "e68535729fdf589abf43d1ffd5c7da7b6d857f1396a2f861cd9b3f97e0c83320",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "repair_main",
+      "path": "results/recorded/repair_seed1015.json",
+      "original_file_sha256": "c265ac8dd9f85517afbeaa1950f534f72dac7c02d6655507771a3427f6a3e7be",
+      "published_file_sha256": "c265ac8dd9f85517afbeaa1950f534f72dac7c02d6655507771a3427f6a3e7be",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "module_ablation",
+      "path": "results/recorded/ablation_seed1013.json",
+      "original_file_sha256": "2dc785132c113f74ade0155b16cd2e73a9df48c8aa838524225f308388c4d0f6",
+      "published_file_sha256": "c81f55794d2829a97fdd3e9874ca7177a0a7dcccbc148aaad2c0a6d92995e52a",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "downstream_main",
+      "path": "results/recorded/downstream_seed1013.json",
+      "original_file_sha256": "c674a680719b381a271981d8e3b5849f1fd962f9c4600b583f68ef340fb77267",
+      "published_file_sha256": "c674a680719b381a271981d8e3b5849f1fd962f9c4600b583f68ef340fb77267",
+      "role": "paper-scope projection; retained values unchanged"
+    },
+    {
+      "study": "repair_main",
+      "path": "results/recorded/repair_seed1013.json",
+      "original_file_sha256": "9d172412221ce63a504eaf71681a19ba4a696e53dfd727972a8d0b1292e73a6f",
+      "published_file_sha256": "9d172412221ce63a504eaf71681a19ba4a696e53dfd727972a8d0b1292e73a6f",
+      "role": "paper-scope projection; retained values unchanged"
+    }
+  ],
+  "core_and_environment_unchanged": true,
+  "historical_selection": "The downstream six-table scope was selected after the original seed1013 study. This release changes public scope, not that history."
+}

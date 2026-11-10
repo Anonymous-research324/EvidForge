@@ -1,0 +1,19 @@
+\par\addvspace{6pt}\noindent\begin{minipage}{\columnwidth}
+\centering
+\captionof{table}{真实错误修复 F1}
+\label{tab:real-main}
+\fontsize{8}{9.6}\selectfont
+\setlength{\tabcolsep}{1pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcccc@{}}
+\toprule
+数据集 & \makecell{Raha +\\HoloClean} & \makecell{CDC\\（CPU 适配）} & TabClean (9B) & EvidForge \\
+\midrule
+Museum & $0.152\pm0.049$ & $0.112\pm0.016$ & $0.204\pm0.136$ & $\mathbf{0.333\pm0.054}$ \\
+Movies & $0.000\pm0.000$ & $0.001\pm0.000$ & $0.877\pm0.016$ & $\mathbf{0.889\pm0.002}$ \\
+ShoppingCenter & $0.106\pm0.019$ & $0.107\pm0.050$ & $0.145\pm0.026$ & $\mathbf{0.427\pm0.041}$ \\
+School & $0.145\pm0.012$ & $0.090\pm0.019$ & $\mathbf{0.250\pm0.112}$ & $0.239\pm0.114$ \\
+JobPosting & $0.064\pm0.008$ & $0.071\pm0.010$ & $0.078\pm0.075$ & $\mathbf{0.116\pm0.047}$ \\
+\bottomrule
+\end{tabular*}
+\end{minipage}\par\addvspace{6pt}

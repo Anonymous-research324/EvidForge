@@ -1,0 +1,148 @@
+{
+  "project": "EvidForge",
+  "study": "downstream usefulness three seeds",
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "new_seeds": [
+    1014,
+    1015
+  ],
+  "datasets": [
+    "tic_tac_toe",
+    "car_evaluation",
+    "retinopathy",
+    "real_estate",
+    "concrete",
+    "airfoil"
+  ],
+  "classification": [
+    "tic_tac_toe",
+    "car_evaluation",
+    "retinopathy"
+  ],
+  "catalog": {
+    "tic_tac_toe": {
+      "id": 101,
+      "slug": "tic+tac+toe+endgame",
+      "task": "classification",
+      "rows": 958,
+      "columns": 9,
+      "layout": "tic"
+    },
+    "car_evaluation": {
+      "id": 19,
+      "slug": "car+evaluation",
+      "task": "classification",
+      "rows": 1728,
+      "columns": 6,
+      "layout": "car"
+    },
+    "retinopathy": {
+      "id": 329,
+      "slug": "diabetic+retinopathy+debrecen",
+      "task": "classification",
+      "rows": 1151,
+      "columns": 19,
+      "layout": "retino"
+    },
+    "real_estate": {
+      "id": 477,
+      "slug": "real+estate+valuation+data+set",
+      "task": "regression",
+      "rows": 414,
+      "columns": 6,
+      "layout": "estate"
+    },
+    "concrete": {
+      "id": 165,
+      "slug": "concrete+compressive+strength",
+      "task": "regression",
+      "rows": 1030,
+      "columns": 8,
+      "layout": "concrete"
+    },
+    "airfoil": {
+      "id": 291,
+      "slug": "airfoil+self+noise",
+      "task": "regression",
+      "rows": 1503,
+      "columns": 5,
+      "layout": "airfoil"
+    }
+  },
+  "methods": [
+    "dirty",
+    "pure_llm",
+    "tool_llm",
+    "raha_holoclean",
+    "garf",
+    "cdc",
+    "v23"
+  ],
+  "display_names": {
+    "tic_tac_toe": "Tic-Tac-Toe",
+    "car_evaluation": "Car Evaluation",
+    "retinopathy": "Retinopathy",
+    "real_estate": "Real Estate",
+    "concrete": "Concrete",
+    "airfoil": "Airfoil"
+  },
+  "original_root": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013",
+  "original_scores": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/reports/final_seed1013/scores.json",
+  "original_scores_sha256": "3251a1528e1d59aac8167096a697a6be2a0061ee5d0f8f3c5a1a5d71b3a3a02c",
+  "new_roots": {
+    "1014": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014",
+    "1015": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015"
+  },
+  "gpu": {
+    "1014": 0,
+    "1015": 1
+  },
+  "model_ports": {
+    "1014": 8071,
+    "1015": 8072
+  },
+  "postgres_ports": {
+    "1014": 55431,
+    "1015": 55432
+  },
+  "model": "Qwen3.5-9B",
+  "dtype": "bfloat16",
+  "temperature": 0,
+  "corruption_rate": 0.7,
+  "partition_fractions": [
+    0.1,
+    0.1,
+    0.64,
+    0.16
+  ],
+  "predictor": {
+    "n_estimators": 200,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "reg_lambda": 1.0,
+    "tree_method": "hist",
+    "device": "cpu",
+    "n_jobs": 4,
+    "random_state": 1013,
+    "verbosity": 0
+  },
+  "predictor_seed_tracks_experiment_seed": true,
+  "no_formal_truth_to_repair": true,
+  "classification_labels_only_caafe_training_and_independent_prediction_scoring": true,
+  "selected_six_not_new_blind": true,
+  "original_eight_and_all_old_results_retained": true,
+  "selection_scope_note": "Previously selected six for display after seed1013; not a newly blind representative sample, no further post-score dataset exclusion",
+  "aggregate": "equal mean and sample SD ddof=1 n=3 per dataset/method/metric; missing seed N/A, never zero or fabricated n3",
+  "main_table_excludes_clean_reference": true,
+  "first_experiment_and_ablation_unchanged": true,
+  "created_at": 1792139959.8359053,
+  "publication_scope_projection": true,
+  "original_protocol_sha256": "0165373658c04807a6c61cdf8ad337051ef986b711f88793bd798d78f5beab5a",
+  "projection_note": "Case/dataset dispatch narrowed for the paper artifact; original full protocol is retained privately. No model, pollution, seed, metric or gate constants changed."
+}

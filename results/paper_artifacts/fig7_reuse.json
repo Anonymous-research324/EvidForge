@@ -1,0 +1,86 @@
+[
+  {
+    "dataset": "retinopathy",
+    "batch": "B1",
+    "F1": {
+      "mean": 0.5361421457314577,
+      "sample_sd": 0.03418757160799104,
+      "n": 3
+    },
+    "new_calls": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "dataset": "retinopathy",
+    "batch": "B2",
+    "F1": {
+      "mean": 0.5433070642994259,
+      "sample_sd": 0.030516393841840204,
+      "n": 3
+    },
+    "new_calls": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "dataset": "retinopathy",
+    "batch": "B3",
+    "F1": {
+      "mean": 0.5366770670444939,
+      "sample_sd": 0.01920403803740405,
+      "n": 3
+    },
+    "new_calls": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "dataset": "airfoil",
+    "batch": "B1",
+    "F1": {
+      "mean": 0.6585106843064571,
+      "sample_sd": 0.027315000971201164,
+      "n": 3
+    },
+    "new_calls": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "dataset": "airfoil",
+    "batch": "B2",
+    "F1": {
+      "mean": 0.6704940009478306,
+      "sample_sd": 0.019550581508152413,
+      "n": 3
+    },
+    "new_calls": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "dataset": "airfoil",
+    "batch": "B3",
+    "F1": {
+      "mean": 0.6580979637416478,
+      "sample_sd": 0.043150193582930575,
+      "n": 3
+    },
+    "new_calls": [
+      0,
+      0,
+      0
+    ]
+  }
+]

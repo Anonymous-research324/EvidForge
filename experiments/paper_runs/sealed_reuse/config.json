@@ -1,0 +1,124 @@
+{
+  "model_seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "study": "sealed_reuse",
+  "paper_scope": "Fig.7a; selected conditions in provenance/paper_scope.json",
+  "server_source": "/root/fsas/home/anonymous/projects/EvidForge_Skill_Reuse_NewBatches_20261026",
+  "source_protocol_relative_path": "configs/protocol.json",
+  "source_protocol_sha256": "3ed89262e2c2aead79c8718e350f1a1bc4074cd2be2baff425d65efb6141d936",
+  "configuration_role": "Derived publication-scope view. Full original research protocol remains in the author archive; scientific settings for retained cases are unchanged.",
+  "paper_case_specs": [
+    {
+      "case": "retinopathy_s1013",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "batch": "B1"
+    },
+    {
+      "case": "retinopathy_s1013",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "batch": "B2"
+    },
+    {
+      "case": "retinopathy_s1013",
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "batch": "B3"
+    },
+    {
+      "case": "airfoil_s1013",
+      "dataset": "airfoil",
+      "seed": 1013,
+      "batch": "B1"
+    },
+    {
+      "case": "airfoil_s1013",
+      "dataset": "airfoil",
+      "seed": 1013,
+      "batch": "B2"
+    },
+    {
+      "case": "airfoil_s1013",
+      "dataset": "airfoil",
+      "seed": 1013,
+      "batch": "B3"
+    },
+    {
+      "case": "retinopathy_s1014",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "batch": "B1"
+    },
+    {
+      "case": "retinopathy_s1014",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "batch": "B2"
+    },
+    {
+      "case": "retinopathy_s1014",
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "batch": "B3"
+    },
+    {
+      "case": "airfoil_s1014",
+      "dataset": "airfoil",
+      "seed": 1014,
+      "batch": "B1"
+    },
+    {
+      "case": "airfoil_s1014",
+      "dataset": "airfoil",
+      "seed": 1014,
+      "batch": "B2"
+    },
+    {
+      "case": "airfoil_s1014",
+      "dataset": "airfoil",
+      "seed": 1014,
+      "batch": "B3"
+    },
+    {
+      "case": "retinopathy_s1015",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "batch": "B1"
+    },
+    {
+      "case": "retinopathy_s1015",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "batch": "B2"
+    },
+    {
+      "case": "retinopathy_s1015",
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "batch": "B3"
+    },
+    {
+      "case": "airfoil_s1015",
+      "dataset": "airfoil",
+      "seed": 1015,
+      "batch": "B1"
+    },
+    {
+      "case": "airfoil_s1015",
+      "dataset": "airfoil",
+      "seed": 1015,
+      "batch": "B2"
+    },
+    {
+      "case": "airfoil_s1015",
+      "dataset": "airfoil",
+      "seed": 1015,
+      "batch": "B3"
+    }
+  ],
+  "runtime_bindings": []
+}

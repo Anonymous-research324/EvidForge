@@ -1,0 +1,110 @@
+{
+  "title": "EvidForge导师意见补充实验",
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "existing_tables_1_2": "read-only preserved",
+  "representatives": {
+    "car_evaluation": "分类、有限类别字段；按字段类型选定而非新结果",
+    "concrete": "回归、连续测量字段；按字段类型选定而非新结果"
+  },
+  "natural_tables": [
+    "hospital",
+    "flights"
+  ],
+  "arms": [
+    "full",
+    "no_transforms",
+    "no_generated_execution",
+    "no_final_gate",
+    "no_feedback",
+    "no_predictive_context",
+    "no_llm"
+  ],
+  "main_metrics": [
+    "repair_P",
+    "repair_R",
+    "repair_F1",
+    "normal_damage",
+    "downstream_macroF1_AUC_or_R2_MAE"
+  ],
+  "sensitivity": {
+    "base_score_threshold_offsets": [
+      -0.1,
+      -0.05,
+      0,
+      0.05,
+      0.1
+    ],
+    "learning_group_fractions": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "minimum_learning_groups": 20,
+    "external_validation_fixed": true
+  },
+  "robustness": {
+    "rates": [
+      0.1,
+      0.3,
+      0.5,
+      0.7
+    ],
+    "single_error_rate": 0.3,
+    "types": [
+      "blank",
+      "digit",
+      "scale",
+      "affix"
+    ],
+    "natural_errors_separate": true
+  },
+  "efficiency": [
+    "real_calls",
+    "input_output_tokens",
+    "source_fit_seconds",
+    "native_seconds",
+    "repair_seconds",
+    "reuse_zero_new_calls_byteparity"
+  ],
+  "baseline": "official Wangyibo321/TabClean, same local9B; author code adaptation disclosed; dev truth only",
+  "case_studies": [
+    "correct_repair",
+    "blocked_normal_damage",
+    "failed_or_keep"
+  ],
+  "old_versions": "immutable; no method optimization against formal answers",
+  "negative_results": "all retained; no guarantee three positive contributions",
+  "scoring": "per-case outputs all frozen before once-only independent scorer; scores never feed any method",
+  "scope": "new supplemental experiments, no manuscript or GitHub mutation",
+  "no_llm": "source fitting and execution zero model calls; pre-native source checkpoint permitted only if exact provenance verifies no model input",
+  "failure_policy": "keep logs; execution errors block scoring until reviewed, never fill0",
+  "tabclean_adaptation": {
+    "author_commit": "ae292b6ff8118c8786cd7c97364e9a8a07f00b62",
+    "max_iterations": 10,
+    "early_stop_patience": 3,
+    "max_output_tokens": 8192,
+    "same_local9B_all_agents": true,
+    "formal_no_debug_or_tuning": true
+  },
+  "confidence_sensitivity_scope": "base score/confidence threshold additive offset only; other guards and generated policies fixed",
+  "no_transforms_scope": "candidate rule sources and codec inverse channels suppressed, same full sealed skill",
+  "no_predictive_context_scope": "relearn with base predictive context absent, other-field state inputs zero, supplementary model inputs zero; explicit relations preserved",
+  "hardware": {
+    "lanes": [
+      "A100 GPU0 TP1",
+      "A100 GPU1 TP1",
+      "4090 physical5,7 TP2"
+    ],
+    "same_case_all_conditions_same_lane": true,
+    "same_weights_dtype_temperature_request_seed": true,
+    "timing": "paired within same hardware; do not present mixed hardware wall times as algorithmic speedups",
+    "assignment": "fixed case index modulo3; no result-driven migration"
+  },
+  "publication_scope_projection": true,
+  "original_protocol_sha256": "62e061e524259a7a7e2324b4b372f47bd7587e286af3879fa391774012644094",
+  "projection_note": "Case/dataset dispatch narrowed for the paper artifact; original full protocol is retained privately. No model, pollution, seed, metric or gate constants changed."
+}

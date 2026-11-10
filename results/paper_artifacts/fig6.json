@@ -1,0 +1,122 @@
+[
+  {
+    "dataset": "retinopathy",
+    "contamination_percent": 10.0,
+    "F1": {
+      "mean": 0.39062994389598205,
+      "sample_sd": 0.10130914292342826,
+      "n": 3
+    },
+    "MER_percent": {
+      "mean": 0.02653338484685117,
+      "sample_sd": 0.039283355094775485,
+      "n": 3
+    },
+    "source_suite": "robustness"
+  },
+  {
+    "dataset": "retinopathy",
+    "contamination_percent": 30.0,
+    "F1": {
+      "mean": 0.5193143546680117,
+      "sample_sd": 0.015758485175010103,
+      "n": 3
+    },
+    "MER_percent": {
+      "mean": 0.1666712879889194,
+      "sample_sd": 0.1946420254856186,
+      "n": 3
+    },
+    "source_suite": "robustness"
+  },
+  {
+    "dataset": "retinopathy",
+    "contamination_percent": 50.0,
+    "F1": {
+      "mean": 0.5448266325080103,
+      "sample_sd": 0.005039695544515405,
+      "n": 3
+    },
+    "MER_percent": {
+      "mean": 0.047803432286438165,
+      "sample_sd": 0.08279797349628937,
+      "n": 3
+    },
+    "source_suite": "robustness"
+  },
+  {
+    "dataset": "retinopathy",
+    "contamination_percent": 70.0,
+    "F1": {
+      "mean": 0.5520165886067424,
+      "sample_sd": 0.01672079275746695,
+      "n": 3
+    },
+    "MER_percent": {
+      "mean": 0.03969199015638644,
+      "sample_sd": 0.06874854360438507,
+      "n": 3
+    },
+    "source_suite": "robustness"
+  },
+  {
+    "dataset": "concrete",
+    "contamination_percent": 10.0,
+    "F1": {
+      "mean": 0.31820639244337584,
+      "sample_sd": 0.04458114259028717,
+      "n": 3
+    },
+    "MER_percent": {
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "n": 3
+    },
+    "source_suite": "robustness"
+  },
+  {
+    "dataset": "concrete",
+    "contamination_percent": 30.0,
+    "F1": {
+      "mean": 0.4677237161804372,
+      "sample_sd": 0.06606802267474189,
+      "n": 3
+    },
+    "MER_percent": {
+      "mean": 0.13518482469231935,
+      "sample_sd": 0.21139051215547824,
+      "n": 3
+    },
+    "source_suite": "robustness"
+  },
+  {
+    "dataset": "concrete",
+    "contamination_percent": 50.0,
+    "F1": {
+      "mean": 0.4758655228612285,
+      "sample_sd": 0.07822269121749459,
+      "n": 3
+    },
+    "MER_percent": {
+      "mean": 0.12618633464554915,
+      "sample_sd": 0.1577386700549389,
+      "n": 3
+    },
+    "source_suite": "robustness"
+  },
+  {
+    "dataset": "concrete",
+    "contamination_percent": 70.0,
+    "F1": {
+      "mean": 0.46262530712575717,
+      "sample_sd": 0.06662179987804154,
+      "n": 3
+    },
+    "MER_percent": {
+      "mean": 0.2308501683501684,
+      "sample_sd": 0.25530066781137395,
+      "n": 3
+    },
+    "source_suite": "main"
+  }
+]

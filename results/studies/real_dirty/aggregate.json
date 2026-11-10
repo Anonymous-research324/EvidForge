@@ -1,0 +1,222 @@
+[
+  {
+    "dataset": "address_museum",
+    "method": "full",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.3326437038988575,
+    "sample_sd": 0.05390218373138909,
+    "normal_damage_mean": 4.426206499217207e-05,
+    "qualified_n": 3,
+    "complete": true
+  },
+  {
+    "dataset": "address_museum",
+    "method": "raha_holoclean",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.15223441084097505,
+    "sample_sd": 0.04864765978067993,
+    "normal_damage_mean": 0.0005763097185682005,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "address_museum",
+    "method": "cdc",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.11158353076839371,
+    "sample_sd": 0.016413927462485933,
+    "normal_damage_mean": 0.9587698944226866,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "address_museum",
+    "method": "tabclean",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.20385917532001877,
+    "sample_sd": 0.13585324945667238,
+    "normal_damage_mean": 0.011747527794175204,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "movies",
+    "method": "full",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.8893281138532633,
+    "sample_sd": 0.0016459069212431227,
+    "normal_damage_mean": 0.0,
+    "qualified_n": 3,
+    "complete": true
+  },
+  {
+    "dataset": "movies",
+    "method": "raha_holoclean",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.0002688305687463406,
+    "sample_sd": 0.00026925246787884276,
+    "normal_damage_mean": 0.020794668259872653,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "movies",
+    "method": "cdc",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.0005528490424012752,
+    "sample_sd": 0.00016944205522796682,
+    "normal_damage_mean": 0.7489583127874527,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "movies",
+    "method": "tabclean",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.8765635126810654,
+    "sample_sd": 0.01567811740448342,
+    "normal_damage_mean": 7.48021484683759e-06,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "address_shoppingcenter",
+    "method": "full",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.4267002181316168,
+    "sample_sd": 0.04135117325612087,
+    "normal_damage_mean": 0.0,
+    "qualified_n": 3,
+    "complete": true
+  },
+  {
+    "dataset": "address_shoppingcenter",
+    "method": "raha_holoclean",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.10567342135045558,
+    "sample_sd": 0.018605516327125864,
+    "normal_damage_mean": 0.0,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "address_shoppingcenter",
+    "method": "cdc",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.10667034064174515,
+    "sample_sd": 0.05020873295055604,
+    "normal_damage_mean": 0.9491309622484324,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "address_shoppingcenter",
+    "method": "tabclean",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.14477506076825272,
+    "sample_sd": 0.026159196168649722,
+    "normal_damage_mean": 0.0023807566352886367,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "school_small",
+    "method": "full",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.23892591749715952,
+    "sample_sd": 0.11439391896604492,
+    "normal_damage_mean": 0.0,
+    "qualified_n": 3,
+    "complete": true
+  },
+  {
+    "dataset": "school_small",
+    "method": "raha_holoclean",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.14528639662352558,
+    "sample_sd": 0.011948306347130283,
+    "normal_damage_mean": 0.002615739422179598,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "school_small",
+    "method": "cdc",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.08970188169054616,
+    "sample_sd": 0.01886370043083996,
+    "normal_damage_mean": 0.9572097612548195,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "school_small",
+    "method": "tabclean",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.25033851212421476,
+    "sample_sd": 0.11223220094022018,
+    "normal_damage_mean": 0.06446142061020713,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "jobposting_small",
+    "method": "full",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.11626200857449343,
+    "sample_sd": 0.0470947219832537,
+    "normal_damage_mean": 0.0,
+    "qualified_n": 2,
+    "complete": true
+  },
+  {
+    "dataset": "jobposting_small",
+    "method": "raha_holoclean",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.06443306557356215,
+    "sample_sd": 0.007549525609559446,
+    "normal_damage_mean": 0.001206863256412748,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "jobposting_small",
+    "method": "cdc",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.07058440425773078,
+    "sample_sd": 0.01029815754980642,
+    "normal_damage_mean": 0.9096899039621229,
+    "qualified_n": 0,
+    "complete": true
+  },
+  {
+    "dataset": "jobposting_small",
+    "method": "tabclean",
+    "n": 3,
+    "expected_n": 3,
+    "mean": 0.0783345012946816,
+    "sample_sd": 0.07523788183120145,
+    "normal_damage_mean": 0.042506433780014126,
+    "qualified_n": 0,
+    "complete": true
+  }
+]

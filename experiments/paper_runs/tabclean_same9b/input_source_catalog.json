@@ -1,0 +1,75 @@
+{
+  "candidates": [
+    {
+      "id": "banknote",
+      "uci": 267,
+      "task": "classification",
+      "rows": 1372,
+      "features": 4,
+      "priority": 1,
+      "source": "https://archive.ics.uci.edu/dataset/267/banknote+authentication",
+      "reason": "连续数值字段少，便于先排查代码生成与执行接口；可检查缩放和字符污染"
+    },
+    {
+      "id": "retinopathy",
+      "uci": 329,
+      "task": "classification",
+      "rows": 1151,
+      "features": 19,
+      "priority": 2,
+      "source": "https://archive.ics.uci.edu/dataset/329/diabetic+retinopathy+debrecen",
+      "reason": "同时包含二值、计数与连续字段，覆盖不同候选通道；是已知源，不称新盲测"
+    },
+    {
+      "id": "wdbc",
+      "uci": 17,
+      "task": "classification",
+      "rows": 569,
+      "features": 30,
+      "priority": 3,
+      "source": "https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic",
+      "reason": "小样本、多数值字段，检查较宽表与尺度差异；ID和Diagnosis保护"
+    },
+    {
+      "id": "airfoil",
+      "uci": 291,
+      "task": "regression",
+      "rows": 1503,
+      "features": 5,
+      "priority": 1,
+      "source": "https://archive.ics.uci.edu/dataset/291/airfoil+self+noise",
+      "reason": "列数少、单位跨度较大，便于检查数值变换复用；已知源不称新盲测"
+    },
+    {
+      "id": "energy",
+      "uci": 242,
+      "task": "regression",
+      "rows": 768,
+      "features": 8,
+      "priority": 2,
+      "source": "https://archive.ics.uci.edu/dataset/242/energy+efficiency",
+      "reason": "建筑参数含连续与离散变量；仅预定Heating Load为下游任务，Heating/Cooling两个标签均不进入修复"
+    },
+    {
+      "id": "wine_red",
+      "uci": 186,
+      "task": "regression",
+      "rows": 1599,
+      "features": 11,
+      "priority": 3,
+      "source": "https://archive.ics.uci.edu/dataset/186/wine+quality",
+      "reason": "红葡萄酒理化指标尺度不同、样本规模适中；quality仅作私有下游标签；行数按官方names核"
+    },
+    {
+      "id": "real_estate",
+      "uci": 477,
+      "task": "regression",
+      "rows": 414,
+      "features": 6,
+      "priority": 4,
+      "source": "https://archive.ics.uci.edu/dataset/477/real+estate+valuation+data+set",
+      "reason": "回归备选；同时含日期、计数、坐标与连续字段，No和价格标签均保护"
+    }
+  ],
+  "scope": "source parsing catalog only; final seeds/sampling/methods are simple_protocol_v1.json and run_config.json"
+}

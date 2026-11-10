@@ -1,0 +1,138 @@
+{
+  "project": "EvidForge",
+  "study": "Previously selected three classification and three regression tables, multiseed repetition",
+  "seed": 1014,
+  "model": "Qwen3.5-9B",
+  "dtype": "bfloat16",
+  "temperature": 0,
+  "original_reference_visible": false,
+  "core": "124 byte-identical V23 sources; seed-only runtime override",
+  "datasets": {
+    "tic_tac_toe": {
+      "id": 101,
+      "slug": "tic+tac+toe+endgame",
+      "task": "classification",
+      "rows": 958,
+      "columns": 9,
+      "layout": "tic"
+    },
+    "car_evaluation": {
+      "id": 19,
+      "slug": "car+evaluation",
+      "task": "classification",
+      "rows": 1728,
+      "columns": 6,
+      "layout": "car"
+    },
+    "retinopathy": {
+      "id": 329,
+      "slug": "diabetic+retinopathy+debrecen",
+      "task": "classification",
+      "rows": 1151,
+      "columns": 19,
+      "layout": "retino"
+    },
+    "real_estate": {
+      "id": 477,
+      "slug": "real+estate+valuation+data+set",
+      "task": "regression",
+      "rows": 414,
+      "columns": 6,
+      "layout": "estate"
+    },
+    "concrete": {
+      "id": 165,
+      "slug": "concrete+compressive+strength",
+      "task": "regression",
+      "rows": 1030,
+      "columns": 8,
+      "layout": "concrete"
+    },
+    "airfoil": {
+      "id": 291,
+      "slug": "airfoil+self+noise",
+      "task": "regression",
+      "rows": 1503,
+      "columns": 5,
+      "layout": "airfoil"
+    }
+  },
+  "methods": [
+    "dirty",
+    "pure_llm",
+    "tool_llm",
+    "raha_holoclean",
+    "garf",
+    "cdc",
+    "v23"
+  ],
+  "supplement": [
+    "CAAFE classification only; official prompt/AST executor, same9B/XGBoost, 5 source-CV proposals"
+  ],
+  "supervised_predictor": {
+    "package": "xgboost-cpu==3.4.1",
+    "shared_parameters": {
+      "n_estimators": 200,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "subsample": 1.0,
+      "colsample_bytree": 1.0,
+      "reg_lambda": 1.0,
+      "tree_method": "hist",
+      "device": "cpu",
+      "n_jobs": 4,
+      "random_state": 1014,
+      "verbosity": 0
+    },
+    "classification": [
+      "macro_F1",
+      "probability_ROC_AUC"
+    ],
+    "regression": [
+      "R2",
+      "MAE"
+    ],
+    "preprocessing": "train-only median numeric imputation; source-declared categorical fields most-frequent + onehot handle_unknown ignore; no fit to holdout"
+  },
+  "partitions": {
+    "group_definition": "supplied entity/carname plus exact canonical feature duplicates",
+    "all_rows_preserved": true,
+    "learning_groups": ".1 with >=20 complete-case groups",
+    "validation_groups": ".1 with >=10 complete-case groups",
+    "holdout_groups": ".16",
+    "repair_groups": "remainder approximately .64",
+    "target_stratification": "group majority class or regression quantile decile; curator only",
+    "no_holdout_public_file": true
+  },
+  "contamination": {
+    "rate": 0.7,
+    "eligible": "known target input feature cells, per column, in learning/validation/repair only",
+    "numerical_kinds": [
+      "blank",
+      "digit",
+      "scale100",
+      "ERR...BAD"
+    ],
+    "categorical_kinds": [
+      "blank",
+      "other_valid_category",
+      "invalid_code_plus100",
+      "ERR...BAD"
+    ],
+    "kinds_balanced_per_column": true,
+    "preserve_y_and_ids": true,
+    "natural_unknowns_not_counted_as_precise_errors": true
+  },
+  "reversible_encoding": "Car/Tic fixed published schema vocabulary mapped to integers, identical for all repair arms; predictor onehot restores unordered treatment; not learned correction rules",
+  "fairness": "Same authorized first10% teaching and held10% validation available, fixed native/declared adapters; V23 may select frozen prior/context using held validation, native CPU methods use fixed configurations; not identical model classes or total compute",
+  "barriers": "No formal clean features/error locations/holdout/y available to repair; supervised y only CAAFE training CV and scorer; standalone formal repair, genuine native Codex+MCP+Hook source learning",
+  "cpu_adaptations": {
+    "raha_holoclean": "source-only annotations and FDs; epochs20; ownedPG55415",
+    "garf": "CDC author SQLite port; native configured pretrain epochs and both directions, CPU",
+    "cdc": "source-only grouped calibration .4, confidence.9, CPU60 seconds per feature, 10HPO"
+  },
+  "tool": "10 real independent programme attempts and 3 groupfold source execution feedback; no V23 candidate tool access; pure fallback explicitly marked if all programmes fail",
+  "freeze": "all outputs and CAAFE feature code close before independent score_downstream.py first reads references; single seed, no significance claim; no method dropped for poor results; runtime errors N/A and evidence retained",
+  "created": 1792028505.1844785,
+  "selected_six_not_new_blind": true
+}

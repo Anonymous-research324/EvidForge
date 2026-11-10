@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "scope": "Correspondence contract for fixed paper method; offline tests do not establish full GPU experiment reproducibility.",
+  "verification_status": "ANALYZED_WITH_OFFLINE_CONTRACT_TESTS",
+  "core_unchanged": 124,
+  "dimensions": {
+    "single_value": 22,
+    "candidate": "d+78",
+    "error_detector": 24,
+    "modification_check": "d+85"
+  },
+  "candidate_limit": 128,
+  "ranker": {
+    "iterations": 45,
+    "learning_rate": 0.12,
+    "max_depth": 4,
+    "min_samples_leaf": 6,
+    "tie_tolerance": 1e-10
+  },
+  "proposal_interface": {
+    "base_named_features": 18,
+    "context_extra_features": 5,
+    "max_expression_chars": 1024,
+    "max_AST_nodes": 160,
+    "max_AST_depth": 16,
+    "max_hypotheses_per_stage": 4,
+    "min_distinct_before_compile": 2,
+    "score_gap_accept_only": true,
+    "original_teaching_rows_visible": false,
+    "outer_answers_visible": false,
+    "formal_reference_visible": false
+  },
+  "incremental_rule_gate": {
+    "min_actions": 8,
+    "min_groups": 4,
+    "min_exact_value_precision": 0.98,
+    "new_normal_damage": 0,
+    "positive_net_gain": true
+  },
+  "independent_gate": {
+    "min_changes": 5,
+    "min_normal_controls": 10,
+    "min_precision": 0.98,
+    "max_normal_damage_rate": 0.005,
+    "confirmed_normal_scenario_checked": true,
+    "no_refit_or_feedback": true
+  },
+  "deployment_research_separation": {
+    "normal_run": "requires exact-manifest independent qualification; refuses otherwise without repair",
+    "research": "explicit --research or original study research_prior_fallback; failed qualification remains false",
+    "research_output_is_deployment_qualified": false
+  },
+  "bindings": [
+    {
+      "id": "field_roles",
+      "engine_path": "source_runtime/unseen_table/common.py",
+      "sha256": "449465cff194de21167dcf28c421426ea723586ece511b9d87e5831382ccb983",
+      "symbols": [
+        "validate_declaration"
+      ],
+      "paper_requirement": "paper rejects protected ID/y as targets or predictive context"
+    },
+    {
+      "id": "source_boundary",
+      "engine_path": "workflow/onboarding.py",
+      "sha256": "8e60376cfdd9717320556fbfffa557fc33926571217d2d944610b8f4cbaf1d7f",
+      "symbols": [
+        "split_learning",
+        "prepare",
+        "freeze_assessment",
+        "assess"
+      ],
+      "paper_requirement": "outer validation never enters source fitting; one-time fixed-skill assessment"
+    },
+    {
+      "id": "skill_binding",
+      "engine_path": "workflow/packages.py",
+      "sha256": "efae3f3197c1e0f0c840139f5ac8faf92d3d28d8ed774da3669276c14338b211",
+      "symbols": [
+        "describe",
+        "execute"
+      ],
+      "paper_requirement": "format14/19 manifest binding and authorized targets"
+    },
+    {
+      "id": "catalog_qualification",
+      "engine_path": "workflow/catalog.py",
+      "sha256": "f677b1ff7edd32ab5d2bb738d8363cd2fd6c2a502a03a98e681e275a575aaa87",
+      "symbols": [
+        "qualification",
+        "register",
+        "match"
+      ],
+      "paper_requirement": "qualification bound to exact manifest/source/code; nonqualified not autorun"
+    },
+    {
+      "id": "candidate_pool",
+      "engine_path": "source_runtime/unseen_table/candidate_pool.py",
+      "sha256": "f7d37033860f106b23b3c789f2801e2ae1d7f209dba6ff321ea993a3d2966304",
+      "symbols": [
+        "candidates"
+      ],
+      "paper_requirement": "KEEP preserved; max128; equivalent values merged"
+    },
+    {
+      "id": "feature_dimensions",
+      "engine_path": "source_runtime/unseen_table/features.py",
+      "sha256": "785a2f597257b49bf9833a032243a23d59f766029ef347e2a5f25fc3029b713d",
+      "symbols": [
+        "value_features",
+        "candidate_features",
+        "detection_features"
+      ],
+      "paper_requirement": "22 / d+78 /24; modification vector adds7"
+    },
+    {
+      "id": "ranker",
+      "engine_path": "source_runtime/unseen_table/pairwise_ranker.py",
+      "sha256": "ff468f1b5e4ab754cd72faf3603b4315b21bc813a6e68e48178390041a2872df",
+      "symbols": [
+        "fit"
+      ],
+      "paper_requirement": "within-cell comparisons,45iterations,.12rate,depth4,minleaf6"
+    },
+    {
+      "id": "negative_candidates",
+      "engine_path": "source_runtime/unseen_table/rank_candidates.py",
+      "sha256": "d651cbd92a43de92dbc42529248ceb35b5a90ce432eccf65b24ff8d2684c9f2a",
+      "symbols": [],
+      "paper_requirement": "normalKEEP positive; synthetic weight.25; missing correctcandidate no rankingpositive"
+    },
+    {
+      "id": "proposal_language",
+      "engine_path": "learning/arithmetic.py",
+      "sha256": "049408da9944ee86e8ec4f6c73ee7f6826db2cdabbd8bfa4685abee9b9585ccf",
+      "symbols": [
+        "Expression"
+      ],
+      "paper_requirement": "18base+5context named numeric fields; bounded AST, no arbitrary code"
+    },
+    {
+      "id": "proposal_gate",
+      "engine_path": "learning/candidate_verifier.py",
+      "sha256": "259559a91036eebc8d9e6eb8ab3961da69cb83b00d8e4bf21bb69fc04533fad3",
+      "symbols": [
+        "rank",
+        "fit_permissions",
+        "evaluate"
+      ],
+      "paper_requirement": "8actions4groups98%valueprecision0newnormaldamagepositive netgain; accept-only gap"
+    },
+    {
+      "id": "native_protocol",
+      "engine_path": "application/bounded_protocol.py",
+      "sha256": "166d731a43cb535bb779edcf349eefda60c538aea92c8ebf53f857e46ac44502",
+      "symbols": [
+        "Protocol"
+      ],
+      "paper_requirement": "4attempted hypotheses,compile>=2distinct; actualcalls include compile/control"
+    },
+    {
+      "id": "compile_best",
+      "engine_path": "application/native_protocol.py",
+      "sha256": "b3c8589f3ed89c015e9634b1f59de6c64dfa638f7e312c72069356bde45ad1a1",
+      "symbols": [
+        "Protocol"
+      ],
+      "paper_requirement": "only best measured eligible programs offered for compile"
+    },
+    {
+      "id": "prior_context_execution",
+      "engine_path": "supplementary/execute.py",
+      "sha256": "8cf4aedd9da7c03fb2fce54500ba7ba4fcd66994923816d32a8571d63c6652ff",
+      "symbols": [
+        "run"
+      ],
+      "paper_requirement": "no compiled context candidate returns prior before context prediction"
+    },
+    {
+      "id": "research_execution",
+      "engine_path": "repair_platform.py",
+      "sha256": "92fa1db695171888065c6d0180c4bdb0b923a8fab1c3b5146d82513fc9223fb4",
+      "symbols": [
+        "main"
+      ],
+      "paper_requirement": "ordinary execution rejects unqualified skill; research path explicit"
+    }
+  ],
+  "paper_sources": {
+    "sections/03_method.tex": "02580161218513e5b29df9016ae13c5c5450a6463bc7b97554d4b48b5f5cf9fb",
+    "sections/04_setup.tex": "41d8072155f9eee4b98f3308cc86d88d7497a359ea271626b15d304799a176df",
+    "sections/08_appendix.tex": "3ac25259bf3b1111281fc19c93e28b7998e2dd02016df9ad6e9ebee2ab8be866"
+  },
+  "reproduction_gaps_to_resolve": [
+    "Supplemental fresh-run controller must not inherit historical PIDs",
+    "All original runtime wrappers/import dependencies must be present or transparently regenerated",
+    "Data preparation must preserve exact official bytes and original group-role assignments",
+    "Publication config views alone are not the original full executable configs",
+    "Portable runner now explicitly schedules original A–F; F is separately relearned with project Hook registration disabled only",
+    "Fresh environment must validate input parity, actual native calls, fixed outer assessment, sealed execution and once-only scoring before REPRODUCIBLE verdict"
+  ],
+  "numerical_changes_permitted": false,
+  "offline_behavior_tests": [
+    "protected ID/label target and context rejection",
+    "22/d+78/24 feature dimensions",
+    "KEEP and128candidate bound",
+    "18+5summary interface",
+    "forbidden AST/access rejection",
+    "source quality boundary",
+    "accept-only score_gap",
+    "outer validation never borrowed",
+    "no compiled context rule returns exact prior"
+  ]
+}

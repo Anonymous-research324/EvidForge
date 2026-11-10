@@ -1,0 +1,15 @@
+{
+  "output_token_ceiling": 8192,
+  "temperature": 0,
+  "model": "Qwen3.5-9B",
+  "dtype": "bfloat16",
+  "native_proposals_per_stage": 5,
+  "rounds": 10,
+  "early_stop_patience": 3,
+  "debug_attempts": 3,
+  "configuration_version": "original_table1_sampler_plus_existing_TabClean_8192",
+  "do_not_force_new_top_p_or_penalties": true,
+  "publication_scope_projection": true,
+  "original_protocol_sha256": "295824ac1e8cb5f9a8f28931f374a45c4734e499618a775c5c7a8349879860f0",
+  "projection_note": "Case/dataset dispatch narrowed for the paper artifact; original full protocol is retained privately. No model, pollution, seed, metric or gate constants changed."
+}

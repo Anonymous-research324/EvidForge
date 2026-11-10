@@ -1,0 +1,506 @@
+[
+  {
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "offset": -0.1,
+    "repair": {
+      "errors": 9804,
+      "normal": 4199,
+      "changes": 3919,
+      "exact": 3845,
+      "normal_damage": 2,
+      "P": 0.981117632048992,
+      "R": 0.3921868625051,
+      "F1": 0.5603730962617504,
+      "damage": 0.0004763038818766373
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "offset": -0.1,
+      "seconds": 238.21812765672803,
+      "qualified_original": true,
+      "rows": 737,
+      "target_cells": 14003,
+      "changed_literal_cells": 3919,
+      "permission_counters": {
+        "checks": 42009,
+        "newly_admitted": 492,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "offset": -0.05,
+    "repair": {
+      "errors": 9804,
+      "normal": 4199,
+      "changes": 3812,
+      "exact": 3754,
+      "normal_damage": 0,
+      "P": 0.9847848898216159,
+      "R": 0.3829049367605059,
+      "F1": 0.5514101057579318,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "offset": -0.05,
+      "seconds": 237.16759524587542,
+      "qualified_original": true,
+      "rows": 737,
+      "target_cells": 14003,
+      "changed_literal_cells": 3812,
+      "permission_counters": {
+        "checks": 42009,
+        "newly_admitted": 310,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "offset": 0.0,
+    "repair": {
+      "errors": 9804,
+      "normal": 4199,
+      "changes": 3644,
+      "exact": 3594,
+      "normal_damage": 0,
+      "P": 0.9862788144895719,
+      "R": 0.36658506731946144,
+      "F1": 0.5345032718619869,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "offset": 0.0,
+      "seconds": 245.64502601884305,
+      "qualified_original": true,
+      "rows": 737,
+      "target_cells": 14003,
+      "changed_literal_cells": 3644,
+      "permission_counters": {
+        "checks": 42009
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "offset": 0.05,
+    "repair": {
+      "errors": 9804,
+      "normal": 4199,
+      "changes": 3478,
+      "exact": 3439,
+      "normal_damage": 0,
+      "P": 0.988786658999425,
+      "R": 0.3507751937984496,
+      "F1": 0.5178436982382172,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "offset": 0.05,
+      "seconds": 235.19205275923014,
+      "qualified_original": true,
+      "rows": 737,
+      "target_cells": 14003,
+      "changed_literal_cells": 3478,
+      "permission_counters": {
+        "checks": 42009,
+        "newly_admitted": 0,
+        "newly_blocked": 638
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "offset": 0.1,
+    "repair": {
+      "errors": 9804,
+      "normal": 4199,
+      "changes": 784,
+      "exact": 748,
+      "normal_damage": 0,
+      "P": 0.9540816326530612,
+      "R": 0.0762953896368829,
+      "F1": 0.14129202871174912,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1013,
+      "offset": 0.1,
+      "seconds": 230.05380579642951,
+      "qualified_original": true,
+      "rows": 737,
+      "target_cells": 14003,
+      "changed_literal_cells": 784,
+      "permission_counters": {
+        "checks": 42009,
+        "newly_admitted": 0,
+        "newly_blocked": 9248
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "offset": -0.1,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 4167,
+      "exact": 4083,
+      "normal_damage": 6,
+      "P": 0.9798416126709864,
+      "R": 0.41808314560720866,
+      "F1": 0.5860905763295772,
+      "damage": 0.0014289116456299119
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "offset": -0.1,
+      "seconds": 225.43899638485163,
+      "qualified_original": true,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 4167,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 1327,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "offset": -0.05,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 4033,
+      "exact": 3960,
+      "normal_damage": 5,
+      "P": 0.9818993305231838,
+      "R": 0.405488429244317,
+      "F1": 0.5739546343937967,
+      "damage": 0.0011907597046915933
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "offset": -0.05,
+      "seconds": 223.29870549868792,
+      "qualified_original": true,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 4033,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 871,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "offset": 0.0,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3700,
+      "exact": 3671,
+      "normal_damage": 5,
+      "P": 0.9921621621621621,
+      "R": 0.37589596559492117,
+      "F1": 0.5452250111391653,
+      "damage": 0.0011907597046915933
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "offset": 0.0,
+      "seconds": 222.59417499788105,
+      "qualified_original": true,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 3700,
+      "permission_counters": {
+        "checks": 41895
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "offset": 0.05,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 2835,
+      "exact": 2827,
+      "normal_damage": 5,
+      "P": 0.9971781305114639,
+      "R": 0.2894736842105263,
+      "F1": 0.44869454805174186,
+      "damage": 0.0011907597046915933
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "offset": 0.05,
+      "seconds": 226.70763868186623,
+      "qualified_original": true,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 2835,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 0,
+        "newly_blocked": 3366
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "offset": 0.1,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 2392,
+      "exact": 2384,
+      "normal_damage": 5,
+      "P": 0.9966555183946488,
+      "R": 0.24411222609051814,
+      "F1": 0.39216976476394144,
+      "damage": 0.0011907597046915933
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1014,
+      "offset": 0.1,
+      "seconds": 222.1869353260845,
+      "qualified_original": true,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 2392,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 0,
+        "newly_blocked": 8749
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "offset": -0.1,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 4124,
+      "exact": 4031,
+      "normal_damage": 3,
+      "P": 0.9774490785645005,
+      "R": 0.4127585500716772,
+      "F1": 0.5804175665946724,
+      "damage": 0.0007144558228149559
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "offset": -0.1,
+      "seconds": 219.67306032124907,
+      "qualified_original": false,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 4124,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 704,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "offset": -0.05,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3938,
+      "exact": 3872,
+      "normal_damage": 1,
+      "P": 0.9832402234636871,
+      "R": 0.39647757526111,
+      "F1": 0.5650904845300643,
+      "damage": 0.00023815194093831864
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "offset": -0.05,
+      "seconds": 219.1524854414165,
+      "qualified_original": false,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 3938,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 334,
+        "newly_blocked": 0
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "offset": 0.0,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3734,
+      "exact": 3682,
+      "normal_damage": 0,
+      "P": 0.986073915372255,
+      "R": 0.377022322342822,
+      "F1": 0.5454814814814815,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "offset": 0.0,
+      "seconds": 212.68363881949335,
+      "qualified_original": false,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 3734,
+      "permission_counters": {
+        "checks": 41895
+      },
+      "zero_offset_original_A_byte_parity": true,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "offset": 0.05,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 3293,
+      "exact": 3268,
+      "normal_damage": 0,
+      "P": 0.9924081384755542,
+      "R": 0.3346303501945525,
+      "F1": 0.5004977410215177,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "offset": 0.05,
+      "seconds": 218.1183403255418,
+      "qualified_original": false,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 3293,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 0,
+        "newly_blocked": 665
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "offset": 0.1,
+    "repair": {
+      "errors": 9766,
+      "normal": 4199,
+      "changes": 0,
+      "exact": 0,
+      "normal_damage": 0,
+      "P": null,
+      "R": 0.0,
+      "F1": 0.0,
+      "damage": 0.0
+    },
+    "receipt": {
+      "dataset": "retinopathy",
+      "seed": 1015,
+      "offset": 0.1,
+      "seconds": 219.5139764212072,
+      "qualified_original": false,
+      "rows": 735,
+      "target_cells": 13965,
+      "changed_literal_cells": 0,
+      "permission_counters": {
+        "checks": 41895,
+        "newly_admitted": 0,
+        "newly_blocked": 4733
+      },
+      "zero_offset_original_A_byte_parity": null,
+      "new_model_calls": 0,
+      "formal_reference_read": false
+    }
+  }
+]

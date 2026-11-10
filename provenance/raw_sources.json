@@ -1,0 +1,66 @@
+{
+  "monks1": {
+    "sha256": "e501ada3b21d876ab86f3e1614747bd2edc443a685f229a25e480aa1dea629f6",
+    "kind": "raw"
+  },
+  "cmc": {
+    "sha256": "ad2a49da55df24b061a994ecc4d90c856aba35acd05138851aa251c4f06303c9",
+    "kind": "raw"
+  },
+  "bc_original": {
+    "sha256": "402c585309c399237740f635ef9919dc512cca12cbeb20de5e563a4593f22b64",
+    "kind": "raw"
+  },
+  "mammographic": {
+    "sha256": "072051c896fb14f8f25c64eed30ba1333290af41e6c9ffad4e1ca573daa865a8",
+    "kind": "raw"
+  },
+  "ilpd": {
+    "sha256": "84feac16488de5cf89bd22bd802c77f25841fe93e9ddd32355683e94d46c3425",
+    "kind": "raw"
+  },
+  "climate": {
+    "sha256": "8a892cbb056072e84749aed7409d6f17c7b4a1c899fc98ce52dc2af8b727ff9c",
+    "kind": "raw"
+  },
+  "voting": {
+    "sha256": "c87c14110a5ba91d4a1e313ec7392824458152bf071fa5f5452340488337936e",
+    "kind": "raw"
+  },
+  "qsar": {
+    "sha256": "c66ac1a23aba11fb166fd5054fea14ac97b8e4f7e4940ae679dc863d1cc4b3c9",
+    "kind": "raw"
+  },
+  "tic_tac_toe": {
+    "sha256": "c615fcd01bc23ab99daa36bbc30d897d53f7d3e151257880cada888c5451a586",
+    "kind": "zip"
+  },
+  "car_evaluation": {
+    "sha256": "1559d51dcf327f4f8c71b711ceed7fd95a382fc8d8e1998667f4f23b82860403",
+    "kind": "zip"
+  },
+  "retinopathy": {
+    "sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+    "kind": "zip"
+  },
+  "real_estate": {
+    "sha256": "aa437bdac3ca23200258a0a58d251c0af90651aeaf7c7a07aaa714f0f9f25e2c",
+    "kind": "zip"
+  },
+  "concrete": {
+    "sha256": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+    "kind": "zip"
+  },
+  "airfoil": {
+    "sha256": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+    "kind": "zip"
+  },
+  "balance_scale": {
+    "kind": "zip",
+    "sha256": "4f8ec31ea68c2f9e63f397b4c24cc1e345022b6886ab8f1bd69dd359b230125e"
+  },
+  "energy_efficiency": {
+    "kind": "zip",
+    "sha256": "499441eee27929a4b00417f58fd8c63c9cc14b8a71520cd0dd27fcb626738351"
+  }
+}

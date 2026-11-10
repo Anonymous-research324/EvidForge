@@ -1,0 +1,26 @@
+{
+  "raha": {
+    "url": "https://github.com/BigDaMa/raha.git",
+    "commit": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c"
+  },
+  "holoclean": {
+    "url": "https://github.com/HoloClean/holoclean.git",
+    "commit": "d4f5929a8e4d92d4f41eb058c04c96cdcb0af767"
+  },
+  "cdc": {
+    "url": "https://github.com/se-jaeger/conformal-data-cleaning.git",
+    "commit": "fd8a2126c9626099f3d45511fd05d30af8de6b64"
+  },
+  "conformal-inference": {
+    "url": "https://github.com/se-jaeger/conformal-inference.git",
+    "commit": "e25cb5938808360033201afc2ae567e5de3ad6c0"
+  },
+  "jenga": {
+    "url": "https://github.com/schelterlabs/jenga.git",
+    "commit": "297bc3dc4abc72e67c1702b70ae8b4940ffacc4b"
+  },
+  "tabclean": {
+    "url": "https://github.com/Wangyibo321/TabClean.git",
+    "commit": "ae292b6ff8118c8786cd7c97364e9a8a07f00b62"
+  }
+}

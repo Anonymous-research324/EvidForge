@@ -1,0 +1,28 @@
+{
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "new_seeds": [
+    1014,
+    1015
+  ],
+  "model_ports": {
+    "1014": 8071,
+    "1015": 8072
+  },
+  "model": "Qwen3.5-9B",
+  "dtype": "bfloat16",
+  "temperature": 0,
+  "corruption_rate": 0.7,
+  "predictor_seed_tracks_experiment_seed": true,
+  "study": "downstream_main",
+  "paper_scope": "Table IV; selected conditions in provenance/paper_scope.json",
+  "server_source": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_ThreeSeeds",
+  "source_protocol_relative_path": "protocol.json",
+  "source_protocol_sha256": "0165373658c04807a6c61cdf8ad337051ef986b711f88793bd798d78f5beab5a",
+  "configuration_role": "Derived publication-scope view. Full original research protocol remains in the author archive; scientific settings for retained cases are unchanged.",
+  "paper_case_specs": [],
+  "runtime_bindings": []
+}

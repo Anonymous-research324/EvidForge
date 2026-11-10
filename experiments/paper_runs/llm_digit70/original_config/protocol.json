@@ -1,0 +1,93 @@
+{
+  "study_id": "EvidForge_Digit70_LLM_Ablation_20261024",
+  "datasets": [
+    "retinopathy",
+    "airfoil"
+  ],
+  "seeds": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017
+  ],
+  "arms": [
+    "full",
+    "no_llm"
+  ],
+  "profile": "digit_exact_r0p70",
+  "max_real_calls": 100,
+  "max_calls_per_stage": 5,
+  "stages": [
+    "prior",
+    "context"
+  ],
+  "new_model": "same Qwen3.5-9B BF16 TP1 temperature0",
+  "partitions": "Keep seed1013 original public learning, validation and repair entity roles fixed for all5 new pollution/fitting seeds. No original holdout file read; no old holdout entity enters methods. New random corruptions on known source, not a new blind dataset.",
+  "input_generation": "Curator alone parses original public UCI archive and reconstructs features by original duplicate/entity grouping. No old formal reference or score parsed by curator. Target/ID/class separation checked. All old public role rows kept.",
+  "corruption": "Original single_digit_substitution operator unchanged. Restore original known clean feature values first; select70%eligible feature cells once without replacement; one digit replaced with a different digit in each selected value. No old pollution stacking or new DSL. Separate deterministic mask/mutation RNG per dataset/seed/zone. Integer quota rounding and actual changed/eligible counts recorded.",
+  "paired": "Same full source pre-native fit copied before any model call; noLLM zero calls and no compiled candidate; preserve deterministic rules/data.",
+  "method": "Original core124, seed binding/runtime metadata adapters only. LLM ranks existing candidates/accepts proposals; no new correct-value operators or relaxation.",
+  "diagnostic": "First preplanned pair teaching activation checks are reported without changing configuration or filtering cases; all10cases proceed and are reported even if no rule admitted.",
+  "formal": "Before once-only score all10outputs/learning/calls must close. Private reference read once percase. Preserve markers, no rescore.",
+  "metrics": {
+    "primary": "all_target_cells_exact_repair_F1",
+    "secondary": [
+      "recall",
+      "normal_damage_percent",
+      "net_new_correct",
+      "lost_correct",
+      "correct_candidate_and_forward_reachable_stratum_recall",
+      "candidate_absent_stratum_recall",
+      "source_rule_qualification"
+    ]
+  },
+  "strata": "Define prior to scoring from same frozen pre-native candidate evidence plus truth during scoring only. Reachable errors include every error with exact correct value in pool and forward gate; never restrict to LLMedited cells or baseline mistakes.",
+  "statistics": "5seeds equal mean±sampleSD ddof1; paired differences and perseed; retain all null/negative and nonqualification research priors; no significance claim merely from five seeds.",
+  "hardware": "User requested RTX4090 host. Two physical48GB cards1and4, one TP1 BF16 same9B service perlane. Logicallane0=Retinopathy physical1 port8181; lane1=Airfoil physical4 port8182. Samecase botharms samephysicalGPU.",
+  "selection_disclosure": "Both previously selected datasets and all5seed repeats fixed before new outcomes. Known source, same old entity roles, not newblind data. No posthoc seed/dataset dropping, no method/threshold tuning for positivity.",
+  "old_results": "All previous studies, paper and GitHub unchanged; include original six-table nulls in context. No picking best experiment as sole confirmation.",
+  "authorization": "User on2026-10-24 requests this new70%R/A experiment and design; explicitly clarified70%ofcells that can be corrupted. Prior autonomous design/code/run/interface recovery authorization persists.",
+  "candidate_capture": "Observation-only wrapper around original learning.execute.build; exact frame returned unchanged; save option values/forward flags without source truth. Same pool parity checked between arms before scoring.",
+  "expected_cases": 10,
+  "model_service_base_port": 8181,
+  "served_model_prefix": "evidforge-digit70",
+  "pollution_rate": 0.7,
+  "pollution_denominator": "All known nonempty target-feature cells independently in each learning,validation,repair zone. Identity,task labels,original unknowns and excluded holdout never eligible. Direct select round_half_up(.7*eligible_cells), no division by4.",
+  "comparison": {
+    "only_intended_factor_change": "New protocol tests70%single-digit pollution with fixed oldroles,seedlist,method,model,temp and percasebudget. User explicitly moved execution from old A100 to RTX4090; within-newstudy full/noLLM paired fairly on samehardware.",
+    "mask_caveat": "This is a newly drawn fixed70%mask, not promised nested within old low-rate masks. Botharms share exactly the same new input.",
+    "low_rate_sources": [
+      "/root/fsas/home/anonymous/projects/EvidForge_CandidateRanking_LLM_Ablation_20261023/reports/aggregate.json",
+      "/root/fsas/home/anonymous/projects/EvidForge_CandidateRanking_Expansion_20261023/reports/aggregate.json"
+    ],
+    "old70_history": "Earlier70%mixed-error studies exist; no exact R/A pure-single-digit five-seed full/noLLM configuration found in inspected records.",
+    "cross_rate_hardware_caveat": "Old approx7.5%results ran A100; this70%run uses RTX4090 by user instruction. Direct cross-rate difference cannot be attributed exclusively to corruptionrate because hardware changed. No crosshardware speedup claim."
+  },
+  "resource_wait_policy": {
+    "user_chose_other_server": true,
+    "do_not_touch_a100_queue": true,
+    "selected_physical_devices": [
+      "1",
+      "4"
+    ],
+    "check_real_worker_queue_and_compute_PID_before_launch": true,
+    "others_GPUs": [
+      "0",
+      "2",
+      "3",
+      "7"
+    ],
+    "other_free_GPUs5and6_not_used": true
+  },
+  "human_rate_clarification": "可以污染的格子的70%",
+  "execution_host": "epic-polaris-2939-74bd77d8b5-z22jj",
+  "ssh_host": "rtx4090",
+  "lane_devices": {
+    "0": "1",
+    "1": "4"
+  },
+  "publication_scope_projection": true,
+  "original_protocol_sha256": "2a3c8a115e91b4970e2110b9ee0cb25673f6aa9359812884cea70d7aa7c2cd5f",
+  "projection_note": "Case/dataset dispatch narrowed for the paper artifact; original full protocol is retained privately. No model, pollution, seed, metric or gate constants changed."
+}

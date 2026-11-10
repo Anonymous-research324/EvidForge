@@ -1,0 +1,1916 @@
+{
+  "format_version": 1,
+  "distribution": "Generator parameters and SHA-256 fingerprints only. No saved row values, evaluation answers, outputs, skills or model logs. Evaluation references are generated locally from official UCI sources.",
+  "generator_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+  "volatile_metadata_policy": "private/source_provenance.json is new download/cache metadata; its original hash is recorded but not required to match a historical timestamp or account path. All other declared scientific input bytes must match.",
+  "studies": {
+    "advisor_supplement": {
+      "case_ids": [
+        "main_concrete_s1013",
+        "main_concrete_s1014",
+        "main_concrete_s1015",
+        "robustness_concrete_s1013_r0p1_mixed",
+        "robustness_concrete_s1013_r0p3_mixed",
+        "robustness_concrete_s1013_r0p5_mixed",
+        "robustness_concrete_s1013_r0p3_blank",
+        "robustness_concrete_s1013_r0p3_digit",
+        "robustness_concrete_s1013_r0p3_scale",
+        "robustness_concrete_s1013_r0p3_affix",
+        "robustness_concrete_s1014_r0p1_mixed",
+        "robustness_concrete_s1014_r0p3_mixed",
+        "robustness_concrete_s1014_r0p5_mixed",
+        "robustness_concrete_s1014_r0p3_blank",
+        "robustness_concrete_s1014_r0p3_digit",
+        "robustness_concrete_s1014_r0p3_scale",
+        "robustness_concrete_s1014_r0p3_affix",
+        "robustness_concrete_s1015_r0p1_mixed",
+        "robustness_concrete_s1015_r0p3_mixed",
+        "robustness_concrete_s1015_r0p5_mixed",
+        "robustness_concrete_s1015_r0p3_blank",
+        "robustness_concrete_s1015_r0p3_digit",
+        "robustness_concrete_s1015_r0p3_scale",
+        "robustness_concrete_s1015_r0p3_affix"
+      ],
+      "cases": {
+        "main_concrete_s1013": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1013,
+            "suite": "main",
+            "rate": 0.7,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1013
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "4bb9a02103e0971f8171bf0b62486ba2f91c6915c21d2e48a21dba7e50afd80f",
+              "dataset_metadata.json": "ef19b8d8a28e4faa45c24f2e31186270e6ec85f5b4439d844b14c8687994716b",
+              "declaration.json": "d4f37df909546a9d95cb094e645dcdf53788f85bf8d0d45e5614b3f59a180f90",
+              "development_bundle.json": "697017be76f463e0b112693f4bc2a50c14ad463ea0941c462ae43025a694368e",
+              "learning_dirty.csv": "eda341dcb3b683ee01deeb556aaab0336929fbebfe948e9262805ccb6bcf49fe",
+              "learning_only.json": "a11334252292118f3d65923bbaaac753745eea247cd86ad43c33649ea0af6c96",
+              "repair_dirty.csv": "ef1fe2c8cc9f69d79dde41589f26dcc745d6056bb9e1715a15603bb07eed3f9b",
+              "validation_dirty.csv": "b9233471377a1c54855a6978ce26ac8018cb277559ecdf4f4abb845b9ce770df",
+              "validation_only.json": "43067178a417971a811fbea00768db274c65eca35c206348dd7583f6a46cd35c"
+            },
+            "private": {
+              "holdout_reference.csv": "834e78ef09989a06c64fc9540cb19c91e0c63af3f995cebea08bafdf1258cf4c",
+              "repair_reference.csv": "01607efb3ec55c72d9717cd6a0772f0fc46d0f100381ec69dd474ce41e698efd"
+            }
+          }
+        },
+        "main_concrete_s1014": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1014,
+            "suite": "main",
+            "rate": 0.7,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "d595bbae3546a001685733892b34bf863087415fcb96d97a2736a209bbbdbecc",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "c4c8247c3fcae217667a21d8c0f5174c4a146def0c15e01ac0d77b804071c692",
+              "learning_dirty.csv": "944b979d0a0a9260d07afbf21323ec74e82cfd150437582e127db28eb9e67a66",
+              "learning_only.json": "539f33f2c329000e882aa47e0bdb88316073b784203250520eee74cbf39d01df",
+              "repair_dirty.csv": "03188f5c234754c8109ade285fca656ef75748fcff8d3b35da042ac47e14e968",
+              "validation_dirty.csv": "afa72f8b274b87d638a250304ca96048da0b77eb0c997f8ac9e678e58eeff1a6",
+              "validation_only.json": "ffeda7a1eb1bdcb2f4319615ed9a06ceaef5d132f4355ae4798b92373870692b"
+            },
+            "private": {
+              "holdout_reference.csv": "8119ffb0c929cca2d399e1d8da5dbe2865d0744bce87df320ffdfaa0746292cc",
+              "repair_reference.csv": "76a91d8c21e635186da98e3bdbe507b4027a328282073664d2c4516c401e2bdf"
+            }
+          }
+        },
+        "main_concrete_s1015": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1015,
+            "suite": "main",
+            "rate": 0.7,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1015
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "a328cbe7502420b15b81f45c92a17f244c921ddbd0b5a1fe02d81bff537a59e7",
+              "dataset_metadata.json": "a5aebc6fc8a37815e5fba736a28986f4084345da4bbb4b91bb69a99d7a71f4ec",
+              "declaration.json": "c891b43cad81ee930e85520929e372b0e13ade7762905130ed6b538c36f301ac",
+              "development_bundle.json": "b05dcc924f8d9cb7a1449ebaeaf3787b75a5edf73b81f519afa660c9c59f7cab",
+              "learning_dirty.csv": "c61b8d0b5d3d695a29a0bb6417e7bc299e7c3a95c902d687f9777e673980978d",
+              "learning_only.json": "e17a9a173a1ef8202966c38bae19d755e9ecc7a120e6d7d2e1ce50ce0c216e17",
+              "repair_dirty.csv": "70bc873934a5e24f8ec05f8a481035cfc2ba5fde1dabee3aaa31d0a579b80de2",
+              "validation_dirty.csv": "7e57317f16c0b4b542f0825fcfb9599afd584bbada77cace9c50ae5f83d7a36e",
+              "validation_only.json": "374336a661119b15ecf7c4470ecb2c866d34a1aa3748e5f9883b83832b4b1e9e"
+            },
+            "private": {
+              "holdout_reference.csv": "c30d91c4356b5d41c1cd9ccb6206c4b4b9afceb07a19feae155146a156af4115",
+              "repair_reference.csv": "b8bd56707e8a67b9a09a24a1474c120ebdc2ea43d043e5158d31965893aea7a9"
+            }
+          }
+        },
+        "robustness_concrete_s1013_r0p1_mixed": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.1,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "78f8c23b18ceb4c1b00bdea38e162c24b15c261702f8c9403af779c2b7b6ea34",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "b2c2020a0e11d029c02922553e63df4b1ffcee101738be4e3a076c6ba47eb6d9",
+              "learning_dirty.csv": "f43109d6feb5f3e812ac6dcc54e1cfe1bb528d565f55d3e34d841071a3503d6f",
+              "learning_only.json": "9985bff83bab66c0046d892a9c2a5a13c5d26d9554e2e2604fcf863f444764d3",
+              "repair_dirty.csv": "a30442e313fed0c9a3aa4af727b3434535e950e149cd5a5ca6c6ad5e995e90f6",
+              "validation_dirty.csv": "6bc3f4f593dd10a908a69ef6f05edf15a965d3828341fb38b5dfa573cdb6ecdd",
+              "validation_only.json": "52a9c8698d9d9cc83e934fc1aec6fa4e82dd293d9882d6e92ad2f08b53f51492"
+            },
+            "private": {
+              "corruption_events.json": "6e9e348451ab3fdca63912d1140422a6bb5b38e4bf7beabf7046f86919224925",
+              "holdout_reference.csv": "834e78ef09989a06c64fc9540cb19c91e0c63af3f995cebea08bafdf1258cf4c",
+              "learning_reference.csv": "a82b2dadf2a3f6286f091c418ad035e0718d06873bb30d099e66f061d225594b",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "01607efb3ec55c72d9717cd6a0772f0fc46d0f100381ec69dd474ce41e698efd",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "048583f73dc79f8e0ae8f4ca183cd0b255280ef34e5dbb1e1699d08d334e47e6",
+              "validation_reference.csv": "a51f4281e02b99117790dd00506161b1bba7fed53bf0c81c1f3309aef9a49104"
+            }
+          }
+        },
+        "robustness_concrete_s1013_r0p3_mixed": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "a801966bd15329a17a5320fb1c303ce951316af21f568bb6d05a68d14bb31aea",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "bc595711978e6753f0dec20ccdcd0aba0b7a48d4cb212f876f60114e6f0a68f4",
+              "learning_dirty.csv": "9bc5e3c14bc0e9c3fdeb4e5ebb535e3c6939d8db7e961e60b2ac24ea78c80fae",
+              "learning_only.json": "f9c980c1a320fb674e7b260b0b5f3e5c7fd5318db22dde9ec58e2a2dba2f85d3",
+              "repair_dirty.csv": "b919924f5639bc6bade7d2541a6a0f505da3ae6d5fa976e4bef30cc2c6382154",
+              "validation_dirty.csv": "56981aefff2e835a5f2ff3279e77a953e1b9672f25170e331a6c2e4d83757225",
+              "validation_only.json": "4fea532af1038e9edfdd69de26525ed6b4aad2a1b01a74846b76332cec866ae8"
+            },
+            "private": {
+              "corruption_events.json": "2924a4b9671aa3e8f3b3fb91e2364edc2ebf711b6fe53340931380a24a2c7f49",
+              "holdout_reference.csv": "834e78ef09989a06c64fc9540cb19c91e0c63af3f995cebea08bafdf1258cf4c",
+              "learning_reference.csv": "a82b2dadf2a3f6286f091c418ad035e0718d06873bb30d099e66f061d225594b",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "01607efb3ec55c72d9717cd6a0772f0fc46d0f100381ec69dd474ce41e698efd",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "9ffc8a1a459010bc8270e3824031b603ca70ece52118ce6919e0edc1e39a2a00",
+              "validation_reference.csv": "a51f4281e02b99117790dd00506161b1bba7fed53bf0c81c1f3309aef9a49104"
+            }
+          }
+        },
+        "robustness_concrete_s1013_r0p5_mixed": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.5,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "22944cc7e125e23105ff10fd163583f4040f8e9b223d2815849fd158c1db352e",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "77d048234d4eaec646e76d5211f16f1376792cc0a63c9286f267a17239ab8624",
+              "learning_dirty.csv": "916eff4602000543d7f4873702ea3d61b743593ae47312e8729cc7dfe58ad938",
+              "learning_only.json": "36b1a39a79863e5e35a9e1f4fcf819e5618a97b5345f1f67eaa5dd735a9a463e",
+              "repair_dirty.csv": "27b501375a035f6672add0b1c42de11cdeb9f84f4bab26dd9f8a414882db131e",
+              "validation_dirty.csv": "d8e75dfed3a3f8cf947605f25b6f5b5adb4733318f053869d28a742026fc33ff",
+              "validation_only.json": "a9afd40e2325a3048998fd1b4dabefafe5245efd81504fc006463474b3fa1c1e"
+            },
+            "private": {
+              "corruption_events.json": "2382529be0b6dfab56d3a3d97ee10d4ef3ead6a072cf42ab64af6035fce34d3f",
+              "holdout_reference.csv": "834e78ef09989a06c64fc9540cb19c91e0c63af3f995cebea08bafdf1258cf4c",
+              "learning_reference.csv": "a82b2dadf2a3f6286f091c418ad035e0718d06873bb30d099e66f061d225594b",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "01607efb3ec55c72d9717cd6a0772f0fc46d0f100381ec69dd474ce41e698efd",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "81bb1cc0625526e5fed7e6520d8355dcc0c6fc181bd87ace948563b77af817b4",
+              "validation_reference.csv": "a51f4281e02b99117790dd00506161b1bba7fed53bf0c81c1f3309aef9a49104"
+            }
+          }
+        },
+        "robustness_concrete_s1013_r0p3_blank": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "blank",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "f89536470a9a1b3d03f71f0c79b267fa75c7f3344f71369976fef708a58aeb40",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "01e6c179d9a6277451f4ac8821578ff04bcad1fa103cabb0140f9e03951bcb2c",
+              "learning_dirty.csv": "ea7485de417e5be522f9e1df2c40107c960c1fd55109c457bce24d92e3179638",
+              "learning_only.json": "ae7ceb819950d14e2b06c5fdf66314c9ccc5c254efa68184fa5fe4504e78d577",
+              "repair_dirty.csv": "c76e5142ffa5e149d53152c27003b637d087bb3c706d8b84405adcdff01d343a",
+              "validation_dirty.csv": "e860521d343ebf750dc1b41d53fbd59198254a1af8290262dd878ee0a9fe5e67",
+              "validation_only.json": "c121b16d1c8abc1b33a3286c76a4e45ad663e32b8ce71ce80fe4cbb59f9b9740"
+            },
+            "private": {
+              "corruption_events.json": "32e1cf63dd41db8de6b7404baef02bfb6867bdda67dfd84fd851bd1e6103ab9b",
+              "holdout_reference.csv": "834e78ef09989a06c64fc9540cb19c91e0c63af3f995cebea08bafdf1258cf4c",
+              "learning_reference.csv": "a82b2dadf2a3f6286f091c418ad035e0718d06873bb30d099e66f061d225594b",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "01607efb3ec55c72d9717cd6a0772f0fc46d0f100381ec69dd474ce41e698efd",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "71c01b2f7bc1e55eb092aa8756afd5dd63da16c1e453e39c3ee504c1f235d684",
+              "validation_reference.csv": "a51f4281e02b99117790dd00506161b1bba7fed53bf0c81c1f3309aef9a49104"
+            }
+          }
+        },
+        "robustness_concrete_s1013_r0p3_digit": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "digit",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "1baf8e2155de853fe47d46157da81b8b2b69cbe58ce2a9aa3916d4c3eb2c6656",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "67a21d334b848c1bb35741c5d055650911ff18a0bf695b8eb25fd6a7dc87ce18",
+              "learning_dirty.csv": "cc6877dd4f985297b48e6c3d5553861af9345d8ae47ad3521b048e88e758def7",
+              "learning_only.json": "f91b3acff3ef7d5047f845797ed352f91d874ca9c2d98229bd37087c610073dd",
+              "repair_dirty.csv": "7d0282e77c77c96f3798774fd4f96ecc1570e143f291181c1868cd29ee0761f0",
+              "validation_dirty.csv": "cc543ef9b4a6776f8c7fcb31f0eae8aab2ecff8bb32ac8ee6e24439acc2ab68c",
+              "validation_only.json": "2851054ca88ecbeadfe7d14cfad38e0e97e2c48a2fc0097d7e226ee08959f6ce"
+            },
+            "private": {
+              "corruption_events.json": "8e58daecd043ac03242206955b3dcf9d4f5c69df3efade9ff6943f7a26849dc0",
+              "holdout_reference.csv": "834e78ef09989a06c64fc9540cb19c91e0c63af3f995cebea08bafdf1258cf4c",
+              "learning_reference.csv": "a82b2dadf2a3f6286f091c418ad035e0718d06873bb30d099e66f061d225594b",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "01607efb3ec55c72d9717cd6a0772f0fc46d0f100381ec69dd474ce41e698efd",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "7a7b01fc2a8ad2613ca0d76a6c13bd0230c02d5081ffe9eb9ff126177644ad7f",
+              "validation_reference.csv": "a51f4281e02b99117790dd00506161b1bba7fed53bf0c81c1f3309aef9a49104"
+            }
+          }
+        },
+        "robustness_concrete_s1013_r0p3_scale": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "scale",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "010bbcabbe9d9fa95797f45857e64b4c908ea047a181d2fd4daa9a6481754e19",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "3778e16a102501f4a26f9cdd3e7c2008092af0af2a553c9a982140023a642c7d",
+              "learning_dirty.csv": "cbd8a3900060bdb9865f8b1ace4050f47c4bf983953fcade0d23e81842085b2b",
+              "learning_only.json": "b6c2b8ccd41f731b4552ba4d859ae10f4a12efbb0cbf866e8a725b19e4c22483",
+              "repair_dirty.csv": "6f9aae93a111700b56ea2c30966a272211298132773ec961b0ad7d6640c0cca9",
+              "validation_dirty.csv": "ad0cd0e4a6772b50da53fd9c1a46328d9342ed656d231c25b1a7368792bab600",
+              "validation_only.json": "cd2e66cf6f6fc46e5e0a1abca19dce729a4d510d15617d8f80cdd9444d990b7d"
+            },
+            "private": {
+              "corruption_events.json": "ba1f1163b47883aa13fe09ef1603df3f4905524c060d92748e214afe892ef446",
+              "holdout_reference.csv": "834e78ef09989a06c64fc9540cb19c91e0c63af3f995cebea08bafdf1258cf4c",
+              "learning_reference.csv": "a82b2dadf2a3f6286f091c418ad035e0718d06873bb30d099e66f061d225594b",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "01607efb3ec55c72d9717cd6a0772f0fc46d0f100381ec69dd474ce41e698efd",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "6ed94382896a2df1808d1aaebbea4e32c97c321f7d55f8badf131a995d858547",
+              "validation_reference.csv": "a51f4281e02b99117790dd00506161b1bba7fed53bf0c81c1f3309aef9a49104"
+            }
+          }
+        },
+        "robustness_concrete_s1013_r0p3_affix": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "affix",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "dc7cd5cb56d6b79fe38da6807c417a43e02cf2ffb49458c9f2fcc152e0f0381e",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "c98e4e156defd2138f83115e3760c5ada63512b5fab36104e979437aebc02d35",
+              "learning_dirty.csv": "e87ea3d304c0e26365dd8c24e5f5d1f96b0b72bf138c9986cc388e6b06eab41f",
+              "learning_only.json": "87b9c7cf1af1447460d742155550f76740b8db084d4b6c8fec2df711d9b00b00",
+              "repair_dirty.csv": "1ef8d0d81144b6f0edfadd7adc3389efde0611e7430ad2ebbc6d24e6a7012130",
+              "validation_dirty.csv": "00ff81c37523a5299b16e8be78ceb5faaf48505f3b9826479b9faad13bbbbf4b",
+              "validation_only.json": "90e11ac898b387133a63ab844988a9cf29d2acae657dc8009d30c86c14fa2f0c"
+            },
+            "private": {
+              "corruption_events.json": "d08def17c4b61de3f3789050f3e78a0e0df7f7feae5733896a21e2514d7ccae1",
+              "holdout_reference.csv": "834e78ef09989a06c64fc9540cb19c91e0c63af3f995cebea08bafdf1258cf4c",
+              "learning_reference.csv": "a82b2dadf2a3f6286f091c418ad035e0718d06873bb30d099e66f061d225594b",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "01607efb3ec55c72d9717cd6a0772f0fc46d0f100381ec69dd474ce41e698efd",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "aa0a06ba6e5a92c7d4e34e0f103cb0c4d2560633a6a5dc3902c4791348ded0de",
+              "validation_reference.csv": "a51f4281e02b99117790dd00506161b1bba7fed53bf0c81c1f3309aef9a49104"
+            }
+          }
+        },
+        "robustness_concrete_s1014_r0p1_mixed": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.1,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "47eab777a6b771b8f5e2fe576cb3ce131a6d2e593ba0cd2cecb9aaeadb0562c4",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "c4425e5e2f772b27bf0424309a9b9f7ed88812b6e928aa664d60a68d4363a196",
+              "learning_dirty.csv": "d83acac9ae0134aa790d913fdae52bac7b1215bee76f4a599dcae982ba9a0dca",
+              "learning_only.json": "eadb10a3a6ea59254ad8fcbb4d832cca0bf830cb5c8a849024c6aaeab4564127",
+              "repair_dirty.csv": "1c5f83c9844d8f88eb6bcfdc3b3e389738a74ec7f1419e7d5701f9fefc75e7a7",
+              "validation_dirty.csv": "8b64d6010f9b90729aebd65188be3d9e6f805c838b570ed74a315344c8a345e1",
+              "validation_only.json": "c06dc8f25490ea6001d66dd79e41faf4feefef6cdddc62ca7fcb49851b3985d9"
+            },
+            "private": {
+              "corruption_events.json": "5917b059b35e55da82c20e40854c5705c8d5dfc5ce93ec3afb5ca6fe4ee0c4f2",
+              "holdout_reference.csv": "8119ffb0c929cca2d399e1d8da5dbe2865d0744bce87df320ffdfaa0746292cc",
+              "learning_reference.csv": "3687464da6db0faf750db4e102d68217d4172e6c0cdd6d91d05d78e307266a46",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "76a91d8c21e635186da98e3bdbe507b4027a328282073664d2c4516c401e2bdf",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "0c92f0526d40ef5cb05795756829c470cde8db080d148982680af466d4365792",
+              "validation_reference.csv": "dfdf71837fa1cfde2541304f67109e885fad673a5200924dfc1affb2c3e642ef"
+            }
+          }
+        },
+        "robustness_concrete_s1014_r0p3_mixed": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "7b67e92a0ac71e41b4b8c2fda75233ecfd07d88cb29355d232eef128e1acf0bf",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "992ee2b666262d114f6d6ecfb8e72ed0b3d3d788b863d48b9d4a5038c9c73b89",
+              "learning_dirty.csv": "bb1c05801c27aa11d8adfa29e4c2c6f3cbb3fa2a52f57c0d36c192b5e1c501da",
+              "learning_only.json": "db21db2e0c2a484c1baa5b34ce415c0610b1becae16e6c49232a0977fedfe7dd",
+              "repair_dirty.csv": "87f7d0b543de828f8d54c84d90d65b6d541aeb669ea8c59036d22d3b7f88332a",
+              "validation_dirty.csv": "a0c13491a59f34271bf9c0dfd3671d7a5a7973f32b324897291330161e2d9f82",
+              "validation_only.json": "2fb22dcee10ec1cf5aaafcf1ef4ca5ee54ff5e4ba9c23d17154f65ed9589bcc9"
+            },
+            "private": {
+              "corruption_events.json": "264512647981751088a58a19ab29d82fe7e8f298095605621ab00442430507b0",
+              "holdout_reference.csv": "8119ffb0c929cca2d399e1d8da5dbe2865d0744bce87df320ffdfaa0746292cc",
+              "learning_reference.csv": "3687464da6db0faf750db4e102d68217d4172e6c0cdd6d91d05d78e307266a46",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "76a91d8c21e635186da98e3bdbe507b4027a328282073664d2c4516c401e2bdf",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "1a81ec112bafba0847e9bdae17e641a07c28e3d8a1374622285019956f90be72",
+              "validation_reference.csv": "dfdf71837fa1cfde2541304f67109e885fad673a5200924dfc1affb2c3e642ef"
+            }
+          }
+        },
+        "robustness_concrete_s1014_r0p5_mixed": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.5,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "2413844f58563f044ebe99e36a7fb2238b204b7c195d0e9cd0c17226239cb8b9",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "6dd557a269d5a8c0a635ac29e99d392e406e37864b1f6288cf9174ecfe8e6aa7",
+              "learning_dirty.csv": "54f17d57dac9422d635af6b4888debfe771117b1d70e9056fa9d851d56b7cc2d",
+              "learning_only.json": "fa44d99c9a41cd84092402ace9cd301ac4ea9c9310a522716e57a1ccaa657a14",
+              "repair_dirty.csv": "f13c952278c05e4adb050975e4159ddcbf987f18f62eb1be704031d0ac5e02a8",
+              "validation_dirty.csv": "52a2a289bc406f489ea65ce42556304fa0c734b5c19901b689bac2171e5d3237",
+              "validation_only.json": "fd515528c1c48368614a19ca1fcc5c92fb78b5a6a1530d8d096f717c2630c4f9"
+            },
+            "private": {
+              "corruption_events.json": "ff74731c865488ec0492a726d7093419fbdb1fca1c7698e988b32392fdfcbe8a",
+              "holdout_reference.csv": "8119ffb0c929cca2d399e1d8da5dbe2865d0744bce87df320ffdfaa0746292cc",
+              "learning_reference.csv": "3687464da6db0faf750db4e102d68217d4172e6c0cdd6d91d05d78e307266a46",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "76a91d8c21e635186da98e3bdbe507b4027a328282073664d2c4516c401e2bdf",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "64d0c3e1cb8c7d838aaca5c83d26ed9e0b203a51a5deb691bdf71539c4ac815a",
+              "validation_reference.csv": "dfdf71837fa1cfde2541304f67109e885fad673a5200924dfc1affb2c3e642ef"
+            }
+          }
+        },
+        "robustness_concrete_s1014_r0p3_blank": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "blank",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "ce7e11bfa738e282b5d6adaf64b04f9507b4dfb0013e00898cbd0ceae0ad58e9",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "d2ac7ff8738533ac7148ef03f1c83045771fbb893a5745177fcef995050afe91",
+              "learning_dirty.csv": "0344a514b5788a7aaf927bdb6fb5ac3c2a13719599b40a5425e5e06c40f3c3cf",
+              "learning_only.json": "23f9221fcbe0f0b9ca91deb99865deeedde7e54725bd377fad93791f841d8e24",
+              "repair_dirty.csv": "6f0e862f6f6c3ac447b7d538d89db788975f2b9a3bd2f29d9a9ad5786f436207",
+              "validation_dirty.csv": "efb27fa3be0fdd68d169f5b1ff3f6312d6bd6dfdae3f9b4a0b13f395308917fa",
+              "validation_only.json": "40aa10cfc5c446d06e91b64278eeb9fed976a28126b737e4bf283a52d07f20b8"
+            },
+            "private": {
+              "corruption_events.json": "31a68406f7b170977c30e70018caa7e2e6fcb38b51a4ab27d22f003a72ccd935",
+              "holdout_reference.csv": "8119ffb0c929cca2d399e1d8da5dbe2865d0744bce87df320ffdfaa0746292cc",
+              "learning_reference.csv": "3687464da6db0faf750db4e102d68217d4172e6c0cdd6d91d05d78e307266a46",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "76a91d8c21e635186da98e3bdbe507b4027a328282073664d2c4516c401e2bdf",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "86e853ee2993e5960930d754f1c5c220dc247e26c245a677e4abaf3d0475be65",
+              "validation_reference.csv": "dfdf71837fa1cfde2541304f67109e885fad673a5200924dfc1affb2c3e642ef"
+            }
+          }
+        },
+        "robustness_concrete_s1014_r0p3_digit": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "digit",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "1b69debc1f565fdb58fd1a6fc77caab92c47b7b2c134f6991da2071654d64ce8",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "765504cee0984ed8d74eb43597a059f4841a426f2eb61a687b554cbc4b0165a8",
+              "learning_dirty.csv": "c1c39898afe06ca92bd1a900802468b8b3a89d753739f70c3bf091ab1133fd8f",
+              "learning_only.json": "4f6f2b63c0f1e156b2b55a2aba2ff47b179ce08a06712e33422cf607eeba6816",
+              "repair_dirty.csv": "f5037eba6972bbe5ba25023172ac26f75f1bd198980f8c671f4477bc27cc682f",
+              "validation_dirty.csv": "4539fe7e48f5d8ef4e83e521cac2ef96b61c0963f2aa3ffa45f785666ba55b5c",
+              "validation_only.json": "a5339f7a9b7ba262621571e280feb62c8421afc15c3e0e125723579e0e8e90d4"
+            },
+            "private": {
+              "corruption_events.json": "eed15695c73eeaddede1bb0981bf7838fe2b14b030cb71927b9bf1223ec352b7",
+              "holdout_reference.csv": "8119ffb0c929cca2d399e1d8da5dbe2865d0744bce87df320ffdfaa0746292cc",
+              "learning_reference.csv": "3687464da6db0faf750db4e102d68217d4172e6c0cdd6d91d05d78e307266a46",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "76a91d8c21e635186da98e3bdbe507b4027a328282073664d2c4516c401e2bdf",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "b8715199fb8ea8c70c09e8f524e3d64a36053029130bd73e16ab739adbce960d",
+              "validation_reference.csv": "dfdf71837fa1cfde2541304f67109e885fad673a5200924dfc1affb2c3e642ef"
+            }
+          }
+        },
+        "robustness_concrete_s1014_r0p3_scale": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "scale",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "1c0d922dfffeff91ad39a7026fc7f9d96554f64173292a13686ffb54ef87bd94",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "ad04d569b28aa8047a403c7c76360d274869ad90a6ba5c7ada91401801596fc8",
+              "learning_dirty.csv": "c9c43d89a2bf8d1163be1db4c639c06a7fa7f914203b6bc362cfec9c31afe7c7",
+              "learning_only.json": "31562c2f696ceb33208a736eeb75e1c9dd53507b8a3a6128bc3f85a0a7246971",
+              "repair_dirty.csv": "75b1a3ab16b8716595c053660df2b4b5e69e24a6c0132efb00d3b7d2623c5b16",
+              "validation_dirty.csv": "186f23d5e8b5591f3d3cc805d8305be0de52acd8eefe5e4227cd19f6ebee62c5",
+              "validation_only.json": "165b1ed69806cf8eab3d1b29528ef18ec08add4944260c22de4726c19892d173"
+            },
+            "private": {
+              "corruption_events.json": "023abd6f46faa685b2e2b5306a3e8301a20e9ab721fbc6bc59b53e80709f0da3",
+              "holdout_reference.csv": "8119ffb0c929cca2d399e1d8da5dbe2865d0744bce87df320ffdfaa0746292cc",
+              "learning_reference.csv": "3687464da6db0faf750db4e102d68217d4172e6c0cdd6d91d05d78e307266a46",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "76a91d8c21e635186da98e3bdbe507b4027a328282073664d2c4516c401e2bdf",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "45d4c7d5cd743f67aa07243a13e064766101d54bb988e9077972f14fa135a5aa",
+              "validation_reference.csv": "dfdf71837fa1cfde2541304f67109e885fad673a5200924dfc1affb2c3e642ef"
+            }
+          }
+        },
+        "robustness_concrete_s1014_r0p3_affix": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "affix",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "c0a5c76fe9c3ab22c41513afcd4e614af1236f5ea2c1a2a18d1e6d1258c2c867",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "c8261572df326f02f2cf99ed623697564cf369d23af7f8341a8972d06cbc2f99",
+              "learning_dirty.csv": "71733054f0c1ab6f4b0273335a8e01d8fe5642afb0e8d8ab5e3f5d5555a2d24b",
+              "learning_only.json": "9a73bf3d242001e66571a2ea493935750223f3213e992e95eb30f954457cb6d1",
+              "repair_dirty.csv": "3895442ec34e4984240af9d0efdb08f7844a8e6726f4a22af01ecd520570d2ff",
+              "validation_dirty.csv": "79913fd9152261aec4d3b359e6d2aceac1e958b2c524982c2f72181d802db1a6",
+              "validation_only.json": "0cec33da3bfa9c1cee696f7e4877834c2917f3613bd01227c8f373b7aa1ef83a"
+            },
+            "private": {
+              "corruption_events.json": "46e5097706655d939eb42f2f7a2272b58cdf3432ecdc774e5482cf172680bd5b",
+              "holdout_reference.csv": "8119ffb0c929cca2d399e1d8da5dbe2865d0744bce87df320ffdfaa0746292cc",
+              "learning_reference.csv": "3687464da6db0faf750db4e102d68217d4172e6c0cdd6d91d05d78e307266a46",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "76a91d8c21e635186da98e3bdbe507b4027a328282073664d2c4516c401e2bdf",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "1a8adb7c2e44456c10600c68148f47cf64bf897ed1f270f6921ec2c3a9e134e8",
+              "validation_reference.csv": "dfdf71837fa1cfde2541304f67109e885fad673a5200924dfc1affb2c3e642ef"
+            }
+          }
+        },
+        "robustness_concrete_s1015_r0p1_mixed": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.1,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "c6226d49d0a02523bb6898b5b4d8a50b1f82c1d33cb41bf878a7425a1ddf064c",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "a4328abdaec24659560469e622c8af9fa1908ebf83843cee1b09a9c6b1fbf425",
+              "learning_dirty.csv": "aa39bbb017c8929275c78ac83935a478bbe28c38bdb902e1f13da04720c0e1f3",
+              "learning_only.json": "83040002f31405d2f7eb55c1b8b17c1e50eecf80ddcde40cb2b6339dc704fe63",
+              "repair_dirty.csv": "358a9eb3f3b22e84bdcd1793006155fc0e132b91398e4b34e07169393c37ca54",
+              "validation_dirty.csv": "af7e3ca0d542b2d5d45c48b7318096bfb89fe3862d468c9eceed87c7c0b33003",
+              "validation_only.json": "84a6db4f4cdfd6c4ffb6b1961954bfc0bb28d2349d51f92e33bb7e86ee2c7833"
+            },
+            "private": {
+              "corruption_events.json": "f801e9fd1a0e65645a619cb1bfd9ffef600289aff4515c12a2ac4a309bc3fcf7",
+              "holdout_reference.csv": "c30d91c4356b5d41c1cd9ccb6206c4b4b9afceb07a19feae155146a156af4115",
+              "learning_reference.csv": "312a2ff9e274c402299fae30962f64cdd9478e8b64db6875a467fa19f281b605",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "b8bd56707e8a67b9a09a24a1474c120ebdc2ea43d043e5158d31965893aea7a9",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "ac6e04762a271b46e1995449b6cf736f929b8267f3b761280623823d71ea3874",
+              "validation_reference.csv": "71295dff9bd12688a89513e3b3bacfb40b8d92e0964238427f9be4907a46e448"
+            }
+          }
+        },
+        "robustness_concrete_s1015_r0p3_mixed": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "b8aa88c7fce87a7d6bdc6b876e5f204dc339f4f9e4980cf5d2f9dc3c12fa96ab",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "eb84d05f902db59ca3a20393522de775fb14d41ced37f9f93a523c13980c690b",
+              "learning_dirty.csv": "b6243474b4f5b58f11f36a833a8a190ea13fb3fa9150a91566bd3ae72378c556",
+              "learning_only.json": "219294b9a2d944f97895e99c73e5ba0ef7e2bb1b207d16b792b76479973f759f",
+              "repair_dirty.csv": "e28fa268f8ed4ae7af9103faf764af710e7de39735ee49fdbbe378e90369ca42",
+              "validation_dirty.csv": "5b078d5da1b34edaac1733be42b8c5c183ea5b43ea5b9b3c64110b4cce13e42b",
+              "validation_only.json": "f035e77601149e265d9aac3b2ef9a21290f78bd84d6f966a4c6dc0d0dae9ce79"
+            },
+            "private": {
+              "corruption_events.json": "27f50f501f802502ecf7027072d806c394b31302422600801828c8865635ce90",
+              "holdout_reference.csv": "c30d91c4356b5d41c1cd9ccb6206c4b4b9afceb07a19feae155146a156af4115",
+              "learning_reference.csv": "312a2ff9e274c402299fae30962f64cdd9478e8b64db6875a467fa19f281b605",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "b8bd56707e8a67b9a09a24a1474c120ebdc2ea43d043e5158d31965893aea7a9",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "dc423d36a6a2ccb3b7e5e10f147a374fe58056bd1f25397c861261c14156383d",
+              "validation_reference.csv": "71295dff9bd12688a89513e3b3bacfb40b8d92e0964238427f9be4907a46e448"
+            }
+          }
+        },
+        "robustness_concrete_s1015_r0p5_mixed": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.5,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "eb20d96734edd3b928e5ae9b44914008f863be917c9ee0de7154c8f842c40c52",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "2d6ab5053c1c46a0da8fdb40cba6051fc51d813d72620806a7f895e21c5afcb5",
+              "learning_dirty.csv": "b788e1cd89c59189da09199366e562fbca1a8abaf0d4af386430f1874b5cad5b",
+              "learning_only.json": "731b1a948d4602a4f4396945b44566a0ccf5758e4abb59ef9c76e9255a0c02d8",
+              "repair_dirty.csv": "03fd74dae841e8c0327c2d28eed026f5af6d9472619b5a83db5c149d383682d7",
+              "validation_dirty.csv": "e6ef849effcd5531d280a1764797f7b428c4d0884dd7323b436a40f12b652d17",
+              "validation_only.json": "9aa762dc1e0fe7a9c54de532b9a85a77bec46cdd5229bb923fbdafc6f69b4eb1"
+            },
+            "private": {
+              "corruption_events.json": "e3ffb53ced193a8bf2a4c0f29cc9eec4039479396e792b0f9fdbc51c87bf1809",
+              "holdout_reference.csv": "c30d91c4356b5d41c1cd9ccb6206c4b4b9afceb07a19feae155146a156af4115",
+              "learning_reference.csv": "312a2ff9e274c402299fae30962f64cdd9478e8b64db6875a467fa19f281b605",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "b8bd56707e8a67b9a09a24a1474c120ebdc2ea43d043e5158d31965893aea7a9",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "7f2e2d1e9fee6bc4ed90109c73ff27581e146736074d252283d35321bd73e45e",
+              "validation_reference.csv": "71295dff9bd12688a89513e3b3bacfb40b8d92e0964238427f9be4907a46e448"
+            }
+          }
+        },
+        "robustness_concrete_s1015_r0p3_blank": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "blank",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "d6a9601ad1f0aa47b43d607ea825bc9cca5542416504ff376b66988b1467c704",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "72bc496f6c3a9ad9797b91d50bd369eb6c461df7b12748bc3716956597ce660c",
+              "learning_dirty.csv": "90d9a183da2c32e277018ac0eb4f02872734c5ef9d49923d3e6c417b327a4a6b",
+              "learning_only.json": "2c3e7f6e9ee130d5d9f53cf1c36244b6a449cc2afbc649d55c8eb4a57121b459",
+              "repair_dirty.csv": "75911d174b6ea2eb3bbbb56c89f3414e27ff4859a0b4274d6b1a83f6a8bd66d8",
+              "validation_dirty.csv": "1a7afec40220fb7bc74e44f256ece90a0e31b1cbb1209a9dc341973c381d601d",
+              "validation_only.json": "a24f3bbeac266669895c549ba7b9cd27db9b86cfc868fd7ebacd9ed998d9e832"
+            },
+            "private": {
+              "corruption_events.json": "646eb0fa21cbbd8a4577837969e66264157e3357601e8d82e4715fdc5b0ce109",
+              "holdout_reference.csv": "c30d91c4356b5d41c1cd9ccb6206c4b4b9afceb07a19feae155146a156af4115",
+              "learning_reference.csv": "312a2ff9e274c402299fae30962f64cdd9478e8b64db6875a467fa19f281b605",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "b8bd56707e8a67b9a09a24a1474c120ebdc2ea43d043e5158d31965893aea7a9",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "85b04b76f88342150ac9bc8dc64644ffb379029f4676fd6f0c20b6a219f7adcd",
+              "validation_reference.csv": "71295dff9bd12688a89513e3b3bacfb40b8d92e0964238427f9be4907a46e448"
+            }
+          }
+        },
+        "robustness_concrete_s1015_r0p3_digit": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "digit",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "8e8867261a6be40aa1eecc2ceec77f568cf820bbf4327995d3f9eeedba685c56",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "94a8a88639913ad4e8430426b535f388a5864084b4c9f68e19824dd9b6f8ed74",
+              "learning_dirty.csv": "54b3fd768abe0ae5e92401cbf80d52aeb3794ace2cc00eeab00fbe3370f7adf2",
+              "learning_only.json": "642398e447a78ef5e514aa29b5b7859dce71116d37b169c0bf1f09a1aaec27ff",
+              "repair_dirty.csv": "6c59de6c517965ebac3b0a5c3fd6919a09d6effa586c30d1197d7207ea0d3e7d",
+              "validation_dirty.csv": "5ca959de55134101ca9dde9a6c9f360f2a0458c3aefd0bf67ad432408431b91b",
+              "validation_only.json": "7d9490ab86da6a50d8d7ac0c45ea73e2200707e4e643a98db5a771f7944c21ab"
+            },
+            "private": {
+              "corruption_events.json": "8dfa45dd2b539c1eaa7a335f7914155650bdea22f1ef0f944f8b435d2164e03a",
+              "holdout_reference.csv": "c30d91c4356b5d41c1cd9ccb6206c4b4b9afceb07a19feae155146a156af4115",
+              "learning_reference.csv": "312a2ff9e274c402299fae30962f64cdd9478e8b64db6875a467fa19f281b605",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "b8bd56707e8a67b9a09a24a1474c120ebdc2ea43d043e5158d31965893aea7a9",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "cd9ddce09e3d1658cc07ef0742e09157b628e985c20252676565f451d953d458",
+              "validation_reference.csv": "71295dff9bd12688a89513e3b3bacfb40b8d92e0964238427f9be4907a46e448"
+            }
+          }
+        },
+        "robustness_concrete_s1015_r0p3_scale": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "scale",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "576dd47975883208681b22a193fc6a4b117431f807e8dcd90ce8a4f83081a158",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "c6354d426179e6046937fdf01e03dea8e7101d9ababa29de50699df7bd69c948",
+              "learning_dirty.csv": "82379cd27f03e176b8a9b3071d1ce92e64f79e645372dfebef09d0ee35f3eb96",
+              "learning_only.json": "a258b93085f95669efe9b0211b7d8d19f6d7a9e86fe2c578ccc03a1a5ceccfc6",
+              "repair_dirty.csv": "ee6cd0cb2ad932e3e9a47e4ae24b27c5ae594046258b9b6122abc0f135ba5b8b",
+              "validation_dirty.csv": "0c56c4609fce07dfb86eab46639a02a5bc099443b9675e6514ad0ca9d0c82bab",
+              "validation_only.json": "365281fc26b8d92ed04f164008a9ccff2d6d594505f40bc299a7373da570ecf9"
+            },
+            "private": {
+              "corruption_events.json": "afa5af5a035d8d18f631ff450e4771e123a7d83df437be461e06b51c377c3929",
+              "holdout_reference.csv": "c30d91c4356b5d41c1cd9ccb6206c4b4b9afceb07a19feae155146a156af4115",
+              "learning_reference.csv": "312a2ff9e274c402299fae30962f64cdd9478e8b64db6875a467fa19f281b605",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "b8bd56707e8a67b9a09a24a1474c120ebdc2ea43d043e5158d31965893aea7a9",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "4ed3361fbde73d70238954fc1d97df8066844ec7ee374a8de9048029d843d6f0",
+              "validation_reference.csv": "71295dff9bd12688a89513e3b3bacfb40b8d92e0964238427f9be4907a46e448"
+            }
+          }
+        },
+        "robustness_concrete_s1015_r0p3_affix": {
+          "parameters": {
+            "dataset": "concrete",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "affix",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "eee7d22a8d9f20d997ac28312a4e31d3df7efbb4a42b9433bb151dddec9955aa",
+              "dataset_metadata.json": "a73de3a6d93b01cd28fd881dc0d7f7f8cca99a1d0d6a217f99faaeb0bba3db9c",
+              "declaration.json": "296874cfc36198ee1fa824cf0ee8fda85f9052fe5fe941bb0aa9ca7e96f50f8b",
+              "development_bundle.json": "ef98446b93777da40e42ef00c56e93594afeef79a23ac0c81f1f941bd163347e",
+              "learning_dirty.csv": "cbdcfb3412f88feb739d3b375ef4509951f00e08cc313fc7ce243c01d87c75ac",
+              "learning_only.json": "272421aae5bce005c36e10d01d898a1e73430658dcdafa7e1d012797970fa709",
+              "repair_dirty.csv": "f7ba95049340200a543b06e30930bf99efafc5a1d9b5666a4de6a4266b6bd197",
+              "validation_dirty.csv": "a01fdf1da0875321e9dc1616ba50f4e506bd4d2100765ce31c867ab21c653934",
+              "validation_only.json": "a1a00c327ac8fb842aef2a10f6233cb3d4534c1ba840c466e85941b0991c8be4"
+            },
+            "private": {
+              "corruption_events.json": "dcd39363b4c1baf32814b580ee4f55f4560557d58d0826c468b74170b8737a4b",
+              "holdout_reference.csv": "c30d91c4356b5d41c1cd9ccb6206c4b4b9afceb07a19feae155146a156af4115",
+              "learning_reference.csv": "312a2ff9e274c402299fae30962f64cdd9478e8b64db6875a467fa19f281b605",
+              "original_source_split.json": "c6ac231ce5a4608d4df0b978a48754f141c781f3e57095cdaba8d4f502e9f192",
+              "repair_reference.csv": "b8bd56707e8a67b9a09a24a1474c120ebdc2ea43d043e5158d31965893aea7a9",
+              "source.zip": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+              "source_provenance.json": "91fd35ba062e52bef4cb0583c01c1886bdd9b9dce922ca77d821cf8f5ba30e32",
+              "validation_reference.csv": "71295dff9bd12688a89513e3b3bacfb40b8d92e0964238427f9be4907a46e448"
+            }
+          }
+        }
+      }
+    },
+    "robustness_retinopathy": {
+      "case_ids": [
+        "robustness_retinopathy_s1013_r0p1_mixed",
+        "robustness_retinopathy_s1013_r0p3_mixed",
+        "robustness_retinopathy_s1013_r0p5_mixed",
+        "robustness_retinopathy_s1013_r0p7_mixed",
+        "robustness_retinopathy_s1013_r0p3_blank",
+        "robustness_retinopathy_s1013_r0p3_digit",
+        "robustness_retinopathy_s1013_r0p3_scale",
+        "robustness_retinopathy_s1013_r0p3_affix",
+        "robustness_retinopathy_s1014_r0p1_mixed",
+        "robustness_retinopathy_s1014_r0p3_mixed",
+        "robustness_retinopathy_s1014_r0p5_mixed",
+        "robustness_retinopathy_s1014_r0p7_mixed",
+        "robustness_retinopathy_s1014_r0p3_blank",
+        "robustness_retinopathy_s1014_r0p3_digit",
+        "robustness_retinopathy_s1014_r0p3_scale",
+        "robustness_retinopathy_s1014_r0p3_affix",
+        "robustness_retinopathy_s1015_r0p1_mixed",
+        "robustness_retinopathy_s1015_r0p3_mixed",
+        "robustness_retinopathy_s1015_r0p5_mixed",
+        "robustness_retinopathy_s1015_r0p7_mixed",
+        "robustness_retinopathy_s1015_r0p3_blank",
+        "robustness_retinopathy_s1015_r0p3_digit",
+        "robustness_retinopathy_s1015_r0p3_scale",
+        "robustness_retinopathy_s1015_r0p3_affix"
+      ],
+      "cases": {
+        "robustness_retinopathy_s1013_r0p1_mixed": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.1,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1013
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "59a99dfb9d148eac55f5a3dcabd49fbe3eacce2d81c5b1df45d45cf0c8098aa1",
+              "dataset_metadata.json": "c6467f9ceed7f02f32e7ce5be9c96886101613da6cb7c6a6176c4fe3941f9abb",
+              "declaration.json": "a3c967ebf69fbd2bb653fbc47eebcbc9fa28e704fc5f20eec8f09dff78522ec0",
+              "development_bundle.json": "ce7afb81f3b011117c23aac9bfb6ccffde3844d1c3bd3f2b3386d6e64d20c140",
+              "learning_dirty.csv": "f6d2e70466b37b8018ace6aa1d9e317989e77cf09174af7bc6dc38a924f8110a",
+              "learning_only.json": "cc1d30b5cdeaa380419286a74d2a310b867e39504cb2ae959614e2d8504e28a7",
+              "repair_dirty.csv": "dae6c9fd4f8053013e876a78db280eae31529f6ff5a106df93bb1c16de323e83",
+              "validation_dirty.csv": "1aa1bb1522dc16719b80130769b5418b702b572d9897c23bc7cdb03259aee022",
+              "validation_only.json": "37a61767c48a221554f2c0467f9ab4716d539ca12f77aa9f9ab96187c2ac2879"
+            },
+            "private": {
+              "corruption_events.json": "ed5fea240cd3c5867ac1a84f45b14400b2332ed6628b51256151e93316959d8f",
+              "holdout_reference.csv": "1906a7aa27076ac1f5b24434097d3d2e47e6356540b42124da1489c254fc5f88",
+              "learning_reference.csv": "fe52945c3edd2f8b03432c2277c2729334c3ec15e304f0c53e209aaec184c0b9",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "e0948201dca25b0c9b053fe13188941eb57ecc101623905fd0e8eab1a51a1a28",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "d1ba8b91d92fdbce0d603969fbbdc12e8ccdcc889511b0dbee3d346565dbf560",
+              "validation_reference.csv": "c303e0760ad71906357e953119ea1dd1b13ce598f8b35d846e661faea3ea6a5b"
+            }
+          }
+        },
+        "robustness_retinopathy_s1013_r0p3_mixed": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1013
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "59a99dfb9d148eac55f5a3dcabd49fbe3eacce2d81c5b1df45d45cf0c8098aa1",
+              "dataset_metadata.json": "c5a2024a50f88eaafe3fc0cd7593d34722e429924853fa6126c0bde09a047708",
+              "declaration.json": "a3c967ebf69fbd2bb653fbc47eebcbc9fa28e704fc5f20eec8f09dff78522ec0",
+              "development_bundle.json": "642b29d3d5640925f5bef6d8ef37009b92758fd4b3f557cea2d821410d562409",
+              "learning_dirty.csv": "9e01c1c401d0267f9e102fc26ec273cfcccb9ff7393b067b40a52200639f2bb6",
+              "learning_only.json": "3cea487cb6a587e23bfa34f91287001ae2039ef2e36f2c9e76aa36c2543c2342",
+              "repair_dirty.csv": "df105b7040625ddae64c11ad4340933777b2834a9c1cb166cb6fdf6bb50776a5",
+              "validation_dirty.csv": "e647c6c259f5f21e915670403fcf376c0b34f51313e04be3428e944ea5f1a97f",
+              "validation_only.json": "a603aab79763a9d675e2384e74e6ec493cea81d897ef1ddf137a8bad303491fa"
+            },
+            "private": {
+              "corruption_events.json": "1c1ce35b0fb112f823dc1e3e13dfe8e4b666c508815da5b663cd49f3dd598051",
+              "holdout_reference.csv": "1906a7aa27076ac1f5b24434097d3d2e47e6356540b42124da1489c254fc5f88",
+              "learning_reference.csv": "fe52945c3edd2f8b03432c2277c2729334c3ec15e304f0c53e209aaec184c0b9",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "e0948201dca25b0c9b053fe13188941eb57ecc101623905fd0e8eab1a51a1a28",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "2741a767bde768bf1c7d4c1839bbae91bdc8deeeb1bb4901b27c1f1740d148ba",
+              "validation_reference.csv": "c303e0760ad71906357e953119ea1dd1b13ce598f8b35d846e661faea3ea6a5b"
+            }
+          }
+        },
+        "robustness_retinopathy_s1013_r0p5_mixed": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.5,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1013
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "59a99dfb9d148eac55f5a3dcabd49fbe3eacce2d81c5b1df45d45cf0c8098aa1",
+              "dataset_metadata.json": "89a79b678435b64123cf121e5abeaf5959f5a01fe1e78a664d154e9da8bd01b4",
+              "declaration.json": "a3c967ebf69fbd2bb653fbc47eebcbc9fa28e704fc5f20eec8f09dff78522ec0",
+              "development_bundle.json": "aa82bef2161958eb14d738520cd0677910a15426996a89ae9cce8a6f22db7bee",
+              "learning_dirty.csv": "60e22d5ac072535b2ae8c485598cb0fc417ce2348af41afd11ae2ea6acbb9ff7",
+              "learning_only.json": "2118208b29b8c84e01ebce1d691cb02922214f447b5ab7e58571d64317afe9cb",
+              "repair_dirty.csv": "9d231b73940e78de79be12653c9609ffc0ab5b1b951d61e037e0db33a6755443",
+              "validation_dirty.csv": "d40ff3f1c95a6ccad0dda8c3489e2f264ae516cf748c0d7a44c880891e25f79b",
+              "validation_only.json": "a923340c08509db533936ef0478acb0e0edd1d0af127d1f7b09b6affddc2eeaf"
+            },
+            "private": {
+              "corruption_events.json": "4f140d048bb1c4e06409722d880ff46f8d0b912cd799949cfc5a4b53a745666d",
+              "holdout_reference.csv": "1906a7aa27076ac1f5b24434097d3d2e47e6356540b42124da1489c254fc5f88",
+              "learning_reference.csv": "fe52945c3edd2f8b03432c2277c2729334c3ec15e304f0c53e209aaec184c0b9",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "e0948201dca25b0c9b053fe13188941eb57ecc101623905fd0e8eab1a51a1a28",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "70e0ea74b22c2b23887996b18124f20991a4e746e2b7b42d893646adc461e4d2",
+              "validation_reference.csv": "c303e0760ad71906357e953119ea1dd1b13ce598f8b35d846e661faea3ea6a5b"
+            }
+          }
+        },
+        "robustness_retinopathy_s1013_r0p7_mixed": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.7,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1013
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "59a99dfb9d148eac55f5a3dcabd49fbe3eacce2d81c5b1df45d45cf0c8098aa1",
+              "dataset_metadata.json": "b6e58ee102cc378be8e6283b564a36206f429404743e9640712014ae73c8c242",
+              "declaration.json": "a3c967ebf69fbd2bb653fbc47eebcbc9fa28e704fc5f20eec8f09dff78522ec0",
+              "development_bundle.json": "5367c6eafd014cb2d7c8642c47736a6a0efc5693bd87082594672e93fc80c33e",
+              "learning_dirty.csv": "d3e58d88250d60be8a08385afa7032cb22fdca0f3129170be4c3adc8d5533afc",
+              "learning_only.json": "81d585d99818ffd0aba8b0bff3c7621361a908ed6b02bec7273b33e20bc723b4",
+              "repair_dirty.csv": "33e9237a3f558210c3612a9afb867969b4eb51c49e89a64a78554fbf5aae2bc3",
+              "validation_dirty.csv": "5305afed39133541d0d4e5c7474cff9b3482d3fbfc7a916bf82a8e13485f265a",
+              "validation_only.json": "7656fea8248e7fac22076786b8e0c69338e3e32d5cb13f2f9f67cc0eee97491c"
+            },
+            "private": {
+              "corruption_events.json": "161f0234b7bb7b1377af3a0b2680ff9f91ab8ff5000d7ce0878a9819ff04d24b",
+              "holdout_reference.csv": "1906a7aa27076ac1f5b24434097d3d2e47e6356540b42124da1489c254fc5f88",
+              "learning_reference.csv": "fe52945c3edd2f8b03432c2277c2729334c3ec15e304f0c53e209aaec184c0b9",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "e0948201dca25b0c9b053fe13188941eb57ecc101623905fd0e8eab1a51a1a28",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "b85ac671e5c01d358e211baaa08ca0b41cbbf3a500f30d4c9e12db1ca4572491",
+              "validation_reference.csv": "c303e0760ad71906357e953119ea1dd1b13ce598f8b35d846e661faea3ea6a5b"
+            }
+          }
+        },
+        "robustness_retinopathy_s1013_r0p3_blank": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "blank",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1013
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "59a99dfb9d148eac55f5a3dcabd49fbe3eacce2d81c5b1df45d45cf0c8098aa1",
+              "dataset_metadata.json": "5d8eb0a67bc821c4966a97f8cdbf9ce0fcb040bc6a625cb355dce73dc3a316fa",
+              "declaration.json": "a3c967ebf69fbd2bb653fbc47eebcbc9fa28e704fc5f20eec8f09dff78522ec0",
+              "development_bundle.json": "686ffef61f7e83a7d323e6f135e8948eb40a11547b28a9a41ee122c17eaaff84",
+              "learning_dirty.csv": "5e09306118382f3448150aaea8b31d4d8a7d4ff8ce5ed02a3c63f1e404f88bba",
+              "learning_only.json": "d17c88f2297f83648a3a038834d6f44a3431aee2bbdeddc755c52a24a970bed0",
+              "repair_dirty.csv": "d6497ef7821c03e9f4a9cc4081c5293576aba8fbdf47366497813cad6143f340",
+              "validation_dirty.csv": "269b4624aacc73cefd5fdea21141f6096ca00c4ebb778605a171873a6063cc3f",
+              "validation_only.json": "67b10d74e37b5d4e1bdc2c65d7d58e2070cab94e4cae27795298a86df3c629ca"
+            },
+            "private": {
+              "corruption_events.json": "bee4020d48bf92ef8635c1b136d7e5628eb0fc6fef05b942f3c899772145a366",
+              "holdout_reference.csv": "1906a7aa27076ac1f5b24434097d3d2e47e6356540b42124da1489c254fc5f88",
+              "learning_reference.csv": "fe52945c3edd2f8b03432c2277c2729334c3ec15e304f0c53e209aaec184c0b9",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "e0948201dca25b0c9b053fe13188941eb57ecc101623905fd0e8eab1a51a1a28",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "fc449558b99dffe846bc1a9b0b03293d38d890323dbcdf733ed6ea7dcfcf1b8b",
+              "validation_reference.csv": "c303e0760ad71906357e953119ea1dd1b13ce598f8b35d846e661faea3ea6a5b"
+            }
+          }
+        },
+        "robustness_retinopathy_s1013_r0p3_digit": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "digit",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1013
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "59a99dfb9d148eac55f5a3dcabd49fbe3eacce2d81c5b1df45d45cf0c8098aa1",
+              "dataset_metadata.json": "84458cd29bdc9b09786bc78a340dfbf82ffced153eaa0803e193eaf0d6fa51a4",
+              "declaration.json": "a3c967ebf69fbd2bb653fbc47eebcbc9fa28e704fc5f20eec8f09dff78522ec0",
+              "development_bundle.json": "cb1baedbb20a9ddcacdcc2e7178c8a412a075aef41dd38b2d8cc6aaa8f7c7466",
+              "learning_dirty.csv": "652347e20e79de0f9258e55d75ba72167716978b73726345cb9a910557876fa3",
+              "learning_only.json": "895162d40c3b7a68547f8c5e5ead25fa1653859c334b99c44e480e2d548ef21c",
+              "repair_dirty.csv": "5bd46503c5203185dc05095d7c2681a51970d2d71ea3b37e50d93b70ce225424",
+              "validation_dirty.csv": "d8b27fd243fb0dd4924dfc96d05795f70da4b3953fa126c915c4f4c5e43edc0e",
+              "validation_only.json": "ddc8e3f1d683a41667c73eb4d7c5829e24639f459d9770d644566d674397c2bc"
+            },
+            "private": {
+              "corruption_events.json": "cd5fd7d1e78240201dd1f6cf7f7acbe3e3ca2f3fc3c4c6689e86edaa51665769",
+              "holdout_reference.csv": "1906a7aa27076ac1f5b24434097d3d2e47e6356540b42124da1489c254fc5f88",
+              "learning_reference.csv": "fe52945c3edd2f8b03432c2277c2729334c3ec15e304f0c53e209aaec184c0b9",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "e0948201dca25b0c9b053fe13188941eb57ecc101623905fd0e8eab1a51a1a28",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "105bc857bbcbc864a0083529d7ad1c96942effeb1b1d3f222041b47e21a69a1a",
+              "validation_reference.csv": "c303e0760ad71906357e953119ea1dd1b13ce598f8b35d846e661faea3ea6a5b"
+            }
+          }
+        },
+        "robustness_retinopathy_s1013_r0p3_scale": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "scale",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1013
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "59a99dfb9d148eac55f5a3dcabd49fbe3eacce2d81c5b1df45d45cf0c8098aa1",
+              "dataset_metadata.json": "e2d933a00e437b2351b10b0e61dc0ae741167b9e4881139ea670656d90db413a",
+              "declaration.json": "a3c967ebf69fbd2bb653fbc47eebcbc9fa28e704fc5f20eec8f09dff78522ec0",
+              "development_bundle.json": "45f05f310aaaddaafc61371a5c19f6ef5d81a946530a21a0953197777165741a",
+              "learning_dirty.csv": "3d5ccb358676199f8dfba4efb91f5dbc8dc9ffe43c5d7833f3e20c78efdd71c8",
+              "learning_only.json": "fb9d9cac2b349cfce959db4b20a4320cd1b741d25690d92511296a7476c06017",
+              "repair_dirty.csv": "96e31834a76df45c3e09da794a2aebbf8120239d69a1dd602bd6d3980a7dfb5c",
+              "validation_dirty.csv": "a9949182be35938afbe7e6c1ccc79af778271f8ee4a24435da9feebe21dbf085",
+              "validation_only.json": "9dbaf87b2c86dc6c7315ace78884f3fa9bd55b9cec3ff6cd9266af54ac25a5e6"
+            },
+            "private": {
+              "corruption_events.json": "a053ad7242730c238e3c66b5abfced6952a9591527f78cdb3f81f3ad896ea58a",
+              "holdout_reference.csv": "1906a7aa27076ac1f5b24434097d3d2e47e6356540b42124da1489c254fc5f88",
+              "learning_reference.csv": "fe52945c3edd2f8b03432c2277c2729334c3ec15e304f0c53e209aaec184c0b9",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "e0948201dca25b0c9b053fe13188941eb57ecc101623905fd0e8eab1a51a1a28",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "e19e9b765b5dffbddf479181ba80b445f775ff5c9c52e1956c096e32895566a4",
+              "validation_reference.csv": "c303e0760ad71906357e953119ea1dd1b13ce598f8b35d846e661faea3ea6a5b"
+            }
+          }
+        },
+        "robustness_retinopathy_s1013_r0p3_affix": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1013,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "affix",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1013
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "59a99dfb9d148eac55f5a3dcabd49fbe3eacce2d81c5b1df45d45cf0c8098aa1",
+              "dataset_metadata.json": "83fd41c87da98e5fc281e96e55cb0466da3fd02ed91da176254d5f567bdea1fe",
+              "declaration.json": "a3c967ebf69fbd2bb653fbc47eebcbc9fa28e704fc5f20eec8f09dff78522ec0",
+              "development_bundle.json": "30f15773965acd72791b6f3c25c1506ea488ac98555f515475e338de58e26b44",
+              "learning_dirty.csv": "5d2681ecd3b680da20310e9038d88a9ee32d6c25bc0ab27dd21a6e23f61a9fd8",
+              "learning_only.json": "19f7c1292557f3978a1cd06db287f0c116013f62520dedb7a5b1ecf67d71519b",
+              "repair_dirty.csv": "bc80450588e4fbc41b954911693be48043e6fb32ecde07ae4d54a4d916af063b",
+              "validation_dirty.csv": "a9f496eb2ec5a4ea1dea5fcbfdff35379f2ca8ac632349a77b13d2a43f754474",
+              "validation_only.json": "e8a0b4c3e2680a817a19d2352cb1e7320a66d94655097ee2749e73ae4263aff4"
+            },
+            "private": {
+              "corruption_events.json": "e68483b4c48db0f8d73db27de6f2912d776c665de65cd6de9da0bb9cbebea4dd",
+              "holdout_reference.csv": "1906a7aa27076ac1f5b24434097d3d2e47e6356540b42124da1489c254fc5f88",
+              "learning_reference.csv": "fe52945c3edd2f8b03432c2277c2729334c3ec15e304f0c53e209aaec184c0b9",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "e0948201dca25b0c9b053fe13188941eb57ecc101623905fd0e8eab1a51a1a28",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "e57abc75befa8b731816d46771a8f33ebe804edbc680d08e283359cce27f32ff",
+              "validation_reference.csv": "c303e0760ad71906357e953119ea1dd1b13ce598f8b35d846e661faea3ea6a5b"
+            }
+          }
+        },
+        "robustness_retinopathy_s1014_r0p1_mixed": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.1,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "fc91a7a60d893dc7a7cf052d3605135aed469368d41e0e736814b4f8b0c16b68",
+              "dataset_metadata.json": "69bdc07fa8956005c0e6119bd48c20722dd619b4fc14d84cf54fc531b449960f",
+              "declaration.json": "bc80eb31ff16b29017afb1121a3ce41b125147a7c80b972cc6f82bedd5e25878",
+              "development_bundle.json": "00917a5a2604b2d91ea481e61e97d5dd7ce5c3a31c3c5e5c75a38a54434a6515",
+              "learning_dirty.csv": "0d6c64ca420550ef3d6016ce40e084b187b626db95479a45dca08339809a07a9",
+              "learning_only.json": "96491f4adbf0682098c7909d92a16de0fc49fd6b8681aaeb1c26f18351407f3e",
+              "repair_dirty.csv": "aa2bb369b914b8de53eb7530d0a94b003900bf36bffc819e1a43fc68876ae255",
+              "validation_dirty.csv": "2e6f71bea812a7982723c468f4d628ba91a6dde7b45ddc64d84a14747112c533",
+              "validation_only.json": "faf8f595307e51bac9a135424db56a2210d8cec6636eebce0dd6ce4b576c5ff1"
+            },
+            "private": {
+              "corruption_events.json": "1a07736069a6505fb35f24c66e7a436985aa3e83ddd7bb73aa591afaa41e30a2",
+              "holdout_reference.csv": "2744be6031f37aa590869b0cd5f18af8f3e89e30f822b63a08e612b8efff1860",
+              "learning_reference.csv": "b29becaeac28fa75a22f583cd3fd23f4d89be48bb6d10cb3a990db19cff7ada1",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "0a64619381ca582c010b6214627ea716049e3a196d1bc866c72e2f84a0620034",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "b7c3391f35d0ab0e2a97686cccfed38df8fb98dd4b56a8b571c5d3ee918676fc",
+              "validation_reference.csv": "eb110d4d227be41591d3cf965bb814b4fab152ee3af14837ef26c0e70ea19177"
+            }
+          }
+        },
+        "robustness_retinopathy_s1014_r0p3_mixed": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "fc91a7a60d893dc7a7cf052d3605135aed469368d41e0e736814b4f8b0c16b68",
+              "dataset_metadata.json": "a2cb28e14372c6374ef0255e696d9c17160d6083ec36694c38af18dd66f34113",
+              "declaration.json": "bc80eb31ff16b29017afb1121a3ce41b125147a7c80b972cc6f82bedd5e25878",
+              "development_bundle.json": "5a0bc141ed04a4a7ee3777cd3a0a24680b2b6641f8997c47fd40fe1db0aa0b03",
+              "learning_dirty.csv": "37fca16ae4ea3ba2afe7292b8cfc81d03b1787a28dc7baedf01b61848021f398",
+              "learning_only.json": "1b470f0b5ae3b974e56ba68c013078b3b3336034ef7067c85ec5da1c38b0f236",
+              "repair_dirty.csv": "ea2cce2656ca07d14c27738f5697aea582387264b4dd90f8f5d9909d2148d8e2",
+              "validation_dirty.csv": "ecbea2d0cfe387db49289b1b0df0db96ca295cd168ba6db981da0f3792d28b5e",
+              "validation_only.json": "c107c28c9115a40023a0d090655bc21025e97c293a5be0402c0011de9bbe0e81"
+            },
+            "private": {
+              "corruption_events.json": "08e2e53188c6870c43d4485d8cbf16ab4b94267f2ac24965c291a716a04cc657",
+              "holdout_reference.csv": "2744be6031f37aa590869b0cd5f18af8f3e89e30f822b63a08e612b8efff1860",
+              "learning_reference.csv": "b29becaeac28fa75a22f583cd3fd23f4d89be48bb6d10cb3a990db19cff7ada1",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "0a64619381ca582c010b6214627ea716049e3a196d1bc866c72e2f84a0620034",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "f316121729b6da1f24ceb19af5634cdc59fe639a873ba819d58727ba8c1e04ec",
+              "validation_reference.csv": "eb110d4d227be41591d3cf965bb814b4fab152ee3af14837ef26c0e70ea19177"
+            }
+          }
+        },
+        "robustness_retinopathy_s1014_r0p5_mixed": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.5,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "fc91a7a60d893dc7a7cf052d3605135aed469368d41e0e736814b4f8b0c16b68",
+              "dataset_metadata.json": "696f7acc0f0844d861d0b740297e8327fa3e326e7f1af4ca4d9066993e417bca",
+              "declaration.json": "bc80eb31ff16b29017afb1121a3ce41b125147a7c80b972cc6f82bedd5e25878",
+              "development_bundle.json": "48e3c602e5713b87d0a95eb574debd0ee766442946f6314efed7b838ac22d249",
+              "learning_dirty.csv": "b38b4735bde7cd1782b9efd216f1898267f4f99b61b328db58d4d4d1468c33db",
+              "learning_only.json": "e148222ed96499e4138fe3b3467e99de4a388d62133b21226976f614bb192080",
+              "repair_dirty.csv": "ced616a694d0da0bd3e757d607eb833c6a2c968819f7029ae2e1c769b1a25c7a",
+              "validation_dirty.csv": "bf4ac58bfb3c8d740d15fd0f3640324c03d7ee104a4300947988e5174ea565ea",
+              "validation_only.json": "5f683ae5122f5b08b61631bfec1079b925a30b222ffa4092ad03c4d0a7a9af1c"
+            },
+            "private": {
+              "corruption_events.json": "2f8dd0e3c946d42cd38a0ca213eb80d84fdc43d2de834c7defed98cb7aca43ab",
+              "holdout_reference.csv": "2744be6031f37aa590869b0cd5f18af8f3e89e30f822b63a08e612b8efff1860",
+              "learning_reference.csv": "b29becaeac28fa75a22f583cd3fd23f4d89be48bb6d10cb3a990db19cff7ada1",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "0a64619381ca582c010b6214627ea716049e3a196d1bc866c72e2f84a0620034",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "fcc95be73ae3c397ec4b211f35b92abb7e0215a24e06503710fa69dbdbccff3d",
+              "validation_reference.csv": "eb110d4d227be41591d3cf965bb814b4fab152ee3af14837ef26c0e70ea19177"
+            }
+          }
+        },
+        "robustness_retinopathy_s1014_r0p7_mixed": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.7,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "fc91a7a60d893dc7a7cf052d3605135aed469368d41e0e736814b4f8b0c16b68",
+              "dataset_metadata.json": "bea3721340b7344533e25f9109d6163a1bffe66f74a4ce6db84ef713c5c1e6fd",
+              "declaration.json": "bc80eb31ff16b29017afb1121a3ce41b125147a7c80b972cc6f82bedd5e25878",
+              "development_bundle.json": "e743cbe72c5e62888fd4666f6a5cde987a6558cbfe9654c79ed847cbf76ddc5f",
+              "learning_dirty.csv": "a3e8f2bf418a1ebb9e987321d3cfe49a794b481b2a5d76f4f68d7eb617c6fdf3",
+              "learning_only.json": "0da112d86759c7f6e8311c212d2d55daa12f49ef01ef151ab23f911f8f6acf82",
+              "repair_dirty.csv": "7ffdcea73a1cabeed922a8fc286b0300352ad4184a5db75d941245ddd49541d0",
+              "validation_dirty.csv": "9c91481a409614c27f5db04b00592543478d9551eb883040534a6a3c4ea2f354",
+              "validation_only.json": "aa5f7523c82e7d756c3348ceabaa543a94bc9aa2ee51fb842c1b77f58c50fe55"
+            },
+            "private": {
+              "corruption_events.json": "9d5364bd0a7dfb484f7e0828649206285ea3deaf6d60d85c133a2a52241f5847",
+              "holdout_reference.csv": "2744be6031f37aa590869b0cd5f18af8f3e89e30f822b63a08e612b8efff1860",
+              "learning_reference.csv": "b29becaeac28fa75a22f583cd3fd23f4d89be48bb6d10cb3a990db19cff7ada1",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "0a64619381ca582c010b6214627ea716049e3a196d1bc866c72e2f84a0620034",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "d7f405d29077124d21516a9de1a153093bd7443b6f895578f75276dceaeca56c",
+              "validation_reference.csv": "eb110d4d227be41591d3cf965bb814b4fab152ee3af14837ef26c0e70ea19177"
+            }
+          }
+        },
+        "robustness_retinopathy_s1014_r0p3_blank": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "blank",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "fc91a7a60d893dc7a7cf052d3605135aed469368d41e0e736814b4f8b0c16b68",
+              "dataset_metadata.json": "a02c7ed803727ff3cf217aafd6d2e7537eb53500bc5be0319a3698f636b5a9d1",
+              "declaration.json": "bc80eb31ff16b29017afb1121a3ce41b125147a7c80b972cc6f82bedd5e25878",
+              "development_bundle.json": "abe57842d018752acb862b2a1ff1e8c13ccea85ac1a1b9630c185c473086f872",
+              "learning_dirty.csv": "0b9367908e1bc4289c993a1b7ae7ffdd2484b3c6be853792186edc1ddd896a96",
+              "learning_only.json": "0d9a8358cb7107e4315ea7e05969ff5acd0c8f29d99c06f52dc873523d30554a",
+              "repair_dirty.csv": "73b2c885648dfca383d860a52c64a00a7c023c8ee1ddba4fc5160c5b08437619",
+              "validation_dirty.csv": "3aebd14c9aa15424bd25262bf8770d470ee331c86b39a6b67c119565c6df437a",
+              "validation_only.json": "d3f628edd18d6f824178fb21dd5eff763bad67e4509ab49b87ec32564f5c5690"
+            },
+            "private": {
+              "corruption_events.json": "c206614bc30ef9da2b28f6a79af4b1049bafc0f6bba97058065454cce28c7a7b",
+              "holdout_reference.csv": "2744be6031f37aa590869b0cd5f18af8f3e89e30f822b63a08e612b8efff1860",
+              "learning_reference.csv": "b29becaeac28fa75a22f583cd3fd23f4d89be48bb6d10cb3a990db19cff7ada1",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "0a64619381ca582c010b6214627ea716049e3a196d1bc866c72e2f84a0620034",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "9292b7c9e6191dbd3cd4b8ed6323ed86b18d0c7ed644dcc29ecf4be3a51c5a2f",
+              "validation_reference.csv": "eb110d4d227be41591d3cf965bb814b4fab152ee3af14837ef26c0e70ea19177"
+            }
+          }
+        },
+        "robustness_retinopathy_s1014_r0p3_digit": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "digit",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "fc91a7a60d893dc7a7cf052d3605135aed469368d41e0e736814b4f8b0c16b68",
+              "dataset_metadata.json": "73e28b8f898a4481c6a740bd183bf6a1ef53ab47ad416577e4e96cad85f61360",
+              "declaration.json": "bc80eb31ff16b29017afb1121a3ce41b125147a7c80b972cc6f82bedd5e25878",
+              "development_bundle.json": "e8239582be5cb1440d6f0e53e83f0dfb7862abc82687d29c1054cd32a8d98c31",
+              "learning_dirty.csv": "01e7f5e66c868c3e7c8dbc3a4afbf14f4eef2490767a30f08db08f58f97245bb",
+              "learning_only.json": "5771b9245040e8320aeb862f41263dd08ce8b0377f08663a33d5639946ee181f",
+              "repair_dirty.csv": "c0663522595ed6d2cd04dac276c3c6453503b0f1265141ccabb2dab765799d56",
+              "validation_dirty.csv": "b259ebbb320646704a07d3ac7e2cd377202ac8f7b6733f931a767113443c3ada",
+              "validation_only.json": "86cbf49c28003926d4d1ee656a27471ff6d1dc5504a5c1a56a31ca3f35930283"
+            },
+            "private": {
+              "corruption_events.json": "a3444a2d1082b75a31acb21209cea480e3144eac4297c65160a24db26a4974b1",
+              "holdout_reference.csv": "2744be6031f37aa590869b0cd5f18af8f3e89e30f822b63a08e612b8efff1860",
+              "learning_reference.csv": "b29becaeac28fa75a22f583cd3fd23f4d89be48bb6d10cb3a990db19cff7ada1",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "0a64619381ca582c010b6214627ea716049e3a196d1bc866c72e2f84a0620034",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "dd47846a08aee2ceceace348596c6bafdbe35e5bdeb7557e27411d7326291ead",
+              "validation_reference.csv": "eb110d4d227be41591d3cf965bb814b4fab152ee3af14837ef26c0e70ea19177"
+            }
+          }
+        },
+        "robustness_retinopathy_s1014_r0p3_scale": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "scale",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "fc91a7a60d893dc7a7cf052d3605135aed469368d41e0e736814b4f8b0c16b68",
+              "dataset_metadata.json": "c632a68be8bc7ef8a411dc441ab8a420c5c919cb2861915ec77d51bf2eec1b8c",
+              "declaration.json": "bc80eb31ff16b29017afb1121a3ce41b125147a7c80b972cc6f82bedd5e25878",
+              "development_bundle.json": "4cbf4e09bc1871a6437a1f7c949e3cd48d19f12afe269a1df34934d1c538cdbb",
+              "learning_dirty.csv": "c62ba6f729152cde962cf5f742c1c7774696e00936a2e0ba73d7c87c5f04dfdc",
+              "learning_only.json": "150150029837dc4b345f8949d51adf1c714a82c99461d019f1625396ea467f23",
+              "repair_dirty.csv": "e5bec0712bc3af1437a7ea8a3d4753cdf82619a81a65590a1b20d57106ada777",
+              "validation_dirty.csv": "0f556b54288cad13e63d1248b5ffbca1365390d040c19f29fbfec6398a51da30",
+              "validation_only.json": "2830aac26e2e21734b69bff5f51f9c89ac2747ab8ad42ac079ce71c08f47f059"
+            },
+            "private": {
+              "corruption_events.json": "a40935ec312c33453da9b91557bed8937a1dbd68d1772de4170ab4d642136a5c",
+              "holdout_reference.csv": "2744be6031f37aa590869b0cd5f18af8f3e89e30f822b63a08e612b8efff1860",
+              "learning_reference.csv": "b29becaeac28fa75a22f583cd3fd23f4d89be48bb6d10cb3a990db19cff7ada1",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "0a64619381ca582c010b6214627ea716049e3a196d1bc866c72e2f84a0620034",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "9da4e4615f742161b7e290806e9122c27dffa411be7599e063ebe00c96884aea",
+              "validation_reference.csv": "eb110d4d227be41591d3cf965bb814b4fab152ee3af14837ef26c0e70ea19177"
+            }
+          }
+        },
+        "robustness_retinopathy_s1014_r0p3_affix": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1014,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "affix",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1014
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "fc91a7a60d893dc7a7cf052d3605135aed469368d41e0e736814b4f8b0c16b68",
+              "dataset_metadata.json": "9ff625ae8fc8e18c910e56f5acac4a0b0e403c93a82084967532ab23c065e21b",
+              "declaration.json": "bc80eb31ff16b29017afb1121a3ce41b125147a7c80b972cc6f82bedd5e25878",
+              "development_bundle.json": "4fa1de78cdd8d3a925fadf5ae1010753b3a6b531cf6e67f46a12c3c73cb8dc75",
+              "learning_dirty.csv": "64a12874e8fb93dbe2f037071596f92c6ced9a9152a408ad2f83727e81d68585",
+              "learning_only.json": "fc0b6f43d840c0775a038c1bf30cf2f3ae12e037c3a3e884f62eb9ccd878db24",
+              "repair_dirty.csv": "5a771c766c6330c743dbb135340f36829038cc31ad6383161b4a7bec5facab63",
+              "validation_dirty.csv": "3cf1a42a7f5eedb76072db4336f908606cc7537b90eb3a9600e00a8fceadbb3e",
+              "validation_only.json": "a1bfb9a5a6a9a3f78aa33657fec59082aadef82aefcf11b62838f3de1750a895"
+            },
+            "private": {
+              "corruption_events.json": "f3044d8b2dc32bc336844630438a2c7eb404a00a09eff705b08e9091439730ce",
+              "holdout_reference.csv": "2744be6031f37aa590869b0cd5f18af8f3e89e30f822b63a08e612b8efff1860",
+              "learning_reference.csv": "b29becaeac28fa75a22f583cd3fd23f4d89be48bb6d10cb3a990db19cff7ada1",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "0a64619381ca582c010b6214627ea716049e3a196d1bc866c72e2f84a0620034",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "15c73059b57368a00f3377187379979ec2ae0f88771695b2cb8971969bf61aee",
+              "validation_reference.csv": "eb110d4d227be41591d3cf965bb814b4fab152ee3af14837ef26c0e70ea19177"
+            }
+          }
+        },
+        "robustness_retinopathy_s1015_r0p1_mixed": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.1,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1015
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "f6197e32b2fc4f219e8ad52a4700ce471c496f05fe0e02b44911416ddfc150bb",
+              "dataset_metadata.json": "feee8794b0617456ee7ffad25146fe62faba4cdcbe46bfe792d2a2c2adb607fd",
+              "declaration.json": "30d16db5dcdd3b5c8d7becd0b0f5db3ccf5e5f27cebeb15289931d319149646c",
+              "development_bundle.json": "60300992b16259533bd5f11201a887f1d384e5fc32ddef5e440c968c5eb4f78f",
+              "learning_dirty.csv": "5096613b9440db407e102762b1bf94d6faa41bc3fa68f699192e9f3a75da617c",
+              "learning_only.json": "8a38b97bdcd111fb24a48f82d1a24e19f8836948edd7108911dc582931e8d290",
+              "repair_dirty.csv": "0111fc8567158b18dee43b3585aaf9d4fce527714c0491d5707a5bfa4e8d9fc9",
+              "validation_dirty.csv": "91facc67c9e005bb170a22988a0ce5ba062ad1f675692554f3f193a2789186f1",
+              "validation_only.json": "cf097307cd8c04c2951e4314d09627154935de122d6c8bd7b3402e0edaa43290"
+            },
+            "private": {
+              "corruption_events.json": "5a491739d433d81b252b787135743a1b41c8317a61b88c5a8e0cecc38bc71847",
+              "holdout_reference.csv": "13a8dd3438998cf4b74bed1d7e7d2158a844049b230b9fa3a8cd44dda0ad9dd3",
+              "learning_reference.csv": "5618384953f34c6b5a248df4e4d784694ee1237392cf4842a59d35e78481703e",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "ddd4b3b7c88451f89211fbdacb2b2a5c300208714d37579e7a700c88dd30a428",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "e270fa6d4bf94b80a4697e482b2e48eafd7045284dfe6c30db184fbe22cfb27a",
+              "validation_reference.csv": "30f2d7fb87e72795b3f4ec38ad1f8213090a2ff9932c00d91ab1a506a7ac02d6"
+            }
+          }
+        },
+        "robustness_retinopathy_s1015_r0p3_mixed": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1015
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "f6197e32b2fc4f219e8ad52a4700ce471c496f05fe0e02b44911416ddfc150bb",
+              "dataset_metadata.json": "43b244969cee0eb01ffa97c1cf699063ed81ee4eaeb1d6de09e5304d953455f5",
+              "declaration.json": "30d16db5dcdd3b5c8d7becd0b0f5db3ccf5e5f27cebeb15289931d319149646c",
+              "development_bundle.json": "762dc510134ab86268e4df7b1995e7ed9e2681373e1c44f9c43200cb89dbae40",
+              "learning_dirty.csv": "9a0c8125f87c84163dcfab7692f787f06b4050d3b7cd2711740ee8c0389c22ee",
+              "learning_only.json": "206a2adaa72ae68462f08b1f3c6d337b40619747048bb2b130d248ea61a9e309",
+              "repair_dirty.csv": "0163ae0beaa48b8f5d213f3ab6ce8a8d5049e863f531061d21b35283cb78c2f8",
+              "validation_dirty.csv": "4fc34c8153b84357a70599b277c759532545811bd7ea1d02da99e813f98b5f43",
+              "validation_only.json": "bb1cc285726a9a629c412cf0d43f0cf6dbc6e4593ae0be409996ea4d1aee8226"
+            },
+            "private": {
+              "corruption_events.json": "a7ed5519443ba3d5be9b5fdbd05670bd738374e4c206ef713510bc07c1450a95",
+              "holdout_reference.csv": "13a8dd3438998cf4b74bed1d7e7d2158a844049b230b9fa3a8cd44dda0ad9dd3",
+              "learning_reference.csv": "5618384953f34c6b5a248df4e4d784694ee1237392cf4842a59d35e78481703e",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "ddd4b3b7c88451f89211fbdacb2b2a5c300208714d37579e7a700c88dd30a428",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "2f074a9f9c3718c36634ab5c5fc0b5555b28516bd1167fb9a7fcc8a44950ecd2",
+              "validation_reference.csv": "30f2d7fb87e72795b3f4ec38ad1f8213090a2ff9932c00d91ab1a506a7ac02d6"
+            }
+          }
+        },
+        "robustness_retinopathy_s1015_r0p5_mixed": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.5,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1015
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "f6197e32b2fc4f219e8ad52a4700ce471c496f05fe0e02b44911416ddfc150bb",
+              "dataset_metadata.json": "59a5f55897a7d3eb4a9687b2e1df64d3ee348e4c5baa2248b12c7c3f232eba51",
+              "declaration.json": "30d16db5dcdd3b5c8d7becd0b0f5db3ccf5e5f27cebeb15289931d319149646c",
+              "development_bundle.json": "30ff703a350711c4cf2823116a3f546d7f390a53cc001c32abbe74680c78071a",
+              "learning_dirty.csv": "dd8bb2cbc297289387324edfd1b9161d5aa334a7f4afbb1ad7887d4648d9e6e6",
+              "learning_only.json": "6b217aadb4eb425fa9c426d8ffe7e5510bce54c11ad083176fee7654e7af552f",
+              "repair_dirty.csv": "8f3093c49c0ad7336138ad4aed9df0293af862925e2d207d6ab3a49092d3ae14",
+              "validation_dirty.csv": "5e5d0904f7563c690648f973c7d0cadaa718945a74660ddc4c25e8ad99d11938",
+              "validation_only.json": "77d6ac9978089d06d82358e9273e887109ccfd5cb466ba298ff7414a69291827"
+            },
+            "private": {
+              "corruption_events.json": "8ad066a755ecf1bb8b6d0033b8b991d9abb91a7119f3fb320f2a28d5440f5860",
+              "holdout_reference.csv": "13a8dd3438998cf4b74bed1d7e7d2158a844049b230b9fa3a8cd44dda0ad9dd3",
+              "learning_reference.csv": "5618384953f34c6b5a248df4e4d784694ee1237392cf4842a59d35e78481703e",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "ddd4b3b7c88451f89211fbdacb2b2a5c300208714d37579e7a700c88dd30a428",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "eb6cb62f9ff76197103363e4c4ecf7baf5553bb09ba65ea836a58f01e3425ba2",
+              "validation_reference.csv": "30f2d7fb87e72795b3f4ec38ad1f8213090a2ff9932c00d91ab1a506a7ac02d6"
+            }
+          }
+        },
+        "robustness_retinopathy_s1015_r0p7_mixed": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.7,
+            "error_type": "mixed",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1015
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "f6197e32b2fc4f219e8ad52a4700ce471c496f05fe0e02b44911416ddfc150bb",
+              "dataset_metadata.json": "ea7fc798650bc2e1588548ed40b012aceba7798e33b55801abf0da013028c832",
+              "declaration.json": "30d16db5dcdd3b5c8d7becd0b0f5db3ccf5e5f27cebeb15289931d319149646c",
+              "development_bundle.json": "89be9c497df46477e549ad8116d0e8578e5298ce51c5616822a1bebf1ac15909",
+              "learning_dirty.csv": "2785609bdd7d9dab97538350ad3e37f734a62a04d62815c90f4306a87f9ae989",
+              "learning_only.json": "6402c31acecf825473f90918be2dcc3187e2d36804f165f978f95fed98a153c1",
+              "repair_dirty.csv": "aedeb5dc5e11acb693bfe7ecc82d1a311d2b814ff26dfd996069b16fe184b77a",
+              "validation_dirty.csv": "d374b0af8ac390b5d84359575a715c898e7f3c0778613fb251ee45aa98ea0fb0",
+              "validation_only.json": "c68f08b6dd24ed6eb6e961bd54d90353dc063e6351053b8af07b6ffa8442efd0"
+            },
+            "private": {
+              "corruption_events.json": "87d8e4c38f9f288bd246b6cb70df8f898d60b94d481d207cecca9735649df084",
+              "holdout_reference.csv": "13a8dd3438998cf4b74bed1d7e7d2158a844049b230b9fa3a8cd44dda0ad9dd3",
+              "learning_reference.csv": "5618384953f34c6b5a248df4e4d784694ee1237392cf4842a59d35e78481703e",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "ddd4b3b7c88451f89211fbdacb2b2a5c300208714d37579e7a700c88dd30a428",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "8b1383b1ccb9b77fe5d5f6a104850ddccc1a6f36ad2cfa8da75fc1e690f9fb81",
+              "validation_reference.csv": "30f2d7fb87e72795b3f4ec38ad1f8213090a2ff9932c00d91ab1a506a7ac02d6"
+            }
+          }
+        },
+        "robustness_retinopathy_s1015_r0p3_blank": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "blank",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1015
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "f6197e32b2fc4f219e8ad52a4700ce471c496f05fe0e02b44911416ddfc150bb",
+              "dataset_metadata.json": "79167a677a30c159c47b6b7f1b792b869e6587b151f7207418cd6595f3aaff7f",
+              "declaration.json": "30d16db5dcdd3b5c8d7becd0b0f5db3ccf5e5f27cebeb15289931d319149646c",
+              "development_bundle.json": "ec4db196acdd6ffee1d8a719d47bd7c09b01ef0d56d7f9e251e98fc74411b5c6",
+              "learning_dirty.csv": "40f110d122ae8232da7b204b94b0f333b479efd0ecce0520905d0be1a59e815f",
+              "learning_only.json": "dbda296d6e9e19f6c788671c6f40062670d0d22e8a3edfa53a7744d4c0ce4e57",
+              "repair_dirty.csv": "c8cc6998dd1fd459f582becfd4fd6c018ae5d037adfd6c9b220bf70c21c89445",
+              "validation_dirty.csv": "08f43b924aa86f3e21a71ff4d93bcb90a160a8d3c5cbfb703d8963129c906c89",
+              "validation_only.json": "dfddb4f6be7f3ab893d8cdbeaa3b11b8ece6ea75dc992da32785c909a5021892"
+            },
+            "private": {
+              "corruption_events.json": "b3e506892370cc34524417c9631673ff0984b5ce7962efdd54acb1008878c628",
+              "holdout_reference.csv": "13a8dd3438998cf4b74bed1d7e7d2158a844049b230b9fa3a8cd44dda0ad9dd3",
+              "learning_reference.csv": "5618384953f34c6b5a248df4e4d784694ee1237392cf4842a59d35e78481703e",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "ddd4b3b7c88451f89211fbdacb2b2a5c300208714d37579e7a700c88dd30a428",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "f0790aedd35da36ebbb3d40ef2e9984b5711a291fbefbedbe5af4c07f8facaa5",
+              "validation_reference.csv": "30f2d7fb87e72795b3f4ec38ad1f8213090a2ff9932c00d91ab1a506a7ac02d6"
+            }
+          }
+        },
+        "robustness_retinopathy_s1015_r0p3_digit": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "digit",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1015
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "f6197e32b2fc4f219e8ad52a4700ce471c496f05fe0e02b44911416ddfc150bb",
+              "dataset_metadata.json": "5fe545407d423c1deecf65a34b2887c9aed2b6e3ed2862ffec683bcd840fe3fc",
+              "declaration.json": "30d16db5dcdd3b5c8d7becd0b0f5db3ccf5e5f27cebeb15289931d319149646c",
+              "development_bundle.json": "46dd70558f8838a292b9a052489670407c4cd16b4fcba5719014eb04bbad5f1f",
+              "learning_dirty.csv": "9830364a5d8409e372bca26cf994e2d414f5517a1410e32cf44afeef2d9bfb49",
+              "learning_only.json": "aa27559a3b54bbf44c8d19515c729a5d4bfee96dd19c4b3627a52befa4169f8a",
+              "repair_dirty.csv": "20fcc6b5dec7954d0493465c931b97aeb7a3fb2e9917eb8425e4d9cd7115b7f9",
+              "validation_dirty.csv": "a5277ecfeff7da0a2b542e9a96c918a8c854e5eaec064cc3f48c561b3b4bb0bb",
+              "validation_only.json": "351aa3040f46685d3b67cf595514ec1dc2c863aafb7d19f5988cd8b62cb1ef6b"
+            },
+            "private": {
+              "corruption_events.json": "efad45982e6131139b11f49d14ade1e1cf05a427bf1da49c9c46e221a7b41939",
+              "holdout_reference.csv": "13a8dd3438998cf4b74bed1d7e7d2158a844049b230b9fa3a8cd44dda0ad9dd3",
+              "learning_reference.csv": "5618384953f34c6b5a248df4e4d784694ee1237392cf4842a59d35e78481703e",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "ddd4b3b7c88451f89211fbdacb2b2a5c300208714d37579e7a700c88dd30a428",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "a219e4fe6ffdb583c49f43c424a82d13d9f5c104ff130461a576e4778ac6a92b",
+              "validation_reference.csv": "30f2d7fb87e72795b3f4ec38ad1f8213090a2ff9932c00d91ab1a506a7ac02d6"
+            }
+          }
+        },
+        "robustness_retinopathy_s1015_r0p3_scale": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "scale",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1015
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "f6197e32b2fc4f219e8ad52a4700ce471c496f05fe0e02b44911416ddfc150bb",
+              "dataset_metadata.json": "42a4147777ce92cee4c18623fab9aedf216ee33b4e65a93b13542b4864402f56",
+              "declaration.json": "30d16db5dcdd3b5c8d7becd0b0f5db3ccf5e5f27cebeb15289931d319149646c",
+              "development_bundle.json": "4c802ff381f3f58f082d1bcd9c6742ad36029750099ae7dd3dc3830e4e3898da",
+              "learning_dirty.csv": "f508805d43c90eb6a0ffe7645d3574990259be2ad497b23264f4a72f0d6832f4",
+              "learning_only.json": "1ce5272f14e6b2fd4a9996a8c5729720941ea2faf78f3780998f4338159d3e03",
+              "repair_dirty.csv": "9d4c4cd454e7640e32760a139421930fabff909114ba81d931de31138c036237",
+              "validation_dirty.csv": "5a66e17b387a9673a9d9805e98e9c2c2528baa3a01ce645808c5feaeac121988",
+              "validation_only.json": "90f936356224b17a160d03390dc7d2f2cce853fae683fcf6bf403416b3cf9d13"
+            },
+            "private": {
+              "corruption_events.json": "1fd70a72f70ab4e877e404fb6b791e79a09a0ef7b2a4e266524d99d43ef1877c",
+              "holdout_reference.csv": "13a8dd3438998cf4b74bed1d7e7d2158a844049b230b9fa3a8cd44dda0ad9dd3",
+              "learning_reference.csv": "5618384953f34c6b5a248df4e4d784694ee1237392cf4842a59d35e78481703e",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "ddd4b3b7c88451f89211fbdacb2b2a5c300208714d37579e7a700c88dd30a428",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "6003b42f76a94fec8dd4f66d555f31d87cfe798a59a84465cc2a4567e01ba298",
+              "validation_reference.csv": "30f2d7fb87e72795b3f4ec38ad1f8213090a2ff9932c00d91ab1a506a7ac02d6"
+            }
+          }
+        },
+        "robustness_retinopathy_s1015_r0p3_affix": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1015,
+            "suite": "robustness",
+            "rate": 0.3,
+            "error_type": "affix",
+            "learning_fraction": 1.0,
+            "source_namespace_seed": 1015
+          },
+          "expected_original_input_sha256": {
+            "public": {
+              "context.json": "f6197e32b2fc4f219e8ad52a4700ce471c496f05fe0e02b44911416ddfc150bb",
+              "dataset_metadata.json": "44647fc6bcd652bef8fcc13a389fe2179b48fe2e693f8b5edd04e2724d9cf448",
+              "declaration.json": "30d16db5dcdd3b5c8d7becd0b0f5db3ccf5e5f27cebeb15289931d319149646c",
+              "development_bundle.json": "551178ea889aecaea890d2c6f7da90090eaa98ede0ee712e53f6f2e4cbf77801",
+              "learning_dirty.csv": "7f44325e325c2ba27c85716bc016913038f82324842853a8f467592992214945",
+              "learning_only.json": "ff59b3fd9cae560deb8fd900412c5050fc48fbac9481d090fa3e85bb4de3f16a",
+              "repair_dirty.csv": "aa7f7f7ce2b3b5dd9c61bb831316937db268893c24a37db5371994cf1d25942e",
+              "validation_dirty.csv": "7c2742575c83201189be4e6c7491d30e6513414419e5ce0ef5a7cf2be1e645d0",
+              "validation_only.json": "06dc877467b084bffc48fe0678999984a2b2adb7a49639707573c156487bd9db"
+            },
+            "private": {
+              "corruption_events.json": "a33a8d737c09965ed1c8f50e107b83bc1418ea95e5cb3058391927ccda344295",
+              "holdout_reference.csv": "13a8dd3438998cf4b74bed1d7e7d2158a844049b230b9fa3a8cd44dda0ad9dd3",
+              "learning_reference.csv": "5618384953f34c6b5a248df4e4d784694ee1237392cf4842a59d35e78481703e",
+              "original_source_split.json": "08fcafdc571c1391cca2cc95da4103ef721015eeaae76e06d2c6c328d971a4f5",
+              "repair_reference.csv": "ddd4b3b7c88451f89211fbdacb2b2a5c300208714d37579e7a700c88dd30a428",
+              "source.zip": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+              "source_provenance.json": "591c6bf5e11d153d2f9df34539ee061ba4b720007299011cd0bd1c38c8ba5779",
+              "validation_reference.csv": "30f2d7fb87e72795b3f4ec38ad1f8213090a2ff9932c00d91ab1a506a7ac02d6"
+            }
+          }
+        }
+      }
+    },
+    "sealed_reuse": {
+      "case_ids": [
+        "retinopathy_s1013",
+        "airfoil_s1013",
+        "retinopathy_s1014",
+        "airfoil_s1014",
+        "retinopathy_s1015",
+        "airfoil_s1015"
+      ],
+      "cases": {
+        "retinopathy_s1013": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1013,
+            "data_seed": 768221512,
+            "gpu": 0
+          },
+          "expected_original_input_sha256": {
+            "source": {
+              "context.json": "d8a4a8cfeda984aeb5c1555b87eef8d3b136b436aac71273af62e2968fcd6b2b",
+              "dataset_metadata.json": "5bdbfc984fe888b14db1b817be1c4e218411b6f1418d56344c05248d4aa2a277",
+              "declaration.json": "99b07031220ad9b43f2ed626864875e58902be20e19f1aa780ef4e240e356a27",
+              "development_bundle.json": "b8cced637761222f7373f8f734a9eb45f9dfe1ebfa6b7ad8432b49fe95e8da46",
+              "learning_dirty.csv": "a4c61395777a29f0598ea0beb1e20ba89d17dcf9348ef6a827d5dfe15e225f1c",
+              "learning_only.json": "45c961e53a9196cdc3b64dd88636907999802be00199d2a42ac1bc0f50c40a6a",
+              "validation_dirty.csv": "87642201e61ed0a2db6ecd7b695c27378b00bd247e618edcf30bc9e278f0e57d",
+              "validation_only.json": "fb4007b5fe191aede510312297ae9291c0f3632a87bb6c1892f7adb06b9849e6"
+            },
+            "batches": {
+              "B1/dirty.csv": "c28cd38fdf97970f543b72441f5f5340f08ff79d590c159a846e3c0c94cf9494",
+              "B1/row_keys.json": "f228cd0bf9c3f74dde6e3f46adf3e49c2a78eb941d66b92d31a294872a79a1a1",
+              "B2/dirty.csv": "f3d4489e47cabed624929486084bbaaa9ad4119a559e9c3a8ac362d5937ae149",
+              "B2/row_keys.json": "a1f31c591aab8955b7f44e131a64d46a09577c5187cdb8d0529d0f0deed3d91e",
+              "B3/dirty.csv": "d8a1d02c90226dee9716bc9f8417d1af0a5bf7f5b57d57461bb437866477e3dd",
+              "B3/row_keys.json": "ab1a93be9fb15861829977db688d14909222bbfa84322c9af9f03eab73c7fbb6"
+            },
+            "private": {
+              "B1_reference.csv": "03e47adcf454307b0f1410c03a148224597c71cd4b5b68dd182aa4d125d0f270",
+              "B1_row_keys.json": "f228cd0bf9c3f74dde6e3f46adf3e49c2a78eb941d66b92d31a294872a79a1a1",
+              "B2_reference.csv": "b336084da6ccb725bc01a72865184e37e59abe09b38a74f3155d4061b27f91fe",
+              "B2_row_keys.json": "a1f31c591aab8955b7f44e131a64d46a09577c5187cdb8d0529d0f0deed3d91e",
+              "B3_reference.csv": "20c4328bf7433d62708ffdb296c3f001e2b87231a376852e95e1345942ae01c9",
+              "B3_row_keys.json": "ab1a93be9fb15861829977db688d14909222bbfa84322c9af9f03eab73c7fbb6"
+            }
+          },
+          "expected_deterministic_case_sha256": "7a2e44171eb09364abe6784a57d3f393587624d75d436bf2e1e7a779e3d9647e"
+        },
+        "airfoil_s1013": {
+          "parameters": {
+            "dataset": "airfoil",
+            "seed": 1013,
+            "data_seed": 1729884258,
+            "gpu": 1
+          },
+          "expected_original_input_sha256": {
+            "source": {
+              "context.json": "646f46edc3689f44703978b92995679f61b1a3a02ea320d40361bdcbb527109b",
+              "dataset_metadata.json": "773cba4d006278d1ef05060f95076519a2ac86e2186c14363a70fe27fae189f6",
+              "declaration.json": "f1a758b00500e7b97fd74c1e0a237bf57715d8f7a814a45bc96c215a22404e55",
+              "development_bundle.json": "b68fe1bf9c7d47d48f61ce149528451b2dc5c8c5605e97dd813ebbbbb4ba951d",
+              "learning_dirty.csv": "87aaef78e8033c0c12fae703b5ea768f82f29ac66e10d0f2b36f3ddd0dc7865b",
+              "learning_only.json": "bd973a273800a4627bbf9fe7da5cbfafbaca368aed49f2114bca77b8648faa7d",
+              "validation_dirty.csv": "b241042e5b539b79db6f47a4a976e9c7fb210f1c474549c5de2c29f7f0c12860",
+              "validation_only.json": "e3bd237bb406648c040019d5e885e8a9a4195471eb002f13aee8f6b4deb4519d"
+            },
+            "batches": {
+              "B1/dirty.csv": "b55d3cabdd5c8f35b1635c06ad99ad1ae5f04bb3f9446fa03c5f3ee96fdcdb88",
+              "B1/row_keys.json": "fc94eab8e1210a0e04b20587ca7a5bec4cd922d9b745b8d3daa37a481bfd5e18",
+              "B2/dirty.csv": "2411f8780f55dc55d106092323568381180edc4de75f9f33692d4e918b6f1548",
+              "B2/row_keys.json": "785fe114f7bfc40e2a185a4a4c7ccf6438e9877793171790cb0eebfa4044bb05",
+              "B3/dirty.csv": "08251cff9a6703efd6e72453bb3be15b38579c509b51f8196ed803a9d018a430",
+              "B3/row_keys.json": "96b4f0ed9081e43bab87f026d564af7287907b75ab6a1073922c500acf0c1158"
+            },
+            "private": {
+              "B1_reference.csv": "78ecc26a493eeb58d7548f0ddf48214b373acdb3c4f750a9eb51cdfffbb21b4c",
+              "B1_row_keys.json": "fc94eab8e1210a0e04b20587ca7a5bec4cd922d9b745b8d3daa37a481bfd5e18",
+              "B2_reference.csv": "5ea216d3c3c5fa4bc2f5ee1e2f45296b745b6b53d29edbf24718e4162c860355",
+              "B2_row_keys.json": "785fe114f7bfc40e2a185a4a4c7ccf6438e9877793171790cb0eebfa4044bb05",
+              "B3_reference.csv": "fc5ffb865318f429b7a8ea501519237b6a8cffc2017354eb7f54f2dd075278e8",
+              "B3_row_keys.json": "96b4f0ed9081e43bab87f026d564af7287907b75ab6a1073922c500acf0c1158"
+            }
+          },
+          "expected_deterministic_case_sha256": "f39c6b26b450355fffdeab36c664bbb0e1c3d25cbfb9fb27bb1e56f33f399353"
+        },
+        "retinopathy_s1014": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1014,
+            "data_seed": 1155185305,
+            "gpu": 0
+          },
+          "expected_original_input_sha256": {
+            "source": {
+              "context.json": "cb7791f7fef686d8e2432bc691ec38994e27c067c0c62c0d83f1d43feade2c8e",
+              "dataset_metadata.json": "dca544315876df4fb4a043a18a9511078fe025d12403a1ceeea0df5e742f6b16",
+              "declaration.json": "64f57830d5a8c9d5a87b8cdf69f991d8ea3df54808fca64c0a003fc6a597b11a",
+              "development_bundle.json": "1a6db4b6bd7983ab6bb347eae35946f801f8cbe199074fe8296f1f953c5f35c3",
+              "learning_dirty.csv": "7449e5ee22c69d7a3acbc21a32c6e93ff5be888a6f8caed8e5cc23e2a84ff813",
+              "learning_only.json": "181347f61bf9f2c1ac5bc8f75de2998a779abeb404bd99f9aeb012a6d305d8fa",
+              "validation_dirty.csv": "79409886189793a142178fb34920da9e4853e84c33deb41a07c680780b951142",
+              "validation_only.json": "90e19b5dab706c9afa14d188d567c8f9cd8b3bd09fde03cd997ba18bc7f2fbe2"
+            },
+            "batches": {
+              "B1/dirty.csv": "f083be4a2e97f4d2d89efec53f18a5f10ec6d3b834fbde9968b7cace91527c8f",
+              "B1/row_keys.json": "3ddd6b2d236a3b9acb1f56f653b72d796e3f89b7a2d85b44abccb48266449202",
+              "B2/dirty.csv": "1ed8362c28e4c91de5290cc7acdf7f3ebaad1ab4162447aa75360c4353764366",
+              "B2/row_keys.json": "1677f9620928d5d710c23c2b141b5691987c2adb5b1354d7bd083cdba7e35c0e",
+              "B3/dirty.csv": "1c294c656d2d028a55ee4ae7c8f094e25879c06d4122650efb72d52ede0c7837",
+              "B3/row_keys.json": "a8a67191badb60fe27855d05a2fcbc0e22a84d88ab294aa6eecc7f001487fbd7"
+            },
+            "private": {
+              "B1_reference.csv": "91722fbec2419e53646ebc3ae53fad78eb755a4e8f40505b9cceba30322c0a99",
+              "B1_row_keys.json": "3ddd6b2d236a3b9acb1f56f653b72d796e3f89b7a2d85b44abccb48266449202",
+              "B2_reference.csv": "1d788403218e6f14e1244cd8c167b7499ac34e1f2005f5ee26fad89bf230941b",
+              "B2_row_keys.json": "1677f9620928d5d710c23c2b141b5691987c2adb5b1354d7bd083cdba7e35c0e",
+              "B3_reference.csv": "2b4da791399a6f20506078298f502c0a2d91609389822c47e88e3cc17efede59",
+              "B3_row_keys.json": "a8a67191badb60fe27855d05a2fcbc0e22a84d88ab294aa6eecc7f001487fbd7"
+            }
+          },
+          "expected_deterministic_case_sha256": "47234246446b1ce064d42a204e8d55956f21eebc3e9d938a4be3a562a76cd88f"
+        },
+        "airfoil_s1014": {
+          "parameters": {
+            "dataset": "airfoil",
+            "seed": 1014,
+            "data_seed": 3813263136,
+            "gpu": 1
+          },
+          "expected_original_input_sha256": {
+            "source": {
+              "context.json": "c428308379204de88f4cb88ae246c8e84a364dc3486d07e71319f5e0fdb64ef0",
+              "dataset_metadata.json": "8c4022eb7aea459149a0aac1d0d90be2c7e0d1d9790929f01f1582be38e8ed56",
+              "declaration.json": "3ab45adec4a515acdd13a8e2f9688d171fe7bf6ac7b1b3a02f02ef51cbcb33dc",
+              "development_bundle.json": "6d20f7093a4e3a80729888116142c0532f783d20849199cfe9c61cd06b090146",
+              "learning_dirty.csv": "31a39973653f2c7079c33fb4945be198793108fb33e4e3d04d4015b4804a8643",
+              "learning_only.json": "f84baab5c952b88d3d488f76ecc49f14813136e54b7a6db3420320e86170af85",
+              "validation_dirty.csv": "7cb48cefd210ad7ec6cf394103f96fe04af628e97392e80949516e8757efa784",
+              "validation_only.json": "4d538d8fb1235718d1ea0fc652d3d6f2dd312b037696c97f57625f2dbd027a96"
+            },
+            "batches": {
+              "B1/dirty.csv": "9cdf353555e6e8597ca948ccf12757f1a8e8f9bff9ad7d6d9c8c175e75f9e4c9",
+              "B1/row_keys.json": "5effde459db4d82079339d6f4d01977d126675acda77b5d7378014f75ab2c693",
+              "B2/dirty.csv": "140e69705699a4bf38c749a8b930be96c7e2cee656164b8417fec8d34b083051",
+              "B2/row_keys.json": "e9c95c331c9e25fedfa780337fa10acba6e70f4356acf1183ddce690c50579a3",
+              "B3/dirty.csv": "4d6670f569a23691e195c9998cefb698b031930a1e790bc79a9ba6ef8a9de0e2",
+              "B3/row_keys.json": "2ff432d70ffea8fb45c0546685c736893ca4d75ca398ff08b9c64f8f2649412f"
+            },
+            "private": {
+              "B1_reference.csv": "9064a091e0b35432a9911c1cffde085939c758b6da0db5f064206165364568fb",
+              "B1_row_keys.json": "5effde459db4d82079339d6f4d01977d126675acda77b5d7378014f75ab2c693",
+              "B2_reference.csv": "cb6763c23b7f53ab6db1f78f416f645bdb885161e46246b6f6ec8e2ddd1d3286",
+              "B2_row_keys.json": "e9c95c331c9e25fedfa780337fa10acba6e70f4356acf1183ddce690c50579a3",
+              "B3_reference.csv": "8da5ce329fa37d28f3bc85ecac218e2313ba5a3ef1740134204ff232c774a2d8",
+              "B3_row_keys.json": "2ff432d70ffea8fb45c0546685c736893ca4d75ca398ff08b9c64f8f2649412f"
+            }
+          },
+          "expected_deterministic_case_sha256": "6b2ff15f4d5a46a6823caa653ebf08cd796cbb5f56594b559ac38686f577602b"
+        },
+        "retinopathy_s1015": {
+          "parameters": {
+            "dataset": "retinopathy",
+            "seed": 1015,
+            "data_seed": 415274712,
+            "gpu": 0
+          },
+          "expected_original_input_sha256": {
+            "source": {
+              "context.json": "20288ee632141de053fd9cd96f6043a866e6d8dcf615b77850a569bf663039b9",
+              "dataset_metadata.json": "a691459f6ca2c0b6d4ec05e89ae2aeede11c44e39dda80933a675e48a12c9cb1",
+              "declaration.json": "7839a4507c030d1a0330f7a51d6aa9a20ef2711173dd4d59980ca0024d175b98",
+              "development_bundle.json": "175c8ab686585d7ffbc64710a350c3660a2c859a4bc2958ead9736b48ba2fb08",
+              "learning_dirty.csv": "0db63462f1b039e5af188dab26facb4accc76e696437721bc8da93749574ad50",
+              "learning_only.json": "51416170ebe632192942c71e77cc19d9527da59dcbc861e2cd1177f0b339ae21",
+              "validation_dirty.csv": "c3a3fa75ea4ae56bee1dc28c93623e88a7af8ed4c540f271bca3a7b4d4852253",
+              "validation_only.json": "5907554394bf85e159158fa41ce30103222a7295ab9070433613fb089658eaac"
+            },
+            "batches": {
+              "B1/dirty.csv": "194e19ace9b06c6e90abdc191cde227afe55e9a5a3e98074e5f3381b93ce46c6",
+              "B1/row_keys.json": "172ff4c2ce5abbf4a2d1a8dd1527b33d85bf780f2bac88c4e5d7b006414d5885",
+              "B2/dirty.csv": "baa31aba074cd7f22bb952273b30742f642d19e229cce4a38ddd6966b97c68a0",
+              "B2/row_keys.json": "7223e6f1ed9076ad629d8f50ab9a5abe96ec5df0f57fb10a862563688300b419",
+              "B3/dirty.csv": "c3131211dabff540070f74466770c61873ec97a727d8d6347b62ecda25b3d778",
+              "B3/row_keys.json": "87cbf210d284e2f2588471618bdc53d50511f22a7ed5af6795d0025898e40e0c"
+            },
+            "private": {
+              "B1_reference.csv": "cbfebd8293cc3c81aab4ae168bb81db6d2e09742b627b8269399875f463ecb93",
+              "B1_row_keys.json": "172ff4c2ce5abbf4a2d1a8dd1527b33d85bf780f2bac88c4e5d7b006414d5885",
+              "B2_reference.csv": "a0caf5285737c1a55ff4ecfbe2234dc3faddd5481fedafcdf088ffb9debd4128",
+              "B2_row_keys.json": "7223e6f1ed9076ad629d8f50ab9a5abe96ec5df0f57fb10a862563688300b419",
+              "B3_reference.csv": "9ee1c1e26a572c408f7afc114a976830ba49de7f0f4d7c8af47bd60a22eac947",
+              "B3_row_keys.json": "87cbf210d284e2f2588471618bdc53d50511f22a7ed5af6795d0025898e40e0c"
+            }
+          },
+          "expected_deterministic_case_sha256": "879e7981c4d6c5a1c23a0d9dfbb00c8aa95879666c729035960fb14a8846ca2a"
+        },
+        "airfoil_s1015": {
+          "parameters": {
+            "dataset": "airfoil",
+            "seed": 1015,
+            "data_seed": 2789563890,
+            "gpu": 1
+          },
+          "expected_original_input_sha256": {
+            "source": {
+              "context.json": "c5358979d5b76fd56bf11e39e5dc2c3fcbd14e8eda122e7ce5c0c93c8398a778",
+              "dataset_metadata.json": "a21640221f8d3d1da899a1312867baa89275890030b0e4dbec6bc7afa61d57c9",
+              "declaration.json": "eae68f6aabea3a7e0ef3934208015cc2b2269c568892977b561db3f084495b92",
+              "development_bundle.json": "f48a5217162d318a8afaabf75073fc210a6260cb4d2ae008334ddd6084af7f00",
+              "learning_dirty.csv": "53131c989a5fcc472fb878d7e27c94bd4f57d8bb6d9be0550b035e014b0ae0c5",
+              "learning_only.json": "a93bd74c3a8760a5a7569049ca7082b677089fabfd4a349e14ff0d797d80cf69",
+              "validation_dirty.csv": "7aa5be4857d7a14ec2072f8a6e171a301360853f06049378295474fca93b9ae8",
+              "validation_only.json": "88495f9290ad064ed1cda57a5479ecb84b6e7cf5706917337f372ee8053c04c1"
+            },
+            "batches": {
+              "B1/dirty.csv": "b7a48c1590e1a97d1da6870d2d594ddc4ebec3ee40a0a17f18daee5b80eebfa9",
+              "B1/row_keys.json": "6356d4b4166d0dbaab13ad665b99d4c0128cc332a198232dfcb59bce7ebc878d",
+              "B2/dirty.csv": "abdc43f6fbd362115f49f590a63a557e13662dd9888ae7b8a0f451447250a178",
+              "B2/row_keys.json": "d339c38061a1c6c9c85a6fcf3a118c2f53e2ca25c170b4be13b574d7c034692d",
+              "B3/dirty.csv": "78aa56b32c8fe7aa222b1f0b2620bc672f8747ff2d16517595d4689f6ec3d88f",
+              "B3/row_keys.json": "ef4fc1dc4eedaa8db6870c9b32249dfb6a2d521ef0baa63700a4b7bb935fe896"
+            },
+            "private": {
+              "B1_reference.csv": "7305c15b4feb02e0884a4e6298b5c2c06998643bfa7d819ef1f48b721ca7356e",
+              "B1_row_keys.json": "6356d4b4166d0dbaab13ad665b99d4c0128cc332a198232dfcb59bce7ebc878d",
+              "B2_reference.csv": "313c9677e882d48aa4914c203d50cd529894d128a5f5b94da9af820d8c2929b7",
+              "B2_row_keys.json": "d339c38061a1c6c9c85a6fcf3a118c2f53e2ca25c170b4be13b574d7c034692d",
+              "B3_reference.csv": "1f792b5ab3066e405e6df4b2e41c8131800def09bd43dc0ef6316232af3f9eb2",
+              "B3_row_keys.json": "ef4fc1dc4eedaa8db6870c9b32249dfb6a2d521ef0baa63700a4b7bb935fe896"
+            }
+          },
+          "expected_deterministic_case_sha256": "1d146f68a875037b00386107b13c6c5589a6014406400e669c0cfcbf16f81374"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "format_version": 1,
+  "date": "2026-11-09",
+  "verification_status": "RECORDED_RESULTS_AND_INPUT_PREPARATION_CHECKED",
+  "source_commit": "b4f428f4b296b5468c1319fa9f1413d7cd77886f",
+  "scope": "Eight paper screenshot groups; a subset of existing research runs.",
+  "retained_observations": {
+    "containers_checked_against_source": 35,
+    "all_retained_records_exact_source_records": true
+  },
+  "immutable_dependencies": {
+    "numerical_core_files": 124,
+    "environment_and_model_lock_files": 19,
+    "changed": false
+  },
+  "raw_source_reconstruction": {
+    "llm_digit70": 10,
+    "real_dirty": 15,
+    "tabclean_same9b": 21,
+    "all_original_input_bytes_match": true
+  },
+  "frozen_input_export_and_prepare": {
+    "advisor_supplement": 24,
+    "robustness_retinopathy": 24,
+    "sealed_reuse": 6,
+    "original_input_bytes_unchanged": true
+  },
+  "supplementary_runtime_preparation": {
+    "study_groups": 6,
+    "cases": 100,
+    "missing_inputs": 0,
+    "unresolved_runtime_paths": 0,
+    "model_executed": false
+  },
+  "environment_note": "Input-reader dependencies openpyxl 3.1.5 and xlrd 2.0.2 were installed in a separate validation directory. The original experiment environment was not modified.",
+  "corrected_operational_issues": [
+    "Runtime doctor now ignores numeric port/readiness bindings when checking font paths.",
+    "Threshold closure metadata counts the selected 15 outputs rather than retaining a historical 90-output label.",
+    "Fixed-input export includes all registered source.zip members; preparation rejects missing frozen members before model startup.",
+    "A dedicated six-case reuse batch closes all learning and shuts down owned model services before any query execution or once-only scoring.",
+    "Owned reuse service routing name matches the unchanged archived model request transport."
+  ],
+  "new_model_calls": 0,
+  "new_fits": 0,
+  "full_end_to_end_model_experiments_rerun": false,
+  "remaining_reproduction_dependencies": [
+    "Fresh threshold execution requires newly learned main A skills.",
+    "Historical cost numbers are recorded request-time measurements, not guaranteed fresh hardware timing."
+  ],
+  "archive": {
+    "full_original_source_and_history_preserved_by_author": true,
+    "git_history_rewritten": false,
+    "public_release_policy": "Clean publication snapshot; full earlier research history preserved in author private archive."
+  },
+  "followup_date": "2026-11-10",
+  "official_source_reconstruction": {
+    "route": "Official UCI ZIPs plus archived pure curator functions and published seed/condition/hash metadata.",
+    "case_counts": {
+      "advisor_supplement": 24,
+      "robustness_retinopathy": 24,
+      "sealed_reuse": 6
+    },
+    "original_scientific_input_hashes_matched": {
+      "advisor_supplement": 369,
+      "robustness_retinopathy": 384,
+      "sealed_reuse": 120
+    },
+    "fresh_cache_provenance_files": 45,
+    "historical_input_rows_or_references_required": false,
+    "saved_input_or_reference_bundles_published": false,
+    "rebuild_spec": "provenance/supplement_rebuild_specs.json",
+    "entrypoint": "scripts/rebuild_supplement_inputs.py",
+    "full_model_rerun": false,
+    "isolated_rebuild_verified": true,
+    "historical_project_access_attempts": 0,
+    "network_or_subprocess_attempts": 0,
+    "runtime_preparation_cases": 54
+  }
+}

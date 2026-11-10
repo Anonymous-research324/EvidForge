@@ -1,0 +1,8 @@
+{
+  "provider": "ModelScope",
+  "model_id": "Qwen/Qwen3.5-9B",
+  "revision": "master",
+  "immutable_revision_known": false,
+  "official_config_sha256_match": true,
+  "download_endpoint": "https://modelscope.cn/api/v1/models/{model_id}/repo?Revision={revision}&FilePath={file}"
+}

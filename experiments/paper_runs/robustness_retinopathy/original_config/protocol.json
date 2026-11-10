@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "created": "2026-10-22T04:32:14.816733+00:00",
+  "authorization": "用户明确要求用取值更丰富的旧数据集替换Car，避免不完整鲁棒性对照",
+  "replacement": "Retinopathy分类，1151行19特征，选取依据为连续数值与较丰富观测组合、旧研究已用；不按本轮正式分数选择",
+  "comparison": "Concrete旧完成三seed结果完整保留，Car原结果/9实际源保护失败N/A全部留档，不填0/隐藏失败",
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "conditions": [
+    {
+      "rate": 0.1,
+      "type": "mixed"
+    },
+    {
+      "rate": 0.3,
+      "type": "mixed"
+    },
+    {
+      "rate": 0.5,
+      "type": "mixed"
+    },
+    {
+      "rate": 0.7,
+      "type": "mixed"
+    },
+    {
+      "rate": 0.3,
+      "type": "blank"
+    },
+    {
+      "rate": 0.3,
+      "type": "digit"
+    },
+    {
+      "rate": 0.3,
+      "type": "scale"
+    },
+    {
+      "rate": 0.3,
+      "type": "affix"
+    }
+  ],
+  "cases": 24,
+  "input_generation": "相同UCI原ZIP缓存、原生成器仅预定污染率/种类与操作seed变化；原实体分区不变，ID/y/holdout保护，全部输入首次学习前freeze；污染不是自然错误",
+  "preflight_selection": "全部24份先过原external与内部normalize_bundle/split_learning隔离；任何冲突不改split/seed/保护，不用正式修复分数选数据集",
+  "arms": [
+    "full",
+    "no_llm",
+    "reuse"
+  ],
+  "learning": "每污染条件独立学习prior/context各5实际9B请求；真实Codex0.153.1+MCP+Hook仅学习，正式修复standalone；noLLM同pre-native source-fit checkpoint0calls；reuse同封存技能0calls且byteparity",
+  "scope": "这是每污染条件重新学习后的适应性，不能称固定技能对未见错误零样本鲁棒性，也不能称无N/A保证成功",
+  "model": "Qwen3.5-9B BF16 temp0 request seed1013/14/15，两个RTX4090 48GB物理5和7各一9B TP1队列，8121/8122；不是18B融合，不使用其他根目录服务",
+  "budget": "24case,48native会话,正常240native调用；不重试重置budget，未知失败阻止评分",
+  "scoring": "全部输出/技能/输入/代码/请求闭合审计后独立scorer每case一次formal读取，marker不可删；零修改P=None/F1=0有效，不把失败当0；3seed均值样本SDddof1仅n3",
+  "reporting": "精简两表：污染率10/30/50/70%混合、固定30%四类错误；Retino新结果与Concrete旧结果来源/设备和资格分开说明；保留所有数值、弱结果和失败",
+  "old_files": "所有旧研究/表1表2/技能/scores/论文/GitHub只读。新增代码与材料仅共享服务器ROOT；Mac工具workdir=/private/tmp",
+  "publication_scope_projection": true,
+  "original_protocol_sha256": "42eec40e243885b3bd90c4b78322b2789919d5925a08d8691a63e96c1ee6cfdb",
+  "projection_note": "Case/dataset dispatch narrowed for the paper artifact; original full protocol is retained privately. No model, pollution, seed, metric or gate constants changed."
+}

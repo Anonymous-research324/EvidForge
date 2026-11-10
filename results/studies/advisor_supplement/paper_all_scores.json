@@ -1,0 +1,1007 @@
+[
+  {
+    "id": "main_concrete_s1013",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/datasets/concrete",
+      "old_input_freeze_sha256": "a18cfd2b77bbde170abba0863242289dd402dd20d934790bd741518ec3acfba8",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9668989547038328,
+      "R": 0.3003246753246753,
+      "F1": 0.4582989265070191,
+      "normal_damage": 0.005050505050505051,
+      "errors": 3696,
+      "normal": 1584,
+      "changes": 1148,
+      "exact": 1110,
+      "damaged": 8,
+      "detection_AUC": 0.6516955266955268
+    },
+    "downstream": {
+      "R2": 0.7785891179088102,
+      "MAE": 6.017388869905395
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 64.97857968788594,
+      "rows": 660,
+      "changed_cells": 1148,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1013/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1014",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/datasets/concrete",
+      "old_input_freeze_sha256": "5d7e876cb26bf0e6593aa46040cd6eed8ab83103eeede7bce7d4befd0d6679f4",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9956803455723542,
+      "R": 0.24892008639308855,
+      "F1": 0.3982721382289417,
+      "normal_damage": 0.0,
+      "errors": 3704,
+      "normal": 1584,
+      "changes": 926,
+      "exact": 922,
+      "damaged": 0,
+      "detection_AUC": 0.625
+    },
+    "downstream": {
+      "R2": 0.7815137638918047,
+      "MAE": 5.871865077376458
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 66.4925593053922,
+      "rows": 661,
+      "changed_cells": 926,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1014/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "main_concrete_s1015",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "main",
+    "rate": 0.7,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "old_dataset": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/datasets/concrete",
+      "old_input_freeze_sha256": "3abde671e50d4d6d6579fc31c8ced76b2dbe3fc2f431030916d179e590e6d18a",
+      "method_inputs": "same pre-existing group partitions"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9791516894320632,
+      "R": 0.3645610278372591,
+      "F1": 0.5313048566413108,
+      "normal_damage": 0.001875,
+      "errors": 3736,
+      "normal": 1600,
+      "changes": 1391,
+      "exact": 1362,
+      "damaged": 3,
+      "detection_AUC": 0.6848226713062098
+    },
+    "downstream": {
+      "R2": 0.7738476402932113,
+      "MAE": 5.8439620785698265
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 76.73893747688271,
+      "rows": 667,
+      "changed_cells": 1391,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/main_concrete_s1015/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p1_mixed",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.1,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.1571969696969697,
+      "F1": 0.27168576104746317,
+      "normal_damage": 0.0,
+      "errors": 528,
+      "normal": 4752,
+      "changes": 83,
+      "exact": 83,
+      "damaged": 0,
+      "detection_AUC": 0.5785984848484849
+    },
+    "downstream": {
+      "R2": 0.8871951294815958,
+      "MAE": 3.9606001853640995
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 82.27578275464475,
+      "rows": 660,
+      "changed_cells": 83,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p1_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p3_mixed",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9468599033816425,
+      "R": 0.3712121212121212,
+      "F1": 0.5333333333333332,
+      "normal_damage": 0.003787878787878788,
+      "errors": 1584,
+      "normal": 3696,
+      "changes": 621,
+      "exact": 588,
+      "damaged": 14,
+      "detection_AUC": 0.6897095959595959
+    },
+    "downstream": {
+      "R2": 0.8495075159289254,
+      "MAE": 4.891234615164971
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 82.65091256913729,
+      "rows": 660,
+      "changed_cells": 621,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p3_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p5_mixed",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.5,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9490909090909091,
+      "R": 0.39545454545454545,
+      "F1": 0.558288770053476,
+      "normal_damage": 0.0030303030303030303,
+      "errors": 2640,
+      "normal": 2640,
+      "changes": 1100,
+      "exact": 1044,
+      "damaged": 8,
+      "detection_AUC": 0.7053030303030303
+    },
+    "downstream": {
+      "R2": 0.8390168579745625,
+      "MAE": 5.038090863007265
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 71.80798662360758,
+      "rows": 660,
+      "changed_cells": 1100,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p5_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p3_blank",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "blank",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.0925,
+      "F1": 0.16933638443935925,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4880,
+      "changes": 37,
+      "exact": 37,
+      "damaged": 0,
+      "detection_AUC": 0.54625
+    },
+    "downstream": {
+      "R2": 0.8617154500801778,
+      "MAE": 4.249931227265652
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 23.425482590682805,
+      "rows": 660,
+      "changed_cells": 37,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p3_blank/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p3_digit",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "digit",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.8064516129032258,
+      "R": 0.125,
+      "F1": 0.21645021645021645,
+      "normal_damage": 0.0006147540983606558,
+      "errors": 400,
+      "normal": 4880,
+      "changes": 62,
+      "exact": 50,
+      "damaged": 3,
+      "detection_AUC": 0.5734426229508196
+    },
+    "downstream": {
+      "R2": 0.8945768106217645,
+      "MAE": 3.6768194035358674
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 85.62134591303766,
+      "rows": 660,
+      "changed_cells": 62,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p3_digit/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p3_scale",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "scale",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.94,
+      "F1": 0.9690721649484536,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4880,
+      "changes": 376,
+      "exact": 376,
+      "damaged": 0,
+      "detection_AUC": 0.97
+    },
+    "downstream": {
+      "R2": 0.8922227603066051,
+      "MAE": 3.893364735296497
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 89.94098742678761,
+      "rows": 660,
+      "changed_cells": 376,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p3_scale/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1013_r0p3_affix",
+    "dataset": "concrete",
+    "seed": 1013,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "affix",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.255,
+      "F1": 0.4063745019920319,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4880,
+      "changes": 102,
+      "exact": 102,
+      "damaged": 0,
+      "detection_AUC": 0.6275
+    },
+    "downstream": {
+      "R2": 0.8844099251234359,
+      "MAE": 3.8464823818779283
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 23.718815586529672,
+      "rows": 660,
+      "changed_cells": 102,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1013_r0p3_affix/work/full/onboarding/prior_prepared",
+      "seed": 1013,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p1_mixed",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.1,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9669421487603306,
+      "R": 0.2215909090909091,
+      "F1": 0.3605546995377504,
+      "normal_damage": 0.0,
+      "errors": 528,
+      "normal": 4760,
+      "changes": 121,
+      "exact": 117,
+      "damaged": 0,
+      "detection_AUC": 0.6145833333333334
+    },
+    "downstream": {
+      "R2": 0.9041963831219946,
+      "MAE": 3.8144546006333284
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 86.23241298086941,
+      "rows": 661,
+      "changed_cells": 121,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p1_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p3_mixed",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9851851851851852,
+      "R": 0.2518939393939394,
+      "F1": 0.4012066365007541,
+      "normal_damage": 0.0,
+      "errors": 1584,
+      "normal": 3704,
+      "changes": 405,
+      "exact": 399,
+      "damaged": 0,
+      "detection_AUC": 0.6278409090909091
+    },
+    "downstream": {
+      "R2": 0.8613810986529958,
+      "MAE": 4.55655362324044
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 75.91661641187966,
+      "rows": 661,
+      "changed_cells": 405,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p3_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p5_mixed",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.5,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9970059880239521,
+      "R": 0.25227272727272726,
+      "F1": 0.4026602176541717,
+      "normal_damage": 0.0007552870090634441,
+      "errors": 2640,
+      "normal": 2648,
+      "changes": 668,
+      "exact": 666,
+      "damaged": 2,
+      "detection_AUC": 0.6257587201318319
+    },
+    "downstream": {
+      "R2": 0.828111626679921,
+      "MAE": 5.171710813892137
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 79.75672659208067,
+      "rows": 661,
+      "changed_cells": 668,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p5_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p3_blank",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "blank",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9743589743589743,
+      "R": 0.095,
+      "F1": 0.17312072892938496,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4888,
+      "changes": 39,
+      "exact": 38,
+      "damaged": 0,
+      "detection_AUC": 0.54875
+    },
+    "downstream": {
+      "R2": 0.9104386201113415,
+      "MAE": 3.696174742994859
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 26.044373244978487,
+      "rows": 661,
+      "changed_cells": 39,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p3_blank/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p3_digit",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "digit",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.8431372549019608,
+      "R": 0.1075,
+      "F1": 0.19068736141906872,
+      "normal_damage": 0.0012274959083469722,
+      "errors": 400,
+      "normal": 4888,
+      "changes": 51,
+      "exact": 43,
+      "damaged": 6,
+      "detection_AUC": 0.5556362520458266
+    },
+    "downstream": {
+      "R2": 0.8984609353478908,
+      "MAE": 3.9794949463771063
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 77.57566237822175,
+      "rows": 661,
+      "changed_cells": 51,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p3_digit/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p3_scale",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "scale",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.925,
+      "F1": 0.961038961038961,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4888,
+      "changes": 370,
+      "exact": 370,
+      "damaged": 0,
+      "detection_AUC": 0.9625
+    },
+    "downstream": {
+      "R2": 0.9265004278885478,
+      "MAE": 3.254401194675952
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 104.56875381991267,
+      "rows": 661,
+      "changed_cells": 370,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p3_scale/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1014_r0p3_affix",
+    "dataset": "concrete",
+    "seed": 1014,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "affix",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.1275,
+      "F1": 0.2261640798226164,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4888,
+      "changes": 51,
+      "exact": 51,
+      "damaged": 0,
+      "detection_AUC": 0.56375
+    },
+    "downstream": {
+      "R2": 0.9006221645581359,
+      "MAE": 3.8945906166612034
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 25.53171606734395,
+      "rows": 661,
+      "changed_cells": 51,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1014_r0p3_affix/work/full/onboarding/prior_prepared",
+      "seed": 1014,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p1_mixed",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.1,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.1,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.1921641791044776,
+      "F1": 0.3223787167449139,
+      "normal_damage": 0.0,
+      "errors": 536,
+      "normal": 4800,
+      "changes": 103,
+      "exact": 103,
+      "damaged": 0,
+      "detection_AUC": 0.5960820895522388
+    },
+    "downstream": {
+      "R2": 0.847350440141187,
+      "MAE": 4.6861223263737815
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 86.69630972691812,
+      "rows": 667,
+      "changed_cells": 103,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p1_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p3_mixed",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9781746031746031,
+      "R": 0.308125,
+      "F1": 0.46863117870722426,
+      "normal_damage": 0.0002676659528907923,
+      "errors": 1600,
+      "normal": 3736,
+      "changes": 504,
+      "exact": 493,
+      "damaged": 1,
+      "detection_AUC": 0.6570536670235546
+    },
+    "downstream": {
+      "R2": 0.8278257422989833,
+      "MAE": 4.982469880335586
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 75.35095911379904,
+      "rows": 667,
+      "changed_cells": 504,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p3_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p5_mixed",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.5,
+    "error_type": "mixed",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.5,
+      "type": "mixed",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9926918392204629,
+      "R": 0.30501497005988026,
+      "F1": 0.4666475808760378,
+      "normal_damage": 0.0,
+      "errors": 2672,
+      "normal": 2664,
+      "changes": 821,
+      "exact": 815,
+      "damaged": 0,
+      "detection_AUC": 0.6536302395209581
+    },
+    "downstream": {
+      "R2": 0.802533252189484,
+      "MAE": 5.35327290173429
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 68.36205071769655,
+      "rows": 667,
+      "changed_cells": 821,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p5_mixed/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p3_blank",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "blank",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "blank",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9166666666666666,
+      "R": 0.0825,
+      "F1": 0.15137614678899083,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4936,
+      "changes": 36,
+      "exact": 33,
+      "damaged": 0,
+      "detection_AUC": 0.545
+    },
+    "downstream": {
+      "R2": 0.8624594783921409,
+      "MAE": 4.3044206013009205
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 25.66360094305128,
+      "rows": 667,
+      "changed_cells": 36,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p3_blank/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p3_digit",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "digit",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "digit",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": null,
+      "R": 0.0,
+      "F1": 0.0,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4936,
+      "changes": 0,
+      "exact": 0,
+      "damaged": 0,
+      "detection_AUC": 0.5
+    },
+    "downstream": {
+      "R2": 0.8658099141318706,
+      "MAE": 4.287881199146233
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 73.8340670876205,
+      "rows": 667,
+      "changed_cells": 0,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p3_digit/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p3_scale",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "scale",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "scale",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 0.9747191011235955,
+      "R": 0.8675,
+      "F1": 0.917989417989418,
+      "normal_damage": 0.0018233387358184765,
+      "errors": 400,
+      "normal": 4936,
+      "changes": 356,
+      "exact": 347,
+      "damaged": 9,
+      "detection_AUC": 0.9328383306320909
+    },
+    "downstream": {
+      "R2": 0.8715863739297215,
+      "MAE": 4.163422633959442
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 90.23270207736641,
+      "rows": 667,
+      "changed_cells": 356,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p3_scale/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  },
+  {
+    "id": "robustness_concrete_s1015_r0p3_affix",
+    "dataset": "concrete",
+    "seed": 1015,
+    "suite": "robustness",
+    "rate": 0.3,
+    "error_type": "affix",
+    "learning_fraction": 1.0,
+    "provenance": {
+      "generator_source_sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5",
+      "rate": 0.3,
+      "type": "affix",
+      "numerical_changes": "only declared pollution rate/type"
+    },
+    "arm": "full",
+    "repair": {
+      "P": 1.0,
+      "R": 0.19,
+      "F1": 0.319327731092437,
+      "normal_damage": 0.0,
+      "errors": 400,
+      "normal": 4936,
+      "changes": 76,
+      "exact": 76,
+      "damaged": 0,
+      "detection_AUC": 0.595
+    },
+    "downstream": {
+      "R2": 0.8621146485446558,
+      "MAE": 4.254872945561019
+    },
+    "receipt": {
+      "arm": "full",
+      "seconds": 25.704062242992222,
+      "rows": 667,
+      "changed_cells": 76,
+      "new9B_calls": 0,
+      "skill": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021/cases/robustness_concrete_s1015_r0p3_affix/work/full/onboarding/prior_prepared",
+      "seed": 1015,
+      "formal_reference_read": false
+    }
+  }
+]

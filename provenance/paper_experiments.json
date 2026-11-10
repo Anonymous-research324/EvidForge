@@ -1,0 +1,1563 @@
+{
+  "scope": "Only final paper/report system and experiment-table conditions. All complete records remain at the original server roots.",
+  "studies": [
+    {
+      "id": "repair_main",
+      "title": "八表准确修复主实验",
+      "paper_location": "Table III",
+      "records_in_primary_list": null,
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Benchmark_ThreeSeeds",
+      "scope_note": "Publication subset only; all retained numeric observations unchanged.",
+      "published_files": [
+        "results/studies/repair_main/three_seed_aggregate.json"
+      ],
+      "source_records": [
+        {
+          "published_file": "results/studies/repair_main/three_seed_aggregate.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Benchmark_ThreeSeeds",
+          "original_relative_path": "reports/three_seed_aggregate.json",
+          "original_sha256": "a0688af1d7079f60f1571478ea3dbaa970484eaee0d10cd97e4ad0138c930a7c",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": null,
+          "published_list_length": null,
+          "server_original_relative_path": "reports/three_seed_aggregate.json",
+          "server_original_sha256": "6b89579d83c7c45297f53fe34751a4d5469b3f76664d76dc3d63f9f5ba6563a4",
+          "published_sha256": "a0688af1d7079f60f1571478ea3dbaa970484eaee0d10cd97e4ad0138c930a7c"
+        }
+      ],
+      "execution_code_files": [
+        {
+          "path": "aggregate_three_seeds.py",
+          "bytes": 4511,
+          "sha256": "76019fb34862227d9355fb671061ae6ca04d5802ac3aec63503693579904bd6f"
+        },
+        {
+          "path": "audit_completed_three_seeds.py",
+          "bytes": 10430,
+          "sha256": "6d92ddb69d6da64c1b8c4e594e613734f0bba585f7ff6086d8201ec56bb80d17"
+        },
+        {
+          "path": "continue_cdc_and_finalize_v2.py",
+          "bytes": 5986,
+          "sha256": "af7d5a87cf8f75008a78e8d7c57f0cb659f99c611ccf145162820fd040c85410"
+        },
+        {
+          "path": "continue_gpu1015_v3.py",
+          "bytes": 7656,
+          "sha256": "5b97040dc96cb9775eab315e24e7cb6db5d567d66a4d797bb6ee3451f5cb4240"
+        },
+        {
+          "path": "finalize_after_recovery_v3.py",
+          "bytes": 2616,
+          "sha256": "c6a58aa6e43f2412ed0832d106df8b9ce2f9104de5993bc398df4160aa78c53f"
+        },
+        {
+          "path": "run_multiseed.py",
+          "bytes": 8038,
+          "sha256": "575ff7c004506219e9d1c1838ae2e7689d65f0cc00f4017c3b04b5787583622a"
+        }
+      ]
+    },
+    {
+      "id": "downstream_main",
+      "title": "六表下游预测",
+      "paper_location": "Table IV",
+      "records_in_primary_list": null,
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_ThreeSeeds",
+      "scope_note": "Publication subset only; all retained numeric observations unchanged.",
+      "published_files": [
+        "results/studies/downstream_main/three_seed_downstream_aggregate.json"
+      ],
+      "source_records": [
+        {
+          "published_file": "results/studies/downstream_main/three_seed_downstream_aggregate.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_ThreeSeeds",
+          "original_relative_path": "reports/three_seed_downstream_aggregate.json",
+          "original_sha256": "96329204e6be871d1d86dbf5bd6beb330285825aaedb1552d48285c48dcf6525",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": null,
+          "published_list_length": null,
+          "server_original_relative_path": "reports/three_seed_downstream_aggregate.json",
+          "server_original_sha256": "bb94e46ad1ec1ca5e2898cde2565e50be00da911b75ff508945160b68bac9915",
+          "published_sha256": "96329204e6be871d1d86dbf5bd6beb330285825aaedb1552d48285c48dcf6525"
+        }
+      ],
+      "execution_code_files": [
+        {
+          "path": "aggregate_downstream.py",
+          "bytes": 5567,
+          "sha256": "e3123d7a5512395f72278387f4e0c2f78446a99c90017a7ba7feed80d424b7d9"
+        },
+        {
+          "path": "audit_completed_downstream.py",
+          "bytes": 7087,
+          "sha256": "cf7cc7f081d84b28db096c75d8ec166e8c7424ef5a78e91bd807e1abebcda558"
+        },
+        {
+          "path": "run_downstream_multiseed.py",
+          "bytes": 9433,
+          "sha256": "ac5ed69491c12734f5faa40e9411ec8e1ca41251097e44200dfe9cdc096ae59d"
+        }
+      ]
+    },
+    {
+      "id": "module_ablation",
+      "title": "完整六表配对模块消融",
+      "paper_location": "Table V, Fig.5a, Fig.5b",
+      "records_in_primary_list": null,
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Ablation_ThreeSeeds",
+      "scope_note": "Publication subset only; all retained numeric observations unchanged.",
+      "published_files": [
+        "results/studies/module_ablation/three_seed_ablation_aggregate.json"
+      ],
+      "source_records": [
+        {
+          "published_file": "results/studies/module_ablation/three_seed_ablation_aggregate.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Ablation_ThreeSeeds",
+          "original_relative_path": "reports/three_seed_ablation_aggregate.json",
+          "original_sha256": "26cc13402a0dc2a60fe37125b2caa0b22e9e015aa18ac63faa2b381b32479623",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": null,
+          "published_list_length": null,
+          "server_original_relative_path": "reports/three_seed_ablation_aggregate.json",
+          "server_original_sha256": "26cc13402a0dc2a60fe37125b2caa0b22e9e015aa18ac63faa2b381b32479623",
+          "published_sha256": "c89b14f1ece49bb54594d76dae6c1f41188d5d18593a815e12b40ada7cb5e52b"
+        }
+      ],
+      "execution_code_files": [
+        {
+          "path": "aggregate_ablation.py",
+          "bytes": 9267,
+          "sha256": "65c2a1a1bea5272ac89cfaf1d8e171147ffe971a8f64dc79c8521f517bfbe622"
+        },
+        {
+          "path": "audit_completed_ablation.py",
+          "bytes": 8258,
+          "sha256": "fdd01de9e104f43bbd9fc0525308695eb77ad52ba6a9c9129607af8b931c9a92"
+        },
+        {
+          "path": "run_ablation_multiseed.py",
+          "bytes": 8119,
+          "sha256": "59e8ab3cdb19e6591d54b6dd54fbd0dbf688493e1b531c91262ff287292353a6"
+        }
+      ]
+    },
+    {
+      "id": "advisor_supplement",
+      "title": "Car/Concrete独立消融与Concrete鲁棒性",
+      "paper_location": "Fig.6, Table VIa",
+      "records_in_primary_list": 66,
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021",
+      "scope_note": "Publication subset only; all retained numeric observations unchanged.",
+      "published_files": [
+        "results/studies/advisor_supplement/paper_all_scores.json",
+        "results/studies/advisor_supplement/paper_aggregate.json"
+      ],
+      "source_records": [
+        {
+          "published_file": "results/studies/advisor_supplement/paper_all_scores.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021",
+          "original_relative_path": "reports/paper_all_scores.json",
+          "original_sha256": "868515e79c050b3656d2fd9734d4af58e98e0207bd5aa522e3208b7aecb75a0e",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 150,
+          "published_list_length": 24,
+          "server_original_relative_path": "reports/all_scores.json",
+          "server_original_sha256": "c88712719a5e46c75c69fc6a5ebbf4a73d4eff3e830d3880c52166b62065f0ca",
+          "published_sha256": "e3a61ea6ea65f9685b8620b55b43831288a20d69bc13197801da5eae62d2e96d"
+        },
+        {
+          "published_file": "results/studies/advisor_supplement/paper_aggregate.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Advisor_Study_20261021",
+          "original_relative_path": "reports/paper_aggregate.json",
+          "original_sha256": "d3e228237da63ad89ec73862e73ee4ed1bec712acbe3ac19601f9a43975d8f20",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 47,
+          "published_list_length": 8,
+          "server_original_relative_path": "reports/aggregate.json",
+          "server_original_sha256": "d0fbb6ac12994aac074b297b9f373706c8876d88dd61f8920d669aa74bdac843",
+          "published_sha256": "94c74b36992d96a62e3ca7dbc8bd4fa73205b44f4838a7da1c9a301dc3982b7c"
+        }
+      ],
+      "execution_code_files": [
+        {
+          "path": "code/ablation_protocol.py",
+          "bytes": 3106,
+          "sha256": "aa0aabda9770637db45eb83712c304f8842546f05813754f8e40aa9cf1c3a899"
+        },
+        {
+          "path": "code/advisor_metadata_v4.py",
+          "bytes": 799,
+          "sha256": "261065265e0d985ca93c7cc8531a3576047a9166a851e435cc8e3cd83daf6014"
+        },
+        {
+          "path": "code/audit_ready_v4.py",
+          "bytes": 3704,
+          "sha256": "aad882facdcc817fcf8c2902ee8111d67bc67edb7a35c6dc52bccec903510ad4"
+        },
+        {
+          "path": "code/audit_ready_v5.py",
+          "bytes": 4634,
+          "sha256": "d814f5e737d33273b67452b18f6b72724f0394282fb71140b14038357fc09800"
+        },
+        {
+          "path": "code/catalog.py",
+          "bytes": 1617,
+          "sha256": "c03f5f8e28bd82a90f260751559149daa7c22ff5f800bb102a914c53ef13b1f2"
+        },
+        {
+          "path": "code/common.py",
+          "bytes": 1159,
+          "sha256": "8d7b04e3ea406bbaabbb9f3a2a9f539751f59c98c765ab8740ca3c5ff87318e8"
+        },
+        {
+          "path": "code/compact_workbook.py",
+          "bytes": 8556,
+          "sha256": "aca1a6fd35e538076eb10ec7418d4f1464a66cbd18c67a54e7e1f5e7c3d9b6d3"
+        },
+        {
+          "path": "code/controller.py",
+          "bytes": 3838,
+          "sha256": "d6ec7a393663db79c4f7449f15bb6d6f800307c639aad165cbb4cfa38dcec60a"
+        },
+        {
+          "path": "code/curator.py",
+          "bytes": 7751,
+          "sha256": "80cf1b4cc18d5a734f161df8e1f8397bc2e052cd2e43a7110b8b80c6e29dadb9"
+        },
+        {
+          "path": "code/curator_v2.py",
+          "bytes": 1006,
+          "sha256": "3cb7813d5f6b9504575efbc14fa25c19cc1d9f0ecc7287acb62553547a6a21fc"
+        },
+        {
+          "path": "code/curator_v3.py",
+          "bytes": 252,
+          "sha256": "fcb5f79cb8bb1f2603e3a0419c2cda9b8fa2cd35bc0b6577454d23cbbf1c5303"
+        },
+        {
+          "path": "code/delivery_after_score.py",
+          "bytes": 901,
+          "sha256": "31b58dee1da2c9b8cd2dd6656c86725cb5343db59d75627bb091118a13950650"
+        },
+        {
+          "path": "code/delivery_after_score_v2.py",
+          "bytes": 913,
+          "sha256": "ea1872a7ad9590e071ce309121c1771ba2a9c3336c90f746976df4b967590daa"
+        },
+        {
+          "path": "code/delivery_after_score_v3.py",
+          "bytes": 913,
+          "sha256": "0dbe0625cd8e57445b3305e817d787ac36452dbe768eee62c03ba0656eba340b"
+        },
+        {
+          "path": "code/ef-python",
+          "bytes": 161,
+          "sha256": "71c04417ab294e8caa2b31a46d76b17346a20e49589da98cee92b3b4e724ca2a"
+        },
+        {
+          "path": "code/ef-python-v4",
+          "bytes": 164,
+          "sha256": "25fe5ff527e186f5bbb37f9da81b2d25df0bd59d90815454b9c18f99c8999a8b"
+        },
+        {
+          "path": "code/final_delivery_review.py",
+          "bytes": 8318,
+          "sha256": "2890557c1e0c1bb5c0f22ad2cb73ea01a537f378a8b5244dec783b211f233275"
+        },
+        {
+          "path": "code/final_presentation.py",
+          "bytes": 13400,
+          "sha256": "b227e903b05a423ead457b22e8b3e311581687abae60781f09c718d8fc9171b3"
+        },
+        {
+          "path": "code/finalize_reviewed_v5.py",
+          "bytes": 2543,
+          "sha256": "7c0e7b60b08e6ef106f82aa44fb02612c05de65f2e2a871bc25e600fb4133d8b"
+        },
+        {
+          "path": "code/model_service.py",
+          "bytes": 3956,
+          "sha256": "e471d8f465eefeb6b0cfabcc59581e3e3dc147278cfc7698ef9ff116eb5ba813"
+        },
+        {
+          "path": "code/native.py",
+          "bytes": 6618,
+          "sha256": "df786fa0235c4c6b04cd24c88832c4b4d7e3482d06bb49444ce267a51ea5b544"
+        },
+        {
+          "path": "code/native_tool_entry.py",
+          "bytes": 184,
+          "sha256": "2536aefe474096b489fca27e40df6fc432b28f0abb992dd2ebf46838bba08bd1"
+        },
+        {
+          "path": "code/native_v2.py",
+          "bytes": 6718,
+          "sha256": "6d965003dea74a3b927fb77d02ef7fdcf6a6df6dfc8d8bf40ba4c30d477fa55d"
+        },
+        {
+          "path": "code/native_v3.py",
+          "bytes": 6763,
+          "sha256": "563420143042c7e47fb08209d12e4efadee28de00fe4d64c844d7d63aa8c9a10"
+        },
+        {
+          "path": "code/prediction.py",
+          "bytes": 3129,
+          "sha256": "41a291f9e30c62c1a8d3ff5a9a5b705e8acde764b09996d335486b9d91e36702"
+        },
+        {
+          "path": "code/preflight.py",
+          "bytes": 2084,
+          "sha256": "add1d9bcf54fec7b2b24ad1efd19729d83979d95fd045cad6d7f1b91103894e7"
+        },
+        {
+          "path": "code/queue_v3.py",
+          "bytes": 5303,
+          "sha256": "cae83623e3b5f8f059db5d2b876236b07b68945e65d0dd74cd9e1433ff94691e"
+        },
+        {
+          "path": "code/queue_v4.py",
+          "bytes": 6699,
+          "sha256": "37c084df5cf705aecce7753bc8485915f8b9324cb2c2db37526d3f2ddaa56760"
+        },
+        {
+          "path": "code/reader_postprocess.py",
+          "bytes": 20039,
+          "sha256": "18b82265f200ea179d42a0d5a6cabd4bbe5801c5856b17c37621fb17dd1b03d6"
+        },
+        {
+          "path": "code/reader_postprocess_v2.py",
+          "bytes": 20651,
+          "sha256": "586a048e4da542e2d8daccf2d52ad8f4a241d91ef8418d40cfa416cadb79fba6"
+        },
+        {
+          "path": "code/reader_postprocess_v3.py",
+          "bytes": 21928,
+          "sha256": "2fab0449eff72f35c39fd96b4f2649173078f734368b9219c6483915049e9188"
+        },
+        {
+          "path": "code/report.py",
+          "bytes": 5150,
+          "sha256": "6e8b349a5a5c43c4a9d9004347117ff80dd4663e18cd8ea8a7b5e3b11942fcc7"
+        },
+        {
+          "path": "code/report_v2.py",
+          "bytes": 5221,
+          "sha256": "e1ae2a08b7bd8ee779d274ec1fec7296d01ed3ffb578628301212498e9964f88"
+        },
+        {
+          "path": "code/resume_source_v4.py",
+          "bytes": 2703,
+          "sha256": "7e870decc81ef91e3e59f87f2f445e7b63ed0147697d3706edccc312228b4ee8"
+        },
+        {
+          "path": "code/review_source_unavailable_v5.py",
+          "bytes": 2215,
+          "sha256": "245f394ef26663fd017373bbce953743fe4e091a506dfbfdcf4e5d65920334ff"
+        },
+        {
+          "path": "code/runtime.py",
+          "bytes": 5179,
+          "sha256": "ec949b3309a14fa5940486aee310502a1b19572b13591c3df287c849c9bf86b8"
+        },
+        {
+          "path": "code/runtime_v4.py",
+          "bytes": 2115,
+          "sha256": "1612bcc1c9c616d36d84cca8c8fc6da263750f7b1c178371e8ffd507e2559544"
+        },
+        {
+          "path": "code/safe_exec.py",
+          "bytes": 1396,
+          "sha256": "b6fd570f202f27fecb6332ba0383620cf8f532cddeb4d26769a836dafa7d01f0"
+        },
+        {
+          "path": "code/satellite.py",
+          "bytes": 1883,
+          "sha256": "27610b94e171681dfb8f5fd5d75c13d8f9098718d255f2efaf4ee6e3f959fff2"
+        },
+        {
+          "path": "code/score.py",
+          "bytes": 4172,
+          "sha256": "81fb34031a66bdd92543b7349ee820d08c75ee24bc5bcf7cdd6d4f0280c85c32"
+        },
+        {
+          "path": "code/score_review_v3.py",
+          "bytes": 1202,
+          "sha256": "8f7feff632a5c773c2d01784be5cb808ce03aed8a8c39855f62fb60bd56ece6e"
+        },
+        {
+          "path": "code/score_v2.py",
+          "bytes": 670,
+          "sha256": "63b50a98a77338e01559381db9173a5d3869e51acab66168c9b659e07d25660f"
+        },
+        {
+          "path": "code/tabclean.py",
+          "bytes": 5542,
+          "sha256": "d1a8392aebbf5c64a602a2f1e20dbc5664e5c7419323894267dd5d56b954c6ab"
+        },
+        {
+          "path": "code/worker.py",
+          "bytes": 8534,
+          "sha256": "3476d8d0f6de754c986b4a40e29e0b2ddda6cadafa7d6ae04e72cf4908478e7f"
+        },
+        {
+          "path": "code/worker_v2.py",
+          "bytes": 9799,
+          "sha256": "3d3a195f79b9bcf83a3cdae7d379d59ce82d5ec37039ea84e5e35dc3c5f0e32b"
+        },
+        {
+          "path": "code/worker_v3.py",
+          "bytes": 9814,
+          "sha256": "12ac7b189be55cfd32324a6a1ff9a0cc5bdfb200278586d49ed5df0a216d4e46"
+        },
+        {
+          "path": "code/worker_v4.py",
+          "bytes": 10007,
+          "sha256": "a8e8b7699bf1e4410b490ced29a1377a2185095944230fbc09b6e279beb67e9d"
+        }
+      ],
+      "records_in_original_source": 150
+    },
+    {
+      "id": "llm_digit70",
+      "title": "70%数字替换有/无LLM",
+      "paper_location": "Fig.5c",
+      "records_in_primary_list": 20,
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Digit70_LLM_Ablation_20261024",
+      "scope_note": "Publication subset only; all retained numeric observations unchanged.",
+      "published_files": [
+        "results/studies/llm_digit70/all_scores.json",
+        "results/studies/llm_digit70/aggregate.json",
+        "results/studies/llm_digit70/paired_differences.json",
+        "results/studies/llm_digit70/qualification.json",
+        "results/studies/llm_digit70/actual_model_costs.json",
+        "results/studies/llm_digit70/污染实际行格比例.json"
+      ],
+      "source_records": [
+        {
+          "published_file": "results/studies/llm_digit70/all_scores.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Digit70_LLM_Ablation_20261024",
+          "original_relative_path": "reports/all_scores.json",
+          "original_sha256": "078a1cb9f8fa5d47f426e38cfb34bc9edf4768e232cff3f6d44e087e0512a1d5",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 20,
+          "published_list_length": 20,
+          "server_original_relative_path": "reports/all_scores.json",
+          "server_original_sha256": "81ce1038cfb6300a9cacbdec7968e93acea7fc01b595f51030373dd7f46fadf0",
+          "published_sha256": "078a1cb9f8fa5d47f426e38cfb34bc9edf4768e232cff3f6d44e087e0512a1d5"
+        },
+        {
+          "published_file": "results/studies/llm_digit70/aggregate.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Digit70_LLM_Ablation_20261024",
+          "original_relative_path": "reports/aggregate.json",
+          "original_sha256": "635bd7e30bde37a0efb5cdf1023ac9796507ea9a8a4104b2747ac92d9cc09d2a",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 4,
+          "published_list_length": 4,
+          "server_original_relative_path": "reports/aggregate.json",
+          "server_original_sha256": "635bd7e30bde37a0efb5cdf1023ac9796507ea9a8a4104b2747ac92d9cc09d2a",
+          "published_sha256": "635bd7e30bde37a0efb5cdf1023ac9796507ea9a8a4104b2747ac92d9cc09d2a"
+        },
+        {
+          "published_file": "results/studies/llm_digit70/paired_differences.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Digit70_LLM_Ablation_20261024",
+          "original_relative_path": "reports/paired_differences.json",
+          "original_sha256": "247e047930f8a4f4536f775347d4ec7f8fee56983b6f6d93b65faaec96ba0376",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 2,
+          "published_list_length": 2,
+          "server_original_relative_path": "reports/paired_differences.json",
+          "server_original_sha256": "247e047930f8a4f4536f775347d4ec7f8fee56983b6f6d93b65faaec96ba0376",
+          "published_sha256": "247e047930f8a4f4536f775347d4ec7f8fee56983b6f6d93b65faaec96ba0376"
+        },
+        {
+          "published_file": "results/studies/llm_digit70/qualification.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Digit70_LLM_Ablation_20261024",
+          "original_relative_path": "reports/qualification.json",
+          "original_sha256": "ca050774aa7a8751f9f6ca0391219a75e56918fb22392df0cc8f12671598e2d6",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 20,
+          "published_list_length": 20,
+          "server_original_relative_path": "reports/qualification.json",
+          "server_original_sha256": "ca050774aa7a8751f9f6ca0391219a75e56918fb22392df0cc8f12671598e2d6",
+          "published_sha256": "ca050774aa7a8751f9f6ca0391219a75e56918fb22392df0cc8f12671598e2d6"
+        },
+        {
+          "published_file": "results/studies/llm_digit70/actual_model_costs.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Digit70_LLM_Ablation_20261024",
+          "original_relative_path": "reports/actual_model_costs.json",
+          "original_sha256": "96807ee8a325fdae57b2f2d2a1f9ad54e637b66d2a8a96ecc9d71ff77f0112e0",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 10,
+          "published_list_length": 10,
+          "server_original_relative_path": "reports/actual_model_costs.json",
+          "server_original_sha256": "96807ee8a325fdae57b2f2d2a1f9ad54e637b66d2a8a96ecc9d71ff77f0112e0",
+          "published_sha256": "96807ee8a325fdae57b2f2d2a1f9ad54e637b66d2a8a96ecc9d71ff77f0112e0"
+        },
+        {
+          "published_file": "results/studies/llm_digit70/污染实际行格比例.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Digit70_LLM_Ablation_20261024",
+          "original_relative_path": "reports/污染实际行格比例.json",
+          "original_sha256": "974354c0c159d2e6eac56170a55f8deca7dfc8318ea2539e698ecb7f1f0eaafe",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 10,
+          "published_list_length": 10,
+          "server_original_relative_path": "reports/污染实际行格比例.json",
+          "server_original_sha256": "974354c0c159d2e6eac56170a55f8deca7dfc8318ea2539e698ecb7f1f0eaafe",
+          "published_sha256": "974354c0c159d2e6eac56170a55f8deca7dfc8318ea2539e698ecb7f1f0eaafe"
+        }
+      ],
+      "execution_code_files": [
+        {
+          "path": "code/ablation_protocol.py",
+          "bytes": 3106,
+          "sha256": "aa0aabda9770637db45eb83712c304f8842546f05813754f8e40aa9cf1c3a899"
+        },
+        {
+          "path": "code/advisor_metadata_v4.py",
+          "bytes": 799,
+          "sha256": "261065265e0d985ca93c7cc8531a3576047a9166a851e435cc8e3cd83daf6014"
+        },
+        {
+          "path": "code/audit_ready.py",
+          "bytes": 5041,
+          "sha256": "cea2df6daf0f574b26e4c726a8e331023ba1a2086f15a572dec4fa309c34ca3a"
+        },
+        {
+          "path": "code/common.py",
+          "bytes": 1159,
+          "sha256": "8d7b04e3ea406bbaabbb9f3a2a9f539751f59c98c765ab8740ca3c5ff87318e8"
+        },
+        {
+          "path": "code/controller.py",
+          "bytes": 3694,
+          "sha256": "b6cc623cdeef230e2b7e67e7274f65c6c58961c50133bdca516d36d6e85d2d09"
+        },
+        {
+          "path": "code/coverage_entry_v3.py",
+          "bytes": 412,
+          "sha256": "6bce22484e9ee26302c4164b14f4f4050276fc934be569d8664073d1672f4b82"
+        },
+        {
+          "path": "code/coverage_two.py",
+          "bytes": 2359,
+          "sha256": "6b548ffedea4b903cd824b8641d65414b879dcc927dce7f9e1cb93c82c587980"
+        },
+        {
+          "path": "code/coverage_v3.py",
+          "bytes": 656,
+          "sha256": "bb650261893c55d9cce1845c084ae99f1677b91c29367e3e51a08cfa62238d3a"
+        },
+        {
+          "path": "code/cpu_contracts.py",
+          "bytes": 3582,
+          "sha256": "fd26a3d260c6477e1ffa86fc90177c210213baadd99e27c3698a877ce152e5d7"
+        },
+        {
+          "path": "code/curator.py",
+          "bytes": 6122,
+          "sha256": "64841924baeffea9a76384a9ba015409269c1f2e5138759863a5ffbf7b420ea7"
+        },
+        {
+          "path": "code/ef-python-v4",
+          "bytes": 171,
+          "sha256": "146fc9ba068e3ba8dfe975943167b8990e9d64c55d54f6e28a8ea64d96fe3e06"
+        },
+        {
+          "path": "code/final_review.py",
+          "bytes": 3673,
+          "sha256": "65d22bd96b116d20b5ee65dec8efbaa59c1c3ab198beba62c50bc6bfe7eb2a0c"
+        },
+        {
+          "path": "code/launch_checks.py",
+          "bytes": 5244,
+          "sha256": "dd3e88df7d72da68494347aea0c3ec3fd4ed3dc11dce9e7a3788f3b201454a83"
+        },
+        {
+          "path": "code/model_service.py",
+          "bytes": 4641,
+          "sha256": "f17e375e2a011db1b3c498b3fc6e189dd891be6477a928da97b8ddff4fa03bc6"
+        },
+        {
+          "path": "code/monitor.py",
+          "bytes": 2090,
+          "sha256": "8f6d853edc39e64f59b69f825709797395ae6b3276cdaa3b4cbb7ba7dc2ea954"
+        },
+        {
+          "path": "code/native_tool_entry.py",
+          "bytes": 184,
+          "sha256": "2536aefe474096b489fca27e40df6fc432b28f0abb992dd2ebf46838bba08bd1"
+        },
+        {
+          "path": "code/native_v3.py",
+          "bytes": 6763,
+          "sha256": "563420143042c7e47fb08209d12e4efadee28de00fe4d64c844d7d63aa8c9a10"
+        },
+        {
+          "path": "code/original_curator_functions.py",
+          "bytes": 4392,
+          "sha256": "915d3f15b04e3696e521713d4a4fd9421dc3613694a73b892670ee6dadbe9456"
+        },
+        {
+          "path": "code/pollution_contracts.py",
+          "bytes": 1721,
+          "sha256": "95740b2c69527859ce5cda7ce04a2e32b7147e4220f43f2e1c3c30373c1b529e"
+        },
+        {
+          "path": "code/preflight.py",
+          "bytes": 1746,
+          "sha256": "ac39b51fa86cdf63997701767096b193fbcecf1751cc2113dcc4f8b038299b70"
+        },
+        {
+          "path": "code/report.py",
+          "bytes": 8661,
+          "sha256": "70330a16e8c12ea7259dd4a067260696e5662c75506c746ee3a59bee415e487e"
+        },
+        {
+          "path": "code/resume_source_v4.py",
+          "bytes": 2703,
+          "sha256": "7e870decc81ef91e3e59f87f2f445e7b63ed0147697d3706edccc312228b4ee8"
+        },
+        {
+          "path": "code/runtime.py",
+          "bytes": 5355,
+          "sha256": "d7bd968fba22e56504088fac97649e00a3990014d91a3720a882bef3fb271ef5"
+        },
+        {
+          "path": "code/runtime_v4.py",
+          "bytes": 2115,
+          "sha256": "1612bcc1c9c616d36d84cca8c8fc6da263750f7b1c178371e8ffd507e2559544"
+        },
+        {
+          "path": "code/score.py",
+          "bytes": 4264,
+          "sha256": "62cda90775082a6298d55d31ef3ac1540ebad87c4e7f24697994698534bb5b3c"
+        },
+        {
+          "path": "code/watcher.py",
+          "bytes": 674,
+          "sha256": "698e341cf5ab08905580d0182382f63d83dd17abd84a7c8d3b5e1d8193d1ac32"
+        },
+        {
+          "path": "code/worker.py",
+          "bytes": 9295,
+          "sha256": "99f82b09253e4746bb89dda805a3bdc03fa6734552b69518c878e16462eec803"
+        }
+      ]
+    },
+    {
+      "id": "threshold",
+      "title": "五档置信门槛敏感性",
+      "paper_location": "Table VIb",
+      "records_in_primary_list": 90,
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Threshold_Sensitivity_20261022",
+      "scope_note": "Publication subset only; all retained numeric observations unchanged.",
+      "published_files": [
+        "results/studies/threshold/all_scores.json",
+        "results/studies/threshold/aggregate.json",
+        "results/studies/threshold/paired_differences.json"
+      ],
+      "source_records": [
+        {
+          "published_file": "results/studies/threshold/all_scores.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Threshold_Sensitivity_20261022",
+          "original_relative_path": "reports/all_scores.json",
+          "original_sha256": "067c26bd40b9be46eb82d1bb4f3537b3ac9004a4d5e4e58af5454a9bf9637912",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 90,
+          "published_list_length": 15,
+          "server_original_relative_path": "reports/all_scores.json",
+          "server_original_sha256": "067c26bd40b9be46eb82d1bb4f3537b3ac9004a4d5e4e58af5454a9bf9637912",
+          "published_sha256": "8eb064c48c47e6cd471ba4e0f5e6b629c092b3633a27188c3bae3b261e1ddcd2"
+        },
+        {
+          "published_file": "results/studies/threshold/aggregate.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Threshold_Sensitivity_20261022",
+          "original_relative_path": "reports/aggregate.json",
+          "original_sha256": "6fae307d07a2441b62c07607f0776d4edeacda70bb230c960af4daa8b6a4df22",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 30,
+          "published_list_length": 5,
+          "server_original_relative_path": "reports/aggregate.json",
+          "server_original_sha256": "6fae307d07a2441b62c07607f0776d4edeacda70bb230c960af4daa8b6a4df22",
+          "published_sha256": "67b73a35b8276623dd6d122d178c5c148de6f1f4a56e8209086d693ab9b2deed"
+        },
+        {
+          "published_file": "results/studies/threshold/paired_differences.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Threshold_Sensitivity_20261022",
+          "original_relative_path": "reports/paired_differences.json",
+          "original_sha256": "ba591a8eabe3ab6ab015afd5a73c6951ef855c86e8f64470d56059e828a3832c",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 24,
+          "published_list_length": 4,
+          "server_original_relative_path": "reports/paired_differences.json",
+          "server_original_sha256": "ba591a8eabe3ab6ab015afd5a73c6951ef855c86e8f64470d56059e828a3832c",
+          "published_sha256": "0c182be2bb0b520339760cda55511746550e6fd6e55b62c2b4e3fc1d1af288d1"
+        }
+      ],
+      "execution_code_files": [
+        {
+          "path": "code/common.py",
+          "bytes": 1152,
+          "sha256": "fcbf04c2146d99885c7f40ef093dfdbfc819652db07391ab363108d24d4120b5"
+        },
+        {
+          "path": "code/controller.py",
+          "bytes": 2599,
+          "sha256": "9a4b42644c1341a49ef5503d91c0a51ff89d36a106817005cace343987b73f73"
+        },
+        {
+          "path": "code/controller_v2.py",
+          "bytes": 2724,
+          "sha256": "6e5cb4a5e38f07d05a1e080f6f737cdeeb3bc30aae7fa6ea81d558f967a55d40"
+        },
+        {
+          "path": "code/preflight.py",
+          "bytes": 1905,
+          "sha256": "032690e69e0e823fe4f0bc764d4977cf3934233d3746ed5cd28d6beb0c40b00f"
+        },
+        {
+          "path": "code/present.py",
+          "bytes": 9056,
+          "sha256": "03194c92b4e4838de4833214dc4697bffc3e5419f0015c096d1e75f0f49ab0ec"
+        },
+        {
+          "path": "code/presentation_wait.py",
+          "bytes": 950,
+          "sha256": "589ac4e03c12e3b602550610eb5258e4ce6c746ca789481d174ac73b9f434783"
+        },
+        {
+          "path": "code/runtime.py",
+          "bytes": 2843,
+          "sha256": "ed51d85c02bc890027d901e9e0f5ced9053d68390a848190e27c3430996448ba"
+        },
+        {
+          "path": "code/score_once.py",
+          "bytes": 4266,
+          "sha256": "19c5a982276cab0b8ddae60eb2fa2c500412ab6d479d17fa2a2d6b661a2b6030"
+        },
+        {
+          "path": "code/worker.py",
+          "bytes": 2194,
+          "sha256": "8192f757e8a8b025bcce9793eb937bf819d419578b7466fadb3a2aa6a5f37a53"
+        }
+      ]
+    },
+    {
+      "id": "robustness_retinopathy",
+      "title": "Retinopathy污染率与错误类型",
+      "paper_location": "Fig.6, Table VIa",
+      "records_in_primary_list": 72,
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022",
+      "scope_note": "Publication subset only; all retained numeric observations unchanged.",
+      "published_files": [
+        "results/studies/robustness_retinopathy/all_scores.json",
+        "results/studies/robustness_retinopathy/aggregate.json"
+      ],
+      "source_records": [
+        {
+          "published_file": "results/studies/robustness_retinopathy/all_scores.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022",
+          "original_relative_path": "reports/all_scores.json",
+          "original_sha256": "31668229795eb2508a0bd5d664835ae61cfc6ff1df002a90d8cee45181803874",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 72,
+          "published_list_length": 24,
+          "server_original_relative_path": "reports/all_scores.json",
+          "server_original_sha256": "e694be7f0b792d2419634124ce7be66d4d3f7ff5100a401d43df140d83d6b423",
+          "published_sha256": "2708d931b76ced4225188d7a67d5467f84fbc5880630edc4058dfaf87e1439a6"
+        },
+        {
+          "published_file": "results/studies/robustness_retinopathy/aggregate.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Robustness_Retinopathy_20261022",
+          "original_relative_path": "reports/aggregate.json",
+          "original_sha256": "6589d346dfa88ebb9bf41ac67861c4961c8d6e4723fb653a7d8347d45f0d449e",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 24,
+          "published_list_length": 8,
+          "server_original_relative_path": "reports/aggregate.json",
+          "server_original_sha256": "6589d346dfa88ebb9bf41ac67861c4961c8d6e4723fb653a7d8347d45f0d449e",
+          "published_sha256": "492b679814d7c83729dea12430f5b6937ae660f187a0aeaafd7f3a71edcaf760"
+        }
+      ],
+      "execution_code_files": [
+        {
+          "path": "code/ablation_protocol.py",
+          "bytes": 3106,
+          "sha256": "aa0aabda9770637db45eb83712c304f8842546f05813754f8e40aa9cf1c3a899"
+        },
+        {
+          "path": "code/advisor_metadata_v4.py",
+          "bytes": 799,
+          "sha256": "261065265e0d985ca93c7cc8531a3576047a9166a851e435cc8e3cd83daf6014"
+        },
+        {
+          "path": "code/audit_ready.py",
+          "bytes": 3365,
+          "sha256": "a282bddd038c7abf430350dcb7e45f65c08b0aaa68ba4797d230cf4c39a62492"
+        },
+        {
+          "path": "code/catalog.py",
+          "bytes": 1617,
+          "sha256": "c03f5f8e28bd82a90f260751559149daa7c22ff5f800bb102a914c53ef13b1f2"
+        },
+        {
+          "path": "code/check_source_guards.py",
+          "bytes": 1997,
+          "sha256": "c580bcac4ba5a4c5e890d7b6370625d46e2f81ad205946bfc47ff30ac9204ddc"
+        },
+        {
+          "path": "code/common.py",
+          "bytes": 1159,
+          "sha256": "8d7b04e3ea406bbaabbb9f3a2a9f539751f59c98c765ab8740ca3c5ff87318e8"
+        },
+        {
+          "path": "code/controller.py",
+          "bytes": 3572,
+          "sha256": "dcbce98d63d00ba538f767d04b6e04bea06b0613602b11bf76431b310b8b8df2"
+        },
+        {
+          "path": "code/curate_retino.py",
+          "bytes": 2547,
+          "sha256": "62e3ad6829da54ec4cf54da675d98761cbb2b670ebd4d1156612723f5c47b268"
+        },
+        {
+          "path": "code/ef-python",
+          "bytes": 170,
+          "sha256": "93083d1f26e54e5458c47440246aa9ca43db2327a31b3b4b8c0899f81e9e41b3"
+        },
+        {
+          "path": "code/ef-python-v4",
+          "bytes": 173,
+          "sha256": "343066c4109ebc30a787bbaa9be22501d29bc6e27c5bae5946ca26a6499c51be"
+        },
+        {
+          "path": "code/model_service.py",
+          "bytes": 3966,
+          "sha256": "3ec1c7eff9152cbda75d4ff737c3d46a99a243fa6ce4911b4b488d81613b5ea6"
+        },
+        {
+          "path": "code/native_tool_entry.py",
+          "bytes": 184,
+          "sha256": "2536aefe474096b489fca27e40df6fc432b28f0abb992dd2ebf46838bba08bd1"
+        },
+        {
+          "path": "code/native_v3.py",
+          "bytes": 6763,
+          "sha256": "563420143042c7e47fb08209d12e4efadee28de00fe4d64c844d7d63aa8c9a10"
+        },
+        {
+          "path": "code/prediction.py",
+          "bytes": 3129,
+          "sha256": "41a291f9e30c62c1a8d3ff5a9a5b705e8acde764b09996d335486b9d91e36702"
+        },
+        {
+          "path": "code/preflight.py",
+          "bytes": 2084,
+          "sha256": "add1d9bcf54fec7b2b24ad1efd19729d83979d95fd045cad6d7f1b91103894e7"
+        },
+        {
+          "path": "code/present.py",
+          "bytes": 6432,
+          "sha256": "ba1f83f18b61dacdacd100e7a9238cfc6a6fa6ffe99bc9adbd4d46f37559c8b2"
+        },
+        {
+          "path": "code/presentation_wait.py",
+          "bytes": 1057,
+          "sha256": "475d3f9b2118edf6203d7aeb9966f582a2512a29a9608c3cf16254584c737f9d"
+        },
+        {
+          "path": "code/report.py",
+          "bytes": 4072,
+          "sha256": "4dfdc4b835ab183a325dc64d93189696da6ff5695c308cbc75cd5added5881b1"
+        },
+        {
+          "path": "code/resume_source_v4.py",
+          "bytes": 2703,
+          "sha256": "7e870decc81ef91e3e59f87f2f445e7b63ed0147697d3706edccc312228b4ee8"
+        },
+        {
+          "path": "code/runtime.py",
+          "bytes": 5179,
+          "sha256": "ec949b3309a14fa5940486aee310502a1b19572b13591c3df287c849c9bf86b8"
+        },
+        {
+          "path": "code/runtime_v4.py",
+          "bytes": 2115,
+          "sha256": "1612bcc1c9c616d36d84cca8c8fc6da263750f7b1c178371e8ffd507e2559544"
+        },
+        {
+          "path": "code/score.py",
+          "bytes": 4212,
+          "sha256": "62ec54f33a783438daa09881ce5ffcf4a6f52c8c9eb232a090aaa0949da2c1fc"
+        },
+        {
+          "path": "code/worker.py",
+          "bytes": 8534,
+          "sha256": "3476d8d0f6de754c986b4a40e29e0b2ddda6cadafa7d6ae04e72cf4908478e7f"
+        },
+        {
+          "path": "code/worker_v4.py",
+          "bytes": 10007,
+          "sha256": "a8e8b7699bf1e4410b490ced29a1377a2185095944230fbc09b6e279beb67e9d"
+        }
+      ]
+    },
+    {
+      "id": "efficiency",
+      "title": "历史模型调用与流程成本",
+      "paper_location": "Fig.7b",
+      "records_in_primary_list": null,
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Efficiency_20261022",
+      "scope_note": "Publication subset only; all retained numeric observations unchanged.",
+      "published_files": [
+        "results/studies/efficiency/efficiency_evidence.json"
+      ],
+      "source_records": [
+        {
+          "published_file": "results/studies/efficiency/efficiency_evidence.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Efficiency_20261022",
+          "original_relative_path": "data/efficiency_evidence.json",
+          "original_sha256": "c0ac24a2ff6977223a93ba8836476c254df6c6c6d039ec3eeeee7bcdb4a67b7f",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": null,
+          "published_list_length": null,
+          "server_original_relative_path": "data/efficiency_evidence.json",
+          "server_original_sha256": "c0ac24a2ff6977223a93ba8836476c254df6c6c6d039ec3eeeee7bcdb4a67b7f",
+          "published_sha256": "64a40dbe13a26ec5cecdb24a2ae6daee7b0fa59b5232f128b7ef874df5cfecf6"
+        }
+      ],
+      "execution_code_files": [
+        {
+          "path": "code/build_efficiency_workbook.py",
+          "bytes": 9315,
+          "sha256": "4507c148038b7f7adec60c8938b21f60726fd949866c584257b61d70eafddb0e"
+        },
+        {
+          "path": "code/extract_efficiency.py",
+          "bytes": 6428,
+          "sha256": "a5b42b54776182028b6188b3f2fb5853542765eb1059fe17f022ae8129a94db5"
+        }
+      ]
+    },
+    {
+      "id": "tabclean_same9b",
+      "title": "同9B七表TabClean受控对照",
+      "paper_location": "Fig.4",
+      "records_in_primary_list": 42,
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_TabClean_Protocol_20261024/three_seed_20261025",
+      "scope_note": "Publication subset only; all retained numeric observations unchanged.",
+      "published_files": [
+        "results/studies/tabclean_same9b/all_scores.json",
+        "results/studies/tabclean_same9b/aggregate.json",
+        "results/studies/tabclean_same9b/paired_differences.json",
+        "results/studies/tabclean_same9b/qualification.json"
+      ],
+      "source_records": [
+        {
+          "published_file": "results/studies/tabclean_same9b/all_scores.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_TabClean_Protocol_20261024/three_seed_20261025",
+          "original_relative_path": "reports/all_scores.json",
+          "original_sha256": "82135873f753ba1d12c04038eb6ac6495f5ec5643040962b1c6b5c5872574298",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 42,
+          "published_list_length": 42,
+          "server_original_relative_path": "reports/all_scores.json",
+          "server_original_sha256": "82135873f753ba1d12c04038eb6ac6495f5ec5643040962b1c6b5c5872574298",
+          "published_sha256": "82135873f753ba1d12c04038eb6ac6495f5ec5643040962b1c6b5c5872574298"
+        },
+        {
+          "published_file": "results/studies/tabclean_same9b/aggregate.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_TabClean_Protocol_20261024/three_seed_20261025",
+          "original_relative_path": "reports/aggregate.json",
+          "original_sha256": "efc175322c9ed1bf564cc23a9e71a708572222cca0b4db4bc7ba5fac9be54dc6",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 28,
+          "published_list_length": 28,
+          "server_original_relative_path": "reports/aggregate.json",
+          "server_original_sha256": "efc175322c9ed1bf564cc23a9e71a708572222cca0b4db4bc7ba5fac9be54dc6",
+          "published_sha256": "efc175322c9ed1bf564cc23a9e71a708572222cca0b4db4bc7ba5fac9be54dc6"
+        },
+        {
+          "published_file": "results/studies/tabclean_same9b/paired_differences.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_TabClean_Protocol_20261024/three_seed_20261025",
+          "original_relative_path": "reports/paired_differences.json",
+          "original_sha256": "7a1f8c3a013979b3cd4df24f07a1ef128557193b44df4e0280a07a7a45065e54",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 14,
+          "published_list_length": 14,
+          "server_original_relative_path": "reports/paired_differences.json",
+          "server_original_sha256": "7a1f8c3a013979b3cd4df24f07a1ef128557193b44df4e0280a07a7a45065e54",
+          "published_sha256": "7a1f8c3a013979b3cd4df24f07a1ef128557193b44df4e0280a07a7a45065e54"
+        },
+        {
+          "published_file": "results/studies/tabclean_same9b/qualification.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_TabClean_Protocol_20261024/three_seed_20261025",
+          "original_relative_path": "reports/qualification.json",
+          "original_sha256": "4525d89032fbd70a87c3cecd527a63e86495bee9c29c9cee090e6ab4e519bb80",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": null,
+          "published_list_length": null,
+          "server_original_relative_path": "reports/qualification.json",
+          "server_original_sha256": "4525d89032fbd70a87c3cecd527a63e86495bee9c29c9cee090e6ab4e519bb80",
+          "published_sha256": "4525d89032fbd70a87c3cecd527a63e86495bee9c29c9cee090e6ab4e519bb80"
+        }
+      ],
+      "execution_code_files": [
+        {
+          "path": "code/ablation_protocol.py",
+          "bytes": 3106,
+          "sha256": "aa0aabda9770637db45eb83712c304f8842546f05813754f8e40aa9cf1c3a899"
+        },
+        {
+          "path": "code/after_simple_review_v1.py",
+          "bytes": 1866,
+          "sha256": "af341e88274b17198b48cd51014f282049212a5477d3cf50a34a6bcc36a6b1a9"
+        },
+        {
+          "path": "code/common.py",
+          "bytes": 1159,
+          "sha256": "8d7b04e3ea406bbaabbb9f3a2a9f539751f59c98c765ab8740ca3c5ff87318e8"
+        },
+        {
+          "path": "code/controller_simple.py",
+          "bytes": 7648,
+          "sha256": "27773994000fc91c1cb85dcf139768b6674cd10c1e41fb26bc80b2f6c37467e0"
+        },
+        {
+          "path": "code/data.py",
+          "bytes": 11278,
+          "sha256": "b5d27024130f4dfc03a9d355e484c9dea1dccfc78697b742b2d9555cb80d30a3"
+        },
+        {
+          "path": "code/final_review_simple_v1.py",
+          "bytes": 9702,
+          "sha256": "67bed4e88a429f69b2247ed31679b31a73f8783dbec0abab7c05655318b2e841"
+        },
+        {
+          "path": "code/model_service.py",
+          "bytes": 2110,
+          "sha256": "82e82b0158f9299bc297f7abae147a6142ecffe05e2433148b97a704e286d34e"
+        },
+        {
+          "path": "code/native_tool_entry.py",
+          "bytes": 184,
+          "sha256": "2536aefe474096b489fca27e40df6fc432b28f0abb992dd2ebf46838bba08bd1"
+        },
+        {
+          "path": "code/native_v3.py",
+          "bytes": 6766,
+          "sha256": "2c7a5558192a689f1ddf81ba9717e7c8d291d56c147c6c8567a46eca9d7c0ec5"
+        },
+        {
+          "path": "code/paired_simple.py",
+          "bytes": 1902,
+          "sha256": "b3544b1fd27ad499e4af29dfa2da471d3d132e586e534530f523bec9fe0210a1"
+        },
+        {
+          "path": "code/render_table_display_v2.py",
+          "bytes": 2929,
+          "sha256": "6a911954eef0cef27fefc1444f26f5fcf913f8b7529325ab98e0041d7f491812"
+        },
+        {
+          "path": "code/report_results.py",
+          "bytes": 3777,
+          "sha256": "706b2f29972e7696e7b60a2b51107c120d6f7329a57b9b2fee9a223fef25a4d9"
+        },
+        {
+          "path": "code/resume_source_v5.py",
+          "bytes": 2717,
+          "sha256": "91f9af7b960c1692e788f3a23cedfdda458b97e4eac0489dd89b2d22d9521aef"
+        },
+        {
+          "path": "code/runtime.py",
+          "bytes": 5308,
+          "sha256": "7b5b1aefefbc7cc0d88b1508b93ce2c87f8d59a1d447c2b327320fab47824d8c"
+        },
+        {
+          "path": "code/runtime_serialization_v3.py",
+          "bytes": 1504,
+          "sha256": "7a877f9eed0abbd6f857db7aefafffb8a977d688ede537f9d2fb81b86ec3bd37"
+        },
+        {
+          "path": "code/runtime_v4.py",
+          "bytes": 2115,
+          "sha256": "1612bcc1c9c616d36d84cca8c8fc6da263750f7b1c178371e8ffd507e2559544"
+        },
+        {
+          "path": "code/safe_exec.py",
+          "bytes": 1502,
+          "sha256": "38d313c152dbc815925ef5393ec589feae27aa6f461d2ebfbed078501c328b5a"
+        },
+        {
+          "path": "code/scoring.py",
+          "bytes": 4140,
+          "sha256": "5b6e5eb0dacd0da8b351d6a816326ed59fa6531dc07c7046ac4f60feca688e75"
+        },
+        {
+          "path": "code/study_simple.py",
+          "bytes": 13891,
+          "sha256": "9a5ced4b4dafb4eb57c2a7a7f01edac592814a811c38ce750fa2245d4c40697a"
+        },
+        {
+          "path": "code/tabclean.py",
+          "bytes": 6251,
+          "sha256": "d843c7048fcfe1a8db4e4535ca9cf9f32cd61f599e8047524687aee3eda6d95d"
+        },
+        {
+          "path": "code/worker_simple.py",
+          "bytes": 9982,
+          "sha256": "56ed7b389e74e36141d4bdf4dee4c678df6dc78221511b5c2f07ebb8c4bb0731"
+        }
+      ]
+    },
+    {
+      "id": "sealed_reuse",
+      "title": "封存技能处理三个新批次",
+      "paper_location": "Fig.7a",
+      "records_in_primary_list": 18,
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Skill_Reuse_NewBatches_20261026",
+      "scope_note": "Publication subset only; all retained numeric observations unchanged.",
+      "published_files": [
+        "results/studies/sealed_reuse/all_scores.json",
+        "results/studies/sealed_reuse/aggregate.json",
+        "results/studies/sealed_reuse/qualification.json",
+        "results/studies/sealed_reuse/model_usage.json"
+      ],
+      "source_records": [
+        {
+          "published_file": "results/studies/sealed_reuse/all_scores.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Skill_Reuse_NewBatches_20261026",
+          "original_relative_path": "reports/all_scores.json",
+          "original_sha256": "7781cd393f428b7b22a6925c5e6130bc07ac223626aaa9848494cdb9bfd54126",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 18,
+          "published_list_length": 18,
+          "server_original_relative_path": "reports/all_scores.json",
+          "server_original_sha256": "7781cd393f428b7b22a6925c5e6130bc07ac223626aaa9848494cdb9bfd54126",
+          "published_sha256": "7781cd393f428b7b22a6925c5e6130bc07ac223626aaa9848494cdb9bfd54126"
+        },
+        {
+          "published_file": "results/studies/sealed_reuse/aggregate.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Skill_Reuse_NewBatches_20261026",
+          "original_relative_path": "reports/aggregate.json",
+          "original_sha256": "56ba3c77767459c274ff31f0f79d8b9a50c4be8c2456b88c288acbaac1e5c475",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": null,
+          "published_list_length": null,
+          "server_original_relative_path": "reports/aggregate.json",
+          "server_original_sha256": "56ba3c77767459c274ff31f0f79d8b9a50c4be8c2456b88c288acbaac1e5c475",
+          "published_sha256": "56ba3c77767459c274ff31f0f79d8b9a50c4be8c2456b88c288acbaac1e5c475"
+        },
+        {
+          "published_file": "results/studies/sealed_reuse/qualification.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Skill_Reuse_NewBatches_20261026",
+          "original_relative_path": "reports/qualification.json",
+          "original_sha256": "85b139333e94a1154e5af1dca73f387b5614d7aeb82788eb474ce04897e75c5b",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": null,
+          "published_list_length": null,
+          "server_original_relative_path": "reports/qualification.json",
+          "server_original_sha256": "85b139333e94a1154e5af1dca73f387b5614d7aeb82788eb474ce04897e75c5b",
+          "published_sha256": "85b139333e94a1154e5af1dca73f387b5614d7aeb82788eb474ce04897e75c5b"
+        },
+        {
+          "published_file": "results/studies/sealed_reuse/model_usage.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_Skill_Reuse_NewBatches_20261026",
+          "original_relative_path": "reports/model_usage.json",
+          "original_sha256": "ff2a23f16b8104c12bbc92776ef5355fce0977da30a2854f9c4187f40b1f8cc9",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": null,
+          "published_list_length": null,
+          "server_original_relative_path": "reports/model_usage.json",
+          "server_original_sha256": "ff2a23f16b8104c12bbc92776ef5355fce0977da30a2854f9c4187f40b1f8cc9",
+          "published_sha256": "ff2a23f16b8104c12bbc92776ef5355fce0977da30a2854f9c4187f40b1f8cc9"
+        }
+      ],
+      "execution_code_files": [
+        {
+          "path": "code/ablation_protocol.py",
+          "bytes": 3106,
+          "sha256": "aa0aabda9770637db45eb83712c304f8842546f05813754f8e40aa9cf1c3a899"
+        },
+        {
+          "path": "code/advisor_metadata_v4.py",
+          "bytes": 799,
+          "sha256": "261065265e0d985ca93c7cc8531a3576047a9166a851e435cc8e3cd83daf6014"
+        },
+        {
+          "path": "code/audit_reuse.py",
+          "bytes": 4928,
+          "sha256": "f6893cac9e4a8d4ff2b0261cbd99489abd03f86b8144a0fd5a3c965a878d5b27"
+        },
+        {
+          "path": "code/cache_codec.py",
+          "bytes": 1904,
+          "sha256": "b7ce0904b2ca0735eee6ed2c5d5fe8f5e7656fbf22c5e45fbd5e457b1d2e1fee"
+        },
+        {
+          "path": "code/catalog.py",
+          "bytes": 1617,
+          "sha256": "c03f5f8e28bd82a90f260751559149daa7c22ff5f800bb102a914c53ef13b1f2"
+        },
+        {
+          "path": "code/common.py",
+          "bytes": 1215,
+          "sha256": "0a9681bef16e3f8314b02f94ebe9d74dfa1f76bd3b22ea799fcf04861d1e6d8d"
+        },
+        {
+          "path": "code/controller_reuse.py",
+          "bytes": 4283,
+          "sha256": "cb9e01830a11267f7cc4e338fe2d26715b0f7ed9d2c32902eab9aba5105d0436"
+        },
+        {
+          "path": "code/curate_reuse.py",
+          "bytes": 5737,
+          "sha256": "397890cc493e3359afc0c14f4c14e53f1d268c89d5a4fdf5a49b2b21f1c3ea07"
+        },
+        {
+          "path": "code/ef-python",
+          "bytes": 170,
+          "sha256": "fceea45fb64b923312db0c2f246ee8594ab08f25fe1275161964cdd161e396f3"
+        },
+        {
+          "path": "code/ef-python-v4",
+          "bytes": 173,
+          "sha256": "5aab97da1ef80d681ebc3a12fce50d163da76f4ade2d710c2785c7bcea667573"
+        },
+        {
+          "path": "code/execute_reuse.py",
+          "bytes": 3718,
+          "sha256": "4064b8ee2cb89f6488171ae24b110a68d6601e55155aa8932613bb41ce8644b4"
+        },
+        {
+          "path": "code/final_review_reuse.py",
+          "bytes": 2123,
+          "sha256": "e6bfbc6746ec0d662d6d1df2cc384ce0b2054df23b3f62199b0d2143ae9211b0"
+        },
+        {
+          "path": "code/learn_reuse.py",
+          "bytes": 5825,
+          "sha256": "da6bceebd402545df8878fb84e0783a0b609e25d5e9629969758a647068bf24d"
+        },
+        {
+          "path": "code/metrics_reuse.py",
+          "bytes": 933,
+          "sha256": "d3efb2079c7457ce55a66742931301ec9914dba47fb053bbad39d472ada1a275"
+        },
+        {
+          "path": "code/model_service.py",
+          "bytes": 3954,
+          "sha256": "92318873802458294658189ba96133a30ebb7adc1bef40932528a9b967dd3b70"
+        },
+        {
+          "path": "code/monitor_reuse.py",
+          "bytes": 1572,
+          "sha256": "b1049fbf701e2330f2d3f3654b10cdfa31c01e4cf03c15d4f5569f75924fd6e3"
+        },
+        {
+          "path": "code/native_tool_entry.py",
+          "bytes": 184,
+          "sha256": "2536aefe474096b489fca27e40df6fc432b28f0abb992dd2ebf46838bba08bd1"
+        },
+        {
+          "path": "code/native_v3.py",
+          "bytes": 6763,
+          "sha256": "563420143042c7e47fb08209d12e4efadee28de00fe4d64c844d7d63aa8c9a10"
+        },
+        {
+          "path": "code/offline_guard.py",
+          "bytes": 1370,
+          "sha256": "a6741db272feb5c07c8636cfe899eb7eeceed02edb340d598f1dc98e16f0bbf1"
+        },
+        {
+          "path": "code/preflight_finish.py",
+          "bytes": 3852,
+          "sha256": "939741f575d729468df4847f1acf900b0f337925d347463f67575444c0e92de5"
+        },
+        {
+          "path": "code/preflight_reuse.py",
+          "bytes": 5090,
+          "sha256": "b542bef690909e0c58c6c4b0641d901ce206dbac02e69885e1230bb9f77b0c8a"
+        },
+        {
+          "path": "code/report_reuse.py",
+          "bytes": 9277,
+          "sha256": "39afca7686f45c7b22b87555afff8858acea77a46d3cd4f5ff2d67d2dbd22b3f"
+        },
+        {
+          "path": "code/reuse_roles.py",
+          "bytes": 1109,
+          "sha256": "c488274cc91e7681574096f14749db28fb7f4b558f5e2ffe7415a0932b364546"
+        },
+        {
+          "path": "code/review_actual_hooks.py",
+          "bytes": 1119,
+          "sha256": "b00a42f569a24917f67b26c21f19b0b83d679c0c3d2bc9c4a53f1e0776bd832b"
+        },
+        {
+          "path": "code/runtime.py",
+          "bytes": 5260,
+          "sha256": "34a2adb071a0a12cd4dd088583013d2a0321afc6c09f65e743396c72e299ab43"
+        },
+        {
+          "path": "code/runtime_v4.py",
+          "bytes": 2115,
+          "sha256": "1612bcc1c9c616d36d84cca8c8fc6da263750f7b1c178371e8ffd507e2559544"
+        },
+        {
+          "path": "code/score_reuse.py",
+          "bytes": 2227,
+          "sha256": "30a6aa5b7531ff84aebb576262326793b7b081dca2e3ee36221d8aa20c7d1fd8"
+        },
+        {
+          "path": "code/seal_capsule.py",
+          "bytes": 2302,
+          "sha256": "9ab3c585d0dbad04969f22a7d9314be192712ee9982a28089cbc8eb1896b4497"
+        },
+        {
+          "path": "code/source_cache.py",
+          "bytes": 2073,
+          "sha256": "26c79e4d22121ddd41f050023c408df0ef21b846ee81f6979fb6e30f8bd68cf2"
+        },
+        {
+          "path": "code/source_generator.py",
+          "bytes": 11034,
+          "sha256": "41ee4533aa1f47460bf43e4a5712f82d0604d123ba72e8391c3e87bcc31942d5"
+        }
+      ]
+    },
+    {
+      "id": "real_dirty",
+      "title": "八份真实错误表四方法",
+      "paper_location": "Table II, Fig.3",
+      "records_in_primary_list": 96,
+      "server_root": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027",
+      "scope_note": "Publication subset only; all retained numeric observations unchanged.",
+      "published_files": [
+        "results/studies/real_dirty/all_scores.json",
+        "results/studies/real_dirty/aggregate.json",
+        "results/studies/real_dirty/paired_differences.json",
+        "results/studies/real_dirty/actual_model_costs.json"
+      ],
+      "source_records": [
+        {
+          "published_file": "results/studies/real_dirty/all_scores.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027",
+          "original_relative_path": "reports/four_methods_v1/all_scores.json",
+          "original_sha256": "fd008d2a29c3759014902874c689084b0c4fab5babedd8316cd3f836b8059a53",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 96,
+          "published_list_length": 60,
+          "server_original_relative_path": "reports/four_methods_v1/all_scores.json",
+          "server_original_sha256": "99a4afd2701744de041b220421921382c5b64ce2065a520b862c5524f4a552d9",
+          "published_sha256": "d104f41b8782901aad19ca3ad219efc505a7d80ff43fa786be0a9d9e65050f23"
+        },
+        {
+          "published_file": "results/studies/real_dirty/aggregate.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027",
+          "original_relative_path": "reports/four_methods_v1/aggregate.json",
+          "original_sha256": "dc863c76eeafdd8a5021dac2c28658fdf990b7143a6eaba6bb40c49f0cece8e3",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 32,
+          "published_list_length": 20,
+          "server_original_relative_path": "reports/four_methods_v1/aggregate.json",
+          "server_original_sha256": "dc863c76eeafdd8a5021dac2c28658fdf990b7143a6eaba6bb40c49f0cece8e3",
+          "published_sha256": "dc38fff7947b56dd07d28b1c0e2ed83bbf04765bd62ac30295220a6716bcb8bc"
+        },
+        {
+          "published_file": "results/studies/real_dirty/paired_differences.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027",
+          "original_relative_path": "reports/four_methods_v1/paired_differences.json",
+          "original_sha256": "d082ac544a2857794e342cfb1d80bc59912fcf8e86197f77a06a9bc655f66dcd",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 24,
+          "published_list_length": 15,
+          "server_original_relative_path": "reports/four_methods_v1/paired_differences.json",
+          "server_original_sha256": "d082ac544a2857794e342cfb1d80bc59912fcf8e86197f77a06a9bc655f66dcd",
+          "published_sha256": "1750b871862c0676de9a9d672d670a4fa9293bd57d7c43fd5f94521ce1e792fc"
+        },
+        {
+          "published_file": "results/studies/real_dirty/actual_model_costs.json",
+          "server_root": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027",
+          "original_relative_path": "reports/four_methods_v1/actual_model_costs.json",
+          "original_sha256": "1a789cab900e238ac8563d48a400d47172298ade7374eb741dc3efe89ca5e90e",
+          "selection": "publication-scope record projection, retained values unchanged",
+          "original_list_length": 528,
+          "published_list_length": 259,
+          "server_original_relative_path": "reports/four_methods_v1/actual_model_costs.json",
+          "server_original_sha256": "855785454053d61616b3309920ab1c402aea6b681237e3d5e57590e6d5449c60",
+          "published_sha256": "be00a6c5fcf9cebd055ec403bffd549cc4b916c69b425b5be725caf4e931a37d"
+        }
+      ],
+      "execution_code_files": [
+        {
+          "path": "code/ablation_protocol.py",
+          "sha256": "aa0aabda9770637db45eb83712c304f8842546f05813754f8e40aa9cf1c3a899"
+        },
+        {
+          "path": "code/baseline_contract.py",
+          "sha256": "0980a0dea0b5dc0dbf647016411b15c1208b711284044b4237df24a2681c5475"
+        },
+        {
+          "path": "code/cdc_schema_v2.py",
+          "sha256": "31320eb93653e66c4c45f619bfa22637d132d66e49c0456c42e2c572b8554236"
+        },
+        {
+          "path": "code/cdc_schema_v4.py",
+          "sha256": "ca3a019ac66b73a2c33cad77c14409db123a80e408914539cb28022eb8bc4ea3"
+        },
+        {
+          "path": "code/cdc_trainfold_io_v3.py",
+          "sha256": "4888b7ccdae3494bdc670c72b1afd0714ec67ff3850abd242a39d49926fd6b83"
+        },
+        {
+          "path": "code/common.py",
+          "sha256": "b0e62dcf7d212c7b04b658b01ca64ca51cdea19ac99e3f82226cb178bc674f53"
+        },
+        {
+          "path": "code/cpu_recovery_v3.py",
+          "sha256": "0011933c2fc771d36892047ab45de1cdc239b5fa04814daa277051933b2dc680"
+        },
+        {
+          "path": "code/curate_expansion_v2.py",
+          "sha256": "1f1ff5b7500236f057522b7fba1e798bd426c9836d8f49a20bc1013f32a32d37"
+        },
+        {
+          "path": "code/curate_formal.py",
+          "sha256": "84f4c0c803a71039c007e5e63802ffe7ee7d1a4bb8d6bc0ad5117a8914089f68",
+          "source_path": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Formal5_ThreeSeeds_20261027/code/curate_formal.py"
+        },
+        {
+          "path": "code/curate_legacy.py",
+          "sha256": "70d538933643435cb3350f2e24bf47453507c557c0a1dde7cf6df55484c23054",
+          "source_path": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Formal5_ThreeSeeds_20261027/code/curate_legacy.py"
+        },
+        {
+          "path": "code/delivery_recovery_v3.py",
+          "sha256": "9264602e5d247f2cdd3016c1219f2dc0b695baea1ddbe77d1d35c9a38f9d9e01"
+        },
+        {
+          "path": "code/gpu_recovery_v3.py",
+          "sha256": "65e2442dafcd520a8358828dbedf117d7ff4e35fcdd4c4ec6be73716e3ccabf5"
+        },
+        {
+          "path": "code/model_service.py",
+          "sha256": "9cfbb2e232ad822329797f749f64608d3334d19ec4781bd297b91af918a04da6"
+        },
+        {
+          "path": "code/model_service_recovery_v3.py",
+          "sha256": "bedb4f5d2b2d57c788995426447c40c5327ff00d847df153c739e6e94dc6ccae"
+        },
+        {
+          "path": "code/native_hook_config_v4.py",
+          "sha256": "c04d2717d586d42ea9aa7fc5bea314f472d01f952737ab941828bdd134dd6902"
+        },
+        {
+          "path": "code/native_tool_entry.py",
+          "sha256": "2536aefe474096b489fca27e40df6fc432b28f0abb992dd2ebf46838bba08bd1"
+        },
+        {
+          "path": "code/native_v3.py",
+          "sha256": "a93f0a3f2d45055221ff40e1cb0990ea9481dca840ed5037175070826799a434"
+        },
+        {
+          "path": "code/native_v4.py",
+          "sha256": "3e3fdb5cbe48c6bc9e12929840b9350a4533ff4c198d0d2e8669217dbd321294"
+        },
+        {
+          "path": "code/postgres_expansion.py",
+          "sha256": "9610db312110fcc57269ceda8fb2b9325d8551738450e0614dc83132f3abf773"
+        },
+        {
+          "path": "code/prepare_cdc_v4.py",
+          "sha256": "66d8edbe439825754b3742845257e8d0b0188eed59614b17713a14d52d578989"
+        },
+        {
+          "path": "code/raha_detection_formal.py",
+          "sha256": "5f6cc9844ee8d7d2525c8ba3b3cc215771b11ed498b2c2acd5e286ff7bddf1fc"
+        },
+        {
+          "path": "code/report_recovery_v3.py",
+          "sha256": "ab3cbb6846849eac996eddbaf4952093593c5738b9f3e243c7802bc23a906bae"
+        },
+        {
+          "path": "code/resume_source_v5.py",
+          "sha256": "91f9af7b960c1692e788f3a23cedfdda458b97e4eac0489dd89b2d22d9521aef"
+        },
+        {
+          "path": "code/review_recovery_v3.py",
+          "sha256": "474619ed87dc9549e08b28f0e931dc2f4efdcd9f720b9013086a2a2e73962d86"
+        },
+        {
+          "path": "code/run_cdc_seed1013_v4.py",
+          "sha256": "d784298aa76dbc027510140a6a06243a2034630ec748b06e7b35da4a03a0cbc6"
+        },
+        {
+          "path": "code/run_cdc_seed1014_v4.py",
+          "sha256": "0cfc56493fbc3058926ee733dfad817b9c126f921b5d28912e2c203e815fc4bc"
+        },
+        {
+          "path": "code/run_cdc_seed1015_v4.py",
+          "sha256": "915c97c52a5f6731375ee5174a64b560f1b4fb65a0bf7fb6de19e4ba23635319"
+        },
+        {
+          "path": "code/runtime.py",
+          "sha256": "6cbc0a21e97e38a05354dcf5a2502d08f9036048078cbf2abcace059dda6d5cb"
+        },
+        {
+          "path": "code/runtime_context_missing_v1.py",
+          "sha256": "6e320bb03e0a9862e8d94fdf42beecddd693c4dc318ffea8d819ab59981dd906"
+        },
+        {
+          "path": "code/runtime_serialization_v3.py",
+          "sha256": "3ea0fb6f5af8a0848bf775450f761ce13f1edc869104f0f48e2be205c2004414"
+        },
+        {
+          "path": "code/runtime_v4.py",
+          "sha256": "1612bcc1c9c616d36d84cca8c8fc6da263750f7b1c178371e8ffd507e2559544"
+        },
+        {
+          "path": "code/safe_exec.py",
+          "sha256": "3facfc2fdf6835b1b1b15f2427acb524a15eeca1ebe867ed1ac4643afe8f775d"
+        },
+        {
+          "path": "code/score_four_methods_v1.py",
+          "sha256": "2077a7a907f86b41e69cfc921ce789c54849f4cc26c073368ab11b1ce6e81fdb"
+        },
+        {
+          "path": "code/score_recovery_v3.py",
+          "sha256": "6ae6eaa6c97a27dd82b3089ab1e10fdc8feb24d939c0fc9f89752a218f6be19d"
+        },
+        {
+          "path": "code/service_recovery_v3.py",
+          "sha256": "203d4c70de171b02d53426881b52b5094e3f98fe7c2644b2376dc43e536636f8"
+        },
+        {
+          "path": "code/tabclean_recovery_v3.py",
+          "sha256": "c80b8edebf9926ec8c67076c4c4778e0c1612f49dd80594b937280e6b12d05d4"
+        },
+        {
+          "path": "code/table1_runners/seed1013/run_holoclean.py",
+          "sha256": "ceb401c341a9b4771de5c8fd7a8231cec17d295a7d25e934b7d7e3234a2c68c0"
+        },
+        {
+          "path": "code/table1_runners/seed1014/run_holoclean.py",
+          "sha256": "71b0db528e2f36a02ecff3352fc88f074ed40f45cfa7e7c6c474d7831bb804f4"
+        },
+        {
+          "path": "code/table1_runners/seed1015/run_holoclean.py",
+          "sha256": "80337b46922893dcb22cacde99335484f913590f3336015872f0a80787640f13"
+        },
+        {
+          "path": "code/worker.py",
+          "sha256": "85dcceb56c61942e106cb45178498cc492d5c74342095ede82ed5f12d02aef83"
+        },
+        {
+          "path": "code/worker_recovery_v3.py",
+          "sha256": "ce71cae72b8e5de8e59d9740fe6e3ec0db06726ae4499a232179254bdea7ccd2"
+        }
+      ]
+    }
+  ]
+}

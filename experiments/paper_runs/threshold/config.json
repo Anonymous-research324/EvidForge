@@ -1,0 +1,35 @@
+{
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "offsets": [
+    -0.1,
+    -0.05,
+    0.0,
+    0.05,
+    0.1
+  ],
+  "study": "threshold",
+  "paper_scope": "Table VIb; selected conditions in provenance/paper_scope.json",
+  "server_source": "/root/fsas/home/anonymous/projects/EvidForge_Threshold_Sensitivity_20261022",
+  "source_protocol_relative_path": "configs/protocol.json",
+  "source_protocol_sha256": "6f2de3e9c8950921892fad5babaa430c25d5954a028a973f77f148ff267e3943",
+  "configuration_role": "Derived publication-scope view. Full original research protocol remains in the author archive; scientific settings for retained cases are unchanged.",
+  "paper_case_specs": [
+    {
+      "dataset": "retinopathy",
+      "seed": 1013
+    },
+    {
+      "dataset": "retinopathy",
+      "seed": 1014
+    },
+    {
+      "dataset": "retinopathy",
+      "seed": 1015
+    }
+  ],
+  "runtime_bindings": []
+}

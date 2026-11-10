@@ -1,0 +1,250 @@
+{
+  "format_version": 1,
+  "scope": "Only the eight submitted paper screenshot groups (Tables II–VI and Figures 3–7). This is a publication subset of the research record, not a claim that no other experiments were performed.",
+  "seed_policy": "All prescribed seeds and missing/fallback/qualification states for every retained condition are preserved.",
+  "studies": {
+    "repair_main": {
+      "datasets": [
+        "monks1",
+        "cmc",
+        "bc_original",
+        "mammographic",
+        "ilpd",
+        "climate",
+        "voting",
+        "qsar"
+      ],
+      "methods": [
+        "pure_llm",
+        "tool_llm",
+        "raha_holoclean",
+        "garf",
+        "cdc",
+        "v23"
+      ],
+      "seeds": [
+        1013,
+        1014,
+        1015
+      ],
+      "paper": [
+        "Table III"
+      ]
+    },
+    "downstream_main": {
+      "datasets": [
+        "tic_tac_toe",
+        "car_evaluation",
+        "retinopathy",
+        "real_estate",
+        "concrete",
+        "airfoil"
+      ],
+      "methods": [
+        "dirty",
+        "pure_llm",
+        "tool_llm",
+        "raha_holoclean",
+        "garf",
+        "cdc",
+        "caafe",
+        "v23"
+      ],
+      "seeds": [
+        1013,
+        1014,
+        1015
+      ],
+      "paper": [
+        "Table IV"
+      ]
+    },
+    "module_ablation": {
+      "datasets": [
+        "retinopathy",
+        "airfoil"
+      ],
+      "arms": [
+        "A",
+        "B",
+        "D"
+      ],
+      "seeds": [
+        1013,
+        1014,
+        1015
+      ],
+      "paper": [
+        "Table V",
+        "Fig.5a",
+        "Fig.5b"
+      ]
+    },
+    "advisor_supplement": {
+      "datasets": [
+        "concrete"
+      ],
+      "arms": [
+        "full"
+      ],
+      "seeds": [
+        1013,
+        1014,
+        1015
+      ],
+      "suites": [
+        "main",
+        "robustness"
+      ],
+      "paper": [
+        "Fig.6",
+        "Table VIa"
+      ]
+    },
+    "llm_digit70": {
+      "datasets": [
+        "retinopathy",
+        "airfoil"
+      ],
+      "arms": [
+        "full",
+        "no_llm"
+      ],
+      "seeds": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "paper": [
+        "Fig.5c"
+      ]
+    },
+    "threshold": {
+      "datasets": [
+        "retinopathy"
+      ],
+      "offsets": [
+        -0.1,
+        -0.05,
+        0,
+        0.05,
+        0.1
+      ],
+      "seeds": [
+        1013,
+        1014,
+        1015
+      ],
+      "paper": [
+        "Table VIb"
+      ]
+    },
+    "robustness_retinopathy": {
+      "datasets": [
+        "retinopathy"
+      ],
+      "arms": [
+        "full"
+      ],
+      "seeds": [
+        1013,
+        1014,
+        1015
+      ],
+      "paper": [
+        "Fig.6",
+        "Table VIa"
+      ]
+    },
+    "efficiency": {
+      "datasets": [
+        "tic_tac_toe",
+        "car_evaluation",
+        "retinopathy",
+        "real_estate",
+        "concrete",
+        "airfoil"
+      ],
+      "methods": [
+        "pure_llm",
+        "evidforge_first"
+      ],
+      "seeds": [
+        1013,
+        1014,
+        1015
+      ],
+      "paper": [
+        "Fig.7b"
+      ]
+    },
+    "tabclean_same9b": {
+      "datasets": [
+        "banknote",
+        "retinopathy",
+        "wdbc",
+        "airfoil",
+        "energy",
+        "wine_red",
+        "real_estate"
+      ],
+      "arms": [
+        "full",
+        "tabclean"
+      ],
+      "seeds": [
+        2021,
+        2022,
+        2023
+      ],
+      "paper": [
+        "Fig.4"
+      ]
+    },
+    "sealed_reuse": {
+      "datasets": [
+        "retinopathy",
+        "airfoil"
+      ],
+      "batches": [
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "seeds": [
+        1013,
+        1014,
+        1015
+      ],
+      "paper": [
+        "Fig.7a"
+      ]
+    },
+    "real_dirty": {
+      "datasets": [
+        "address_museum",
+        "movies",
+        "address_shoppingcenter",
+        "school_small",
+        "jobposting_small"
+      ],
+      "methods": [
+        "full",
+        "raha_holoclean",
+        "cdc",
+        "tabclean"
+      ],
+      "seeds": [
+        1013,
+        1014,
+        1015
+      ],
+      "paper": [
+        "Table II",
+        "Fig.3"
+      ]
+    }
+  }
+}

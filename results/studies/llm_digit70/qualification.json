@@ -1,0 +1,122 @@
+[
+  {
+    "case": "digit70_retinopathy_s2013",
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_retinopathy_s2013",
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_airfoil_s2013",
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_airfoil_s2013",
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_retinopathy_s2014",
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_retinopathy_s2014",
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_airfoil_s2014",
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_airfoil_s2014",
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_retinopathy_s2015",
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_retinopathy_s2015",
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_airfoil_s2015",
+    "arm": "full",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_airfoil_s2015",
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_retinopathy_s2016",
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_retinopathy_s2016",
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_airfoil_s2016",
+    "arm": "full",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_airfoil_s2016",
+    "arm": "no_llm",
+    "qualified": false,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_retinopathy_s2017",
+    "arm": "full",
+    "qualified": true,
+    "kind": "context"
+  },
+  {
+    "case": "digit70_retinopathy_s2017",
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  },
+  {
+    "case": "digit70_airfoil_s2017",
+    "arm": "full",
+    "qualified": true,
+    "kind": "context"
+  },
+  {
+    "case": "digit70_airfoil_s2017",
+    "arm": "no_llm",
+    "qualified": true,
+    "kind": "prior"
+  }
+]

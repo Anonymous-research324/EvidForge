@@ -1,0 +1,5590 @@
+{
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "sample_sd_ddof": 1,
+  "selected_six_not_new_blind": true,
+  "original_eight_retained": true,
+  "scores_sha256": {
+    "1013": "3251a1528e1d59aac8167096a697a6be2a0061ee5d0f8f3c5a1a5d71b3a3a02c",
+    "1014": "066aaa64e4929615bb4480fc83603789cd94186c1de683cca54488747dc5108e",
+    "1015": "b85782e44420a311ee72f994e1b867b14a28393e8aa540957ec20e32cb482c71"
+  },
+  "records": [
+    {
+      "dataset": "tic_tac_toe",
+      "method": "dirty",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.5184019370460049,
+            "1014": 0.5733590733590733,
+            "1015": 0.6331317764804003
+          },
+          "mean": 0.5749642622951595,
+          "sample_sd": 0.05738176093325246,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.61,
+            "1014": 0.6671698113207547,
+            "1015": 0.6975471698113207
+          },
+          "mean": 0.6582389937106918,
+          "sample_sd": 0.04445161822567558,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "tic_tac_toe",
+          "method": "dirty",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5184019370460049,
+            "AUC": 0.61,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "tic_tac_toe",
+          "method": "dirty",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5733590733590733,
+            "AUC": 0.6671698113207547,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "tic_tac_toe",
+          "method": "dirty",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6331317764804003,
+            "AUC": 0.6975471698113207,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "tic_tac_toe",
+      "method": "pure_llm",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.4443099273607748,
+            "1014": 0.6286407766990292,
+            "1015": 0.6148741418764302
+          },
+          "mean": 0.5626082819787447,
+          "sample_sd": 0.10268035638608743,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.5388679245283019,
+            "1014": 0.6732075471698112,
+            "1015": 0.6928301886792452
+          },
+          "mean": 0.6349685534591194,
+          "sample_sd": 0.08380191033398912,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "tic_tac_toe",
+          "method": "pure_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.4443099273607748,
+            "AUC": 0.5388679245283019,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "tic_tac_toe",
+          "method": "pure_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6286407766990292,
+            "AUC": 0.6732075471698112,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "tic_tac_toe",
+          "method": "pure_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6148741418764302,
+            "AUC": 0.6928301886792452,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "tic_tac_toe",
+      "method": "tool_llm",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.4533733754465904,
+            "1014": 0.6286407766990292,
+            "1015": 0.667878237164925
+          },
+          "mean": 0.5832974631035148,
+          "sample_sd": 0.11421513030709342,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.5069811320754717,
+            "1014": 0.6732075471698112,
+            "1015": 0.6911320754716981
+          },
+          "mean": 0.6237735849056604,
+          "sample_sd": 0.10154151839164198,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [
+        1014
+      ],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "tic_tac_toe",
+          "method": "tool_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.4533733754465904,
+            "AUC": 0.5069811320754717,
+            "AUC_unavailable_reason": null
+          },
+          "method_receipt": {
+            "method": "real9B code generation + executable source feedback",
+            "seed": 1013,
+            "actual_learning_calls": 10,
+            "formal_model_calls": 0,
+            "frozen_generated_code_applied_to_formal_rows": true,
+            "V23_candidate_engine_access": false,
+            "test_gold_read": false,
+            "source_cv_summary_scope": "shared authorized learning summary; fold training pairs restricted; external validation untouched",
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0
+          }
+        },
+        "1014": {
+          "dataset": "tic_tac_toe",
+          "method": "tool_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6286407766990292,
+            "AUC": 0.6732075471698112,
+            "AUC_unavailable_reason": null
+          },
+          "method_receipt": {
+            "method": "9B code-tool agent with explicit pure9B fallback when no executable program",
+            "seed": 1014,
+            "actual_learning_calls": 10,
+            "new_formal_model_calls": 0,
+            "fallback": true,
+            "fallback_reason": "all generated programs failed source execution",
+            "fallback_source": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/outputs/tic_tac_toe/primary_llm/pure_output.csv",
+            "fallback_output_sha256": "a0cbed4a5a1ed8d071dba6be496977121eedff21c04f084d273e82aeee779a31",
+            "native_code_repair_succeeded": false,
+            "formal_reference_read": false,
+            "not_a_zero_score_for_runtime_failure": true,
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0,
+            "qualification": "research comparison only; no deploy registration"
+          }
+        },
+        "1015": {
+          "dataset": "tic_tac_toe",
+          "method": "tool_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.667878237164925,
+            "AUC": 0.6911320754716981,
+            "AUC_unavailable_reason": null
+          },
+          "method_receipt": {
+            "method": "real9B code generation + executable source feedback",
+            "seed": 1015,
+            "actual_learning_calls": 10,
+            "formal_model_calls": 0,
+            "frozen_generated_code_applied_to_formal_rows": true,
+            "V23_candidate_engine_access": false,
+            "test_gold_read": false,
+            "source_cv_summary_scope": "shared authorized learning summary; fold training pairs restricted; external validation untouched",
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0
+          }
+        }
+      }
+    },
+    {
+      "dataset": "tic_tac_toe",
+      "method": "raha_holoclean",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.4795628171527352,
+            "1014": 0.5002177700348431,
+            "1015": 0.5849158979924036
+          },
+          "mean": 0.5215654950599939,
+          "sample_sd": 0.05582662387619832,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.5622641509433962,
+            "1014": 0.5016981132075472,
+            "1015": 0.6152830188679246
+          },
+          "mean": 0.559748427672956,
+          "sample_sd": 0.056834226889694583,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "tic_tac_toe",
+          "method": "raha_holoclean",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.4795628171527352,
+            "AUC": 0.5622641509433962,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "tic_tac_toe",
+          "method": "raha_holoclean",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5002177700348431,
+            "AUC": 0.5016981132075472,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "tic_tac_toe",
+          "method": "raha_holoclean",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5849158979924036,
+            "AUC": 0.6152830188679246,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "tic_tac_toe",
+      "method": "garf",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.5401236318266887,
+            "1014": 0.5733590733590733,
+            "1015": 0.6331317764804003
+          },
+          "mean": 0.5822048272220541,
+          "sample_sd": 0.04713082074433637,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.5892452830188679,
+            "1014": 0.6671698113207547,
+            "1015": 0.6975471698113207
+          },
+          "mean": 0.6513207547169811,
+          "sample_sd": 0.055863396935055154,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "tic_tac_toe",
+          "method": "garf",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5401236318266887,
+            "AUC": 0.5892452830188679,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "tic_tac_toe",
+          "method": "garf",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5733590733590733,
+            "AUC": 0.6671698113207547,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "tic_tac_toe",
+          "method": "garf",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6331317764804003,
+            "AUC": 0.6975471698113207,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "tic_tac_toe",
+      "method": "cdc",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.5698952210580117,
+            "1014": 0.5520361990950227,
+            "1015": 0.5801273753430332
+          },
+          "mean": 0.5673529318320225,
+          "sample_sd": 0.014217101379347088,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.5907547169811321,
+            "1014": 0.5543396226415094,
+            "1015": 0.6639622641509434
+          },
+          "mean": 0.6030188679245283,
+          "sample_sd": 0.05583088689648657,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "tic_tac_toe",
+          "method": "cdc",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5698952210580117,
+            "AUC": 0.5907547169811321,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "tic_tac_toe",
+          "method": "cdc",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5520361990950227,
+            "AUC": 0.5543396226415094,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "tic_tac_toe",
+          "method": "cdc",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5801273753430332,
+            "AUC": 0.6639622641509434,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "tic_tac_toe",
+      "method": "v23",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.574831282254863,
+            "1014": 0.661504424778761,
+            "1015": 0.7202356765542463
+          },
+          "mean": 0.6521904611959568,
+          "sample_sd": 0.07314828712013002,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6941509433962264,
+            "1014": 0.7730188679245283,
+            "1015": 0.7890566037735849
+          },
+          "mean": 0.7520754716981132,
+          "sample_sd": 0.05080098893759936,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "tic_tac_toe",
+          "method": "v23",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.574831282254863,
+            "AUC": 0.6941509433962264,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "tic_tac_toe",
+          "method": "v23",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.661504424778761,
+            "AUC": 0.7730188679245283,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "tic_tac_toe",
+          "method": "v23",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.7202356765542463,
+            "AUC": 0.7890566037735849,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "tic_tac_toe",
+      "method": "caafe",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.5184019370460049,
+            "1014": 0.6470588235294117,
+            "1015": 0.6331317764804003
+          },
+          "mean": 0.5995308456852723,
+          "sample_sd": 0.07060393418659679,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.61,
+            "1014": 0.6588679245283018,
+            "1015": 0.6975471698113207
+          },
+          "mean": 0.6554716981132075,
+          "sample_sd": 0.04387228625100354,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "tic_tac_toe",
+          "method": "caafe",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5184019370460049,
+            "AUC": 0.61,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "tic_tac_toe",
+          "method": "caafe",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6470588235294117,
+            "AUC": 0.6588679245283018,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "tic_tac_toe",
+          "method": "caafe",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6331317764804003,
+            "AUC": 0.6975471698113207,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "car_evaluation",
+      "method": "dirty",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.21489404506437768,
+            "1014": 0.34964266080263884,
+            "1015": 0.22801576532919818
+          },
+          "mean": 0.2641841570654049,
+          "sample_sd": 0.07429947362823085,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.8814457724770864,
+            "1014": 0.8586934685278481,
+            "1015": 0.7514481259099346
+          },
+          "mean": 0.8305291223049563,
+          "sample_sd": 0.06942456212949218,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "car_evaluation",
+          "method": "dirty",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.21489404506437768,
+            "AUC": 0.8814457724770864,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "car_evaluation",
+          "method": "dirty",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.34964266080263884,
+            "AUC": 0.8586934685278481,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "car_evaluation",
+          "method": "dirty",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.22801576532919818,
+            "AUC": 0.7514481259099346,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "car_evaluation",
+      "method": "pure_llm",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.21236878589819766,
+            "1014": 0.20474137931034483,
+            "1015": 0.23887069383794274
+          },
+          "mean": 0.21866028634882842,
+          "sample_sd": 0.01791339613169824,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.7858866491822212,
+            "1014": 0.8148010030792374,
+            "1015": 0.7654275380106846
+          },
+          "mean": 0.7887050634240478,
+          "sample_sd": 0.02480710296160756,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "car_evaluation",
+          "method": "pure_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.21236878589819766,
+            "AUC": 0.7858866491822212,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "car_evaluation",
+          "method": "pure_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.20474137931034483,
+            "AUC": 0.8148010030792374,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "car_evaluation",
+          "method": "pure_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.23887069383794274,
+            "AUC": 0.7654275380106846,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "car_evaluation",
+      "method": "tool_llm",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.21236878589819766,
+            "1014": 0.2688678064532279,
+            "1015": 0.2668615787881843
+          },
+          "mean": 0.2493660570465366,
+          "sample_sd": 0.032056275386868976,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.7858866491822212,
+            "1014": 0.8130052043088926,
+            "1015": 0.7300664645330902
+          },
+          "mean": 0.7763194393414014,
+          "sample_sd": 0.042288973350074074,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [
+        1013
+      ],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "car_evaluation",
+          "method": "tool_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.21236878589819766,
+            "AUC": 0.7858866491822212,
+            "AUC_unavailable_reason": null
+          },
+          "method_receipt": {
+            "method": "9B code-tool agent with explicit pure9B fallback when no executable program",
+            "seed": 1013,
+            "actual_learning_calls": 10,
+            "new_formal_model_calls": 0,
+            "fallback": true,
+            "fallback_reason": "all generated programs failed source execution",
+            "fallback_source": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/outputs/car_evaluation/primary_llm/pure_output.csv",
+            "fallback_output_sha256": "e9f91b899896615a712bed2c4aa0d82eb7863ed188d5213b68ab8e2ec72f8fdb",
+            "native_code_repair_succeeded": false,
+            "formal_reference_read": false,
+            "not_a_zero_score_for_runtime_failure": true,
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0,
+            "qualification": "research comparison only; no deploy registration"
+          }
+        },
+        "1014": {
+          "dataset": "car_evaluation",
+          "method": "tool_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.2688678064532279,
+            "AUC": 0.8130052043088926,
+            "AUC_unavailable_reason": null
+          },
+          "method_receipt": {
+            "method": "real9B code generation + executable source feedback",
+            "seed": 1014,
+            "actual_learning_calls": 10,
+            "formal_model_calls": 0,
+            "frozen_generated_code_applied_to_formal_rows": true,
+            "V23_candidate_engine_access": false,
+            "test_gold_read": false,
+            "source_cv_summary_scope": "shared authorized learning summary; fold training pairs restricted; external validation untouched",
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0
+          }
+        },
+        "1015": {
+          "dataset": "car_evaluation",
+          "method": "tool_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.2668615787881843,
+            "AUC": 0.7300664645330902,
+            "AUC_unavailable_reason": null
+          },
+          "method_receipt": {
+            "method": "real9B code generation + executable source feedback",
+            "seed": 1015,
+            "actual_learning_calls": 10,
+            "formal_model_calls": 0,
+            "frozen_generated_code_applied_to_formal_rows": true,
+            "V23_candidate_engine_access": false,
+            "test_gold_read": false,
+            "source_cv_summary_scope": "shared authorized learning summary; fold training pairs restricted; external validation untouched",
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0
+          }
+        }
+      }
+    },
+    {
+      "dataset": "car_evaluation",
+      "method": "raha_holoclean",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.24786324786324784,
+            "1014": 0.25063661227954354,
+            "1015": 0.22582417582417583
+          },
+          "mean": 0.2414413453223224,
+          "sample_sd": 0.013595766800617522,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.8850622260793026,
+            "1014": 0.79715212767466,
+            "1015": 0.6706386942872102
+          },
+          "mean": 0.7842843493470576,
+          "sample_sd": 0.10778936652501883,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "car_evaluation",
+          "method": "raha_holoclean",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.24786324786324784,
+            "AUC": 0.8850622260793026,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "car_evaluation",
+          "method": "raha_holoclean",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.25063661227954354,
+            "AUC": 0.79715212767466,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "car_evaluation",
+          "method": "raha_holoclean",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.22582417582417583,
+            "AUC": 0.6706386942872102,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "car_evaluation",
+      "method": "garf",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.21489404506437768,
+            "1014": 0.34964266080263884,
+            "1015": 0.2220766129032258
+          },
+          "mean": 0.2622044395900808,
+          "sample_sd": 0.07580883336921954,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.8814457724770864,
+            "1014": 0.8586934685278481,
+            "1015": 0.7466952704499206
+          },
+          "mean": 0.8289448371516184,
+          "sample_sd": 0.07213293457715698,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "car_evaluation",
+          "method": "garf",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.21489404506437768,
+            "AUC": 0.8814457724770864,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "car_evaluation",
+          "method": "garf",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.34964266080263884,
+            "AUC": 0.8586934685278481,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "car_evaluation",
+          "method": "garf",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.2220766129032258,
+            "AUC": 0.7466952704499206,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "car_evaluation",
+      "method": "cdc",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.30006868131868136,
+            "1014": 0.28270796108794916,
+            "1015": 0.23794543429844098
+          },
+          "mean": 0.2735740255683572,
+          "sample_sd": 0.032053019181373536,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.7093985417763876,
+            "1014": 0.7714730361602421,
+            "1015": 0.6649256782816464
+          },
+          "mean": 0.7152657520727587,
+          "sample_sd": 0.05351544623025926,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "car_evaluation",
+          "method": "cdc",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.30006868131868136,
+            "AUC": 0.7093985417763876,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "car_evaluation",
+          "method": "cdc",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.28270796108794916,
+            "AUC": 0.7714730361602421,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "car_evaluation",
+          "method": "cdc",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.23794543429844098,
+            "AUC": 0.6649256782816464,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "car_evaluation",
+      "method": "v23",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.3905487117007355,
+            "1014": 0.5395643782740557,
+            "1015": 0.4330471276503908
+          },
+          "mean": 0.454386739208394,
+          "sample_sd": 0.07676556185658762,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.9574208182400687,
+            "1014": 0.9345969328595322,
+            "1015": 0.9224822490584018
+          },
+          "mean": 0.9381666667193342,
+          "sample_sd": 0.017740720221791864,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "car_evaluation",
+          "method": "v23",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.3905487117007355,
+            "AUC": 0.9574208182400687,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "car_evaluation",
+          "method": "v23",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5395643782740557,
+            "AUC": 0.9345969328595322,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "car_evaluation",
+          "method": "v23",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.4330471276503908,
+            "AUC": 0.9224822490584018,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "car_evaluation",
+      "method": "caafe",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.21489404506437768,
+            "1014": 0.2773298083278255,
+            "1015": 0.22801576532919818
+          },
+          "mean": 0.24007987290713378,
+          "sample_sd": 0.03291979878904681,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.8814457724770864,
+            "1014": 0.8018187884942902,
+            "1015": 0.7514481259099346
+          },
+          "mean": 0.8115708956271037,
+          "sample_sd": 0.06554521129264086,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "car_evaluation",
+          "method": "caafe",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.21489404506437768,
+            "AUC": 0.8814457724770864,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "car_evaluation",
+          "method": "caafe",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.2773298083278255,
+            "AUC": 0.8018187884942902,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "car_evaluation",
+          "method": "caafe",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.22801576532919818,
+            "AUC": 0.7514481259099346,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "retinopathy",
+      "method": "dirty",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6444265088332886,
+            "1014": 0.6351084812623273,
+            "1015": 0.5619047619047619
+          },
+          "mean": 0.6138132506667926,
+          "sample_sd": 0.04519485384003027,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6298249820187006,
+            "1014": 0.6759455015268969,
+            "1015": 0.686639772187945
+          },
+          "mean": 0.6641367519111808,
+          "sample_sd": 0.03019213508695308,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "retinopathy",
+          "method": "dirty",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6444265088332886,
+            "AUC": 0.6298249820187006,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "retinopathy",
+          "method": "dirty",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6351084812623273,
+            "AUC": 0.6759455015268969,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "retinopathy",
+          "method": "dirty",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5619047619047619,
+            "AUC": 0.686639772187945,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "retinopathy",
+      "method": "pure_llm",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.5956163401815575,
+            "1014": 0.6254511311287814,
+            "1015": 0.6550556361877116
+          },
+          "mean": 0.6253743691660169,
+          "sample_sd": 0.02971972235277436,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.636298249820187,
+            "1014": 0.6918017383133661,
+            "1015": 0.7247271001423825
+          },
+          "mean": 0.6842756960919786,
+          "sample_sd": 0.0446922406684303,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "retinopathy",
+          "method": "pure_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5956163401815575,
+            "AUC": 0.636298249820187,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "retinopathy",
+          "method": "pure_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6254511311287814,
+            "AUC": 0.6918017383133661,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "retinopathy",
+          "method": "pure_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6550556361877116,
+            "AUC": 0.7247271001423825,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "retinopathy",
+      "method": "tool_llm",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6444265088332886,
+            "1014": 0.6351084812623273,
+            "1015": 0.6550556361877116
+          },
+          "mean": 0.6448635420944425,
+          "sample_sd": 0.009980756281857416,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6298249820187006,
+            "1014": 0.6759455015268969,
+            "1015": 0.7247271001423825
+          },
+          "mean": 0.6768325278959934,
+          "sample_sd": 0.047457276764737794,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [
+        1015
+      ],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "retinopathy",
+          "method": "tool_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6444265088332886,
+            "AUC": 0.6298249820187006,
+            "AUC_unavailable_reason": null
+          },
+          "method_receipt": {
+            "method": "real9B code generation + executable source feedback",
+            "seed": 1013,
+            "actual_learning_calls": 10,
+            "formal_model_calls": 0,
+            "frozen_generated_code_applied_to_formal_rows": true,
+            "V23_candidate_engine_access": false,
+            "test_gold_read": false,
+            "source_cv_summary_scope": "shared authorized learning summary; fold training pairs restricted; external validation untouched",
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0
+          }
+        },
+        "1014": {
+          "dataset": "retinopathy",
+          "method": "tool_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6351084812623273,
+            "AUC": 0.6759455015268969,
+            "AUC_unavailable_reason": null
+          },
+          "method_receipt": {
+            "method": "real9B code generation + executable source feedback",
+            "seed": 1014,
+            "actual_learning_calls": 10,
+            "formal_model_calls": 0,
+            "frozen_generated_code_applied_to_formal_rows": true,
+            "V23_candidate_engine_access": false,
+            "test_gold_read": false,
+            "source_cv_summary_scope": "shared authorized learning summary; fold training pairs restricted; external validation untouched",
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0
+          }
+        },
+        "1015": {
+          "dataset": "retinopathy",
+          "method": "tool_llm",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6550556361877116,
+            "AUC": 0.7247271001423825,
+            "AUC_unavailable_reason": null
+          },
+          "method_receipt": {
+            "method": "9B code-tool agent with explicit pure9B fallback when no executable program",
+            "seed": 1015,
+            "actual_learning_calls": 10,
+            "new_formal_model_calls": 0,
+            "fallback": true,
+            "fallback_reason": "all generated programs failed source execution",
+            "fallback_source": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/outputs/retinopathy/primary_llm/pure_output.csv",
+            "fallback_output_sha256": "94df4dc2e964df36a42963c568bc7693b14c1a2991127dc2eb7144aa55264d4a",
+            "native_code_repair_succeeded": false,
+            "formal_reference_read": false,
+            "not_a_zero_score_for_runtime_failure": true,
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0,
+            "qualification": "research comparison only; no deploy registration"
+          }
+        }
+      }
+    },
+    {
+      "dataset": "retinopathy",
+      "method": "raha_holoclean",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6224514563106796,
+            "1014": 0.5595238095238095,
+            "1015": 0.4998594057549911
+          },
+          "mean": 0.5606115571964934,
+          "sample_sd": 0.061303263462165615,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6412131383361304,
+            "1014": 0.6526896875734084,
+            "1015": 0.6597057427622212
+          },
+          "mean": 0.6512028562239199,
+          "sample_sd": 0.009335529187535885,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "retinopathy",
+          "method": "raha_holoclean",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6224514563106796,
+            "AUC": 0.6412131383361304,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "retinopathy",
+          "method": "raha_holoclean",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5595238095238095,
+            "AUC": 0.6526896875734084,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "retinopathy",
+          "method": "raha_holoclean",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.4998594057549911,
+            "AUC": 0.6597057427622212,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "retinopathy",
+      "method": "garf",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6444265088332886,
+            "1014": 0.6351084812623273,
+            "1015": 0.5619047619047619
+          },
+          "mean": 0.6138132506667926,
+          "sample_sd": 0.04519485384003027,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6298249820187006,
+            "1014": 0.6759455015268969,
+            "1015": 0.686639772187945
+          },
+          "mean": 0.6641367519111808,
+          "sample_sd": 0.03019213508695308,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "retinopathy",
+          "method": "garf",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6444265088332886,
+            "AUC": 0.6298249820187006,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "retinopathy",
+          "method": "garf",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6351084812623273,
+            "AUC": 0.6759455015268969,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "retinopathy",
+          "method": "garf",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5619047619047619,
+            "AUC": 0.686639772187945,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "retinopathy",
+      "method": "cdc",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.5772370244879101,
+            "1014": 0.6374564918541051,
+            "1015": 0.6902082410279131
+          },
+          "mean": 0.6349672524566428,
+          "sample_sd": 0.05652672974987558,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6002157755933828,
+            "1014": 0.6620859760394644,
+            "1015": 0.7361177028951115
+          },
+          "mean": 0.6661398181759862,
+          "sample_sd": 0.06804159527915234,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "retinopathy",
+          "method": "cdc",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5772370244879101,
+            "AUC": 0.6002157755933828,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "retinopathy",
+          "method": "cdc",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6374564918541051,
+            "AUC": 0.6620859760394644,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "retinopathy",
+          "method": "cdc",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6902082410279131,
+            "AUC": 0.7361177028951115,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "retinopathy",
+      "method": "v23",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6582530120481928,
+            "1014": 0.6532333645735707,
+            "1015": 0.6955082742316785
+          },
+          "mean": 0.6689982169511474,
+          "sample_sd": 0.023095163302197116,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6958762886597938,
+            "1014": 0.7283298097251586,
+            "1015": 0.7768153773137162
+          },
+          "mean": 0.7336738252328895,
+          "sample_sd": 0.04073331430588517,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "retinopathy",
+          "method": "v23",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6582530120481928,
+            "AUC": 0.6958762886597938,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "retinopathy",
+          "method": "v23",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6532333645735707,
+            "AUC": 0.7283298097251586,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "retinopathy",
+          "method": "v23",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6955082742316785,
+            "AUC": 0.7768153773137162,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "retinopathy",
+      "method": "caafe",
+      "task": "classification",
+      "metrics": {
+        "macro_F1": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6116043404178997,
+            "1014": 0.6655404404137399,
+            "1015": 0.5818181818181818
+          },
+          "mean": 0.6196543208832738,
+          "sample_sd": 0.042437669412976206,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "AUC": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6246703428434428,
+            "1014": 0.7411322527601598,
+            "1015": 0.6948267679164689
+          },
+          "mean": 0.6868764545066905,
+          "sample_sd": 0.058636590349777785,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "retinopathy",
+          "method": "caafe",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6116043404178997,
+            "AUC": 0.6246703428434428,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1014": {
+          "dataset": "retinopathy",
+          "method": "caafe",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.6655404404137399,
+            "AUC": 0.7411322527601598,
+            "AUC_unavailable_reason": null
+          }
+        },
+        "1015": {
+          "dataset": "retinopathy",
+          "method": "caafe",
+          "task": "classification",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "macro_F1": 0.5818181818181818,
+            "AUC": 0.6948267679164689,
+            "AUC_unavailable_reason": null
+          }
+        }
+      }
+    },
+    {
+      "dataset": "real_estate",
+      "method": "dirty",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.618483394151518,
+            "1014": 0.6154026725365096,
+            "1015": 0.7777875317925097
+          },
+          "mean": 0.6705578661601791,
+          "sample_sd": 0.09287638884632285,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 5.9810603575273,
+            "1014": 5.670435119042029,
+            "1015": 4.932060050964355
+          },
+          "mean": 5.527851842511228,
+          "sample_sd": 0.5388394045093416,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "real_estate",
+          "method": "dirty",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.618483394151518,
+            "MAE": 5.9810603575273
+          }
+        },
+        "1014": {
+          "dataset": "real_estate",
+          "method": "dirty",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6154026725365096,
+            "MAE": 5.670435119042029
+          }
+        },
+        "1015": {
+          "dataset": "real_estate",
+          "method": "dirty",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7777875317925097,
+            "MAE": 4.932060050964355
+          }
+        }
+      }
+    },
+    {
+      "dataset": "real_estate",
+      "method": "pure_llm",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6708790936357258,
+            "1014": 0.54774406500125,
+            "1015": 0.7336233483768164
+          },
+          "mean": 0.6507488356712641,
+          "sample_sd": 0.09456054918061954,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 5.267610729101932,
+            "1014": 6.076097065852239,
+            "1015": 5.45336919931265
+          },
+          "mean": 5.599025664755607,
+          "sample_sd": 0.42346711043714386,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "real_estate",
+          "method": "pure_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6708790936357258,
+            "MAE": 5.267610729101932
+          }
+        },
+        "1014": {
+          "dataset": "real_estate",
+          "method": "pure_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.54774406500125,
+            "MAE": 6.076097065852239
+          }
+        },
+        "1015": {
+          "dataset": "real_estate",
+          "method": "pure_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7336233483768164,
+            "MAE": 5.45336919931265
+          }
+        }
+      }
+    },
+    {
+      "dataset": "real_estate",
+      "method": "tool_llm",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.618483394151518,
+            "1014": 0.54774406500125,
+            "1015": 0.7777670419855266
+          },
+          "mean": 0.6479981670460981,
+          "sample_sd": 0.11781758718222526,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 5.9810603575273,
+            "1014": 6.076097065852239,
+            "1015": 4.9261602753859295
+          },
+          "mean": 5.661105899588489,
+          "sample_sd": 0.6382529254795294,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [
+        1014
+      ],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "real_estate",
+          "method": "tool_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.618483394151518,
+            "MAE": 5.9810603575273
+          },
+          "method_receipt": {
+            "method": "real9B code generation + executable source feedback",
+            "seed": 1013,
+            "actual_learning_calls": 10,
+            "formal_model_calls": 0,
+            "frozen_generated_code_applied_to_formal_rows": true,
+            "V23_candidate_engine_access": false,
+            "test_gold_read": false,
+            "source_cv_summary_scope": "shared authorized learning summary; fold training pairs restricted; external validation untouched",
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0
+          }
+        },
+        "1014": {
+          "dataset": "real_estate",
+          "method": "tool_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.54774406500125,
+            "MAE": 6.076097065852239
+          },
+          "method_receipt": {
+            "method": "9B code-tool agent with explicit pure9B fallback when no executable program",
+            "seed": 1014,
+            "actual_learning_calls": 10,
+            "new_formal_model_calls": 0,
+            "fallback": true,
+            "fallback_reason": "all generated programs failed source execution",
+            "fallback_source": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/outputs/real_estate/primary_llm/pure_output.csv",
+            "fallback_output_sha256": "08f3087a6b0c6dc2591e7c773a5f214dcd093204aba7d2e9c53c305e96357477",
+            "native_code_repair_succeeded": false,
+            "formal_reference_read": false,
+            "not_a_zero_score_for_runtime_failure": true,
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0,
+            "qualification": "research comparison only; no deploy registration"
+          }
+        },
+        "1015": {
+          "dataset": "real_estate",
+          "method": "tool_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7777670419855266,
+            "MAE": 4.9261602753859295
+          },
+          "method_receipt": {
+            "method": "real9B code generation + executable source feedback",
+            "seed": 1015,
+            "actual_learning_calls": 10,
+            "formal_model_calls": 0,
+            "frozen_generated_code_applied_to_formal_rows": true,
+            "V23_candidate_engine_access": false,
+            "test_gold_read": false,
+            "source_cv_summary_scope": "shared authorized learning summary; fold training pairs restricted; external validation untouched",
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0
+          }
+        }
+      }
+    },
+    {
+      "dataset": "real_estate",
+      "method": "raha_holoclean",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6225184242146593,
+            "1014": 0.4638372148004656,
+            "1015": 0.7554561049982714
+          },
+          "mean": 0.6139372480044655,
+          "sample_sd": 0.14599870451107702,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 5.921573263226134,
+            "1014": 7.3370319366455075,
+            "1015": 5.265574293870191
+          },
+          "mean": 6.1747264979139445,
+          "sample_sd": 1.0586780018625794,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "real_estate",
+          "method": "raha_holoclean",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6225184242146593,
+            "MAE": 5.921573263226134
+          }
+        },
+        "1014": {
+          "dataset": "real_estate",
+          "method": "raha_holoclean",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.4638372148004656,
+            "MAE": 7.3370319366455075
+          }
+        },
+        "1015": {
+          "dataset": "real_estate",
+          "method": "raha_holoclean",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7554561049982714,
+            "MAE": 5.265574293870191
+          }
+        }
+      }
+    },
+    {
+      "dataset": "real_estate",
+      "method": "garf",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.618483394151518,
+            "1014": 0.6154026725365096,
+            "1015": 0.7777875317925097
+          },
+          "mean": 0.6705578661601791,
+          "sample_sd": 0.09287638884632285,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 5.9810603575273,
+            "1014": 5.670435119042029,
+            "1015": 4.932060050964355
+          },
+          "mean": 5.527851842511228,
+          "sample_sd": 0.5388394045093416,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "real_estate",
+          "method": "garf",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.618483394151518,
+            "MAE": 5.9810603575273
+          }
+        },
+        "1014": {
+          "dataset": "real_estate",
+          "method": "garf",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6154026725365096,
+            "MAE": 5.670435119042029
+          }
+        },
+        "1015": {
+          "dataset": "real_estate",
+          "method": "garf",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7777875317925097,
+            "MAE": 4.932060050964355
+          }
+        }
+      }
+    },
+    {
+      "dataset": "real_estate",
+      "method": "cdc",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6721428974356369,
+            "1014": 0.539080881571253,
+            "1015": 0.6833345443793877
+          },
+          "mean": 0.6315194411287592,
+          "sample_sd": 0.08024947794302688,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 5.606555181561094,
+            "1014": 6.394332240178036,
+            "1015": 5.992826755230243
+          },
+          "mean": 5.997904725656458,
+          "sample_sd": 0.3939130777957584,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "real_estate",
+          "method": "cdc",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6721428974356369,
+            "MAE": 5.606555181561094
+          }
+        },
+        "1014": {
+          "dataset": "real_estate",
+          "method": "cdc",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.539080881571253,
+            "MAE": 6.394332240178036
+          }
+        },
+        "1015": {
+          "dataset": "real_estate",
+          "method": "cdc",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6833345443793877,
+            "MAE": 5.992826755230243
+          }
+        }
+      }
+    },
+    {
+      "dataset": "real_estate",
+      "method": "v23",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6983704439711316,
+            "1014": 0.6151712404129805,
+            "1015": 0.637475969689101
+          },
+          "mean": 0.6503392180244044,
+          "sample_sd": 0.043065348442563725,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 5.205782309445468,
+            "1014": 5.91873051570012,
+            "1015": 6.409541802039513
+          },
+          "mean": 5.844684875728367,
+          "sample_sd": 0.6052861278781203,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "real_estate",
+          "method": "v23",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6983704439711316,
+            "MAE": 5.205782309445468
+          }
+        },
+        "1014": {
+          "dataset": "real_estate",
+          "method": "v23",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6151712404129805,
+            "MAE": 5.91873051570012
+          }
+        },
+        "1015": {
+          "dataset": "real_estate",
+          "method": "v23",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.637475969689101,
+            "MAE": 6.409541802039513
+          }
+        }
+      }
+    },
+    {
+      "dataset": "concrete",
+      "method": "dirty",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6622054596364875,
+            "1014": 0.7116527262257315,
+            "1015": 0.7297583574301341
+          },
+          "mean": 0.7012055144307844,
+          "sample_sd": 0.034967222877947825,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 7.572451172187943,
+            "1014": 7.052106201883301,
+            "1015": 6.449636817719106
+          },
+          "mean": 7.02473139726345,
+          "sample_sd": 0.5619075133830294,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "concrete",
+          "method": "dirty",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6622054596364875,
+            "MAE": 7.572451172187943
+          }
+        },
+        "1014": {
+          "dataset": "concrete",
+          "method": "dirty",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7116527262257315,
+            "MAE": 7.052106201883301
+          }
+        },
+        "1015": {
+          "dataset": "concrete",
+          "method": "dirty",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7297583574301341,
+            "MAE": 6.449636817719106
+          }
+        }
+      }
+    },
+    {
+      "dataset": "concrete",
+      "method": "pure_llm",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.7682564505103409,
+            "1014": 0.7903323180322174,
+            "1015": 0.7585282786571674
+          },
+          "mean": 0.7723723490665753,
+          "sample_sd": 0.016296616085443656,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 6.143551798970419,
+            "1014": 6.124670027096414,
+            "1015": 6.127651527590848
+          },
+          "mean": 6.131957784552561,
+          "sample_sd": 0.010150774061159882,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "concrete",
+          "method": "pure_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7682564505103409,
+            "MAE": 6.143551798970419
+          }
+        },
+        "1014": {
+          "dataset": "concrete",
+          "method": "pure_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7903323180322174,
+            "MAE": 6.124670027096414
+          }
+        },
+        "1015": {
+          "dataset": "concrete",
+          "method": "pure_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7585282786571674,
+            "MAE": 6.127651527590848
+          }
+        }
+      }
+    },
+    {
+      "dataset": "concrete",
+      "method": "tool_llm",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.7682564505103409,
+            "1014": 0.7739455215756762,
+            "1015": 0.7585282786571674
+          },
+          "mean": 0.7669100835810615,
+          "sample_sd": 0.007796305069279295,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 6.143551798970419,
+            "1014": 6.152450548386198,
+            "1015": 6.127651527590848
+          },
+          "mean": 6.1412179583158215,
+          "sample_sd": 0.012563159127100217,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [
+        1013,
+        1015
+      ],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "concrete",
+          "method": "tool_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7682564505103409,
+            "MAE": 6.143551798970419
+          },
+          "method_receipt": {
+            "method": "9B code-tool agent with explicit pure9B fallback when no executable program",
+            "seed": 1013,
+            "actual_learning_calls": 10,
+            "new_formal_model_calls": 0,
+            "fallback": true,
+            "fallback_reason": "all generated programs failed source execution",
+            "fallback_source": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/outputs/concrete/primary_llm/pure_output.csv",
+            "fallback_output_sha256": "3c39512567271b80d778b9d9def4a7d8c231e342124642e8abb58362b9be3b4f",
+            "native_code_repair_succeeded": false,
+            "formal_reference_read": false,
+            "not_a_zero_score_for_runtime_failure": true,
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0,
+            "qualification": "research comparison only; no deploy registration"
+          }
+        },
+        "1014": {
+          "dataset": "concrete",
+          "method": "tool_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7739455215756762,
+            "MAE": 6.152450548386198
+          },
+          "method_receipt": {
+            "method": "real9B code generation + executable source feedback",
+            "seed": 1014,
+            "actual_learning_calls": 10,
+            "formal_model_calls": 0,
+            "frozen_generated_code_applied_to_formal_rows": true,
+            "V23_candidate_engine_access": false,
+            "test_gold_read": false,
+            "source_cv_summary_scope": "shared authorized learning summary; fold training pairs restricted; external validation untouched",
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0
+          }
+        },
+        "1015": {
+          "dataset": "concrete",
+          "method": "tool_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7585282786571674,
+            "MAE": 6.127651527590848
+          },
+          "method_receipt": {
+            "method": "9B code-tool agent with explicit pure9B fallback when no executable program",
+            "seed": 1015,
+            "actual_learning_calls": 10,
+            "new_formal_model_calls": 0,
+            "fallback": true,
+            "fallback_reason": "all generated programs failed source execution",
+            "fallback_source": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1015/outputs/concrete/primary_llm/pure_output.csv",
+            "fallback_output_sha256": "0ebca3d400e94912478581b36e0349758ecb4b5bbd7589fbc179e05939ea25d6",
+            "native_code_repair_succeeded": false,
+            "formal_reference_read": false,
+            "not_a_zero_score_for_runtime_failure": true,
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0,
+            "qualification": "research comparison only; no deploy registration"
+          }
+        }
+      }
+    },
+    {
+      "dataset": "concrete",
+      "method": "raha_holoclean",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.5800409024020792,
+            "1014": 0.6548654554569491,
+            "1015": 0.7080933812334385
+          },
+          "mean": 0.6476665796974889,
+          "sample_sd": 0.06432905403364826,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 8.426979480518646,
+            "1014": 7.594595668179873,
+            "1015": 6.520463838395413
+          },
+          "mean": 7.5140129956979775,
+          "sample_sd": 0.9558088976063074,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "concrete",
+          "method": "raha_holoclean",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.5800409024020792,
+            "MAE": 8.426979480518646
+          }
+        },
+        "1014": {
+          "dataset": "concrete",
+          "method": "raha_holoclean",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6548654554569491,
+            "MAE": 7.594595668179873
+          }
+        },
+        "1015": {
+          "dataset": "concrete",
+          "method": "raha_holoclean",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7080933812334385,
+            "MAE": 6.520463838395413
+          }
+        }
+      }
+    },
+    {
+      "dataset": "concrete",
+      "method": "garf",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6622054596364875,
+            "1014": 0.7116527262257315,
+            "1015": 0.7297583574301341
+          },
+          "mean": 0.7012055144307844,
+          "sample_sd": 0.034967222877947825,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 7.572451172187943,
+            "1014": 7.052106201883301,
+            "1015": 6.449636817719106
+          },
+          "mean": 7.02473139726345,
+          "sample_sd": 0.5619075133830294,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "concrete",
+          "method": "garf",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6622054596364875,
+            "MAE": 7.572451172187943
+          }
+        },
+        "1014": {
+          "dataset": "concrete",
+          "method": "garf",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7116527262257315,
+            "MAE": 7.052106201883301
+          }
+        },
+        "1015": {
+          "dataset": "concrete",
+          "method": "garf",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7297583574301341,
+            "MAE": 6.449636817719106
+          }
+        }
+      }
+    },
+    {
+      "dataset": "concrete",
+      "method": "cdc",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.2372431861128066,
+            "1014": 0.49450803994417025,
+            "1015": 0.45962455873646635
+          },
+          "mean": 0.3971252615978144,
+          "sample_sd": 0.1395561638242373,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 11.307208331276259,
+            "1014": 9.520573298955778,
+            "1015": 9.432886647876341
+          },
+          "mean": 10.086889426036127,
+          "sample_sd": 1.0577362195080773,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "concrete",
+          "method": "cdc",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.2372431861128066,
+            "MAE": 11.307208331276259
+          }
+        },
+        "1014": {
+          "dataset": "concrete",
+          "method": "cdc",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.49450803994417025,
+            "MAE": 9.520573298955778
+          }
+        },
+        "1015": {
+          "dataset": "concrete",
+          "method": "cdc",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.45962455873646635,
+            "MAE": 9.432886647876341
+          }
+        }
+      }
+    },
+    {
+      "dataset": "concrete",
+      "method": "v23",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.7785891179088102,
+            "1014": 0.7815137638918047,
+            "1015": 0.7644170138911375
+          },
+          "mean": 0.7748399652305842,
+          "sample_sd": 0.009144223559155597,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 6.017388869905395,
+            "1014": 5.871865077376458,
+            "1015": 5.874541402611145
+          },
+          "mean": 5.921265116630999,
+          "sample_sd": 0.08325636694486585,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "concrete",
+          "method": "v23",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7785891179088102,
+            "MAE": 6.017388869905395
+          }
+        },
+        "1014": {
+          "dataset": "concrete",
+          "method": "v23",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7815137638918047,
+            "MAE": 5.871865077376458
+          }
+        },
+        "1015": {
+          "dataset": "concrete",
+          "method": "v23",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7644170138911375,
+            "MAE": 5.874541402611145
+          }
+        }
+      }
+    },
+    {
+      "dataset": "airfoil",
+      "method": "dirty",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.4787705604692075,
+            "1014": 0.5712525887617952,
+            "1015": 0.5859420828848667
+          },
+          "mean": 0.5453217440386231,
+          "sample_sd": 0.05810112163517568,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 3.914309643554688,
+            "1014": 3.5760395337422692,
+            "1015": 3.6550939234415694
+          },
+          "mean": 3.7151477002461757,
+          "sample_sd": 0.17695058315670947,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "airfoil",
+          "method": "dirty",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.4787705604692075,
+            "MAE": 3.914309643554688
+          }
+        },
+        "1014": {
+          "dataset": "airfoil",
+          "method": "dirty",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.5712525887617952,
+            "MAE": 3.5760395337422692
+          }
+        },
+        "1015": {
+          "dataset": "airfoil",
+          "method": "dirty",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.5859420828848667,
+            "MAE": 3.6550939234415694
+          }
+        }
+      }
+    },
+    {
+      "dataset": "airfoil",
+      "method": "pure_llm",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6334113869372684,
+            "1014": 0.656883112769461,
+            "1015": 0.6394477775707388
+          },
+          "mean": 0.643247425759156,
+          "sample_sd": 0.012188456553321722,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 3.2276366188049317,
+            "1014": 3.2489339022318524,
+            "1015": 3.1921424303690586
+          },
+          "mean": 3.222904317135281,
+          "sample_sd": 0.02868996041135398,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "airfoil",
+          "method": "pure_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6334113869372684,
+            "MAE": 3.2276366188049317
+          }
+        },
+        "1014": {
+          "dataset": "airfoil",
+          "method": "pure_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.656883112769461,
+            "MAE": 3.2489339022318524
+          }
+        },
+        "1015": {
+          "dataset": "airfoil",
+          "method": "pure_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6394477775707388,
+            "MAE": 3.1921424303690586
+          }
+        }
+      }
+    },
+    {
+      "dataset": "airfoil",
+      "method": "tool_llm",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.6334113869372684,
+            "1014": 0.656883112769461,
+            "1015": 0.5859420828848667
+          },
+          "mean": 0.6254121941971987,
+          "sample_sd": 0.03614066606526936,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 3.2276366188049317,
+            "1014": 3.2489339022318524,
+            "1015": 3.6550939234415694
+          },
+          "mean": 3.3772214814927843,
+          "sample_sd": 0.24088008233616423,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [
+        1013,
+        1014
+      ],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "airfoil",
+          "method": "tool_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.6334113869372684,
+            "MAE": 3.2276366188049317
+          },
+          "method_receipt": {
+            "method": "9B code-tool agent with explicit pure9B fallback when no executable program",
+            "seed": 1013,
+            "actual_learning_calls": 10,
+            "new_formal_model_calls": 0,
+            "fallback": true,
+            "fallback_reason": "all generated programs failed source execution",
+            "fallback_source": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1013/outputs/airfoil/primary_llm/pure_output.csv",
+            "fallback_output_sha256": "6981c1824364d76f53fdab38c59a994e4569f92f2620ba69ef0adc428b892885",
+            "native_code_repair_succeeded": false,
+            "formal_reference_read": false,
+            "not_a_zero_score_for_runtime_failure": true,
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0,
+            "qualification": "research comparison only; no deploy registration"
+          }
+        },
+        "1014": {
+          "dataset": "airfoil",
+          "method": "tool_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.656883112769461,
+            "MAE": 3.2489339022318524
+          },
+          "method_receipt": {
+            "method": "9B code-tool agent with explicit pure9B fallback when no executable program",
+            "seed": 1014,
+            "actual_learning_calls": 10,
+            "new_formal_model_calls": 0,
+            "fallback": true,
+            "fallback_reason": "all generated programs failed source execution",
+            "fallback_source": "/root/fsas/home/anonymous/projects/EvidForge_Downstream_Study_seed1014/outputs/airfoil/primary_llm/pure_output.csv",
+            "fallback_output_sha256": "abfc1a4736ed18649f07862439dfbc6e016a6a4510e5655c7784c1831270a9d6",
+            "native_code_repair_succeeded": false,
+            "formal_reference_read": false,
+            "not_a_zero_score_for_runtime_failure": true,
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0,
+            "qualification": "research comparison only; no deploy registration"
+          }
+        },
+        "1015": {
+          "dataset": "airfoil",
+          "method": "tool_llm",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.5859420828848667,
+            "MAE": 3.6550939234415694
+          },
+          "method_receipt": {
+            "method": "real9B code generation + executable source feedback",
+            "seed": 1015,
+            "actual_learning_calls": 10,
+            "formal_model_calls": 0,
+            "frozen_generated_code_applied_to_formal_rows": true,
+            "V23_candidate_engine_access": false,
+            "test_gold_read": false,
+            "source_cv_summary_scope": "shared authorized learning summary; fold training pairs restricted; external validation untouched",
+            "protocol_revision": "downstream-feature-cell-task-v1",
+            "previous_actual_program_in_feedback": true,
+            "prior_v4_generation_calls_retained": 0
+          }
+        }
+      }
+    },
+    {
+      "dataset": "airfoil",
+      "method": "raha_holoclean",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.5038151726128751,
+            "1014": 0.5113694931084076,
+            "1015": 0.5977409242676666
+          },
+          "mean": 0.5376418633296498,
+          "sample_sd": 0.05218419093711138,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 3.7980224713643396,
+            "1014": 3.877595484924316,
+            "1015": 3.5778994839986167
+          },
+          "mean": 3.7511724800957573,
+          "sample_sd": 0.15524372613446857,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "airfoil",
+          "method": "raha_holoclean",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.5038151726128751,
+            "MAE": 3.7980224713643396
+          }
+        },
+        "1014": {
+          "dataset": "airfoil",
+          "method": "raha_holoclean",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.5113694931084076,
+            "MAE": 3.877595484924316
+          }
+        },
+        "1015": {
+          "dataset": "airfoil",
+          "method": "raha_holoclean",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.5977409242676666,
+            "MAE": 3.5778994839986167
+          }
+        }
+      }
+    },
+    {
+      "dataset": "airfoil",
+      "method": "garf",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.4787705604692075,
+            "1014": 0.5695479702385491,
+            "1015": 0.5859420828848667
+          },
+          "mean": 0.5447535378642078,
+          "sample_sd": 0.05772786772259022,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 3.914309643554688,
+            "1014": 3.5992810674031572,
+            "1015": 3.6550939234415694
+          },
+          "mean": 3.7228948781331384,
+          "sample_sd": 0.16810258189817115,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "airfoil",
+          "method": "garf",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.4787705604692075,
+            "MAE": 3.914309643554688
+          }
+        },
+        "1014": {
+          "dataset": "airfoil",
+          "method": "garf",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.5695479702385491,
+            "MAE": 3.5992810674031572
+          }
+        },
+        "1015": {
+          "dataset": "airfoil",
+          "method": "garf",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.5859420828848667,
+            "MAE": 3.6550939234415694
+          }
+        }
+      }
+    },
+    {
+      "dataset": "airfoil",
+      "method": "cdc",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.04527426962455483,
+            "1014": 0.22805076820309333,
+            "1015": 0.27041861512822574
+          },
+          "mean": 0.18124788431862462,
+          "sample_sd": 0.11964688267145275,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 5.380029357910157,
+            "1014": 4.80136253712972,
+            "1015": 4.98404080581665
+          },
+          "mean": 5.055144233618843,
+          "sample_sd": 0.2958134470438264,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "airfoil",
+          "method": "cdc",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.04527426962455483,
+            "MAE": 5.380029357910157
+          }
+        },
+        "1014": {
+          "dataset": "airfoil",
+          "method": "cdc",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.22805076820309333,
+            "MAE": 4.80136253712972
+          }
+        },
+        "1015": {
+          "dataset": "airfoil",
+          "method": "cdc",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.27041861512822574,
+            "MAE": 4.98404080581665
+          }
+        }
+      }
+    },
+    {
+      "dataset": "airfoil",
+      "method": "v23",
+      "task": "regression",
+      "metrics": {
+        "R2": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 0.73452823969571,
+            "1014": 0.7632686854971067,
+            "1015": 0.7859011832042193
+          },
+          "mean": 0.761232702799012,
+          "sample_sd": 0.02574691729785,
+          "ddof": 1,
+          "status": "complete_n3"
+        },
+        "MAE": {
+          "n": 3,
+          "seeds": [
+            1013,
+            1014,
+            1015
+          ],
+          "per_seed": {
+            "1013": 2.6932634625752767,
+            "1014": 2.6574864334106447,
+            "1015": 2.490429507191976
+          },
+          "mean": 2.6137264677259657,
+          "sample_sd": 0.10826635817118764,
+          "ddof": 1,
+          "status": "complete_n3"
+        }
+      },
+      "fallback_seeds": [],
+      "per_seed_records": {
+        "1013": {
+          "dataset": "airfoil",
+          "method": "v23",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1013,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.73452823969571,
+            "MAE": 2.6932634625752767
+          }
+        },
+        "1014": {
+          "dataset": "airfoil",
+          "method": "v23",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1014,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7632686854971067,
+            "MAE": 2.6574864334106447
+          }
+        },
+        "1015": {
+          "dataset": "airfoil",
+          "method": "v23",
+          "task": "regression",
+          "status": "complete",
+          "classifier": "XGBoost",
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "reg_lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cpu",
+            "n_jobs": 4,
+            "random_state": 1015,
+            "verbosity": 0
+          },
+          "metrics": {
+            "R2": 0.7859011832042193,
+            "MAE": 2.490429507191976
+          }
+        }
+      }
+    }
+  ],
+  "created_at": 1792146601.3079774
+}

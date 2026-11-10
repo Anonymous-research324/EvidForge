@@ -1,0 +1,52 @@
+{
+  "version": "three_seed_simple_v1",
+  "datasets": [
+    "banknote",
+    "retinopathy",
+    "wdbc",
+    "airfoil",
+    "energy",
+    "wine_red",
+    "real_estate"
+  ],
+  "excluded_for_compute_cost_before_new_scoring": [
+    "dry_bean"
+  ],
+  "seeds": [
+    2021,
+    2022,
+    2023
+  ],
+  "profile": "mixed",
+  "rate": 0.3,
+  "arms": [
+    "full",
+    "tabclean"
+  ],
+  "planned_cases": 21,
+  "no_large_pilot_or_five_seed_phase": true,
+  "output_token_ceiling": 8192,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0,
+    "presence_penalty": 1.5,
+    "repetition_penalty": 1.0,
+    "thinking": false
+  },
+  "same_model_weights_both": "Qwen3.5-9B BF16 A100TP1",
+  "author_rounds": 10,
+  "author_early_stop": 3,
+  "author_dev_debug": 3,
+  "main_table": "dataset / repair F1 each / normal damage each; mean±sample SD n3",
+  "main_table_eligibility": "both methods completed all three seeds; independent of F1 value/winner",
+  "valid_zero_scores_retained": true,
+  "failures_and_all_runs_in_appendix": true,
+  "no_score_based_deletion": true,
+  "source_split": "reuse frozen permanent80pct confirmation pool, original per-case20learn/10validation/50repair/20holdout",
+  "all_current_old_stages_drain_then_retire": true,
+  "publication_scope_projection": true,
+  "original_protocol_sha256": "42c53da05710c7e2d29a89ab814c07b3c34a82cc8a2375bb4a46761f9d0c7b9f",
+  "projection_note": "Case/dataset dispatch narrowed for the paper artifact; original full protocol is retained privately. No model, pollution, seed, metric or gate constants changed."
+}

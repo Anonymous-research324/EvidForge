@@ -1,0 +1,13 @@
+% Module ablations; mixed-error setting distinct from Fig.4. A=full, B=no learned transforms, D=no final confidence threshold. Qualification 2/3 per dataset.
+\begin{tabular}{lllll}
+\hline
+Dataset & Variant & Repair F1 & MER (%) & Downstream \\
+\hline
+retinopathy & A & 0.542 $\pm$ 0.006 & 0.040 $\pm$ 0.069 & 0.669 $\pm$ 0.023 \\
+retinopathy & B & 0.303 $\pm$ 0.037 & 0.016 $\pm$ 0.014 & 0.641 $\pm$ 0.007 \\
+retinopathy & D & 0.519 $\pm$ 0.014 & 1.572 $\pm$ 0.671 & 0.659 $\pm$ 0.056 \\
+airfoil & A & 0.716 $\pm$ 0.015 & 0.323 $\pm$ 0.288 & 0.761 $\pm$ 0.026 \\
+airfoil & B & 0.403 $\pm$ 0.113 & 0.000 $\pm$ 0.000 & 0.647 $\pm$ 0.082 \\
+airfoil & D & 0.677 $\pm$ 0.017 & 1.615 $\pm$ 0.846 & 0.760 $\pm$ 0.015 \\
+\hline
+\end{tabular}

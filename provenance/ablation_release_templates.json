@@ -1,0 +1,19 @@
+{
+  "files": {
+    "catalog.py": "a90c8bc7267dff8101f5028193120cf47c9d2f7fc7fc14155ec58ce859d32313",
+    "seed_runtime.py": "758dbe34b9769a54ecdebd6766e83f95b952618534b91fe821f599e514e24657",
+    "model_service.py": "7530a2b9107334cc6aa866a5f34845cfd6d13696952d46225d790062752b23f2",
+    "ablation_protocol.py": "aa0aabda9770637db45eb83712c304f8842546f05813754f8e40aa9cf1c3a899",
+    "execute_arm.py": "09b1ad5d5c1bbd464680873867a223c612a4245ffe67b28c8f69ec71d97d8ec8",
+    "common.py": "27df24da4f89ef6316f3d155a6c62819b3168d2cdd47cc440e5f260b8b54fac8",
+    "learning_flow.py": "9204281c2fd4feabe662e2b012c60d61e2ae11c7853f04a96d0d277adbc02fbd",
+    "prediction.py": "41a291f9e30c62c1a8d3ff5a9a5b705e8acde764b09996d335486b9d91e36702",
+    "score_ablation.py": "9a5df012488b721db478d6c2fb077bd8b5953a6ff025be2827216f5979b322af",
+    "report.py": "70cd99d641f72b67a7e6f857488be35fe63717adb8539060970334afe4f51ecf",
+    "role_guard.py": "24a202742e7dcc04bd9e6e9ece0eef859214417b3b00ad3f9c00fa36f323395c",
+    "run_native_variant.py": "a1958c36b1a28cfdd7afb693d8682baf1a0371b7c1c03a07ae7de93bdf0b90ca",
+    "learn_variant.py": "475b5f6715093ea59243d3cf039a9e18ce21a221744e04bdef6edebf0da77142",
+    "experiment.json": "1da8bee3af6fcaa4221b63c38c0c8a3429977f9dc024481d591920b89788d693"
+  },
+  "engine_numerics_unchanged": true
+}

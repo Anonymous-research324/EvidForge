@@ -1,0 +1,38 @@
+{
+  "scientific_protocols_publication_views": {
+    "repair_main": {
+      "protocol.json": "463076fd2a25073e2c1611478348a9d1d617a8e32c7f5818825cfb9839cc8bad"
+    },
+    "downstream_main": {
+      "protocol.json": "b2932f739785136144df0c0f2575dfc4e771956554485fce6ca989ddbd591d18"
+    },
+    "module_ablation": {
+      "protocol.json": "714d5fe329f26927a1cc37564852d2ee0559358220ae7e1ed29abc1d8fc7025b"
+    },
+    "advisor_supplement": {
+      "protocol.json": "90f80441ee47c9bb4f121d8975b8c0544e79e9c3cb11c92ea3fbc961c9e5ff70"
+    },
+    "llm_digit70": {
+      "protocol.json": "2ab91567a0def0a6a12e587d8eaeb60eb0105e19d199d1f318f461fb224523c4"
+    },
+    "threshold": {
+      "protocol.json": "998057bf2ac213e772242e214486b44e70428e41486c5a8c0ec3d0703e8e8907"
+    },
+    "robustness_retinopathy": {
+      "protocol.json": "93c8a14b955cdf7bf55bc5f3251522f85a246a358d0f5bc792b08b022682c6e6"
+    },
+    "efficiency": {},
+    "tabclean_same9b": {
+      "simple_protocol_v1.json": "f17d65c4ec9bbecb93c8377da1d0e9a451a2db2b7a7067fb4bfdff158580ba64",
+      "run_config.json": "8a5f2008a1e28ba000a85214778d14d8f282f99f1d2ce6164cd20fe686383a6c"
+    },
+    "sealed_reuse": {
+      "protocol.json": "3ba3fb632fadd3d7938f076848eec6253e27e54a8ea701c01f6fdb676dda9153"
+    },
+    "real_dirty": {
+      "protocol_recovery_v3.json": "2c0c67d02e1823552cd1b35628541e86e462d29e10395a908313052af66b3785",
+      "run_config.json": "05112a115cc37fea07bd227f796e4451d29b5206ae34730af345a2540e42a0dc"
+    }
+  },
+  "warning": "The original_config directory name is retained for runner compatibility; JSONs with publication_scope_projection=true are derived views, not original historical bytes."
+}

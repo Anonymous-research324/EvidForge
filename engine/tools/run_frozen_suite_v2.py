@@ -1,0 +1,46 @@
+"""Serial9B repair, feature comparisons, then independent frozen scoring."""
+from pathlib import Path
+import sys,subprocess,json,time,os
+ROOT=Path(__file__).resolve().parents[1];WORKSPACE=ROOT.parent
+HELPER='/root/fsas/home/anonymous/experiments/dataforge_v8_9b_v11Learning20261012/remote_probe.py'
+BASELINES=WORKSPACE/'DataForge_UnseenTable_v14/baselines'
+
+
+def main():
+    status=ROOT/'research/frozen_suite_status_v2.json'
+    if status.exists():raise FileExistsError('Existing suite must be inspected; do not rerun')
+    def update(**values):status.write_text(json.dumps({'pid':os.getpid(),'unix':time.time(),**values},indent=2)+'\n')
+    def invoke(cmd,log,**state):
+        update(phase='running',**state)
+        with log.open('x') as f:subprocess.run([sys.executable,'-B',*map(str,cmd)],stdout=f,stderr=subprocess.STDOUT,check=True)
+    update(phase='starting')
+    try:
+        for name in ['balance','haberman']:
+            run=ROOT/'work'/(name+'_fresh_v2_20261013');skill=ROOT/'skills'/(name+'-learned')
+            invoke([ROOT/'tools/benchmark_transfer.py','--base-skill',skill/'base_skill','--skill',skill,
+                '--input',ROOT/'benchmarks'/name/'public_inputs/repair_evaluation.csv','--out',run,
+                '--remote-helper',HELPER,'--tag','Fresh'+name.title()+'V15v220261013'],
+                ROOT/'research'/(name+'_online_v2.log'),dataset=name,component='repair')
+            for condition,file in [('dirty','input.csv'),('pure','A_output.csv'),('system','B_output.csv')]:
+                out=ROOT/'work'/(name+'_'+condition+'_features_v2_20261013')
+                invoke([BASELINES/'run_caafe_adapted_v4.py','--input',run/file,'--shared-summary',run/'shared_model_view.json',
+                    '--out',out,'--remote-helper',HELPER,'--tag',name.title()+condition.title()+'FeaturesV15v220261013','--iterations','5'],
+                    ROOT/'research'/(name+'_'+condition+'_features_v2.log'),dataset=name,component='feature_learning',condition=condition)
+        # No formal reference/holdout is opened until EVERY trained output closes.
+        for name in ['balance','haberman']:
+            run=ROOT/'work'/(name+'_fresh_v2_20261013');private=ROOT/'benchmarks'/name/'local_private'
+            invoke([ROOT/'tools/score_transfer.py','--run',run,'--reference',private/'repair_evaluation_reference.csv',
+                '--holdout',private/'downstream_holdout_reference.csv','--report',ROOT/'reports'/(name+'_fresh_v2_20261013')],
+                ROOT/'research'/(name+'_score_v2.log'),dataset=name,component='independent_repair_scoring')
+            for condition in ['dirty','pure','system']:
+                out=ROOT/'work'/(name+'_'+condition+'_features_v2_20261013')
+                invoke([BASELINES/'score_caafe_v4.py','--run',out,'--holdout',private/'downstream_holdout_reference.csv',
+                    '--report',ROOT/'reports'/(name+'_'+condition+'_features_v2_20261013')],
+                    ROOT/'research'/(name+'_'+condition+'_features_score_v2.log'),dataset=name,component='independent_feature_scoring',condition=condition)
+        update(phase='complete',datasets=['balance','haberman'])
+        print('ALL_FROZEN_FRESH_COMPARISONS_COMPLETE',flush=True)
+    except BaseException as exc:
+        update(phase='failed',error=str(exc));raise
+
+
+if __name__=='__main__':main()

@@ -1,0 +1,2656 @@
+{
+  "llm_digit70": {
+    "protocol": {
+      "study_id": "EvidForge_Digit70_LLM_Ablation_20261024",
+      "datasets": [
+        "retinopathy",
+        "airfoil"
+      ],
+      "seeds": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "arms": [
+        "full",
+        "no_llm"
+      ],
+      "profile": "digit_exact_r0p70",
+      "max_real_calls": 100,
+      "max_calls_per_stage": 5,
+      "stages": [
+        "prior",
+        "context"
+      ],
+      "new_model": "same Qwen3.5-9B BF16 TP1 temperature0",
+      "partitions": "Keep seed1013 original public learning, validation and repair entity roles fixed for all5 new pollution/fitting seeds. No original holdout file read; no old holdout entity enters methods. New random corruptions on known source, not a new blind dataset.",
+      "input_generation": "Curator alone parses original public UCI archive and reconstructs features by original duplicate/entity grouping. No old formal reference or score parsed by curator. Target/ID/class separation checked. All old public role rows kept.",
+      "corruption": "Original single_digit_substitution operator unchanged. Restore original known clean feature values first; select70%eligible feature cells once without replacement; one digit replaced with a different digit in each selected value. No old pollution stacking or new DSL. Separate deterministic mask/mutation RNG per dataset/seed/zone. Integer quota rounding and actual changed/eligible counts recorded.",
+      "paired": "Same full source pre-native fit copied before any model call; noLLM zero calls and no compiled candidate; preserve deterministic rules/data.",
+      "method": "Original core124, seed binding/runtime metadata adapters only. LLM ranks existing candidates/accepts proposals; no new correct-value operators or relaxation.",
+      "diagnostic": "First preplanned pair teaching activation checks are reported without changing configuration or filtering cases; all10cases proceed and are reported even if no rule admitted.",
+      "formal": "Before once-only score all10outputs/learning/calls must close. Private reference read once percase. Preserve markers, no rescore.",
+      "metrics": {
+        "primary": "all_target_cells_exact_repair_F1",
+        "secondary": [
+          "recall",
+          "normal_damage_percent",
+          "net_new_correct",
+          "lost_correct",
+          "correct_candidate_and_forward_reachable_stratum_recall",
+          "candidate_absent_stratum_recall",
+          "source_rule_qualification"
+        ]
+      },
+      "strata": "Define prior to scoring from same frozen pre-native candidate evidence plus truth during scoring only. Reachable errors include every error with exact correct value in pool and forward gate; never restrict to LLMedited cells or baseline mistakes.",
+      "statistics": "5seeds equal mean±sampleSD ddof1; paired differences and perseed; retain all null/negative and nonqualification research priors; no significance claim merely from five seeds.",
+      "hardware": "User requested RTX4090 host. Two physical48GB cards1and4, one TP1 BF16 same9B service perlane. Logicallane0=Retinopathy physical1 port8181; lane1=Airfoil physical4 port8182. Samecase botharms samephysicalGPU.",
+      "selection_disclosure": "Both previously selected datasets and all5seed repeats fixed before new outcomes. Known source, same old entity roles, not newblind data. No posthoc seed/dataset dropping, no method/threshold tuning for positivity.",
+      "old_results": "All previous studies, paper and GitHub unchanged; include original six-table nulls in context. No picking best experiment as sole confirmation.",
+      "authorization": "User on2026-10-24 requests this new70%R/A experiment and design; explicitly clarified70%ofcells that can be corrupted. Prior autonomous design/code/run/interface recovery authorization persists.",
+      "candidate_capture": "Observation-only wrapper around original learning.execute.build; exact frame returned unchanged; save option values/forward flags without source truth. Same pool parity checked between arms before scoring.",
+      "expected_cases": 10,
+      "model_service_base_port": 8181,
+      "served_model_prefix": "evidforge-digit70",
+      "pollution_rate": 0.7,
+      "pollution_denominator": "All known nonempty target-feature cells independently in each learning,validation,repair zone. Identity,task labels,original unknowns and excluded holdout never eligible. Direct select round_half_up(.7*eligible_cells), no division by4.",
+      "comparison": {
+        "only_intended_factor_change": "New protocol tests70%single-digit pollution with fixed oldroles,seedlist,method,model,temp and percasebudget. User explicitly moved execution from old A100 to RTX4090; within-newstudy full/noLLM paired fairly on samehardware.",
+        "mask_caveat": "This is a newly drawn fixed70%mask, not promised nested within old low-rate masks. Botharms share exactly the same new input.",
+        "low_rate_sources": [
+          "/root/fsas/home/anonymous/projects/EvidForge_CandidateRanking_LLM_Ablation_20261023/reports/aggregate.json",
+          "/root/fsas/home/anonymous/projects/EvidForge_CandidateRanking_Expansion_20261023/reports/aggregate.json"
+        ],
+        "old70_history": "Earlier70%mixed-error studies exist; no exact R/A pure-single-digit five-seed full/noLLM configuration found in inspected records.",
+        "cross_rate_hardware_caveat": "Old approx7.5%results ran A100; this70%run uses RTX4090 by user instruction. Direct cross-rate difference cannot be attributed exclusively to corruptionrate because hardware changed. No crosshardware speedup claim."
+      },
+      "resource_wait_policy": {
+        "user_chose_other_server": true,
+        "do_not_touch_a100_queue": true,
+        "selected_physical_devices": [
+          "1",
+          "4"
+        ],
+        "check_real_worker_queue_and_compute_PID_before_launch": true,
+        "others_GPUs": [
+          "0",
+          "2",
+          "3",
+          "7"
+        ],
+        "other_free_GPUs5and6_not_used": true
+      },
+      "human_rate_clarification": "可以污染的格子的70%",
+      "execution_host": "epic-polaris-2939-74bd77d8b5-z22jj",
+      "ssh_host": "rtx4090",
+      "lane_devices": {
+        "0": "1",
+        "1": "4"
+      }
+    },
+    "cases": {
+      "digit70_retinopathy_s2013": {
+        "case_metadata": {
+          "id": "digit70_retinopathy_s2013",
+          "dataset": "retinopathy",
+          "seed": 2013,
+          "profile": "digit_exact_r0p70",
+          "suite": "digit70_llm_ablation",
+          "original_task": "classification",
+          "task": "repair_only",
+          "counts": {
+            "learning": {
+              "rows": 115,
+              "groups": 115,
+              "eligible_cells": 2185,
+              "requested_rate": 0.7,
+              "selected_cells": 1530,
+              "actual_changed_cells": 1530,
+              "actual_rate": 0.700228832951945,
+              "target_cells": 2185,
+              "all_table_cells_including_ID": 2300,
+              "all_table_cell_rate": 0.6652173913043479,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 84,
+                  "actual_rate": 0.7304347826086957
+                },
+                "feature_02": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 85,
+                  "actual_rate": 0.7391304347826086
+                },
+                "feature_03": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.7043478260869566
+                },
+                "feature_04": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 76,
+                  "actual_rate": 0.6608695652173913
+                },
+                "feature_05": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 77,
+                  "actual_rate": 0.6695652173913044
+                },
+                "feature_06": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 87,
+                  "actual_rate": 0.7565217391304347
+                },
+                "feature_07": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 76,
+                  "actual_rate": 0.6608695652173913
+                },
+                "feature_08": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 89,
+                  "actual_rate": 0.7739130434782608
+                },
+                "feature_09": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 75,
+                  "actual_rate": 0.6521739130434783
+                },
+                "feature_10": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 84,
+                  "actual_rate": 0.7304347826086957
+                },
+                "feature_11": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6782608695652174
+                },
+                "feature_12": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 76,
+                  "actual_rate": 0.6608695652173913
+                },
+                "feature_13": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6956521739130435
+                },
+                "feature_14": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6869565217391305
+                },
+                "feature_15": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6956521739130435
+                },
+                "feature_16": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 77,
+                  "actual_rate": 0.6695652173913044
+                },
+                "feature_17": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6869565217391305
+                },
+                "feature_18": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 87,
+                  "actual_rate": 0.7565217391304347
+                },
+                "feature_19": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6956521739130435
+                }
+              }
+            },
+            "validation": {
+              "rows": 116,
+              "groups": 115,
+              "eligible_cells": 2204,
+              "requested_rate": 0.7,
+              "selected_cells": 1543,
+              "actual_changed_cells": 1543,
+              "actual_rate": 0.7000907441016334,
+              "target_cells": 2204,
+              "all_table_cells_including_ID": 2320,
+              "all_table_cell_rate": 0.6650862068965517,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 75,
+                  "actual_rate": 0.646551724137931
+                },
+                "feature_02": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 71,
+                  "actual_rate": 0.6120689655172413
+                },
+                "feature_03": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 83,
+                  "actual_rate": 0.7155172413793104
+                },
+                "feature_04": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                },
+                "feature_05": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 91,
+                  "actual_rate": 0.7844827586206896
+                },
+                "feature_06": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 72,
+                  "actual_rate": 0.6206896551724138
+                },
+                "feature_07": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6810344827586207
+                },
+                "feature_08": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                },
+                "feature_09": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 89,
+                  "actual_rate": 0.7672413793103449
+                },
+                "feature_10": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                },
+                "feature_11": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 85,
+                  "actual_rate": 0.7327586206896551
+                },
+                "feature_12": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 77,
+                  "actual_rate": 0.6637931034482759
+                },
+                "feature_13": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 85,
+                  "actual_rate": 0.7327586206896551
+                },
+                "feature_14": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 86,
+                  "actual_rate": 0.7413793103448276
+                },
+                "feature_15": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.6982758620689655
+                },
+                "feature_16": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.6982758620689655
+                },
+                "feature_17": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.6982758620689655
+                },
+                "feature_18": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 88,
+                  "actual_rate": 0.7586206896551724
+                },
+                "feature_19": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6810344827586207
+                }
+              }
+            },
+            "repair": {
+              "rows": 737,
+              "groups": 733,
+              "eligible_cells": 14003,
+              "requested_rate": 0.7,
+              "selected_cells": 9802,
+              "actual_changed_cells": 9802,
+              "actual_rate": 0.6999928586731414,
+              "target_cells": 14003,
+              "all_table_cells_including_ID": 14740,
+              "all_table_cell_rate": 0.6649932157394844,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 525,
+                  "actual_rate": 0.7123473541383989
+                },
+                "feature_02": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 525,
+                  "actual_rate": 0.7123473541383989
+                },
+                "feature_03": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 521,
+                  "actual_rate": 0.7069199457259159
+                },
+                "feature_04": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 519,
+                  "actual_rate": 0.7042062415196744
+                },
+                "feature_05": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 497,
+                  "actual_rate": 0.6743554952510177
+                },
+                "feature_06": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 524,
+                  "actual_rate": 0.7109905020352781
+                },
+                "feature_07": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 532,
+                  "actual_rate": 0.7218453188602443
+                },
+                "feature_08": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 521,
+                  "actual_rate": 0.7069199457259159
+                },
+                "feature_09": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 504,
+                  "actual_rate": 0.683853459972863
+                },
+                "feature_10": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 535,
+                  "actual_rate": 0.7259158751696065
+                },
+                "feature_11": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 529,
+                  "actual_rate": 0.7177747625508819
+                },
+                "feature_12": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 517,
+                  "actual_rate": 0.7014925373134329
+                },
+                "feature_13": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 487,
+                  "actual_rate": 0.66078697421981
+                },
+                "feature_14": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 511,
+                  "actual_rate": 0.6933514246947082
+                },
+                "feature_15": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 505,
+                  "actual_rate": 0.6852103120759837
+                },
+                "feature_16": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 511,
+                  "actual_rate": 0.6933514246947082
+                },
+                "feature_17": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 511,
+                  "actual_rate": 0.6933514246947082
+                },
+                "feature_18": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 516,
+                  "actual_rate": 0.7001356852103121
+                },
+                "feature_19": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 512,
+                  "actual_rate": 0.694708276797829
+                }
+              }
+            }
+          },
+          "old_entity_partitions_seed": 1013,
+          "new_partition": false,
+          "known_source_not_new_blind": true,
+          "old_holdout_excluded_groups": 183,
+          "native_budget": 10,
+          "raw_source_sha": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+          "old_public_roles_sha": "5367c6eafd014cb2d7c8642c47736a6a0efc5693bd87082594672e93fc80c33e"
+        },
+        "expected_input_freeze": {
+          "case_sha256": "cb6e13c6caed3c449696067a547721bf6d504f12a600c5f87f56a7af2a6f4935",
+          "public": {
+            "context.json": "818b1406287c212c259c22541577d81d8d1c57f81c185447d73e088b85742310",
+            "declaration.json": "6ed05d19c42af78a3a064328072544187c129bb21e2bc7e4a7feb4b76822ec6a",
+            "development_bundle.json": "2cdfbd8710293a479f247859b42f92c6dfa0e169fe538856f3180ba362c4e906",
+            "repair_dirty.csv": "496246bac568ca713d81153de688f46fe22fea9ddb7497a1d08704c4a8dbf57f"
+          },
+          "private": {
+            "error_annotations.json": "5d6c999685417e94233e1ce7453e6770a322759801b9b561ff1fdf3c9236dad6",
+            "repair_reference.csv": "4d95629975e50d3a1622c5f95cfe92cce8466bf282c37bd7fe4d57bac93a8ee1",
+            "repair_rowkeys.json": "35a5a3e69e0f00e1b829500376040efb7bf30c4feafe809b65efa76f6c141257"
+          }
+        }
+      },
+      "digit70_airfoil_s2013": {
+        "case_metadata": {
+          "id": "digit70_airfoil_s2013",
+          "dataset": "airfoil",
+          "seed": 2013,
+          "profile": "digit_exact_r0p70",
+          "suite": "digit70_llm_ablation",
+          "original_task": "regression",
+          "task": "repair_only",
+          "counts": {
+            "learning": {
+              "rows": 150,
+              "groups": 150,
+              "eligible_cells": 750,
+              "requested_rate": 0.7,
+              "selected_cells": 525,
+              "actual_changed_cells": 525,
+              "actual_rate": 0.7,
+              "target_cells": 750,
+              "all_table_cells_including_ID": 900,
+              "all_table_cell_rate": 0.5833333333333334,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 108,
+                  "actual_rate": 0.72
+                },
+                "feature_02": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 100,
+                  "actual_rate": 0.6666666666666666
+                },
+                "feature_03": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 108,
+                  "actual_rate": 0.72
+                },
+                "feature_04": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 99,
+                  "actual_rate": 0.66
+                },
+                "feature_05": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 110,
+                  "actual_rate": 0.7333333333333333
+                }
+              }
+            },
+            "validation": {
+              "rows": 150,
+              "groups": 150,
+              "eligible_cells": 750,
+              "requested_rate": 0.7,
+              "selected_cells": 525,
+              "actual_changed_cells": 525,
+              "actual_rate": 0.7,
+              "target_cells": 750,
+              "all_table_cells_including_ID": 900,
+              "all_table_cell_rate": 0.5833333333333334,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 103,
+                  "actual_rate": 0.6866666666666666
+                },
+                "feature_02": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 107,
+                  "actual_rate": 0.7133333333333334
+                },
+                "feature_03": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 108,
+                  "actual_rate": 0.72
+                },
+                "feature_04": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 109,
+                  "actual_rate": 0.7266666666666667
+                },
+                "feature_05": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 98,
+                  "actual_rate": 0.6533333333333333
+                }
+              }
+            },
+            "repair": {
+              "rows": 963,
+              "groups": 963,
+              "eligible_cells": 4815,
+              "requested_rate": 0.7,
+              "selected_cells": 3371,
+              "actual_changed_cells": 3371,
+              "actual_rate": 0.700103842159917,
+              "target_cells": 4815,
+              "all_table_cells_including_ID": 5778,
+              "all_table_cell_rate": 0.5834198684665974,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 666,
+                  "actual_rate": 0.6915887850467289
+                },
+                "feature_02": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 647,
+                  "actual_rate": 0.671858774662513
+                },
+                "feature_03": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 715,
+                  "actual_rate": 0.7424714434060229
+                },
+                "feature_04": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 680,
+                  "actual_rate": 0.7061266874350987
+                },
+                "feature_05": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 663,
+                  "actual_rate": 0.6884735202492211
+                }
+              }
+            }
+          },
+          "old_entity_partitions_seed": 1013,
+          "new_partition": false,
+          "known_source_not_new_blind": true,
+          "old_holdout_excluded_groups": 240,
+          "native_budget": 10,
+          "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+          "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360"
+        },
+        "expected_input_freeze": {
+          "case_sha256": "c0437909206477e473993e7c62ad7d6d5355de2d89caf35ec11249b328f87533",
+          "public": {
+            "context.json": "387b4af5ed4391128a7b9a3e172ab862ce72ed66b9c83997f9128120356464bd",
+            "declaration.json": "d1ad9395a3fbd2eb195da546df96c112516ba122c314d3fa0efcfd426e84cb6a",
+            "development_bundle.json": "00adeafa60b4144c01baf1a1452bbd2b2d20fe8836be6e90d5431cc627b33205",
+            "repair_dirty.csv": "bf8a8a7ada9fbb06daf64f141b37bb0ff94db90ebfa8215bb34372e49f683cd2"
+          },
+          "private": {
+            "error_annotations.json": "0c60b8e365337d604b872030e5007271bee9e7b65c59c8dbe197aa60937eddee",
+            "repair_reference.csv": "d925d33601d973059fd9c5953c1e5d846d8083165b4a86cc47e9d9383a20a07c",
+            "repair_rowkeys.json": "3d2494aeec60cdb40f34331aa0d92325278abca639374516329e7546aa533c1c"
+          }
+        }
+      },
+      "digit70_retinopathy_s2014": {
+        "case_metadata": {
+          "id": "digit70_retinopathy_s2014",
+          "dataset": "retinopathy",
+          "seed": 2014,
+          "profile": "digit_exact_r0p70",
+          "suite": "digit70_llm_ablation",
+          "original_task": "classification",
+          "task": "repair_only",
+          "counts": {
+            "learning": {
+              "rows": 115,
+              "groups": 115,
+              "eligible_cells": 2185,
+              "requested_rate": 0.7,
+              "selected_cells": 1530,
+              "actual_changed_cells": 1530,
+              "actual_rate": 0.700228832951945,
+              "target_cells": 2185,
+              "all_table_cells_including_ID": 2300,
+              "all_table_cell_rate": 0.6652173913043479,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6956521739130435
+                },
+                "feature_02": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.7043478260869566
+                },
+                "feature_03": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 71,
+                  "actual_rate": 0.6173913043478261
+                },
+                "feature_04": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.7043478260869566
+                },
+                "feature_05": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 85,
+                  "actual_rate": 0.7391304347826086
+                },
+                "feature_06": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6869565217391305
+                },
+                "feature_07": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 82,
+                  "actual_rate": 0.7130434782608696
+                },
+                "feature_08": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.7043478260869566
+                },
+                "feature_09": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.7043478260869566
+                },
+                "feature_10": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.7043478260869566
+                },
+                "feature_11": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6782608695652174
+                },
+                "feature_12": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 75,
+                  "actual_rate": 0.6521739130434783
+                },
+                "feature_13": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 82,
+                  "actual_rate": 0.7130434782608696
+                },
+                "feature_14": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 82,
+                  "actual_rate": 0.7130434782608696
+                },
+                "feature_15": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 86,
+                  "actual_rate": 0.7478260869565218
+                },
+                "feature_16": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 83,
+                  "actual_rate": 0.7217391304347827
+                },
+                "feature_17": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6956521739130435
+                },
+                "feature_18": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 88,
+                  "actual_rate": 0.7652173913043478
+                },
+                "feature_19": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 74,
+                  "actual_rate": 0.6434782608695652
+                }
+              }
+            },
+            "validation": {
+              "rows": 116,
+              "groups": 115,
+              "eligible_cells": 2204,
+              "requested_rate": 0.7,
+              "selected_cells": 1543,
+              "actual_changed_cells": 1543,
+              "actual_rate": 0.7000907441016334,
+              "target_cells": 2204,
+              "all_table_cells_including_ID": 2320,
+              "all_table_cell_rate": 0.6650862068965517,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 86,
+                  "actual_rate": 0.7413793103448276
+                },
+                "feature_02": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6724137931034483
+                },
+                "feature_03": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 83,
+                  "actual_rate": 0.7155172413793104
+                },
+                "feature_04": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 86,
+                  "actual_rate": 0.7413793103448276
+                },
+                "feature_05": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 85,
+                  "actual_rate": 0.7327586206896551
+                },
+                "feature_06": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 85,
+                  "actual_rate": 0.7327586206896551
+                },
+                "feature_07": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6724137931034483
+                },
+                "feature_08": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 87,
+                  "actual_rate": 0.75
+                },
+                "feature_09": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 89,
+                  "actual_rate": 0.7672413793103449
+                },
+                "feature_10": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 74,
+                  "actual_rate": 0.6379310344827587
+                },
+                "feature_11": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6724137931034483
+                },
+                "feature_12": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 83,
+                  "actual_rate": 0.7155172413793104
+                },
+                "feature_13": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6810344827586207
+                },
+                "feature_14": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 71,
+                  "actual_rate": 0.6120689655172413
+                },
+                "feature_15": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 77,
+                  "actual_rate": 0.6637931034482759
+                },
+                "feature_16": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 84,
+                  "actual_rate": 0.7241379310344828
+                },
+                "feature_17": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6810344827586207
+                },
+                "feature_18": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.6982758620689655
+                },
+                "feature_19": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                }
+              }
+            },
+            "repair": {
+              "rows": 737,
+              "groups": 733,
+              "eligible_cells": 14003,
+              "requested_rate": 0.7,
+              "selected_cells": 9802,
+              "actual_changed_cells": 9802,
+              "actual_rate": 0.6999928586731414,
+              "target_cells": 14003,
+              "all_table_cells_including_ID": 14740,
+              "all_table_cell_rate": 0.6649932157394844,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 518,
+                  "actual_rate": 0.7028493894165536
+                },
+                "feature_02": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 493,
+                  "actual_rate": 0.6689280868385346
+                },
+                "feature_03": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 507,
+                  "actual_rate": 0.6879240162822252
+                },
+                "feature_04": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 545,
+                  "actual_rate": 0.7394843962008141
+                },
+                "feature_05": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 540,
+                  "actual_rate": 0.7327001356852103
+                },
+                "feature_06": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 526,
+                  "actual_rate": 0.7137042062415196
+                },
+                "feature_07": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 503,
+                  "actual_rate": 0.6824966078697422
+                },
+                "feature_08": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 507,
+                  "actual_rate": 0.6879240162822252
+                },
+                "feature_09": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 511,
+                  "actual_rate": 0.6933514246947082
+                },
+                "feature_10": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 529,
+                  "actual_rate": 0.7177747625508819
+                },
+                "feature_11": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 530,
+                  "actual_rate": 0.7191316146540027
+                },
+                "feature_12": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 532,
+                  "actual_rate": 0.7218453188602443
+                },
+                "feature_13": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 514,
+                  "actual_rate": 0.6974219810040706
+                },
+                "feature_14": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 476,
+                  "actual_rate": 0.6458616010854816
+                },
+                "feature_15": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 511,
+                  "actual_rate": 0.6933514246947082
+                },
+                "feature_16": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 527,
+                  "actual_rate": 0.7150610583446404
+                },
+                "feature_17": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 510,
+                  "actual_rate": 0.6919945725915875
+                },
+                "feature_18": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 506,
+                  "actual_rate": 0.6865671641791045
+                },
+                "feature_19": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 517,
+                  "actual_rate": 0.7014925373134329
+                }
+              }
+            }
+          },
+          "old_entity_partitions_seed": 1013,
+          "new_partition": false,
+          "known_source_not_new_blind": true,
+          "old_holdout_excluded_groups": 183,
+          "native_budget": 10,
+          "raw_source_sha": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+          "old_public_roles_sha": "5367c6eafd014cb2d7c8642c47736a6a0efc5693bd87082594672e93fc80c33e"
+        },
+        "expected_input_freeze": {
+          "case_sha256": "822ed2aed521cc383cb1f6977b7aecf420a213dc69bddcb1976597d8c3ce7568",
+          "public": {
+            "context.json": "90bceb9b81a9bfe69ae1d475392cc6e82d6e8bbbd8a1bc7db98e53f0183853c0",
+            "declaration.json": "48f8fb1c7186535e2959f60e587d4b197d6545dd4b37cd8749d72cc140a1d299",
+            "development_bundle.json": "5b37e8feb8f7c6a5c773f0f9f7bad0e7c5130eec53b5bda4b1e27659bd285769",
+            "repair_dirty.csv": "f10d630496a5db13dbf0b9e84966e0f8b249c87ef4b873475cd57867388ad3ff"
+          },
+          "private": {
+            "error_annotations.json": "120fab8e79be8a3c8be7ceaa901e49c626333f5a9755d491dea0623bbaea01b6",
+            "repair_reference.csv": "4d95629975e50d3a1622c5f95cfe92cce8466bf282c37bd7fe4d57bac93a8ee1",
+            "repair_rowkeys.json": "35a5a3e69e0f00e1b829500376040efb7bf30c4feafe809b65efa76f6c141257"
+          }
+        }
+      },
+      "digit70_airfoil_s2014": {
+        "case_metadata": {
+          "id": "digit70_airfoil_s2014",
+          "dataset": "airfoil",
+          "seed": 2014,
+          "profile": "digit_exact_r0p70",
+          "suite": "digit70_llm_ablation",
+          "original_task": "regression",
+          "task": "repair_only",
+          "counts": {
+            "learning": {
+              "rows": 150,
+              "groups": 150,
+              "eligible_cells": 750,
+              "requested_rate": 0.7,
+              "selected_cells": 525,
+              "actual_changed_cells": 525,
+              "actual_rate": 0.7,
+              "target_cells": 750,
+              "all_table_cells_including_ID": 900,
+              "all_table_cell_rate": 0.5833333333333334,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 103,
+                  "actual_rate": 0.6866666666666666
+                },
+                "feature_02": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 104,
+                  "actual_rate": 0.6933333333333334
+                },
+                "feature_03": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 111,
+                  "actual_rate": 0.74
+                },
+                "feature_04": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 104,
+                  "actual_rate": 0.6933333333333334
+                },
+                "feature_05": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 103,
+                  "actual_rate": 0.6866666666666666
+                }
+              }
+            },
+            "validation": {
+              "rows": 150,
+              "groups": 150,
+              "eligible_cells": 750,
+              "requested_rate": 0.7,
+              "selected_cells": 525,
+              "actual_changed_cells": 525,
+              "actual_rate": 0.7,
+              "target_cells": 750,
+              "all_table_cells_including_ID": 900,
+              "all_table_cell_rate": 0.5833333333333334,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 111,
+                  "actual_rate": 0.74
+                },
+                "feature_02": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 101,
+                  "actual_rate": 0.6733333333333333
+                },
+                "feature_03": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 104,
+                  "actual_rate": 0.6933333333333334
+                },
+                "feature_04": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 108,
+                  "actual_rate": 0.72
+                },
+                "feature_05": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 101,
+                  "actual_rate": 0.6733333333333333
+                }
+              }
+            },
+            "repair": {
+              "rows": 963,
+              "groups": 963,
+              "eligible_cells": 4815,
+              "requested_rate": 0.7,
+              "selected_cells": 3371,
+              "actual_changed_cells": 3371,
+              "actual_rate": 0.700103842159917,
+              "target_cells": 4815,
+              "all_table_cells_including_ID": 5778,
+              "all_table_cell_rate": 0.5834198684665974,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 671,
+                  "actual_rate": 0.6967808930425753
+                },
+                "feature_02": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 658,
+                  "actual_rate": 0.6832814122533749
+                },
+                "feature_03": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 659,
+                  "actual_rate": 0.6843198338525441
+                },
+                "feature_04": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 688,
+                  "actual_rate": 0.7144340602284528
+                },
+                "feature_05": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 695,
+                  "actual_rate": 0.7217030114226376
+                }
+              }
+            }
+          },
+          "old_entity_partitions_seed": 1013,
+          "new_partition": false,
+          "known_source_not_new_blind": true,
+          "old_holdout_excluded_groups": 240,
+          "native_budget": 10,
+          "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+          "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360"
+        },
+        "expected_input_freeze": {
+          "case_sha256": "a7de685b8011f3abcb56dbe9aadc60124ddba940b5f4214e69a2d61290155128",
+          "public": {
+            "context.json": "21e36a268eeca971034f44c0e79672eabd02d4c0751cf4f1e3c257afa38d2d62",
+            "declaration.json": "36e0a0217d51226d2a9556853b166d4c932cd9c3fe978c75224332741c63c18a",
+            "development_bundle.json": "e07482f5a399fce00032e31f2e7a6039c99c46a9fb43a69ca3b62a7b211e8fdf",
+            "repair_dirty.csv": "dd87167683e43224d911011787f7e338722fad408b34e96afe1de416b14ab3dc"
+          },
+          "private": {
+            "error_annotations.json": "c9a12ca255d6c8e5b81e8c69ff9df48ad66c09d5b51478bf7b67ec6169bbebb5",
+            "repair_reference.csv": "d925d33601d973059fd9c5953c1e5d846d8083165b4a86cc47e9d9383a20a07c",
+            "repair_rowkeys.json": "3d2494aeec60cdb40f34331aa0d92325278abca639374516329e7546aa533c1c"
+          }
+        }
+      },
+      "digit70_retinopathy_s2015": {
+        "case_metadata": {
+          "id": "digit70_retinopathy_s2015",
+          "dataset": "retinopathy",
+          "seed": 2015,
+          "profile": "digit_exact_r0p70",
+          "suite": "digit70_llm_ablation",
+          "original_task": "classification",
+          "task": "repair_only",
+          "counts": {
+            "learning": {
+              "rows": 115,
+              "groups": 115,
+              "eligible_cells": 2185,
+              "requested_rate": 0.7,
+              "selected_cells": 1530,
+              "actual_changed_cells": 1530,
+              "actual_rate": 0.700228832951945,
+              "target_cells": 2185,
+              "all_table_cells_including_ID": 2300,
+              "all_table_cell_rate": 0.6652173913043479,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6956521739130435
+                },
+                "feature_02": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 84,
+                  "actual_rate": 0.7304347826086957
+                },
+                "feature_03": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 89,
+                  "actual_rate": 0.7739130434782608
+                },
+                "feature_04": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 82,
+                  "actual_rate": 0.7130434782608696
+                },
+                "feature_05": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 77,
+                  "actual_rate": 0.6695652173913044
+                },
+                "feature_06": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 73,
+                  "actual_rate": 0.6347826086956522
+                },
+                "feature_07": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 82,
+                  "actual_rate": 0.7130434782608696
+                },
+                "feature_08": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 84,
+                  "actual_rate": 0.7304347826086957
+                },
+                "feature_09": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 83,
+                  "actual_rate": 0.7217391304347827
+                },
+                "feature_10": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 76,
+                  "actual_rate": 0.6608695652173913
+                },
+                "feature_11": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 84,
+                  "actual_rate": 0.7304347826086957
+                },
+                "feature_12": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 77,
+                  "actual_rate": 0.6695652173913044
+                },
+                "feature_13": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.7043478260869566
+                },
+                "feature_14": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6782608695652174
+                },
+                "feature_15": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.7043478260869566
+                },
+                "feature_16": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 73,
+                  "actual_rate": 0.6347826086956522
+                },
+                "feature_17": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 88,
+                  "actual_rate": 0.7652173913043478
+                },
+                "feature_18": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 73,
+                  "actual_rate": 0.6347826086956522
+                },
+                "feature_19": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 85,
+                  "actual_rate": 0.7391304347826086
+                }
+              }
+            },
+            "validation": {
+              "rows": 116,
+              "groups": 115,
+              "eligible_cells": 2204,
+              "requested_rate": 0.7,
+              "selected_cells": 1543,
+              "actual_changed_cells": 1543,
+              "actual_rate": 0.7000907441016334,
+              "target_cells": 2204,
+              "all_table_cells_including_ID": 2320,
+              "all_table_cell_rate": 0.6650862068965517,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 90,
+                  "actual_rate": 0.7758620689655172
+                },
+                "feature_02": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                },
+                "feature_03": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 89,
+                  "actual_rate": 0.7672413793103449
+                },
+                "feature_04": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                },
+                "feature_05": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 82,
+                  "actual_rate": 0.7068965517241379
+                },
+                "feature_06": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.6982758620689655
+                },
+                "feature_07": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 71,
+                  "actual_rate": 0.6120689655172413
+                },
+                "feature_08": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                },
+                "feature_09": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 76,
+                  "actual_rate": 0.6551724137931034
+                },
+                "feature_10": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 76,
+                  "actual_rate": 0.6551724137931034
+                },
+                "feature_11": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                },
+                "feature_12": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 88,
+                  "actual_rate": 0.7586206896551724
+                },
+                "feature_13": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 87,
+                  "actual_rate": 0.75
+                },
+                "feature_14": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6810344827586207
+                },
+                "feature_15": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6810344827586207
+                },
+                "feature_16": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 88,
+                  "actual_rate": 0.7586206896551724
+                },
+                "feature_17": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                },
+                "feature_18": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 77,
+                  "actual_rate": 0.6637931034482759
+                },
+                "feature_19": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                }
+              }
+            },
+            "repair": {
+              "rows": 737,
+              "groups": 733,
+              "eligible_cells": 14003,
+              "requested_rate": 0.7,
+              "selected_cells": 9802,
+              "actual_changed_cells": 9802,
+              "actual_rate": 0.6999928586731414,
+              "target_cells": 14003,
+              "all_table_cells_including_ID": 14740,
+              "all_table_cell_rate": 0.6649932157394844,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 519,
+                  "actual_rate": 0.7042062415196744
+                },
+                "feature_02": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 514,
+                  "actual_rate": 0.6974219810040706
+                },
+                "feature_03": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 494,
+                  "actual_rate": 0.6702849389416553
+                },
+                "feature_04": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 508,
+                  "actual_rate": 0.689280868385346
+                },
+                "feature_05": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 523,
+                  "actual_rate": 0.7096336499321574
+                },
+                "feature_06": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 494,
+                  "actual_rate": 0.6702849389416553
+                },
+                "feature_07": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 531,
+                  "actual_rate": 0.7204884667571235
+                },
+                "feature_08": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 504,
+                  "actual_rate": 0.683853459972863
+                },
+                "feature_09": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 514,
+                  "actual_rate": 0.6974219810040706
+                },
+                "feature_10": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 515,
+                  "actual_rate": 0.6987788331071914
+                },
+                "feature_11": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 519,
+                  "actual_rate": 0.7042062415196744
+                },
+                "feature_12": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 531,
+                  "actual_rate": 0.7204884667571235
+                },
+                "feature_13": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 500,
+                  "actual_rate": 0.6784260515603799
+                },
+                "feature_14": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 524,
+                  "actual_rate": 0.7109905020352781
+                },
+                "feature_15": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 510,
+                  "actual_rate": 0.6919945725915875
+                },
+                "feature_16": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 515,
+                  "actual_rate": 0.6987788331071914
+                },
+                "feature_17": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 529,
+                  "actual_rate": 0.7177747625508819
+                },
+                "feature_18": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 502,
+                  "actual_rate": 0.6811397557666214
+                },
+                "feature_19": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 556,
+                  "actual_rate": 0.7544097693351425
+                }
+              }
+            }
+          },
+          "old_entity_partitions_seed": 1013,
+          "new_partition": false,
+          "known_source_not_new_blind": true,
+          "old_holdout_excluded_groups": 183,
+          "native_budget": 10,
+          "raw_source_sha": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+          "old_public_roles_sha": "5367c6eafd014cb2d7c8642c47736a6a0efc5693bd87082594672e93fc80c33e"
+        },
+        "expected_input_freeze": {
+          "case_sha256": "e701016d9364243d306db04b05093b285ce0f8f459f1b2d8365574d6bb964875",
+          "public": {
+            "context.json": "6b4d25c825ff74039afa4abcf154eb12118a8fa98c362f4c047ac1f482c1314d",
+            "declaration.json": "a6111073ac187729b759de44515d8887b88f2fa45176ce5c5730c5dc65a736a3",
+            "development_bundle.json": "73c69505edfaa60bd5039cc53aabbc8542108d0cee24ad5ce8da6c50eb7391cc",
+            "repair_dirty.csv": "35ad6c6ea9a10f8d2c65a2f41348faad4db9176f48887ec4ce139efca7742608"
+          },
+          "private": {
+            "error_annotations.json": "d1bbcb928c81a515e73f7dddc9f03dbbf617f57aadb26f7a52bfa66e2e1389e0",
+            "repair_reference.csv": "4d95629975e50d3a1622c5f95cfe92cce8466bf282c37bd7fe4d57bac93a8ee1",
+            "repair_rowkeys.json": "35a5a3e69e0f00e1b829500376040efb7bf30c4feafe809b65efa76f6c141257"
+          }
+        }
+      },
+      "digit70_airfoil_s2015": {
+        "case_metadata": {
+          "id": "digit70_airfoil_s2015",
+          "dataset": "airfoil",
+          "seed": 2015,
+          "profile": "digit_exact_r0p70",
+          "suite": "digit70_llm_ablation",
+          "original_task": "regression",
+          "task": "repair_only",
+          "counts": {
+            "learning": {
+              "rows": 150,
+              "groups": 150,
+              "eligible_cells": 750,
+              "requested_rate": 0.7,
+              "selected_cells": 525,
+              "actual_changed_cells": 525,
+              "actual_rate": 0.7,
+              "target_cells": 750,
+              "all_table_cells_including_ID": 900,
+              "all_table_cell_rate": 0.5833333333333334,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 104,
+                  "actual_rate": 0.6933333333333334
+                },
+                "feature_02": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 97,
+                  "actual_rate": 0.6466666666666666
+                },
+                "feature_03": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 108,
+                  "actual_rate": 0.72
+                },
+                "feature_04": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 109,
+                  "actual_rate": 0.7266666666666667
+                },
+                "feature_05": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 107,
+                  "actual_rate": 0.7133333333333334
+                }
+              }
+            },
+            "validation": {
+              "rows": 150,
+              "groups": 150,
+              "eligible_cells": 750,
+              "requested_rate": 0.7,
+              "selected_cells": 525,
+              "actual_changed_cells": 525,
+              "actual_rate": 0.7,
+              "target_cells": 750,
+              "all_table_cells_including_ID": 900,
+              "all_table_cell_rate": 0.5833333333333334,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 109,
+                  "actual_rate": 0.7266666666666667
+                },
+                "feature_02": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 101,
+                  "actual_rate": 0.6733333333333333
+                },
+                "feature_03": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 101,
+                  "actual_rate": 0.6733333333333333
+                },
+                "feature_04": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 110,
+                  "actual_rate": 0.7333333333333333
+                },
+                "feature_05": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 104,
+                  "actual_rate": 0.6933333333333334
+                }
+              }
+            },
+            "repair": {
+              "rows": 963,
+              "groups": 963,
+              "eligible_cells": 4815,
+              "requested_rate": 0.7,
+              "selected_cells": 3371,
+              "actual_changed_cells": 3371,
+              "actual_rate": 0.700103842159917,
+              "target_cells": 4815,
+              "all_table_cells_including_ID": 5778,
+              "all_table_cell_rate": 0.5834198684665974,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 667,
+                  "actual_rate": 0.6926272066458983
+                },
+                "feature_02": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 672,
+                  "actual_rate": 0.6978193146417445
+                },
+                "feature_03": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 676,
+                  "actual_rate": 0.7019730010384216
+                },
+                "feature_04": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 671,
+                  "actual_rate": 0.6967808930425753
+                },
+                "feature_05": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 685,
+                  "actual_rate": 0.711318795430945
+                }
+              }
+            }
+          },
+          "old_entity_partitions_seed": 1013,
+          "new_partition": false,
+          "known_source_not_new_blind": true,
+          "old_holdout_excluded_groups": 240,
+          "native_budget": 10,
+          "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+          "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360"
+        },
+        "expected_input_freeze": {
+          "case_sha256": "1ad1ad9b8c900e91f97d1a1a28e4436be977aaf48a67669e758b346acf12031c",
+          "public": {
+            "context.json": "e57173d7b9063f0047c9ad8c2e7763a53ba07605ca04f804014975378a7774fb",
+            "declaration.json": "2720e13ace8a19c80fad473459fd117fd71b8a3d2c62796b44e1a60ec4a720b8",
+            "development_bundle.json": "8ef4ee0c0c637e9250bcf830d1c453880d5d4125a9789680d93c20b6fa86d875",
+            "repair_dirty.csv": "0d2bf46a9248f1cb7c19ac247482386f1968c9257d89a4fd5aeb4f870484da21"
+          },
+          "private": {
+            "error_annotations.json": "4b6b8a517a55323ab14e7cd3fb95897bd20d4fda7c7d4cb9acc28a206d183a27",
+            "repair_reference.csv": "d925d33601d973059fd9c5953c1e5d846d8083165b4a86cc47e9d9383a20a07c",
+            "repair_rowkeys.json": "3d2494aeec60cdb40f34331aa0d92325278abca639374516329e7546aa533c1c"
+          }
+        }
+      },
+      "digit70_retinopathy_s2016": {
+        "case_metadata": {
+          "id": "digit70_retinopathy_s2016",
+          "dataset": "retinopathy",
+          "seed": 2016,
+          "profile": "digit_exact_r0p70",
+          "suite": "digit70_llm_ablation",
+          "original_task": "classification",
+          "task": "repair_only",
+          "counts": {
+            "learning": {
+              "rows": 115,
+              "groups": 115,
+              "eligible_cells": 2185,
+              "requested_rate": 0.7,
+              "selected_cells": 1530,
+              "actual_changed_cells": 1530,
+              "actual_rate": 0.700228832951945,
+              "target_cells": 2185,
+              "all_table_cells_including_ID": 2300,
+              "all_table_cell_rate": 0.6652173913043479,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6869565217391305
+                },
+                "feature_02": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6869565217391305
+                },
+                "feature_03": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6869565217391305
+                },
+                "feature_04": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 84,
+                  "actual_rate": 0.7304347826086957
+                },
+                "feature_05": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 83,
+                  "actual_rate": 0.7217391304347827
+                },
+                "feature_06": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 72,
+                  "actual_rate": 0.6260869565217392
+                },
+                "feature_07": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 83,
+                  "actual_rate": 0.7217391304347827
+                },
+                "feature_08": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 88,
+                  "actual_rate": 0.7652173913043478
+                },
+                "feature_09": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 91,
+                  "actual_rate": 0.7913043478260869
+                },
+                "feature_10": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 84,
+                  "actual_rate": 0.7304347826086957
+                },
+                "feature_11": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 74,
+                  "actual_rate": 0.6434782608695652
+                },
+                "feature_12": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 85,
+                  "actual_rate": 0.7391304347826086
+                },
+                "feature_13": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 84,
+                  "actual_rate": 0.7304347826086957
+                },
+                "feature_14": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6869565217391305
+                },
+                "feature_15": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6782608695652174
+                },
+                "feature_16": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6782608695652174
+                },
+                "feature_17": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 75,
+                  "actual_rate": 0.6521739130434783
+                },
+                "feature_18": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 84,
+                  "actual_rate": 0.7304347826086957
+                },
+                "feature_19": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 71,
+                  "actual_rate": 0.6173913043478261
+                }
+              }
+            },
+            "validation": {
+              "rows": 116,
+              "groups": 115,
+              "eligible_cells": 2204,
+              "requested_rate": 0.7,
+              "selected_cells": 1543,
+              "actual_changed_cells": 1543,
+              "actual_rate": 0.7000907441016334,
+              "target_cells": 2204,
+              "all_table_cells_including_ID": 2320,
+              "all_table_cell_rate": 0.6650862068965517,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 82,
+                  "actual_rate": 0.7068965517241379
+                },
+                "feature_02": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                },
+                "feature_03": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 76,
+                  "actual_rate": 0.6551724137931034
+                },
+                "feature_04": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 90,
+                  "actual_rate": 0.7758620689655172
+                },
+                "feature_05": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 83,
+                  "actual_rate": 0.7155172413793104
+                },
+                "feature_06": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 85,
+                  "actual_rate": 0.7327586206896551
+                },
+                "feature_07": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.6982758620689655
+                },
+                "feature_08": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 87,
+                  "actual_rate": 0.75
+                },
+                "feature_09": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 70,
+                  "actual_rate": 0.603448275862069
+                },
+                "feature_10": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                },
+                "feature_11": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 86,
+                  "actual_rate": 0.7413793103448276
+                },
+                "feature_12": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.6982758620689655
+                },
+                "feature_13": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6810344827586207
+                },
+                "feature_14": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6724137931034483
+                },
+                "feature_15": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 77,
+                  "actual_rate": 0.6637931034482759
+                },
+                "feature_16": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 87,
+                  "actual_rate": 0.75
+                },
+                "feature_17": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 74,
+                  "actual_rate": 0.6379310344827587
+                },
+                "feature_18": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 84,
+                  "actual_rate": 0.7241379310344828
+                },
+                "feature_19": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 83,
+                  "actual_rate": 0.7155172413793104
+                }
+              }
+            },
+            "repair": {
+              "rows": 737,
+              "groups": 733,
+              "eligible_cells": 14003,
+              "requested_rate": 0.7,
+              "selected_cells": 9802,
+              "actual_changed_cells": 9802,
+              "actual_rate": 0.6999928586731414,
+              "target_cells": 14003,
+              "all_table_cells_including_ID": 14740,
+              "all_table_cell_rate": 0.6649932157394844,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 517,
+                  "actual_rate": 0.7014925373134329
+                },
+                "feature_02": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 512,
+                  "actual_rate": 0.694708276797829
+                },
+                "feature_03": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 518,
+                  "actual_rate": 0.7028493894165536
+                },
+                "feature_04": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 535,
+                  "actual_rate": 0.7259158751696065
+                },
+                "feature_05": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 519,
+                  "actual_rate": 0.7042062415196744
+                },
+                "feature_06": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 521,
+                  "actual_rate": 0.7069199457259159
+                },
+                "feature_07": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 545,
+                  "actual_rate": 0.7394843962008141
+                },
+                "feature_08": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 514,
+                  "actual_rate": 0.6974219810040706
+                },
+                "feature_09": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 517,
+                  "actual_rate": 0.7014925373134329
+                },
+                "feature_10": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 518,
+                  "actual_rate": 0.7028493894165536
+                },
+                "feature_11": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 522,
+                  "actual_rate": 0.7082767978290366
+                },
+                "feature_12": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 528,
+                  "actual_rate": 0.7164179104477612
+                },
+                "feature_13": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 499,
+                  "actual_rate": 0.6770691994572592
+                },
+                "feature_14": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 497,
+                  "actual_rate": 0.6743554952510177
+                },
+                "feature_15": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 495,
+                  "actual_rate": 0.6716417910447762
+                },
+                "feature_16": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 518,
+                  "actual_rate": 0.7028493894165536
+                },
+                "feature_17": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 507,
+                  "actual_rate": 0.6879240162822252
+                },
+                "feature_18": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 518,
+                  "actual_rate": 0.7028493894165536
+                },
+                "feature_19": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 502,
+                  "actual_rate": 0.6811397557666214
+                }
+              }
+            }
+          },
+          "old_entity_partitions_seed": 1013,
+          "new_partition": false,
+          "known_source_not_new_blind": true,
+          "old_holdout_excluded_groups": 183,
+          "native_budget": 10,
+          "raw_source_sha": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+          "old_public_roles_sha": "5367c6eafd014cb2d7c8642c47736a6a0efc5693bd87082594672e93fc80c33e"
+        },
+        "expected_input_freeze": {
+          "case_sha256": "1844f958643dc89b502890d5e8f0cc1a94d42448a9ac5c2aea09f10afaf289ee",
+          "public": {
+            "context.json": "7dd3ef559a0816f7ef47068b9dc37c232c7f20ada1d4f63f5682e26c1bb6fede",
+            "declaration.json": "ed219de0eb4d379223105b66120cf57076af46bf33e983bf886d40a884e2ed81",
+            "development_bundle.json": "062c6065c8bf429f33ea0f9acfc0a094e84cb66f670fb9849e0d28e92eaa9bbf",
+            "repair_dirty.csv": "dc2de61724bebcb43584feb5ee172c7788d74268ce456157752a52f918dfa258"
+          },
+          "private": {
+            "error_annotations.json": "6bf2194858dc1bd642a6cb3852928a5ec0882ff7f4529032f53cb3a668bf4494",
+            "repair_reference.csv": "4d95629975e50d3a1622c5f95cfe92cce8466bf282c37bd7fe4d57bac93a8ee1",
+            "repair_rowkeys.json": "35a5a3e69e0f00e1b829500376040efb7bf30c4feafe809b65efa76f6c141257"
+          }
+        }
+      },
+      "digit70_airfoil_s2016": {
+        "case_metadata": {
+          "id": "digit70_airfoil_s2016",
+          "dataset": "airfoil",
+          "seed": 2016,
+          "profile": "digit_exact_r0p70",
+          "suite": "digit70_llm_ablation",
+          "original_task": "regression",
+          "task": "repair_only",
+          "counts": {
+            "learning": {
+              "rows": 150,
+              "groups": 150,
+              "eligible_cells": 750,
+              "requested_rate": 0.7,
+              "selected_cells": 525,
+              "actual_changed_cells": 525,
+              "actual_rate": 0.7,
+              "target_cells": 750,
+              "all_table_cells_including_ID": 900,
+              "all_table_cell_rate": 0.5833333333333334,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 109,
+                  "actual_rate": 0.7266666666666667
+                },
+                "feature_02": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 108,
+                  "actual_rate": 0.72
+                },
+                "feature_03": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 102,
+                  "actual_rate": 0.68
+                },
+                "feature_04": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 103,
+                  "actual_rate": 0.6866666666666666
+                },
+                "feature_05": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 103,
+                  "actual_rate": 0.6866666666666666
+                }
+              }
+            },
+            "validation": {
+              "rows": 150,
+              "groups": 150,
+              "eligible_cells": 750,
+              "requested_rate": 0.7,
+              "selected_cells": 525,
+              "actual_changed_cells": 525,
+              "actual_rate": 0.7,
+              "target_cells": 750,
+              "all_table_cells_including_ID": 900,
+              "all_table_cell_rate": 0.5833333333333334,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 104,
+                  "actual_rate": 0.6933333333333334
+                },
+                "feature_02": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 103,
+                  "actual_rate": 0.6866666666666666
+                },
+                "feature_03": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 107,
+                  "actual_rate": 0.7133333333333334
+                },
+                "feature_04": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 99,
+                  "actual_rate": 0.66
+                },
+                "feature_05": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 112,
+                  "actual_rate": 0.7466666666666667
+                }
+              }
+            },
+            "repair": {
+              "rows": 963,
+              "groups": 963,
+              "eligible_cells": 4815,
+              "requested_rate": 0.7,
+              "selected_cells": 3371,
+              "actual_changed_cells": 3371,
+              "actual_rate": 0.700103842159917,
+              "target_cells": 4815,
+              "all_table_cells_including_ID": 5778,
+              "all_table_cell_rate": 0.5834198684665974,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 679,
+                  "actual_rate": 0.7050882658359294
+                },
+                "feature_02": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 675,
+                  "actual_rate": 0.7009345794392523
+                },
+                "feature_03": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 674,
+                  "actual_rate": 0.6998961578400831
+                },
+                "feature_04": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 679,
+                  "actual_rate": 0.7050882658359294
+                },
+                "feature_05": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 664,
+                  "actual_rate": 0.6895119418483905
+                }
+              }
+            }
+          },
+          "old_entity_partitions_seed": 1013,
+          "new_partition": false,
+          "known_source_not_new_blind": true,
+          "old_holdout_excluded_groups": 240,
+          "native_budget": 10,
+          "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+          "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360"
+        },
+        "expected_input_freeze": {
+          "case_sha256": "c071a1479532035b652aaad4af5ca7e3bb8ac75d0dc52458bd77ae45e35a4c68",
+          "public": {
+            "context.json": "5cd0417c8c24a5c5fd0834b5e48f4bedeaac337aed33f01097bff86134fef236",
+            "declaration.json": "3499db89d8a61cd15b18d6ba7d6a7f4435b97d845a25ae85156dadb083c47cbb",
+            "development_bundle.json": "41339e4b965fad0f21573ee8b8f2dea4fee9d8cd76e3a9d0da6c90ecd7a30b2c",
+            "repair_dirty.csv": "ab0812ae9dddf44f62fa3ca79b4bdec99c12e4f40f84805ba4a1c0585d3c5fb2"
+          },
+          "private": {
+            "error_annotations.json": "472a24df6b448ebca647909bdb455aedf0b7621bd78205dce2da4d476e5519ec",
+            "repair_reference.csv": "d925d33601d973059fd9c5953c1e5d846d8083165b4a86cc47e9d9383a20a07c",
+            "repair_rowkeys.json": "3d2494aeec60cdb40f34331aa0d92325278abca639374516329e7546aa533c1c"
+          }
+        }
+      },
+      "digit70_retinopathy_s2017": {
+        "case_metadata": {
+          "id": "digit70_retinopathy_s2017",
+          "dataset": "retinopathy",
+          "seed": 2017,
+          "profile": "digit_exact_r0p70",
+          "suite": "digit70_llm_ablation",
+          "original_task": "classification",
+          "task": "repair_only",
+          "counts": {
+            "learning": {
+              "rows": 115,
+              "groups": 115,
+              "eligible_cells": 2185,
+              "requested_rate": 0.7,
+              "selected_cells": 1530,
+              "actual_changed_cells": 1530,
+              "actual_rate": 0.700228832951945,
+              "target_cells": 2185,
+              "all_table_cells_including_ID": 2300,
+              "all_table_cell_rate": 0.6652173913043479,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 77,
+                  "actual_rate": 0.6695652173913044
+                },
+                "feature_02": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 79,
+                  "actual_rate": 0.6869565217391305
+                },
+                "feature_03": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6782608695652174
+                },
+                "feature_04": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 82,
+                  "actual_rate": 0.7130434782608696
+                },
+                "feature_05": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 76,
+                  "actual_rate": 0.6608695652173913
+                },
+                "feature_06": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.7043478260869566
+                },
+                "feature_07": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6782608695652174
+                },
+                "feature_08": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 82,
+                  "actual_rate": 0.7130434782608696
+                },
+                "feature_09": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 73,
+                  "actual_rate": 0.6347826086956522
+                },
+                "feature_10": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 88,
+                  "actual_rate": 0.7652173913043478
+                },
+                "feature_11": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 87,
+                  "actual_rate": 0.7565217391304347
+                },
+                "feature_12": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 84,
+                  "actual_rate": 0.7304347826086957
+                },
+                "feature_13": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 82,
+                  "actual_rate": 0.7130434782608696
+                },
+                "feature_14": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 89,
+                  "actual_rate": 0.7739130434782608
+                },
+                "feature_15": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 81,
+                  "actual_rate": 0.7043478260869566
+                },
+                "feature_16": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 74,
+                  "actual_rate": 0.6434782608695652
+                },
+                "feature_17": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6782608695652174
+                },
+                "feature_18": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6782608695652174
+                },
+                "feature_19": {
+                  "eligible_cells": 115,
+                  "actual_digit_cells": 83,
+                  "actual_rate": 0.7217391304347827
+                }
+              }
+            },
+            "validation": {
+              "rows": 116,
+              "groups": 115,
+              "eligible_cells": 2204,
+              "requested_rate": 0.7,
+              "selected_cells": 1543,
+              "actual_changed_cells": 1543,
+              "actual_rate": 0.7000907441016334,
+              "target_cells": 2204,
+              "all_table_cells_including_ID": 2320,
+              "all_table_cell_rate": 0.6650862068965517,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 77,
+                  "actual_rate": 0.6637931034482759
+                },
+                "feature_02": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 75,
+                  "actual_rate": 0.646551724137931
+                },
+                "feature_03": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 84,
+                  "actual_rate": 0.7241379310344828
+                },
+                "feature_04": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 89,
+                  "actual_rate": 0.7672413793103449
+                },
+                "feature_05": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 83,
+                  "actual_rate": 0.7155172413793104
+                },
+                "feature_06": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                },
+                "feature_07": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 88,
+                  "actual_rate": 0.7586206896551724
+                },
+                "feature_08": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 90,
+                  "actual_rate": 0.7758620689655172
+                },
+                "feature_09": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                },
+                "feature_10": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 75,
+                  "actual_rate": 0.646551724137931
+                },
+                "feature_11": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 75,
+                  "actual_rate": 0.646551724137931
+                },
+                "feature_12": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 76,
+                  "actual_rate": 0.6551724137931034
+                },
+                "feature_13": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 89,
+                  "actual_rate": 0.7672413793103449
+                },
+                "feature_14": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                },
+                "feature_15": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 85,
+                  "actual_rate": 0.7327586206896551
+                },
+                "feature_16": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 76,
+                  "actual_rate": 0.6551724137931034
+                },
+                "feature_17": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 78,
+                  "actual_rate": 0.6724137931034483
+                },
+                "feature_18": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 83,
+                  "actual_rate": 0.7155172413793104
+                },
+                "feature_19": {
+                  "eligible_cells": 116,
+                  "actual_digit_cells": 80,
+                  "actual_rate": 0.6896551724137931
+                }
+              }
+            },
+            "repair": {
+              "rows": 737,
+              "groups": 733,
+              "eligible_cells": 14003,
+              "requested_rate": 0.7,
+              "selected_cells": 9802,
+              "actual_changed_cells": 9802,
+              "actual_rate": 0.6999928586731414,
+              "target_cells": 14003,
+              "all_table_cells_including_ID": 14740,
+              "all_table_cell_rate": 0.6649932157394844,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 533,
+                  "actual_rate": 0.723202170963365
+                },
+                "feature_02": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 520,
+                  "actual_rate": 0.7055630936227951
+                },
+                "feature_03": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 498,
+                  "actual_rate": 0.6757123473541384
+                },
+                "feature_04": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 541,
+                  "actual_rate": 0.7340569877883311
+                },
+                "feature_05": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 509,
+                  "actual_rate": 0.6906377204884667
+                },
+                "feature_06": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 513,
+                  "actual_rate": 0.6960651289009498
+                },
+                "feature_07": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 523,
+                  "actual_rate": 0.7096336499321574
+                },
+                "feature_08": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 521,
+                  "actual_rate": 0.7069199457259159
+                },
+                "feature_09": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 504,
+                  "actual_rate": 0.683853459972863
+                },
+                "feature_10": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 534,
+                  "actual_rate": 0.7245590230664858
+                },
+                "feature_11": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 509,
+                  "actual_rate": 0.6906377204884667
+                },
+                "feature_12": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 517,
+                  "actual_rate": 0.7014925373134329
+                },
+                "feature_13": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 508,
+                  "actual_rate": 0.689280868385346
+                },
+                "feature_14": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 525,
+                  "actual_rate": 0.7123473541383989
+                },
+                "feature_15": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 505,
+                  "actual_rate": 0.6852103120759837
+                },
+                "feature_16": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 515,
+                  "actual_rate": 0.6987788331071914
+                },
+                "feature_17": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 497,
+                  "actual_rate": 0.6743554952510177
+                },
+                "feature_18": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 526,
+                  "actual_rate": 0.7137042062415196
+                },
+                "feature_19": {
+                  "eligible_cells": 737,
+                  "actual_digit_cells": 504,
+                  "actual_rate": 0.683853459972863
+                }
+              }
+            }
+          },
+          "old_entity_partitions_seed": 1013,
+          "new_partition": false,
+          "known_source_not_new_blind": true,
+          "old_holdout_excluded_groups": 183,
+          "native_budget": 10,
+          "raw_source_sha": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+          "old_public_roles_sha": "5367c6eafd014cb2d7c8642c47736a6a0efc5693bd87082594672e93fc80c33e"
+        },
+        "expected_input_freeze": {
+          "case_sha256": "e05a7b8d2bbb43261e82f63e025aa48cf4f42186b50a4e946202154d86e16240",
+          "public": {
+            "context.json": "5d39d8c5dde223ae3e4c986138888c6a3ffc8c9519867778c9f06ac174a71a8e",
+            "declaration.json": "155abad8358baceb89f9e81eebfa2fd7e3aa025ac55f671aab16b3ff85b51f18",
+            "development_bundle.json": "b981992b753d047b45e3eeb15586747d37c0ff05191711faba9fef3f3f825ccb",
+            "repair_dirty.csv": "d0c79516c15b186f8fc783a9170e2c4299ceb7a4d7841caf56a7866d05b201e0"
+          },
+          "private": {
+            "error_annotations.json": "b1127baba9ebb75e4debb5c291829640ac96e5e24b042079fe201c73c901bdbc",
+            "repair_reference.csv": "4d95629975e50d3a1622c5f95cfe92cce8466bf282c37bd7fe4d57bac93a8ee1",
+            "repair_rowkeys.json": "35a5a3e69e0f00e1b829500376040efb7bf30c4feafe809b65efa76f6c141257"
+          }
+        }
+      },
+      "digit70_airfoil_s2017": {
+        "case_metadata": {
+          "id": "digit70_airfoil_s2017",
+          "dataset": "airfoil",
+          "seed": 2017,
+          "profile": "digit_exact_r0p70",
+          "suite": "digit70_llm_ablation",
+          "original_task": "regression",
+          "task": "repair_only",
+          "counts": {
+            "learning": {
+              "rows": 150,
+              "groups": 150,
+              "eligible_cells": 750,
+              "requested_rate": 0.7,
+              "selected_cells": 525,
+              "actual_changed_cells": 525,
+              "actual_rate": 0.7,
+              "target_cells": 750,
+              "all_table_cells_including_ID": 900,
+              "all_table_cell_rate": 0.5833333333333334,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 98,
+                  "actual_rate": 0.6533333333333333
+                },
+                "feature_02": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 103,
+                  "actual_rate": 0.6866666666666666
+                },
+                "feature_03": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 105,
+                  "actual_rate": 0.7
+                },
+                "feature_04": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 114,
+                  "actual_rate": 0.76
+                },
+                "feature_05": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 105,
+                  "actual_rate": 0.7
+                }
+              }
+            },
+            "validation": {
+              "rows": 150,
+              "groups": 150,
+              "eligible_cells": 750,
+              "requested_rate": 0.7,
+              "selected_cells": 525,
+              "actual_changed_cells": 525,
+              "actual_rate": 0.7,
+              "target_cells": 750,
+              "all_table_cells_including_ID": 900,
+              "all_table_cell_rate": 0.5833333333333334,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 105,
+                  "actual_rate": 0.7
+                },
+                "feature_02": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 109,
+                  "actual_rate": 0.7266666666666667
+                },
+                "feature_03": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 102,
+                  "actual_rate": 0.68
+                },
+                "feature_04": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 109,
+                  "actual_rate": 0.7266666666666667
+                },
+                "feature_05": {
+                  "eligible_cells": 150,
+                  "actual_digit_cells": 100,
+                  "actual_rate": 0.6666666666666666
+                }
+              }
+            },
+            "repair": {
+              "rows": 963,
+              "groups": 963,
+              "eligible_cells": 4815,
+              "requested_rate": 0.7,
+              "selected_cells": 3371,
+              "actual_changed_cells": 3371,
+              "actual_rate": 0.700103842159917,
+              "target_cells": 4815,
+              "all_table_cells_including_ID": 5778,
+              "all_table_cell_rate": 0.5834198684665974,
+              "per_field": {
+                "feature_01": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 680,
+                  "actual_rate": 0.7061266874350987
+                },
+                "feature_02": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 671,
+                  "actual_rate": 0.6967808930425753
+                },
+                "feature_03": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 667,
+                  "actual_rate": 0.6926272066458983
+                },
+                "feature_04": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 663,
+                  "actual_rate": 0.6884735202492211
+                },
+                "feature_05": {
+                  "eligible_cells": 963,
+                  "actual_digit_cells": 690,
+                  "actual_rate": 0.7165109034267912
+                }
+              }
+            }
+          },
+          "old_entity_partitions_seed": 1013,
+          "new_partition": false,
+          "known_source_not_new_blind": true,
+          "old_holdout_excluded_groups": 240,
+          "native_budget": 10,
+          "raw_source_sha": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+          "old_public_roles_sha": "2a36c82655fc066310ce31910f286588b715994165e84f26cfc98d784a98d360"
+        },
+        "expected_input_freeze": {
+          "case_sha256": "120789f088935758905768c2336ad8d939ba13d465aa5115c77b8a75f4fdd34d",
+          "public": {
+            "context.json": "67da5099096ec37e8a154bff0698be917c7e99527f99c1c00794846b6e1d5b9d",
+            "declaration.json": "f8fcd821050bce6cf3aebcb16f03d384dac9c3d0a80eb0eb7f1b42329b212457",
+            "development_bundle.json": "e4a3fbfeedc5b9a244d9de50f92987139136b30dc9b1e1e4b591b69f4731da5a",
+            "repair_dirty.csv": "de90906adcc8743e922582c941037b2b1aad2cdbcf93710237a76e023a4636f8"
+          },
+          "private": {
+            "error_annotations.json": "7fc972f753889dcc7f3fc08ce3e3f8bf6e6327cea92f708a3d9bc366440441f5",
+            "repair_reference.csv": "d925d33601d973059fd9c5953c1e5d846d8083165b4a86cc47e9d9383a20a07c",
+            "repair_rowkeys.json": "3d2494aeec60cdb40f34331aa0d92325278abca639374516329e7546aa533c1c"
+          }
+        }
+      }
+    }
+  }
+}

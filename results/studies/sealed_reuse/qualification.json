@@ -1,0 +1,42 @@
+{
+  "retinopathy": [
+    {
+      "seed": 1013,
+      "passed": true,
+      "selected": "prior",
+      "research_prior_fallback": false
+    },
+    {
+      "seed": 1014,
+      "passed": true,
+      "selected": "prior",
+      "research_prior_fallback": false
+    },
+    {
+      "seed": 1015,
+      "passed": true,
+      "selected": "prior",
+      "research_prior_fallback": false
+    }
+  ],
+  "airfoil": [
+    {
+      "seed": 1013,
+      "passed": false,
+      "selected": "prior",
+      "research_prior_fallback": true
+    },
+    {
+      "seed": 1014,
+      "passed": true,
+      "selected": "prior",
+      "research_prior_fallback": false
+    },
+    {
+      "seed": 1015,
+      "passed": false,
+      "selected": "prior",
+      "research_prior_fallback": true
+    }
+  ]
+}

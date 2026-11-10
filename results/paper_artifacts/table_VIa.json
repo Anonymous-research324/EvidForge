@@ -1,0 +1,123 @@
+{
+  "caption": "Single-error-type repair; original quota protocol, mean and sample SD, n=3.",
+  "columns": [
+    "Dataset",
+    "Error type",
+    "Repair F1",
+    "MER (%)"
+  ],
+  "rows": [
+    [
+      "retinopathy",
+      "blank",
+      {
+        "mean": 0.29065304117437724,
+        "sample_sd": 0.016093328014690687,
+        "n": 3
+      },
+      {
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "n": 3
+      }
+    ],
+    [
+      "retinopathy",
+      "digit",
+      {
+        "mean": 0.319606825247485,
+        "sample_sd": 0.01701896850299046,
+        "n": 3
+      },
+      {
+        "mean": 0.033532154650251784,
+        "sample_sd": 0.03128715130645807,
+        "n": 3
+      }
+    ],
+    [
+      "retinopathy",
+      "scale",
+      {
+        "mean": 0.9589007611885906,
+        "sample_sd": 0.013516188835474037,
+        "n": 3
+      },
+      {
+        "mean": 0.04643205145107738,
+        "sample_sd": 0.030971118564964095,
+        "n": 3
+      }
+    ],
+    [
+      "retinopathy",
+      "affix",
+      {
+        "mean": 0.377905979364051,
+        "sample_sd": 0.24076918967801555,
+        "n": 3
+      },
+      {
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "n": 3
+      }
+    ],
+    [
+      "concrete",
+      "blank",
+      {
+        "mean": 0.16461108671924501,
+        "sample_sd": 0.01161692911327578,
+        "n": 3
+      },
+      {
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "n": 3
+      }
+    ],
+    [
+      "concrete",
+      "digit",
+      {
+        "mean": 0.13571252595642838,
+        "sample_sd": 0.11823429473272411,
+        "n": 3
+      },
+      {
+        "mean": 0.061408333556920935,
+        "sample_sd": 0.06137482290762079,
+        "n": 3
+      }
+    ],
+    [
+      "concrete",
+      "scale",
+      {
+        "mean": 0.9493668479922776,
+        "sample_sd": 0.02746889925809066,
+        "n": 3
+      },
+      {
+        "mean": 0.06077795786061589,
+        "sample_sd": 0.10527051099486695,
+        "n": 3
+      }
+    ],
+    [
+      "concrete",
+      "affix",
+      {
+        "mean": 0.3172887709690284,
+        "sample_sd": 0.09012251152408247,
+        "n": 3
+      },
+      {
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "n": 3
+      }
+    ]
+  ]
+}

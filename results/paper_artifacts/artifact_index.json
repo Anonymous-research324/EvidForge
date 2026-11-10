@@ -1,0 +1,35 @@
+{
+  "screenshot_groups": {
+    "1": [
+      "fig3.json"
+    ],
+    "2": [
+      "table_II.json",
+      "table_III.json",
+      "table_IV.json"
+    ],
+    "3": [
+      "fig4.json"
+    ],
+    "4": [
+      "table_V.json"
+    ],
+    "5": [
+      "fig5_modules.json",
+      "fig5_llm.json"
+    ],
+    "6": [
+      "fig6.json"
+    ],
+    "7": [
+      "table_VIa.json",
+      "table_VIb.json"
+    ],
+    "8": [
+      "fig7_reuse.json",
+      "fig7_cost.json"
+    ]
+  },
+  "generated_from_retained_results": true,
+  "new_model_calls": 0
+}

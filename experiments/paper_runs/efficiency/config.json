@@ -1,0 +1,11 @@
+{
+  "study": "efficiency",
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "paper_case_specs": [],
+  "paper_scope": "Fig.7b; selected conditions in provenance/paper_scope.json",
+  "configuration_role": "Derived publication-scope view. Full original research protocol remains in the author archive; scientific settings for retained cases are unchanged."
+}

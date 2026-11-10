@@ -1,0 +1,137 @@
+[
+  {
+    "dataset": "airfoil",
+    "method": "A",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 2005,
+      "exact": 1957,
+      "errors": 3370,
+      "normal": 1445,
+      "normal_damage": 8,
+      "P": 0.9760598503740648,
+      "R": 0.5807121661721069,
+      "F1": 0.728186046511628,
+      "damage": 0.005536332179930796
+    },
+    "downstream": {
+      "R2": 0.7632686854971067,
+      "MAE": 2.6574864334106447
+    },
+    "source_qualified": false
+  },
+  {
+    "dataset": "airfoil",
+    "method": "B",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 740,
+      "exact": 706,
+      "errors": 3370,
+      "normal": 1445,
+      "normal_damage": 0,
+      "P": 0.9540540540540541,
+      "R": 0.20949554896142433,
+      "F1": 0.3435523114355231,
+      "damage": 0.0
+    },
+    "downstream": {
+      "R2": 0.6109123556523564,
+      "MAE": 3.4033641067504883
+    },
+    "source_qualified": false
+  },
+  {
+    "dataset": "airfoil",
+    "method": "D",
+    "task": "regression",
+    "status": "complete",
+    "repair": {
+      "changes": 3098,
+      "exact": 2202,
+      "errors": 3370,
+      "normal": 1445,
+      "normal_damage": 26,
+      "P": 0.71078114912847,
+      "R": 0.6534124629080119,
+      "F1": 0.6808905380333953,
+      "damage": 0.017993079584775088
+    },
+    "downstream": {
+      "R2": 0.7543478566487638,
+      "MAE": 2.622383397928874
+    },
+    "source_qualified": false
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "A",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 3700,
+      "exact": 3671,
+      "errors": 9766,
+      "normal": 4199,
+      "normal_damage": 5,
+      "P": 0.9921621621621621,
+      "R": 0.37589596559492117,
+      "F1": 0.5452250111391653,
+      "damage": 0.0011907597046915933
+    },
+    "downstream": {
+      "macro_F1": 0.6532333645735707,
+      "AUC": 0.7283298097251586,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "B",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 2107,
+      "exact": 2038,
+      "errors": 9766,
+      "normal": 4199,
+      "normal_damage": 1,
+      "P": 0.9672520170859041,
+      "R": 0.2086831865656359,
+      "F1": 0.3432999241977596,
+      "damage": 0.00023815194093831864
+    },
+    "downstream": {
+      "macro_F1": 0.6374564918541051,
+      "AUC": 0.688747944561898,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  },
+  {
+    "dataset": "retinopathy",
+    "method": "D",
+    "task": "classification",
+    "status": "complete",
+    "repair": {
+      "changes": 7957,
+      "exact": 4711,
+      "errors": 9766,
+      "normal": 4199,
+      "normal_damage": 97,
+      "P": 0.5920573080306648,
+      "R": 0.48238787630554986,
+      "F1": 0.5316255712915421,
+      "damage": 0.02310073827101691
+    },
+    "downstream": {
+      "macro_F1": 0.6158121033080816,
+      "AUC": 0.7014329339910735,
+      "AUC_unavailable_reason": null
+    },
+    "source_qualified": true
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "commit": "bb65b4d517bd86056352ad2ee98be6655f2d5aec",
+  "repository": "https://github.com/noahho/CAAFE",
+  "files_sha256": {
+    "caafe_evaluate.py": "349a2281b02b03932243bb1266beeeba7511373bfb5531d7fcf6ca16349fe8e1",
+    "metrics.py": "710874615c187c4cfeb2e806851e979d9349ef4eb6a85e16da9f3f048e21fb0e",
+    "sklearn_wrapper.py": "fcdaf3f26756d9c3cb87e2e144d9bfe30249ef6fd56b73d982fa573fd55d6609",
+    "caafe.py": "78cb27aa2d0a7a806256b3189a6dc5ec8b2452ec883d541a43269e11baac7fd0",
+    "plotting.py": "95317e5d1c6ff5ec15f59f2f046a8cbe4f3633efac88283329cd0f4afed12592",
+    "__init__.py": "777404ffbe976bd6203731bd5b9b508e433e296cad44db8860c4fe09b39bb272",
+    "README.md": "baf9babfb50e4324cd153a10f49a9507bdf7737b45df3dde824177dc5171082c",
+    "preprocessing.py": "762da874b46473acf3001289efe15e20a39c8d556c330ca9384a5902579109bb",
+    "run_llm_code.py": "ef1b4c21a296125582cbc8bb16e79f2336d86065a895b55ac38f648fb0ef741d",
+    "evaluate.py": "ffc639ac0cfe6347e60405e41c4c6cab0e03ea28269485e1942d43069243d4ba",
+    "feature_extension_baselines.py": "f1a8dbbd49fe642aec460362f092f8ae757e8fb42be6a3cb4edbc94e23359cbd",
+    "data.py": "ed4966d6c5a5bd99bd7e153e70fd7c8402526b146d9738de9f5d78b79c758b7c"
+  },
+  "license_notice": "README declares Apache License2.0; copyright Hollmann, Mueller, Hutter retained in official source",
+  "GitHub_API_rate_limit_does_not_block_existing_pinned_sources": true,
+  "datasets_or_answers_downloaded": false
+}

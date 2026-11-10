@@ -1,0 +1,29 @@
+{
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "new_seeds": [
+    1014,
+    1015
+  ],
+  "seed_changes_only": true,
+  "pollution": 0.7,
+  "model": "Qwen3.5-9B",
+  "dtype": "bfloat16",
+  "temperature": 0,
+  "model_ports": {
+    "1014": 8081,
+    "1015": 8082
+  },
+  "model_jobs": "A is relearned; B and D execute the same A skill; no score-based choice between saved and fresh A.",
+  "study": "module_ablation",
+  "paper_scope": "Table V, Fig.5a, Fig.5b; selected conditions in provenance/paper_scope.json",
+  "server_source": "/root/fsas/home/anonymous/projects/EvidForge_Ablation_ThreeSeeds",
+  "source_protocol_relative_path": "protocol.json",
+  "source_protocol_sha256": "b193dbd302c209accaefa353bde8a6f1060ae5421f704925284aa4a06385af81",
+  "configuration_role": "Derived publication-scope view. Full original research protocol remains in the author archive; scientific settings for retained cases are unchanged.",
+  "paper_case_specs": [],
+  "runtime_bindings": []
+}

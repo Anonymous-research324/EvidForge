@@ -1,0 +1,192 @@
+{
+  "seeds": [
+    1013,
+    1014,
+    1015
+  ],
+  "model_ports": [
+    8321,
+    8322,
+    8323,
+    8324,
+    8325,
+    8326,
+    8327,
+    8328
+  ],
+  "split_budget": {
+    "learning_fraction": 0.1,
+    "validation_fraction": 0.1,
+    "minimum_learning_groups": 20,
+    "minimum_validation_groups": 10,
+    "remaining": "formal repair; no downstream prediction task or classifier holdout",
+    "unit": "whole entity groups; actual rows and proportions reported"
+  },
+  "no_downstream_task": true,
+  "fresh_source_fit_and_actual_calls": true,
+  "study": "real_dirty",
+  "paper_scope": "Table II, Fig.3; selected conditions in provenance/paper_scope.json",
+  "server_source": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027",
+  "source_protocol_relative_path": "configs/protocol_recovery_v3.json",
+  "source_protocol_sha256": "5fb3f4eb9574f68afe4ad08f822d7d22e319eac5947b3bb296da66f150851ddc",
+  "configuration_role": "Derived publication-scope view. Full original research protocol remains in the author archive; scientific settings for retained cases are unchanged.",
+  "methods": [
+    "full",
+    "raha_holoclean",
+    "cdc",
+    "tabclean"
+  ],
+  "paper_case_specs": [
+    {
+      "case": "address_museum_s1013",
+      "dataset": "address_museum",
+      "seed": 1013,
+      "learning_groups": 200,
+      "validation_groups": 200
+    },
+    {
+      "case": "address_museum_s1013",
+      "dataset": "address_museum",
+      "seed": 1013
+    },
+    {
+      "case": "address_museum_s1014",
+      "dataset": "address_museum",
+      "seed": 1014,
+      "learning_groups": 200,
+      "validation_groups": 200
+    },
+    {
+      "case": "address_museum_s1014",
+      "dataset": "address_museum",
+      "seed": 1014
+    },
+    {
+      "case": "address_museum_s1015",
+      "dataset": "address_museum",
+      "seed": 1015,
+      "learning_groups": 200,
+      "validation_groups": 200
+    },
+    {
+      "case": "address_museum_s1015",
+      "dataset": "address_museum",
+      "seed": 1015
+    },
+    {
+      "case": "movies_s1013",
+      "dataset": "movies",
+      "seed": 1013,
+      "learning_groups": 739,
+      "validation_groups": 739
+    },
+    {
+      "case": "movies_s1013",
+      "dataset": "movies",
+      "seed": 1013
+    },
+    {
+      "case": "movies_s1014",
+      "dataset": "movies",
+      "seed": 1014,
+      "learning_groups": 739,
+      "validation_groups": 739
+    },
+    {
+      "case": "movies_s1014",
+      "dataset": "movies",
+      "seed": 1014
+    },
+    {
+      "case": "movies_s1015",
+      "dataset": "movies",
+      "seed": 1015,
+      "learning_groups": 739,
+      "validation_groups": 739
+    },
+    {
+      "case": "movies_s1015",
+      "dataset": "movies",
+      "seed": 1015
+    },
+    {
+      "case": "address_shoppingcenter_s1013",
+      "dataset": "address_shoppingcenter",
+      "seed": 1013,
+      "learning_groups": 79,
+      "validation_groups": 79
+    },
+    {
+      "case": "address_shoppingcenter_s1013",
+      "dataset": "address_shoppingcenter",
+      "seed": 1013
+    },
+    {
+      "case": "address_shoppingcenter_s1014",
+      "dataset": "address_shoppingcenter",
+      "seed": 1014,
+      "learning_groups": 79,
+      "validation_groups": 79
+    },
+    {
+      "case": "address_shoppingcenter_s1014",
+      "dataset": "address_shoppingcenter",
+      "seed": 1014
+    },
+    {
+      "case": "address_shoppingcenter_s1015",
+      "dataset": "address_shoppingcenter",
+      "seed": 1015,
+      "learning_groups": 79,
+      "validation_groups": 79
+    },
+    {
+      "case": "address_shoppingcenter_s1015",
+      "dataset": "address_shoppingcenter",
+      "seed": 1015
+    },
+    {
+      "case": "school_small_s1013",
+      "dataset": "school_small",
+      "seed": 1013
+    },
+    {
+      "case": "school_small_s1014",
+      "dataset": "school_small",
+      "seed": 1014
+    },
+    {
+      "case": "school_small_s1015",
+      "dataset": "school_small",
+      "seed": 1015
+    },
+    {
+      "case": "jobposting_small_s1013",
+      "dataset": "jobposting_small",
+      "seed": 1013
+    },
+    {
+      "case": "jobposting_small_s1014",
+      "dataset": "jobposting_small",
+      "seed": 1014
+    },
+    {
+      "case": "jobposting_small_s1015",
+      "dataset": "jobposting_small",
+      "seed": 1015
+    }
+  ],
+  "runtime_bindings": [
+    {
+      "source": "configs/run_config.json",
+      "source_sha256": "295824ac1e8cb5f9a8f28931f374a45c4734e499618a775c5c7a8349879860f0",
+      "runtime_fields": {
+        "output_token_ceiling": 8192,
+        "temperature": 0,
+        "model": "Qwen3.5-9B",
+        "dtype": "bfloat16",
+        "debug_attempts": 3
+      }
+    }
+  ]
+}

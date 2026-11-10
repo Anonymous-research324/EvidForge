@@ -1,0 +1,43 @@
+{
+  "seed": 1014,
+  "model": "Qwen3.5-9B BF16",
+  "temperature": 0,
+  "frozen_algorithm": "V23",
+  "datasets": [
+    "monks1",
+    "cmc",
+    "bc_original",
+    "mammographic",
+    "ilpd",
+    "climate",
+    "voting",
+    "qsar"
+  ],
+  "methods": [
+    "pure_llm",
+    "tool_llm",
+    "raha_holoclean",
+    "garf",
+    "cdc",
+    "v23"
+  ],
+  "learning_fraction": 0.1,
+  "validation_fraction": 0.1,
+  "repair_train_fraction": 0.64,
+  "classification_holdout_fraction": 0.16,
+  "corruption_fraction": 0.7,
+  "max_target_cells_per_llm_batch": 120,
+  "llm_max_tokens": 4096,
+  "classifier": {
+    "name": "LogisticRegression",
+    "C": 1,
+    "max_iter": 2000,
+    "random_state": 1014
+  },
+  "minimum_learning_groups": 20,
+  "minimum_validation_groups": 10,
+  "test_reference_visible_to_models": false,
+  "runtime_platform": "A100 Linux for every new arm; do not mix archived Mac scores",
+  "seed_override": "audited operational override, source bytes preserved",
+  "raw_reference_to_llm": false
+}

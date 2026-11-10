@@ -1,0 +1,938 @@
+[
+  {
+    "case": "retinopathy_s1013",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "data_seed": 768221512,
+    "batch": "B1",
+    "rows": 246,
+    "repair": {
+      "P": 0.9899451553930531,
+      "R": 0.3320049049662784,
+      "F1": 0.49724517906336085,
+      "normal_damage": 0.000708215297450425,
+      "errors": 3262,
+      "normal": 1412,
+      "changes": 1094,
+      "exact": 1083,
+      "damaged": 1,
+      "detection_AUC": 0.6671811467964004
+    },
+    "receipt": {
+      "rows": 246,
+      "seconds": 276.1364518199116,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "3a21592afab5e2d3e231a7f15e0b656990e2e039c75e5e27f019a6977d40521a"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "b99358a99d930cbac3a76c4b14631ffb63bec88ccbf4402009e6a5cc92098143"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "b3eca4a4797a98b90581dddc46730fe655327c8215eba1ac9a0a1a03e23b6083"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "596e8986a0d883c8c4449b0f8b5993e329c26459df1030d370b21383b8bfb4f7",
+      "skill_sha": "20f89013c96568ac4ea2f4d73a3d67935be98f4a2f17e2941cbb23eef79ab03f",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "596e8986a0d883c8c4449b0f8b5993e329c26459df1030d370b21383b8bfb4f7"
+  },
+  {
+    "case": "retinopathy_s1013",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "data_seed": 768221512,
+    "batch": "B2",
+    "rows": 245,
+    "repair": {
+      "P": 0.9868995633187773,
+      "R": 0.34726490473263677,
+      "F1": 0.5137531257103888,
+      "normal_damage": 0.004282655246252677,
+      "errors": 3254,
+      "normal": 1401,
+      "changes": 1145,
+      "exact": 1130,
+      "damaged": 6,
+      "detection_AUC": 0.6728740380806228
+    },
+    "receipt": {
+      "rows": 245,
+      "seconds": 291.8358184574172,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "3a21592afab5e2d3e231a7f15e0b656990e2e039c75e5e27f019a6977d40521a"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "b99358a99d930cbac3a76c4b14631ffb63bec88ccbf4402009e6a5cc92098143"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "b3eca4a4797a98b90581dddc46730fe655327c8215eba1ac9a0a1a03e23b6083"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "596e8986a0d883c8c4449b0f8b5993e329c26459df1030d370b21383b8bfb4f7",
+      "skill_sha": "20f89013c96568ac4ea2f4d73a3d67935be98f4a2f17e2941cbb23eef79ab03f",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "596e8986a0d883c8c4449b0f8b5993e329c26459df1030d370b21383b8bfb4f7"
+  },
+  {
+    "case": "retinopathy_s1013",
+    "dataset": "retinopathy",
+    "seed": 1013,
+    "data_seed": 768221512,
+    "batch": "B3",
+    "rows": 245,
+    "repair": {
+      "P": 0.9930008748906387,
+      "R": 0.3472009788926277,
+      "F1": 0.514505893019039,
+      "normal_damage": 0.002886002886002886,
+      "errors": 3269,
+      "normal": 1386,
+      "changes": 1143,
+      "exact": 1135,
+      "damaged": 4,
+      "detection_AUC": 0.6727692958956342
+    },
+    "receipt": {
+      "rows": 245,
+      "seconds": 308.2448693588376,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "3a21592afab5e2d3e231a7f15e0b656990e2e039c75e5e27f019a6977d40521a"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "b99358a99d930cbac3a76c4b14631ffb63bec88ccbf4402009e6a5cc92098143"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "b3eca4a4797a98b90581dddc46730fe655327c8215eba1ac9a0a1a03e23b6083"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "596e8986a0d883c8c4449b0f8b5993e329c26459df1030d370b21383b8bfb4f7",
+      "skill_sha": "20f89013c96568ac4ea2f4d73a3d67935be98f4a2f17e2941cbb23eef79ab03f",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "596e8986a0d883c8c4449b0f8b5993e329c26459df1030d370b21383b8bfb4f7"
+  },
+  {
+    "case": "airfoil_s1013",
+    "dataset": "airfoil",
+    "seed": 1013,
+    "data_seed": 1729884258,
+    "batch": "B1",
+    "rows": 321,
+    "repair": {
+      "P": 0.9770723104056437,
+      "R": 0.49864986498649866,
+      "F1": 0.6603098927294397,
+      "normal_damage": 0.0020242914979757085,
+      "errors": 1111,
+      "normal": 494,
+      "changes": 567,
+      "exact": 554,
+      "damaged": 1,
+      "detection_AUC": 0.7537133267982669
+    },
+    "receipt": {
+      "rows": 321,
+      "seconds": 126.2293255450204,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "493987c58f6a33a34ad95df3bd110ec75d1740c354a31e068fe6dc7f3b6e7126"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "a64b6839544d6390b6404731fa8e5d9b0d7ccfbd45e876fd07d8e512ad15caea"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "e863e514dde236f1b232c8e767db1f9b8aa0c74e61f32a1739a257162a180f68"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "5af5e16391561042d86125306f82cea22b61839b8f6c286653e1dee92f4262c3",
+      "skill_sha": "d95b2fb3afa4c89ed7c1c8a3b7b2f94af4237228e75ba758f8584760ccdda436",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "5af5e16391561042d86125306f82cea22b61839b8f6c286653e1dee92f4262c3"
+  },
+  {
+    "case": "airfoil_s1013",
+    "dataset": "airfoil",
+    "seed": 1013,
+    "data_seed": 1729884258,
+    "batch": "B2",
+    "rows": 321,
+    "repair": {
+      "P": 0.9713322091062394,
+      "R": 0.5079365079365079,
+      "F1": 0.6670526925303996,
+      "normal_damage": 0.004246284501061571,
+      "errors": 1134,
+      "normal": 471,
+      "changes": 593,
+      "exact": 576,
+      "damaged": 2,
+      "detection_AUC": 0.7584588683314798
+    },
+    "receipt": {
+      "rows": 321,
+      "seconds": 126.74651574995369,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "493987c58f6a33a34ad95df3bd110ec75d1740c354a31e068fe6dc7f3b6e7126"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "a64b6839544d6390b6404731fa8e5d9b0d7ccfbd45e876fd07d8e512ad15caea"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "e863e514dde236f1b232c8e767db1f9b8aa0c74e61f32a1739a257162a180f68"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "5af5e16391561042d86125306f82cea22b61839b8f6c286653e1dee92f4262c3",
+      "skill_sha": "d95b2fb3afa4c89ed7c1c8a3b7b2f94af4237228e75ba758f8584760ccdda436",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "5af5e16391561042d86125306f82cea22b61839b8f6c286653e1dee92f4262c3"
+  },
+  {
+    "case": "airfoil_s1013",
+    "dataset": "airfoil",
+    "seed": 1013,
+    "data_seed": 1729884258,
+    "batch": "B3",
+    "rows": 321,
+    "repair": {
+      "P": 0.9849246231155779,
+      "R": 0.5226666666666666,
+      "F1": 0.6829268292682927,
+      "normal_damage": 0.0,
+      "errors": 1125,
+      "normal": 480,
+      "changes": 597,
+      "exact": 588,
+      "damaged": 0,
+      "detection_AUC": 0.7653333333333333
+    },
+    "receipt": {
+      "rows": 321,
+      "seconds": 132.94611429981887,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "493987c58f6a33a34ad95df3bd110ec75d1740c354a31e068fe6dc7f3b6e7126"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "a64b6839544d6390b6404731fa8e5d9b0d7ccfbd45e876fd07d8e512ad15caea"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "e863e514dde236f1b232c8e767db1f9b8aa0c74e61f32a1739a257162a180f68"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "5af5e16391561042d86125306f82cea22b61839b8f6c286653e1dee92f4262c3",
+      "skill_sha": "d95b2fb3afa4c89ed7c1c8a3b7b2f94af4237228e75ba758f8584760ccdda436",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "5af5e16391561042d86125306f82cea22b61839b8f6c286653e1dee92f4262c3"
+  },
+  {
+    "case": "retinopathy_s1014",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "data_seed": 1155185305,
+    "batch": "B1",
+    "rows": 246,
+    "repair": {
+      "P": 0.9943502824858758,
+      "R": 0.37989515880357694,
+      "F1": 0.5497545738509594,
+      "normal_damage": 0.0006988120195667365,
+      "errors": 3243,
+      "normal": 1431,
+      "changes": 1239,
+      "exact": 1232,
+      "damaged": 1,
+      "detection_AUC": 0.6905232427722086
+    },
+    "receipt": {
+      "rows": 246,
+      "seconds": 274.6155905434862,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "a5d22b2c8b848a0967f3fc558e19e56d255a51db918a57c1a779888c4d04fb00"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "c0604bb5eb39d10842acc3accf52ccb41755bc65aac0189a16f007304723c39b"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "a723abc48ad0edbe1363af8fe2eac4c728e8e2903813cc8556ddac90a6b5581a"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "5598651112bfc57342b0bc37ebf52da63f8c15e414754b1b0edd345f5e2e8c3d",
+      "skill_sha": "224d2cb8f77084d8347dc1f0add6a90405f8fa6be4d11cdd4d5a01007996c268",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "5598651112bfc57342b0bc37ebf52da63f8c15e414754b1b0edd345f5e2e8c3d"
+  },
+  {
+    "case": "retinopathy_s1014",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "data_seed": 1155185305,
+    "batch": "B2",
+    "rows": 246,
+    "repair": {
+      "P": 0.9927594529364441,
+      "R": 0.3722473604826546,
+      "F1": 0.5414655550680123,
+      "normal_damage": 0.002207505518763797,
+      "errors": 3315,
+      "normal": 1359,
+      "changes": 1243,
+      "exact": 1234,
+      "damaged": 3,
+      "detection_AUC": 0.685924904857511
+    },
+    "receipt": {
+      "rows": 246,
+      "seconds": 276.26545922551304,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "a5d22b2c8b848a0967f3fc558e19e56d255a51db918a57c1a779888c4d04fb00"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "c0604bb5eb39d10842acc3accf52ccb41755bc65aac0189a16f007304723c39b"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "a723abc48ad0edbe1363af8fe2eac4c728e8e2903813cc8556ddac90a6b5581a"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "5598651112bfc57342b0bc37ebf52da63f8c15e414754b1b0edd345f5e2e8c3d",
+      "skill_sha": "224d2cb8f77084d8347dc1f0add6a90405f8fa6be4d11cdd4d5a01007996c268",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "5598651112bfc57342b0bc37ebf52da63f8c15e414754b1b0edd345f5e2e8c3d"
+  },
+  {
+    "case": "retinopathy_s1014",
+    "dataset": "retinopathy",
+    "seed": 1014,
+    "data_seed": 1155185305,
+    "batch": "B3",
+    "rows": 246,
+    "repair": {
+      "P": 0.9927710843373494,
+      "R": 0.37856049004594183,
+      "F1": 0.5481152993348115,
+      "normal_damage": 0.0014194464158978,
+      "errors": 3265,
+      "normal": 1409,
+      "changes": 1245,
+      "exact": 1236,
+      "damaged": 2,
+      "detection_AUC": 0.6896424973127249
+    },
+    "receipt": {
+      "rows": 246,
+      "seconds": 292.3977722376585,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "a5d22b2c8b848a0967f3fc558e19e56d255a51db918a57c1a779888c4d04fb00"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "c0604bb5eb39d10842acc3accf52ccb41755bc65aac0189a16f007304723c39b"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "a723abc48ad0edbe1363af8fe2eac4c728e8e2903813cc8556ddac90a6b5581a"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "5598651112bfc57342b0bc37ebf52da63f8c15e414754b1b0edd345f5e2e8c3d",
+      "skill_sha": "224d2cb8f77084d8347dc1f0add6a90405f8fa6be4d11cdd4d5a01007996c268",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "5598651112bfc57342b0bc37ebf52da63f8c15e414754b1b0edd345f5e2e8c3d"
+  },
+  {
+    "case": "airfoil_s1014",
+    "dataset": "airfoil",
+    "seed": 1014,
+    "data_seed": 3813263136,
+    "batch": "B1",
+    "rows": 321,
+    "repair": {
+      "P": 0.9864341085271318,
+      "R": 0.46314831665150136,
+      "F1": 0.6303405572755418,
+      "normal_damage": 0.0,
+      "errors": 1099,
+      "normal": 506,
+      "changes": 516,
+      "exact": 509,
+      "damaged": 0,
+      "detection_AUC": 0.7347588717015469
+    },
+    "receipt": {
+      "rows": 321,
+      "seconds": 124.69912307802588,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "8a42aef5a8fd4e7061315a38b676925485fb987df54ca1d0ab9416289485872f"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "ff4399207241f3e42959170128f17ba193f26cad3ccf56ad02702fb1ff9345c3"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "1ccfd8e537846c9bcbd84f718ba294c499d2c918a39908f48900d4224fdec486"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "65c2aa2c79bf7740efeaafae09ee8f92456579745142ef0a561f24ac216565fd",
+      "skill_sha": "7c0922228ff6370e550c7dc034b1d3d448a12010fc5a6c9d9799c39176e2adb2",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "65c2aa2c79bf7740efeaafae09ee8f92456579745142ef0a561f24ac216565fd"
+  },
+  {
+    "case": "airfoil_s1014",
+    "dataset": "airfoil",
+    "seed": 1014,
+    "data_seed": 3813263136,
+    "batch": "B2",
+    "rows": 321,
+    "repair": {
+      "P": 0.992818671454219,
+      "R": 0.48636763412489004,
+      "F1": 0.652892561983471,
+      "normal_damage": 0.0,
+      "errors": 1137,
+      "normal": 468,
+      "changes": 557,
+      "exact": 553,
+      "damaged": 0,
+      "detection_AUC": 0.7449428320140721
+    },
+    "receipt": {
+      "rows": 321,
+      "seconds": 127.42899107187986,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "8a42aef5a8fd4e7061315a38b676925485fb987df54ca1d0ab9416289485872f"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "ff4399207241f3e42959170128f17ba193f26cad3ccf56ad02702fb1ff9345c3"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "1ccfd8e537846c9bcbd84f718ba294c499d2c918a39908f48900d4224fdec486"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "65c2aa2c79bf7740efeaafae09ee8f92456579745142ef0a561f24ac216565fd",
+      "skill_sha": "7c0922228ff6370e550c7dc034b1d3d448a12010fc5a6c9d9799c39176e2adb2",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "65c2aa2c79bf7740efeaafae09ee8f92456579745142ef0a561f24ac216565fd"
+  },
+  {
+    "case": "airfoil_s1014",
+    "dataset": "airfoil",
+    "seed": 1014,
+    "data_seed": 3813263136,
+    "batch": "B3",
+    "rows": 321,
+    "repair": {
+      "P": 0.9803921568627451,
+      "R": 0.4409171075837742,
+      "F1": 0.6082725060827251,
+      "normal_damage": 0.0021231422505307855,
+      "errors": 1134,
+      "normal": 471,
+      "changes": 510,
+      "exact": 500,
+      "damaged": 1,
+      "detection_AUC": 0.7233652366348757
+    },
+    "receipt": {
+      "rows": 321,
+      "seconds": 129.88535924814641,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "8a42aef5a8fd4e7061315a38b676925485fb987df54ca1d0ab9416289485872f"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "ff4399207241f3e42959170128f17ba193f26cad3ccf56ad02702fb1ff9345c3"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "1ccfd8e537846c9bcbd84f718ba294c499d2c918a39908f48900d4224fdec486"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "65c2aa2c79bf7740efeaafae09ee8f92456579745142ef0a561f24ac216565fd",
+      "skill_sha": "7c0922228ff6370e550c7dc034b1d3d448a12010fc5a6c9d9799c39176e2adb2",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "65c2aa2c79bf7740efeaafae09ee8f92456579745142ef0a561f24ac216565fd"
+  },
+  {
+    "case": "retinopathy_s1015",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "data_seed": 415274712,
+    "batch": "B1",
+    "rows": 246,
+    "repair": {
+      "P": 0.9906759906759907,
+      "R": 0.391705069124424,
+      "F1": 0.5614266842800528,
+      "normal_damage": 0.0014094432699083862,
+      "errors": 3255,
+      "normal": 1419,
+      "changes": 1287,
+      "exact": 1275,
+      "damaged": 2,
+      "detection_AUC": 0.6966839112375497
+    },
+    "receipt": {
+      "rows": 246,
+      "seconds": 274.7939547467977,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "1ea216ebe4f107b38ef0e20341d632c139fbb8d06b8230430fef63e64fc28d24"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "f638f8879916b8db27577a7720afa3593b42f8680219ce455330190aad610a4b"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "d66c9607f513453020dd31fc4d026bb2aebaf7789c8e75ee8ebd3d620f6b465d"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "957cc4a4b4eac5927eb3c614bb9373e69ef2bfd3d045ac5e685d91e07437721f",
+      "skill_sha": "523cefb76779fbe7f59424fb9f53c6ada3d135c634e78ba8e2f9379982b20d27",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "957cc4a4b4eac5927eb3c614bb9373e69ef2bfd3d045ac5e685d91e07437721f"
+  },
+  {
+    "case": "retinopathy_s1015",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "data_seed": 415274712,
+    "batch": "B2",
+    "rows": 245,
+    "repair": {
+      "P": 0.9969418960244648,
+      "R": 0.4037151702786378,
+      "F1": 0.5747025121198767,
+      "normal_damage": 0.0,
+      "errors": 3230,
+      "normal": 1425,
+      "changes": 1308,
+      "exact": 1304,
+      "damaged": 0,
+      "detection_AUC": 0.7024767801857585
+    },
+    "receipt": {
+      "rows": 245,
+      "seconds": 282.5314590912312,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "1ea216ebe4f107b38ef0e20341d632c139fbb8d06b8230430fef63e64fc28d24"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "f638f8879916b8db27577a7720afa3593b42f8680219ce455330190aad610a4b"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "d66c9607f513453020dd31fc4d026bb2aebaf7789c8e75ee8ebd3d620f6b465d"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "957cc4a4b4eac5927eb3c614bb9373e69ef2bfd3d045ac5e685d91e07437721f",
+      "skill_sha": "523cefb76779fbe7f59424fb9f53c6ada3d135c634e78ba8e2f9379982b20d27",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "957cc4a4b4eac5927eb3c614bb9373e69ef2bfd3d045ac5e685d91e07437721f"
+  },
+  {
+    "case": "retinopathy_s1015",
+    "dataset": "retinopathy",
+    "seed": 1015,
+    "data_seed": 415274712,
+    "batch": "B3",
+    "rows": 245,
+    "repair": {
+      "P": 0.9928343949044586,
+      "R": 0.37787878787878787,
+      "F1": 0.5474100087796313,
+      "normal_damage": 0.0,
+      "errors": 3300,
+      "normal": 1355,
+      "changes": 1256,
+      "exact": 1247,
+      "damaged": 0,
+      "detection_AUC": 0.6903030303030303
+    },
+    "receipt": {
+      "rows": 245,
+      "seconds": 294.81915709841996,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "1ea216ebe4f107b38ef0e20341d632c139fbb8d06b8230430fef63e64fc28d24"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "f638f8879916b8db27577a7720afa3593b42f8680219ce455330190aad610a4b"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "d66c9607f513453020dd31fc4d026bb2aebaf7789c8e75ee8ebd3d620f6b465d"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "957cc4a4b4eac5927eb3c614bb9373e69ef2bfd3d045ac5e685d91e07437721f",
+      "skill_sha": "523cefb76779fbe7f59424fb9f53c6ada3d135c634e78ba8e2f9379982b20d27",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "957cc4a4b4eac5927eb3c614bb9373e69ef2bfd3d045ac5e685d91e07437721f"
+  },
+  {
+    "case": "airfoil_s1015",
+    "dataset": "airfoil",
+    "seed": 1015,
+    "data_seed": 2789563890,
+    "batch": "B1",
+    "rows": 321,
+    "repair": {
+      "P": 0.9791666666666666,
+      "R": 0.5266106442577031,
+      "F1": 0.6848816029143897,
+      "normal_damage": 0.0,
+      "errors": 1071,
+      "normal": 534,
+      "changes": 576,
+      "exact": 564,
+      "damaged": 0,
+      "detection_AUC": 0.76890756302521
+    },
+    "receipt": {
+      "rows": 321,
+      "seconds": 126.43061165791005,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "9d943f248a241556e119fedcd7df1d30d28250d92dc6d635252265de87f2dd64"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "8ac08136c8833e486d0f1ebc19322d819ca9bc5362cc698e0e388bc87264c81d"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "1646120204e8a9ca79aa84c9b01518ffa159d37399caa68b0f61a0ad76caaf49"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "f07c18f1769baebc7eae156f37681a39aa203ad8cedcc837ee888fe005c68382",
+      "skill_sha": "2c24dfe4a2a3a3f5ef91c4ddfe5c16c4e182ddbcb36b8fc4ab307c34cd115ea6",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "f07c18f1769baebc7eae156f37681a39aa203ad8cedcc837ee888fe005c68382"
+  },
+  {
+    "case": "airfoil_s1015",
+    "dataset": "airfoil",
+    "seed": 1015,
+    "data_seed": 2789563890,
+    "batch": "B2",
+    "rows": 321,
+    "repair": {
+      "P": 0.9841521394611727,
+      "R": 0.5330472103004292,
+      "F1": 0.6915367483296214,
+      "normal_damage": 0.0022727272727272726,
+      "errors": 1165,
+      "normal": 440,
+      "changes": 631,
+      "exact": 621,
+      "damaged": 1,
+      "detection_AUC": 0.769249902458057
+    },
+    "receipt": {
+      "rows": 321,
+      "seconds": 128.3061903649941,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "9d943f248a241556e119fedcd7df1d30d28250d92dc6d635252265de87f2dd64"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "8ac08136c8833e486d0f1ebc19322d819ca9bc5362cc698e0e388bc87264c81d"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "1646120204e8a9ca79aa84c9b01518ffa159d37399caa68b0f61a0ad76caaf49"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "f07c18f1769baebc7eae156f37681a39aa203ad8cedcc837ee888fe005c68382",
+      "skill_sha": "2c24dfe4a2a3a3f5ef91c4ddfe5c16c4e182ddbcb36b8fc4ab307c34cd115ea6",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "f07c18f1769baebc7eae156f37681a39aa203ad8cedcc837ee888fe005c68382"
+  },
+  {
+    "case": "airfoil_s1015",
+    "dataset": "airfoil",
+    "seed": 1015,
+    "data_seed": 2789563890,
+    "batch": "B3",
+    "rows": 321,
+    "repair": {
+      "P": 0.9754500818330606,
+      "R": 0.5255731922398589,
+      "F1": 0.6830945558739255,
+      "normal_damage": 0.0021231422505307855,
+      "errors": 1134,
+      "normal": 471,
+      "changes": 611,
+      "exact": 596,
+      "damaged": 1,
+      "detection_AUC": 0.7678978645008369
+    },
+    "receipt": {
+      "rows": 321,
+      "seconds": 135.2056876020506,
+      "new_model_calls": 0,
+      "new_tokens": 0,
+      "fit_attempts": 0,
+      "network_attempts": 0,
+      "subprocess_attempts": 0,
+      "source_cache_hits": [
+        {
+          "kind": "source_cache_hit",
+          "function": "codec",
+          "key": "9d943f248a241556e119fedcd7df1d30d28250d92dc6d635252265de87f2dd64"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "8ac08136c8833e486d0f1ebc19322d819ca9bc5362cc698e0e388bc87264c81d"
+        },
+        {
+          "kind": "source_cache_hit",
+          "function": "observation",
+          "key": "1646120204e8a9ca79aa84c9b01518ffa159d37399caa68b0f61a0ad76caaf49"
+        }
+      ],
+      "combined_parity": null,
+      "capsule_sha": "f07c18f1769baebc7eae156f37681a39aa203ad8cedcc837ee888fe005c68382",
+      "skill_sha": "2c24dfe4a2a3a3f5ef91c4ddfe5c16c4e182ddbcb36b8fc4ab307c34cd115ea6",
+      "formal_reference_read": false,
+      "cpu_only": true
+    },
+    "capsule_sha": "f07c18f1769baebc7eae156f37681a39aa203ad8cedcc837ee888fe005c68382"
+  }
+]

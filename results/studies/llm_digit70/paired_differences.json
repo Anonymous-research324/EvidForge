@@ -1,0 +1,130 @@
+[
+  {
+    "dataset": "retinopathy",
+    "F1_full_minus_noLLM": {
+      "n": 5,
+      "expected_n": 5,
+      "mean": 0.09173015869549193,
+      "sd": 0.06278224333540973,
+      "values": [
+        0.19290769605677602,
+        0.10709176735818882,
+        0.068361612148445,
+        0.059411918123850216,
+        0.03087779979019961
+      ]
+    },
+    "normal_damage_percent_delta": {
+      "n": 5,
+      "expected_n": 5,
+      "mean": 0.10473696738871696,
+      "sd": 0.15843428985759328,
+      "values": [
+        0.16662699357295882,
+        0.357057843370626,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "added_correct": 3036,
+    "lost_correct": 0,
+    "net_new_correct": 3036,
+    "per_seed": [
+      {
+        "seed": 2013,
+        "added_correct": 1210,
+        "lost_correct": 0,
+        "net_new_correct": 1210
+      },
+      {
+        "seed": 2014,
+        "added_correct": 734,
+        "lost_correct": 0,
+        "net_new_correct": 734
+      },
+      {
+        "seed": 2015,
+        "added_correct": 467,
+        "lost_correct": 0,
+        "net_new_correct": 467
+      },
+      {
+        "seed": 2016,
+        "added_correct": 421,
+        "lost_correct": 0,
+        "net_new_correct": 421
+      },
+      {
+        "seed": 2017,
+        "added_correct": 204,
+        "lost_correct": 0,
+        "net_new_correct": 204
+      }
+    ]
+  },
+  {
+    "dataset": "airfoil",
+    "F1_full_minus_noLLM": {
+      "n": 5,
+      "expected_n": 5,
+      "mean": 0.00484065429702194,
+      "sd": 0.010824032063717516,
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0242032714851097
+      ]
+    },
+    "normal_damage_percent_delta": {
+      "n": 5,
+      "expected_n": 5,
+      "mean": 0.0,
+      "sd": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "added_correct": 101,
+    "lost_correct": 0,
+    "net_new_correct": 101,
+    "per_seed": [
+      {
+        "seed": 2013,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 2014,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 2015,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 2016,
+        "added_correct": 0,
+        "lost_correct": 0,
+        "net_new_correct": 0
+      },
+      {
+        "seed": 2017,
+        "added_correct": 101,
+        "lost_correct": 0,
+        "net_new_correct": 101
+      }
+    ]
+  }
+]

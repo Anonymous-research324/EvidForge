@@ -1,0 +1,4923 @@
+[
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 13314,
+      "total_tokens": 21506,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 146.8770004149992,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014code12",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 13324,
+      "total_tokens": 21516,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 146.75780018302612,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014code13",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 12939,
+      "total_tokens": 21131,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 146.75157186598517,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014code18",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 12949,
+      "total_tokens": 21141,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 146.71536660403945,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014code19",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 12951,
+      "total_tokens": 15326,
+      "completion_tokens": 2375,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 42.67763471393846,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014code24",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 19043,
+      "total_tokens": 21754,
+      "completion_tokens": 2711,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 50.903488081879914,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014code28",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 12643,
+      "total_tokens": 20835,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 147.9543107568752,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014code3",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 18336,
+      "total_tokens": 20795,
+      "completion_tokens": 2459,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 46.239187410101295,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014code31",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 18573,
+      "total_tokens": 21548,
+      "completion_tokens": 2975,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 55.585275979945436,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014code34",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 18942,
+      "total_tokens": 22348,
+      "completion_tokens": 3406,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 63.424875535070896,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014code37",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 12653,
+      "total_tokens": 20845,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 146.62746435799636,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014code4",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 19422,
+      "total_tokens": 22828,
+      "completion_tokens": 3406,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 63.52050214796327,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014code40",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 12667,
+      "total_tokens": 18362,
+      "completion_tokens": 5695,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 103.24187643500045,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014code7",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 6187,
+      "total_tokens": 12052,
+      "completion_tokens": 5865,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 104.228782979073,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014debugger14",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 5852,
+      "total_tokens": 11602,
+      "completion_tokens": 5750,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 102.07683353917673,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014debugger15",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 5937,
+      "total_tokens": 11666,
+      "completion_tokens": 5729,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 101.6802774539683,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014debugger20",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 5946,
+      "total_tokens": 11911,
+      "completion_tokens": 5965,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 105.9062636999879,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014debugger21",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 2714,
+      "total_tokens": 5179,
+      "completion_tokens": 2465,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 43.613804403925315,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014debugger25",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 6378,
+      "total_tokens": 11968,
+      "completion_tokens": 5590,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 99.3883335199207,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014debugger8",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 5699,
+      "total_tokens": 11296,
+      "completion_tokens": 5597,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 99.26116353995167,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014debugger9",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 15388,
+      "total_tokens": 18279,
+      "completion_tokens": 2891,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 53.85078576998785,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014diagnose1",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25760,
+      "total_tokens": 33952,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 152.97828193684109,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014review10",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25512,
+      "total_tokens": 29691,
+      "completion_tokens": 4179,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 78.43675598595291,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014review16",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25591,
+      "total_tokens": 27691,
+      "completion_tokens": 2100,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 39.72441132296808,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014review22",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 26216,
+      "total_tokens": 29997,
+      "completion_tokens": 3781,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 70.54077981598675,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014review26",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25423,
+      "total_tokens": 28244,
+      "completion_tokens": 2821,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 53.60914579499513,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014review29",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25317,
+      "total_tokens": 28626,
+      "completion_tokens": 3309,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 62.444385507842526,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014review32",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 26038,
+      "total_tokens": 29043,
+      "completion_tokens": 3005,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 57.10907948901877,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014review35",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 26559,
+      "total_tokens": 28909,
+      "completion_tokens": 2350,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 45.23628980410285,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014review38",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 16152,
+      "total_tokens": 17627,
+      "completion_tokens": 1475,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 28.227624505991116,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014review5",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 15291,
+      "total_tokens": 18711,
+      "completion_tokens": 3420,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 61.27631298801862,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014strategize11",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 15291,
+      "total_tokens": 18711,
+      "completion_tokens": 3420,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 61.28996364097111,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014strategize17",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 15291,
+      "total_tokens": 18711,
+      "completion_tokens": 3420,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 62.85614273999818,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014strategize2",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 15291,
+      "total_tokens": 18711,
+      "completion_tokens": 3420,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 61.25511608715169,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014strategize23",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 26975,
+      "total_tokens": 30027,
+      "completion_tokens": 3052,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 57.35756692499854,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014strategize27",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 24513,
+      "total_tokens": 27674,
+      "completion_tokens": 3161,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 58.730452393880114,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014strategize30",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25456,
+      "total_tokens": 28760,
+      "completion_tokens": 3304,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 61.579866089858115,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014strategize33",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25247,
+      "total_tokens": 28452,
+      "completion_tokens": 3205,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 59.730299305170774,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014strategize36",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 24539,
+      "total_tokens": 27747,
+      "completion_tokens": 3208,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 59.59324380313046,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014strategize39",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "address_museum_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 15291,
+      "total_tokens": 18711,
+      "completion_tokens": 3420,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 61.27215962205082,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu5/requests/Tabaddressmuseums1014strategize6",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 19914,
+      "total_tokens": 22293,
+      "completion_tokens": 2379,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 45.15863924915902,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014code12",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 19973,
+      "total_tokens": 22308,
+      "completion_tokens": 2335,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 44.359681599074975,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014code15",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 19972,
+      "total_tokens": 22346,
+      "completion_tokens": 2374,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 45.07785083795898,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014code18",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 14627,
+      "total_tokens": 16480,
+      "completion_tokens": 1853,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 34.81764508201741,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014code3",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 17635,
+      "total_tokens": 20200,
+      "completion_tokens": 2565,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 48.01742559717968,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014code6",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 19122,
+      "total_tokens": 21414,
+      "completion_tokens": 2292,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 43.443027389002964,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014code9",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 16339,
+      "total_tokens": 19010,
+      "completion_tokens": 2671,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 49.748074234928936,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014diagnose1",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 22692,
+      "total_tokens": 25923,
+      "completion_tokens": 3231,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 60.46427982696332,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014review10",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 23935,
+      "total_tokens": 32127,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 151.51754178199917,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014review13",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 24408,
+      "total_tokens": 27254,
+      "completion_tokens": 2846,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 53.84764714515768,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014review16",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 18159,
+      "total_tokens": 23136,
+      "completion_tokens": 4977,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 91.68311894289218,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014review4",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 23128,
+      "total_tokens": 26070,
+      "completion_tokens": 2942,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 56.109821025049314,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014review7",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 22776,
+      "total_tokens": 26712,
+      "completion_tokens": 3936,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 72.72845995100215,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014strategize11",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 27872,
+      "total_tokens": 31733,
+      "completion_tokens": 3861,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 72.72230144101195,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014strategize14",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 22582,
+      "total_tokens": 26385,
+      "completion_tokens": 3803,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 70.23842506785877,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014strategize17",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 13461,
+      "total_tokens": 16971,
+      "completion_tokens": 3510,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 64.3022511410527,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014strategize2",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 23867,
+      "total_tokens": 26720,
+      "completion_tokens": 2853,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 54.64489635103382,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014strategize5",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "movies_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 22765,
+      "total_tokens": 26172,
+      "completion_tokens": 3407,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 63.12354729510844,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services/gpu6/requests/Tabmoviess1014strategize8",
+    "service_generation": "services",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 2300,
+      "total_tokens": 2548,
+      "completion_tokens": 248,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.655385623918846,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Semanticschoolsmalls1015fullcontextcall1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 3937,
+      "total_tokens": 4165,
+      "completion_tokens": 228,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.247082296060398,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Semanticschoolsmalls1015fullcontextcall2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4863,
+      "total_tokens": 5091,
+      "completion_tokens": 228,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.363555777119473,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Semanticschoolsmalls1015fullcontextcall3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4002,
+      "total_tokens": 4251,
+      "completion_tokens": 249,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.634416461922228,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Semanticschoolsmalls1015fullcontextcall4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 5794,
+      "total_tokens": 5806,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 0.6675361280795187,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Semanticschoolsmalls1015fullcontextcall5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 2227,
+      "total_tokens": 2453,
+      "completion_tokens": 226,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.264002347132191,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Semanticschoolsmalls1015fullpriorcall1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 3534,
+      "total_tokens": 3723,
+      "completion_tokens": 189,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.51577639603056,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Semanticschoolsmalls1015fullpriorcall2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4233,
+      "total_tokens": 4400,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.2333211470395327,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Semanticschoolsmalls1015fullpriorcall3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4858,
+      "total_tokens": 5025,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.2855942000169307,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Semanticschoolsmalls1015fullpriorcall4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4219,
+      "total_tokens": 4231,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 0.48642545682378113,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Semanticschoolsmalls1015fullpriorcall5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 17667,
+      "total_tokens": 21668,
+      "completion_tokens": 4001,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 73.93837182014249,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015code12",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 17413,
+      "total_tokens": 21351,
+      "completion_tokens": 3938,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 70.93333220412023,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015code17",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 18051,
+      "total_tokens": 21928,
+      "completion_tokens": 3877,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 69.8959350658115,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015code22",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 17686,
+      "total_tokens": 21959,
+      "completion_tokens": 4273,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 77.01313654705882,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015code27",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 13507,
+      "total_tokens": 21699,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 148.33956773602404,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015code3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 24483,
+      "total_tokens": 31464,
+      "completion_tokens": 6981,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 130.35838470282033,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015code31",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 19431,
+      "total_tokens": 27623,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 150.4956487719901,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015code34",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 19441,
+      "total_tokens": 27633,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 148.31684599397704,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015code35",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 19708,
+      "total_tokens": 25337,
+      "completion_tokens": 5629,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 103.96929196501151,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015code38",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 13517,
+      "total_tokens": 21709,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 146.85835763509385,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015code4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 17393,
+      "total_tokens": 21709,
+      "completion_tokens": 4316,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 79.49969348381273,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015code7",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4646,
+      "total_tokens": 8840,
+      "completion_tokens": 4194,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 74.34298446192406,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015debugger13",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4118,
+      "total_tokens": 8329,
+      "completion_tokens": 4211,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 74.62899248395115,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015debugger14",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4617,
+      "total_tokens": 12809,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 145.38014628808014,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015debugger18",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 203,
+      "total_tokens": 985,
+      "completion_tokens": 782,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 13.64527539210394,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015debugger19",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4560,
+      "total_tokens": 8873,
+      "completion_tokens": 4313,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 76.4506269749254,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015debugger23",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4390,
+      "total_tokens": 8569,
+      "completion_tokens": 4179,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 74.08026443887502,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015debugger24",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4957,
+      "total_tokens": 10041,
+      "completion_tokens": 5084,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 90.16126028005965,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015debugger28",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 5001,
+      "total_tokens": 9550,
+      "completion_tokens": 4549,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 80.67740928498097,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015debugger8",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4677,
+      "total_tokens": 9297,
+      "completion_tokens": 4620,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 81.88871260499582,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015debugger9",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 15212,
+      "total_tokens": 17323,
+      "completion_tokens": 2111,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 39.5174492970109,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015diagnose1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 29923,
+      "total_tokens": 38115,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 154.96595207508653,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015review10",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 33125,
+      "total_tokens": 36757,
+      "completion_tokens": 3632,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 70.57383398385718,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015review15",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 30468,
+      "total_tokens": 36039,
+      "completion_tokens": 5571,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 105.72344486392103,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015review20",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 33401,
+      "total_tokens": 37657,
+      "completion_tokens": 4256,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 80.30847628996707,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015review25",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 35985,
+      "total_tokens": 39209,
+      "completion_tokens": 3224,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 61.77071326901205,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015review29",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 38939,
+      "total_tokens": 41626,
+      "completion_tokens": 2687,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 54.48095324495807,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015review32",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 33581,
+      "total_tokens": 39580,
+      "completion_tokens": 5999,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 114.73457390605472,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015review36",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 16946,
+      "total_tokens": 20281,
+      "completion_tokens": 3335,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 61.77254540193826,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015review5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 14399,
+      "total_tokens": 22591,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 147.0516456309706,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015strategize11",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 14399,
+      "total_tokens": 22591,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 146.97958334488794,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015strategize16",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 14399,
+      "total_tokens": 18728,
+      "completion_tokens": 4329,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 79.10497228102759,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015strategize2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 14399,
+      "total_tokens": 22591,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 147.06720033916645,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015strategize21",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 14399,
+      "total_tokens": 22591,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 147.13772918703035,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015strategize26",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 28188,
+      "total_tokens": 36380,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 153.40274612000212,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015strategize30",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 27925,
+      "total_tokens": 30792,
+      "completion_tokens": 2867,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 54.36111438181251,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015strategize33",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 31245,
+      "total_tokens": 34381,
+      "completion_tokens": 3136,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 60.1393497150857,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015strategize37",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 14399,
+      "total_tokens": 22591,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 147.07793268817477,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu2/requests/Tabschoolsmalls1015strategize6",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 2325,
+      "total_tokens": 2630,
+      "completion_tokens": 305,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 5.652335966005921,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Semanticjobpostingsmalls1015fullcontextcall1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4124,
+      "total_tokens": 4353,
+      "completion_tokens": 229,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.282933481968939,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Semanticjobpostingsmalls1015fullcontextcall2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 5197,
+      "total_tokens": 5426,
+      "completion_tokens": 229,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.405461943009868,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Semanticjobpostingsmalls1015fullcontextcall3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4222,
+      "total_tokens": 4451,
+      "completion_tokens": 229,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.289316672133282,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Semanticjobpostingsmalls1015fullcontextcall4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4222,
+      "total_tokens": 4234,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 0.47386623406782746,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Semanticjobpostingsmalls1015fullcontextcall5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 2253,
+      "total_tokens": 2479,
+      "completion_tokens": 226,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.2718308279290795,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Semanticjobpostingsmalls1015fullpriorcall1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 3628,
+      "total_tokens": 3814,
+      "completion_tokens": 186,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.4610682979691774,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Semanticjobpostingsmalls1015fullpriorcall2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4517,
+      "total_tokens": 4701,
+      "completion_tokens": 184,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.537606440950185,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Semanticjobpostingsmalls1015fullpriorcall3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 5298,
+      "total_tokens": 5482,
+      "completion_tokens": 184,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.6180396128911525,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Semanticjobpostingsmalls1015fullpriorcall4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "full",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 4525,
+      "total_tokens": 4537,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 0.5099531100131571,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Semanticjobpostingsmalls1015fullpriorcall5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 14163,
+      "total_tokens": 15848,
+      "completion_tokens": 1685,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 31.749986558919773,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015code13",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 16000,
+      "total_tokens": 18576,
+      "completion_tokens": 2576,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 47.9258097759448,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015code16",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 17297,
+      "total_tokens": 19873,
+      "completion_tokens": 2576,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 48.19829700910486,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015code19",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 17715,
+      "total_tokens": 20291,
+      "completion_tokens": 2576,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 48.30787958903238,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015code22",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 17776,
+      "total_tokens": 20352,
+      "completion_tokens": 2576,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 48.29739036294632,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015code25",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 13254,
+      "total_tokens": 15872,
+      "completion_tokens": 2618,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 48.36112102190964,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015code3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 13579,
+      "total_tokens": 15924,
+      "completion_tokens": 2345,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 43.55719848908484,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015code8",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 2901,
+      "total_tokens": 5748,
+      "completion_tokens": 2847,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 50.41357115795836,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015debugger10",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 3300,
+      "total_tokens": 6806,
+      "completion_tokens": 3506,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 62.095680380938575,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015debugger4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 3431,
+      "total_tokens": 7062,
+      "completion_tokens": 3631,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 64.32547223800793,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015debugger5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 3028,
+      "total_tokens": 5532,
+      "completion_tokens": 2504,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 44.40100366901606,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015debugger9",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 16767,
+      "total_tokens": 19962,
+      "completion_tokens": 3195,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 59.174939370015636,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015diagnose1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 25351,
+      "total_tokens": 27803,
+      "completion_tokens": 2452,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 46.944096092134714,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015review11",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 25902,
+      "total_tokens": 28841,
+      "completion_tokens": 2939,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 55.962234041886404,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015review14",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 26679,
+      "total_tokens": 30713,
+      "completion_tokens": 4034,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 76.10263611003757,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015review17",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 26156,
+      "total_tokens": 29854,
+      "completion_tokens": 3698,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 69.85930648399517,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015review20",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 26188,
+      "total_tokens": 30347,
+      "completion_tokens": 4159,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 78.36637550313026,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015review23",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 21599,
+      "total_tokens": 24993,
+      "completion_tokens": 3394,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 63.1559035461396,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015review6",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 16984,
+      "total_tokens": 21215,
+      "completion_tokens": 4231,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 76.06597583508119,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015strategize12",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 26047,
+      "total_tokens": 29316,
+      "completion_tokens": 3269,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 61.98519246396609,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015strategize15",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 26661,
+      "total_tokens": 29855,
+      "completion_tokens": 3194,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 59.73596729687415,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015strategize18",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 16984,
+      "total_tokens": 20977,
+      "completion_tokens": 3993,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 73.62019272707403,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015strategize2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 26697,
+      "total_tokens": 29937,
+      "completion_tokens": 3240,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 60.59196884883568,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015strategize21",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 27219,
+      "total_tokens": 30459,
+      "completion_tokens": 3240,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 60.7272267609369,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015strategize24",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1015",
+    "method": "tabclean",
+    "seed": 1015,
+    "usage": {
+      "prompt_tokens": 16984,
+      "total_tokens": 21215,
+      "completion_tokens": 4231,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 76.01851160707884,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu4/requests/Tabjobpostingsmalls1015strategize7",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 2394,
+      "total_tokens": 2642,
+      "completion_tokens": 248,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.652382143074647,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Semanticjobpostingsmalls1014fullcontextcall1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 4089,
+      "total_tokens": 4319,
+      "completion_tokens": 230,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.307106423191726,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Semanticjobpostingsmalls1014fullcontextcall2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 5046,
+      "total_tokens": 5254,
+      "completion_tokens": 208,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.02786571206525,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Semanticjobpostingsmalls1014fullcontextcall3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 5895,
+      "total_tokens": 6103,
+      "completion_tokens": 208,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.131847549928352,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Semanticjobpostingsmalls1014fullcontextcall4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 5031,
+      "total_tokens": 5043,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 0.5799749379511923,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Semanticjobpostingsmalls1014fullcontextcall5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 2321,
+      "total_tokens": 2547,
+      "completion_tokens": 226,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.275644751964137,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Semanticjobpostingsmalls1014fullpriorcall1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 3690,
+      "total_tokens": 3857,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.1490206089802086,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Semanticjobpostingsmalls1014fullpriorcall2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 4364,
+      "total_tokens": 4533,
+      "completion_tokens": 169,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.2724229730665684,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Semanticjobpostingsmalls1014fullpriorcall3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 5056,
+      "total_tokens": 5225,
+      "completion_tokens": 169,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.3306550930719823,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Semanticjobpostingsmalls1014fullpriorcall4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 4382,
+      "total_tokens": 4394,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 0.5096267538610846,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Semanticjobpostingsmalls1014fullpriorcall5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 13940,
+      "total_tokens": 22132,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 148.33110836194828,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014code10",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 13950,
+      "total_tokens": 22142,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 146.8424622588791,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014code11",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 14490,
+      "total_tokens": 22682,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 148.52079254505225,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014code14",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 14500,
+      "total_tokens": 22692,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 146.98151678196155,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014code15",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 11635,
+      "total_tokens": 13494,
+      "completion_tokens": 1859,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 34.58063674508594,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014code3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 13949,
+      "total_tokens": 22141,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 148.29136672592722,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014code6",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 13959,
+      "total_tokens": 22151,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 146.86245896597393,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014code7",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 17560,
+      "total_tokens": 20073,
+      "completion_tokens": 2513,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 47.025128134991974,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014diagnose1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25458,
+      "total_tokens": 27871,
+      "completion_tokens": 2413,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 46.21845269179903,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014review12",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 20785,
+      "total_tokens": 24240,
+      "completion_tokens": 3455,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 64.02460609795526,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014review4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25065,
+      "total_tokens": 27774,
+      "completion_tokens": 2709,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 51.472920769127086,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014review8",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 24569,
+      "total_tokens": 27554,
+      "completion_tokens": 2985,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 55.388805920025334,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014strategize13",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 17196,
+      "total_tokens": 19622,
+      "completion_tokens": 2426,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 45.41935317614116,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014strategize2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 24815,
+      "total_tokens": 28055,
+      "completion_tokens": 3240,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 61.1167170018889,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014strategize5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 24716,
+      "total_tokens": 27300,
+      "completion_tokens": 2584,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 48.077394174877554,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu5/requests/Tabjobpostingsmalls1014strategize9",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 2348,
+      "total_tokens": 2623,
+      "completion_tokens": 275,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 5.11716443602927,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticjobpostingsmalls1013fullcontextcall1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 4097,
+      "total_tokens": 4324,
+      "completion_tokens": 227,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.251151467906311,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticjobpostingsmalls1013fullcontextcall2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 5033,
+      "total_tokens": 5260,
+      "completion_tokens": 227,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.374289028113708,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticjobpostingsmalls1013fullcontextcall3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 4139,
+      "total_tokens": 4366,
+      "completion_tokens": 227,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.254299979889765,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticjobpostingsmalls1013fullcontextcall4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 4139,
+      "total_tokens": 4151,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 0.46297818794846535,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticjobpostingsmalls1013fullcontextcall5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 2275,
+      "total_tokens": 2501,
+      "completion_tokens": 226,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.2669004229828715,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticjobpostingsmalls1013fullpriorcall1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 3636,
+      "total_tokens": 3842,
+      "completion_tokens": 206,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.8131442950107157,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticjobpostingsmalls1013fullpriorcall2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 4406,
+      "total_tokens": 4612,
+      "completion_tokens": 206,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.9058138688560575,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticjobpostingsmalls1013fullpriorcall3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 3692,
+      "total_tokens": 3876,
+      "completion_tokens": 184,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.454270707909018,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticjobpostingsmalls1013fullpriorcall4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 5082,
+      "total_tokens": 5094,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 0.581367224920541,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticjobpostingsmalls1013fullpriorcall5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 2329,
+      "total_tokens": 2602,
+      "completion_tokens": 273,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 5.075165783986449,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticschoolsmalls1013fullcontextcall1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 4126,
+      "total_tokens": 4375,
+      "completion_tokens": 249,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.63433867204003,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticschoolsmalls1013fullcontextcall2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 5138,
+      "total_tokens": 5387,
+      "completion_tokens": 249,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.756574806058779,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticschoolsmalls1013fullcontextcall3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 4194,
+      "total_tokens": 4443,
+      "completion_tokens": 249,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 4.6422117948532104,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticschoolsmalls1013fullcontextcall4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 4194,
+      "total_tokens": 4206,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 0.4647872098721564,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticschoolsmalls1013fullcontextcall5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 2257,
+      "total_tokens": 2452,
+      "completion_tokens": 195,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 5.076066347071901,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticschoolsmalls1013fullpriorcall1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 3638,
+      "total_tokens": 3822,
+      "completion_tokens": 184,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.4288613910321146,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticschoolsmalls1013fullpriorcall2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 4708,
+      "total_tokens": 4892,
+      "completion_tokens": 184,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.5601621721871197,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticschoolsmalls1013fullpriorcall3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 3839,
+      "total_tokens": 4040,
+      "completion_tokens": 201,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.749508297070861,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticschoolsmalls1013fullpriorcall4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "full",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 5629,
+      "total_tokens": 5641,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 0.6229355270043015,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Semanticschoolsmalls1013fullpriorcall5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 17514,
+      "total_tokens": 19900,
+      "completion_tokens": 2386,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 44.82983678486198,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013code12",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 17330,
+      "total_tokens": 19722,
+      "completion_tokens": 2392,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 44.880026367958635,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013code15",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 12715,
+      "total_tokens": 14837,
+      "completion_tokens": 2122,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 39.47689602500759,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013code3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 16010,
+      "total_tokens": 18402,
+      "completion_tokens": 2392,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 44.62917670607567,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013code6",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 17258,
+      "total_tokens": 19650,
+      "completion_tokens": 2392,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 44.84810231300071,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013code9",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 18327,
+      "total_tokens": 20972,
+      "completion_tokens": 2645,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 49.61734286695719,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013diagnose1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 27704,
+      "total_tokens": 30275,
+      "completion_tokens": 2571,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 49.608978010946885,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013review10",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 27998,
+      "total_tokens": 30603,
+      "completion_tokens": 2605,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 50.30421668011695,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013review13",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 22840,
+      "total_tokens": 25637,
+      "completion_tokens": 2797,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 52.64073638385162,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013review4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 27244,
+      "total_tokens": 30145,
+      "completion_tokens": 2901,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 55.57216447987594,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013review7",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 26460,
+      "total_tokens": 29830,
+      "completion_tokens": 3370,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 62.81354899099097,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013strategize11",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 26552,
+      "total_tokens": 29680,
+      "completion_tokens": 3128,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 58.38667294103652,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013strategize14",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 18094,
+      "total_tokens": 21616,
+      "completion_tokens": 3522,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 65.38334156898782,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013strategize2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 26088,
+      "total_tokens": 29216,
+      "completion_tokens": 3128,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 59.44076590705663,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013strategize5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "jobposting_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 26426,
+      "total_tokens": 29904,
+      "completion_tokens": 3478,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 64.77789690694772,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabjobpostingsmalls1013strategize8",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 23933,
+      "total_tokens": 27324,
+      "completion_tokens": 3391,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 64.46457112883218,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013code12",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 18916,
+      "total_tokens": 22307,
+      "completion_tokens": 3391,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 63.21292098192498,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013code15",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 17407,
+      "total_tokens": 19923,
+      "completion_tokens": 2516,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 47.13115343498066,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013code3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 16623,
+      "total_tokens": 20014,
+      "completion_tokens": 3391,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 62.67748855706304,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013code6",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 18348,
+      "total_tokens": 21739,
+      "completion_tokens": 3391,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 63.07461987296119,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013code9",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 15318,
+      "total_tokens": 17798,
+      "completion_tokens": 2480,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 46.12652100902051,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013diagnose1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 25252,
+      "total_tokens": 29987,
+      "completion_tokens": 4735,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 88.58366191596724,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013review10",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 30701,
+      "total_tokens": 34150,
+      "completion_tokens": 3449,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 66.53001811914146,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013review13",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 25264,
+      "total_tokens": 28846,
+      "completion_tokens": 3582,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 68.27580281719565,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013review4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 30102,
+      "total_tokens": 33706,
+      "completion_tokens": 3604,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 70.0200499841012,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013review7",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 25575,
+      "total_tokens": 33767,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 151.48313671606593,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013strategize11",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 24363,
+      "total_tokens": 27465,
+      "completion_tokens": 3102,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 57.777195972856134,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013strategize14",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 14779,
+      "total_tokens": 22971,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 148.62003801902756,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013strategize2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 28737,
+      "total_tokens": 31555,
+      "completion_tokens": 2818,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 53.59871078887954,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013strategize5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1013",
+    "method": "tabclean",
+    "seed": 1013,
+    "usage": {
+      "prompt_tokens": 24131,
+      "total_tokens": 27052,
+      "completion_tokens": 2921,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 54.360241655027494,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu6/requests/Tabschoolsmalls1013strategize8",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 2376,
+      "total_tokens": 2650,
+      "completion_tokens": 274,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 5.104627897031605,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Semanticschoolsmalls1014fullcontextcall1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 4189,
+      "total_tokens": 4395,
+      "completion_tokens": 206,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.8899883390404284,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Semanticschoolsmalls1014fullcontextcall2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 5095,
+      "total_tokens": 5301,
+      "completion_tokens": 206,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.9938096872065216,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Semanticschoolsmalls1014fullcontextcall3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 4200,
+      "total_tokens": 4406,
+      "completion_tokens": 206,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.8886671399232,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Semanticschoolsmalls1014fullcontextcall4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 6006,
+      "total_tokens": 6018,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 0.6803033240139484,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Semanticschoolsmalls1014fullcontextcall5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 2301,
+      "total_tokens": 2527,
+      "completion_tokens": 226,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 5.226624239934608,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Semanticschoolsmalls1014fullpriorcall1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 3748,
+      "total_tokens": 3915,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.1583724371157587,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Semanticschoolsmalls1014fullpriorcall2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 4465,
+      "total_tokens": 4632,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.247946385992691,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Semanticschoolsmalls1014fullpriorcall3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 3756,
+      "total_tokens": 3923,
+      "completion_tokens": 167,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 3.1552705529611558,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Semanticschoolsmalls1014fullpriorcall4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "full",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 5188,
+      "total_tokens": 5200,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 0.6704774820245802,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Semanticschoolsmalls1014fullpriorcall5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 16273,
+      "total_tokens": 24465,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 149.06704158405773,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014code11",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 16283,
+      "total_tokens": 24475,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 147.39922170503996,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014code12",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 15976,
+      "total_tokens": 18622,
+      "completion_tokens": 2646,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 49.12549551902339,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014code17",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 18405,
+      "total_tokens": 21052,
+      "completion_tokens": 2647,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 49.663263706024736,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014code20",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 18486,
+      "total_tokens": 21134,
+      "completion_tokens": 2648,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 49.721775041893125,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014code23",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 18513,
+      "total_tokens": 21161,
+      "completion_tokens": 2648,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 49.725761333014816,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014code26",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 19292,
+      "total_tokens": 27484,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 150.28385853301734,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014code29",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 12987,
+      "total_tokens": 15620,
+      "completion_tokens": 2633,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 48.56351273483597,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014code3",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 19302,
+      "total_tokens": 27494,
+      "completion_tokens": 8192,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "length",
+    "seconds": 148.17424188903533,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014code30",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 18853,
+      "total_tokens": 21501,
+      "completion_tokens": 2648,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 49.75328472210094,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014code33",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 17933,
+      "total_tokens": 21420,
+      "completion_tokens": 3487,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 64.61939370306209,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014code6",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 4272,
+      "total_tokens": 8114,
+      "completion_tokens": 3842,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 68.09682896290906,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014debugger13",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 4283,
+      "total_tokens": 8170,
+      "completion_tokens": 3887,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 68.90293470816687,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014debugger14",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 4189,
+      "total_tokens": 8097,
+      "completion_tokens": 3908,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 69.22395138209686,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014debugger7",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 4245,
+      "total_tokens": 8117,
+      "completion_tokens": 3872,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 68.6256514468696,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014debugger8",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 15150,
+      "total_tokens": 17433,
+      "completion_tokens": 2283,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 42.52903641317971,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014diagnose1",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 19804,
+      "total_tokens": 23439,
+      "completion_tokens": 3635,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 67.07031953614205,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014review15",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25163,
+      "total_tokens": 29664,
+      "completion_tokens": 4501,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 84.23681296710856,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014review18",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25457,
+      "total_tokens": 29977,
+      "completion_tokens": 4520,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 84.69597044098191,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014review21",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25485,
+      "total_tokens": 31214,
+      "completion_tokens": 5729,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 106.8862853650935,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014review24",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25818,
+      "total_tokens": 30248,
+      "completion_tokens": 4430,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 83.1293367180042,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014review27",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 26406,
+      "total_tokens": 30959,
+      "completion_tokens": 4553,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 85.5883825039491,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014review31",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 21228,
+      "total_tokens": 27138,
+      "completion_tokens": 5910,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 109.53535436815582,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014review4",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 24200,
+      "total_tokens": 28184,
+      "completion_tokens": 3984,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 75.33811477292329,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014review9",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 23301,
+      "total_tokens": 26624,
+      "completion_tokens": 3323,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 61.59287609392777,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014strategize10",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 22524,
+      "total_tokens": 25978,
+      "completion_tokens": 3454,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 63.66681944509037,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014strategize16",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25503,
+      "total_tokens": 28958,
+      "completion_tokens": 3455,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 64.49239402008243,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014strategize19",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 14367,
+      "total_tokens": 18123,
+      "completion_tokens": 3756,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 68.77490077610128,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014strategize2",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25603,
+      "total_tokens": 29058,
+      "completion_tokens": 3455,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 64.5429621101357,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014strategize22",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 26838,
+      "total_tokens": 30293,
+      "completion_tokens": 3455,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 64.81600547302514,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014strategize25",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 25804,
+      "total_tokens": 29773,
+      "completion_tokens": 3969,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 73.95965232909657,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014strategize28",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 26001,
+      "total_tokens": 29457,
+      "completion_tokens": 3456,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 64.61563221900724,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014strategize32",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  },
+  {
+    "case": "school_small_s1014",
+    "method": "tabclean",
+    "seed": 1014,
+    "usage": {
+      "prompt_tokens": 26709,
+      "total_tokens": 30210,
+      "completion_tokens": 3501,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "seconds": 67.1886271070689,
+    "request_dir": "/root/fsas/home/anonymous/projects/EvidForge_RealDirty_Expansion_CompatV2_20261027/services_v3/gpu7/requests/Tabschoolsmalls1014strategize5",
+    "service_generation": "services_v3",
+    "attempt_origin": "new_compat_expansion"
+  }
+]
